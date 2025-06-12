@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bienvenido al Starter Pack</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Include the navbar -->
+  <div id="navbar-placeholder"></div>
+  <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      });
+  </script>
+
+  <header>
+    <h1>Bienvenido a Mi Página</h1>
+  </header>
+
+  <div class="container">
+    <p>¡Hola! Bienvenido al Starter Pack. Este sitio está diseñado para ayudar a los recién llegados y a las personas que trabajan en el CERN, ya sea desde España u otros países. Aquí encontrarás información útil y recursos en dos áreas principales:</p>
+    <div class="menu">
+      <a href="legal-hub.html">Ayuda Legal y Fiscal</a>
+      <a href="#">Ayuda Técnica para Herramientas del CERN</a>
+    </div>
+  </div>
+
+  <footer>
+    Este es un sitio personal, no oficial.
+  </footer>
+</body>
+</html>
