@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Legal and Tax Help</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <!-- Include the navbar -->
+  <div id="navbar-placeholder"></div>
+  <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      });
+  </script>
+  <script src="../scripts/navbar.js"></script>
+
+  <header>
+    <h1>Legal and Tax Help</h1>
+  </header>
+
+  <div class="container">
+    <p>Welcome to the Legal and Tax Help section. Here you will find resources and guidance on legal and tax matters for CERN employees and collaborators.</p>
+    <ul>
+      <li><a href="tax_declaration_spain.html">Tax Declaration Spain</a></li>
+      <li><a href="#">Legal Assistance Contacts</a></li>
+      <li><a href="#">Frequently Asked Questions</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    This is a personal, unofficial site.
+  </footer>
+</body>
+</html>

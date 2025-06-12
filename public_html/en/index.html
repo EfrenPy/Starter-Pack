@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to the Starter Pack</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <!-- Include the navbar -->
+  <div id="navbar-placeholder"></div>
+  <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      });
+  </script>
+  <script src="../scripts/navbar.js"></script>
+
+  <header>
+    <h1>Welcome to the Starter Pack</h1>
+  </header>
+
+  <div class="container">
+    <p>Hello! Welcome to the Starter Pack. This site is designed to help newcomers and people working at CERN, whether from Spain or other countries. Here you will find useful information and resources in two main areas:</p>
+    <div class="menu">
+      <a href="legal-hub.html">Legal and Tax Help</a>
+      <a href="#">Technical Help for CERN Tools</a>
+    </div>
+  </div>
+
+  <div id="coffee-placeholder"></div>
+  <script src="../scripts/inject.js"></script>
+
+  <footer>
+    This is a personal, unofficial site.
+  </footer>
+</body>
+</html>
