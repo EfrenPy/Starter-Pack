@@ -9,13 +9,6 @@
 <body>
   <!-- Include the navbar -->
   <div id="navbar-placeholder"></div>
-  <script>
-    fetch('navbar.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('navbar-placeholder').innerHTML = data;
-      });
-  </script>
 
   <header>
     <h1>Bienvenido al Starter Pack</h1>
@@ -31,9 +24,6 @@
 
   <div id="coffee-placeholder"></div>
   <script src="../scripts/inject.js"></script>
-  
-  <footer>
-    Este es un sitio personal, no oficial.
-  </footer>
+  <script src="../scripts/navbar.js"></script>
 </body>
 </html>

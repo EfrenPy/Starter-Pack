@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Determine language from current URL path
     const path = window.location.pathname;
-    const lang = path.includes("/public_html/es/") ? "es" : path.includes("/public_html/en/") ? "en" : "";
+    const lang = path.includes("es") ? "es" : path.includes("en") ? "en" : "";
   
 
     // Inject correct coffee file
-    inject("coffee-placeholder", `${lang ? `/public_html/${lang}` : "/public_html"}/coffee.html`);
+    inject("coffee-placeholder",  `coffee.html`);
   });
