@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; url=en/index.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n="page_title">Bienvenido al Starter Pack</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="en/index.html">click here</a>.</p>
+  <!-- Include the navbar -->
+  <div id="navbar-placeholder"></div>
+
+  <header>
+    <h1 data-i18n="main_heading">Bienvenido al Starter Pack</h1>
+  </header>
+
+  <div class="container">
+    <p data-i18n="intro_text">
+      ¡Hola! Bienvenido al Starter Pack. Este sitio está diseñado para ayudar a los recién llegados...
+    </p>
+    <div class="menu">
+      <a href="legal-hub.html" data-i18n="menu_legal">Ayuda Legal y Fiscal</a>
+      <a href="#" data-i18n="menu_tech">Ayuda Técnica para Herramientas del CERN</a>
+    </div>
+    <p data-i18n="search_intro">
+      Para comenzar, puedes utilizar la barra de búsqueda a continuación para encontrar artículos...
+    </p>
+    <h2 data-i18n="search_heading">🔎 Búsqueda de Artículos</h2>
+    <p data-i18n="search_description">Introduce tu consulta en el campo de búsqueda para encontrar artículos relevantes.</p>
+    <form action="search.html" method="get" class="search-bar">
+      <input type="text" name="query" placeholder="Buscar artículos..." required data-i18n-placeholder="search_placeholder">
+      <button type="submit" data-i18n="search_button">Buscar</button>
+    </form>
+  </div>
+
+  <div id="coffee-placeholder"></div>
+  <script src="../scripts/inject.js"></script>
+  <script src="../scripts/navbar.js"></script>
+  <script src="../scripts/language/navbar-i18n.js"></script>
+  <script src="../scripts/language/coffee-i18n.js"></script>
+  <script src="../scripts/language/index-i18n.js"></script>
+
 </body>
 </html>

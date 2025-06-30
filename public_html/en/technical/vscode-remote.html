@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guide: VS Code Remote (WSL on Windows) to CERN lxplus</title>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <div id="navbar-placeholder"></div>
+  <header>
+    <h1>Using VS Code Remote via WSL on Windows to Connect to CERN lxplus (and Other Linux Servers)</h1>
+  </header>
+
+  <div class="container">
+    <h2>1. Installing and Setting up WSL and SSH on Windows</h2>
+    <p>On Windows 10/11 you can enable the Windows Subsystem for Linux (WSL) by running the <code>wsl --install</code> command in an elevated PowerShell:contentReference[oaicite:0]{index=0}. This will install the default Linux distro (usually Ubuntu) and set it up. Once WSL is installed and restarted, open the Linux shell (Ubuntu). You should have an SSH client available (Ubuntu typically includes <code>openssh-client</code> by default). If it’s not present, install it with <code>sudo apt update && sudo apt install openssh-client</code>. (Windows itself also offers an OpenSSH client feature, but using WSL’s SSH ensures you use the same Linux-style configuration and key files as your other Linux tools:contentReference[oaicite:1]{index=1}.)</p>
+    <p><strong>Optional tip:</strong> It’s recommended to use WSL 2 (which has a full Linux kernel) for better compatibility. You can check your WSL version with <code>wsl -l -v</code> and upgrade if needed:contentReference[oaicite:2]{index=2}.</p>
+  </div>
+
+  <div class="container">
+    <h2>2. Installing and Configuring VS Code and Remote-SSH</h2>
+    <p>Install Visual Studio Code on Windows if you haven’t already:contentReference[oaicite:3]{index=3}. During installation, choose the “Add to PATH” option so you can launch it from the terminal with <code>code .</code>:contentReference[oaicite:4]{index=4}. Once VS Code is installed, open it and install the <strong>Remote - SSH</strong> extension from the Extensions Marketplace:contentReference[oaicite:5]{index=5}. (If you plan to open VS Code from within WSL, you may also install the "Remote - WSL" extension:contentReference[oaicite:6]{index=6}, but the key steps below assume you use the Remote-SSH extension.)</p>
+    <p>After installing Remote-SSH, configure it to use your SSH client. By default it will use your system’s <code>ssh</code>. You can leave this as is (it will use WSL’s <code>ssh</code> when VS Code is launched from WSL). If VS Code does not pick up WSL’s <code>ssh</code>, you can create a wrapper script (e.g. <code>ssh.bat</code>) that calls <code>wsl.exe ssh %*</code> and set the VS Code setting <code>remote.SSH.path</code> to that batch file:contentReference[oaicite:7]{index=7}. This ensures VS Code uses the same SSH configuration and keys as your WSL environment.</p>
+    <ul>
+      <li><strong>OpenSSH client:</strong> Ensure a compatible OpenSSH client is installed:contentReference[oaicite:8]{index=8}. On Windows this is usually present by default or can be enabled in Optional Features. In WSL (Ubuntu), the <code>ssh</code> command is typically already available.</li>
+      <li><strong>VS Code:</strong> Install VS Code (with “Add to PATH”):contentReference[oaicite:9]{index=9}.</li>
+      <li><strong>Extensions:</strong> In VS Code’s Extensions, install “Remote - SSH”:contentReference[oaicite:10]{index=10} (and optionally “Remote - WSL” if using WSL natively).</li>
+      <li><strong>Initial setup:</strong> After installation, press <code>F1</code> (or Ctrl+Shift+P) and select “Remote-SSH: Connect to Host...” to start configuring a new SSH host:contentReference[oaicite:11]{index=11}.</li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h2>3. Setting up SSH Keys in WSL</h2>
+    <p>It’s strongly recommended to use SSH key-based authentication for remote hosts:contentReference[oaicite:12]{index=12}. In your WSL shell, generate a new SSH key pair if you don’t have one: for example, <code>ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa</code>, and follow the prompts (you can leave the passphrase empty for passwordless login, or set one for more security). This creates <code>~/.ssh/id_rsa</code> (private key) and <code>~/.ssh/id_rsa.pub</code> (public key).</p>
+    <p>Next, copy your public key to lxplus: one way is <code>ssh-copy-id username@lxplus.cern.ch</code>, which logs into lxplus and installs your key. If <code>ssh-copy-id</code> is not available, you can manually append the contents of <code>~/.ssh/id_rsa.pub</code> to <code>~/.ssh/authorized_keys</code> on lxplus (after logging in once with your password). This allows you to authenticate without a password.</p>
+    <p><strong>Tip:</strong> Make sure your private key file is secure: <code>chmod 600 ~/.ssh/id_rsa</code> and <code>chmod 700 ~/.ssh</code>. SSH will refuse to use keys that are accessible by others:contentReference[oaicite:13]{index=13}. You can also add your key to the ssh-agent in WSL (<code>eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_rsa</code>) so you don’t have to enter a passphrase repeatedly.</p>
+    <p>Once keys are in place, test in WSL: <code>ssh username@lxplus.cern.ch</code> should log you in without a password. This confirms the key setup.</p>
+  </div>
+
+  <div class="container">
+    <h2>4. Configuring SSH Access to lxplus</h2>
+    <p>Edit your WSL SSH config file <code>~/.ssh/config</code> (create it if it doesn’t exist) and add an entry for lxplus. For example:</p>
+    <pre><code>Host lxplus
+    HostName lxplus.cern.ch
+    User yourusername
+    IdentityFile ~/.ssh/id_rsa</code></pre>
+    <p>Replace <code>yourusername</code> with your CERN account name. With this config, you can simply run <code>ssh lxplus</code> instead of the full host name. VS Code will also use this entry when you connect.</p>
+    <p><strong>Proxying and additional hosts:</strong> If you need to connect to other machines inside CERN’s network via lxplus, you can add more entries. For example, to reach <code>somehost.cern.ch</code> behind lxplus:</p>
+    <pre><code>Host somehost
+    HostName somehost.cern.ch
+    User yourusername
+    ProxyJump lxplus</code></pre>
+    <p>This uses lxplus as a jump host. Now <code>ssh somehost</code> will tunnel through lxplus. This is similar to the example in CERN’s documentation:contentReference[oaicite:14]{index=14}.</p>
+    <p><strong>Load balancing tip:</strong> lxplus is a cluster front-end, so SSH goes to random nodes. To avoid VS Code’s server launching on different nodes, enable SSH multiplexing: under the <code>Host lxplus</code> entry add:</p>
+    <pre><code>    ControlMaster auto
+    ControlPath ~/.ssh/sockets/%r@%h-%p
+    ControlPersist 60</code></pre>
+    <p>This reuses the first connection for all subsequent sessions:contentReference[oaicite:15]{index=15}, ensuring stability. (Create the directory <code>~/.ssh/sockets</code> first.)</p>
+  </div>
+
+  <div class="container">
+    <h2>5. Connecting to lxplus Using VS Code</h2>
+    <p>With SSH set up, start VS Code (you can launch it from WSL by running <code>code .</code> in a WSL terminal to ensure it uses the Linux environment:contentReference[oaicite:16]{index=16}). In VS Code, open the Command Palette (F1) and choose <code>Remote-SSH: Connect to Host...</code>, then type <code>lxplus</code> (or <code>yourusername@lxplus.cern.ch</code>) as the host:contentReference[oaicite:17]{index=17}. VS Code will use the SSH client to connect. If prompted, accept lxplus’s host key and enter your passphrase if you set one.</p>
+    <p>Once connected, VS Code will install its server components on lxplus. You will then have a new (empty) VS Code window connected to lxplus:contentReference[oaicite:18]{index=18}. You can open any remote folder or workspace via File → Open. The VS Code terminal will now run on lxplus, and you can work on files there seamlessly.</p>
+    <p><strong>Extensions on Remote:</strong> When first connected, VS Code may ask you to install any needed extensions on lxplus. Ensure your language support extensions (Python, C++, etc.) are enabled in the remote context.</p>
+  </div>
+
+  <div class="container">
+    <h2>6. Generalizing to Other Remote Servers</h2>
+    <p>Connecting to other Linux servers works the same way. For each server, generate or reuse an SSH key, install the public key on the server (e.g. using <code>ssh-copy-id</code>), and add a corresponding entry in <code>~/.ssh/config</code>:</p>
+    <pre><code>Host myserver
+    HostName myserver.example.com
+    User remoteuser
+    IdentityFile ~/.ssh/id_rsa_myserver</code></pre>
+    <p>Then use “Remote-SSH: Connect to Host” in VS Code and select <code>myserver</code>. VS Code will SSH into it and open the remote folder. You can also connect to Windows servers (if they run an SSH server) similarly. The process of key-based auth, config entries, and VS Code Remote is the same:contentReference[oaicite:19]{index=19}:contentReference[oaicite:20]{index=20}.</p>
+    <p>If the server uses a nonstandard port, add a <code>Port</code> line in the config or include <code>-p</code> in the connection command. You can chain multiple hops with multiple <code>Host</code> entries and <code>ProxyJump</code> if needed:contentReference[oaicite:21]{index=21}.</p>
+  </div>
+
+  <div class="container">
+    <h2>7. Troubleshooting Common Problems</h2>
+    <p><strong>SSH permissions:</strong> If you see errors about file permissions on your private key or <code>~/.ssh</code> directory, fix them (e.g. <code>chmod 600 ~/.ssh/id_rsa</code>, <code>chmod 700 ~/.ssh</code>):contentReference[oaicite:22]{index=22}. SSH requires strict permissions on keys and configs.</p>
+    <p><strong>Connection hangs or fails:</strong> Check the VS Code “Remote - SSH” output log (View → Output, select “Remote - SSH”) for clues. You can also try manually SSHing from WSL (e.g. <code>ssh -v lxplus</code>) to debug issues. Make sure the host names and user names in your config match exactly.</p>
+    <p><strong>Wrong user or host:</strong> In VS Code, ensure you connect using <code>User@Host</code> that matches your <code>~/.ssh/config</code> (or use the host alias). If VS Code uses the wrong SSH config, set the <code>remote.SSH.configFile</code> to point to WSL’s <code>~/.ssh/config</code> (e.g. <code>\\\\wsl$\\Ubuntu\\home\\username\\.ssh\\config</code>) so it uses the same file.</p>
+    <p><strong>VS Code server errors:</strong> If the VS Code Remote server fails to start, try killing it on the remote host: connect via normal SSH and run <code>rm -rf ~/.vscode-server</code>, then reconnect. This forces a clean reinstall. Also ensure your home directory on lxplus has enough space and is not on a slow network file system.</p>
+    <p><strong>Using WSL’s ssh in VS Code:</strong> If VS Code cannot find <code>ssh</code> or you want it to use WSL’s environment, set <code>remote.SSH.path</code> as described above:contentReference[oaicite:23]{index=23}. This ensures VS Code runs the <code>ssh</code> command inside WSL, so it uses your Linux keys and config.</p>
+    <p><strong>Load balancing on lxplus:</strong> If VS Code seems to connect then suddenly disconnect (or you have to enter password again), it could be switching nodes. Using ControlMaster (see above) usually fixes this:contentReference[oaicite:24]{index=24}. Also make sure the <code>HostName</code> is <code>lxplus.cern.ch</code>, not a specific node name, unless you know exactly which node.</p>
+    <p><strong>Firewall and network:</strong> If you are offsite (outside CERN network), you may need to set up an SSH tunnel or VPN to access lxplus. CERN documentation suggests using SSH tunneling or VPN for off-campus access. Check CERN IT guidelines if you can’t reach lxplus from home.</p>
+  </div>
+
+  <div class="container">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://learn.microsoft.com/en-us/windows/wsl/install">Microsoft WSL Installation Guide</a> – Official instructions for installing WSL on Windows:contentReference[oaicite:25]{index=25}.</li>
+      <li><a href="https://code.visualstudio.com/docs/remote/ssh">VS Code Remote - SSH</a> (Microsoft Docs) – Official documentation on installing and using the Remote-SSH extension:contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}.</li>
+      <li><a href="https://code.visualstudio.com/docs/remote/wsl">VS Code Remote - WSL</a> (Microsoft Docs) – Instructions for using WSL with VS Code:contentReference[oaicite:28]{index=28}.</li>
+      <li><a href="https://atlas-software.docs.cern.ch/athena/ide/ssh/">CERN ATLAS Software Docs: VS Code Remote Usage with SSH</a> – Guide to using VS Code with SSH at CERN (includes tips on tunneling and ProxyJump):contentReference[oaicite:29]{index=29}:contentReference[oaicite:30]{index=30}.</li>
+      <li><a href="https://bilpa.docs.cern.ch/guides/ssh/">CERN BILPA Guide: Remote-SSH</a> – Example configuration for connecting VS Code to remote hosts via lxplus (with <code>ProxyJump</code>):contentReference[oaicite:31]{index=31}:contentReference[oaicite:32]{index=32}.</li>
+      <li><a href="https://zitseng.com/archives/20325">Zit Seng’s Blog: Using WSL for Remote-SSH in VS Code</a> – Community tip on configuring VS Code to use WSL’s SSH client (using a wrapper script):contentReference[oaicite:33]{index=33}.</li>
+    </ul>
+  </div>
+
+  <div id="coffee-placeholder"></div>
+  <script src="../scripts/inject.js"></script>
+  <script src="../scripts/navbar.js"></script>
+</body>
+</html>
