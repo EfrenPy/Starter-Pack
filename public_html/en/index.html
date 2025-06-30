@@ -9,29 +9,28 @@
 <body>
   <!-- Include the navbar -->
   <div id="navbar-placeholder"></div>
-  <script>
-    fetch('navbar.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('navbar-placeholder').innerHTML = data;
-      });
-  </script>
-  <script src="../scripts/navbar.js"></script>
 
   <header>
     <h1>Welcome to the Starter Pack</h1>
   </header>
 
   <div class="container">
-    <p>Hello! Welcome to the Starter Pack. This site is designed to help newcomers and people working at CERN, whether from Spain or other countries. Here you will find useful information and resources in two main areas:</p>
+    <p>Hello! Welcome to the Starter Pack. This site is designed to help newcomers and people working at CERN, whether from Spain or other countries. Here you’ll find useful information and resources in two main areas:</p>
     <div class="menu">
       <a href="legal-hub.html">Legal and Tax Help</a>
-      <a href="#">Technical Help for CERN Tools</a>
+      <a href="#">Technical Help with CERN Tools</a>
     </div>
+    <p>To get started, you can use the search bar below to find relevant articles about legal and tax topics, or any other questions related to your work at CERN.</p>
+    <h2>🔎 Article Search</h2>
+    <p>Enter your query in the search field to find relevant articles.</p>
+    <form action="search.html" method="get" class="search-bar">
+      <input type="text" name="query" placeholder="Search articles..." required>
+      <button type="submit">Search</button>
+    </form>
   </div>
 
   <div id="coffee-placeholder"></div>
   <script src="../scripts/inject.js"></script>
-
+  <script src="../scripts/navbar.js"></script>
 </body>
 </html>

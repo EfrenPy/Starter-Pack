@@ -20,23 +20,21 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       }
 
-      // Language switching logic
+      // ✅ Language switching logic
       const langLinks = document.querySelectorAll(".language-switch");
       langLinks.forEach(link => {
         link.addEventListener("click", () => {
           const targetLang = link.getAttribute("data-lang");
-          const currentPath = window.location.pathname;
-          const parts = currentPath.split("/");
 
-          // Replace current language segment (e.g. /en/index.html → /es/index.html)
-          if (parts.includes("en") || parts.includes("es")) {
-            parts[parts.length - 2] = targetLang;
-          } else {
-            parts.splice(1, 0, targetLang);
+          // Update navbar
+          if (typeof updateNavbarLanguage === "function") {
+            updateNavbarLanguage(targetLang);
           }
 
-          const newPath = parts.join("/");
-          window.location.href = newPath;
+          // Update index content if on index page
+          if (typeof updateIndexLanguage === "function") {
+            updateIndexLanguage(targetLang);
+          }
         });
       });
     });
