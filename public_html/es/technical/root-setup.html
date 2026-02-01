@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta name="view-transition" content="same-origin">
+  <meta name="description" content="Guia de inicio rapido del framework ROOT para analisis de datos en CERN, incluyendo instalacion, SWAN, PyROOT y tareas comunes de la primera semana.">
+  <meta property="og:title" content="Inicio rapido con ROOT - CERN Starter Pack">
+  <meta property="og:description" content="Comienza con el framework ROOT de C++/Python para analisis de fisica de altas energias en CERN.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/root-setup.html">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta name="twitter:title" content="Inicio rapido con ROOT - CERN Starter Pack">
+  <meta name="twitter:description" content="Comienza con el framework ROOT de C++/Python para analisis de fisica de altas energias en CERN.">
+  <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/root-setup.html">
+  <link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/root-setup.html">
+  <link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/root-setup.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title data-i18n="root_page_title">Inicio rapido con ROOT - CERN Starter Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://starter-pack.efrenrodriguezrodriguez.com/es/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Ayuda Tecnica", "item": "https://starter-pack.efrenrodriguezrodriguez.com/es/technical-hub.html" },
+      { "@type": "ListItem", "position": 3, "name": "Inicio rapido con ROOT" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+  <div id="navbar-placeholder"></div>
+
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="../index.html" data-i18n="root_breadcrumb_home">Inicio</a>
+    <span class="breadcrumbs__sep">/</span>
+    <a href="../technical-hub.html" data-i18n="root_breadcrumb_tech">Ayuda Tecnica</a>
+    <span class="breadcrumbs__sep">/</span>
+    <span data-i18n="root_breadcrumb_current">Inicio rapido con ROOT</span>
+  </nav>
+
+  <main id="main-content">
+    <div class="container">
+      <h1 data-i18n="root_heading">Guia de inicio rapido del framework ROOT</h1>
+      <p class="last-updated" data-updated="2026-02"><span data-i18n="root_last_updated">Ultima actualizacion:</span> <time datetime="2026-02">Febrero 2026</time></p>
+
+      <h2 data-i18n="root_what_title">Que es ROOT?</h2>
+      <p data-i18n="root_what_p1">ROOT es un framework de codigo abierto en C++ y Python desarrollado en CERN para el procesamiento de datos, analisis estadistico, visualizacion y almacenamiento en fisica de altas energias (HEP). Es la herramienta estandar para analizar datos de fisica de particulas y es utilizado por practicamente todos los experimentos del CERN.</p>
+      <p data-i18n="root_what_p2">ROOT proporciona estructuras de datos especializadas (como TTree para datos columnares), histogramas, ajuste de curvas y un potente sistema de E/S basado en el formato de archivo <code>.root</code>. Tambien incluye CLING, un interprete interactivo de C++, y PyROOT, una interfaz Python para todas las clases de ROOT.</p>
+
+      <h2 data-i18n="root_swan_title">Opcion sin instalacion: SWAN</h2>
+      <p data-i18n="root_swan_p1">Si quieres empezar a usar ROOT inmediatamente sin instalar nada, CERN proporciona <strong>SWAN</strong> (Service for Web-based ANalysis) en <a href="https://swan.cern.ch" target="_blank" rel="noopener">swan.cern.ch</a>. SWAN es un servicio basado en JupyterHub que te ofrece un entorno de notebooks con ROOT, PyROOT y muchos otros paquetes cientificos de Python preinstalados.</p>
+      <p data-i18n="root_swan_p2">Simplemente inicia sesion con tus credenciales de CERN, elige una pila de software y comienza a programar. SWAN se conecta a tu almacenamiento EOS, para que puedas acceder a tus archivos de datos directamente. Es la forma mas rapida de empezar con ROOT en CERN.</p>
+
+      <h2 data-i18n="root_install_title">Metodos de instalacion</h2>
+
+      <h3 data-i18n="root_install_conda">Conda (Recomendado para maquinas personales)</h3>
+      <p data-i18n="root_install_conda_p">La forma mas facil de instalar ROOT en tu maquina personal es via conda-forge:</p>
+      <pre><code>conda create -n root-env
+conda activate root-env
+conda install -c conda-forge root</code></pre>
+
+      <h3 data-i18n="root_install_snap">Snap (Linux)</h3>
+      <p data-i18n="root_install_snap_p">En distribuciones Linux que soportan paquetes Snap:</p>
+      <pre><code>sudo snap install root-framework</code></pre>
+
+      <h3 data-i18n="root_install_brew">Homebrew (macOS)</h3>
+      <p data-i18n="root_install_brew_p">En macOS con Homebrew instalado:</p>
+      <pre><code>brew install root</code></pre>
+
+      <h3 data-i18n="root_install_prebuilt">Binarios precompilados</h3>
+      <p data-i18n="root_install_prebuilt_p">Descarga binarios precompilados para tu plataforma desde el sitio web oficial de ROOT en <a href="https://root.cern/install/" target="_blank" rel="noopener">root.cern/install</a>. Extrae el archivo y ejecuta el script de configuracion:</p>
+      <pre><code>tar -xzf root_v6.XX.YY.Linux-ubuntu22-x86_64-gcc11.4.tar.gz
+source root/bin/thisroot.sh</code></pre>
+
+      <h3 data-i18n="root_install_lxplus">En lxplus (CVMFS)</h3>
+      <p data-i18n="root_install_lxplus_p">En las maquinas lxplus de CERN, ROOT esta disponible a traves de CVMFS sin necesidad de instalacion. Simplemente configura el entorno de software LCG:</p>
+      <pre><code># Listar releases LCG disponibles
+ls /cvmfs/sft.cern.ch/lcg/views/
+
+# Configurar un release LCG especifico (ejemplo)
+source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
+
+# Verificar que ROOT esta disponible
+root --version</code></pre>
+
+      <h2 data-i18n="root_first_title">Primeros pasos con ROOT</h2>
+
+      <h3 data-i18n="root_first_cling">C++ interactivo (CLING)</h3>
+      <p data-i18n="root_first_cling_p">Inicia el interprete interactivo de C++ de ROOT escribiendo <code>root</code> en tu terminal:</p>
+      <pre><code>$ root
+root [0] TH1F *h = new TH1F("h", "My Histogram", 100, -5, 5);
+root [1] h->FillRandom("gaus", 10000);
+root [2] h->Draw();
+root [3] .q</code></pre>
+
+      <h3 data-i18n="root_first_pyroot">PyROOT</h3>
+      <p data-i18n="root_first_pyroot_p">Usa ROOT desde Python con las bindings de PyROOT:</p>
+      <pre><code>import ROOT
+
+# Crear y rellenar un histograma
+h = ROOT.TH1F("h", "Gaussian Distribution;x;Entries", 100, -5, 5)
+h.FillRandom("gaus", 10000)
+
+# Dibujar en un canvas
+c = ROOT.TCanvas("c", "My Canvas", 800, 600)
+h.Draw()
+c.SaveAs("histogram.png")</code></pre>
+
+      <h3 data-i18n="root_first_read">Leer archivos .root</h3>
+      <p data-i18n="root_first_read_p">Abre y explora un archivo ROOT existente:</p>
+      <pre><code>import ROOT
+
+f = ROOT.TFile.Open("data.root")
+f.ls()           # Listar contenidos
+tree = f.Get("Events")  # Obtener un TTree
+tree.Print()     # Mostrar ramas
+tree.Draw("pt")  # Grafico rapido de una rama</code></pre>
+
+      <h3 data-i18n="root_first_numpy">Integracion con NumPy / pandas</h3>
+      <p data-i18n="root_first_numpy_p">Convierte datos de ROOT a arrays de NumPy o DataFrames de pandas para usarlos con el ecosistema Python mas amplio:</p>
+      <pre><code>import ROOT
+import numpy as np
+
+# Usando RDataFrame (enfoque moderno de ROOT)
+df = ROOT.RDataFrame("Events", "data.root")
+npy = df.AsNumpy(["pt", "eta"])  # Devuelve dict de arrays NumPy
+
+# Convertir a DataFrame de pandas
+import pandas as pd
+pdf = pd.DataFrame(npy)</code></pre>
+
+      <h2 data-i18n="root_resources_title">Recursos esenciales</h2>
+      <ul>
+        <li><a href="https://root.cern/doc/master/" target="_blank" rel="noopener" data-i18n="root_res_reference">Documentacion de referencia de ROOT</a></li>
+        <li><a href="https://root.cern/doc/master/group__tutorial__hist.html" target="_blank" rel="noopener" data-i18n="root_res_tutorials">Tutoriales de ROOT (con codigo fuente)</a></li>
+        <li><a href="https://root.cern/doc/master/classROOT_1_1RDataFrame.html" target="_blank" rel="noopener" data-i18n="root_res_rdf">Documentacion de RDataFrame</a></li>
+        <li><a href="https://swan.cern.ch" target="_blank" rel="noopener" data-i18n="root_res_swan">SWAN - Service for Web-based ANalysis</a></li>
+        <li><a href="https://root-forum.cern.ch" target="_blank" rel="noopener" data-i18n="root_res_forum">Foro de usuarios de ROOT</a></li>
+        <li><a href="https://github.com/root-project/root" target="_blank" rel="noopener" data-i18n="root_res_github">ROOT en GitHub</a></li>
+      </ul>
+
+      <h2 data-i18n="root_tasks_title">Tareas comunes de la primera semana</h2>
+      <ul>
+        <li data-i18n="root_task_1">Abre una sesion de SWAN y ejecuta un notebook tutorial de ROOT para familiarizarte con el entorno.</li>
+        <li data-i18n="root_task_2">Configura ROOT en lxplus usando CVMFS y ejecuta <code>root --version</code> para confirmar que funciona.</li>
+        <li data-i18n="root_task_3">Pide a tu supervisor o equipo un archivo <code>.root</code> de ejemplo de tu experimento y practica abriendolo con <code>TFile</code> y explorando su contenido.</li>
+        <li data-i18n="root_task_4">Intenta crear un histograma a partir de una rama de TTree usando tanto el interprete C++ como PyROOT.</li>
+        <li data-i18n="root_task_5">Explora RDataFrame, la interfaz moderna de analisis de ROOT, para filtrar, definir nuevas columnas y crear graficos.</li>
+        <li data-i18n="root_task_6">Instala ROOT en tu portatil personal (via Conda o Homebrew) para poder desarrollar sin conexion.</li>
+        <li data-i18n="root_task_7">Guarda en favoritos el foro de ROOT y la documentacion de referencia para cuando necesites ayuda.</li>
+      </ul>
+
+      <div class="print-bar">
+        <button class="btn btn--secondary" onclick="window.print()" data-i18n="root_print">Imprimir esta pagina</button>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script type="module" src="../../scripts/pages/root-setup.js"></script>
+</body>
+</html>

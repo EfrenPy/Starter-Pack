@@ -13,6 +13,18 @@ export const indexTranslations = {
     card_tech_desc:
       'Tutoriales y guias paso a paso para herramientas tecnicas del CERN, incluyendo VS Code Remote y mas.',
     card_tech_href: '/es/technical-hub.html',
+    card_housing_title: 'Vida Practica',
+    card_housing_desc:
+      'Vivienda, transporte, banca y consejos de vida cotidiana cerca del CERN en Ginebra o Francia.',
+    card_housing_href: '/es/housing-guide.html',
+    card_health_title: 'Seguro Medico',
+    card_health_desc:
+      'CHIS, LAMal, CMU/PUMA, el droit d\'option, plazos y como elegir la cobertura adecuada.',
+    card_health_href: '/es/health-insurance.html',
+    card_faq_title: 'Preguntas Frecuentes',
+    card_faq_desc:
+      'Respuestas rapidas a las preguntas mas comunes sobre empezar en el CERN.',
+    card_faq_href: '/es/faq.html',
     search_panel_title: 'Buscar articulos',
     search_placeholder: 'Buscar articulos...',
     search_button: 'Buscar',
@@ -32,6 +44,18 @@ export const indexTranslations = {
     card_tech_desc:
       'Step-by-step tutorials and guides for CERN technical tools, including VS Code Remote and more.',
     card_tech_href: '/en/technical-hub.html',
+    card_housing_title: 'Life & Practical',
+    card_housing_desc:
+      'Housing, transport, banking, and daily life tips for living near CERN in Geneva or France.',
+    card_housing_href: '/en/housing-guide.html',
+    card_health_title: 'Health Insurance',
+    card_health_desc:
+      'CHIS, LAMal, CMU/PUMA, the droit d\'option, deadlines, and how to choose the right coverage.',
+    card_health_href: '/en/health-insurance.html',
+    card_faq_title: 'FAQ',
+    card_faq_desc:
+      'Quick answers to the most common questions about starting at CERN.',
+    card_faq_href: '/en/faq.html',
     search_panel_title: 'Search articles',
     search_placeholder: 'Search articles...',
     search_button: 'Search',

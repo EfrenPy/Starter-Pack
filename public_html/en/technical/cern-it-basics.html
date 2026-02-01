@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta name="view-transition" content="same-origin">
+  <meta name="description" content="Essential IT guide for CERN newcomers: computing account, eduroam Wi-Fi, EDH, ServiceNow, VPN, printing, and troubleshooting.">
+  <meta property="og:title" content="CERN IT Basics for Newcomers - CERN Starter Pack">
+  <meta property="og:description" content="Essential IT guide for CERN newcomers: computing account, eduroam Wi-Fi, EDH, ServiceNow, VPN, printing, and troubleshooting.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/cern-it-basics.html">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta name="twitter:title" content="CERN IT Basics for Newcomers - CERN Starter Pack">
+  <meta name="twitter:description" content="Essential IT guide for CERN newcomers: computing account, eduroam Wi-Fi, EDH, ServiceNow, VPN, printing, and troubleshooting.">
+  <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/cern-it-basics.html">
+  <link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/cern-it-basics.html">
+  <link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/cern-it-basics.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title data-i18n="itb_page_title">CERN IT Basics - CERN Starter Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://starter-pack.efrenrodriguezrodriguez.com/en/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Technical Help", "item": "https://starter-pack.efrenrodriguezrodriguez.com/en/technical-hub.html" },
+      { "@type": "ListItem", "position": 3, "name": "CERN IT Basics" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="navbar-placeholder"></div>
+
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="../index.html" data-i18n="itb_breadcrumb_home">Home</a>
+    <span class="breadcrumbs__sep">/</span>
+    <a href="../technical-hub.html" data-i18n="itb_breadcrumb_hub">Technical Help</a>
+    <span class="breadcrumbs__sep">/</span>
+    <span data-i18n="itb_breadcrumb_current">CERN IT Basics</span>
+  </nav>
+
+  <main id="main-content">
+    <div class="container">
+      <h1 data-i18n="itb_heading">CERN IT Basics for Newcomers</h1>
+
+      <p class="last-updated" data-updated="2026-02">
+        <span data-i18n="itb_last_updated">Last updated:</span>
+        <time datetime="2026-02">February 2026</time>
+      </p>
+
+      <h2 data-i18n="itb_account_title">Your CERN Computing Account</h2>
+      <ul>
+        <li data-i18n="itb_account_li1"><strong>Activation:</strong> Visit <a href="https://account.cern.ch/" target="_blank" rel="noopener">account.cern.ch</a> to activate your CERN computing account. You will need your CERN ID number and the initial password provided during registration.</li>
+        <li data-i18n="itb_account_li2"><strong>Username and email:</strong> Your CERN username is typically your first initial + surname (e.g., jsmith). Your CERN email will be username@cern.ch.</li>
+        <li data-i18n="itb_account_li3"><strong>Password policy:</strong> CERN requires strong passwords with minimum length and complexity. Change your password regularly through the account management portal.</li>
+        <li data-i18n="itb_account_li4"><strong>Two-factor authentication (2FA):</strong> Enable 2FA for enhanced security. CERN supports TOTP apps (e.g., Google Authenticator, Microsoft Authenticator) for second-factor verification.</li>
+      </ul>
+
+      <h2 data-i18n="itb_wifi_title">Wi-Fi: eduroam</h2>
+      <ul>
+        <li data-i18n="itb_wifi_li1"><strong>eduroam:</strong> The primary Wi-Fi network at CERN. Connect using your CERN credentials: username@cern.ch as the identity and your CERN password.</li>
+        <li data-i18n="itb_wifi_li2"><strong>eduroam CAT:</strong> For the best and most secure setup, download the configuration profile from <a href="https://cat.eduroam.org/" target="_blank" rel="noopener">cat.eduroam.org</a>. This ensures correct certificate validation.</li>
+        <li data-i18n="itb_wifi_li3"><strong>CERN-GUEST:</strong> A fallback network available without CERN credentials. Limited bandwidth and requires accepting terms of use. Useful for visitors or if eduroam is not working.</li>
+      </ul>
+
+      <h2 data-i18n="itb_systems_title">Key CERN Systems</h2>
+      <ul>
+        <li data-i18n="itb_systems_li1"><strong>EDH (Electronic Document Handling):</strong> CERN's workflow system for travel requests, leave applications, expense claims, contract extensions, and other administrative processes. Access via the CERN intranet.</li>
+        <li data-i18n="itb_systems_li2"><strong>ServiceNow:</strong> The central platform for IT support tickets, HR requests, facility issues, and general service requests. Access at cern.service-now.com.</li>
+        <li data-i18n="itb_systems_li3"><strong>Indico:</strong> CERN's meeting and event management system. Used for scheduling meetings, conferences, and lectures. Access at indico.cern.ch.</li>
+        <li data-i18n="itb_systems_li4"><strong>CERN Phonebook:</strong> Find people, their contact details, office locations, and organisational structure. Access at phonebook.cern.ch.</li>
+        <li data-i18n="itb_systems_li5"><strong>CDS (CERN Document Server):</strong> Repository for CERN publications, technical notes, and reports. Access at cds.cern.ch.</li>
+      </ul>
+
+      <h2 data-i18n="itb_servicedesk_title">Service Desk</h2>
+      <ul>
+        <li data-i18n="itb_servicedesk_li1"><strong>ServiceNow portal:</strong> The preferred way to request IT support. Create a ticket at cern.service-now.com describing your issue. You can track the status of your requests there.</li>
+        <li data-i18n="itb_servicedesk_li2"><strong>Phone:</strong> Call the CERN Service Desk at extension 77777 (or +41 22 767 7777 from outside CERN) for urgent issues.</li>
+        <li data-i18n="itb_servicedesk_li3"><strong>Common self-service:</strong> Password resets, mailing list management, and software licence requests can often be handled through the self-service portal without opening a ticket.</li>
+      </ul>
+
+      <h2 data-i18n="itb_tools_title">Printing, VPN, Software</h2>
+      <ul>
+        <li data-i18n="itb_tools_li1"><strong>Printing:</strong> CERN uses a centralised printing service. Install the CERN print drivers and send jobs to the nearest printer using your CERN credentials for authentication.</li>
+        <li data-i18n="itb_tools_li2"><strong>VPN:</strong> Use the CERN VPN to access internal resources from outside CERN. Download the VPN client from the CERN software portal and connect using your CERN credentials.</li>
+        <li data-i18n="itb_tools_li3"><strong>Software:</strong> CERN provides licensed software through the Software Portal (cern.ch/software). Available titles include Microsoft Office, MATLAB, and various development tools.</li>
+      </ul>
+
+      <h2 data-i18n="itb_troubleshoot_title">What to Do When Something Doesn't Work</h2>
+      <ul>
+        <li data-i18n="itb_troubleshoot_li1"><strong>Check known issues:</strong> Before reporting, check the ServiceNow known issues page and the CERN IT status page for any ongoing outages or maintenance.</li>
+        <li data-i18n="itb_troubleshoot_li2"><strong>Basic troubleshooting:</strong> Clear your browser cache, try incognito/private mode, or try a different browser. Many CERN web services work best with Chrome or Firefox.</li>
+        <li data-i18n="itb_troubleshoot_li3"><strong>Contact Service Desk:</strong> If the issue persists, open a ServiceNow ticket with a clear description of the problem, any error messages, and steps you have already tried. Include your ticket number when following up.</li>
+      </ul>
+
+      <h2 data-i18n="itb_sources_title">Sources</h2>
+      <ul>
+        <li><a href="https://account.cern.ch/" target="_blank" rel="noopener" data-i18n="itb_sources_li1">CERN Account Management</a></li>
+        <li><a href="https://cat.eduroam.org/" target="_blank" rel="noopener" data-i18n="itb_sources_li2">eduroam CAT Configuration Tool</a></li>
+        <li><a href="https://information-technology.web.cern.ch/" target="_blank" rel="noopener" data-i18n="itb_sources_li3">CERN IT Department</a></li>
+        <li><a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener" data-i18n="itb_sources_li4">CERN Admin e-Guide</a></li>
+      </ul>
+
+      <div class="print-bar">
+        <button class="btn btn--secondary" onclick="window.print()" data-i18n="itb_print">&#128424; Print this guide</button>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script type="module" src="../../scripts/pages/cern-it-basics.js"></script>
+</body>
+</html>

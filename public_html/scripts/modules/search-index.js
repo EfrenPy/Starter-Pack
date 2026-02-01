@@ -8,6 +8,18 @@ const HTML_FILES = [
   'tax_declaration_spain.html',
   'technical-hub.html',
   'technical/vscode-remote.html',
+  'modelo-720.html',
+  'return-to-spain.html',
+  'checklist.html',
+  'housing-guide.html',
+  'cost-calculator.html',
+  'technical/kerberos-ssh.html',
+  'technical/root-setup.html',
+  'technical/gitlab-setup.html',
+  'health-insurance.html',
+  'faq.html',
+  'technical/cern-it-basics.html',
+  'contribute.html',
 ];
 
 const fuseCache = {};

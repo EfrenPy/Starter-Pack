@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta name="view-transition" content="same-origin">
+  <meta name="description" content="Guide to CERN GitLab, authentication methods, SSH keys, Kerberos Git access, CI/CD, and development workflows for newcomers.">
+  <meta property="og:title" content="CERN GitLab &amp; Development Workflow - CERN Starter Pack">
+  <meta property="og:description" content="Set up your CERN GitLab account, configure authentication, and learn the standard development workflow at CERN.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta name="twitter:title" content="CERN GitLab &amp; Development Workflow - CERN Starter Pack">
+  <meta name="twitter:description" content="Set up your CERN GitLab account, configure authentication, and learn the standard development workflow at CERN.">
+  <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html">
+  <link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/gitlab-setup.html">
+  <link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title data-i18n="gl_page_title">CERN GitLab &amp; Development Workflow - CERN Starter Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://starter-pack.efrenrodriguezrodriguez.com/en/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Technical Help", "item": "https://starter-pack.efrenrodriguezrodriguez.com/en/technical-hub.html" },
+      { "@type": "ListItem", "position": 3, "name": "CERN GitLab" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="navbar-placeholder"></div>
+
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="../index.html" data-i18n="gl_breadcrumb_home">Home</a>
+    <span class="breadcrumbs__sep">/</span>
+    <a href="../technical-hub.html" data-i18n="gl_breadcrumb_tech">Technical Help</a>
+    <span class="breadcrumbs__sep">/</span>
+    <span data-i18n="gl_breadcrumb_current">CERN GitLab</span>
+  </nav>
+
+  <main id="main-content">
+    <div class="container">
+      <h1 data-i18n="gl_heading">CERN GitLab &amp; Development Workflow</h1>
+      <p class="last-updated" data-updated="2026-02"><span data-i18n="gl_last_updated">Last updated:</span> <time datetime="2026-02">February 2026</time></p>
+
+      <h2 data-i18n="gl_vs_title">CERN GitLab vs GitHub</h2>
+      <p data-i18n="gl_vs_p1">CERN hosts its own GitLab instance at <a href="https://gitlab.cern.ch" target="_blank" rel="noopener">gitlab.cern.ch</a>. This is the primary platform for version control and collaboration on CERN software projects. Unlike public GitHub, CERN GitLab is integrated with CERN Single Sign-On (SSO) and is accessible to anyone with a CERN computing account.</p>
+      <p data-i18n="gl_vs_p2">While many open-source HEP projects also maintain mirrors on GitHub, the authoritative repositories for experiment frameworks, internal tools, and configuration management typically live on CERN GitLab. Your group or experiment will likely require you to use it for day-to-day development.</p>
+
+      <h2 data-i18n="gl_auth_title">Authentication Methods</h2>
+      <p data-i18n="gl_auth_intro">CERN GitLab supports several authentication methods:</p>
+      <ul>
+        <li data-i18n="gl_auth_sso"><strong>CERN SSO (web):</strong> Log in to the GitLab web interface using your CERN credentials. This is automatic if you are already logged into CERN SSO.</li>
+        <li data-i18n="gl_auth_ssh"><strong>SSH keys:</strong> The preferred method for command-line Git operations. Set up once and use without entering passwords.</li>
+        <li data-i18n="gl_auth_krb"><strong>Kerberos:</strong> Clone and push using your Kerberos ticket via the <code>https://:@gitlab.cern.ch:8443/</code> URL scheme.</li>
+        <li data-i18n="gl_auth_pat"><strong>Personal Access Token (PAT):</strong> Generate a token in GitLab settings for HTTPS-based authentication. Useful for scripts and CI/CD integrations.</li>
+      </ul>
+
+      <h2 data-i18n="gl_sshsetup_title">Setting Up SSH Keys for GitLab</h2>
+      <p data-i18n="gl_sshsetup_p1">Generate an SSH key pair if you do not already have one:</p>
+      <pre><code>ssh-keygen -t ed25519 -C "your.name@cern.ch"</code></pre>
+      <p data-i18n="gl_sshsetup_p2">Copy the public key to your clipboard:</p>
+      <pre><code>cat ~/.ssh/id_ed25519.pub</code></pre>
+      <p data-i18n="gl_sshsetup_p3">Then add it to your CERN GitLab account:</p>
+      <ol>
+        <li data-i18n="gl_sshsetup_step1">Go to <a href="https://gitlab.cern.ch/-/user_settings/ssh_keys" target="_blank" rel="noopener">gitlab.cern.ch/-/user_settings/ssh_keys</a></li>
+        <li data-i18n="gl_sshsetup_step2">Paste your public key into the "Key" field</li>
+        <li data-i18n="gl_sshsetup_step3">Give it a descriptive title (e.g., "Laptop - Ubuntu 2026")</li>
+        <li data-i18n="gl_sshsetup_step4">Click "Add key"</li>
+      </ol>
+      <p data-i18n="gl_sshsetup_p4">Test the connection:</p>
+      <pre><code>ssh -T git@gitlab.cern.ch</code></pre>
+      <p data-i18n="gl_sshsetup_p5">Add this to your <code>~/.ssh/config</code> for convenience:</p>
+      <pre><code>Host gitlab.cern.ch
+    User git
+    IdentityFile ~/.ssh/id_ed25519
+    PreferredAuthentications publickey</code></pre>
+
+      <h2 data-i18n="gl_krbgit_title">Kerberos Authentication for Git</h2>
+      <p data-i18n="gl_krbgit_p1">If you prefer to use Kerberos instead of SSH keys, you can clone repositories using the Kerberos-authenticated HTTPS endpoint on port 8443:</p>
+      <pre><code># First, get a Kerberos ticket
+kinit username@CERN.CH
+
+# Clone using the Kerberos URL
+git clone https://:@gitlab.cern.ch:8443/group/project.git</code></pre>
+      <p data-i18n="gl_krbgit_p2">This method is especially convenient on lxplus where you already have a Kerberos ticket. No additional configuration is needed beyond a valid ticket.</p>
+
+      <h2 data-i18n="gl_workflow_title">Basic Git Workflow at CERN</h2>
+      <p data-i18n="gl_workflow_p1">Most CERN projects follow a merge-request-based workflow similar to the standard GitLab flow:</p>
+      <ol>
+        <li data-i18n="gl_workflow_step1"><strong>Fork or branch:</strong> Create a personal fork of the project or a feature branch (depending on your project's conventions).</li>
+        <li data-i18n="gl_workflow_step2"><strong>Develop locally:</strong> Clone the repo, create a branch, make your changes, and commit.</li>
+        <li data-i18n="gl_workflow_step3"><strong>Push:</strong> Push your branch to your fork or the upstream repository.</li>
+        <li data-i18n="gl_workflow_step4"><strong>Open a Merge Request (MR):</strong> On the GitLab web interface, create a merge request targeting the main branch. Add a description, assign reviewers.</li>
+        <li data-i18n="gl_workflow_step5"><strong>Code review:</strong> Respond to feedback, push additional commits if needed.</li>
+        <li data-i18n="gl_workflow_step6"><strong>Merge:</strong> Once approved, the MR is merged (usually by the maintainer or yourself if you have permissions).</li>
+      </ol>
+      <pre><code># Typical workflow commands
+git clone git@gitlab.cern.ch:group/project.git
+cd project
+git checkout -b my-feature
+# ... make changes ...
+git add -A &amp;&amp; git commit -m "Add new feature"
+git push origin my-feature
+# Then open MR on GitLab web UI</code></pre>
+
+      <h2 data-i18n="gl_cicd_title">CI/CD on CERN GitLab</h2>
+      <p data-i18n="gl_cicd_p1">CERN GitLab provides built-in CI/CD pipelines powered by GitLab Runners. Many shared runners are available, including runners that can access CVMFS for experiment software. To set up CI/CD for your project, create a <code>.gitlab-ci.yml</code> file in the repository root:</p>
+      <pre><code>stages:
+  - build
+  - test
+
+build-job:
+  stage: build
+  image: gitlab-registry.cern.ch/linuxsupport/alma9-base
+  script:
+    - source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
+    - mkdir build &amp;&amp; cd build
+    - cmake .. &amp;&amp; make
+
+test-job:
+  stage: test
+  image: gitlab-registry.cern.ch/linuxsupport/alma9-base
+  script:
+    - source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
+    - cd build &amp;&amp; ctest</code></pre>
+      <p data-i18n="gl_cicd_p2">CERN provides shared runners with tags like <code>cvmfs</code> for accessing experiment software stacks. Check your project's CI settings or ask your team about the preferred runner configuration.</p>
+
+      <h2 data-i18n="gl_repos_title">Useful Repositories for Newcomers</h2>
+      <p data-i18n="gl_repos_intro">Here are some commonly referenced repositories and groups on CERN GitLab:</p>
+      <ul>
+        <li data-i18n="gl_repo_1"><strong>Experiment frameworks:</strong> Each major experiment (ATLAS, CMS, LHCb, ALICE) has its own GitLab group containing the analysis and reconstruction frameworks. Ask your supervisor for the specific repositories you need.</li>
+        <li data-i18n="gl_repo_2"><strong>CERN IT tools:</strong> The <code>cern-it</code> and <code>linuxsupport</code> groups contain infrastructure tools, container images, and system configurations.</li>
+        <li data-i18n="gl_repo_3"><strong>ROOT project:</strong> The ROOT framework itself is developed on GitHub (<a href="https://github.com/root-project/root" target="_blank" rel="noopener">github.com/root-project/root</a>) but many ROOT-based tools and packages live on CERN GitLab.</li>
+        <li data-i18n="gl_repo_4"><strong>Documentation projects:</strong> Many groups maintain their documentation as GitLab Pages sites (using mkdocs, sphinx, or similar). Explore your experiment's docs group for guides and tutorials.</li>
+      </ul>
+
+      <div class="print-bar">
+        <button class="btn btn--secondary" onclick="window.print()" data-i18n="gl_print">Print this page</button>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script type="module" src="../../scripts/pages/gitlab-setup.js"></script>
+</body>
+</html>

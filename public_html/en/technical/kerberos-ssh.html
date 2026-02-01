@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta name="view-transition" content="same-origin">
+  <meta name="description" content="Complete guide to setting up Kerberos authentication and SSH access for CERN lxplus on Linux, macOS, and Windows/WSL.">
+  <meta property="og:title" content="Kerberos &amp; SSH Setup for CERN - CERN Starter Pack">
+  <meta property="og:description" content="Step-by-step guide for configuring Kerberos and SSH to access CERN lxplus and related services.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/kerberos-ssh.html">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta name="twitter:title" content="Kerberos &amp; SSH Setup for CERN - CERN Starter Pack">
+  <meta name="twitter:description" content="Step-by-step guide for configuring Kerberos and SSH to access CERN lxplus and related services.">
+  <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/kerberos-ssh.html">
+  <link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/kerberos-ssh.html">
+  <link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/kerberos-ssh.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title data-i18n="krb_page_title">Kerberos &amp; SSH Setup for CERN - CERN Starter Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://starter-pack.efrenrodriguezrodriguez.com/en/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Technical Help", "item": "https://starter-pack.efrenrodriguezrodriguez.com/en/technical-hub.html" },
+      { "@type": "ListItem", "position": 3, "name": "Kerberos & SSH Setup" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="navbar-placeholder"></div>
+
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="../index.html" data-i18n="krb_breadcrumb_home">Home</a>
+    <span class="breadcrumbs__sep">/</span>
+    <a href="../technical-hub.html" data-i18n="krb_breadcrumb_tech">Technical Help</a>
+    <span class="breadcrumbs__sep">/</span>
+    <span data-i18n="krb_breadcrumb_current">Kerberos &amp; SSH Setup</span>
+  </nav>
+
+  <main id="main-content">
+    <div class="container">
+      <h1 data-i18n="krb_heading">Kerberos &amp; SSH Setup for CERN</h1>
+      <p class="last-updated" data-updated="2026-02"><span data-i18n="krb_last_updated">Last updated:</span> <time datetime="2026-02">February 2026</time></p>
+
+      <div class="alert">
+        <p data-i18n="krb_alert">This guide covers Kerberos and SSH configuration for <strong>Linux</strong>, <strong>macOS</strong>, and <strong>Windows via WSL</strong>. Choose the section that matches your operating system.</p>
+      </div>
+
+      <h2 data-i18n="krb_what_title">What is Kerberos and Why CERN Uses It</h2>
+      <p data-i18n="krb_what_p1">Kerberos is a network authentication protocol that uses tickets to prove identity without sending passwords over the network. CERN operates the <code>CERN.CH</code> Kerberos realm for centralized authentication across its computing infrastructure.</p>
+      <p data-i18n="krb_what_p2">When you authenticate with Kerberos, you receive a time-limited ticket-granting ticket (TGT) that lets you access CERN services such as lxplus, AFS, EOS, and GitLab without re-entering your password each time. This ticket-based system is fundamental to working at CERN.</p>
+
+      <h2 data-i18n="krb_linux_title">Linux Setup</h2>
+      <p data-i18n="krb_linux_install">Install the Kerberos client tools on Debian/Ubuntu-based distributions:</p>
+      <pre><code>sudo apt update &amp;&amp; sudo apt install krb5-user</code></pre>
+      <p data-i18n="krb_linux_conf">Then configure <code>/etc/krb5.conf</code> with the CERN realm settings. Replace the contents of the file (or create it) with:</p>
+      <pre><code>[libdefaults]
+    default_realm = CERN.CH
+    ticket_lifetime = 25h
+    renew_lifetime = 120h
+    forwardable = true
+    proxiable = true
+
+[realms]
+    CERN.CH = {
+        kdc = cerndc.cern.ch
+        master_kdc = cerndc.cern.ch
+        default_domain = cern.ch
+        kpasswd_server = afskrb5m.cern.ch
+        admin_server = afskrb5m.cern.ch
+    }
+
+[domain_realm]
+    .cern.ch = CERN.CH
+    cern.ch = CERN.CH</code></pre>
+      <p data-i18n="krb_linux_note">On Fedora/RHEL, install with <code>sudo dnf install krb5-workstation</code>. The <code>krb5.conf</code> file is the same.</p>
+
+      <h2 data-i18n="krb_macos_title">macOS Setup</h2>
+      <p data-i18n="krb_macos_p1">macOS ships with a built-in Kerberos implementation (Heimdal). You do not need to install additional packages. Simply create or edit the file <code>/etc/krb5.conf</code> with the same configuration shown in the Linux section above.</p>
+      <p data-i18n="krb_macos_p2">On modern macOS you may need to use <code>sudo</code> to edit files in <code>/etc/</code>. Also note that macOS Heimdal may handle ticket renewal slightly differently; if you experience issues, try setting <code>renewable = true</code> in the <code>[libdefaults]</code> section.</p>
+
+      <h2 data-i18n="krb_wsl_title">Windows / WSL Setup</h2>
+      <p data-i18n="krb_wsl_p1">On Windows, the recommended approach is to use WSL (Windows Subsystem for Linux). Inside your WSL distribution (e.g., Ubuntu), install and configure Kerberos exactly as described in the Linux section above.</p>
+      <p data-i18n="krb_wsl_p2">If you also want to use VS Code Remote to connect to lxplus, see the <a href="vscode-remote.html">VS Code Remote via WSL guide</a> for complementary setup instructions on SSH through WSL.</p>
+
+      <h2 data-i18n="krb_ticket_title">Getting a Kerberos Ticket</h2>
+      <p data-i18n="krb_ticket_intro">Once your configuration is in place, use these commands to manage Kerberos tickets:</p>
+      <pre><code># Obtain a new ticket (you will be prompted for your CERN password)
+kinit username@CERN.CH
+
+# List current tickets and expiration times
+klist
+
+# Renew an existing ticket (before it expires)
+kinit -R
+
+# Destroy all tickets (log out)
+kdestroy</code></pre>
+      <p data-i18n="krb_ticket_note">Replace <code>username</code> with your CERN account name. Tickets are valid for 25 hours by default and renewable for up to 5 days, as specified in the configuration above.</p>
+
+      <h2 data-i18n="krb_ssh_title">SSH Configuration for lxplus</h2>
+      <p data-i18n="krb_ssh_intro">To connect to lxplus using your Kerberos ticket (no password needed), add the following to your <code>~/.ssh/config</code> file:</p>
+      <pre><code>Host lxplus
+    HostName lxplus.cern.ch
+    User yourusername
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials yes
+    GSSAPITrustDns yes
+    ForwardAgent yes</code></pre>
+      <p data-i18n="krb_ssh_note">With this configuration and a valid Kerberos ticket, you can simply run <code>ssh lxplus</code> and you will be authenticated automatically via GSSAPI (Kerberos). Replace <code>yourusername</code> with your CERN login.</p>
+
+      <h2 data-i18n="krb_tunnel_title">SSH Tunneling &amp; Off-site Access</h2>
+      <p data-i18n="krb_tunnel_p1">When working from outside the CERN network, you may need to use <code>lxtunnel.cern.ch</code> as a jump host. Add this to your <code>~/.ssh/config</code>:</p>
+      <pre><code>Host lxtunnel
+    HostName lxtunnel.cern.ch
+    User yourusername
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials yes
+
+Host lxplus-tunnel
+    HostName lxplus.cern.ch
+    User yourusername
+    ProxyJump lxtunnel
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials yes</code></pre>
+      <p data-i18n="krb_tunnel_p2">You can also set up a SOCKS proxy through lxplus for accessing CERN-internal web services from off-site:</p>
+      <pre><code>ssh -D 1080 -N lxplus</code></pre>
+      <p data-i18n="krb_tunnel_p3">Then configure your browser to use <code>localhost:1080</code> as a SOCKS5 proxy to reach internal CERN pages.</p>
+
+      <h2 data-i18n="krb_keytab_title">Keytab for Automated Access</h2>
+      <p data-i18n="krb_keytab_p1">For scripts or automated processes that need Kerberos authentication without interactive login, you can create a keytab file:</p>
+      <pre><code>cern-get-keytab --keytab ~/private/keytab --login --user yourusername</code></pre>
+      <p data-i18n="krb_keytab_p2">Then obtain a ticket non-interactively with:</p>
+      <pre><code>kinit -kt ~/private/keytab yourusername@CERN.CH</code></pre>
+      <div class="alert">
+        <p data-i18n="krb_keytab_warn"><strong>Security warning:</strong> A keytab file is equivalent to a stored password. Protect it with strict file permissions (<code>chmod 600</code>) and never share it or commit it to version control.</p>
+      </div>
+
+      <h2 data-i18n="krb_eos_title">Accessing EOS and AFS</h2>
+      <p data-i18n="krb_eos_p1">With a valid Kerberos ticket, you can access CERN storage systems:</p>
+      <p data-i18n="krb_eos_p2"><strong>EOS</strong> (CERN's distributed storage) can be accessed on lxplus with the <code>eos</code> command-line tool:</p>
+      <pre><code># List your EOS home directory
+eos ls /eos/user/u/username/
+
+# Copy a file to EOS
+eos cp localfile.txt /eos/user/u/username/
+
+# Mount EOS via FUSE (if available)
+mkdir -p ~/eos
+eosfusebind ~/eos</code></pre>
+      <p data-i18n="krb_eos_p3"><strong>AFS</strong> (Andrew File System) requires an AFS token, which you obtain from your Kerberos ticket:</p>
+      <pre><code># Get an AFS token from your Kerberos ticket
+aklog
+
+# Access your AFS workspace
+ls /afs/cern.ch/user/u/username/</code></pre>
+
+      <h2 data-i18n="krb_troubleshoot_title">Troubleshooting</h2>
+      <ul>
+        <li data-i18n="krb_troubleshoot_1"><strong>kinit: Cannot find KDC for realm CERN.CH</strong> &mdash; Your <code>/etc/krb5.conf</code> is missing or misconfigured. Verify the file exists and contains the correct realm settings.</li>
+        <li data-i18n="krb_troubleshoot_2"><strong>kinit: Client not found in Kerberos database</strong> &mdash; Check that you are using the correct CERN username and the realm is <code>CERN.CH</code> (uppercase).</li>
+        <li data-i18n="krb_troubleshoot_3"><strong>Permission denied (GSSAPI)</strong> &mdash; Run <code>klist</code> to check if your ticket is valid and not expired. Run <code>kinit</code> again if needed.</li>
+        <li data-i18n="krb_troubleshoot_4"><strong>Ticket expired or cannot renew</strong> &mdash; If your ticket has been expired for too long, renewal will fail. Run <code>kdestroy</code> followed by <code>kinit</code> to get a fresh ticket.</li>
+        <li data-i18n="krb_troubleshoot_5"><strong>SSH connection refused off-site</strong> &mdash; CERN restricts direct SSH access from outside its network. Use the lxtunnel ProxyJump configuration described above.</li>
+        <li data-i18n="krb_troubleshoot_6"><strong>Clock skew too great</strong> &mdash; Kerberos requires synchronized clocks. Ensure your system clock is correct (use NTP). A skew of more than 5 minutes will cause authentication failures.</li>
+      </ul>
+
+      <h2 data-i18n="krb_quickref_title">Quick Reference Card</h2>
+      <table class="quick-ref">
+        <thead>
+          <tr>
+            <th data-i18n="krb_quickref_task">Task</th>
+            <th data-i18n="krb_quickref_command">Command</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td data-i18n="krb_qr_get_ticket">Get a Kerberos ticket</td><td><code>kinit user@CERN.CH</code></td></tr>
+          <tr><td data-i18n="krb_qr_list_tickets">List current tickets</td><td><code>klist</code></td></tr>
+          <tr><td data-i18n="krb_qr_renew">Renew ticket</td><td><code>kinit -R</code></td></tr>
+          <tr><td data-i18n="krb_qr_destroy">Destroy tickets</td><td><code>kdestroy</code></td></tr>
+          <tr><td data-i18n="krb_qr_ssh">SSH to lxplus</td><td><code>ssh lxplus</code></td></tr>
+          <tr><td data-i18n="krb_qr_tunnel">SSH via tunnel (off-site)</td><td><code>ssh lxplus-tunnel</code></td></tr>
+          <tr><td data-i18n="krb_qr_socks">SOCKS proxy</td><td><code>ssh -D 1080 -N lxplus</code></td></tr>
+          <tr><td data-i18n="krb_qr_afs">Get AFS token</td><td><code>aklog</code></td></tr>
+          <tr><td data-i18n="krb_qr_eos">List EOS files</td><td><code>eos ls /eos/user/u/user/</code></td></tr>
+          <tr><td data-i18n="krb_qr_keytab">Create keytab</td><td><code>cern-get-keytab --keytab ~/private/keytab --login --user user</code></td></tr>
+        </tbody>
+      </table>
+
+      <h2 data-i18n="krb_refs_title">References</h2>
+      <ul>
+        <li><a href="https://cern.service-now.com/service-portal?id=kb_article&n=KB0003388" target="_blank" rel="noopener" data-i18n="krb_ref_1">CERN Kerberos Setup Documentation</a></li>
+        <li><a href="https://information-technology.web.cern.ch/services/lxplus-service" target="_blank" rel="noopener" data-i18n="krb_ref_2">CERN lxplus Service</a></li>
+        <li><a href="https://information-technology.web.cern.ch/services/eos-service" target="_blank" rel="noopener" data-i18n="krb_ref_3">CERN EOS Storage Service</a></li>
+        <li><a href="https://information-technology.web.cern.ch/services/afs-service" target="_blank" rel="noopener" data-i18n="krb_ref_4">CERN AFS Service</a></li>
+        <li><a href="https://security.web.cern.ch/recommendations/en/ssh_keys.shtml" target="_blank" rel="noopener" data-i18n="krb_ref_5">CERN SSH Key Recommendations</a></li>
+      </ul>
+
+      <div class="print-bar">
+        <button class="btn btn--secondary" onclick="window.print()" data-i18n="krb_print">Print this page</button>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script type="module" src="../../scripts/pages/kerberos-ssh.js"></script>
+</body>
+</html>
