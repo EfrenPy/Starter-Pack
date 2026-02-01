@@ -11,6 +11,8 @@ export const navbarTranslations = {
     nav_health_href: '/es/health-insurance.html',
     nav_faq: 'Preguntas Frecuentes',
     nav_faq_href: '/es/faq.html',
+    nav_daily: 'Vida Cotidiana',
+    nav_daily_href: '/es/daily-life-hub.html',
   },
   en: {
     nav_brand: 'CERN Starter Pack',
@@ -24,5 +26,7 @@ export const navbarTranslations = {
     nav_health_href: '/en/health-insurance.html',
     nav_faq: 'FAQ',
     nav_faq_href: '/en/faq.html',
+    nav_daily: 'Daily Life',
+    nav_daily_href: '/en/daily-life-hub.html',
   },
 };

@@ -20,6 +20,11 @@ export async function initSearch() {
     await getSearchIndex(lang);
     const results = searchArticles(query, lang);
 
+    const countMsg = isSpanish
+      ? `${results.length} resultado${results.length !== 1 ? 's' : ''} encontrado${results.length !== 1 ? 's' : ''}.`
+      : `${results.length} result${results.length !== 1 ? 's' : ''} found.`;
+    resultsContainer.setAttribute('aria-label', countMsg);
+
     if (results.length > 0) {
       results.forEach((article) => {
         const el = document.createElement('div');

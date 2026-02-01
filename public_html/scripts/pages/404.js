@@ -6,6 +6,7 @@ import { initScrollTop } from '../modules/scroll-top.js';
 import { initScrollAnimations } from '../modules/scroll-animations.js';
 import { navbarTranslations } from '../modules/translations/navbar.js';
 import { footerTranslations } from '../modules/translations/footer.js';
+import { registerServiceWorker } from '../modules/sw-register.js';
 
 const notFoundTranslations = {
   es: {
@@ -42,6 +43,7 @@ async function init() {
     initI18n(navbarTranslations, footerTranslations, notFoundTranslations);
     initScrollTop();
     initScrollAnimations();
+    registerServiceWorker();
   } catch (err) {
     console.error('init failed:', err);
   }

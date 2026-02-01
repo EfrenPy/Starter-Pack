@@ -858,6 +858,17 @@ details[open] .accordion-title::before {
   to   { width: 100%; }
 }
 
+/* ===== Reading Time ===== */
+.reading-time {
+  display: inline-block;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary, #6b7280);
+  background: var(--color-bg-alt, #f3f4f6);
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+  margin-block-end: var(--space-md);
+}
+
 /* ===== Table of Contents ===== */
 .toc {
   background: var(--color-bg);
@@ -1078,6 +1089,7 @@ mark {
   :is(nav, .topnav, .site-footer,
   .hero, .search-panel, .search-box, .search-bar,
   .theme-toggle, .skip-link, .scroll-top, .reading-progress,
+  .reading-time, .print-bar,
   .toc, #navbar-placeholder, #footer-placeholder) {
     display: none !important;
   }

@@ -21,6 +21,18 @@ export const legalHubTranslations = {
     lh_card_checklist_title: 'Checklist de Incorporacion',
     lh_card_checklist_desc:
       'Linea temporal interactiva para seguir tu progreso de incorporacion al CERN. Las casillas se guardan automaticamente en tu navegador.',
+    lh_card_permits_title: 'Permisos y Registro',
+    lh_card_permits_desc:
+      'Carte de legitimation suiza, titre de sejour frances, regla de 14 dias y tipos de tarjeta de residencia.',
+    lh_card_cerntax_title: 'Fiscalidad del CERN',
+    lh_card_cerntax_desc:
+      'Sistema fiscal interno, exencion del impuesto nacional, excepcion para ciudadanos franceses e ingresos externos.',
+    lh_card_pension_title: 'Fondo de Pensiones',
+    lh_card_pension_desc:
+      'Plan de prestacion definida, opciones segun anos de servicio, valor de transferencia y edades de jubilacion.',
+    lh_card_contracts_title: 'Contratos y Carrera',
+    lh_card_contracts_desc:
+      'Fellow vs estudiante vs staff, duraciones maximas, reglas de extension y politica de beca unica.',
     lh_disclaimer:
       'Todos los contenidos aqui reunidos tienen caracter informativo. Consulta siempre con un profesional si tienes dudas sobre tu caso concreto.',
   },
@@ -46,6 +58,18 @@ export const legalHubTranslations = {
     lh_card_checklist_title: 'Onboarding Checklist',
     lh_card_checklist_desc:
       'Interactive timeline to track your CERN onboarding progress. Checkboxes save automatically in your browser.',
+    lh_card_permits_title: 'Permits & Registration',
+    lh_card_permits_desc:
+      'Swiss carte de legitimation, French titre de sejour, 14-day registration rule, and residence card types.',
+    lh_card_cerntax_title: 'CERN Taxation',
+    lh_card_cerntax_desc:
+      'Internal tax system, national income tax exemption, French citizens exception, and outside income rules.',
+    lh_card_pension_title: 'Pension Fund',
+    lh_card_pension_desc:
+      'Defined-benefit scheme, options by years of service, transfer value, and retirement ages at CERN.',
+    lh_card_contracts_title: 'Contracts & Career',
+    lh_card_contracts_desc:
+      'Fellow vs student vs staff, maximum durations, extension rules, and one-time fellowship policy.',
     lh_disclaimer:
       'All content here is for informational purposes. Always consult a professional if you have doubts about your specific case.',
   },

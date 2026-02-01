@@ -102,6 +102,11 @@ function setupLiveSearch(input) {
     if (!container) return;
     container.innerHTML = '';
 
+    const countMsg = lang === 'es'
+      ? `${results.length} resultado${results.length !== 1 ? 's' : ''} encontrado${results.length !== 1 ? 's' : ''}.`
+      : `${results.length} result${results.length !== 1 ? 's' : ''} found.`;
+    container.setAttribute('aria-label', countMsg);
+
     if (results.length === 0) {
       const p = document.createElement('p');
       p.textContent = lang === 'es' ? 'No se encontraron resultados.' : 'No results found.';
