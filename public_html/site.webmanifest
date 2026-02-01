@@ -1,6 +1,12 @@
 {
   "name": "CERN Starter Pack",
   "short_name": "Starter Pack",
+  "description": "Bilingual guide for Spanish nationals starting work at CERN, covering legal, tax, and technical topics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "categories": ["education", "reference"],
   "icons": [
     {
       "src": "/images/android-chrome-192x192.png",
@@ -14,6 +20,5 @@
     }
   ],
   "theme_color": "#0056b3",
-  "background_color": "#f4f7fa",
-  "display": "standalone"
+  "background_color": "#f4f7fa"
 }
