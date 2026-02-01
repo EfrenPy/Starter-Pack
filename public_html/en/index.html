@@ -3,34 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome to the Starter Pack</title>
-  <link rel="stylesheet" href="../styles.css">
+  <meta name="description" content="Starter Pack for new CERN employees. Legal, tax, and technical information.">
+  <meta property="og:title" content="Welcome to the Starter Pack">
+  <meta property="og:description" content="Useful information for new CERN employees about legal, tax, and technical tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://test.efrenrodriguezrodriguez.com/en/index.html">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Welcome to the Starter Pack">
+  <meta name="twitter:description" content="Useful information for new CERN employees about legal, tax, and technical tools.">
+  <link rel="canonical" href="https://test.efrenrodriguezrodriguez.com/en/index.html">
+  <link rel="alternate" hreflang="es" href="https://test.efrenrodriguezrodriguez.com/es/index.html">
+  <link rel="alternate" hreflang="en" href="https://test.efrenrodriguezrodriguez.com/en/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://test.efrenrodriguezrodriguez.com/">
+  <title>CERN Starter Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <!-- Include the navbar -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <div id="navbar-placeholder"></div>
 
-  <header>
-    <h1>Welcome to the Starter Pack</h1>
-  </header>
-
-  <div class="container">
-    <p>Hello! Welcome to the Starter Pack. This site is designed to help newcomers and people working at CERN, whether from Spain or other countries. Here you’ll find useful information and resources in two main areas:</p>
-    <div class="menu">
-      <a href="legal-hub.html">Legal and Tax Help</a>
-      <a href="#">Technical Help with CERN Tools</a>
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title" data-i18n="hero_title">Welcome to the Starter Pack</h1>
+      <p class="hero__subtitle" data-i18n="hero_subtitle">Useful information and resources for newcomers at CERN. Legal, tax, and technical guides all in one place.</p>
+      <a href="#main-content" class="btn btn--primary btn--lg" data-i18n="hero_cta">Explore resources</a>
     </div>
-    <p>To get started, you can use the search bar below to find relevant articles about legal and tax topics, or any other questions related to your work at CERN.</p>
-    <h2>🔎 Article Search</h2>
-    <p>Enter your query in the search field to find relevant articles.</p>
-    <form action="search.html" method="get" class="search-bar">
-      <input type="text" name="query" placeholder="Search articles..." required>
-      <button type="submit">Search</button>
-    </form>
-  </div>
+  </section>
 
-  <div id="coffee-placeholder"></div>
-  <script src="../scripts/inject.js"></script>
-  <script src="../scripts/navbar.js"></script>
+  <main id="main-content">
+    <div class="container">
+      <div class="card-grid">
+        <a href="legal-hub.html" class="card" data-i18n-href="card_legal_href">
+          <div class="card__icon">&#9878;</div>
+          <h2 class="card__title" data-i18n="card_legal_title">Legal & Tax Help</h2>
+          <p class="card__desc" data-i18n="card_legal_desc">Guides on taxation, social security, and administrative procedures for CERN employees with ties to Spain.</p>
+        </a>
+        <a href="technical-hub.html" class="card" data-i18n-href="card_tech_href">
+          <div class="card__icon">&#128736;</div>
+          <h2 class="card__title" data-i18n="card_tech_title">Technical Help</h2>
+          <p class="card__desc" data-i18n="card_tech_desc">Step-by-step tutorials and guides for CERN technical tools, including VS Code Remote and more.</p>
+        </a>
+      </div>
+
+      <div class="search-panel">
+        <h2 class="search-panel__title" data-i18n="search_panel_title">Search articles</h2>
+        <form action="search.html" method="get" class="search-box" data-i18n-action="search_action">
+          <div class="search-box__input-wrap">
+            <span class="search-box__icon">&#128269;</span>
+            <input type="text" name="query" class="search-box__input" placeholder="Search articles..." required data-i18n-placeholder="search_placeholder">
+          </div>
+          <button type="submit" class="btn btn--primary" data-i18n="search_button">Search</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script type="module" src="../scripts/pages/index.js"></script>
 </body>
 </html>

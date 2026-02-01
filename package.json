@@ -1,0 +1,27 @@
+{
+  "name": "starter-pack",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bilingual informational website for people starting to work at CERN",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint public_html/scripts",
+    "format": "prettier --write \"public_html/**/*.{js,css,html}\"",
+    "test": "npx playwright test",
+    "test:prod": "npx playwright test --config playwright.prod.config.js",
+    "test:all": "npx playwright test && npx playwright test --config playwright.prod.config.js",
+    "test:headed": "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@playwright/test": "^1.58.1",
+    "basic-ftp": "^5.1.0",
+    "eslint": "^9.0.0",
+    "globals": "^17.3.0",
+    "prettier": "^3.3.0",
+    "vite": "^6.0.0"
+  }
+}
