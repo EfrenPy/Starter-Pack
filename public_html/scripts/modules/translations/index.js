@@ -16,7 +16,7 @@ export const indexTranslations = {
     card_housing_title: 'Vida Practica',
     card_housing_desc:
       'Vivienda, transporte, banca y consejos de vida cotidiana cerca del CERN en Ginebra o Francia.',
-    card_housing_href: '/es/housing-guide.html',
+    card_housing_href: '/es/daily-life-hub.html',
     card_health_title: 'Seguro Medico',
     card_health_desc:
       'CHIS, LAMal, CMU/PUMA, el droit d\'option, plazos y como elegir la cobertura adecuada.',
@@ -47,7 +47,7 @@ export const indexTranslations = {
     card_housing_title: 'Life & Practical',
     card_housing_desc:
       'Housing, transport, banking, and daily life tips for living near CERN in Geneva or France.',
-    card_housing_href: '/en/housing-guide.html',
+    card_housing_href: '/en/daily-life-hub.html',
     card_health_title: 'Health Insurance',
     card_health_desc:
       'CHIS, LAMal, CMU/PUMA, the droit d\'option, deadlines, and how to choose the right coverage.',

@@ -8,6 +8,7 @@ import { initCostCalculator } from '../modules/cost-calculator.js';
 import { navbarTranslations } from '../modules/translations/navbar.js';
 import { footerTranslations } from '../modules/translations/footer.js';
 import { costCalculatorTranslations } from '../modules/translations/cost-calculator.js';
+import { registerServiceWorker } from '../modules/sw-register.js';
 
 async function init() {
   try {
@@ -18,6 +19,7 @@ async function init() {
     initScrollTop();
     initScrollAnimations();
     initCostCalculator();
+    registerServiceWorker();
   } catch (err) {
     console.error('init failed:', err);
   }

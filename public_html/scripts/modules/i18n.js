@@ -93,6 +93,7 @@ export function applyTranslations(lang, translations) {
     }
   }
 
+  document.documentElement.lang = lang;
   localStorage.setItem('language', lang);
 }
 

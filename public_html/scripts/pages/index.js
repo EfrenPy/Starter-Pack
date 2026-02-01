@@ -8,6 +8,7 @@ import { initLiveSearch } from '../modules/live-search.js';
 import { navbarTranslations } from '../modules/translations/navbar.js';
 import { indexTranslations } from '../modules/translations/index.js';
 import { footerTranslations } from '../modules/translations/footer.js';
+import { registerServiceWorker } from '../modules/sw-register.js';
 
 async function init() {
   try {
@@ -18,6 +19,7 @@ async function init() {
     initScrollTop();
     initScrollAnimations();
     initLiveSearch();
+    registerServiceWorker();
   } catch (err) {
     console.error('init failed:', err);
   }

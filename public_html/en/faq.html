@@ -28,7 +28,7 @@
   <title data-i18n="faq_page_title">FAQ - CERN Starter Pack</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/styles.css">
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
   <script type="application/ld+json">
@@ -38,6 +38,30 @@
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://starter-pack.efrenrodriguezrodriguez.com/en/index.html" },
       { "@type": "ListItem", "position": 2, "name": "FAQ" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Where do I collect my CERN access card?", "acceptedAnswer": { "@type": "Answer", "text": "Your CERN access card is collected at the CERN Reception (Building 33). Bring your passport or national ID and your contract documentation." }},
+      { "@type": "Question", "name": "Why doesn't my computing account work?", "acceptedAnswer": { "@type": "Answer", "text": "Your CERN computing account may take 24-48 hours to become fully active after creation. Try resetting your password at account.cern.ch." }},
+      { "@type": "Question", "name": "Do I need a Swiss bank account?", "acceptedAnswer": { "@type": "Answer", "text": "CERN can pay your salary to a bank account in most countries. A local Swiss or French account is useful for paying rent and local bills." }},
+      { "@type": "Question", "name": "What is EDH and how do I use it?", "acceptedAnswer": { "@type": "Answer", "text": "EDH (Electronic Document Handling) is CERN's system for administrative processes: travel requests, leave applications, expense claims, and more." }},
+      { "@type": "Question", "name": "I live in France — what do I do about health insurance?", "acceptedAnswer": { "@type": "Answer", "text": "You have 3 months from registering your French residence to exercise your droit d'option — choosing between CHIS only, the French system (CMU/PUMA), or Swiss LAMal." }},
+      { "@type": "Question", "name": "Can I change my health insurance choice later?", "acceptedAnswer": { "@type": "Answer", "text": "Generally no. The droit d'option choice is normally irreversible as long as your situation stays the same." }},
+      { "@type": "Question", "name": "How do I submit a CHIS reimbursement claim?", "acceptedAnswer": { "@type": "Answer", "text": "Submit claims through the CHIS online portal or send paper forms to the CHIS office at CERN. Reimbursement typically covers 80-90% of eligible costs." }},
+      { "@type": "Question", "name": "Should I live in Switzerland or France?", "acceptedAnswer": { "@type": "Answer", "text": "Both have advantages. Switzerland (Geneva) is closer to CERN with excellent public transport but is expensive. France (Pays de Gex) is more affordable but may require a car." }},
+      { "@type": "Question", "name": "How do I get a transport pass?", "acceptedAnswer": { "@type": "Answer", "text": "For Geneva public transport (TPG), purchase a Unireso monthly pass. CERN may offer subsidised transport passes. Lines 66 and 68 serve CERN directly." }},
+      { "@type": "Question", "name": "Is a car necessary?", "acceptedAnswer": { "@type": "Answer", "text": "Not if you live in Geneva or close to a bus line serving CERN. In some parts of the Pays de Gex, a car is helpful." }},
+      { "@type": "Question", "name": "Do I need to register at a commune/mairie?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. In Switzerland, register at your commune's Office de la population. In France, register at the mairie of your town." }},
+      { "@type": "Question", "name": "What is the carte de legitimation?", "acceptedAnswer": { "@type": "Answer", "text": "A special identity document issued by the Swiss Federal Department of Foreign Affairs to international organisation employees, replacing a standard residence permit." }},
+      { "@type": "Question", "name": "Do I need to file taxes in France?", "acceptedAnswer": { "@type": "Answer", "text": "If you live in France, you must file an annual French tax return even though your CERN salary is exempt from French income tax." }},
+      { "@type": "Question", "name": "How do I connect to eduroam Wi-Fi?", "acceptedAnswer": { "@type": "Answer", "text": "Use your CERN credentials (username@cern.ch and your CERN password). For best setup, use the eduroam CAT tool at cat.eduroam.org." }},
+      { "@type": "Question", "name": "How do I access lxplus from home?", "acceptedAnswer": { "@type": "Answer", "text": "Connect via SSH: ssh username@lxplus.cern.ch. You will need Kerberos authentication or an SSH key configured in your CERN account." }},
+      { "@type": "Question", "name": "What is ServiceNow?", "acceptedAnswer": { "@type": "Answer", "text": "ServiceNow is CERN's central platform for IT support tickets, HR requests, facility issues, and general service requests at cern.service-now.com." }}
     ]
   }
   </script>

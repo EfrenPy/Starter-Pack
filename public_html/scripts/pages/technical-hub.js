@@ -8,6 +8,7 @@ import { initScrollAnimations } from '../modules/scroll-animations.js';
 import { navbarTranslations } from '../modules/translations/navbar.js';
 import { technicalHubTranslations } from '../modules/translations/technical-hub.js';
 import { footerTranslations } from '../modules/translations/footer.js';
+import { registerServiceWorker } from '../modules/sw-register.js';
 
 async function init() {
   try {
@@ -18,6 +19,7 @@ async function init() {
     initScrollTop();
     initReadingProgress();
     initScrollAnimations();
+    registerServiceWorker();
   } catch (err) {
     console.error('init failed:', err);
   }
