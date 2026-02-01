@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home pages -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://starter-pack.efrenrodriguezrodriguez.com/"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://starter-pack.efrenrodriguezrodriguez.com/"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://starter-pack.efrenrodriguezrodriguez.com/"/>
+  </url>
+
+  <!-- Legal Hub -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/legal-hub.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/legal-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/legal-hub.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/legal-hub.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/legal-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/legal-hub.html"/>
+  </url>
+
+  <!-- Technical Hub -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/technical-hub.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical-hub.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/technical-hub.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical-hub.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical-hub.html"/>
+  </url>
+
+  <!-- Tax Declaration -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/tax_declaration_spain.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/tax_declaration_spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/tax_declaration_spain.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/tax_declaration_spain.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/tax_declaration_spain.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/tax_declaration_spain.html"/>
+  </url>
+
+  <!-- Beginning Guide -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/beginning.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/beginning.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/beginning.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/beginning.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/beginning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/beginning.html"/>
+  </url>
+
+  <!-- Complete Guide -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/complete.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/complete.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/complete.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/complete.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/complete.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/complete.html"/>
+  </url>
+
+  <!-- Search -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/search.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/search.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/search.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/search.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/search.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/search.html"/>
+  </url>
+
+  <!-- VS Code Remote -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/technical/vscode-remote.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/vscode-remote.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/vscode-remote.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/technical/vscode-remote.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/vscode-remote.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/vscode-remote.html"/>
+  </url>
+
+</urlset>

@@ -9,11 +9,11 @@
   --color-bg: #f4f7fa;
   --color-surface: #ffffff;
   --color-text: #2d3748;
-  --color-text-muted: #64748b;
+  --color-text-muted: #57667a;
   --color-border: #e2e8f0;
   --color-header: #00264d;
   --color-footer-bg: #1e293b;
-  --color-footer-text: #94a3b8;
+  --color-footer-text: #b0bec5;
   --color-link: #0056b3;
   --color-menu-bg: #003366;
   --color-alert-bg: #fff3cd;
@@ -69,6 +69,39 @@
   /* Transitions */
   --transition-fast: 0.15s ease;
   --transition-base: 0.25s ease;
+}
+
+/* ===== Dark Theme ===== */
+[data-theme="dark"] {
+  --color-primary: #5b9bd5;
+  --color-primary-hover: #7bb3e0;
+  --color-primary-light: #1a2a3a;
+  --color-primary-dark: #8ec5f0;
+  --color-accent: #ff8c5a;
+  --color-bg: #0f1419;
+  --color-surface: #1a2028;
+  --color-text: #d4dae0;
+  --color-text-muted: #94a3b8;
+  --color-border: #2a3540;
+  --color-header: #0d1117;
+  --color-footer-bg: #0d1117;
+  --color-footer-text: #8899a6;
+  --color-link: #5b9bd5;
+  --color-menu-bg: #151d25;
+  --color-alert-bg: #2a2200;
+  --color-alert-text: #ffd666;
+  --color-alert-border: #4d3d00;
+  --color-example-bg: #1a2a1a;
+  --color-example-text: #9ec89e;
+  --color-example-border: #2a4a2a;
+  --color-search-result-bg: #1a2028;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+  --focus-ring: 0 0 0 3px rgba(91, 155, 213, 0.4);
 }
 
 /* ===== Accessibility ===== */
@@ -327,6 +360,33 @@ button:hover,
   display: flex;
   align-items: center;
   gap: var(--space-sm);
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius-sm);
+  transition: all var(--transition-fast);
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.theme-toggle__icon::before {
+  content: '\263E';
+}
+
+[data-theme="dark"] .theme-toggle__icon::before {
+  content: '\2600';
 }
 
 .topnav__lang {

@@ -7,20 +7,43 @@
   <meta property="og:title" content="Welcome to the Starter Pack">
   <meta property="og:description" content="Useful information for new CERN employees about legal, tax, and technical tools.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://test.efrenrodriguezrodriguez.com/en/index.html">
+  <meta property="og:url" content="https://starter-pack.efrenrodriguezrodriguez.com/en/index.html">
   <meta property="og:locale" content="en_US">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
   <meta name="twitter:title" content="Welcome to the Starter Pack">
   <meta name="twitter:description" content="Useful information for new CERN employees about legal, tax, and technical tools.">
-  <link rel="canonical" href="https://test.efrenrodriguezrodriguez.com/en/index.html">
-  <link rel="alternate" hreflang="es" href="https://test.efrenrodriguezrodriguez.com/es/index.html">
-  <link rel="alternate" hreflang="en" href="https://test.efrenrodriguezrodriguez.com/en/index.html">
-  <link rel="alternate" hreflang="x-default" href="https://test.efrenrodriguezrodriguez.com/">
+  <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/en/index.html">
+  <link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/index.html">
+  <link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://starter-pack.efrenrodriguezrodriguez.com/">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <title>CERN Starter Pack</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/styles.css">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "CERN Starter Pack",
+    "url": "https://starter-pack.efrenrodriguezrodriguez.com/en/index.html",
+    "inLanguage": "en",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://starter-pack.efrenrodriguezrodriguez.com/en/search.html?query={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -38,12 +61,12 @@
     <div class="container">
       <div class="card-grid">
         <a href="legal-hub.html" class="card" data-i18n-href="card_legal_href">
-          <div class="card__icon">&#9878;</div>
+          <div class="card__icon" aria-hidden="true">&#9878;</div>
           <h2 class="card__title" data-i18n="card_legal_title">Legal & Tax Help</h2>
           <p class="card__desc" data-i18n="card_legal_desc">Guides on taxation, social security, and administrative procedures for CERN employees with ties to Spain.</p>
         </a>
         <a href="technical-hub.html" class="card" data-i18n-href="card_tech_href">
-          <div class="card__icon">&#128736;</div>
+          <div class="card__icon" aria-hidden="true">&#128736;</div>
           <h2 class="card__title" data-i18n="card_tech_title">Technical Help</h2>
           <p class="card__desc" data-i18n="card_tech_desc">Step-by-step tutorials and guides for CERN technical tools, including VS Code Remote and more.</p>
         </a>
@@ -53,7 +76,7 @@
         <h2 class="search-panel__title" data-i18n="search_panel_title">Search articles</h2>
         <form action="search.html" method="get" class="search-box" data-i18n-action="search_action">
           <div class="search-box__input-wrap">
-            <span class="search-box__icon">&#128269;</span>
+            <span class="search-box__icon" aria-hidden="true">&#128269;</span>
             <input type="text" name="query" class="search-box__input" placeholder="Search articles..." required data-i18n-placeholder="search_placeholder">
           </div>
           <button type="submit" class="btn btn--primary" data-i18n="search_button">Search</button>

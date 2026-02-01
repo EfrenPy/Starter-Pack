@@ -1,3 +1,38 @@
+const SAFE_TAGS = new Set(['STRONG', 'EM', 'B', 'I', 'A', 'SPAN']);
+
+function setSafeHTML(el, html) {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  const frag = document.createDocumentFragment();
+  for (const node of Array.from(doc.body.childNodes)) {
+    frag.appendChild(sanitizeNode(node));
+  }
+  el.textContent = '';
+  el.appendChild(frag);
+}
+
+function sanitizeNode(node) {
+  if (node.nodeType === Node.TEXT_NODE) {
+    return document.createTextNode(node.textContent);
+  }
+  if (node.nodeType !== Node.ELEMENT_NODE || !SAFE_TAGS.has(node.tagName)) {
+    return document.createTextNode(node.textContent);
+  }
+  const clean = document.createElement(node.tagName);
+  if (node.tagName === 'A') {
+    const href = node.getAttribute('href') || '';
+    if (/^javascript:/i.test(href.trim())) {
+      return document.createTextNode(node.textContent);
+    }
+    clean.setAttribute('href', href);
+    if (node.hasAttribute('target')) clean.setAttribute('target', node.getAttribute('target'));
+    if (node.hasAttribute('rel')) clean.setAttribute('rel', node.getAttribute('rel'));
+  }
+  for (const child of Array.from(node.childNodes)) {
+    clean.appendChild(sanitizeNode(child));
+  }
+  return clean;
+}
+
 export function applyTranslations(lang, translations) {
   const t = translations[lang];
   if (!t) return;
@@ -13,9 +48,8 @@ export function applyTranslations(lang, translations) {
       }
     }
     if (value !== undefined && value !== null) {
-      // Use innerHTML for keys that contain HTML (e.g. coffee_support with <strong>)
       if (typeof value === 'string' && value.includes('<')) {
-        el.innerHTML = value;
+        setSafeHTML(el, value);
       } else {
         el.textContent = value;
       }
