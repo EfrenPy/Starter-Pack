@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bienvenido al Starter Pack</title>
-  <link rel="stylesheet" href="../styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Buscar articulos en el CERN Starter Pack.">
+  <meta property="og:title" content="Busqueda - CERN Starter Pack">
+  <meta property="og:description" content="Busca articulos sobre temas legales, fiscales y tecnicos para empleados del CERN.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://test.efrenrodriguezrodriguez.com/es/search.html">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Busqueda - CERN Starter Pack">
+  <meta name="twitter:description" content="Busca articulos sobre temas legales, fiscales y tecnicos para empleados del CERN.">
+  <link rel="canonical" href="https://test.efrenrodriguezrodriguez.com/es/search.html">
+  <link rel="alternate" hreflang="es" href="https://test.efrenrodriguezrodriguez.com/es/search.html">
+  <link rel="alternate" hreflang="en" href="https://test.efrenrodriguezrodriguez.com/en/search.html">
+  <title>Busqueda - CERN Starter Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-      <!-- Include the navbar -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
   <div id="navbar-placeholder"></div>
-  <header>
-    <h1>Resultados de búsqueda</h1>
-  </header>
-  <main>
+
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <a href="index.html">Inicio</a>
+    <span class="breadcrumbs__sep">/</span>
+    <span>Busqueda</span>
+  </nav>
+
+  <main id="main-content">
     <div class="container">
-      <p>Introduce tu consulta en el campo de búsqueda para encontrar artículos relevantes.</p>
-      <form action="search.html" method="get" class="search-bar">
-        <input type="text" name="query" placeholder="Buscar artículos..." required>
-        <button type="submit">Buscar</button>
+      <h1>Busqueda</h1>
+      <form action="search.html" method="get" class="search-box">
+        <div class="search-box__input-wrap">
+          <span class="search-box__icon">&#128269;</span>
+          <input type="text" name="query" class="search-box__input" placeholder="Buscar articulos..." required>
+        </div>
+        <button type="submit" class="btn btn--primary">Buscar</button>
       </form>
-    <div id="search-results">
-      <!-- Los resultados de búsqueda se mostrarán aquí -->
+      <div id="search-results"></div>
     </div>
   </main>
-  <div id="coffee-placeholder"></div>
-  <script src="../scripts/search.js"></script>
-    <script src="../scripts/inject.js"></script>
-    <script src="../scripts/navbar.js"></script>
+
+  <div id="footer-placeholder"></div>
+  <script type="module" src="../scripts/pages/search.js"></script>
 </body>
 </html>

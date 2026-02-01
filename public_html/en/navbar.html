@@ -1,21 +1,21 @@
-<header>
-  <nav>
-    <div class="navbar">
-      <button id="menu-toggle">☰ Menu</button>
-      <ul id="menu" class="hidden">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="legal-hub.html">Legal and Tax Help</a></li>
-        <li><a href="#">Technical Help</a></li>
-      </ul>
-      <ul style="float: right;">
-        <li><a href="javascript:void(0)" class="language-switch" data-lang="es">Español</a></li>
-        <li><a href="javascript:void(0)" class="language-switch" data-lang="en">English</a></li>
-        <li>
-          <a href="https://www.buymeacoffee.com/efrenrguezrguez" target="_blank">
-            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px; width: 108px;">
-          </a>
-        </li>
-      </ul>
+<nav class="topnav" aria-label="Main navigation">
+  <a href="index.html" class="topnav__brand" data-i18n="nav_brand">CERN Starter Pack</a>
+
+  <button class="topnav__toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="topnav-menu">&#9776;</button>
+
+  <div class="topnav__menu" id="topnav-menu">
+    <ul class="topnav__links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="legal-hub.html" data-i18n="nav_legal" data-i18n-href="nav_legal_href">Legal & Tax Help</a></li>
+      <li><a href="technical-hub.html" data-i18n="nav_tech" data-i18n-href="nav_tech_href">Technical Help</a></li>
+    </ul>
+
+    <div class="topnav__actions">
+      <div class="topnav__lang">
+        <button type="button" class="language-switch" data-lang="es">ES</button>
+        <span class="topnav__lang-sep">|</span>
+        <button type="button" class="language-switch" data-lang="en">EN</button>
+      </div>
     </div>
-  </nav>
-</header>
+  </div>
+</nav>

@@ -3,40 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Centro de Ayuda Legal y Fiscal – CERN</title>
-  <link rel="stylesheet" href="../styles.css" />
+  <meta name="description" content="Centro de ayuda legal y fiscal para empleados del CERN con vinculos con Espana.">
+  <meta property="og:title" content="Ayuda Legal y Fiscal - CERN Starter Pack">
+  <meta property="og:description" content="Recursos sobre fiscalidad y seguridad social para empleados del CERN.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://test.efrenrodriguezrodriguez.com/es/legal-hub.html">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ayuda Legal y Fiscal - CERN Starter Pack">
+  <meta name="twitter:description" content="Recursos sobre fiscalidad y seguridad social para empleados del CERN.">
+  <link rel="canonical" href="https://test.efrenrodriguezrodriguez.com/es/legal-hub.html">
+  <link rel="alternate" hreflang="es" href="https://test.efrenrodriguezrodriguez.com/es/legal-hub.html">
+  <link rel="alternate" hreflang="en" href="https://test.efrenrodriguezrodriguez.com/en/legal-hub.html">
+  <title data-i18n="lh_page_title">Centro de Ayuda Legal y Fiscal - CERN Starter Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <div id="navbar-placeholder"></div>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+  <div id="navbar-placeholder"></div>
 
-  <header>
-    <h1>Centro de Ayuda Legal y Fiscal</h1>
-  </header>
+  <nav class="breadcrumbs" aria-label="Migas de pan">
+    <a href="index.html" data-i18n="lh_breadcrumb_home">Inicio</a>
+    <span class="breadcrumbs__sep">/</span>
+    <span data-i18n="lh_breadcrumb_current">Ayuda Legal y Fiscal</span>
+  </nav>
 
-  <div class="container">
-    <p>Este centro reúne los principales recursos sobre fiscalidad y seguridad social para empleados del CERN que residen o tienen vínculos con España. Aquí encontrarás explicaciones claras, guías legales y documentos útiles para entender cómo afecta tu trabajo en el CERN a tus obligaciones fiscales y de cotización.</p>
+  <main id="main-content">
+    <div class="container">
+      <h1 data-i18n="lh_heading">Centro de Ayuda Legal y Fiscal</h1>
+      <p data-i18n="lh_intro">Este centro reune los principales recursos sobre fiscalidad y seguridad social para empleados del CERN que residen o tienen vinculos con Espana.</p>
 
-    <h2>🔎 Secciones disponibles</h2>
-    <ul>
-      <li>
-        <strong><a href="tax_declaration_spain.html">Tributación del Salario del CERN en España</a></strong><br>
-        Explicación completa sobre la exención del IRPF, la aplicación del Protocolo de Privilegios e Inmunidades, y la práctica administrativa española para declarar estos ingresos correctamente.
-      </li>
-      <li>
-        <strong><a href="beginning.html">Guía para Españoles que Comienzan a Trabajar en el CERN</a></strong><br>
-        Documento detallado sobre las opciones de seguridad social (española, suiza, francesa), cobertura médica, declaración de la renta y enlaces útiles para ciudadanos españoles en el CERN.
-      </li>
-      <li>
-        <strong><a href="#">Ejemplos de Declaración y Modelos Usuales</a></strong><br>
-        [En preparación] Plantillas y casos prácticos para cumplimentar el IRPF, Modelo 720, y justificar la exención del salario del CERN.
-      </li>
-    </ul>
+      <div class="card-grid">
+        <a href="tax_declaration_spain.html" class="card">
+          <div class="card__icon">&#128200;</div>
+          <h2 class="card__title" data-i18n="lh_card_tax_title">Tributacion del Salario del CERN en Espana</h2>
+          <p class="card__desc" data-i18n="lh_card_tax_desc">Explicacion completa sobre la exencion del IRPF, la aplicacion del Protocolo de Privilegios e Inmunidades, y la practica administrativa espanola.</p>
+        </a>
+        <a href="beginning.html" class="card">
+          <div class="card__icon">&#128218;</div>
+          <h2 class="card__title" data-i18n="lh_card_beginning_title">Guia para Espanoles que Comienzan en el CERN</h2>
+          <p class="card__desc" data-i18n="lh_card_beginning_desc">Documento detallado sobre las opciones de seguridad social, cobertura medica, declaracion de la renta y enlaces utiles.</p>
+        </a>
+        <div class="card card--disabled">
+          <div class="card__icon">&#128196;</div>
+          <h2 class="card__title">
+            <span data-i18n="lh_card_examples_title">Ejemplos de Declaracion y Modelos</span>
+            <span class="badge" data-i18n="lh_badge_coming">Proximamente</span>
+          </h2>
+          <p class="card__desc" data-i18n="lh_card_examples_desc">Plantillas y casos practicos para cumplimentar el IRPF, Modelo 720, y justificar la exencion del salario del CERN.</p>
+        </div>
+      </div>
 
-    <p style="margin-top: 40px;"><strong>🛡 Nota:</strong> Todos los contenidos aquí reunidos tienen carácter informativo. Consulta siempre con un profesional si tienes dudas sobre tu caso concreto.</p>
-  </div>
+      <div class="alert" style="margin-top: var(--space-xl);">
+        <strong>&#128737; Nota:</strong> <span data-i18n="lh_disclaimer">Todos los contenidos aqui reunidos tienen caracter informativo. Consulta siempre con un profesional si tienes dudas sobre tu caso concreto.</span>
+      </div>
+    </div>
+  </main>
 
-  <div id="coffee-placeholder"></div>
-  <script src="../scripts/inject.js"></script>
-  <script src="../scripts/navbar.js"></script>
+  <div id="footer-placeholder"></div>
+  <script type="module" src="../scripts/pages/legal-hub.js"></script>
 </body>
 </html>
