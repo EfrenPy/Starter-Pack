@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta name="view-transition" content="same-origin">
+  <meta name="description" content="Estimate your monthly budget and savings as a CERN employee living in Switzerland or France.">
+  <meta property="og:title" content="Cost of Living Estimator - CERN Starter Pack">
+  <meta property="og:description" content="Estimate your monthly budget and savings as a CERN employee living in Switzerland or France.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://starter-pack.efrenrodriguezrodriguez.com/en/cost-calculator.html">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://starter-pack.efrenrodriguezrodriguez.com/images/og-image.png">
+  <meta name="twitter:title" content="Cost of Living Estimator - CERN Starter Pack">
+  <meta name="twitter:description" content="Estimate your monthly budget and savings as a CERN employee living in Switzerland or France.">
+  <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/en/cost-calculator.html">
+  <link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/cost-calculator.html">
+  <link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/cost-calculator.html">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title data-i18n="calc_page_title">Cost of Living Estimator - CERN Starter Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://starter-pack.efrenrodriguezrodriguez.com/en/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Cost of Living Estimator" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div id="navbar-placeholder"></div>
+
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="index.html" data-i18n="calc_breadcrumb_home">Home</a>
+    <span class="breadcrumbs__sep">/</span>
+    <span data-i18n="calc_breadcrumb_current">Cost of Living Estimator</span>
+  </nav>
+
+  <main id="main-content">
+    <div class="container">
+      <h1 data-i18n="calc_heading">Cost of Living Estimator</h1>
+
+      <div class="alert">
+        <strong>&#9888;&#65039; Disclaimer</strong><br>
+        <p data-i18n="calc_disclaimer">These are rough estimates based on average costs in the Geneva/Pays de Gex area. Actual expenses vary significantly depending on lifestyle, location, and personal choices. Use this tool as a starting point only.</p>
+      </div>
+
+      <form id="calculator-form" class="calculator-form">
+        <fieldset>
+          <legend data-i18n="calc_legend">Your Situation</legend>
+
+          <label for="gross-salary" data-i18n="calc_salary_label">Monthly gross salary (CHF)</label>
+          <input type="number" id="gross-salary" min="3000" max="30000" step="100" value="8000">
+          <p class="hint" data-i18n="calc_salary_hint">CERN Staff: Grade 5 Step 1 ~ CHF 7,200; Grade 8 Step 1 ~ CHF 10,500</p>
+
+          <label for="country" data-i18n="calc_country_label">Country of residence</label>
+          <select id="country">
+            <option value="ch" data-i18n="calc_country_ch">Switzerland</option>
+            <option value="fr" data-i18n="calc_country_fr">France</option>
+          </select>
+
+          <label for="family-size" data-i18n="calc_family_label">Family situation</label>
+          <select id="family-size">
+            <option value="single" data-i18n="calc_family_single">Single</option>
+            <option value="couple" data-i18n="calc_family_couple">Couple (no children)</option>
+            <option value="family-1" data-i18n="calc_family_1">Family (1 child)</option>
+            <option value="family-2" data-i18n="calc_family_2">Family (2+ children)</option>
+          </select>
+        </fieldset>
+
+        <button type="submit" class="btn btn--primary" data-i18n="calc_button">Calculate</button>
+      </form>
+
+      <div id="calculator-results" hidden>
+        <h2 data-i18n="calc_results_title">Estimated Monthly Budget</h2>
+        <div class="calculator-grid">
+          <div class="calculator-card">
+            <h3 data-i18n="calc_income_title">Income</h3>
+            <dl>
+              <dt data-i18n="calc_gross">Gross salary</dt><dd id="res-gross">—</dd>
+              <dt data-i18n="calc_tax">CERN internal tax (~8-12%)</dt><dd id="res-tax">—</dd>
+              <dt data-i18n="calc_chis">CHIS contribution (~3%)</dt><dd id="res-chis">—</dd>
+              <dt data-i18n="calc_pension">Pension contribution (~10%)</dt><dd id="res-pension">—</dd>
+              <dt><strong data-i18n="calc_net">Net take-home</strong></dt><dd id="res-net"><strong>—</strong></dd>
+            </dl>
+          </div>
+          <div class="calculator-card">
+            <h3 data-i18n="calc_expenses_title">Expenses</h3>
+            <dl>
+              <dt data-i18n="calc_rent">Rent</dt><dd id="res-rent">—</dd>
+              <dt data-i18n="calc_groceries">Groceries</dt><dd id="res-groceries">—</dd>
+              <dt data-i18n="calc_transport">Transport</dt><dd id="res-transport">—</dd>
+              <dt data-i18n="calc_convenio">Convenio especial</dt><dd id="res-convenio">—</dd>
+              <dt data-i18n="calc_utilities">Utilities</dt><dd id="res-utilities">—</dd>
+              <dt data-i18n="calc_other">Other / leisure</dt><dd id="res-other">—</dd>
+              <dt><strong data-i18n="calc_total_expenses">Total expenses</strong></dt><dd id="res-total-expenses"><strong>—</strong></dd>
+            </dl>
+          </div>
+          <div class="calculator-card calculator-card--highlight">
+            <h3 data-i18n="calc_savings_title">Estimated Monthly Savings</h3>
+            <p id="res-savings" class="calculator-savings">—</p>
+          </div>
+        </div>
+        <p class="hint" style="margin-top: var(--space-lg);" data-i18n="calc_note">All amounts in CHF. France expenses converted at approximate EUR/CHF rate. Actual costs vary significantly.</p>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script type="module" src="../scripts/pages/cost-calculator.js"></script>
+</body>
+</html>

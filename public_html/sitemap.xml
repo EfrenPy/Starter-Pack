@@ -106,4 +106,148 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/vscode-remote.html"/>
   </url>
 
+  <!-- Modelo 720 -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/modelo-720.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/modelo-720.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/modelo-720.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/modelo-720.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/modelo-720.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/modelo-720.html"/>
+  </url>
+
+  <!-- Return to Spain -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/return-to-spain.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/return-to-spain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/return-to-spain.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/return-to-spain.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/return-to-spain.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/return-to-spain.html"/>
+  </url>
+
+  <!-- Onboarding Checklist -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/checklist.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/checklist.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/checklist.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/checklist.html"/>
+  </url>
+
+  <!-- Housing Guide -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/housing-guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/housing-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/housing-guide.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/housing-guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/housing-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/housing-guide.html"/>
+  </url>
+
+  <!-- Cost Calculator -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/cost-calculator.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/cost-calculator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/cost-calculator.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/cost-calculator.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/cost-calculator.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/cost-calculator.html"/>
+  </url>
+
+  <!-- Kerberos & SSH -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/technical/kerberos-ssh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/kerberos-ssh.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/kerberos-ssh.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/technical/kerberos-ssh.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/kerberos-ssh.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/kerberos-ssh.html"/>
+  </url>
+
+  <!-- ROOT Setup -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/technical/root-setup.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/root-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/root-setup.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/technical/root-setup.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/root-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/root-setup.html"/>
+  </url>
+
+  <!-- GitLab Setup -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/gitlab-setup.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/technical/gitlab-setup.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/gitlab-setup.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html"/>
+  </url>
+
+  <!-- Health Insurance -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/health-insurance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/health-insurance.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/health-insurance.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/health-insurance.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/health-insurance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/health-insurance.html"/>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/faq.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/faq.html"/>
+  </url>
+
+  <!-- CERN IT Basics -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/technical/cern-it-basics.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/cern-it-basics.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/cern-it-basics.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/technical/cern-it-basics.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/cern-it-basics.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/cern-it-basics.html"/>
+  </url>
+
+  <!-- Contribute -->
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/en/contribute.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/contribute.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/contribute.html"/>
+  </url>
+  <url>
+    <loc>https://starter-pack.efrenrodriguezrodriguez.com/es/contribute.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/contribute.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/contribute.html"/>
+  </url>
+
 </urlset>

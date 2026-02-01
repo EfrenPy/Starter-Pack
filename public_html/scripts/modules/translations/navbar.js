@@ -7,6 +7,10 @@ export const navbarTranslations = {
     nav_legal_href: '/es/legal-hub.html',
     nav_tech: 'Ayuda Tecnica',
     nav_tech_href: '/es/technical-hub.html',
+    nav_health: 'Seguro Medico',
+    nav_health_href: '/es/health-insurance.html',
+    nav_faq: 'Preguntas Frecuentes',
+    nav_faq_href: '/es/faq.html',
   },
   en: {
     nav_brand: 'CERN Starter Pack',
@@ -16,5 +20,9 @@ export const navbarTranslations = {
     nav_legal_href: '/en/legal-hub.html',
     nav_tech: 'Technical Help',
     nav_tech_href: '/en/technical-hub.html',
+    nav_health: 'Health Insurance',
+    nav_health_href: '/en/health-insurance.html',
+    nav_faq: 'FAQ',
+    nav_faq_href: '/en/faq.html',
   },
 };

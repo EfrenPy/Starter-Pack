@@ -42,12 +42,12 @@
 
   /* Typography */
   --font-family: 'DM Sans', 'Segoe UI', system-ui, sans-serif;
-  --font-size-xs: 0.75rem;
-  --font-size-sm: clamp(0.8125rem, 0.75rem + 0.2vw, 0.875rem);
-  --font-size-base: clamp(0.875rem, 0.8rem + 0.25vw, 1rem);
-  --font-size-lg: clamp(1rem, 0.9rem + 0.3vw, 1.125rem);
-  --font-size-h2: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
-  --font-size-h1: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+  --font-size-xs: 0.875rem;
+  --font-size-sm: clamp(0.9375rem, 0.85rem + 0.3vw, 1.0625rem);
+  --font-size-base: clamp(1.0625rem, 0.95rem + 0.35vw, 1.1875rem);
+  --font-size-lg: clamp(1.1875rem, 1.05rem + 0.4vw, 1.3125rem);
+  --font-size-h2: clamp(1.4375rem, 1.25rem + 0.6vw, 1.75rem);
+  --font-size-h1: clamp(1.75rem, 1.4rem + 1.2vw, 2.375rem);
   --font-size-hero: clamp(2rem, 1.5rem + 1.5vw, 2.75rem);
   --font-weight-normal: 400;
   --font-weight-medium: 500;
@@ -913,11 +913,16 @@ details[open] .accordion-title::before {
   .container.has-toc {
     display: grid;
     grid-template-columns: 1fr 240px;
-    gap: var(--space-xl);
+    column-gap: var(--space-xl);
+    row-gap: 0;
   }
 
   .container.has-toc > h1 {
     grid-column: 1 / -1;
+  }
+
+  .container.has-toc > *:not(.toc) {
+    grid-column: 1;
   }
 
   .toc {
@@ -1109,4 +1114,250 @@ mark {
     font-size: var(--font-size-sm);
     padding: var(--space-sm);
   }
+}
+
+/* ===== Last Updated ===== */
+.last-updated {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-block-start: calc(-1 * var(--space-sm));
+  margin-block-end: var(--space-lg);
+}
+
+.last-updated time {
+  font-weight: 500;
+}
+
+/* ===== Print Bar ===== */
+.print-bar {
+  margin-block-start: var(--space-xl);
+  padding-block-start: var(--space-lg);
+  border-block-start: 1px solid var(--color-border);
+  text-align: center;
+}
+
+@media print {
+  .print-bar { display: none; }
+}
+
+/* ===== Checklist & Timeline ===== */
+.timeline__phase {
+  position: relative;
+  padding-inline-start: var(--space-xl);
+  margin-block-end: var(--space-xl);
+  border-inline-start: 3px solid var(--color-primary);
+}
+
+.timeline__phase::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: -8px;
+  inset-block-start: 0.5em;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+
+.timeline__heading {
+  font-size: var(--font-size-lg);
+  margin-block-end: var(--space-sm);
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+}
+
+.checklist__item {
+  padding: var(--space-xs) 0;
+}
+
+.checklist__item label {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  cursor: pointer;
+}
+
+.checklist__item input[type="checkbox"] {
+  margin-block-start: 0.3em;
+  accent-color: var(--color-primary);
+}
+
+.checklist__item input:checked + span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.checklist-progress {
+  margin-block: var(--space-lg);
+}
+
+.checklist-progress__bar {
+  height: 8px;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm, 4px);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.checklist-progress__fill {
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: var(--radius-sm, 4px);
+  transition: width 0.3s ease;
+  width: 0%;
+}
+
+.checklist-progress__text {
+  display: block;
+  margin-block-start: var(--space-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* ===== Calculator ===== */
+.calculator-form fieldset {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-lg);
+  margin-block-end: var(--space-lg);
+}
+
+.calculator-form legend {
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  padding: 0 var(--space-sm);
+}
+
+.calculator-form label {
+  display: block;
+  font-weight: 600;
+  margin-block: var(--space-sm) var(--space-xs);
+}
+
+.calculator-form input,
+.calculator-form select {
+  width: 100%;
+  padding: var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-base);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+
+.calculator-form .hint {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  margin-block-start: var(--space-xs);
+}
+
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-lg);
+  margin-block-start: var(--space-lg);
+}
+
+.calculator-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-lg);
+}
+
+.calculator-card--highlight {
+  border-color: var(--color-primary);
+  text-align: center;
+}
+
+.calculator-savings {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.calculator-card dl {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-xs) var(--space-md);
+}
+
+.calculator-card dd {
+  text-align: end;
+  margin: 0;
+}
+
+/* ===== Code Blocks ===== */
+pre {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  padding: var(--space-md);
+  overflow-x: auto;
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+
+:not(pre) > code {
+  background: var(--color-primary-light);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+}
+
+/* ===== Comparison Table ===== */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: var(--space-lg);
+  font-size: var(--font-size-sm);
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  text-align: start;
+}
+
+.comparison-table th {
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 600;
+}
+
+.comparison-table tr:nth-child(even) {
+  background: var(--color-bg);
+}
+
+/* ===== Quick Reference Table ===== */
+.quick-ref {
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: var(--space-lg);
+  font-size: var(--font-size-sm);
+}
+
+.quick-ref th,
+.quick-ref td {
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  text-align: start;
+}
+
+.quick-ref th {
+  background: var(--color-bg);
+  font-weight: 600;
+}
+
+.quick-ref code {
+  font-size: 0.85em;
 }
