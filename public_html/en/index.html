@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta name="view-transition" content="same-origin">
   <meta name="description" content="Starter Pack for new CERN employees. Legal, tax, and technical information.">
   <meta property="og:title" content="Welcome to the Starter Pack">
   <meta property="og:description" content="Useful information for new CERN employees about legal, tax, and technical tools.">
@@ -77,7 +79,8 @@
         <form action="search.html" method="get" class="search-box" data-i18n-action="search_action">
           <div class="search-box__input-wrap">
             <span class="search-box__icon" aria-hidden="true">&#128269;</span>
-            <input type="text" name="query" class="search-box__input" placeholder="Search articles..." required data-i18n-placeholder="search_placeholder">
+            <label for="search-input" class="sr-only" data-i18n="search_label">Search articles</label>
+            <input type="text" name="query" id="search-input" class="search-box__input" placeholder="Search articles..." required data-i18n-placeholder="search_placeholder">
           </div>
           <button type="submit" class="btn btn--primary" data-i18n="search_button">Search</button>
         </form>

@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta name="view-transition" content="same-origin">
   <meta name="description" content="Guía completa para españoles que empiezan a trabajar en el CERN: seguridad social, fiscalidad, convenio especial y trámites administrativos.">
   <meta property="og:title" content="Guía para españoles que empiezan a trabajar en el CERN">
   <meta property="og:description" content="Seguridad social, fiscalidad y trámites administrativos para españoles en el CERN.">
@@ -38,7 +40,7 @@
     <section class="container">
     <h1>Guía para españoles que empiezan a trabajar en el CERN (Seguridad Social y Fiscalidad)</h1>
 
-      <div style="background: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 5px; margin-top: 30px;">
+      <div class="alert">
         <strong>⚠️ Aviso Legal</strong><br>
         <p>
           Esta página tiene únicamente fines informativos generales. No constituye asesoramiento legal, fiscal ni financiero. El contenido no es oficial y no debe usarse como sustituto del asesoramiento profesional. Consulta con un experto si tienes dudas sobre tu caso concreto.
@@ -74,15 +76,18 @@
         <p>Con estos preparativos en mente, pasemos a detallar las especificidades de cada escenario: trabajar en el CERN en Suiza vs. en Francia, ya que el país anfitrión puede afectar ciertos requisitos prácticos.</p>
 
         <h2>Escenario 1: Trabajar en el CERN en Suiza (Ginebra)</h2>
-        <div style="display: flex; align-items: center; gap: 20px; margin: 20px 0;">
-          <img src="../images/sat_cern.png"
-               alt="Imagen satelital de la zona del CERN con el anillo de 27 km del LHC"
-               style="max-width: 30%; height: auto;">
+        <figure class="figure-inline">
+          <picture class="figure-inline__media">
+            <source srcset="../images/sat_cern.webp" type="image/webp">
+            <img src="../images/sat_cern.png"
+                 alt="Imagen satelital de la zona del CERN con el anillo de 27 km del LHC"
+                 loading="lazy">
+          </picture>
 
-          <figcaption style="flex: 1; text-align: justify;">
+          <figcaption class="figure-inline__caption">
             <strong>Figura:</strong> Imagen satelital de la zona del CERN, con el anillo de 27 km del Gran Colisionador de Hadrones (círculo amarillo) bajo la frontera franco-suiza cerca de Ginebra. El personal español del CERN en Ginebra se beneficia de su estatus internacional, lo que afecta a sus obligaciones fiscales y de seguridad social.
           </figcaption>
-        </div>
+        </figure>
 
         <h3>Seguridad Social (España & Suiza)</h3>
         <p>Si tu contrato del CERN indica que tu lugar de trabajo es Ginebra (Suiza), recibirás una tarjeta de legitimación suiza (un carnet tipo diplomático para funcionarios internacionales) y no cotizarás a la seguridad social suiza. De hecho, ni tú ni el CERN contribuiréis a ningún sistema nacional de seguridad social (ni suizo ni español) por tu salario – el CERN tiene su propio sistema integral de pensiones y seguros. <strong>Aspectos clave:</strong></p>
@@ -94,7 +99,7 @@
         <p><strong>Cobertura y prestaciones:</strong> Mientras estés en Suiza, tus necesidades cotidianas de seguridad social (atención médica, asignaciones familiares, etc.) las gestiona en gran medida internamente el CERN. Por ejemplo, el CERN concede asignaciones familiares/por hijos y tiene normas internas para permisos de maternidad/paternidad, seguro de invalidez, etc. Esto significa que típicamente no interactuarás con la seguridad social suiza para prestaciones. Si necesitas atención médica en Suiza o Francia, utilizas el seguro médico del CERN (que reembolsa los costes; es posible que también obtengas una tarjeta de seguro emitida por el CERN). Si viajas de visita a España, puedes usar tu cobertura CHIS para atención de urgencia o programada (CHIS podría reembolsarte o podrías recurrir a servicios privados). Ten en cuenta que, como no estás cotizando a la Seguridad Social española (a menos que sea vía convenio), en general no usarías una Tarjeta Sanitaria española como residente (a menos que mantuvieras la residencia en España, cosa poco común). Si suscribiste el convenio especial, tienes derecho a la asistencia sanitaria en España como emigrante, por lo que podrías obtener documentación (un formulario S1 o equivalente) que demuestre que España cubre tu salud mientras resides en el extranjero – sin embargo, dado que el seguro médico del CERN es tu cobertura principal, en la práctica muchos no utilizan el sistema de salud español hasta que regresan a casa. Es bueno saber que firmar el convenio mantiene vivo tu acceso a la sanidad pública española para cuando vuelvas.</p>
         <p><strong>Estancia corta vs larga – consideraciones:</strong> Para asignaciones en Ginebra de menos de ~2 años, puede parecer que el convenio especial es opcional – en una beca breve, algunos eligen no pagar ~288 € al mes y aceptar una pequeña laguna en las cotizaciones de pensión. Si planeas volver pronto a España, considera también el desempleo (se aborda más abajo): una estancia corta podría dejarte sin cobertura de paro al regresar, ya que no cotizaste al desempleo español mientras estuviste en el CERN. Para nombramientos más largos o puestos permanentes, mantener las cotizaciones en España puede ser muy importante si planeas jubilarte en España o necesitas asegurar la continuidad de tus derechos de pensión.
 
-        <div style="background: #e2f0cb; color: #556B2F; border: 1px solid #d4edda; padding: 15px; border-radius: 5px; margin-top: 20px; margin-bottom: 20px; text-align: justify;">
+        <div class="example-box">
           <strong>💡 Ejemplo:</strong> <p> María trabajó 5 años en España antes de una beca de 3 años en el CERN en Ginebra. Decidió no suscribir el convenio durante esos 3 años. Cuando regresa a España, sigue teniendo solo 5 años cotizados en la Seguridad Social española (su tiempo en el CERN no cuenta). Necesitará al menos 10 años más de trabajo en España para alcanzar el mínimo de 15 años para una pensión. Si hubiera cotizado mediante el convenio durante el CERN, tendría 8 años en su historial, necesitando 7 años más. En el caso de María, si está segura de que trabajará muchos años en España tras el CERN, podría ahorrarse pagar el convenio; pero si sus planes después del CERN son inciertos, el convenio habría protegido su derecho a pensión.</p>
         </div>
 
@@ -106,7 +111,7 @@
         </ul>
         <p><strong>Resumen:</strong> En Suiza, tu sueldo del CERN solo tributa en origen ante el propio CERN. No pagas IRPF español ni impuesto sobre la renta suizo por ese sueldo, gracias al acuerdo internacional. Esto suele significar un salario neto más alto comparado con un sueldo bruto similar en un trabajo normal (ya que el impuesto interno del CERN suele ser menor que la suma de impuestos nacionales). Ten en cuenta, sin embargo, que no estarás cotizando a los fondos públicos españoles de pensiones ni de desempleo durante este periodo (a menos que lo hagas voluntariamente), como se explicó antes. Es prudente ahorrar una parte de tu salario o cotizar mediante el convenio especial para tu seguridad a largo plazo.</p>
 
-        <div style="background: #e2f0cb; color: #556B2F; border: 1px solid #d4edda; padding: 15px; border-radius: 5px; margin-top: 20px; margin-bottom: 20px; text-align: justify;">
+        <div class="example-box">
           <strong>💡Escenario de ejemplo (Suiza):</strong> <p>
 
           Carlos, un ingeniero junior español, consigue una beca de 2 años en el CERN en Ginebra. Deja su trabajo en España y se muda a Suiza. Así maneja sus obligaciones:
@@ -151,7 +156,7 @@
         </ul>
         <p><strong>Impuesto interno del CERN:</strong> Igual que en Suiza, el CERN deducirá un impuesto interno de tu salario antes de pagártelo. Recibirás cada año el certificado de impuesto interno pagado, que usarás en tu declaración francesa. Este certificado esencialmente mantiene tanto a Francia como a España al margen en materia de impuestos sobre esos ingresos.</p>
 
-        <div style="background: #e2f0cb; color: #556B2F; border: 1px solid #d4edda; padding: 15px; border-radius: 5px; margin-top: 20px; margin-bottom: 20px; text-align: justify;">
+        <div class="example-box">
           <strong>💡Escenario de ejemplo (Francia):</strong> <p>
           Laura, una investigadora española, es contratada como fellow del CERN destinada en Prévessin (Francia). Vive en la cercana localidad de St-Genis-Pouilly.</li>
           <li><strong>Convenio y registro consular: </strong>Ella se inscribe en el convenio especial con la TGSS española para continuar cotizando a la Seguridad Social española mientras está en el CERN. Se registra en el Consulado de España en Lyon (que cubre su región).</li>
