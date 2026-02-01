@@ -2,23 +2,23 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 import { copyFileSync, mkdirSync } from 'fs';
 
-/** Copy runtime-fetched HTML fragments (navbar, footer) into dist */
-function copyComponentFragments() {
-  const fragments = [
-    { src: 'navbar.html', dest: ['navbar.html', 'en/navbar.html', 'es/navbar.html'] },
-    { src: 'footer.html', dest: ['footer.html', 'en/footer.html', 'es/footer.html'] },
-  ];
+/** Copy runtime-fetched HTML fragments and static files into dist */
+function copyStaticFiles() {
   return {
-    name: 'copy-component-fragments',
+    name: 'copy-static-files',
     closeBundle() {
-      for (const frag of fragments) {
-        for (const dest of frag.dest) {
-          const srcDir = dest.includes('/') ? resolve('public_html', dest) : resolve('public_html', frag.src);
-          const destPath = resolve('dist', dest);
-          const destDir = resolve(destPath, '..');
-          mkdirSync(destDir, { recursive: true });
-          copyFileSync(srcDir, destPath);
-        }
+      const copies = [
+        { src: 'components/navbar.html', dest: 'components/navbar.html' },
+        { src: 'components/footer.html', dest: 'components/footer.html' },
+        { src: 'robots.txt', dest: 'robots.txt' },
+        { src: 'sitemap.xml', dest: 'sitemap.xml' },
+        { src: 'favicon.ico', dest: 'favicon.ico' },
+      ];
+      for (const { src, dest } of copies) {
+        const srcPath = resolve('public_html', src);
+        const destPath = resolve('dist', dest);
+        mkdirSync(resolve(destPath, '..'), { recursive: true });
+        copyFileSync(srcPath, destPath);
       }
     },
   };
@@ -33,6 +33,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'public_html/index.html'),
         beginning: resolve(__dirname, 'public_html/beginning.html'),
+        notFound: resolve(__dirname, 'public_html/404.html'),
         enIndex: resolve(__dirname, 'public_html/en/index.html'),
         enBeginning: resolve(__dirname, 'public_html/en/beginning.html'),
         enLegalHub: resolve(__dirname, 'public_html/en/legal-hub.html'),
@@ -52,5 +53,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [copyComponentFragments()],
+  plugins: [copyStaticFiles()],
 });
