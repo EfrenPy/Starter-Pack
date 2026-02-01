@@ -29,6 +29,7 @@ export async function initSearch() {
       'legal-hub.html',
       'tax_declaration_spain.html',
       'technical-hub.html',
+      'technical/vscode-remote.html',
     ];
 
     const parser = new DOMParser();
@@ -55,17 +56,29 @@ export async function initSearch() {
       filtered.forEach((article) => {
         const el = document.createElement('div');
         el.classList.add('search-result');
-        el.innerHTML = `
-          <h3><a href="${article.url}">${article.title}</a></h3>
-          <p>${article.content.substring(0, 200)}...</p>
-        `;
+
+        const h3 = document.createElement('h3');
+        const a = document.createElement('a');
+        a.href = article.url;
+        a.textContent = article.title;
+        h3.appendChild(a);
+
+        const p = document.createElement('p');
+        p.textContent = article.content.substring(0, 200) + '...';
+
+        el.appendChild(h3);
+        el.appendChild(p);
         resultsContainer.appendChild(el);
       });
     } else {
-      resultsContainer.innerHTML = `<p>${noResultsMsg}</p>`;
+      const p = document.createElement('p');
+      p.textContent = noResultsMsg;
+      resultsContainer.appendChild(p);
     }
   } catch (error) {
-    resultsContainer.innerHTML = `<p>${errorMsg}</p>`;
+    const p = document.createElement('p');
+    p.textContent = errorMsg;
+    resultsContainer.appendChild(p);
     console.error('Error searching articles:', error);
   }
 }
