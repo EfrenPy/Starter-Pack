@@ -9,69 +9,37 @@ export const onSiteServicesTranslations = {
     oss_alert:
       'Los horarios y la disponibilidad de los servicios en el campus del CERN pueden cambiar. Consulta siempre el directorio interno del CERN o ServiceNow para obtener la informacion mas actualizada.',
     oss_restaurants_title: 'Restaurantes y Cafeterias',
-    oss_restaurants_li1:
-      '<strong>Restaurante 1 (R1):</strong> Situado en el sitio de Meyrin, es el restaurante principal del CERN. Ofrece un menu del dia con entrante, plato principal y postre. Abierto para el almuerzo entre semana.',
-    oss_restaurants_li2:
-      '<strong>Restaurante 2 (R2):</strong> Situado en el sitio de Prevessin. Ofrece opciones de menu similares al R1. Conveniente si trabajas en el lado frances del CERN.',
-    oss_restaurants_li3:
-      '<strong>Restaurante 3 (R3):</strong> Un restaurante mas pequeno en el sitio de Meyrin, que a menudo ofrece opciones de comida alternativas o mas ligeras.',
-    oss_restaurants_li4:
-      '<strong>Cafeterias y rincones de cafe:</strong> Varias cafeterias y puntos de cafe estan repartidos por ambos sitios, ofreciendo bocadillos, snacks, cafe y bebidas a lo largo del dia.',
-    oss_restaurants_li5:
-      '<strong>Precios:</strong> Los precios de las comidas oscilan entre aproximadamente EUR 8 y EUR 15, dependiendo de la opcion de menu. El pago se realiza con la tarjeta del CERN (con cargo a tu cuenta) o en efectivo.',
+    oss_restaurants_p1:
+      'La principal opcion gastronomica del CERN es el <strong>Restaurante 1 (R1)</strong>, situado en el sitio de Meyrin. Sirve un menu del dia con entrante, plato principal y postre, y abre para el almuerzo entre semana. Si trabajas en el lado frances, el <strong>Restaurante 2 (R2)</strong> en el sitio de Prevessin ofrece opciones similares. Un tercer restaurante mas pequeno — el <strong>R3</strong> — tambien se encuentra en el sitio de Meyrin y suele ofrecer comidas mas ligeras o alternativas.',
+    oss_restaurants_p2:
+      'Ademas de los restaurantes principales, varias <strong>cafeterias y rincones de cafe</strong> estan repartidos por ambos sitios, sirviendo bocadillos, snacks, cafe y bebidas a lo largo del dia. Los precios de las comidas oscilan entre unos <strong>EUR 8 y EUR 15</strong> segun lo que elijas, y puedes pagar con tu tarjeta del CERN (con cargo a tu cuenta) o en efectivo.',
     oss_medical_title: 'Servicio Medico del CERN',
-    oss_medical_li1:
-      '<strong>Ubicacion:</strong> Edificio 57 en el sitio de Meyrin. El servicio medico ofrece consultas generales, evaluaciones de salud laboral, vacunas y primeros auxilios.',
-    oss_medical_li2:
-      '<strong>Horario de apertura:</strong> De lunes a viernes, 8:00-12:00 y 13:30-17:00. Cerrado fines de semana y dias festivos del CERN.',
-    oss_medical_li3:
-      '<strong>Citas:</strong> Reserva citas a traves de la linea telefonica del servicio medico del CERN o a traves del portal CERN ServiceNow. Se aceptan visitas sin cita para asuntos urgentes.',
-    oss_medical_li4:
-      '<strong>Servicios:</strong> Medicina general, reconocimientos de salud laboral, vacunas para viajes, primeros auxilios y certificados medicos. El servicio no sustituye a un medico personal (medecin traitant).',
+    oss_medical_p1:
+      'El Servicio Medico del CERN se encuentra en el <strong>Edificio 57</strong> del sitio de Meyrin y ofrece consultas generales, evaluaciones de salud laboral, vacunas y primeros auxilios. Abre de <strong>lunes a viernes, de 8:00 a 12:00 y de 13:30 a 17:00</strong>, y esta cerrado los fines de semana y dias festivos del CERN.',
+    oss_medical_p2:
+      'Puedes reservar citas a traves de la linea telefonica del servicio medico o del portal <strong>CERN ServiceNow</strong>, y se aceptan visitas sin cita para asuntos urgentes. El servicio cubre medicina general, reconocimientos de salud laboral, vacunas para viajes, primeros auxilios y certificados medicos. Ten en cuenta que <strong>no sustituye</strong> a un medico personal (<em>medecin traitant</em>).',
     oss_banking_title: 'Banco en el Campus',
-    oss_banking_li1:
-      '<strong>Sucursal UBS:</strong> Una sucursal del banco UBS se encuentra en el Edificio 504 del sitio de Meyrin. Ofrece servicios bancarios basicos como consultas de cuenta, transferencias y cambio de divisas.',
-    oss_banking_li2:
-      '<strong>Cajeros automaticos:</strong> Hay cajeros automaticos disponibles en la sucursal de UBS y en otras ubicaciones del sitio de Meyrin.',
-    oss_banking_li3:
-      '<strong>Horario de apertura:</strong> La sucursal de UBS tiene un horario limitado. Consulta el directorio interno del CERN para conocer los horarios actuales, ya que pueden diferir del horario bancario estandar.',
+    oss_banking_p1:
+      'Una <strong>sucursal del banco UBS</strong> funciona en el Edificio 504 del sitio de Meyrin, ofreciendo servicios basicos como consultas de cuenta, transferencias y cambio de divisas. Hay cajeros automaticos disponibles en la sucursal de UBS y en otros puntos del sitio. La sucursal tiene un horario limitado que puede diferir del horario bancario habitual, asi que consulta el directorio interno del CERN para conocer los horarios actuales.',
     oss_post_title: 'Oficina de Correos',
-    oss_post_li1:
-      '<strong>Mostrador de Swiss Post:</strong> Un mostrador de Swiss Post esta disponible en el CERN para enviar y recibir cartas y paquetes. Ofrece servicios postales estandar incluyendo correo certificado y envios internacionales.',
-    oss_post_li2:
-      '<strong>Apartados de correos:</strong> El personal del CERN puede solicitar un apartado de correos en la oficina postal del CERN para recibir correo personal en el trabajo.',
-    oss_post_li3:
-      '<strong>Horario:</strong> La oficina de correos tiene un horario de apertura limitado. Consulta el directorio interno del CERN para conocer los horarios actuales.',
+    oss_post_p1:
+      'Un <strong>mostrador de Swiss Post</strong> en el CERN gestiona el envio y recepcion de cartas y paquetes, incluyendo correo certificado y envios internacionales. El personal del CERN tambien puede solicitar un <strong>apartado de correos</strong> en la oficina postal del campus para recibir correo personal en el trabajo. Como la mayoria de los servicios del campus, la oficina de correos tiene un horario de apertura limitado — consulta el directorio interno del CERN para el horario actual.',
     oss_shop_title: 'Tienda del CERN',
-    oss_shop_li1:
-      '<strong>Ubicacion:</strong> La tienda del CERN esta situada cerca de la recepcion principal en el sitio de Meyrin. Vende productos de merchandising del CERN como camisetas, tazas, libros y recuerdos.',
-    oss_shop_li2:
-      '<strong>Horario de apertura:</strong> La tienda esta abierta durante el horario estandar de visitas. Los horarios pueden variar durante vacaciones y periodos de cierre del CERN.',
+    oss_shop_p1:
+      'La <strong>tienda del CERN</strong> esta situada cerca de la recepcion principal en el sitio de Meyrin y vende productos de merchandising — camisetas, tazas, libros y recuerdos. Esta abierta durante el horario estandar de visitas, aunque los horarios pueden variar durante vacaciones y periodos de cierre del CERN.',
     oss_library_title: 'Biblioteca',
-    oss_library_li1:
-      '<strong>Biblioteca Cientifica del CERN:</strong> Situada en el sitio de Meyrin, la biblioteca ofrece acceso a revistas cientificas, libros, actas de congresos y publicaciones del CERN.',
-    oss_library_li2:
-      '<strong>Espacios de estudio:</strong> La biblioteca ofrece zonas de estudio tranquilas, salas de reunion y estaciones de trabajo informaticas disponibles para todo el personal del CERN.',
-    oss_library_li3:
-      '<strong>Prestamo interbibliotecario:</strong> Si una publicacion no esta disponible localmente, la biblioteca puede solicitarla a traves de acuerdos de prestamo interbibliotecario con instituciones asociadas.',
+    oss_library_p1:
+      'La <strong>Biblioteca Cientifica del CERN</strong> en el sitio de Meyrin ofrece acceso a revistas cientificas, libros, actas de congresos y publicaciones del CERN. Tambien dispone de zonas de estudio tranquilas, salas de reunion y estaciones de trabajo informaticas disponibles para todo el personal del CERN. Si una publicacion no esta disponible localmente, la biblioteca puede obtenerla a traves de acuerdos de <strong>prestamo interbibliotecario</strong> con instituciones asociadas.',
     oss_sports_title: 'Instalaciones Deportivas',
-    oss_sports_li1:
-      '<strong>Gimnasio:</strong> El CERN dispone de un centro de fitness accesible para todo el personal. El acceso requiere una membresia deportiva de la Staff Association.',
-    oss_sports_li2:
-      '<strong>Campo de futbol:</strong> Hay un campo de futbol disponible en el sitio de Meyrin para partidos organizados y uso casual.',
-    oss_sports_li3:
-      '<strong>Circuitos de running:</strong> Hay circuitos de running bien mantenidos alrededor de los sitios de Meyrin y Prevessin, populares entre los corredores de la hora del almuerzo.',
-    oss_sports_li4:
-      '<strong>Clubes deportivos de la Staff Association:</strong> La Staff Association del CERN organiza numerosos clubes deportivos como futbol, tenis, badminton, yoga, escalada, vela y muchos mas. Consulta el sitio web de la Staff Association para ver la lista completa e inscribirte.',
+    oss_sports_p1:
+      'El CERN dispone de un <strong>centro de fitness</strong> abierto a todo el personal, aunque el acceso requiere una membresia deportiva de la Staff Association. Un <strong>campo de futbol</strong> en el sitio de Meyrin esta disponible para partidos organizados y uso casual, y <strong>circuitos de running</strong> bien mantenidos rodean los sitios de Meyrin y Prevessin — muy populares entre los corredores de la hora del almuerzo.',
+    oss_sports_p2:
+      'La <strong>Staff Association del CERN</strong> tambien organiza numerosos clubes deportivos que cubren futbol, tenis, badminton, yoga, escalada, vela y muchos mas. Consulta la web de la Staff Association para ver la lista completa de clubes y los detalles de inscripcion.',
     oss_emergency_title: 'Numeros de Emergencia',
-    oss_emergency_li1:
-      '<strong>Bomberos del CERN (en el campus):</strong> 74444 (interno) — para incendios, accidentes y todas las emergencias en las instalaciones del CERN.',
-    oss_emergency_li2:
-      '<strong>Emergencias del CERN (desde fuera):</strong> +41 22 767 4444 — para contactar con los bomberos del CERN desde un telefono externo.',
-    oss_emergency_li3:
-      '<strong>Numeros de emergencia suizos:</strong> 144 (ambulancia), 117 (policia), 118 (bomberos).',
-    oss_emergency_li4:
-      '<strong>Numeros de emergencia franceses:</strong> 15 (SAMU/medico), 17 (policia), 18 (bomberos), 112 (numero de emergencia europeo, funciona en ambos paises).',
+    oss_emergency_p1:
+      'Para cualquier emergencia en las instalaciones del CERN — incendio, accidentes o urgencias medicas — llama a los <strong>Bomberos del CERN</strong> al <strong>74444</strong> (interno) o al <strong>+41 22 767 4444</strong> desde un telefono externo.',
+    oss_emergency_p2:
+      'Fuera del CERN, los <strong>numeros de emergencia suizos</strong> son el 144 (ambulancia), 117 (policia) y 118 (bomberos). En el lado frances, marca el 15 (SAMU/medico), 17 (policia) o 18 (bomberos). El numero de emergencia europeo <strong>112</strong> funciona en ambos paises.',
     oss_sources_title: 'Fuentes y Enlaces Utiles',
     oss_sources_li1: 'Directorio Interno del CERN',
     oss_sources_li2: 'Staff Association del CERN',
@@ -87,69 +55,37 @@ export const onSiteServicesTranslations = {
     oss_alert:
       'CERN on-site service hours and availability may change. Always check the CERN internal directory or ServiceNow for the latest information.',
     oss_restaurants_title: 'Restaurants & Cafeterias',
-    oss_restaurants_li1:
-      '<strong>Restaurant 1 (R1):</strong> Located on the Meyrin site, this is the main CERN restaurant. It offers a daily menu with starter, main course, and dessert options. Open for lunch on weekdays.',
-    oss_restaurants_li2:
-      '<strong>Restaurant 2 (R2):</strong> Located on the Prevessin site. Offers similar menu options to R1. Convenient if you work on the French side of CERN.',
-    oss_restaurants_li3:
-      '<strong>Restaurant 3 (R3):</strong> A smaller restaurant on the Meyrin site, often offering alternative or lighter meal options.',
-    oss_restaurants_li4:
-      '<strong>Cafeterias and coffee corners:</strong> Several cafeterias and coffee points are spread across both sites, offering sandwiches, snacks, coffee, and drinks throughout the day.',
-    oss_restaurants_li5:
-      '<strong>Prices:</strong> Meal prices range from approximately EUR 8 to EUR 15, depending on the menu choice. Payment is made by CERN badge (charged to your account) or cash.',
+    oss_restaurants_p1:
+      'CERN\'s main dining option is <strong>Restaurant 1 (R1)</strong>, located on the Meyrin site. It serves a daily menu with a starter, main course, and dessert, and is open for lunch on weekdays. If you work on the French side, <strong>Restaurant 2 (R2)</strong> on the Prevessin site offers similar options. A third, smaller restaurant — <strong>R3</strong> — also sits on the Meyrin site and tends to feature lighter or alternative meals.',
+    oss_restaurants_p2:
+      'Beyond the main restaurants, several <strong>cafeterias and coffee corners</strong> are spread across both sites, serving sandwiches, snacks, coffee, and drinks throughout the day. Meal prices typically range from about <strong>EUR 8 to EUR 15</strong> depending on what you choose, and you can pay with your CERN badge (charged to your account) or with cash.',
     oss_medical_title: 'CERN Medical Service',
-    oss_medical_li1:
-      '<strong>Location:</strong> Building 57 on the Meyrin site. The medical service provides general consultations, occupational health assessments, vaccinations, and first aid.',
-    oss_medical_li2:
-      '<strong>Opening hours:</strong> Monday to Friday, 8:00-12:00 and 13:30-17:00. Closed on weekends and CERN holidays.',
-    oss_medical_li3:
-      '<strong>Appointments:</strong> Book appointments through the CERN medical service phone line or via the CERN ServiceNow portal. Walk-ins are possible for urgent matters.',
-    oss_medical_li4:
-      '<strong>Services:</strong> General medicine, occupational health screenings, travel vaccinations, first aid, and medical certificates. The service is not a substitute for a personal doctor (medecin traitant).',
+    oss_medical_p1:
+      'The CERN Medical Service is located in <strong>Building 57</strong> on the Meyrin site and provides general consultations, occupational health assessments, vaccinations, and first aid. It is open <strong>Monday to Friday, 8:00-12:00 and 13:30-17:00</strong>, and closed on weekends and CERN holidays.',
+    oss_medical_p2:
+      'You can book appointments through the medical service phone line or via the <strong>CERN ServiceNow</strong> portal, and walk-ins are accepted for urgent matters. The service covers general medicine, occupational health screenings, travel vaccinations, first aid, and medical certificates. Keep in mind that it is <strong>not a substitute</strong> for a personal doctor (<em>medecin traitant</em>).',
     oss_banking_title: 'Banking on Site',
-    oss_banking_li1:
-      '<strong>UBS branch:</strong> A UBS bank branch is located in Building 504 on the Meyrin site. It offers basic banking services including account inquiries, transfers, and currency exchange.',
-    oss_banking_li2:
-      '<strong>ATMs:</strong> ATMs are available at the UBS branch and at several other locations across the Meyrin site.',
-    oss_banking_li3:
-      '<strong>Opening hours:</strong> The UBS branch has limited hours. Check the CERN internal directory for current opening times, as they may differ from standard bank hours.',
+    oss_banking_p1:
+      'A <strong>UBS bank branch</strong> operates in Building 504 on the Meyrin site, offering basic services such as account inquiries, transfers, and currency exchange. ATMs are available at the UBS branch and at several other spots across the site. The branch keeps limited hours that may differ from standard bank schedules, so check the CERN internal directory for current opening times.',
     oss_post_title: 'Post Office',
-    oss_post_li1:
-      '<strong>Swiss Post counter:</strong> A Swiss Post counter is available at CERN for sending and receiving letters and packages. It offers standard postal services including registered mail and international shipping.',
-    oss_post_li2:
-      '<strong>PO boxes:</strong> CERN personnel can request a PO box at the CERN post office for receiving personal mail at work.',
-    oss_post_li3:
-      '<strong>Hours:</strong> The post office has limited opening hours. Check the CERN internal directory for current times.',
+    oss_post_p1:
+      'A <strong>Swiss Post counter</strong> at CERN handles sending and receiving letters and packages, including registered mail and international shipping. CERN personnel can also request a <strong>PO box</strong> at the on-site post office to receive personal mail at work. Like most on-site services, the post office has limited opening hours — check the CERN internal directory for the current schedule.',
     oss_shop_title: 'CERN Shop',
-    oss_shop_li1:
-      '<strong>Location:</strong> The CERN Shop is located near the main reception on the Meyrin site. It sells branded CERN merchandise including T-shirts, mugs, books, and souvenirs.',
-    oss_shop_li2:
-      '<strong>Opening hours:</strong> The shop is open during standard visit hours. Hours may vary during holidays and CERN shutdown periods.',
+    oss_shop_p1:
+      'The <strong>CERN Shop</strong> sits near the main reception on the Meyrin site and sells branded merchandise — T-shirts, mugs, books, and souvenirs. It is open during standard visit hours, though times may vary during holidays and CERN shutdown periods.',
     oss_library_title: 'Library',
-    oss_library_li1:
-      '<strong>CERN Scientific Library:</strong> Located on the Meyrin site, the library provides access to scientific journals, books, conference proceedings, and CERN publications.',
-    oss_library_li2:
-      '<strong>Study spaces:</strong> The library offers quiet study areas, meeting rooms, and computer workstations available to all CERN personnel.',
-    oss_library_li3:
-      '<strong>Interlibrary loans:</strong> If a publication is not available locally, the library can request it through interlibrary loan agreements with partner institutions.',
+    oss_library_p1:
+      'The <strong>CERN Scientific Library</strong> on the Meyrin site provides access to scientific journals, books, conference proceedings, and CERN publications. It also offers quiet study areas, meeting rooms, and computer workstations available to all CERN personnel. If a publication is not available locally, the library can obtain it through <strong>interlibrary loan</strong> agreements with partner institutions.',
     oss_sports_title: 'Sports Facilities',
-    oss_sports_li1:
-      '<strong>Gym:</strong> CERN has a fitness centre available to all personnel. Access requires a Staff Association sports membership.',
-    oss_sports_li2:
-      '<strong>Football pitch:</strong> A football pitch is available on the Meyrin site for organised games and casual use.',
-    oss_sports_li3:
-      '<strong>Running paths:</strong> Well-maintained running paths are available around both the Meyrin and Prevessin sites, popular with lunchtime joggers.',
-    oss_sports_li4:
-      '<strong>Staff Association sports clubs:</strong> The CERN Staff Association organises numerous sports clubs including football, tennis, badminton, yoga, climbing, sailing, and many more. Check the Staff Association website for the full list and registration.',
+    oss_sports_p1:
+      'CERN has a <strong>fitness centre</strong> open to all personnel, though access requires a Staff Association sports membership. A <strong>football pitch</strong> on the Meyrin site is available for organised games and casual use, and well-maintained <strong>running paths</strong> wind around both the Meyrin and Prevessin sites — popular with lunchtime joggers.',
+    oss_sports_p2:
+      'The <strong>CERN Staff Association</strong> also organises numerous sports clubs covering football, tennis, badminton, yoga, climbing, sailing, and many more. Check the Staff Association website for the full list of clubs and registration details.',
     oss_emergency_title: 'Emergency Numbers',
-    oss_emergency_li1:
-      '<strong>CERN Fire Brigade (on site):</strong> 74444 (internal) — for fire, accidents, and all emergencies on CERN premises.',
-    oss_emergency_li2:
-      '<strong>CERN Emergency (from outside):</strong> +41 22 767 4444 — to reach the CERN Fire Brigade from an external phone.',
-    oss_emergency_li3:
-      '<strong>Swiss emergency numbers:</strong> 144 (ambulance), 117 (police), 118 (fire brigade).',
-    oss_emergency_li4:
-      '<strong>French emergency numbers:</strong> 15 (SAMU/medical), 17 (police), 18 (fire brigade), 112 (European emergency number, works in both countries).',
+    oss_emergency_p1:
+      'For any emergency on CERN premises — fire, accidents, or medical — call the <strong>CERN Fire Brigade</strong> at <strong>74444</strong> (internal) or <strong>+41 22 767 4444</strong> from an external phone.',
+    oss_emergency_p2:
+      'Outside CERN, the <strong>Swiss emergency numbers</strong> are 144 (ambulance), 117 (police), and 118 (fire brigade). On the French side, dial 15 (SAMU/medical), 17 (police), or 18 (fire brigade). The European emergency number <strong>112</strong> works in both countries.',
     oss_sources_title: 'Sources & Useful Links',
     oss_sources_li1: 'CERN Internal Directory',
     oss_sources_li2: 'CERN Staff Association',

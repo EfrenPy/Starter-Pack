@@ -22,14 +22,10 @@ export const modelo720Translations = {
       'Los no residentes en Espana NO necesitan presentar el Modelo 720. Si has trasladado tu residencia fiscal al extranjero, esta declaracion no te afecta.',
     m720_categories_title: 'Las tres categorias',
     m720_categories_p1:
-      'El Modelo 720 agrupa los bienes en el extranjero en tres categorias independientes, cada una con su propio umbral de 50.000 euros:',
-    m720_categories_li1:
-      'Categoria 1 - Cuentas bancarias: Cuentas corrientes, cuentas de ahorro, depositos a plazo y cualquier otra cuenta bancaria en entidades financieras situadas fuera de Espana.',
-    m720_categories_li2:
-      'Categoria 2 - Valores, seguros y rentas: Acciones, fondos de inversion, polizas de seguro de vida y derechos de pension en el extranjero. Para los empleados del CERN, el Fondo de Pensiones del CERN entra en esta categoria.',
-    m720_categories_li3:
-      'Categoria 3 - Bienes inmuebles: Cualquier propiedad (terrenos, edificios, apartamentos) situada fuera de Espana, incluyendo propiedades en Francia o Suiza.',
+      'El Modelo 720 agrupa los bienes en el extranjero en tres categorias independientes, cada una con su propio umbral de 50.000 euros.',
     m720_categories_p2:
+      'La <strong>Categoria 1</strong> comprende las cuentas bancarias: cuentas corrientes, cuentas de ahorro, depositos a plazo y cualquier otra cuenta en entidades financieras situadas fuera de Espana. La <strong>Categoria 2</strong> abarca valores, seguros y rentas, incluyendo acciones, fondos de inversion, polizas de seguro de vida y derechos de pension en el extranjero. Para los empleados del CERN, el <strong>Fondo de Pensiones del CERN</strong> entra en esta categoria. La <strong>Categoria 3</strong> cubre los bienes inmuebles: cualquier propiedad (terrenos, edificios, apartamentos) situada fuera de Espana, incluyendo propiedades en Francia o Suiza.',
+    m720_categories_p3:
       'Cada categoria se evalua de forma independiente. Solo debes declarar las categorias en las que tus activos totales superen los 50.000 euros. Por ejemplo, si tienes 60.000 euros en cuentas bancarias suizas pero solo 30.000 euros en propiedades en Francia, solo declararias la Categoria 1.',
     m720_deadlines_title: 'Plazos de presentacion y reglas de nueva presentacion',
     m720_deadlines_p1:
@@ -38,13 +34,9 @@ export const modelo720Translations = {
       'En anos sucesivos, solo es necesario volver a presentar una categoria si el valor total de los bienes en esa categoria ha aumentado en mas de 20.000 euros respecto a la ultima declaracion presentada para esa categoria.',
     m720_cern_title: 'Consideraciones especificas del CERN',
     m720_cern_p1:
-      'Los empleados del CERN que son residentes fiscales en Espana suelen tener varios tipos de bienes en el extranjero que pueden necesitar ser declarados:',
-    m720_cern_li1:
-      'Cuentas bancarias suizas: Si tienes cuentas en bancos suizos o franceses (p. ej. UBS, Credit Suisse, BNP Paribas) con saldos combinados superiores a 50.000 euros, deben declararse en la Categoria 1.',
-    m720_cern_li2:
-      'Fondo de Pensiones del CERN: Tus derechos acumulados en el Fondo de Pensiones del CERN se consideran generalmente incluidos en la Categoria 2 (valores, seguros y rentas). Cuando el valor acumulado supere los 50.000 euros, debes declararlo.',
-    m720_cern_li3:
-      'Propiedades en Francia o Suiza: Si posees un apartamento o una casa en Francia o Suiza, debe declararse en la Categoria 3 cuando su valor de adquisicion supere los 50.000 euros.',
+      'Los empleados del CERN que son residentes fiscales en Espana suelen tener varios tipos de bienes en el extranjero que pueden necesitar ser declarados.',
+    m720_cern_p2:
+      'Si tienes cuentas en bancos suizos o franceses (p. ej. UBS, Credit Suisse, BNP Paribas) con saldos combinados superiores a 50.000 euros, estas <strong>cuentas bancarias</strong> deben declararse en la Categoria 1. Tus derechos acumulados en el <strong>Fondo de Pensiones del CERN</strong> se consideran generalmente incluidos en la Categoria 2 (valores, seguros y rentas), y cuando el valor acumulado supere los 50.000 euros, debes declararlo. Por ultimo, si posees un apartamento o una casa en Francia o Suiza, este <strong>inmueble en el extranjero</strong> debe declararse en la Categoria 3 cuando su valor de adquisicion supere los 50.000 euros.',
     m720_ecj_title: 'Sentencia del TJUE de 2022',
     m720_ecj_p1:
       'En enero de 2022, el Tribunal de Justicia de la Union Europea (Asunto C-788/19) dictamino que el regimen sancionador asociado al Modelo 720 era desproporcionado y contrario al derecho de la UE. El tribunal considero que las multas y la presuncion de ganancias patrimoniales injustificadas eran excesivas.',
@@ -91,14 +83,10 @@ export const modelo720Translations = {
       'Non-residents of Spain do NOT need to file Modelo 720. If you have transferred your tax residence abroad, this declaration does not apply to you.',
     m720_categories_title: 'The Three Categories',
     m720_categories_p1:
-      'Modelo 720 groups foreign assets into three independent categories, each with its own 50,000 euro threshold:',
-    m720_categories_li1:
-      'Category 1 - Bank accounts: Current accounts, savings accounts, term deposits, and any other bank accounts held at financial institutions located outside Spain.',
-    m720_categories_li2:
-      'Category 2 - Securities, insurance, and annuities: Shares, investment funds, life insurance policies, and pension rights held abroad. For CERN employees, the CERN Pension Fund falls under this category.',
-    m720_categories_li3:
-      'Category 3 - Real estate: Any property (land, buildings, apartments) located outside Spain, including property in France or Switzerland.',
+      'Modelo 720 groups foreign assets into three independent categories, each with its own 50,000 euro threshold.',
     m720_categories_p2:
+      '<strong>Category 1</strong> covers bank accounts: current accounts, savings accounts, term deposits, and any other accounts held at financial institutions located outside Spain. <strong>Category 2</strong> covers securities, insurance, and annuities, including shares, investment funds, life insurance policies, and pension rights held abroad. For CERN employees, the <strong>CERN Pension Fund</strong> falls under this category. <strong>Category 3</strong> covers real estate: any property (land, buildings, apartments) located outside Spain, including property in France or Switzerland.',
+    m720_categories_p3:
       'Each category is evaluated independently. You only need to declare the categories where your total holdings exceed 50,000 euros. For example, if you have 60,000 euros in Swiss bank accounts but only 30,000 euros in French property, you would only declare Category 1.',
     m720_deadlines_title: 'Filing Deadlines & Re-filing Rules',
     m720_deadlines_p1:
@@ -107,13 +95,9 @@ export const modelo720Translations = {
       'In subsequent years, you only need to re-file for a given category if the total value of assets in that category has increased by more than 20,000 euros compared to the last declaration you submitted for that category.',
     m720_cern_title: 'CERN-Specific Considerations',
     m720_cern_p1:
-      'CERN employees who are Spanish tax residents typically have several types of foreign assets that may need to be declared:',
-    m720_cern_li1:
-      'Swiss bank accounts: If you hold accounts at Swiss or French banks (e.g. UBS, Credit Suisse, BNP Paribas) with combined balances exceeding 50,000 euros, these must be declared under Category 1.',
-    m720_cern_li2:
-      'CERN Pension Fund: Your accumulated rights in the CERN Pension Fund are generally considered to fall under Category 2 (securities, insurance, and annuities). When the accumulated value exceeds 50,000 euros, you should declare it.',
-    m720_cern_li3:
-      'French or Swiss property: If you own an apartment or house in France or Switzerland, it must be declared under Category 3 when its acquisition value exceeds 50,000 euros.',
+      'CERN employees who are Spanish tax residents typically have several types of foreign assets that may need to be declared.',
+    m720_cern_p2:
+      'If you hold accounts at Swiss or French banks (e.g. UBS, Credit Suisse, BNP Paribas) with combined balances exceeding 50,000 euros, these <strong>Swiss and French bank accounts</strong> must be declared under Category 1. Your accumulated rights in the <strong>CERN Pension Fund</strong> are generally considered to fall under Category 2 (securities, insurance, and annuities), and when the accumulated value exceeds 50,000 euros, you should declare it. Finally, if you own an apartment or house in France or Switzerland, this <strong>foreign property</strong> must be declared under Category 3 when its acquisition value exceeds 50,000 euros.',
     m720_ecj_title: 'Post-2022 ECJ Ruling',
     m720_ecj_p1:
       'In January 2022, the Court of Justice of the European Union (Case C-788/19) ruled that the penalty regime associated with Modelo 720 was disproportionate and contrary to EU law. The court found that the fines and the presumption of unjustified capital gains were excessive.',
