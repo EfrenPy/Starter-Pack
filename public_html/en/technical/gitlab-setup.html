@@ -21,6 +21,7 @@
   <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html">
   <link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/gitlab-setup.html">
   <link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html">
+  <link rel="alternate" hreflang="x-default" href="https://starter-pack.efrenrodriguezrodriguez.com/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -76,7 +77,7 @@
       <p class="last-updated" data-updated="2026-02"><span data-i18n="gl_last_updated">Last updated:</span> <time datetime="2026-02">February 2026</time></p>
 
       <h2 data-i18n="gl_vs_title">CERN GitLab vs GitHub</h2>
-      <p data-i18n="gl_vs_p1">CERN hosts its own GitLab instance at <a href="https://gitlab.cern.ch" target="_blank" rel="noopener">gitlab.cern.ch</a>. This is the primary platform for version control and collaboration on CERN software projects. Unlike public GitHub, CERN GitLab is integrated with CERN Single Sign-On (SSO) and is accessible to anyone with a CERN computing account.</p>
+      <p data-i18n="gl_vs_p1">CERN hosts its own GitLab instance at <a href="https://gitlab.cern.ch" target="_blank" rel="noopener noreferrer">gitlab.cern.ch</a>. This is the primary platform for version control and collaboration on CERN software projects. Unlike public GitHub, CERN GitLab is integrated with CERN Single Sign-On (SSO) and is accessible to anyone with a CERN computing account.</p>
       <p data-i18n="gl_vs_p2">While many open-source HEP projects also maintain mirrors on GitHub, the authoritative repositories for experiment frameworks, internal tools, and configuration management typically live on CERN GitLab. Your group or experiment will likely require you to use it for day-to-day development.</p>
 
       <h2 data-i18n="gl_auth_title">Authentication Methods</h2>
@@ -95,7 +96,7 @@
       <pre><code>cat ~/.ssh/id_ed25519.pub</code></pre>
       <p data-i18n="gl_sshsetup_p3">Then add it to your CERN GitLab account:</p>
       <ol>
-        <li data-i18n="gl_sshsetup_step1">Go to <a href="https://gitlab.cern.ch/-/user_settings/ssh_keys" target="_blank" rel="noopener">gitlab.cern.ch/-/user_settings/ssh_keys</a></li>
+        <li data-i18n="gl_sshsetup_step1">Go to <a href="https://gitlab.cern.ch/-/user_settings/ssh_keys" target="_blank" rel="noopener noreferrer">gitlab.cern.ch/-/user_settings/ssh_keys</a></li>
         <li data-i18n="gl_sshsetup_step2">Paste your public key into the "Key" field</li>
         <li data-i18n="gl_sshsetup_step3">Give it a descriptive title (e.g., "Laptop - Ubuntu 2026")</li>
         <li data-i18n="gl_sshsetup_step4">Click "Add key"</li>
@@ -163,7 +164,7 @@ test-job:
       <ul>
         <li data-i18n="gl_repo_1"><strong>Experiment frameworks:</strong> Each major experiment (ATLAS, CMS, LHCb, ALICE) has its own GitLab group containing the analysis and reconstruction frameworks. Ask your supervisor for the specific repositories you need.</li>
         <li data-i18n="gl_repo_2"><strong>CERN IT tools:</strong> The <code>cern-it</code> and <code>linuxsupport</code> groups contain infrastructure tools, container images, and system configurations.</li>
-        <li data-i18n="gl_repo_3"><strong>ROOT project:</strong> The ROOT framework itself is developed on GitHub (<a href="https://github.com/root-project/root" target="_blank" rel="noopener">github.com/root-project/root</a>) but many ROOT-based tools and packages live on CERN GitLab.</li>
+        <li data-i18n="gl_repo_3"><strong>ROOT project:</strong> The ROOT framework itself is developed on GitHub (<a href="https://github.com/root-project/root" target="_blank" rel="noopener noreferrer">github.com/root-project/root</a>) but many ROOT-based tools and packages live on CERN GitLab.</li>
         <li data-i18n="gl_repo_4"><strong>Documentation projects:</strong> Many groups maintain their documentation as GitLab Pages sites (using mkdocs, sphinx, or similar). Explore your experiment's docs group for guides and tutorials.</li>
       </ul>
 

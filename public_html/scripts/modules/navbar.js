@@ -22,6 +22,26 @@ export function initNavbar() {
 
   // Highlight the active nav link based on current URL
   highlightActiveLink();
+
+  // Highlight the current language button
+  highlightActiveLanguage();
+
+  // Close mobile menu on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && menu.classList.contains('show')) {
+      menu.classList.remove('show');
+      menu.classList.add('hidden');
+      toggleButton.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
+
+function highlightActiveLanguage() {
+  const lang = document.documentElement.lang || 'en';
+  const buttons = document.querySelectorAll('.topnav__lang button.language-switch');
+  buttons.forEach((btn) => {
+    btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+  });
 }
 
 function highlightActiveLink() {

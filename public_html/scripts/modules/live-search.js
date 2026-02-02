@@ -29,6 +29,13 @@ function setupLiveSearch(input) {
     dropdown.setAttribute('role', 'listbox');
     input.parentElement.style.position = 'relative';
     input.parentElement.appendChild(dropdown);
+
+    const listboxId = 'search-listbox-' + Math.random().toString(36).slice(2, 8);
+    dropdown.id = listboxId;
+    input.setAttribute('role', 'combobox');
+    input.setAttribute('aria-autocomplete', 'list');
+    input.setAttribute('aria-expanded', 'false');
+    input.setAttribute('aria-controls', listboxId);
   }
 
   input.addEventListener('input', () => {
@@ -89,9 +96,10 @@ function setupLiveSearch(input) {
       empty.textContent = lang === 'es' ? 'Sin resultados' : 'No results';
       dropdown.appendChild(empty);
     } else {
-      results.slice(0, 6).forEach((r) => {
+      results.slice(0, 6).forEach((r, i) => {
         const item = document.createElement('div');
         item.className = 'search-dropdown__item';
+        item.id = 'search-option-' + i;
         item.setAttribute('role', 'option');
         const a = document.createElement('a');
         a.href = r.url;
@@ -102,6 +110,7 @@ function setupLiveSearch(input) {
     }
 
     dropdown.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
 
     // Announce result count to screen readers
     const count = results.length;
@@ -149,6 +158,7 @@ function setupLiveSearch(input) {
   function hideResults() {
     if (dropdown) {
       dropdown.hidden = true;
+      input.setAttribute('aria-expanded', 'false');
       dropdown.innerHTML = '';
       activeIndex = -1;
     }
@@ -158,5 +168,6 @@ function setupLiveSearch(input) {
     items.forEach((item, i) => {
       item.classList.toggle('search-dropdown__item--active', i === activeIndex);
     });
+    input.setAttribute('aria-activedescendant', items[activeIndex]?.id || '');
   }
 }

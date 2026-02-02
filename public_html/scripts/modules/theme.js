@@ -14,7 +14,7 @@ export function initTheme() {
 
 function updateToggleLabel(toggle) {
   const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-  const lang = window.location.pathname.includes('/es/') ? 'es' : 'en';
+  const lang = document.documentElement.lang || 'en';
 
   if (lang === 'es') {
     toggle.setAttribute('aria-label', isDark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro');
