@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'">
   <meta name="view-transition" content="same-origin">
   <meta name="description" content="Page not found - CERN Starter Pack">
   <meta property="og:title" content="404 - CERN Starter Pack">
@@ -22,12 +22,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="preload" href="./css/styles.css" as="style">
   <link rel="stylesheet" href="./css/styles.css">
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
-  <div id="navbar-placeholder"></div>
+  <div id="navbar-placeholder" class="component-loading"></div>
 
   <main id="main-content">
     <div class="container" style="text-align: center;">
@@ -56,6 +57,11 @@
           <div class="card__icon" aria-hidden="true">&#9878;</div>
           <h2 class="card__title" data-i18n="nav_legal">Ayuda Legal y Fiscal</h2>
           <p class="card__desc" data-i18n="404_legal_desc">Guias legales y fiscales.</p>
+        </a>
+        <a href="/es/technical-hub.html" class="card" data-i18n-href="nav_tech_href">
+          <div class="card__icon" aria-hidden="true">&#128736;</div>
+          <h2 class="card__title" data-i18n="nav_tech">Ayuda Tecnica</h2>
+          <p class="card__desc" data-i18n="404_tech_desc">Tutoriales y herramientas tecnicas.</p>
         </a>
       </div>
     </div>

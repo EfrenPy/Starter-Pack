@@ -1,6 +1,17 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
 import { copyFileSync, mkdirSync } from 'fs';
+import { execSync } from 'child_process';
+
+/** Build the pre-built search index before bundling */
+function buildSearchIndex() {
+  return {
+    name: 'build-search-index',
+    buildStart() {
+      execSync('node scripts/build-search-index.js', { stdio: 'inherit' });
+    },
+  };
+}
 
 /** Copy runtime-fetched HTML fragments and static files into dist */
 function copyStaticFiles() {
@@ -10,6 +21,11 @@ function copyStaticFiles() {
       const copies = [
         { src: 'components/navbar.html', dest: 'components/navbar.html' },
         { src: 'components/footer.html', dest: 'components/footer.html' },
+        { src: 'sw.js', dest: 'sw.js' },
+        { src: 'offline.html', dest: 'offline.html' },
+        { src: 'images/bmc-button.png', dest: 'images/bmc-button.png' },
+        { src: 'data/search-index-es.json', dest: 'data/search-index-es.json' },
+        { src: 'data/search-index-en.json', dest: 'data/search-index-en.json' },
         { src: 'robots.txt', dest: 'robots.txt' },
         { src: 'sitemap.xml', dest: 'sitemap.xml' },
         { src: 'favicon.ico', dest: 'favicon.ico' },
@@ -117,5 +133,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [copyStaticFiles()],
+  plugins: [buildSearchIndex(), copyStaticFiles()],
 });

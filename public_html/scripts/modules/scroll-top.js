@@ -23,4 +23,12 @@ export function initScrollTop() {
   btn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  // Print button handler (replaces inline onclick)
+  const printBar = document.querySelector('.print-bar');
+  if (printBar) {
+    printBar.addEventListener('click', (e) => {
+      if (e.target.closest('button')) window.print();
+    });
+  }
 }

@@ -51,23 +51,20 @@ function normalize(str) {
     .toLowerCase();
 }
 
-export async function getSearchIndex(language) {
-  const folder = language === 'es' ? '/es/' : '/en/';
-  const cacheKey = folder;
-
-  if (fuseCache[cacheKey]) return fuseCache[cacheKey];
-
-  // Try sessionStorage
-  const stored = sessionStorage.getItem('search-index-' + folder);
-  if (stored) {
-    const articles = JSON.parse(stored);
-    const fuse = buildFuse(articles);
-    fuseCache[cacheKey] = { articles, fuse };
-    return fuseCache[cacheKey];
+async function loadPrebuiltIndex(folder) {
+  const lang = folder === '/es/' ? 'es' : 'en';
+  try {
+    const response = await fetch(`/data/search-index-${lang}.json`);
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
   }
+}
 
+async function loadFromHTML(folder) {
   const parser = new DOMParser();
-  const articles = await Promise.all(
+  return Promise.all(
     HTML_FILES.map(async (file) => {
       const response = await fetch(`${folder}${file}`);
       const html = await response.text();
@@ -79,6 +76,30 @@ export async function getSearchIndex(language) {
       };
     }),
   );
+}
+
+export async function getSearchIndex(language) {
+  const folder = language === 'es' ? '/es/' : '/en/';
+  const cacheKey = folder;
+
+  if (fuseCache[cacheKey]) return fuseCache[cacheKey];
+
+  // Try sessionStorage first
+  const stored = sessionStorage.getItem('search-index-' + folder);
+  if (stored) {
+    const articles = JSON.parse(stored);
+    const fuse = buildFuse(articles);
+    fuseCache[cacheKey] = { articles, fuse };
+    return fuseCache[cacheKey];
+  }
+
+  // Try pre-built JSON index (fast, no HTML parsing)
+  let articles = await loadPrebuiltIndex(folder);
+
+  // Fallback: fetch and parse HTML files at runtime
+  if (!articles) {
+    articles = await loadFromHTML(folder);
+  }
 
   sessionStorage.setItem('search-index-' + folder, JSON.stringify(articles));
   const fuse = buildFuse(articles);

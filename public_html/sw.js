@@ -1,7 +1,8 @@
-const CACHE_NAME = 'cern-starter-pack-v1';
+const CACHE_NAME = 'cern-starter-pack-v2';
+const OFFLINE_URL = '/offline.html';
 const PRECACHE_URLS = [
   '/',
-  '/css/styles.css',
+  OFFLINE_URL,
   '/site.webmanifest',
   '/images/favicon-32x32.png',
   '/images/favicon-16x16.png',
@@ -45,20 +46,37 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
           return response;
         })
-        .catch(() => caches.match(request))
+        .catch(() => caches.match(request).then((cached) => cached || caches.match(OFFLINE_URL)))
     );
     return;
   }
 
-  // Cache-first for static assets (CSS, JS, images)
-  event.respondWith(
-    caches.match(request).then((cached) => {
-      if (cached) return cached;
-      return fetch(request).then((response) => {
-        const clone = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
-        return response;
-      });
-    })
-  );
+  // Hashed assets (Vite output) are immutable — cache-first is safe
+  // Non-hashed assets use stale-while-revalidate
+  const isHashed = /\/assets\/.*-[a-zA-Z0-9]{8,}\.\w+$/.test(url.pathname);
+
+  if (isHashed) {
+    event.respondWith(
+      caches.match(request).then((cached) => {
+        if (cached) return cached;
+        return fetch(request).then((response) => {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+          return response;
+        });
+      })
+    );
+  } else {
+    // Stale-while-revalidate for non-hashed assets
+    event.respondWith(
+      caches.match(request).then((cached) => {
+        const fetchPromise = fetch(request).then((response) => {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+          return response;
+        });
+        return cached || fetchPromise;
+      })
+    );
+  }
 });

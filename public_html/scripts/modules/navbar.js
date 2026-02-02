@@ -19,4 +19,24 @@ export function initNavbar() {
       toggleButton.setAttribute('aria-expanded', 'false');
     }
   });
+
+  // Highlight the active nav link based on current URL
+  highlightActiveLink();
+}
+
+function highlightActiveLink() {
+  const path = window.location.pathname;
+  const links = document.querySelectorAll('.topnav__links a');
+
+  links.forEach((link) => {
+    const href = link.getAttribute('href') || '';
+    // Match exact path or if current page starts with the hub path
+    const isActive =
+      (href === '/' && (path === '/' || path.endsWith('/index.html'))) ||
+      (href !== '/' && path.includes(href.replace(/^\//, '').replace(/\.html$/, '')));
+
+    if (isActive) {
+      link.setAttribute('aria-current', 'page');
+    }
+  });
 }

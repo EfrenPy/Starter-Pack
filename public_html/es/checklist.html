@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://cdn.buymeacoffee.com; connect-src 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'">
   <meta name="view-transition" content="same-origin">
   <meta name="description" content="Checklist interactivo de incorporacion al CERN: sigue tu progreso desde los preparativos previos hasta tu primer ano.">
   <meta property="og:title" content="Checklist de Incorporacion - CERN Starter Pack">
@@ -29,6 +29,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="preload" href="../css/styles.css" as="style">
   <link rel="stylesheet" href="../css/styles.css">
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
   <script type="application/ld+json">
@@ -45,7 +46,7 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "WebPage",
     "headline": "Checklist para Empezar en el CERN",
     "description": "Checklist esencial para nuevos empleados del CERN: documentos, registros, seguros y tareas.",
     "author": { "@type": "Person", "name": "Efrén Rodríguez Rodríguez" },
@@ -59,7 +60,7 @@
 </head>
 <body>
   <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
-  <div id="navbar-placeholder"></div>
+  <div id="navbar-placeholder" class="component-loading"></div>
 
   <nav class="breadcrumbs" aria-label="Migas de pan">
     <a href="index.html" data-i18n="cl_breadcrumb_home">Inicio</a>
@@ -273,7 +274,7 @@
       <button class="btn btn--secondary" id="reset-checklist" data-i18n="cl_reset">Restablecer todo el progreso</button>
 
       <div class="print-bar">
-        <button class="btn btn--secondary" onclick="window.print()" data-i18n="cl_print">&#128424; Imprimir este checklist</button>
+        <button class="btn btn--secondary" data-i18n="cl_print">&#128424; Imprimir este checklist</button>
       </div>
     </div>
   </main>

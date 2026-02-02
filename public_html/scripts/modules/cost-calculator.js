@@ -67,6 +67,8 @@ export function initCostCalculator() {
     document.getElementById('res-savings').textContent = 'CHF ' + fmt(savings);
     document.getElementById('res-savings').style.color = savings >= 0 ? 'var(--color-primary)' : 'var(--color-accent)';
 
-    document.getElementById('calculator-results').hidden = false;
+    const results = document.getElementById('calculator-results');
+    results.hidden = false;
+    results.setAttribute('aria-live', 'polite');
   });
 }
