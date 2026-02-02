@@ -902,8 +902,8 @@ details[open] .accordion-title::before {
 .reading-time {
   display: inline-block;
   font-size: var(--font-size-sm);
-  color: var(--color-text-secondary, #6b7280);
-  background: var(--color-bg-alt, #f3f4f6);
+  color: var(--color-text-muted);
+  background: var(--color-bg);
   padding: 0.15em 0.6em;
   border-radius: 999px;
   margin-block-end: var(--space-md);

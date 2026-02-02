@@ -64,18 +64,24 @@ async function loadPrebuiltIndex(folder) {
 
 async function loadFromHTML(folder) {
   const parser = new DOMParser();
-  return Promise.all(
+  const results = await Promise.all(
     HTML_FILES.map(async (file) => {
-      const response = await fetch(`${folder}${file}`);
-      const html = await response.text();
-      const doc = parser.parseFromString(html, 'text/html');
-      return {
-        title: doc.querySelector('title')?.textContent || '',
-        url: `${folder}${file}`,
-        content: doc.body?.textContent || '',
-      };
+      try {
+        const response = await fetch(`${folder}${file}`);
+        if (!response.ok) return null;
+        const html = await response.text();
+        const doc = parser.parseFromString(html, 'text/html');
+        return {
+          title: doc.querySelector('title')?.textContent || '',
+          url: `${folder}${file}`,
+          content: doc.body?.textContent || '',
+        };
+      } catch {
+        return null;
+      }
     }),
   );
+  return results.filter(Boolean);
 }
 
 export async function getSearchIndex(language) {

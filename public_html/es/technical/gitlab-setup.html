@@ -21,6 +21,7 @@
   <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/gitlab-setup.html">
   <link rel="alternate" hreflang="es" href="https://starter-pack.efrenrodriguezrodriguez.com/es/technical/gitlab-setup.html">
   <link rel="alternate" hreflang="en" href="https://starter-pack.efrenrodriguezrodriguez.com/en/technical/gitlab-setup.html">
+  <link rel="alternate" hreflang="x-default" href="https://starter-pack.efrenrodriguezrodriguez.com/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -76,7 +77,7 @@
       <p class="last-updated" data-updated="2026-02"><span data-i18n="gl_last_updated">Ultima actualizacion:</span> <time datetime="2026-02">Febrero 2026</time></p>
 
       <h2 data-i18n="gl_vs_title">CERN GitLab vs GitHub</h2>
-      <p data-i18n="gl_vs_p1">CERN aloja su propia instancia de GitLab en <a href="https://gitlab.cern.ch" target="_blank" rel="noopener">gitlab.cern.ch</a>. Esta es la plataforma principal para control de versiones y colaboracion en proyectos de software de CERN. A diferencia de GitHub publico, CERN GitLab esta integrado con el inicio de sesion unico (SSO) de CERN y es accesible para cualquier persona con una cuenta de computacion de CERN.</p>
+      <p data-i18n="gl_vs_p1">CERN aloja su propia instancia de GitLab en <a href="https://gitlab.cern.ch" target="_blank" rel="noopener noreferrer">gitlab.cern.ch</a>. Esta es la plataforma principal para control de versiones y colaboracion en proyectos de software de CERN. A diferencia de GitHub publico, CERN GitLab esta integrado con el inicio de sesion unico (SSO) de CERN y es accesible para cualquier persona con una cuenta de computacion de CERN.</p>
       <p data-i18n="gl_vs_p2">Aunque muchos proyectos HEP de codigo abierto tambien mantienen espejos en GitHub, los repositorios oficiales de los frameworks de experimentos, herramientas internas y gestion de configuracion suelen estar en CERN GitLab. Tu grupo o experimento probablemente requerira que lo uses para el desarrollo diario.</p>
 
       <h2 data-i18n="gl_auth_title">Metodos de autenticacion</h2>
@@ -95,7 +96,7 @@
       <pre><code>cat ~/.ssh/id_ed25519.pub</code></pre>
       <p data-i18n="gl_sshsetup_p3">Luego agregala a tu cuenta de CERN GitLab:</p>
       <ol>
-        <li data-i18n="gl_sshsetup_step1">Ve a <a href="https://gitlab.cern.ch/-/user_settings/ssh_keys" target="_blank" rel="noopener">gitlab.cern.ch/-/user_settings/ssh_keys</a></li>
+        <li data-i18n="gl_sshsetup_step1">Ve a <a href="https://gitlab.cern.ch/-/user_settings/ssh_keys" target="_blank" rel="noopener noreferrer">gitlab.cern.ch/-/user_settings/ssh_keys</a></li>
         <li data-i18n="gl_sshsetup_step2">Pega tu clave publica en el campo "Key"</li>
         <li data-i18n="gl_sshsetup_step3">Dale un titulo descriptivo (por ejemplo, "Portatil - Ubuntu 2026")</li>
         <li data-i18n="gl_sshsetup_step4">Haz clic en "Add key"</li>
@@ -163,7 +164,7 @@ test-job:
       <ul>
         <li data-i18n="gl_repo_1"><strong>Frameworks de experimentos:</strong> Cada experimento principal (ATLAS, CMS, LHCb, ALICE) tiene su propio grupo en GitLab que contiene los frameworks de analisis y reconstruccion. Pregunta a tu supervisor por los repositorios especificos que necesitas.</li>
         <li data-i18n="gl_repo_2"><strong>Herramientas de CERN IT:</strong> Los grupos <code>cern-it</code> y <code>linuxsupport</code> contienen herramientas de infraestructura, imagenes de contenedores y configuraciones del sistema.</li>
-        <li data-i18n="gl_repo_3"><strong>Proyecto ROOT:</strong> El framework ROOT se desarrolla en GitHub (<a href="https://github.com/root-project/root" target="_blank" rel="noopener">github.com/root-project/root</a>) pero muchas herramientas y paquetes basados en ROOT estan en CERN GitLab.</li>
+        <li data-i18n="gl_repo_3"><strong>Proyecto ROOT:</strong> El framework ROOT se desarrolla en GitHub (<a href="https://github.com/root-project/root" target="_blank" rel="noopener noreferrer">github.com/root-project/root</a>) pero muchas herramientas y paquetes basados en ROOT estan en CERN GitLab.</li>
         <li data-i18n="gl_repo_4"><strong>Proyectos de documentacion:</strong> Muchos grupos mantienen su documentacion como sitios de GitLab Pages (usando mkdocs, sphinx o similares). Explora el grupo de documentacion de tu experimento para guias y tutoriales.</li>
       </ul>
 

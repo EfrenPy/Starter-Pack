@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -13,10 +13,21 @@
 <body>
   <main id="main-content">
     <div class="container" style="text-align: center;">
-      <h1>You are offline</h1>
-      <p>It looks like you've lost your internet connection. Please check your network and try again.</p>
-      <p><a href="/" class="btn btn--primary">Try again</a></p>
+      <h1 id="offline-heading">Sin conexion</h1>
+      <p id="offline-message">Parece que has perdido la conexion a internet. Comprueba tu red e intentalo de nuevo.</p>
+      <p><a href="/" class="btn btn--primary" id="offline-retry">Intentar de nuevo</a></p>
     </div>
   </main>
+  <script>
+    (function() {
+      var lang = localStorage.getItem('lang') || 'es';
+      if (lang === 'en') {
+        document.documentElement.lang = 'en';
+        document.getElementById('offline-heading').textContent = 'You are offline';
+        document.getElementById('offline-message').textContent = 'It looks like you\'ve lost your internet connection. Please check your network and try again.';
+        document.getElementById('offline-retry').textContent = 'Try again';
+      }
+    })();
+  </script>
 </body>
 </html>
