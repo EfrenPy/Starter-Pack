@@ -1,10 +1,17 @@
 import { fetchHTML } from './fetcher.js';
 
 export async function injectComponent(id, file) {
-  const html = await fetchHTML('/components/' + file);
   const el = document.getElementById(id);
-  if (el && html) {
+  if (!el) return;
+
+  const html = await fetchHTML('/components/' + file);
+  if (html) {
     el.innerHTML = html;
+    el.classList.remove('component-loading');
+    el.classList.add('component-loaded');
+  } else {
+    el.classList.remove('component-loading');
+    el.innerHTML = '<div class="component-error"><a href="/">Home</a></div>';
   }
 }
 

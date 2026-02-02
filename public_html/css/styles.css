@@ -162,6 +162,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 :is(p, .es, .en, ul) {
@@ -434,6 +435,39 @@ main > .container {
 
 .topnav__lang-sep {
   display: none;
+}
+
+/* Active nav link indicator */
+.topnav__links a[aria-current="page"] {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Component injection fade-in */
+.component-loading {
+  min-height: 56px;
+  background: var(--color-header);
+}
+
+.component-loaded {
+  animation: fadeIn 0.2s ease both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Injection error fallback */
+.component-error {
+  text-align: center;
+  padding: var(--space-md);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.component-error a {
+  color: var(--color-link);
 }
 
 /* ===== Hero ===== */
@@ -1060,6 +1094,19 @@ mark {
     border-block-start: 1px solid rgba(255, 255, 255, 0.1);
   }
 
+  .topnav__lang button {
+    padding: 6px 14px;
+  }
+
+  /* Disable card lift on touch devices */
+  .card:hover {
+    transform: none;
+  }
+
+  .card:active {
+    transform: scale(0.98);
+  }
+
   /* Hero mobile */
   .hero {
     padding: var(--space-3xl) var(--space-md);
@@ -1137,8 +1184,12 @@ mark {
   }
 
   main > .container {
+    max-width: 100%;
     box-shadow: none;
     border-radius: 0;
+    background: none;
+    margin: 0;
+    padding: 0.5cm;
   }
 
   a[href]::after {

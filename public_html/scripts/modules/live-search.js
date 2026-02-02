@@ -15,6 +15,13 @@ function setupLiveSearch(input) {
   // Preload search index
   getSearchIndex(lang);
 
+  // Live region for screen reader announcements
+  const liveRegion = document.createElement('div');
+  liveRegion.setAttribute('aria-live', 'polite');
+  liveRegion.setAttribute('aria-atomic', 'true');
+  liveRegion.className = 'sr-only';
+  input.parentElement.appendChild(liveRegion);
+
   if (!isSearchPage) {
     dropdown = document.createElement('div');
     dropdown.className = 'search-dropdown';
@@ -95,6 +102,12 @@ function setupLiveSearch(input) {
     }
 
     dropdown.hidden = false;
+
+    // Announce result count to screen readers
+    const count = results.length;
+    liveRegion.textContent = count === 0
+      ? (lang === 'es' ? 'Sin resultados' : 'No results')
+      : (lang === 'es' ? `${count} resultado${count !== 1 ? 's' : ''}` : `${count} result${count !== 1 ? 's' : ''}`);
   }
 
   function renderInline(results, query) {
