@@ -1,0 +1,58 @@
+---
+layout: layouts/base.njk
+---
+{% include "partials/breadcrumbs.njk" %}
+
+<main id="main-content">
+  <div class="container">
+    {% if dateUpdated %}
+    <p class="last-updated" data-updated="{{ dateUpdated }}">
+      <span>{{ ui[lang].last_updated }}</span>
+      <time datetime="{{ dateUpdated }}">{{ dateUpdated }}</time>
+    </p>
+    {% endif %}
+
+    {{ content | safe }}
+
+    {% if printable !== false %}
+    <div class="print-bar">
+      <button class="btn btn--secondary">{{ ui[lang].print_guide }}</button>
+    </div>
+    {% endif %}
+  </div>
+</main>
+
+{% if breadcrumbs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {% for crumb in breadcrumbs %}
+    {
+      "@type": "ListItem",
+      "position": {{ loop.index }},
+      "name": "{{ crumb.label }}"{% if crumb.url %},
+      "item": "{{ site.url }}{{ crumb.url }}"{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% if datePublished %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "author": { "@type": "Person", "name": "{{ site.author }}" },
+  "publisher": { "@type": "Organization", "name": "{{ site.name }}", "url": "{{ site.url }}" },
+  "datePublished": "{{ datePublished }}",
+  "dateModified": "{{ dateModified or datePublished }}",
+  "inLanguage": "{{ lang }}",
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+}
+</script>
+{% endif %}

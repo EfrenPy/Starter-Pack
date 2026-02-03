@@ -1,0 +1,25 @@
+<nav class="topnav" aria-label="Main navigation">
+  <a href="/{{ lang }}/" class="topnav__brand">{{ site.name }}</a>
+
+  <button class="topnav__toggle" id="menu-toggle" aria-label="{{ ui[lang].toggle_menu }}" aria-expanded="false" aria-controls="topnav-menu">&#9776;</button>
+
+  <div class="topnav__menu" id="topnav-menu">
+    <ul class="topnav__links">
+      <li><a href="/{{ lang }}/">{{ ui[lang].nav_home }}</a></li>
+      {% for item in navigation.main %}
+      <li><a href="/{{ lang }}/{{ item.slug }}/">{{ item[lang] }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <div class="topnav__actions">
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="{{ ui[lang].toggle_dark_mode }}">
+        <span class="theme-toggle__icon" aria-hidden="true"></span>
+      </button>
+      <div class="topnav__lang" role="group" aria-label="Language">
+        {% for l in site.languages %}
+        <a href="{{ page.url | toLang(lang, l.code) }}" class="topnav__lang-option{% if lang == l.code %} active{% endif %}" {% if lang == l.code %}aria-current="true"{% endif %}>{{ l.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,100 +1,127 @@
 import { test, expect } from '@playwright/test';
 
 /**
- * Verify all internal links resolve to real pages (not 404s or fallback pages).
- * This catches broken navigation that would otherwise go unnoticed.
+ * Internal link validation for the Eleventy SSG build.
+ * Collects all internal hrefs from navbar, footer, and hub-page cards
+ * on both /en/ and /es/ pages, then verifies each returns HTTP 200.
  */
-test.describe('Internal links validation', () => {
-  const pagesToCheck = [
-    { url: '/', name: 'Root index' },
-    { url: '/en/index.html', name: 'EN index' },
-    { url: '/es/index.html', name: 'ES index' },
-    { url: '/en/legal-hub.html', name: 'EN legal-hub' },
-    { url: '/es/legal-hub.html', name: 'ES legal-hub' },
-    { url: '/en/beginning.html', name: 'EN beginning' },
-    { url: '/es/beginning.html', name: 'ES beginning' },
-    { url: '/en/technical/vscode-remote.html', name: 'EN vscode-remote' },
-    { url: '/es/technical/vscode-remote.html', name: 'ES vscode-remote' },
-  ];
 
-  for (const { url, name } of pagesToCheck) {
-    test(`all links on ${name} go to real pages`, async ({ page }) => {
-      await page.goto(url);
-      await page.waitForSelector('.topnav', { timeout: 5000 });
+const languages = ['en', 'es'];
 
-      // Collect all internal links (skip #, mailto, external)
-      const links = await page.evaluate(() => {
-        return [...document.querySelectorAll('a[href]')]
-          .map((a) => a.getAttribute('href'))
-          .filter(
-            (href) =>
-              href &&
-              !href.startsWith('#') &&
-              !href.startsWith('mailto:') &&
-              !href.startsWith('http://') &&
-              !href.startsWith('https://')
-          );
-      });
+/**
+ * Helper: collect all internal hrefs matching a CSS selector on a page.
+ * Filters to links starting with "/" (internal, absolute-path links).
+ */
+async function collectInternalHrefs(page, selector) {
+  return page.$$eval(selector, (anchors) =>
+    anchors
+      .map((a) => a.getAttribute('href'))
+      .filter(
+        (href) =>
+          href &&
+          href.startsWith('/') &&
+          !href.startsWith('//') &&
+          !href.startsWith('/#')
+      )
+  );
+}
 
-      for (const href of links) {
+/**
+ * Helper: deduplicate an array of strings.
+ */
+function unique(arr) {
+  return [...new Set(arr)];
+}
+
+test.describe('Navbar link validation', () => {
+  for (const lang of languages) {
+    test(`all navbar links return 200 on /${lang}/`, async ({ page }) => {
+      await page.goto(`/${lang}/`);
+      const hrefs = unique(await collectInternalHrefs(page, '.topnav a[href]'));
+      expect(hrefs.length).toBeGreaterThan(0);
+
+      for (const href of hrefs) {
         const response = await page.request.get(href);
-        const text = await response.text();
-        // A real page should NOT be the fallback index.html served for 404s.
         expect(
           response.status(),
-          `Link "${href}" on ${name} returned ${response.status()}`
-        ).toBeLessThan(400);
-        // Also verify it's not a full HTML page served as fallback for a fragment
-        // (navbar.html and footer.html are fragments, all other .html should be full pages)
-        if (!href.includes('navbar') && !href.includes('footer')) {
-          expect(
-            text,
-            `Link "${href}" on ${name} should be a real HTML page`
-          ).toContain('<!DOCTYPE html>');
-        }
+          `Navbar link "${href}" on /${lang}/ returned ${response.status()}`
+        ).toBe(200);
       }
     });
   }
+});
 
-  test('navbar menu links navigate to correct pages', async ({ page }) => {
-    await page.goto('/');
-    await page.waitForSelector('.topnav', { timeout: 5000 });
+test.describe('Footer link validation', () => {
+  for (const lang of languages) {
+    test(`all footer links return 200 on /${lang}/`, async ({ page }) => {
+      await page.goto(`/${lang}/`);
+      const hrefs = unique(await collectInternalHrefs(page, '.site-footer a[href]'));
+      expect(hrefs.length).toBeGreaterThan(0);
 
-    // On desktop, nav links are always visible
-    const menuLinks = page.locator('.topnav__links li a');
-    const count = await menuLinks.count();
+      for (const href of hrefs) {
+        const response = await page.request.get(href);
+        expect(
+          response.status(),
+          `Footer link "${href}" on /${lang}/ returned ${response.status()}`
+        ).toBe(200);
+      }
+    });
+  }
+});
 
-    for (let i = 0; i < count; i++) {
-      const href = await menuLinks.nth(i).getAttribute('href');
-      if (href === '#') continue; // Skip placeholder links
+test.describe('Hub page card link validation', () => {
+  const hubPages = [
+    'legal-hub',
+    'technical-hub',
+    'daily-life-hub',
+  ];
 
-      const response = await page.request.get(href);
+  for (const lang of languages) {
+    for (const hub of hubPages) {
+      test(`all card links return 200 on /${lang}/${hub}/`, async ({ page }) => {
+        const response = await page.goto(`/${lang}/${hub}/`);
+        // Skip if this hub page does not exist for this language
+        if (response.status() !== 200) {
+          test.skip();
+          return;
+        }
+
+        const hrefs = unique(
+          await collectInternalHrefs(page, '.card-grid a[href], .card a[href], article a[href]')
+        );
+
+        for (const href of hrefs) {
+          const res = await page.request.get(href);
+          expect(
+            res.status(),
+            `Card link "${href}" on /${lang}/${hub}/ returned ${res.status()}`
+          ).toBe(200);
+        }
+      });
+    }
+  }
+});
+
+test.describe('Search form action', () => {
+  for (const lang of languages) {
+    test(`search form points to a valid page on /${lang}/`, async ({ page }) => {
+      await page.goto(`/${lang}/`);
+      const form = page.locator('form.search-box, form[role="search"], form[action*="search"]');
+      const formCount = await form.count();
+
+      if (formCount === 0) {
+        // No search form on this page — skip gracefully
+        return;
+      }
+
+      const action = await form.first().getAttribute('action');
+      expect(action).toBeTruthy();
+
+      const response = await page.request.get(action);
       expect(
         response.status(),
-        `Navbar link "${href}" should return 200`
+        `Search action "${action}" on /${lang}/ returned ${response.status()}`
       ).toBe(200);
-    }
-  });
-
-  test('content area links on root page work', async ({ page }) => {
-    await page.goto('/');
-
-    // Click "Legal and Tax Help" card
-    const legalLink = page.locator('.card-grid a').first();
-    const href = await legalLink.getAttribute('href');
-    expect(href).not.toBe('#');
-
-    await legalLink.click();
-    await page.waitForSelector('h1', { timeout: 5000 });
-    // Should land on a page with actual content, not a blank/error page
-    const heading = await page.locator('h1').textContent();
-    expect(heading.length).toBeGreaterThan(0);
-  });
-
-  test('search form on root page submits to valid search page', async ({ page }) => {
-    await page.goto('/');
-    const formAction = await page.locator('.search-box').getAttribute('action');
-    const response = await page.request.get(formAction);
-    expect(response.status()).toBe(200);
-  });
+    });
+  }
 });

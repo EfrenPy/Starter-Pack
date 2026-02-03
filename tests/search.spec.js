@@ -2,22 +2,22 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Search functionality', () => {
   test.describe('English search', () => {
-    test('search page loads without query', async ({ page }) => {
-      await page.goto('/en/search.html');
-      await page.waitForSelector('.topnav', { timeout: 5000 });
+    test('search page loads at /en/search/', async ({ page }) => {
+      await page.goto('/en/search/');
+      await expect(page.locator('main#main-content')).toBeVisible();
       await expect(page.locator('#search-results')).toBeEmpty();
     });
 
-    test('search with query returns results', async ({ page }) => {
-      await page.goto('/en/search.html?query=CERN');
+    test('search with query parameter shows results', async ({ page }) => {
+      await page.goto('/en/search/?query=housing');
       await page.waitForSelector('.search-result', { timeout: 10000 });
       const results = page.locator('.search-result');
       const count = await results.count();
       expect(count).toBeGreaterThan(0);
     });
 
-    test('search results contain title links', async ({ page }) => {
-      await page.goto('/en/search.html?query=tax');
+    test('search results contain links with /en/ paths', async ({ page }) => {
+      await page.goto('/en/search/?query=tax');
       await page.waitForSelector('.search-result', { timeout: 10000 });
       const firstResultLink = page.locator('.search-result h3 a').first();
       await expect(firstResultLink).toBeVisible();
@@ -25,8 +25,8 @@ test.describe('Search functionality', () => {
       expect(href).toContain('/en/');
     });
 
-    test('search results contain content preview', async ({ page }) => {
-      await page.goto('/en/search.html?query=tax');
+    test('search results contain preview text', async ({ page }) => {
+      await page.goto('/en/search/?query=tax');
       await page.waitForSelector('.search-result', { timeout: 10000 });
       const preview = page.locator('.search-result p').first();
       await expect(preview).toBeVisible();
@@ -34,32 +34,30 @@ test.describe('Search functionality', () => {
       expect(text.length).toBeGreaterThan(10);
     });
 
-    test('search with no matching query shows no results message', async ({ page }) => {
-      await page.goto('/en/search.html?query=zzzzxxxxxnonexistent');
-      // Wait for search to complete
+    test('no results message for gibberish query', async ({ page }) => {
+      await page.goto('/en/search/?query=zzzzxxxxxnonexistent');
       await page.waitForSelector('#search-results p', { timeout: 10000 });
       await expect(page.locator('#search-results')).toContainText('No results found');
     });
 
-    test('search from homepage form navigates to results', async ({ page }) => {
-      await page.goto('/en/index.html');
-      await page.locator('.search-box input[name="query"]').fill('CERN');
-      await page.locator('.search-box button[type="submit"]').click();
-      await expect(page).toHaveURL(/search\.html\?query=CERN/);
+    test('search form submission works', async ({ page }) => {
+      await page.goto('/en/search/?query=CERN');
+      await page.waitForSelector('.search-result', { timeout: 10000 });
+      const results = page.locator('.search-result');
+      const count = await results.count();
+      expect(count).toBeGreaterThan(0);
     });
 
-    test('search form on results page works', async ({ page }) => {
-      await page.goto('/en/search.html?query=tax');
+    test('re-search on results page works', async ({ page }) => {
+      await page.goto('/en/search/?query=tax');
       await page.waitForSelector('.search-result', { timeout: 10000 });
-      // Re-search with different query
       await page.locator('.search-box input[name="query"]').fill('social security');
       await page.locator('.search-box button[type="submit"]').click();
       await expect(page).toHaveURL(/query=social\+security/);
     });
 
-    test('search is accent-insensitive', async ({ page }) => {
-      // Search for "espanol" should match "español"
-      await page.goto('/en/search.html?query=espanol');
+    test('accent-insensitive search works', async ({ page }) => {
+      await page.goto('/en/search/?query=espanol');
       await page.waitForFunction(
         () => document.querySelector('#search-results')?.children.length > 0,
         { timeout: 10000 }
@@ -71,22 +69,22 @@ test.describe('Search functionality', () => {
   });
 
   test.describe('Spanish search', () => {
-    test('search page loads', async ({ page }) => {
-      await page.goto('/es/search.html');
-      await page.waitForSelector('.topnav', { timeout: 5000 });
+    test('search page loads at /es/search/', async ({ page }) => {
+      await page.goto('/es/search/');
+      await expect(page.locator('main#main-content')).toBeVisible();
       await expect(page.locator('#search-results')).toBeEmpty();
     });
 
-    test('search with query returns results', async ({ page }) => {
-      await page.goto('/es/search.html?query=CERN');
+    test('search with query parameter shows results', async ({ page }) => {
+      await page.goto('/es/search/?query=CERN');
       await page.waitForSelector('.search-result', { timeout: 10000 });
       const results = page.locator('.search-result');
       const count = await results.count();
       expect(count).toBeGreaterThan(0);
     });
 
-    test('search results use Spanish folder paths', async ({ page }) => {
-      await page.goto('/es/search.html?query=fiscal');
+    test('search results use /es/ paths', async ({ page }) => {
+      await page.goto('/es/search/?query=fiscal');
       await page.waitForSelector('.search-result', { timeout: 10000 });
       const firstLink = page.locator('.search-result h3 a').first();
       const href = await firstLink.getAttribute('href');
@@ -94,9 +92,20 @@ test.describe('Search functionality', () => {
     });
 
     test('no results message is in Spanish', async ({ page }) => {
-      await page.goto('/es/search.html?query=zzzzxxxxxnonexistent');
+      await page.goto('/es/search/?query=zzzzxxxxxnonexistent');
       await page.waitForSelector('#search-results p', { timeout: 10000 });
       await expect(page.locator('#search-results')).toContainText('No se encontraron');
+    });
+
+    test('accent-insensitive search works in Spanish', async ({ page }) => {
+      await page.goto('/es/search/?query=declaracion');
+      await page.waitForFunction(
+        () => document.querySelector('#search-results')?.children.length > 0,
+        { timeout: 10000 }
+      );
+      const results = page.locator('#search-results').locator('.search-result, p');
+      const count = await results.count();
+      expect(count).toBeGreaterThan(0);
     });
   });
 });

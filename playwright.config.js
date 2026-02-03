@@ -9,7 +9,7 @@ export default defineConfig({
     headless: true,
   },
   webServer: {
-    command: 'npm run dev -- --port 5000',
+    command: 'npx @11ty/eleventy --serve --port 5000',
     port: 5000,
     reuseExistingServer: true,
   },

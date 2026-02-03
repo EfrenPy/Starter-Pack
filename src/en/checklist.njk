@@ -1,0 +1,216 @@
+---
+layout: layouts/page.njk
+title: "Onboarding Checklist - CERN Starter Pack"
+description: "Interactive onboarding checklist for CERN employees: track your progress from pre-move preparations to your first year."
+og:
+  title: "Onboarding Checklist - CERN Starter Pack"
+  description: "Interactive checklist to track your CERN onboarding progress, from 3 months before moving to your first year."
+datePublished: "2025-06-01"
+dateModified: "2026-02-01"
+dateUpdated: "2026-02"
+breadcrumbs:
+  - { label: "Home", url: "/en/" }
+  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
+  - { label: "Onboarding Checklist" }
+extraJs: "/scripts/pages/checklist.js"
+printable: false
+---      <h1>Your CERN Onboarding Checklist</h1>
+
+      <div class="alert">
+        <strong>🔒 Privacy</strong><br>
+        <p>Progress is saved locally in your browser. Nothing is sent to any server.</p>
+      </div>
+
+      <div class="checklist-progress">
+        <div class="checklist-progress__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="checklist-progress__fill"></div>
+        </div>
+        <span class="checklist-progress__text">0 / 25 completed</span>
+      </div>
+
+      <!-- Phase 1 -->
+      <div class="timeline__phase">
+        <h2 class="timeline__heading">3 Months Before Moving</h2>
+        <div class="checklist">
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="convenio-apply">
+              <span>Apply for Convenio Especial with Spanish Social Security</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="consulate-register">
+              <span>Register at the Spanish Consulate (alta consular)</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="gather-documents">
+              <span>Gather key documents (DNI, birth certificates, diplomas, medical records)</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="research-housing">
+              <span>Research housing options (Switzerland vs France)</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="health-insurance-transition">
+              <span>Plan health insurance transition (EHIC, CHIS enrolment timeline)</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 2 -->
+      <div class="timeline__phase">
+        <h2 class="timeline__heading">1 Month Before Moving</h2>
+        <div class="checklist">
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="open-bank-account">
+              <span>Open a Swiss or French bank account (or set up Wise/Revolut)</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="arrange-housing">
+              <span>Arrange housing or book CERN hostel for first weeks</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="book-travel">
+              <span>Book travel and plan move logistics</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="notify-employer">
+              <span>Notify current employer and finalise departure from Spain</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 3 -->
+      <div class="timeline__phase">
+        <h2 class="timeline__heading">First Week at CERN</h2>
+        <div class="checklist">
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="arrival-formalities">
+              <span>Complete CERN arrival formalities (HR, badge, carte de legitimation)</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="register-commune">
+              <span>Register at your commune (Switzerland) or mairie (France)</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="setup-chis">
+              <span>Set up CHIS health insurance and register dependents</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="computing-account">
+              <span>Activate CERN computing account and set up email</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="newcomer-session">
+              <span>Attend the CERN Newcomer Welcome Session</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 4 -->
+      <div class="timeline__phase">
+        <h2 class="timeline__heading">First 3 Months</h2>
+        <div class="checklist">
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="direct-debit-convenio">
+              <span>Set up direct debit for Convenio Especial payments</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="alta-consular">
+              <span>Confirm alta consular at the Spanish Consulate in Geneva</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="local-bank">
+              <span>Open a local bank account if not done yet</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="residence-permit">
+              <span>Obtain residence permit or carte de legitimation</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="kerberos-ssh">
+              <span>Set up Kerberos, SSH keys, and VPN for remote access</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 5 -->
+      <div class="timeline__phase">
+        <h2 class="timeline__heading">First Year</h2>
+        <div class="checklist">
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="french-tax">
+              <span>File French tax return (if residing in France)</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="modelo-720-check">
+              <span>Check Modelo 720 obligation for foreign assets</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="pension-review">
+              <span>Review CERN Pension Fund enrolment and options</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="irpf-spain">
+              <span>Handle Spanish IRPF declaration for the transition year</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="renew-permit">
+              <span>Renew residence permit if needed</span>
+            </label>
+          </div>
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="mandatory-training">
+              <span>Complete CERN mandatory safety and security training</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn btn--secondary" id="reset-checklist">Reset all progress</button>

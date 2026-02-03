@@ -1,0 +1,16 @@
+{
+  "url": "https://starter-pack.efrenrodriguezrodriguez.com",
+  "name": "CERN Starter Pack",
+  "author": "Efrén Rodríguez Rodríguez",
+  "email": "info@efrenrodriguezrodriguez.com",
+  "defaultLang": "es",
+  "languages": [
+    { "code": "es", "label": "ES" },
+    { "code": "en", "label": "EN" }
+  ],
+  "ogImage": "/images/og-image.png",
+  "ogImageWidth": "1200",
+  "ogImageHeight": "630",
+  "themeScript": "(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()",
+  "csp": "default-src 'self'; script-src 'self' 'sha256-GmeXX5UARY9nXjRd+hx7jOOuFmRdKF5ivVRB1Xm6Bkc=' 'sha256-gh4A20BR80Dd5D8WHW5SvzlTD+psoLH801tC4dAI97k='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'"
+}

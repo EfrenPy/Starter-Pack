@@ -1,54 +1,56 @@
 /**
  * Pre-builds search index JSON files from HTML pages.
- * Run during build to avoid runtime HTML fetching/parsing.
+ * Reads from the 11ty dist/ output directory.
+ * Run as an eleventy.after event or standalone.
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const PUBLIC_HTML = resolve(__dirname, '..', 'public_html');
+const DIST = resolve(__dirname, '..', 'dist');
 
-const HTML_FILES = [
-  'beginning.html',
-  'complete.html',
-  'index.html',
-  'legal-hub.html',
-  'tax_declaration_spain.html',
-  'technical-hub.html',
-  'technical/vscode-remote.html',
-  'modelo-720.html',
-  'return-to-spain.html',
-  'checklist.html',
-  'housing-guide.html',
-  'cost-calculator.html',
-  'technical/kerberos-ssh.html',
-  'technical/root-setup.html',
-  'technical/gitlab-setup.html',
-  'health-insurance.html',
-  'faq.html',
-  'technical/cern-it-basics.html',
-  'contribute.html',
-  'daily-life-hub.html',
-  'banking-setup.html',
-  'transportation.html',
-  'cross-border-shopping.html',
-  'childcare-schools.html',
-  'utilities-setup.html',
-  'on-site-services.html',
-  'vehicle-green-plates.html',
-  'language-training.html',
-  'clubs-social.html',
-  'family-support.html',
-  'medical-emergency.html',
-  'permits-registration.html',
-  'cern-taxation.html',
-  'pension-fund.html',
-  'contracts-career.html',
-  'safety-training.html',
-  'access-cards.html',
-  'telework-policy.html',
-  'doctoral-guide.html',
+// 11ty outputs pages as slug/index.html directories
+const PAGE_SLUGS = [
+  'beginning',
+  'complete',
+  'index',
+  'legal-hub',
+  'tax_declaration_spain',
+  'technical-hub',
+  'technical/vscode-remote',
+  'modelo-720',
+  'return-to-spain',
+  'checklist',
+  'housing-guide',
+  'cost-calculator',
+  'technical/kerberos-ssh',
+  'technical/root-setup',
+  'technical/gitlab-setup',
+  'health-insurance',
+  'faq',
+  'technical/cern-it-basics',
+  'contribute',
+  'daily-life-hub',
+  'banking-setup',
+  'transportation',
+  'cross-border-shopping',
+  'childcare-schools',
+  'utilities-setup',
+  'on-site-services',
+  'vehicle-green-plates',
+  'language-training',
+  'clubs-social',
+  'family-support',
+  'medical-emergency',
+  'permits-registration',
+  'cern-taxation',
+  'pension-fund',
+  'contracts-career',
+  'safety-training',
+  'access-cards',
+  'telework-policy',
+  'doctoral-guide',
 ];
 
 function extractText(html) {
@@ -71,13 +73,14 @@ function buildIndex(lang) {
   const folder = lang === 'es' ? 'es' : 'en';
   const articles = [];
 
-  for (const file of HTML_FILES) {
-    const filePath = resolve(PUBLIC_HTML, folder, file);
+  for (const slug of PAGE_SLUGS) {
+    // 11ty generates slug/index.html
+    const filePath = resolve(DIST, folder, slug, 'index.html');
     try {
       const html = readFileSync(filePath, 'utf-8');
       articles.push({
         title: extractTitle(html),
-        url: `/${folder}/${file}`,
+        url: `/${folder}/${slug}/`,
         content: extractText(html),
       });
     } catch {
@@ -91,7 +94,7 @@ function buildIndex(lang) {
 // Build for both languages
 for (const lang of ['es', 'en']) {
   const articles = buildIndex(lang);
-  const outDir = resolve(PUBLIC_HTML, 'data');
+  const outDir = resolve(DIST, 'data');
   mkdirSync(outDir, { recursive: true });
   const outPath = resolve(outDir, `search-index-${lang}.json`);
   writeFileSync(outPath, JSON.stringify(articles));

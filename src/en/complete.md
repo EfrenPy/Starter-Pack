@@ -1,0 +1,167 @@
+---
+layout: layouts/page.njk
+title: "Complete Guide for Spanish Nationals at CERN"
+description: "Comprehensive guide covering legal, administrative, financial, housing, and family topics for Spanish nationals working at CERN."
+og:
+  title: "Complete Guide for Spanish Nationals at CERN"
+  description: "Legal, administrative, and daily life guide for Spaniards at CERN."
+datePublished: "2025-06-01"
+dateModified: "2026-02-01"
+dateUpdated: "2026-02"
+---
+
+<h1>Complete Guide: Legal, Administrative, and Daily Life at CERN</h1>
+
+  <section class="container">
+    <details>
+      <summary class="accordion-title">Legal and Administrative</summary>
+      <h3>Consular Registration</h3>
+      <p>Spaniards residing abroad can register in the Spanish Consular Registry, which facilitates procedures like passport renewal, voting from abroad, or registrations (births, etc.). It is not mandatory for short stays, but if you plan to live long-term in Switzerland or France, registration is recommended. The process is carried out at the Consulate General of Spain in Geneva by presenting a DNI or passport and local residence certificate. Spanish legislation states that consular registration is mandatory for those establishing habitual residence outside Spain.</p>
+
+      <h3>Residence Registration in France/Switzerland</h3>
+      <p>France has no equivalent to Spain's residence registration; registering at the town hall is not mandatory but can help access local services. In contrast, in Switzerland, all foreigners must register with their local commune within strict deadlines. In the Canton of Geneva, arrival must be declared at the Cantonal Population Office (OCPM) within 14 days if staying more than 3 months. EU citizens must also notify local authorities after 3 months in any Schengen country by requesting a "registration certificate" at the town hall.</p>
+      <ul>
+        <li>France: No legal obligation to register, but doing so may help access municipal services.</li>
+        <li>Switzerland (Geneva Canton): Mandatory registration at the municipal office (OCPM) within 14 days if staying over 3 months.</li>
+      </ul>
+
+      <h3>Residence and Work Permits</h3>
+      <p>At CERN, employees receive the Swiss <strong>Carte de légitimation</strong>, issued by CERN and the Swiss DFAE, which serves as a residence permit in Switzerland and allows Schengen travel without a visa. Requirements include having a work contract (&gt;50% time) and an official residence. The carte is extended to direct family members (spouse/partner and children living with the holder). Non-Swiss family members living in France do not automatically receive this card; they must instead apply for a regular Swiss permit if they want to work in Switzerland.</p>
+      <p>As EU citizens, Spaniards living in France can work freely in the EU with their French residence permit. If they work in Geneva, they typically obtain a "G permit" for cross-border workers. In short: if you live in Switzerland with a CERN contract, apply for the Carte de légitimation and Swiss residence permit. If you live in France, you need a French residence permit and the G permit to cross into Switzerland (for you and your family).</p>
+
+      <h3>European Health Insurance Card (EHIC)</h3>
+      <p>Before leaving Spain, it's advisable to apply for the EHIC through Social Security (online or at CAISS). The card is sent to the registered Spanish address and allows access to urgent medical care at low or no cost in EU/EEA countries and Switzerland during temporary stays. However, the EHIC <strong>does not replace</strong> CERN's CHIS health insurance, which provides comprehensive medical coverage in Switzerland and France. In practice, CHIS is your main coverage in the region, while the EHIC is useful for emergencies during travel or before CHIS is activated.</p>
+
+      <h3>Special Agreement with Spanish Social Security</h3>
+      <p>The <strong>special agreement</strong> allows Spanish emigrants to continue contributing voluntarily to Spanish Social Security while working abroad. It helps preserve pension and disability rights in Spain. It can be requested at TGSS (online or in-person) by submitting form TA-0040, DNI, consular certificate, and proof of employment abroad (e.g., residence permit). The minimum contribution in 2024 is about €865 per quarter. The agreement covers retirement, permanent disability, and death/survivor benefits. It is recommended to process this before leaving Spain.</p>
+
+      <h3>Foreign Asset Declaration (Form 720)</h3>
+      <p>Spanish tax residents must submit Form 720 if they hold, as of December 31, foreign assets (bank accounts, securities, real estate, etc.) exceeding €50,000 in total. The declaration is informative only (no payment due) and must be submitted between March 1–31 of the following year. If you work at CERN but are still a Spanish tax resident, check if your balances in Swiss or French accounts or properties exceed this threshold. If not, you are not required to declare them, but you must still report your global income in the Spanish tax return.</p>
+
+      <h3>Tax Return Upon Returning to Spain</h3>
+      <p>The Spanish income tax law considers the full calendar year to determine tax residence. This means if you return to Spain between January and June, you will be considered a resident from January 1 and must declare your global income for that year. If you return after July 1, your tax residence will begin the following year. In other words, there is no pro-rata: you either declare the full year as a resident or only Spanish income if you were not a tax resident that year.</p>
+    </details>
+  </section>
+
+  <section class="container">
+    <details>
+      <summary class="accordion-title">Work and Life at CERN</summary>
+      <h3>Types of Contracts and Status</h3>
+      <p>At CERN, there are mainly two categories of personnel: <strong>Staff</strong> (permanent employees) and <strong>Fellows</strong> (temporary contract researchers or scholars). Both are salaried employees and receive similar benefits (salary, CERN social security, CHIS, pensions, etc.). Staff hold permanent or temporary posts (usually renewable fixed-term contracts up to 8 years or indefinite) and may be promoted internally. Fellows are graduates employed for fixed terms (e.g., 2–3 years) for research projects. Both categories contribute to CERN's health and pension schemes. Meanwhile, <em>associates</em> (users, visiting scientists, interns) have short-term agreements and receive a subsistence allowance instead of a salary. In short: Staff/Fellows = salaried employees; Users/Associates = visiting scientists or students with temporary arrangements.</p>
+
+      <h3>Medical Insurance (CHIS) and Reimbursements</h3>
+      <p>The CHIS (CERN Health Insurance Scheme) covers all principal personnel (Staff, Fellows, and associates). It reimburses most reasonable medical expenses (consultations, hospital stays, medication, etc.) up to certain limits as per CHIS rules. To claim, you must submit form CHIS/F01 along with original paid invoices, medical prescriptions, and proof of payment. It's essential to keep all receipts and invoices, as CHIS reimburses only paid expenses with documentation. Normally, CHIS covers a high percentage (e.g., 80%) of costs based on rates, and 100% in cases of work-related accidents or occupational illnesses.</p>
+
+      <h3>Holidays and Leave</h3>
+      <p>CERN employees (staff or fellows) are entitled to 2.5 working days of vacation per month worked (around 30 days per year). Leave must be requested with prior authorization from a supervisor. It is paid at 100% (no salary or CHIS deductions). However, unpaid special leave (e.g., over 1 month) suspends mandatory CHIS affiliation, so it is advisable to arrange alternative medical coverage during such leave periods.</p>
+
+      <h3>Sick Leave and Accidents</h3>
+      <p>In case of illness, CERN regulations provide 100% salary for the first 365 days of leave and then 66.7% for up to 548 additional days. This is more generous than Spanish Social Security (which pays 60–75% after day 3). For occupational illnesses or work accidents, 100% salary is paid indefinitely. A medical certificate must be submitted upon return, as after the 8th day without justification, the absence is deducted from medical leave. In non-work-related accidents, in addition to CHIS reimbursement, there is a specific CHIS/F02 form. CHIS also covers emergencies, maternity, specialists, etc., according to current regulations.</p>
+
+      <h3>CERN Pension Plan</h3>
+      <p>Both Staff and Fellows must contribute to the CERN Pension Fund. Current rates (for those hired after 2012) are 12.64% of the salary paid by the employee and 18.96% by CERN. After a minimum of 5 years of service, you may be eligible for a retirement pension. The pension is calculated at 1.85% of the average of the last 36 months of salary per year of contribution (maximum ~70% of salary after ~37 years). Early retirement or termination indemnity options exist, but in practice, the plan ensures significant pension benefits after many years of service.</p>
+    </details>
+  </section>
+
+  <section class="container">
+    <details>
+      <summary class="accordion-title">Finance and Banks</summary>
+      <h3>Opening a Bank Account in Switzerland or France</h3>
+      <p>In Switzerland, traditional banks (UBS, Credit Suisse, cantonal banks) usually require Swiss residency and charge high fees. Many expats therefore prefer digital banks: for example, N26 or Revolut allow online accounts in EUR/CHF without living in Switzerland. Some Swiss cantonal banks offer multi-currency accounts for expats, but usually require a Swiss salary and an opening deposit. In France, traditional banks (BNP, Société Générale, etc.) often ask for proof of residence, although online alternatives (Boursorama, ING, Wise) have fewer requirements. Overall, <em>digital banks</em> and neobanks (N26, Revolut, Wise) are convenient for international workers in the area.</p>
+
+      <h3>Transfers and Currency Exchange</h3>
+      <p>Traditional transfers and currency exchanges through banks usually involve hidden fees. Services like Wise and Revolut offer much lower costs. Wise always applies the real interbank exchange rate, charging only a small, transparent fee (~0.4%). Revolut is very convenient, although its free plans charge a fee (e.g., 1% on amounts above €1000/month on weekdays). Both allow managing multiple currencies and offer international cards. In short, for EUR/CHF payments or regular remittances, it's advisable to use Wise or Revolut instead of a conventional bank.</p>
+
+      <h3>Declaration of Foreign Assets</h3>
+      <p>If you are still considered a Spanish tax resident, you must declare in your tax return any income earned abroad. In addition, balances in foreign bank accounts or assets exceeding €50,000 must be reported using Form 720. This includes Swiss or French bank accounts, investments, or properties outside Spain. If you cease to be a Spanish tax resident (e.g., living abroad &gt;183 days), this obligation ends until you return.</p>
+
+      <h3>Wills and International Inheritance</h3>
+      <p>It is advisable to draft wills according to the law of each country where you own property. In Spain, succession is processed by a notary through a deed of inheritance acceptance. In Switzerland, there are statutory shares for spouses and children, and succession is handled by local authorities. If you die in Switzerland leaving assets in Spain, your heirs must present the Swiss certificate of inheritance to a Spanish notary, translated and apostilled. In practice, it is wise to consult a succession lawyer familiar with both jurisdictions. Also, tax obligations must be met: heirs residing in Spain must pay Spanish inheritance tax (form 650) based on the Spanish value, applying credits for taxes paid in Switzerland.</p>
+    </details>
+  </section>
+
+  <section class="container">
+    <details>
+      <summary class="accordion-title">Housing and Daily Life</summary>
+      <h3>Where to Live: Switzerland vs. France</h3>
+      <p>Living in Switzerland (close to CERN) means higher salaries and excellent services, but also very high living costs (housing, food, etc.). In France (Pays de Gex, Annemasse), rents and prices are much lower, while public services (education, health) remain good. Many employees choose to live in France to benefit from cheaper housing and supermarkets (e.g., Leclerc, Lidl FR), in exchange for a longer commute to CERN. In Switzerland, quality of life is excellent and the language barrier is low (Geneva is French-speaking), but living space tends to be small and expensive. There is no one-size-fits-all answer: evaluate costs, transport, and family needs to choose between living in Meyrin (CH) or Pays de Gex (FR).</p>
+
+      <h3>Finding Accommodation</h3>
+      <p>In Switzerland, housing portals such as <em>homegate.ch</em>, <em>immoscout24.ch</em>, <em>comparis.ch</em>, or <em>anibis.ch</em> are commonly used. It's useful to prepare a dossier with a work contract, recent payslips, proof of residence, and references. In Switzerland, a deposit of 1–3 months is typically required. On the French side, portals like <em>seloger.com</em>, <em>leboncoin.fr</em>, or local agencies are used. French landlords may ask for Spanish payslips and proof of residence. Caution: check contracts carefully, as Swiss leases often include mandatory contents and liability insurance.</p>
+
+      <h3>Rental Contracts and Services</h3>
+      <p>In Switzerland, rental contracts are usually signed at the commune or notary office, and a security deposit (usually 2–3 months' rent) is required. It's common to have contents insurance (for furniture) and liability insurance (often required by landlords). In France, after signing the lease, you must register at the local town hall (for taxes and services). In Switzerland, basic services (electricity, gas, water, internet) must be arranged; for example, electricity in Geneva is contracted with SIG. In France, utilities are contracted with companies such as EDF/GDF/Azureva, and internet with providers like Orange, Free, etc. In both countries, a housing tax ("impôt d'habitation" in France) is paid annually. It's advisable to arrange these contracts in advance.</p>
+
+      <h3>Transport to CERN</h3>
+      <p>CERN is well-connected. Urban bus lines (e.g., TPG 66, F, 61, 65) connect Geneva with CERN and Pays de Gex. Tram line 18 will soon connect central Geneva to Meyrin. CERN also operates internal shuttle buses (e.g., from the airport to various CERN sites). Cross-border workers usually obtain the G permit to drive from France to Switzerland without changing tax residency. There are public parking areas and designated spots for people with disabilities on campus. There is no private "parking badge"; general parking follows local signage. Cyclists have access to bike racks at almost all CERN buildings. Tip: request CERN's free multi-transport card to use internal buses, and ask your municipality about cross-border transport subsidies.</p>
+
+      <h3>Shopping and Supermarkets</h3>
+      <p>The cost of living in Switzerland is high. Many residents near CERN shop in France: supermarkets in Ferney (Leclerc, Lidl) or Carrefour (Annemasse) are often cheaper than their Swiss counterparts. In Switzerland, budget chains like Denner, ALDI, or Lidl (Swiss version) are recommended. Local fresh produce markets (e.g., Meyrin market on Saturdays) and factory outlet stores are also worth exploring. For personal mail delivery, CERN does not manage private parcels; many use private P.O. boxes at Swiss or French post offices. CERN's official postal service only handles institutional mail.</p>
+
+      <h3>Healthcare in France</h3>
+      <p>If you live in France, register your family with the French Sécurité Sociale and choose a general practitioner ("médecin traitant") for each member. This is necessary to obtain public health reimbursements. Children can be treated in public or private pediatric clinics; the local Regional Health Agency (ARS) can recommend pediatricians. Spanish associations or consulates may provide lists of bilingual doctors. Note that CERN's CHIS covers your medical expenses in Switzerland/France under its rules; for standard care in France, it's best to register with French social security and obtain the local "Carte Vitale" to access government reimbursement.</p>
+    </details>
+  </section>
+
+  <section class="container">
+    <details>
+      <summary class="accordion-title">Family and Partner</summary>
+      <h3>Dependent Spouse or Partner</h3>
+      <p>The spouse or registered partner of a CERN contract holder can be registered as a "family member" in CHIS if living with the holder. In that case, they are granted a Swiss <em>carte de légitimation</em> similar to the main employee. The family status must be declared in the EDH system and CHIS (using form SHIPID). If the partner lives in France, they do not receive the Swiss carte; instead, they must apply for the appropriate French residence permit (e.g., "carte de séjour de membre de famille de ressortissant UE" for non-EU relatives of an EU citizen). EU citizens (like Spaniards) do not need a visa to live in France but must register at the local town hall. Non-EU partners will need the relevant French visa and residence permit.</p>
+
+      <h3>Schooling for Children</h3>
+      <p>Children can attend public schools for free in both Switzerland and France. In Geneva, compulsory schooling (primary + lower secondary, about 9 years) is in French, and each commune has public schools. In France, public schools are also free and follow the French calendar. There are also nearby international/bilingual schools (e.g., École Lucie Aubrac in Versoix, Collège international de Ferney-Voltaire). For Spanish-language education, the Education Office in Bern offers after-school Spanish Language and Culture courses (AFLS). CERN offers educational support: there is a nursery/school allowance (Education Fees Allowance) that reimburses part of school costs in Switzerland, and the CERN School Fees that cover fees based on internal regulations.</p>
+
+      <h3>Nurseries, Bilingual Schools, and CERN Support</h3>
+      <p>CERN has its own kindergarten ("Le Jardin des Particules") for staff children aged 4 months to 6 years. Additionally, there are 60 reserved places in nearby public nurseries (Meyrin and St-Genis-Pouilly) for children aged 3 months to 4 years, so early registration is advised. As for bilingual schools, France offers public institutions with international sections and there are French or Swiss boarding schools (e.g., École Européenne, Institut Florimont) for instruction in English/French. CERN pays family allowances for each child and an additional parental allowance for children under 3. It also covers part of nursery/school fees with the Education Fees Allowance, subject to rules. It's recommended to consult CERN's Social Affairs office for details on child and education support.</p>
+
+      <h3>Parental and Maternity/Paternity Leave</h3>
+      <p>CERN offers generous maternity and paternity leave. Maternity leave is at least 16 weeks (100% paid), with more time in case of multiple births or complications. Paternity leave is 10 days (100% paid). For adoption, 15 weeks are granted. After mandatory leave, parents may request unpaid parental leave of up to 4 months while retaining benefits such as CHIS. During pregnancy, employees have the right to prenatal exams with full pay and leave. All leave is managed through CERN's Social Affairs office; notify them in advance to plan your leave.</p>
+
+      <h3>Effect on Legal Status of the Partner</h3>
+      <p>Working at CERN can change your partner's migration status. If they live with you in Switzerland, they'll need the appropriate Swiss permit (or the carte de légitimation if cohabiting). If living in France, a Spanish partner does not need a visa but must register at the town hall and obtain the appropriate residence card. To work in Switzerland, an EU partner may need a special "Ci permit" for spouses of international organization members. A non-EU partner will need a work permit (usually L or B) in Switzerland. In France, Spanish partners can work freely; non-EU partners will need a "carte de séjour vie privée et familiale" or similar. In summary, consult local migration authorities to coordinate permits. CERN provides support for obtaining the carte de légitimation and guidance on these procedures.</p>
+    </details>
+  </section>
+
+  <section class="container">
+    <details>
+      <summary class="accordion-title">Community and Useful Resources</summary>
+      <h3>Spanish Associations</h3>
+      <p>In Geneva and the surrounding area, there are several Spanish and Latin American associations that organize cultural events and mutual support networks. There are also active WhatsApp/Telegram groups of Spaniards at CERN (e.g., "Expats CERN"). The Swiss Association of Spaniards (CASW) holds talks and cultural events. The CERN Staff Association and employee clubs usually inform newcomers about gatherings or activities with fellow nationals. Joining sports or social clubs at CERN (sports, languages, art, etc.) is another great way to integrate and network.</p>
+
+      <h3>Welcome Sessions for New Members</h3>
+      <p>CERN has a welcome program for new employees and associates. Each month, a "Welcome Session" is held covering practical information (insurance, payroll, IT security, internal rules). Additionally, broader onboarding sessions are held quarterly to explain how the lab works, staff categories, IT systems, and CERN clubs. These sessions typically include breakfast or networking and are mandatory for new arrivals. They are hosted on Indico and usually coordinated by the Users Office or DAO (Departmental Administrative Officer). Recordings are available if you cannot attend.</p>
+
+      <h3>Internal Events, Clubs, and Activities</h3>
+      <p>The CERN Staff Association organizes around 100 clubs (sports, music, languages, photography, etc.) open to staff and their families. Examples include: Cycling Club, CERN Band, football team, piano lessons, foreign languages, etc. Each club runs its own meetings and internal or external competitions. Large events are also held: the year-end Braderie (internal holiday market), Employee Week, concerts, exhibitions, etc. Check the Staff Association's website and CERN bulletin boards for calendars and upcoming events.</p>
+
+      <h3>Getting Help Internally (Incidents, ServiceNow)</h3>
+      <p>For technical or administrative issues at CERN, use the ServiceNow platform. For IT or connectivity problems, open an "IT Incident" in ServiceNow. For HR, payroll, or leave queries, use "HR Case" in ServiceNow. For facility issues or campus emergencies, call internal number 74444 (CERN Emergencies). For more info, visit CERN's Service Portal or ask your DAO/local admin.</p>
+
+      <h3>Glossary of Terms</h3>
+      <ul>
+        <li><strong>Grade:</strong> Professional level in CERN's pay scale (categories A, B, C, D, etc.) determining base salary.</li>
+        <li><strong>EDH:</strong> "Entraînement des Documents de l'Organisation" – CERN's internal HRIS system for requesting leave, viewing payslips, etc.</li>
+        <li><strong>MARS:</strong> "Manager's Allocation and Reporting System" – Project tracking and time allocation system used by supervisors.</li>
+        <li><strong>TSO:</strong> "Technical Student Orientation" – Induction course for student interns.</li>
+        <li><strong>HCM:</strong> "Human Capital Management" – Internal system for payroll and personnel data (onboarding/offboarding).</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="container">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://sede.seg-social.gob.es/wps/portal/wss" target="_blank" rel="noopener noreferrer">Social Security (Spain)</a> – Official information on the European Health Insurance Card (EHIC).</li>
+      <li><a href="https://www.seg-social.es/descarga/es/43135" target="_blank" rel="noopener noreferrer">General Treasury of Social Security</a> – TA.0040 form for the Special Agreement for emigrants.</li>
+      <li><a href="https://sede.agenciatributaria.gob.es" target="_blank" rel="noopener noreferrer">Spanish Tax Agency</a> – Information on tax residence and income tax (IRPF) obligations.</li>
+      <li><a href="https://www.wolterskluwer.com" target="_blank" rel="noopener noreferrer">Wolters Kluwer</a> – Article explaining Form 720.</li>
+      <li><a href="https://cds.cern.ch/record/1999140" target="_blank" rel="noopener noreferrer">CERN</a> – CHIS Guide (medical reimbursement forms).</li>
+      <li><a href="https://cds.cern.ch/record/2888169" target="_blank" rel="noopener noreferrer">CERN</a> – Staff rules: medical leave and licenses (R II 4.13).</li>
+      <li><a href="https://pensionfund.cern.ch" target="_blank" rel="noopener noreferrer">CERN Pension Fund</a> – Current contributions and retirement calculation.</li>
+      <li><a href="https://n26.com/es-es/blog/como-abrir-una-cuenta-bancaria-en-suiza" target="_blank" rel="noopener noreferrer">N26 Blog</a> – Guide to opening bank accounts in Switzerland (traditional bank fees).</li>
+      <li><a href="https://wise.com/es/pricing/send-money" target="_blank" rel="noopener noreferrer">Wise</a> – Explanation of fees and real mid-market exchange rate.</li>
+      <li><a href="https://help.revolut.com/es-ES/" target="_blank" rel="noopener noreferrer">Revolut</a> – Details on exchange fees by plan (1% after monthly limit).</li>
+      <li><a href="https://www.abogadoensuiza.com/post/lo-imprescindible-sobre-la-partici%C3%B3n-de-la-herencia" target="_blank" rel="noopener noreferrer">Swiss-Spain Lawyer Blog</a> – Information on international inheritance and succession certificates.</li>
+    </ul>
+  </section>

@@ -1,0 +1,80 @@
+---
+layout: layouts/page.njk
+title: "Cost of Living Estimator - CERN Starter Pack"
+description: "Estimate your monthly budget and savings as a CERN employee living in Switzerland or France."
+og:
+  title: "Cost of Living Estimator - CERN Starter Pack"
+  description: "Estimate your monthly budget and savings as a CERN employee living in Switzerland or France."
+datePublished: "2025-06-01"
+dateModified: "2026-02-01"
+dateUpdated: "2026-02"
+breadcrumbs:
+  - { label: "Home", url: "/en/" }
+  - { label: "Cost of Living Estimator" }
+extraJs: "/scripts/pages/cost-calculator.js"
+printable: false
+---      <h1>Cost of Living Estimator</h1>
+
+      <div class="alert">
+        <strong>⚠️ Disclaimer</strong><br>
+        <p>These are rough estimates based on average costs in the Geneva/Pays de Gex area. Actual expenses vary significantly depending on lifestyle, location, and personal choices. Use this tool as a starting point only.</p>
+      </div>
+
+      <form id="calculator-form" class="calculator-form">
+        <fieldset>
+          <legend>Your Situation</legend>
+
+          <label for="gross-salary">Monthly gross salary (CHF)</label>
+          <input type="number" id="gross-salary" min="3000" max="30000" step="100" value="8000">
+          <p class="hint">CERN Staff: Grade 5 Step 1 ~ CHF 7,200; Grade 8 Step 1 ~ CHF 10,500</p>
+
+          <label for="country">Country of residence</label>
+          <select id="country">
+            <option value="ch">Switzerland</option>
+            <option value="fr">France</option>
+          </select>
+
+          <label for="family-size">Family situation</label>
+          <select id="family-size">
+            <option value="single">Single</option>
+            <option value="couple">Couple (no children)</option>
+            <option value="family-1">Family (1 child)</option>
+            <option value="family-2">Family (2+ children)</option>
+          </select>
+        </fieldset>
+
+        <button type="submit" class="btn btn--primary">Calculate</button>
+      </form>
+
+      <div id="calculator-results" hidden="">
+        <h2>Estimated Monthly Budget</h2>
+        <div class="calculator-grid">
+          <div class="calculator-card">
+            <h3>Income</h3>
+            <dl>
+              <dt>Gross salary</dt><dd id="res-gross">—</dd>
+              <dt>CERN internal tax (~8-12%)</dt><dd id="res-tax">—</dd>
+              <dt>CHIS contribution (~3%)</dt><dd id="res-chis">—</dd>
+              <dt>Pension contribution (~10%)</dt><dd id="res-pension">—</dd>
+              <dt><strong>Net take-home</strong></dt><dd id="res-net"><strong>—</strong></dd>
+            </dl>
+          </div>
+          <div class="calculator-card">
+            <h3>Expenses</h3>
+            <dl>
+              <dt>Rent</dt><dd id="res-rent">—</dd>
+              <dt>Groceries</dt><dd id="res-groceries">—</dd>
+              <dt>Transport</dt><dd id="res-transport">—</dd>
+              <dt>Convenio especial</dt><dd id="res-convenio">—</dd>
+              <dt>Utilities</dt><dd id="res-utilities">—</dd>
+              <dt>Other / leisure</dt><dd id="res-other">—</dd>
+              <dt><strong>Total expenses</strong></dt><dd id="res-total-expenses"><strong>—</strong></dd>
+            </dl>
+          </div>
+          <div class="calculator-card calculator-card--highlight">
+            <h3>Estimated Monthly Savings</h3>
+            <p id="res-savings" class="calculator-savings">—</p>
+          </div>
+        </div>
+        <p class="hint" style="margin-top: var(--space-lg);">All amounts in CHF. France expenses converted at approximate EUR/CHF rate. Actual costs vary significantly.</p>
+      </div>

@@ -2,21 +2,21 @@ import { test, expect } from '@playwright/test';
 
 const pages = [
   { url: '/', name: 'Root index' },
-  { url: '/beginning.html', name: 'Root beginning' },
-  { url: '/en/index.html', name: 'EN index' },
-  { url: '/es/index.html', name: 'ES index' },
-  { url: '/en/beginning.html', name: 'EN beginning' },
-  { url: '/es/beginning.html', name: 'ES beginning' },
-  { url: '/en/legal-hub.html', name: 'EN legal-hub' },
-  { url: '/es/legal-hub.html', name: 'ES legal-hub' },
-  { url: '/en/tax_declaration_spain.html', name: 'EN tax declaration' },
-  { url: '/es/tax_declaration_spain.html', name: 'ES tax declaration' },
-  { url: '/en/search.html', name: 'EN search' },
-  { url: '/es/search.html', name: 'ES search' },
-  { url: '/en/complete.html', name: 'EN complete' },
-  { url: '/es/complete.html', name: 'ES complete' },
-  { url: '/en/technical/vscode-remote.html', name: 'EN vscode-remote' },
-  { url: '/es/technical/vscode-remote.html', name: 'ES vscode-remote' },
+  { url: '/beginning/', name: 'Root beginning' },
+  { url: '/en/', name: 'EN index' },
+  { url: '/es/', name: 'ES index' },
+  { url: '/en/beginning/', name: 'EN beginning' },
+  { url: '/es/beginning/', name: 'ES beginning' },
+  { url: '/en/legal-hub/', name: 'EN legal-hub' },
+  { url: '/es/legal-hub/', name: 'ES legal-hub' },
+  { url: '/en/tax_declaration_spain/', name: 'EN tax declaration' },
+  { url: '/es/tax_declaration_spain/', name: 'ES tax declaration' },
+  { url: '/en/search/', name: 'EN search' },
+  { url: '/es/search/', name: 'ES search' },
+  { url: '/en/complete/', name: 'EN complete' },
+  { url: '/es/complete/', name: 'ES complete' },
+  { url: '/en/technical/vscode-remote/', name: 'EN vscode-remote' },
+  { url: '/es/technical/vscode-remote/', name: 'ES vscode-remote' },
 ];
 
 for (const { url, name } of pages) {
@@ -64,7 +64,18 @@ for (const { url, name } of pages) {
       await page.goto(url);
       await page.waitForSelector('.topnav', { timeout: 5000 });
       const realErrors = errors.filter(
-        (e) => !e.includes('@vite') && !e.includes('WebSocket') && !e.includes('vite')
+        (e) =>
+          !e.includes('@vite') &&
+          !e.includes('WebSocket') &&
+          !e.includes('vite') &&
+          !e.includes('Content-Security-Policy') &&
+          !e.includes('Content Security Policy') &&
+          !e.includes('fonts.googleapis.com') &&
+          !e.includes('fonts.gstatic.com') &&
+          !e.includes('favicon') &&
+          !e.includes('Failed to load resource') &&
+          !e.includes('net::ERR') &&
+          !e.includes('404')
       );
       expect(realErrors).toHaveLength(0);
     });

@@ -1,147 +1,120 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Edge cases & error handling', () => {
-  test.describe('i18n edge cases', () => {
-    test('missing translation key does not blank element', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('.language-switch', { timeout: 5000 });
+/**
+ * Edge-case and structural tests for the Eleventy SSG build.
+ * Covers SEO meta tags, mobile navbar behaviour, theme toggle,
+ * 404 handling, and clean URL support.
+ */
 
-      const heading = page.locator('h1[data-i18n="hero_title"]');
-      const originalText = await heading.textContent();
-      expect(originalText.length).toBeGreaterThan(0);
-
-      await page.locator('.language-switch[data-lang="en"]').click();
-      const newText = await heading.textContent();
-      expect(newText.length).toBeGreaterThan(0);
-    });
-
-    test('footer translation works', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('[data-i18n="footer_coffee_text"]', { timeout: 5000 });
-
-      await page.locator('.language-switch[data-lang="en"]').click();
-      const el = page.locator('[data-i18n="footer_coffee_text"]');
-      const text = await el.textContent();
-      expect(text).toContain('coffee');
-    });
-
-    test('rapid language switching does not break page', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('.language-switch', { timeout: 5000 });
-
-      for (let i = 0; i < 5; i++) {
-        await page.locator('.language-switch[data-lang="en"]').click();
-        await page.locator('.language-switch[data-lang="es"]').click();
-      }
-
-      const heading = page.locator('h1[data-i18n="hero_title"]');
-      await expect(heading).toContainText('Bienvenido');
-    });
+test.describe('SEO meta tags', () => {
+  test('EN page has meta description', async ({ page }) => {
+    await page.goto('/en/');
+    const content = await page.locator('meta[name="description"]').getAttribute('content');
+    expect(content.length).toBeGreaterThan(10);
   });
 
-  test.describe('Component injection edge cases', () => {
-    test('navbar placeholder populated with correct structure', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('.topnav', { timeout: 5000 });
-
-      const placeholder = page.locator('#navbar-placeholder');
-      await expect(placeholder.locator('.topnav')).toBeAttached();
-      await expect(placeholder.locator('#menu-toggle')).toBeAttached();
-    });
-
-    test('footer placeholder populated with correct structure', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('.site-footer', { timeout: 5000 });
-
-      const placeholder = page.locator('#footer-placeholder');
-      await expect(placeholder.locator('.site-footer')).toBeAttached();
-      await expect(placeholder.locator('footer')).toBeAttached();
-    });
+  test('EN page has og:title', async ({ page }) => {
+    await page.goto('/en/');
+    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /.+/);
   });
 
-  test.describe('Navbar edge cases (mobile)', () => {
-    test.use({ viewport: { width: 375, height: 667 } });
-
-    test('menu starts closed after page load', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('#menu-toggle', { timeout: 5000 });
-      await expect(page.locator('#menu-toggle')).toHaveAttribute('aria-expanded', 'false');
-    });
-
-    test('double-click on toggle still works', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('#menu-toggle', { timeout: 5000 });
-
-      await page.locator('#menu-toggle').dblclick();
-      const menu = page.locator('#topnav-menu');
-      const hasShow = await menu.evaluate((el) => el.classList.contains('show'));
-      const hasHidden = await menu.evaluate((el) => el.classList.contains('hidden'));
-      expect(hasShow || hasHidden).toBeTruthy();
-    });
-
-    test('menu links have correct href attributes', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('#menu-toggle', { timeout: 5000 });
-      await page.locator('#menu-toggle').click();
-
-      const links = page.locator('.topnav__links li a');
-      const count = await links.count();
-      for (let i = 0; i < count; i++) {
-        const href = await links.nth(i).getAttribute('href');
-        expect(href).toBeTruthy();
-      }
-    });
+  test('EN page has og:locale set to en', async ({ page }) => {
+    await page.goto('/en/');
+    const locale = await page.locator('meta[property="og:locale"]').getAttribute('content');
+    expect(locale).toMatch(/en/i);
   });
 
-  test.describe('CSS and layout', () => {
-    test('container has white background', async ({ page }) => {
-      await page.goto('/');
-      const bg = await page.locator('.container').evaluate(
-        (el) => getComputedStyle(el).backgroundColor
-      );
-      expect(bg).toContain('255');
-    });
-
-    test('language switch buttons are styled', async ({ page }) => {
-      await page.goto('/');
-      await page.waitForSelector('.language-switch', { timeout: 5000 });
-      const cursor = await page.locator('.language-switch').first().evaluate(
-        (el) => getComputedStyle(el).cursor
-      );
-      expect(cursor).toBe('pointer');
-    });
+  test('ES page has og:locale set to es', async ({ page }) => {
+    await page.goto('/es/');
+    const locale = await page.locator('meta[property="og:locale"]').getAttribute('content');
+    expect(locale).toMatch(/es/i);
   });
 
-  test.describe('SEO meta tags', () => {
-    test('root page has meta description', async ({ page }) => {
-      await page.goto('/');
-      const desc = page.locator('meta[name="description"]');
-      const content = await desc.getAttribute('content');
-      expect(content.length).toBeGreaterThan(10);
-    });
+  test('EN page has canonical link', async ({ page }) => {
+    await page.goto('/en/');
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /.+/);
+  });
 
-    test('root page has Open Graph tags', async ({ page }) => {
-      await page.goto('/');
-      await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', /.+/);
-      await expect(page.locator('meta[property="og:description"]')).toHaveAttribute('content', /.+/);
-      await expect(page.locator('meta[property="og:type"]')).toHaveAttribute('content', /.+/);
-    });
+  test('EN page has hreflang alternates', async ({ page }) => {
+    await page.goto('/en/');
+    await expect(page.locator('link[hreflang="en"]')).toHaveAttribute('href', /.+/);
+    await expect(page.locator('link[hreflang="es"]')).toHaveAttribute('href', /.+/);
+  });
 
-    test('root page has canonical and hreflang', async ({ page }) => {
-      await page.goto('/');
-      await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /.+/);
-      await expect(page.locator('link[hreflang="es"]')).toHaveAttribute('href', /.+/);
-      await expect(page.locator('link[hreflang="en"]')).toHaveAttribute('href', /.+/);
-    });
+  test('ES page has canonical link', async ({ page }) => {
+    await page.goto('/es/');
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /.+/);
+  });
 
-    test('en page has correct locale', async ({ page }) => {
-      await page.goto('/en/index.html');
-      await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'en_US');
-    });
+  test('ES page has hreflang alternates', async ({ page }) => {
+    await page.goto('/es/');
+    await expect(page.locator('link[hreflang="en"]')).toHaveAttribute('href', /.+/);
+    await expect(page.locator('link[hreflang="es"]')).toHaveAttribute('href', /.+/);
+  });
+});
 
-    test('es page has correct locale', async ({ page }) => {
-      await page.goto('/es/index.html');
-      await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'es_ES');
-    });
+test.describe('Mobile navbar', () => {
+  test.use({ viewport: { width: 375, height: 667 } });
+
+  test('menu starts closed with aria-expanded false', async ({ page }) => {
+    await page.goto('/en/');
+    await expect(page.locator('#menu-toggle')).toHaveAttribute('aria-expanded', 'false');
+  });
+
+  test('clicking toggle opens menu and sets aria-expanded true', async ({ page }) => {
+    await page.goto('/en/');
+    await page.locator('#menu-toggle').click();
+    await expect(page.locator('#menu-toggle')).toHaveAttribute('aria-expanded', 'true');
+  });
+
+  test('clicking toggle again closes menu and sets aria-expanded false', async ({ page }) => {
+    await page.goto('/en/');
+    await page.locator('#menu-toggle').click();
+    await expect(page.locator('#menu-toggle')).toHaveAttribute('aria-expanded', 'true');
+    await page.locator('#menu-toggle').click();
+    await expect(page.locator('#menu-toggle')).toHaveAttribute('aria-expanded', 'false');
+  });
+});
+
+test.describe('Theme toggle', () => {
+  test('toggling theme changes data-theme attribute on html element', async ({ page }) => {
+    await page.goto('/en/');
+    const themeToggle = page.locator('#theme-toggle');
+
+    // Get initial theme (or absence thereof)
+    const initialTheme = await page.locator('html').getAttribute('data-theme');
+
+    await themeToggle.click();
+    const newTheme = await page.locator('html').getAttribute('data-theme');
+    expect(newTheme).not.toBe(initialTheme);
+  });
+});
+
+test.describe('404 page', () => {
+  test('non-existent URL shows 404 page', async ({ page }) => {
+    const response = await page.goto('/en/this-page-does-not-exist/');
+    expect(response.status()).toBe(404);
+  });
+});
+
+test.describe('Clean URLs', () => {
+  test('/en/ loads without .html extension', async ({ page }) => {
+    const response = await page.goto('/en/');
+    expect(response.status()).toBe(200);
+  });
+
+  test('/en/legal-hub/ loads without .html extension', async ({ page }) => {
+    const response = await page.goto('/en/legal-hub/');
+    expect(response.status()).toBe(200);
+  });
+
+  test('/es/legal-hub/ loads without .html extension', async ({ page }) => {
+    const response = await page.goto('/es/legal-hub/');
+    expect(response.status()).toBe(200);
+  });
+
+  test('/en/technical-hub/ loads without .html extension', async ({ page }) => {
+    const response = await page.goto('/en/technical-hub/');
+    expect(response.status()).toBe(200);
   });
 });
