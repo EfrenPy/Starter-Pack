@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  {% include "partials/head.njk" %}
+</head>
+<body>
+  <a href="#main-content" class="skip-link">{{ ui[lang].skip_link }}</a>
+  {% include "partials/navbar.njk" %}
+
+  {{ content | safe }}
+
+  {% include "partials/footer.njk" %}
+
+  <script type="module" src="/scripts/common.js"></script>
+  {% if extraJs %}
+  <script type="module" src="{{ extraJs }}"></script>
+  {% endif %}
+</body>
+</html>

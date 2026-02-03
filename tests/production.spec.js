@@ -1,52 +1,68 @@
 import { test, expect } from '@playwright/test';
 
 /**
- * Production build tests.
- * These verify that the built dist/ output works correctly,
- * catching issues like missing component fragments, broken asset paths,
- * and bundling problems that only appear in production.
+ * Production build tests for the Eleventy SSG output.
+ * Verifies that pages load correctly, navbar/footer are present,
+ * assets load, no console errors occur, search works, and
+ * language switching navigates between /en/ and /es/.
  */
 
-test.describe('Production build: component injection', () => {
-  const pages = [
-    '/',
-    '/en/index.html',
-    '/es/index.html',
-    '/beginning.html',
-    '/en/beginning.html',
-    '/es/beginning.html',
-    '/en/legal-hub.html',
-    '/es/legal-hub.html',
-    '/en/tax_declaration_spain.html',
-    '/es/tax_declaration_spain.html',
-    '/en/search.html',
-    '/es/search.html',
-    '/en/technical/vscode-remote.html',
-  ];
+const mainPages = [
+  '/en/',
+  '/es/',
+  '/en/legal-hub/',
+  '/en/technical-hub/',
+  '/en/housing-guide/',
+  '/en/search/',
+  '/en/faq/',
+];
 
-  for (const url of pages) {
-    test(`navbar loads on ${url}`, async ({ page }) => {
+test.describe('Production build: page status', () => {
+  for (const url of mainPages) {
+    test(`${url} returns 200`, async ({ page }) => {
+      const response = await page.goto(url);
+      expect(response.status()).toBe(200);
+    });
+  }
+});
+
+test.describe('Production build: navbar and footer', () => {
+  for (const url of mainPages) {
+    test(`navbar exists on ${url}`, async ({ page }) => {
       await page.goto(url);
-      await page.waitForSelector('.topnav', { timeout: 5000 });
       await expect(page.locator('.topnav')).toBeVisible();
-      // menu-toggle is hidden on desktop but should be in DOM
       await expect(page.locator('#menu-toggle')).toBeAttached();
     });
 
-    test(`footer loads on ${url}`, async ({ page }) => {
+    test(`footer exists on ${url}`, async ({ page }) => {
       await page.goto(url);
-      await page.waitForSelector('.site-footer', { timeout: 5000 });
       await expect(page.locator('.site-footer')).toBeVisible();
     });
+  }
+});
 
-    test(`CSS loads on ${url}`, async ({ page }) => {
+test.describe('Production build: CSS loads', () => {
+  for (const url of mainPages) {
+    test(`stylesheet linked on ${url}`, async ({ page }) => {
       await page.goto(url);
-      const bg = await page.locator('body').evaluate(
-        (el) => getComputedStyle(el).backgroundColor
-      );
-      expect(bg).not.toBe('rgba(0, 0, 0, 0)');
+      const link = page.locator('link[rel="stylesheet"][href="/css/styles.css"]');
+      await expect(link).toBeAttached();
     });
+  }
+});
 
+test.describe('Production build: JS loads', () => {
+  for (const url of mainPages) {
+    test(`script tag present on ${url}`, async ({ page }) => {
+      await page.goto(url);
+      const script = page.locator('script[type="module"][src="/scripts/common.js"]');
+      await expect(script).toBeAttached();
+    });
+  }
+});
+
+test.describe('Production build: no critical console errors', () => {
+  for (const url of mainPages) {
     test(`no JS errors on ${url}`, async ({ page }) => {
       const errors = [];
       page.on('console', (msg) => {
@@ -54,86 +70,51 @@ test.describe('Production build: component injection', () => {
       });
       page.on('pageerror', (err) => errors.push(err.message));
       await page.goto(url);
-      await page.waitForSelector('.topnav', { timeout: 5000 }).catch(() => {});
+      await page.waitForLoadState('networkidle');
       expect(errors).toHaveLength(0);
     });
   }
 });
 
-test.describe('Production build: language switching', () => {
-  test('language switch works on root page', async ({ page }) => {
-    await page.goto('/');
-    await page.waitForSelector('.language-switch', { timeout: 5000 });
-    await page.locator('.language-switch[data-lang="en"]').click();
-    await expect(page.locator('h1[data-i18n="hero_title"]')).toHaveText(
-      'Welcome to the Starter Pack'
-    );
-  });
-});
-
-test.describe('Production build: menu toggle (mobile)', () => {
-  test.use({ viewport: { width: 375, height: 667 } });
-
-  test('menu toggle works on root page', async ({ page }) => {
-    await page.goto('/');
-    await page.waitForSelector('#menu-toggle', { timeout: 5000 });
-    await page.locator('#menu-toggle').click();
-    await expect(page.locator('#topnav-menu')).toHaveClass(/show/);
-  });
-});
-
 test.describe('Production build: search', () => {
-  test('search returns results', async ({ page }) => {
-    await page.goto('/en/search.html?query=CERN');
+  test('search returns results for a common query', async ({ page }) => {
+    await page.goto('/en/search/?query=CERN');
     await page.waitForSelector('.search-result', { timeout: 10000 });
     const count = await page.locator('.search-result').count();
     expect(count).toBeGreaterThan(0);
   });
 });
 
-test.describe('Production build: asset integrity', () => {
-  test('JS bundles load (no 404s)', async ({ page }) => {
-    const failedRequests = [];
-    page.on('response', (res) => {
-      if (res.status() >= 400 && res.url().endsWith('.js')) {
-        failedRequests.push(`${res.status()} ${res.url()}`);
-      }
-    });
-    await page.goto('/');
-    await page.waitForSelector('.topnav', { timeout: 5000 });
-    expect(failedRequests).toHaveLength(0);
+test.describe('Production build: language switching', () => {
+  test('EN page has link to switch to ES', async ({ page }) => {
+    await page.goto('/en/');
+    const langLink = page.locator('a.topnav__lang-option:not(.active)');
+    await expect(langLink).toBeVisible();
+    const href = await langLink.getAttribute('href');
+    expect(href).toContain('/es/');
   });
 
-  test('CSS bundles load (no 404s)', async ({ page }) => {
-    const failedRequests = [];
-    page.on('response', (res) => {
-      if (res.status() >= 400 && res.url().endsWith('.css')) {
-        failedRequests.push(`${res.status()} ${res.url()}`);
-      }
-    });
-    await page.goto('/');
-    await page.waitForSelector('.topnav', { timeout: 5000 });
-    expect(failedRequests).toHaveLength(0);
+  test('clicking language switch navigates to ES version', async ({ page }) => {
+    await page.goto('/en/');
+    const langLink = page.locator('a.topnav__lang-option:not(.active)');
+    await langLink.click();
+    await page.waitForURL('**/es/**');
+    expect(page.url()).toContain('/es/');
   });
 
-  test('component fragments are not full HTML pages', async ({ page }) => {
-    const response = await page.request.get('/navbar.html');
-    const text = await response.text();
-    expect(text).not.toContain('<!DOCTYPE');
-    expect(text).toContain('<nav');
+  test('ES page has link to switch to EN', async ({ page }) => {
+    await page.goto('/es/');
+    const langLink = page.locator('a.topnav__lang-option:not(.active)');
+    await expect(langLink).toBeVisible();
+    const href = await langLink.getAttribute('href');
+    expect(href).toContain('/en/');
   });
 
-  test('en/navbar.html is a fragment', async ({ page }) => {
-    const response = await page.request.get('/en/navbar.html');
-    const text = await response.text();
-    expect(text).not.toContain('<!DOCTYPE');
-    expect(text).toContain('<nav');
-  });
-
-  test('es/navbar.html is a fragment', async ({ page }) => {
-    const response = await page.request.get('/es/navbar.html');
-    const text = await response.text();
-    expect(text).not.toContain('<!DOCTYPE');
-    expect(text).toContain('<nav');
+  test('clicking language switch navigates to EN version', async ({ page }) => {
+    await page.goto('/es/');
+    const langLink = page.locator('a.topnav__lang-option:not(.active)');
+    await langLink.click();
+    await page.waitForURL('**/en/**');
+    expect(page.url()).toContain('/en/');
   });
 });

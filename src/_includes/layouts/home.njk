@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+extraJs: /scripts/pages/home.js
+---
+{% if hero %}
+<section class="hero">
+  <div class="hero__inner">
+    <h1 class="hero__title">{{ hero.title }}</h1>
+    <p class="hero__subtitle">{{ hero.subtitle }}</p>
+    <a href="#main-content" class="btn btn--primary btn--lg">{{ hero.cta }}</a>
+  </div>
+</section>
+{% endif %}
+
+<main id="main-content">
+  <div class="container">
+    {{ content | safe }}
+  </div>
+</main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "inLanguage": "{{ lang }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/{{ lang }}/search/?query={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>

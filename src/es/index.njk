@@ -1,0 +1,52 @@
+---
+layout: layouts/home.njk
+title: "CERN Starter Pack"
+description: "Starter Pack para nuevos empleados del CERN. Informacion sobre tramites legales, fiscales y tecnicos."
+og:
+  title: "Bienvenido al Starter Pack"
+  description: "Informacion util para nuevos empleados del CERN sobre tramites legales, fiscales y herramientas tecnicas."
+printable: false
+hero:
+  title: "Bienvenido al Starter Pack"
+  subtitle: "Informacion util y recursos para recien llegados al CERN. Guias legales, fiscales y tecnicas en un solo lugar."
+  cta: "Explorar recursos"
+---
+<div class="card-grid">
+  <a href="legal-hub/" class="card">
+    <div class="card__icon" aria-hidden="true">&#9878;</div>
+    <div class="card__title">Ayuda Legal y Fiscal</div>
+    <p class="card__desc">Guias sobre fiscalidad, seguridad social y tramites administrativos para empleados del CERN con vinculos con Espana.</p>
+  </a>
+  <a href="technical-hub/" class="card">
+    <div class="card__icon" aria-hidden="true">&#128736;</div>
+    <div class="card__title">Ayuda Tecnica</div>
+    <p class="card__desc">Tutoriales y guias paso a paso para herramientas tecnicas del CERN, incluyendo VS Code Remote y mas.</p>
+  </a>
+  <a href="daily-life-hub/" class="card">
+    <div class="card__icon" aria-hidden="true">&#127968;</div>
+    <div class="card__title">Vida Practica</div>
+    <p class="card__desc">Vivienda, transporte, banca y consejos de vida cotidiana cerca del CERN en Ginebra o Francia.</p>
+  </a>
+  <a href="health-insurance/" class="card">
+    <div class="card__icon" aria-hidden="true">&#127973;</div>
+    <div class="card__title">Seguro Medico</div>
+    <p class="card__desc">CHIS, LAMal, CMU/PUMA, el droit d'option, plazos y como elegir la cobertura adecuada.</p>
+  </a>
+  <a href="faq/" class="card">
+    <div class="card__icon" aria-hidden="true">&#10067;</div>
+    <div class="card__title">Preguntas Frecuentes</div>
+    <p class="card__desc">Respuestas rapidas a las preguntas mas comunes sobre empezar en el CERN.</p>
+  </a>
+</div>
+
+<div class="search-panel">
+  <h2 class="search-panel__title">Buscar articulos</h2>
+  <form action="/es/search/" method="get" class="search-box">
+    <div class="search-box__input-wrap">
+      <span class="search-box__icon" aria-hidden="true">&#128269;</span>
+      <label for="search-input" class="sr-only">Buscar articulos</label>
+      <input type="text" name="query" id="search-input" class="search-box__input" placeholder="Buscar articulos..." required>
+    </div>
+    <button type="submit" class="btn btn--primary">Buscar</button>
+  </form>
+</div>

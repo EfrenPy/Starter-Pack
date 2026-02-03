@@ -10,7 +10,7 @@ export default defineConfig({
     headless: true,
   },
   webServer: {
-    command: 'npm run build && npm run preview -- --port 4173',
+    command: 'npx serve dist -l 4173 --no-clipboard',
     port: 4173,
     reuseExistingServer: false,
   },

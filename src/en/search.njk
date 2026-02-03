@@ -1,0 +1,22 @@
+---
+layout: layouts/page.njk
+title: "Search - CERN Starter Pack"
+description: "Search articles in the CERN Starter Pack."
+og:
+  title: "Search - CERN Starter Pack"
+  description: "Search for articles about legal, tax, and technical topics for CERN employees."
+breadcrumbs:
+  - { label: "Home", url: "/en/" }
+  - { label: "Search" }
+extraJs: "/scripts/pages/search.js"
+printable: false
+---      <h1>Search</h1>
+      <form action="search.html" method="get" class="search-box">
+        <div class="search-box__input-wrap">
+          <span class="search-box__icon" aria-hidden="true">🔍</span>
+          <label for="search-input" class="sr-only">Search articles</label>
+          <input type="text" name="query" id="search-input" class="search-box__input" placeholder="Search articles..." required="">
+        </div>
+        <button type="submit" class="btn btn--primary">Search</button>
+      </form>
+      <div id="search-results" aria-live="polite"></div>

@@ -1,53 +1,77 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Language switch navigates between /en/ and /es/ pages', () => {
-  const pageVariants = [
-    { en: '/en/index.html', es: '/es/index.html', name: 'index' },
-    { en: '/en/beginning.html', es: '/es/beginning.html', name: 'beginning' },
-    { en: '/en/legal-hub.html', es: '/es/legal-hub.html', name: 'legal-hub' },
-    { en: '/en/tax_declaration_spain.html', es: '/es/tax_declaration_spain.html', name: 'tax declaration' },
-    { en: '/en/search.html', es: '/es/search.html', name: 'search' },
-    { en: '/en/complete.html', es: '/es/complete.html', name: 'complete' },
-    { en: '/en/technical/vscode-remote.html', es: '/es/technical/vscode-remote.html', name: 'vscode-remote' },
+  const pages = [
+    { en: '/en/', es: '/es/', name: 'homepage' },
+    { en: '/en/housing-guide/', es: '/es/housing-guide/', name: 'housing-guide (content page)' },
+    { en: '/en/legal-hub/', es: '/es/legal-hub/', name: 'legal-hub (hub page)' },
+    { en: '/en/technical/vscode-remote/', es: '/es/technical/vscode-remote/', name: 'vscode-remote (nested page)' },
   ];
 
-  for (const variant of pageVariants) {
-    test(`EN → ES switch on ${variant.name}`, async ({ page }) => {
-      await page.goto(variant.en);
-      await page.waitForSelector('.language-switch', { timeout: 5000 });
-      await page.locator('.language-switch[data-lang="es"]').click();
-      await page.waitForSelector('.topnav', { timeout: 5000 });
-      await expect(page).toHaveURL(variant.es);
+  for (const pg of pages) {
+    test(`EN page loads English content on ${pg.name}`, async ({ page }) => {
+      await page.goto(pg.en);
+      await expect(page).toHaveURL(new RegExp(pg.en));
+      await expect(page.locator('html')).toHaveAttribute('lang', 'en');
     });
 
-    test(`ES → EN switch on ${variant.name}`, async ({ page }) => {
-      await page.goto(variant.es);
-      await page.waitForSelector('.language-switch', { timeout: 5000 });
-      await page.locator('.language-switch[data-lang="en"]').click();
-      await page.waitForSelector('.topnav', { timeout: 5000 });
-      await expect(page).toHaveURL(variant.en);
+    test(`ES page loads Spanish content on ${pg.name}`, async ({ page }) => {
+      await page.goto(pg.es);
+      await expect(page).toHaveURL(new RegExp(pg.es.replace(/[/]/g, '\\/')));
+      await expect(page.locator('html')).toHaveAttribute('lang', 'es');
+    });
+
+    test(`EN → ES switch on ${pg.name}`, async ({ page }) => {
+      await page.goto(pg.en);
+      const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
+      await expect(esLink).toBeVisible();
+      await esLink.click();
+      await expect(page).toHaveURL(new RegExp(pg.es.replace(/[/]/g, '\\/')));
+    });
+
+    test(`ES → EN switch on ${pg.name}`, async ({ page }) => {
+      await page.goto(pg.es);
+      const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
+      await expect(enLink).toBeVisible();
+      await enLink.click();
+      await expect(page).toHaveURL(new RegExp(pg.en));
+    });
+
+    test(`active language has active class on ${pg.name} (EN)`, async ({ page }) => {
+      await page.goto(pg.en);
+      const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
+      await expect(enLink).toHaveClass(/active/);
+      await expect(enLink).toHaveAttribute('aria-current', 'true');
+
+      const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
+      await expect(esLink).not.toHaveClass(/active/);
+    });
+
+    test(`active language has active class on ${pg.name} (ES)`, async ({ page }) => {
+      await page.goto(pg.es);
+      const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
+      await expect(esLink).toHaveClass(/active/);
+      await expect(esLink).toHaveAttribute('aria-current', 'true');
+
+      const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
+      await expect(enLink).not.toHaveClass(/active/);
     });
   }
 
-  test('language switch on root page applies translations (no navigation)', async ({ page }) => {
-    await page.goto('/');
-    await page.waitForSelector('.language-switch', { timeout: 5000 });
+  test('language switcher links point to correct alternate URL on subpage', async ({ page }) => {
+    await page.goto('/en/housing-guide/');
+    const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
+    await expect(esLink).toHaveAttribute('href', /\/es\/housing-guide\//);
 
-    // Switch to English — should stay on root, not navigate
-    await page.locator('.language-switch[data-lang="en"]').click();
-    await expect(page).toHaveURL('/');
-    await expect(page.locator('h1[data-i18n="hero_title"]')).toHaveText(
-      'Welcome to the Starter Pack'
-    );
+    const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
+    await expect(enLink).toHaveAttribute('href', /\/en\/housing-guide\//);
   });
 
-  test('language switch saves preference to localStorage', async ({ page }) => {
-    await page.goto('/en/index.html');
-    await page.waitForSelector('.language-switch', { timeout: 5000 });
-    await page.locator('.language-switch[data-lang="es"]').click();
-    await page.waitForURL(/\/es\/index\.html/);
-
-    const lang = await page.evaluate(() => localStorage.getItem('language'));
-    expect(lang).toBe('es');
+  test('navbar and footer render without XHR placeholders', async ({ page }) => {
+    await page.goto('/en/');
+    // Navbar should be present immediately (build-time rendered)
+    await expect(page.locator('.topnav')).toBeVisible();
+    // Footer should be present immediately
+    await expect(page.locator('footer')).toBeVisible();
   });
 });

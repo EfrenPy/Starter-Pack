@@ -1,0 +1,24 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <ul class="site-footer__links">
+      <li><a href="/{{ lang }}/">{{ ui[lang].footer_home }}</a></li>
+      {% for item in navigation.footer %}
+      <li><a href="/{{ lang }}/{{ item.slug }}/">{{ item[lang] }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <div class="site-footer__support">
+      <p>{{ ui[lang].footer_coffee_text }}</p>
+      <a href="https://www.buymeacoffee.com/efrenrguezrguez" target="_blank" rel="noopener noreferrer">
+        <img src="/images/bmc-button.png" alt="Buy Me A Coffee" width="545" height="153" loading="lazy">
+      </a>
+    </div>
+
+    <div class="site-footer__contact">
+      <span>{{ ui[lang].footer_contact_text }}</span>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+
+    <p class="site-footer__disclaimer">{{ ui[lang].footer_disclaimer }}</p>
+  </div>
+</footer>

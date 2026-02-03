@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+---
+{% include "partials/breadcrumbs.njk" %}
+
+<main id="main-content">
+  <div class="container">
+    {{ content | safe }}
+  </div>
+</main>
+
+{% if breadcrumbs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {% for crumb in breadcrumbs %}
+    {
+      "@type": "ListItem",
+      "position": {{ loop.index }},
+      "name": "{{ crumb.label }}"{% if crumb.url %},
+      "item": "{{ site.url }}{{ crumb.url }}"{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

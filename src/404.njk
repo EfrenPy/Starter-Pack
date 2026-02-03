@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+title: "Page Not Found - CERN Starter Pack"
+description: "Page not found - CERN Starter Pack"
+lang: es
+locale: es_ES
+noindex: true
+permalink: /404.html
+eleventyExcludeFromCollections: true
+---
+<main id="main-content">
+  <div class="container" style="text-align: center;">
+    <h1 id="404-heading">Pagina no encontrada</h1>
+    <p id="404-message">Lo sentimos, la pagina que buscas no existe o ha sido movida.</p>
+
+    <div class="search-panel" style="margin: var(--space-xl) auto;">
+      <h2 class="search-panel__title" id="404-search-title">Buscar en el sitio</h2>
+      <form action="/es/search/" method="get" class="search-box" id="404-search-form">
+        <div class="search-box__input-wrap">
+          <span class="search-box__icon" aria-hidden="true">&#128269;</span>
+          <label for="search-input" class="sr-only">Buscar articulos</label>
+          <input type="text" name="query" id="search-input" class="search-box__input" placeholder="Buscar articulos..." required>
+        </div>
+        <button type="submit" class="btn btn--primary" id="404-search-btn">Buscar</button>
+      </form>
+    </div>
+
+    <div class="card-grid" style="max-width: 640px; margin: var(--space-xl) auto;">
+      <a href="/" class="card">
+        <div class="card__icon" aria-hidden="true">&#127968;</div>
+        <div class="card__title" id="404-home-title">Inicio</div>
+        <p class="card__desc" id="404-home-desc">Volver a la pagina principal.</p>
+      </a>
+      <a href="/es/legal-hub/" class="card" id="404-legal-link">
+        <div class="card__icon" aria-hidden="true">&#9878;</div>
+        <div class="card__title" id="404-legal-title">Ayuda Legal y Fiscal</div>
+        <p class="card__desc" id="404-legal-desc">Guias legales y fiscales.</p>
+      </a>
+      <a href="/es/technical-hub/" class="card" id="404-tech-link">
+        <div class="card__icon" aria-hidden="true">&#128736;</div>
+        <div class="card__title" id="404-tech-title">Ayuda Tecnica</div>
+        <p class="card__desc" id="404-tech-desc">Tutoriales y herramientas tecnicas.</p>
+      </a>
+    </div>
+  </div>
+</main>
+
+<script>
+(function() {
+  var lang = localStorage.getItem('language') || 'es';
+  if (lang === 'en') {
+    document.documentElement.lang = 'en';
+    document.getElementById('404-heading').textContent = 'Page not found';
+    document.getElementById('404-message').textContent = 'Sorry, the page you are looking for does not exist or has been moved.';
+    document.getElementById('404-search-title').textContent = 'Search the site';
+    document.getElementById('404-search-form').action = '/en/search/';
+    document.getElementById('404-search-btn').textContent = 'Search';
+    document.getElementById('404-home-title').textContent = 'Home';
+    document.getElementById('404-home-desc').textContent = 'Go back to the homepage.';
+    document.getElementById('404-legal-link').href = '/en/legal-hub/';
+    document.getElementById('404-legal-title').textContent = 'Legal & Tax Help';
+    document.getElementById('404-legal-desc').textContent = 'Legal and tax guides.';
+    document.getElementById('404-tech-link').href = '/en/technical-hub/';
+    document.getElementById('404-tech-title').textContent = 'Technical Help';
+    document.getElementById('404-tech-desc').textContent = 'Tutorials and technical tools.';
+  }
+})();
+</script>
