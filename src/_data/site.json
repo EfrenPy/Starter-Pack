@@ -5,10 +5,10 @@
   "email": "info@efrenrodriguezrodriguez.com",
   "defaultLang": "es",
   "languages": [
-    { "code": "es", "label": "ES" },
-    { "code": "en", "label": "EN" },
-    { "code": "it", "label": "IT" },
-    { "code": "fr", "label": "FR" }
+    { "code": "es", "label": "ES", "name": "Español" },
+    { "code": "en", "label": "EN", "name": "English" },
+    { "code": "it", "label": "IT", "name": "Italiano" },
+    { "code": "fr", "label": "FR", "name": "Français" }
   ],
   "ogImage": "/images/og-image.png",
   "ogImageWidth": "1200",
