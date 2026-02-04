@@ -15,10 +15,17 @@
       <button type="button" class="theme-toggle" id="theme-toggle" aria-label="{{ ui[lang].toggle_dark_mode }}">
         <span class="theme-toggle__icon" aria-hidden="true"></span>
       </button>
-      <div class="topnav__lang" role="group" aria-label="Language">
-        {% for l in site.languages %}
-        <a href="{{ page.url | toLang(lang, l.code) }}" class="topnav__lang-option{% if lang == l.code %} active{% endif %}" {% if lang == l.code %}aria-current="true"{% endif %}>{{ l.label }}</a>
-        {% endfor %}
+      <div class="topnav__lang-dropdown">
+        <button type="button" class="topnav__lang-btn" aria-expanded="false" aria-haspopup="true">
+          {{ lang | upper }} <span aria-hidden="true">▾</span>
+        </button>
+        <ul class="topnav__lang-menu" role="menu">
+          {% for l in site.languages %}
+          {% if l.code != lang %}
+          <li role="none"><a role="menuitem" href="{{ page.url | toLang(lang, l.code) }}">{{ l.label }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

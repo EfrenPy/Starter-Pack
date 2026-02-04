@@ -29,83 +29,75 @@ test.describe('Language switch navigates between /en/, /es/, and /it/ pages', ()
 
     test(`EN → ES switch on ${pg.name}`, async ({ page }) => {
       await page.goto(pg.en);
-      const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
-      await expect(esLink).toBeVisible();
+      await page.locator('.topnav__lang-btn').click();
+      const esLink = page.locator('.topnav__lang-menu a[href*="/es/"]');
       await esLink.click();
       await expect(page).toHaveURL(new RegExp(pg.es.replace(/[/]/g, '\\/')));
     });
 
     test(`EN → IT switch on ${pg.name}`, async ({ page }) => {
       await page.goto(pg.en);
-      const itLink = page.locator('a.topnav__lang-option[href*="/it/"]');
-      await expect(itLink).toBeVisible();
+      await page.locator('.topnav__lang-btn').click();
+      const itLink = page.locator('.topnav__lang-menu a[href*="/it/"]');
       await itLink.click();
       await expect(page).toHaveURL(new RegExp(pg.it.replace(/[/]/g, '\\/')));
     });
 
     test(`ES → EN switch on ${pg.name}`, async ({ page }) => {
       await page.goto(pg.es);
-      const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-      await expect(enLink).toBeVisible();
+      await page.locator('.topnav__lang-btn').click();
+      const enLink = page.locator('.topnav__lang-menu a[href*="/en/"]');
       await enLink.click();
       await expect(page).toHaveURL(new RegExp(pg.en));
     });
 
     test(`IT → EN switch on ${pg.name}`, async ({ page }) => {
       await page.goto(pg.it);
-      const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-      await expect(enLink).toBeVisible();
+      await page.locator('.topnav__lang-btn').click();
+      const enLink = page.locator('.topnav__lang-menu a[href*="/en/"]');
       await enLink.click();
       await expect(page).toHaveURL(new RegExp(pg.en));
     });
 
-    test(`active language has active class on ${pg.name} (EN)`, async ({ page }) => {
+    test(`language dropdown shows current language on ${pg.name} (EN)`, async ({ page }) => {
       await page.goto(pg.en);
-      const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-      await expect(enLink).toHaveClass(/active/);
-      await expect(enLink).toHaveAttribute('aria-current', 'true');
-
-      const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
-      await expect(esLink).not.toHaveClass(/active/);
+      const langBtn = page.locator('.topnav__lang-btn');
+      await expect(langBtn).toContainText('EN');
+      // Active language should NOT appear in the dropdown menu
+      const enLink = page.locator('.topnav__lang-menu a[href*="/en/"]');
+      await expect(enLink).toHaveCount(0);
     });
 
-    test(`active language has active class on ${pg.name} (ES)`, async ({ page }) => {
+    test(`language dropdown shows current language on ${pg.name} (ES)`, async ({ page }) => {
       await page.goto(pg.es);
-      const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
-      await expect(esLink).toHaveClass(/active/);
-      await expect(esLink).toHaveAttribute('aria-current', 'true');
-
-      const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-      await expect(enLink).not.toHaveClass(/active/);
+      const langBtn = page.locator('.topnav__lang-btn');
+      await expect(langBtn).toContainText('ES');
+      const esLink = page.locator('.topnav__lang-menu a[href*="/es/"]');
+      await expect(esLink).toHaveCount(0);
     });
 
-    test(`active language has active class on ${pg.name} (IT)`, async ({ page }) => {
+    test(`language dropdown shows current language on ${pg.name} (IT)`, async ({ page }) => {
       await page.goto(pg.it);
-      const itLink = page.locator('a.topnav__lang-option[href*="/it/"]');
-      await expect(itLink).toHaveClass(/active/);
-      await expect(itLink).toHaveAttribute('aria-current', 'true');
-
-      const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-      await expect(enLink).not.toHaveClass(/active/);
+      const langBtn = page.locator('.topnav__lang-btn');
+      await expect(langBtn).toContainText('IT');
+      const itLink = page.locator('.topnav__lang-menu a[href*="/it/"]');
+      await expect(itLink).toHaveCount(0);
     });
   }
 
-  test('language switcher shows 4 language options', async ({ page }) => {
+  test('language dropdown shows 3 other language options', async ({ page }) => {
     await page.goto('/en/');
-    const langOptions = page.locator('a.topnav__lang-option');
-    await expect(langOptions).toHaveCount(4);
+    const langOptions = page.locator('.topnav__lang-menu a');
+    await expect(langOptions).toHaveCount(3);
   });
 
   test('language switcher links point to correct alternate URL on subpage', async ({ page }) => {
     await page.goto('/en/housing-guide/');
-    const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
+    const esLink = page.locator('.topnav__lang-menu a[href*="/es/"]');
     await expect(esLink).toHaveAttribute('href', /\/es\/housing-guide\//);
 
-    const itLink = page.locator('a.topnav__lang-option[href*="/it/"]');
+    const itLink = page.locator('.topnav__lang-menu a[href*="/it/"]');
     await expect(itLink).toHaveAttribute('href', /\/it\/housing-guide\//);
-
-    const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-    await expect(enLink).toHaveAttribute('href', /\/en\/housing-guide\//);
   });
 
   test('navbar and footer render without XHR placeholders', async ({ page }) => {

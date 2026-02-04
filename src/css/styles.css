@@ -400,36 +400,63 @@ main > .container {
   content: '\2600';
 }
 
-.topnav__lang {
+/* Language dropdown */
+.topnav__lang-dropdown {
+  position: relative;
+  margin-inline-start: var(--space-sm);
+}
+
+.topnav__lang-btn {
   display: flex;
   align-items: center;
-  gap: 2px;
-  margin-inline-start: var(--space-sm);
+  gap: 4px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
-  padding: 2px;
-}
-
-.topnav__lang-option {
-  display: block;
-  color: rgba(255, 255, 255, 0.55);
+  color: #fff;
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
-  text-decoration: none;
   padding: 4px 14px;
-  border-radius: 16px;
-  transition: color var(--transition-fast), background var(--transition-fast);
-  line-height: 1.4;
+  cursor: pointer;
+  transition: background var(--transition-fast);
 }
 
-.topnav__lang-option:hover {
-  color: #fff;
+.topnav__lang-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
-.topnav__lang-option.active {
+.topnav__lang-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 4px;
+  background: var(--color-header);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--border-radius-sm);
+  list-style: none;
+  padding: 4px 0;
+  min-width: 80px;
+  z-index: 200;
+  box-shadow: var(--shadow-md);
+}
+
+.topnav__lang-menu.open {
+  display: block;
+}
+
+.topnav__lang-menu a {
+  display: block;
+  padding: 8px 16px;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+.topnav__lang-menu a:hover {
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
-  background: rgba(255, 255, 255, 0.22);
 }
 
 /* Active nav link indicator */
@@ -1084,7 +1111,7 @@ mark {
 }
 
 /* ===== Media Queries ===== */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   /* TopNav mobile */
   .topnav {
     flex-wrap: wrap;
@@ -1123,8 +1150,9 @@ mark {
     border-block-start: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .topnav__lang-option {
-    padding: 6px 14px;
+  .topnav__lang-menu {
+    right: auto;
+    left: 0;
   }
 
   /* Disable card lift on touch devices */
