@@ -437,7 +437,7 @@ main > .container {
   border-radius: var(--border-radius);
   list-style: none;
   padding: 6px;
-  min-width: 100px;
+  min-width: 130px;
   z-index: 200;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
 }

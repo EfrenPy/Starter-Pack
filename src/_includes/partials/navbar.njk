@@ -16,13 +16,13 @@
         <span class="theme-toggle__icon" aria-hidden="true"></span>
       </button>
       <div class="topnav__lang-dropdown">
-        <button type="button" class="topnav__lang-btn" aria-expanded="false" aria-haspopup="true">
-          {{ lang | upper }} <span aria-hidden="true">▾</span>
+        <button type="button" class="topnav__lang-btn" aria-expanded="false" aria-haspopup="true" aria-label="{{ ui[lang].change_language | default('Change language') }}">
+          <span aria-hidden="true">🌐</span> {{ lang | upper }} <span class="topnav__lang-caret" aria-hidden="true">▾</span>
         </button>
         <ul class="topnav__lang-menu" role="menu">
           {% for l in site.languages %}
           {% if l.code != lang %}
-          <li role="none"><a role="menuitem" href="{{ page.url | toLang(lang, l.code) }}">{{ l.label }}</a></li>
+          <li role="none"><a role="menuitem" href="{{ page.url | toLang(lang, l.code) }}">{{ l.name }}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
