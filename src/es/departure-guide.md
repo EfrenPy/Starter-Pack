@@ -22,27 +22,15 @@ breadcrumbs:
       <p>Consulta siempre tu contrato individual y las <strong>Reglas y Reglamentos del Personal del CERN</strong> para conocer los requisitos exactos de preaviso que se aplican a tu situacion. Se recomienda encarecidamente informar a tu <strong>supervisor y al departamento de RRHH</strong> con suficiente antelacion para que puedan planificar tu transicion y ayudarte con el proceso de salida.</p>
 
       <h2>Procedimiento de Clearance del CERN</h2>
-      <p>Antes de dejar el CERN, debes completar el <strong>procedimiento oficial de clearance</strong>, que normalmente comienza aproximadamente <strong>1 mes antes de tu fecha de salida</strong>. Esto implica varios pasos:</p>
-      <ul>
-        <li><strong>Devolver todo el equipamiento del CERN</strong>: portatil, telefono movil, llaves y cualquier otro elemento proporcionado por tu grupo o departamento.</li>
-        <li><strong>Devolver tu tarjeta de acceso</strong> en el Edificio 55 (Servicio de Registro).</li>
-        <li><strong>Cerrar tus cuentas informaticas</strong> o solicitar un periodo de gracia para el acceso al correo electronico si es necesario para colaboraciones en curso.</li>
-        <li><strong>Liquidar cualquier obligacion financiera pendiente</strong>, incluyendo multas de biblioteca, deudas del restaurante y cualquier otro saldo pendiente con el CERN.</li>
-        <li><strong>Completar el formulario oficial de clearance</strong> a traves de EDH (Electronic Document Handling). Este formulario se envia a todos los servicios relevantes para su aprobacion.</li>
-      </ul>
-      <p>Asegurate de iniciar este proceso con tiempo, ya que retrasos en cualquier paso pueden demorar tu liquidacion final y certificado de salida.</p>
+      <p>Antes de dejar el CERN, debes completar el <strong>procedimiento oficial de clearance</strong>, que normalmente comienza aproximadamente <strong>1 mes antes de tu fecha de salida</strong>. El primer paso consiste en <strong>devolver todo el equipamiento del CERN</strong> — portatil, telefono movil, llaves y cualquier otro elemento proporcionado por tu grupo o departamento. Tambien debes <strong>devolver tu tarjeta de acceso</strong> en el Edificio 55 (Servicio de Registro) y, o bien <strong>cerrar tus cuentas informaticas</strong>, o solicitar un periodo de gracia para el acceso al correo electronico si lo necesitas para colaboraciones en curso.</p>
+      <p>En el aspecto financiero, se espera que <strong>liquides cualquier obligacion pendiente</strong>, como multas de biblioteca, deudas del restaurante y cualquier otro saldo con el CERN. Una vez todo en orden, debes <strong>completar el formulario oficial de clearance a traves de EDH</strong> (Electronic Document Handling), que se envia a todos los servicios relevantes para su aprobacion. Asegurate de iniciar este proceso con tiempo, ya que retrasos en cualquier paso pueden demorar tu liquidacion final y certificado de salida.</p>
 
       <h2>Opciones de Pension</h2>
       <p>Tus opciones de pension al dejar el CERN dependen de tus <strong>anos de servicio</strong>. Si has trabajado en el CERN durante <strong>menos de 5 anos</strong>, recibiras un valor de transferencia en forma de suma global. Con <strong>5 a 10 anos</strong> de servicio, puedes elegir entre una pension diferida o transferir el valor al regimen de pensiones de tu nuevo empleador.</p>
       <p>Si tienes <strong>10 o mas anos</strong> de servicio, tienes la opcion de dejar tu pension en el Fondo de Pensiones del CERN hasta alcanzar la edad de jubilacion. Contacta con la <strong>oficina del Fondo de Pensiones</strong> lo antes posible para discutir tus opciones. Las decisiones sobre tu pension deben tomarse <strong>dentro de un plazo determinado tras la salida</strong>, asi que no lo demores.</p>
 
       <h2>Continuidad del Seguro Medico</h2>
-      <p>Tu cobertura del Regimen de Seguro Medico del CERN (CHIS) <strong>finaliza en tu ultimo dia de contrato</strong>. Es esencial organizar una cobertura medica alternativa antes de irte:</p>
-      <ul>
-        <li><strong>Si te mudas a Francia</strong>: registrate en la CPAM (Caisse Primaire d'Assurance Maladie) / Assurance Maladie.</li>
-        <li><strong>Si te mudas a Suiza</strong>: inscribete en el seguro basico obligatorio LAMal dentro de los 3 meses siguientes a dejar el CERN.</li>
-        <li><strong>Si te mudas a otro pais</strong>: organiza la cobertura medica local en tu pais de destino antes de tu salida.</li>
-      </ul>
+      <p>Tu cobertura del Regimen de Seguro Medico del CERN (CHIS) <strong>finaliza en tu ultimo dia de contrato</strong>, por lo que es esencial organizar una cobertura medica alternativa antes de irte. <strong>Si te mudas a Francia</strong>, debes registrarte en la CPAM (Caisse Primaire d'Assurance Maladie) / Assurance Maladie. Quienes <strong>se muden a Suiza</strong> deben inscribirse en el seguro basico obligatorio LAMal dentro de los 3 meses siguientes a dejar el CERN, mientras que quienes <strong>se trasladen a otro pais</strong> deben organizar la cobertura medica local en su destino antes de la salida.</p>
       <p>El CERN puede proporcionarte un <strong>certificado de cobertura previa</strong>, que puede ser requerido por tu nueva aseguradora para eximir periodos de espera o exclusiones por condiciones preexistentes.</p>
 
       <h2>Baja Administrativa</h2>
@@ -50,13 +38,8 @@ breadcrumbs:
       <p>Ademas, recuerda <strong>actualizar tu direccion</strong> en bancos, companias de seguros, suministros y servicios de suscripcion. Cierra o redirige tus <strong>cuentas bancarias</strong> segun sea necesario, y asegurate de que las domiciliaciones o transferencias periodicas esten canceladas o transferidas.</p>
 
       <h2>Logistica de Mudanza</h2>
-      <p>El CERN ofrece una <strong>asignacion de reubicacion</strong> para algunos tipos de contrato, asi que consulta con RRHH si eres elegible. Empieza a pedir <strong>presupuestos de empresas de mudanzas internacionales</strong> con suficiente antelacion, ya que la disponibilidad puede ser limitada en periodos de mayor demanda (meses de verano).</p>
-      <ul>
-        <li>Comprueba los <strong>requisitos aduaneros</strong> de tu pais de destino, especialmente si envias pertenencias personales o un vehiculo.</li>
-        <li>Considera vender muebles y articulos del hogar localmente a traves del <strong>CERN March&eacute;</strong> o grupos de Facebook para salidas del CERN.</li>
-        <li>Configura el <strong>reenvio de correo</strong> a traves de La Poste (Francia) o Swiss Post (Suiza) para asegurarte de recibir cualquier correspondencia despues de irte.</li>
-      </ul>
-      <p>Planifica tu mudanza con cuidado y date suficiente tiempo para manejar complicaciones inesperadas. Dejar el CERN es una transicion significativa, pero con una preparacion adecuada puede ser un proceso fluido.</p>
+      <p>El CERN ofrece una <strong>asignacion de reubicacion</strong> para algunos tipos de contrato, asi que consulta con RRHH si eres elegible. Empieza a pedir <strong>presupuestos de empresas de mudanzas internacionales</strong> con suficiente antelacion, ya que la disponibilidad puede ser limitada en periodos de mayor demanda (meses de verano). Comprueba tambien los <strong>requisitos aduaneros</strong> de tu pais de destino, especialmente si envias pertenencias personales o un vehiculo. Puede resultarte util vender muebles y articulos del hogar localmente a traves del <strong>CERN March&eacute;</strong> o de los grupos de Facebook dedicados a las salidas del CERN, lo que simplificara considerablemente tu mudanza.</p>
+      <p>Antes de irte, configura el <strong>reenvio de correo</strong> a traves de La Poste (Francia) o Swiss Post (Suiza) para asegurarte de seguir recibiendo correspondencia tras tu salida. Planifica tu mudanza con cuidado y date suficiente tiempo para manejar complicaciones inesperadas. Dejar el CERN es una transicion significativa, pero con una preparacion adecuada puede ser un proceso fluido.</p>
 
       <h2>Fuentes y Documentacion</h2>
       <ul>
