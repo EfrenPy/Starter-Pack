@@ -251,6 +251,54 @@
         "it": "Servizio Medico CERN, infermeria, numero di emergenza 767-4444, ospedale HUG e come trovare medici.",
         "fr": "Service Medical du CERN, infirmerie, numero d'urgence 767-4444, hopital HUG et comment trouver un medecin."
       }
+    },
+    {
+      "slug": "first-weeks-guide",
+      "icon": "📅",
+      "title": {
+        "en": "First Weeks Guide",
+        "es": "Guia de las Primeras Semanas",
+        "it": "Guida alle Prime Settimane",
+        "fr": "Guide des Premieres Semaines"
+      },
+      "desc": {
+        "en": "Day 1 to month 1 at CERN: badge pickup, safety briefing, bank account, housing, transport card, and settling in.",
+        "es": "Del dia 1 al mes 1 en el CERN: recogida de badge, formacion de seguridad, cuenta bancaria, vivienda, abono de transporte e instalacion.",
+        "it": "Dal giorno 1 al mese 1 al CERN: ritiro badge, briefing sicurezza, conto bancario, alloggio, abbonamento trasporti e ambientamento.",
+        "fr": "Du jour 1 au mois 1 au CERN : retrait du badge, briefing securite, compte bancaire, logement, abonnement transport et installation."
+      }
+    },
+    {
+      "slug": "outdoor-recreation",
+      "icon": "⛰",
+      "title": {
+        "en": "Outdoor Recreation",
+        "es": "Actividades al Aire Libre",
+        "it": "Attivita all'Aperto",
+        "fr": "Loisirs en Plein Air"
+      },
+      "desc": {
+        "en": "Hiking, skiing, Lake Geneva, day trips, and CERN outdoor clubs in the Geneva region.",
+        "es": "Senderismo, esqui, Lago Leman, excursiones de un dia y clubes del CERN al aire libre en la region de Ginebra.",
+        "it": "Escursioni, sci, Lago di Ginevra, gite di un giorno e club all'aperto del CERN nella regione di Ginevra.",
+        "fr": "Randonnee, ski, Lac Leman, excursions d'une journee et clubs de plein air du CERN dans la region de Geneve."
+      }
+    },
+    {
+      "slug": "currency-money",
+      "icon": "💱",
+      "title": {
+        "en": "Currency &amp; Money",
+        "es": "Divisas y Dinero",
+        "it": "Valuta e Denaro",
+        "fr": "Devises &amp; Argent"
+      },
+      "desc": {
+        "en": "Managing CHF and EUR: multi-currency accounts, exchange tips, ATM advice, and cross-border budgeting.",
+        "es": "Gestionar CHF y EUR: cuentas multidivisa, consejos de cambio, cajeros automaticos y presupuesto transfronterizo.",
+        "it": "Gestire CHF e EUR: conti multivaluta, consigli sul cambio, bancomat e budget transfrontaliero.",
+        "fr": "Gerer CHF et EUR : comptes multidevises, astuces de change, conseils aux distributeurs et budget transfrontalier."
+      }
     }
   ]
 }
