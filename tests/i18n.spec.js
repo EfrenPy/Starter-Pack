@@ -113,48 +113,48 @@ test.describe('Hreflang alternate links', () => {
 test.describe('Language switcher links point to correct alternate URLs', () => {
   test('EN homepage switcher links to ES and IT homepages', async ({ page }) => {
     await page.goto('/en/');
-    const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
-    const itLink = page.locator('a.topnav__lang-option[href*="/it/"]');
+    const esLink = page.locator('.topnav__lang-menu a[href*="/es/"]');
+    const itLink = page.locator('.topnav__lang-menu a[href*="/it/"]');
     await expect(esLink).toHaveAttribute('href', /\/es\//);
     await expect(itLink).toHaveAttribute('href', /\/it\//);
   });
 
   test('ES homepage switcher links to EN and IT homepages', async ({ page }) => {
     await page.goto('/es/');
-    const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-    const itLink = page.locator('a.topnav__lang-option[href*="/it/"]');
+    const enLink = page.locator('.topnav__lang-menu a[href*="/en/"]');
+    const itLink = page.locator('.topnav__lang-menu a[href*="/it/"]');
     await expect(enLink).toHaveAttribute('href', /\/en\//);
     await expect(itLink).toHaveAttribute('href', /\/it\//);
   });
 
   test('IT homepage switcher links to EN and ES homepages', async ({ page }) => {
     await page.goto('/it/');
-    const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-    const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
+    const enLink = page.locator('.topnav__lang-menu a[href*="/en/"]');
+    const esLink = page.locator('.topnav__lang-menu a[href*="/es/"]');
     await expect(enLink).toHaveAttribute('href', /\/en\//);
     await expect(esLink).toHaveAttribute('href', /\/es\//);
   });
 
   test('EN subpage switcher links to corresponding ES and IT subpages', async ({ page }) => {
     await page.goto('/en/housing-guide/');
-    const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
-    const itLink = page.locator('a.topnav__lang-option[href*="/it/"]');
+    const esLink = page.locator('.topnav__lang-menu a[href*="/es/"]');
+    const itLink = page.locator('.topnav__lang-menu a[href*="/it/"]');
     await expect(esLink).toHaveAttribute('href', /\/es\/housing-guide\//);
     await expect(itLink).toHaveAttribute('href', /\/it\/housing-guide\//);
   });
 
   test('ES subpage switcher links to corresponding EN and IT subpages', async ({ page }) => {
     await page.goto('/es/housing-guide/');
-    const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-    const itLink = page.locator('a.topnav__lang-option[href*="/it/"]');
+    const enLink = page.locator('.topnav__lang-menu a[href*="/en/"]');
+    const itLink = page.locator('.topnav__lang-menu a[href*="/it/"]');
     await expect(enLink).toHaveAttribute('href', /\/en\/housing-guide\//);
     await expect(itLink).toHaveAttribute('href', /\/it\/housing-guide\//);
   });
 
   test('IT subpage switcher links to corresponding EN and ES subpages', async ({ page }) => {
     await page.goto('/it/housing-guide/');
-    const enLink = page.locator('a.topnav__lang-option[href*="/en/"]');
-    const esLink = page.locator('a.topnav__lang-option[href*="/es/"]');
+    const enLink = page.locator('.topnav__lang-menu a[href*="/en/"]');
+    const esLink = page.locator('.topnav__lang-menu a[href*="/es/"]');
     await expect(enLink).toHaveAttribute('href', /\/en\/housing-guide\//);
     await expect(esLink).toHaveAttribute('href', /\/es\/housing-guide\//);
   });

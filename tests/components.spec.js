@@ -24,16 +24,17 @@ test.describe('Navbar component (desktop)', () => {
     await expect(page.locator('#theme-toggle')).toBeAttached();
   });
 
-  test('language switcher has anchor links with correct class', async ({ page }) => {
-    const langLinks = page.locator('a.topnav__lang-option');
+  test('language dropdown has button and menu links', async ({ page }) => {
+    const langBtn = page.locator('.topnav__lang-btn');
+    await expect(langBtn).toBeVisible();
+    const langLinks = page.locator('.topnav__lang-menu a');
     const count = await langLinks.count();
     expect(count).toBeGreaterThanOrEqual(2);
-    await expect(langLinks.first()).toBeVisible();
   });
 
-  test('active language link has active class', async ({ page }) => {
-    const activeLang = page.locator('a.topnav__lang-option.active');
-    await expect(activeLang).toBeVisible();
+  test('language dropdown button shows current language', async ({ page }) => {
+    const langBtn = page.locator('.topnav__lang-btn');
+    await expect(langBtn).toContainText('EN');
   });
 });
 
@@ -111,7 +112,7 @@ test.describe('Components appear on both language pages', () => {
       await page.goto(url);
       await expect(page.locator('.topnav')).toBeVisible();
       await expect(page.locator('.topnav__brand')).toBeVisible();
-      await expect(page.locator('a.topnav__lang-option').first()).toBeVisible();
+      await expect(page.locator('.topnav__lang-btn').first()).toBeVisible();
       await expect(page.locator('.site-footer')).toBeVisible();
     });
   }
@@ -122,7 +123,7 @@ test.describe('Components appear on subpages', () => {
     await page.goto('/en/housing-guide/');
     await expect(page.locator('.topnav')).toBeVisible();
     await expect(page.locator('.topnav__brand')).toBeVisible();
-    await expect(page.locator('a.topnav__lang-option').first()).toBeVisible();
+    await expect(page.locator('.topnav__lang-btn').first()).toBeVisible();
     await expect(page.locator('.site-footer')).toBeVisible();
   });
 });

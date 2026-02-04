@@ -12,33 +12,60 @@ export function initNavbar() {
     toggleButton.setAttribute('aria-expanded', String(isOpen));
   });
 
+  // Language dropdown
+  const langBtn = document.querySelector('.topnav__lang-btn');
+  const langMenu = document.querySelector('.topnav__lang-menu');
+
+  if (langBtn && langMenu) {
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = langMenu.classList.toggle('open');
+      langBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    // Save language preference on link click
+    langMenu.addEventListener('click', (e) => {
+      const link = e.target.closest('a');
+      if (link) {
+        const match = link.getAttribute('href').match(/^\/(\w{2})\//);
+        if (match) localStorage.setItem('language', match[1]);
+      }
+    });
+  }
+
+  function closeLangMenu() {
+    if (langMenu && langMenu.classList.contains('open')) {
+      langMenu.classList.remove('open');
+      langBtn.setAttribute('aria-expanded', 'false');
+    }
+  }
+
   document.addEventListener('click', (e) => {
     if (!menu.contains(e.target) && !toggleButton.contains(e.target)) {
       menu.classList.remove('show');
       menu.classList.add('hidden');
       toggleButton.setAttribute('aria-expanded', 'false');
     }
+    // Close language dropdown on click outside
+    if (langBtn && !langBtn.contains(e.target) && langMenu && !langMenu.contains(e.target)) {
+      closeLangMenu();
+    }
   });
 
   // Highlight the active nav link based on current URL
   highlightActiveLink();
 
-  // Highlight the current language button
-  highlightActiveLanguage();
-
-  // Close mobile menu on Escape key
+  // Close mobile menu and language dropdown on Escape key
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && menu.classList.contains('show')) {
-      menu.classList.remove('show');
-      menu.classList.add('hidden');
-      toggleButton.setAttribute('aria-expanded', 'false');
+    if (e.key === 'Escape') {
+      if (menu.classList.contains('show')) {
+        menu.classList.remove('show');
+        menu.classList.add('hidden');
+        toggleButton.setAttribute('aria-expanded', 'false');
+      }
+      closeLangMenu();
     }
   });
-}
-
-function highlightActiveLanguage() {
-  // Language switch is handled server-side via active class on <a> elements.
-  // This function is kept for backwards compatibility but is now a no-op.
 }
 
 function highlightActiveLink() {
