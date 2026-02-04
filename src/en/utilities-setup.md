@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Utilities Setup Near CERN - CERN Starter Pack"
 description: "How to set up electricity, gas, water, internet, and other home utilities when moving near CERN in Switzerland or France."
 og:
   title: "Utilities Setup Near CERN - CERN Starter Pack"
   description: "How to set up electricity, gas, water, internet, and other home utilities when moving near CERN in Switzerland or France."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

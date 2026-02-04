@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Configuracion Bancaria Cerca del CERN - CERN Starter Pack"
 description: "Guia de configuracion bancaria para empleados del CERN: cuentas suizas y francesas, banca en el campus, opciones multidivisa y pago de salario."
 og:
   title: "Configuracion Bancaria Cerca del CERN - CERN Starter Pack"
   description: "Guia practica para abrir cuentas bancarias cerca del CERN: bancos suizos, franceses, opciones digitales y configuracion de salario."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Guide: VS Code Remote (WSL on Windows) to CERN lxplus"
 description: "Guide to using VS Code Remote via WSL on Windows to connect to CERN lxplus and other Linux servers."
 og:
   title: "VS Code Remote to CERN lxplus - CERN Starter Pack"
   description: "Step-by-step guide for connecting VS Code to CERN lxplus using WSL and SSH on Windows."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 ---
 
 <h1>Using VS Code Remote via WSL on Windows to Connect to CERN lxplus (and Other Linux Servers)</h1>

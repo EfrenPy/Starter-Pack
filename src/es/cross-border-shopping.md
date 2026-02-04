@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Compras Transfronterizas Cerca del CERN - CERN Starter Pack"
 description: "Guia de compras transfronterizas para empleados del CERN: supermercados franceses y suizos, aduanas, detaxe, mercados y consejos para ahorrar."
 og:
   title: "Compras Transfronterizas Cerca del CERN - CERN Starter Pack"
   description: "Guia practica de compras transfronterizas cerca del CERN: supermercados, aduanas, detaxe, mercados y consejos para ahorrar."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }

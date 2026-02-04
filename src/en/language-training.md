@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Language Training at CERN - CERN Starter Pack"
 description: "Language training guide at CERN: French courses, CERN subsidised classes, Welcome Club, CAGI, local options, and self-study resources."
 og:
   title: "Language Training at CERN - CERN Starter Pack"
   description: "Language training guide at CERN: French courses, CERN subsidised classes, Welcome Club, CAGI, local options, and self-study resources."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

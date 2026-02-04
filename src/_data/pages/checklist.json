@@ -1,0 +1,349 @@
+{
+  "layout": "layouts/page.njk",
+  "printable": false,
+  "slug": "checklist",
+  "datePublished": "2025-06-01",
+  "dateModified": "2026-02-01",
+  "dateUpdated": "2026-02",
+  "extraJs": "/scripts/pages/checklist.js",
+  "totalItems": 25,
+  "translations": {
+    "en": {
+      "title": "Onboarding Checklist - CERN Starter Pack",
+      "description": "Interactive onboarding checklist for CERN employees: track your progress from pre-move preparations to your first year.",
+      "og": {
+        "title": "Onboarding Checklist - CERN Starter Pack",
+        "description": "Interactive checklist to track your CERN onboarding progress, from 3 months before moving to your first year."
+      },
+      "breadcrumbLabel": "Onboarding Checklist",
+      "parentBreadcrumbLabel": "Legal & Tax Help",
+      "heading": "Your CERN Onboarding Checklist",
+      "privacyTitle": "🔒 Privacy",
+      "privacyText": "Progress is saved locally in your browser. Nothing is sent to any server.",
+      "progressText": "0 / 25 completed",
+      "resetButton": "Reset all progress"
+    },
+    "es": {
+      "title": "Checklist de Incorporacion - CERN Starter Pack",
+      "description": "Checklist interactivo de incorporacion al CERN: sigue tu progreso desde los preparativos previos hasta tu primer ano.",
+      "og": {
+        "title": "Checklist de Incorporacion - CERN Starter Pack",
+        "description": "Checklist interactivo para seguir tu progreso de incorporacion al CERN, desde 3 meses antes de mudarte hasta tu primer ano."
+      },
+      "breadcrumbLabel": "Checklist de Incorporacion",
+      "parentBreadcrumbLabel": "Ayuda Legal y Fiscal",
+      "heading": "Tu Checklist de Incorporacion al CERN",
+      "privacyTitle": "🔒 Privacidad",
+      "privacyText": "El progreso se guarda localmente en tu navegador. No se envia nada a ningun servidor.",
+      "progressText": "0 / 25 completados",
+      "resetButton": "Restablecer todo el progreso"
+    },
+    "it": {
+      "title": "Checklist di Onboarding - CERN Starter Pack",
+      "description": "Checklist interattiva di onboarding per i dipendenti del CERN: monitora i tuoi progressi dalla preparazione al trasferimento fino al primo anno.",
+      "og": {
+        "title": "Checklist di Onboarding - CERN Starter Pack",
+        "description": "Checklist interattiva per monitorare i tuoi progressi di onboarding al CERN, da 3 mesi prima del trasferimento al primo anno."
+      },
+      "breadcrumbLabel": "Checklist di Onboarding",
+      "parentBreadcrumbLabel": "Assistenza Legale e Fiscale",
+      "heading": "La tua Checklist di Onboarding al CERN",
+      "privacyTitle": "🔒 Privacy",
+      "privacyText": "I progressi vengono salvati localmente nel tuo browser. Nessun dato viene inviato a server esterni.",
+      "progressText": "0 / 25 completed",
+      "resetButton": "Resetta tutti i progressi"
+    },
+    "fr": {
+      "title": "Checklist d'Integration - CERN Starter Pack",
+      "description": "Checklist interactive d'integration pour les employes du CERN : suivez votre progression des preparatifs au demenagement jusqu'a votre premiere annee.",
+      "og": {
+        "title": "Checklist d'Integration - CERN Starter Pack",
+        "description": "Checklist interactive pour suivre votre progression d'integration au CERN, de 3 mois avant le demenagement a votre premiere annee."
+      },
+      "breadcrumbLabel": "Checklist d'Integration",
+      "parentBreadcrumbLabel": "Aide Juridique et Fiscale",
+      "heading": "Votre Checklist d'Integration au CERN",
+      "privacyTitle": "🔒 Confidentialite",
+      "privacyText": "La progression est sauvegardee localement dans votre navigateur. Rien n'est envoye a un serveur.",
+      "progressText": "0 / 25 completed",
+      "resetButton": "Reinitialiser toute la progression"
+    }
+  },
+  "phases": [
+    {
+      "heading": {
+        "en": "3 Months Before Moving",
+        "es": "3 Meses Antes de Mudarte",
+        "it": "3 Mesi Prima del Trasferimento",
+        "fr": "3 Mois Avant le Demenagement"
+      },
+      "items": [
+        {
+          "id": "convenio-apply",
+          "label": {
+            "en": "Apply for Convenio Especial with Spanish Social Security",
+            "es": "Solicitar el Convenio Especial con la Seguridad Social espanola",
+            "it": "Richiedere il Convenio Especial alla Previdenza Sociale spagnola",
+            "fr": "Faire la demande de Convenio Especial aupres de la Securite Sociale espagnole"
+          }
+        },
+        {
+          "id": "consulate-register",
+          "label": {
+            "en": "Register at the Spanish Consulate (alta consular)",
+            "es": "Registrarse en el Consulado de Espana (alta consular)",
+            "it": "Registrarsi al Consolato Spagnolo (alta consular)",
+            "fr": "S'inscrire au Consulat d'Espagne (alta consular)"
+          }
+        },
+        {
+          "id": "gather-documents",
+          "label": {
+            "en": "Gather key documents (DNI, birth certificates, diplomas, medical records)",
+            "es": "Reunir documentos clave (DNI, certificados de nacimiento, titulos, historial medico)",
+            "it": "Raccogliere i documenti chiave (DNI, certificati di nascita, diplomi, cartelle mediche)",
+            "fr": "Rassembler les documents cles (DNI, actes de naissance, diplomes, dossiers medicaux)"
+          }
+        },
+        {
+          "id": "research-housing",
+          "label": {
+            "en": "Research housing options (Switzerland vs France)",
+            "es": "Investigar opciones de vivienda (Suiza vs Francia)",
+            "it": "Cercare opzioni di alloggio (Svizzera vs Francia)",
+            "fr": "Rechercher les options de logement (Suisse vs France)"
+          }
+        },
+        {
+          "id": "health-insurance-transition",
+          "label": {
+            "en": "Plan health insurance transition (EHIC, CHIS enrolment timeline)",
+            "es": "Planificar la transicion de seguro medico (TSE, calendario de inscripcion en CHIS)",
+            "it": "Pianificare la transizione dell'assicurazione sanitaria (EHIC, tempistiche iscrizione CHIS)",
+            "fr": "Planifier la transition d'assurance maladie (CEAM, calendrier d'inscription CHIS)"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "1 Month Before Moving",
+        "es": "1 Mes Antes de Mudarte",
+        "it": "1 Mese Prima del Trasferimento",
+        "fr": "1 Mois Avant le Demenagement"
+      },
+      "items": [
+        {
+          "id": "open-bank-account",
+          "label": {
+            "en": "Open a Swiss or French bank account (or set up Wise/Revolut)",
+            "es": "Abrir una cuenta bancaria suiza o francesa (o configurar Wise/Revolut)",
+            "it": "Aprire un conto bancario svizzero o francese (o configurare Wise/Revolut)",
+            "fr": "Ouvrir un compte bancaire suisse ou francais (ou configurer Wise/Revolut)"
+          }
+        },
+        {
+          "id": "arrange-housing",
+          "label": {
+            "en": "Arrange housing or book CERN hostel for first weeks",
+            "es": "Organizar vivienda o reservar el hostel del CERN para las primeras semanas",
+            "it": "Organizzare l'alloggio o prenotare l'ostello CERN per le prime settimane",
+            "fr": "Organiser le logement ou reserver l'auberge du CERN pour les premieres semaines"
+          }
+        },
+        {
+          "id": "book-travel",
+          "label": {
+            "en": "Book travel and plan move logistics",
+            "es": "Reservar viaje y planificar la logistica de la mudanza",
+            "it": "Prenotare il viaggio e pianificare la logistica del trasferimento",
+            "fr": "Reserver le voyage et planifier la logistique du demenagement"
+          }
+        },
+        {
+          "id": "notify-employer",
+          "label": {
+            "en": "Notify current employer and finalise departure from Spain",
+            "es": "Notificar al empleador actual y finalizar la salida de Espana",
+            "it": "Avvisare il datore di lavoro attuale e finalizzare la partenza dalla Spagna",
+            "fr": "Prevenir l'employeur actuel et finaliser le depart d'Espagne"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "First Week at CERN",
+        "es": "Primera Semana en el CERN",
+        "it": "Prima Settimana al CERN",
+        "fr": "Premiere Semaine au CERN"
+      },
+      "items": [
+        {
+          "id": "arrival-formalities",
+          "label": {
+            "en": "Complete CERN arrival formalities (HR, badge, carte de legitimation)",
+            "es": "Completar los tramites de llegada al CERN (RRHH, badge, carte de legitimation)",
+            "it": "Completare le formalita di arrivo al CERN (HR, badge, carte de legitimation)",
+            "fr": "Accomplir les formalites d'arrivee au CERN (RH, badge, carte de legitimation)"
+          }
+        },
+        {
+          "id": "register-commune",
+          "label": {
+            "en": "Register at your commune (Switzerland) or mairie (France)",
+            "es": "Registrarse en tu comuna (Suiza) o mairie (Francia)",
+            "it": "Registrarsi al comune (Svizzera) o al municipio (Francia)",
+            "fr": "S'inscrire a la commune (Suisse) ou a la mairie (France)"
+          }
+        },
+        {
+          "id": "setup-chis",
+          "label": {
+            "en": "Set up CHIS health insurance and register dependents",
+            "es": "Configurar el seguro medico CHIS y registrar dependientes",
+            "it": "Configurare l'assicurazione sanitaria CHIS e registrare i familiari a carico",
+            "fr": "Configurer l'assurance maladie CHIS et inscrire les personnes a charge"
+          }
+        },
+        {
+          "id": "computing-account",
+          "label": {
+            "en": "Activate CERN computing account and set up email",
+            "es": "Activar la cuenta informatica del CERN y configurar el correo",
+            "it": "Attivare l'account informatico CERN e configurare l'email",
+            "fr": "Activer le compte informatique CERN et configurer l'email"
+          }
+        },
+        {
+          "id": "newcomer-session",
+          "label": {
+            "en": "Attend the CERN Newcomer Welcome Session",
+            "es": "Asistir a la Sesion de Bienvenida para Nuevos del CERN",
+            "it": "Partecipare alla Sessione di Benvenuto per i Nuovi Arrivati al CERN",
+            "fr": "Assister a la Session d'Accueil des Nouveaux Arrivants du CERN"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "First 3 Months",
+        "es": "Primeros 3 Meses",
+        "it": "Primi 3 Mesi",
+        "fr": "3 Premiers Mois"
+      },
+      "items": [
+        {
+          "id": "direct-debit-convenio",
+          "label": {
+            "en": "Set up direct debit for Convenio Especial payments",
+            "es": "Configurar la domiciliacion para los pagos del Convenio Especial",
+            "it": "Impostare l'addebito diretto per i pagamenti del Convenio Especial",
+            "fr": "Mettre en place le prelevement automatique pour les paiements du Convenio Especial"
+          }
+        },
+        {
+          "id": "alta-consular",
+          "label": {
+            "en": "Confirm alta consular at the Spanish Consulate in Geneva",
+            "es": "Confirmar el alta consular en el Consulado de Espana en Ginebra",
+            "it": "Confermare l'alta consular al Consolato Spagnolo a Ginevra",
+            "fr": "Confirmer l'alta consular au Consulat d'Espagne a Geneve"
+          }
+        },
+        {
+          "id": "local-bank",
+          "label": {
+            "en": "Open a local bank account if not done yet",
+            "es": "Abrir una cuenta bancaria local si aun no lo has hecho",
+            "it": "Aprire un conto bancario locale se non ancora fatto",
+            "fr": "Ouvrir un compte bancaire local si ce n'est pas encore fait"
+          }
+        },
+        {
+          "id": "residence-permit",
+          "label": {
+            "en": "Obtain residence permit or carte de legitimation",
+            "es": "Obtener permiso de residencia o carte de legitimation",
+            "it": "Ottenere il permesso di soggiorno o la carte de legitimation",
+            "fr": "Obtenir le permis de sejour ou la carte de legitimation"
+          }
+        },
+        {
+          "id": "kerberos-ssh",
+          "label": {
+            "en": "Set up Kerberos, SSH keys, and VPN for remote access",
+            "es": "Configurar Kerberos, claves SSH y VPN para acceso remoto",
+            "it": "Configurare Kerberos, chiavi SSH e VPN per l'accesso remoto",
+            "fr": "Configurer Kerberos, les cles SSH et le VPN pour l'acces a distance"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "First Year",
+        "es": "Primer Ano",
+        "it": "Primo Anno",
+        "fr": "Premiere Annee"
+      },
+      "items": [
+        {
+          "id": "french-tax",
+          "label": {
+            "en": "File French tax return (if residing in France)",
+            "es": "Presentar la declaracion de impuestos francesa (si resides en Francia)",
+            "it": "Presentare la dichiarazione dei redditi francese (se si risiede in Francia)",
+            "fr": "Faire la declaration d'impots francaise (si vous residez en France)"
+          }
+        },
+        {
+          "id": "modelo-720-check",
+          "label": {
+            "en": "Check Modelo 720 obligation for foreign assets",
+            "es": "Verificar la obligacion del Modelo 720 para activos en el extranjero",
+            "it": "Verificare l'obbligo del Modelo 720 per i beni esteri",
+            "fr": "Verifier l'obligation du Modelo 720 pour les biens a l'etranger"
+          }
+        },
+        {
+          "id": "pension-review",
+          "label": {
+            "en": "Review CERN Pension Fund enrolment and options",
+            "es": "Revisar la inscripcion y opciones del Fondo de Pensiones del CERN",
+            "it": "Verificare l'iscrizione e le opzioni del Fondo Pensione CERN",
+            "fr": "Verifier l'inscription et les options du Fonds de Pension du CERN"
+          }
+        },
+        {
+          "id": "irpf-spain",
+          "label": {
+            "en": "Handle Spanish IRPF declaration for the transition year",
+            "es": "Gestionar la declaracion del IRPF espanol del ano de transicion",
+            "it": "Gestire la dichiarazione IRPF spagnola per l'anno di transizione",
+            "fr": "Gerer la declaration IRPF espagnole pour l'annee de transition"
+          }
+        },
+        {
+          "id": "renew-permit",
+          "label": {
+            "en": "Renew residence permit if needed",
+            "es": "Renovar el permiso de residencia si es necesario",
+            "it": "Rinnovare il permesso di soggiorno se necessario",
+            "fr": "Renouveler le permis de sejour si necessaire"
+          }
+        },
+        {
+          "id": "mandatory-training",
+          "label": {
+            "en": "Complete CERN mandatory safety and security training",
+            "es": "Completar la formacion obligatoria de seguridad del CERN",
+            "it": "Completare la formazione obbligatoria sulla sicurezza del CERN",
+            "fr": "Completer la formation obligatoire de securite du CERN"
+          }
+        }
+      ]
+    }
+  ]
+}

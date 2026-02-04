@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Vehicles & Green Plates at CERN - CERN Starter Pack"
 description: "Guide to vehicles and green plates at CERN: CD plates, tax-free purchase, driving license, insurance, and parking."
 og:
   title: "Vehicles & Green Plates at CERN - CERN Starter Pack"
   description: "Guide to vehicles and green plates at CERN: CD plates, tax-free purchase, driving license, insurance, and parking."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Telework Policy at CERN - CERN Starter Pack"
 description: "Guide to CERN telework policy: eligibility, 40% limit, approval process, location requirements, equipment, and practical tips."
 og:
   title: "Telework Policy at CERN - CERN Starter Pack"
   description: "Guide to CERN telework policy: eligibility, 40% limit, approval process, location requirements, equipment, and practical tips."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Technical Help", url: "/en/technical-hub/" }

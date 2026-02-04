@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Fondo de Pensiones del CERN - CERN Starter Pack"
 description: "Guia del Fondo de Pensiones del CERN: contribuciones, prestaciones por anos de servicio, edades de jubilacion, valor de transferencia y calculo de pension."
 og:
   title: "Fondo de Pensiones del CERN - CERN Starter Pack"
   description: "Guia del Fondo de Pensiones del CERN: contribuciones, prestaciones por anos de servicio, edades de jubilacion, valor de transferencia y calculo de pension."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }

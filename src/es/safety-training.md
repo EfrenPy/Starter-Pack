@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Formacion en Seguridad en el CERN - CERN Starter Pack"
 description: "Guia completa sobre la formacion en seguridad obligatoria en el CERN: cursos, e-learning, proteccion radiologica, sesiones presenciales y renovacion."
 og:
   title: "Formacion en Seguridad en el CERN - CERN Starter Pack"
   description: "Guia completa sobre la formacion en seguridad obligatoria en el CERN: cursos, e-learning, proteccion radiologica, sesiones presenciales y renovacion."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Tecnica", url: "/es/technical-hub/" }

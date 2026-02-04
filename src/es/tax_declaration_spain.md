@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Tributación CERN España"
 description: "Tributación del salario de un empleado del CERN residente en España: exención del IRPF, Protocolo de Privilegios e Inmunidades y normativa aplicable."
 og:
   title: "Tributación del salario del CERN en España"
   description: "Exención del IRPF para empleados del CERN residentes en España según el Protocolo de Privilegios e Inmunidades."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 ---
 
 <section class="container">

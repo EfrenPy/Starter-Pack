@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Guía completa para españoles en el CERN"
 description: "Guía completa sobre aspectos legales, administrativos, financieros, vivienda y familia para españoles que trabajan en el CERN."
 og:
   title: "Guía completa para españoles en el CERN"
   description: "Legal, administrativa y vida cotidiana en el CERN para españoles."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 ---
 
 <h1>Guía completa: Legal, administrativa y vida cotidiana en el CERN</h1>

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Vivienda y Vida Diaria Cerca del CERN - CERN Starter Pack"
 description: "Guia de vivienda y vida diaria para empleados del CERN: Suiza vs Francia, zonas populares, transporte, seguro medico, bancos y compras."
 og:
   title: "Vivienda y Vida Diaria Cerca del CERN - CERN Starter Pack"
   description: "Guia practica de vivienda, transporte, sanidad y vida diaria cerca del CERN para nuevos empleados."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vivienda y Vida Diaria" }

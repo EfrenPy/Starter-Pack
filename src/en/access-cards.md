@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Access Cards at CERN - CERN Starter Pack"
 description: "Guide to CERN access cards: types, registration, building access, ADaMS, vehicle stickers, and replacement procedures."
 og:
   title: "Access Cards at CERN - CERN Starter Pack"
   description: "Guide to CERN access cards: types, registration, building access, ADaMS, vehicle stickers, and replacement procedures."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Technical Help", url: "/en/technical-hub/" }

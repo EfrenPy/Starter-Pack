@@ -52,7 +52,7 @@ function normalize(str) {
 }
 
 async function loadPrebuiltIndex(folder) {
-  const lang = folder === '/es/' ? 'es' : 'en';
+  const lang = folder.replace(/\//g, '');
   try {
     const response = await fetch(`/data/search-index-${lang}.json`);
     if (!response.ok) return null;
@@ -86,7 +86,7 @@ async function loadFromHTML(folder) {
 }
 
 export async function getSearchIndex(language) {
-  const folder = language === 'es' ? '/es/' : '/en/';
+  const folder = `/${language}/`;
   const cacheKey = folder;
 
   if (fuseCache[cacheKey]) return fuseCache[cacheKey];
@@ -131,7 +131,7 @@ function buildFuse(articles) {
 }
 
 export function searchArticles(query, language) {
-  const cacheKey = language === 'es' ? '/es/' : '/en/';
+  const cacheKey = `/${language}/`;
   const cached = fuseCache[cacheKey];
   if (!cached) return [];
 

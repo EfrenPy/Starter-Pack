@@ -8,21 +8,22 @@ export async function initSearch() {
   const resultsContainer = document.getElementById('search-results');
   if (!resultsContainer) return;
 
-  const isSpanish = window.location.pathname.includes('/es/');
-  const lang = isSpanish ? 'es' : 'en';
-
-  const noResultsMsg = isSpanish ? 'No se encontraron resultados.' : 'No results found.';
-  const errorMsg = isSpanish
-    ? 'Error al cargar los resultados de busqueda.'
-    : 'Error loading search results.';
+  const pathLang = window.location.pathname.match(/^\/(es|en|it)\//);
+  const lang = pathLang ? pathLang[1] : 'es';
+  const msgs = {
+    es: { noResults: 'No se encontraron resultados.', error: 'Error al cargar los resultados de busqueda.', result: 'resultado', results: 'resultados', found: 'encontrado', founds: 'encontrados' },
+    en: { noResults: 'No results found.', error: 'Error loading search results.', result: 'result', results: 'results', found: 'found', founds: 'found' },
+    it: { noResults: 'Nessun risultato trovato.', error: 'Errore nel caricamento dei risultati.', result: 'risultato', results: 'risultati', found: 'trovato', founds: 'trovati' }
+  };
+  const m = msgs[lang] || msgs.es;
+  const noResultsMsg = m.noResults;
+  const errorMsg = m.error;
 
   try {
     await getSearchIndex(lang);
     const results = searchArticles(query, lang);
 
-    const countMsg = isSpanish
-      ? `${results.length} resultado${results.length !== 1 ? 's' : ''} encontrado${results.length !== 1 ? 's' : ''}.`
-      : `${results.length} result${results.length !== 1 ? 's' : ''} found.`;
+    const countMsg = `${results.length} ${results.length !== 1 ? m.results : m.result} ${results.length !== 1 ? m.founds : m.found}.`;
     resultsContainer.setAttribute('aria-label', countMsg);
 
     if (results.length > 0) {

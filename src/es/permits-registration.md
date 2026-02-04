@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Permisos y Registro en el CERN - CERN Starter Pack"
 description: "Guia de permisos y registro en el CERN: Carte de Legitimation, Titre de Sejour, regla de los 14 dias, familiares y cambio de residencia."
 og:
   title: "Permisos y Registro en el CERN - CERN Starter Pack"
   description: "Guia de permisos y registro en el CERN: Carte de Legitimation, Titre de Sejour, regla de los 14 dias, familiares y cambio de residencia."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Contracts & Career at CERN - CERN Starter Pack"
 description: "CERN contracts and career guide: contract types, staff contracts, fellowships, doctoral students, extensions, career development, and leaving CERN."
 og:
   title: "Contracts & Career at CERN - CERN Starter Pack"
   description: "CERN contracts and career guide: contract types, staff contracts, fellowships, doctoral students, extensions, career development, and leaving CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Legal & Tax Help", url: "/en/legal-hub/" }

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Sistema Fiscal del CERN - CERN Starter Pack"
 description: "Guia fiscal del CERN: impuesto interno, exencion del impuesto nacional, residentes en Suiza y Francia, ingresos externos y normas para Espana."
 og:
   title: "Sistema Fiscal del CERN - CERN Starter Pack"
   description: "Guia fiscal del CERN: impuesto interno, exencion del impuesto nacional, residentes en Suiza y Francia, ingresos externos y normas para Espana."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }

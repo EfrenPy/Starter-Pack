@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.njk
 title: "Preguntas Frecuentes - CERN Starter Pack"
 description: "Preguntas frecuentes para nuevos empleados del CERN: tarjetas de acceso, cuentas informaticas, seguro medico, vivienda, transporte y conceptos basicos de TI."
 og:

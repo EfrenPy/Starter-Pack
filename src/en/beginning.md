@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Guide for Spanish Nationals Starting Work at CERN (Social Security & Taxation)"
 description: "Guide for Spanish nationals starting work at CERN covering social security and taxation."
 og:
   title: "Guide for Spanish Nationals Starting Work at CERN"
   description: "Practical roadmap on social security, tax obligations, and key resources for Spaniards at CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Legal & Tax Help", url: "/en/legal-hub/" }

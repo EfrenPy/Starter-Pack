@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Banking Setup Near CERN - CERN Starter Pack"
 description: "Banking setup guide for CERN employees: Swiss and French bank accounts, on-site banking, multi-currency options, and salary payment."
 og:
   title: "Banking Setup Near CERN - CERN Starter Pack"
   description: "Practical guide to opening bank accounts near CERN: Swiss banks, French banks, digital options, and salary setup."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

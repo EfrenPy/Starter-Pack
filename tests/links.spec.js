@@ -6,7 +6,7 @@ import { test, expect } from '@playwright/test';
  * on both /en/ and /es/ pages, then verifies each returns HTTP 200.
  */
 
-const languages = ['en', 'es'];
+const languages = ['en', 'es', 'it'];
 
 /**
  * Helper: collect all internal hrefs matching a CSS selector on a page.

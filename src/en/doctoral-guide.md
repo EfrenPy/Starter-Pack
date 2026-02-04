@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Doctoral Students Guide at CERN - CERN Starter Pack"
 description: "Doctoral students guide at CERN: programme details, thesis submission, hyper-authorship, practical matters, computing resources, and post-PhD opportunities."
 og:
   title: "Doctoral Students Guide at CERN - CERN Starter Pack"
   description: "Doctoral students guide at CERN: programme details, thesis submission, hyper-authorship, practical matters, computing resources, and post-PhD opportunities."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Doctoral Guide" }

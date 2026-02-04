@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Cross-Border Shopping Near CERN - CERN Starter Pack"
 description: "Cross-border shopping guide for CERN employees: French and Swiss supermarkets, customs limits, tax-free shopping, markets, and money-saving tips."
 og:
   title: "Cross-Border Shopping Near CERN - CERN Starter Pack"
   description: "Practical guide to cross-border shopping near CERN: supermarkets, customs, tax-free, markets, and tips for saving money."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

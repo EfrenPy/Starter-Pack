@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "CERN Taxation System - CERN Starter Pack"
 description: "CERN taxation guide: internal tax, national income tax exemption, Swiss and French residents, outside income, and Spain-specific rules."
 og:
   title: "CERN Taxation System - CERN Starter Pack"
   description: "CERN taxation guide: internal tax, national income tax exemption, Swiss and French residents, outside income, and Spain-specific rules."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Legal & Tax Help", url: "/en/legal-hub/" }

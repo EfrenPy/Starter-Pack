@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Contribute - CERN Starter Pack"
 description: "Contribute to the CERN Starter Pack: report issues, suggest resources, share your experience, and help newcomers."
 og:
   title: "Contribute - CERN Starter Pack"
   description: "Contribute to the CERN Starter Pack: report issues, suggest resources, share your experience, and help newcomers."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Contribute" }

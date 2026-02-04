@@ -1,0 +1,38 @@
+---js
+{
+  pagination: { data: "site.languages", size: 1, alias: "langObj" },
+  eleventyComputed: {
+    lang: (data) => data.langObj.code,
+    locale: (data) => ({ es: "es_ES", en: "en_US", it: "it_IT", fr: "fr_FR" }[data.langObj.code]),
+    permalink: (data) => `${data.langObj.code}/technical-hub/`,
+    title: (data) => data.pages["technical-hub"].translations[data.langObj.code].title,
+    description: (data) => data.pages["technical-hub"].translations[data.langObj.code].description,
+    og: (data) => data.pages["technical-hub"].translations[data.langObj.code].og,
+    breadcrumbs: (data) => {
+      const lang = data.langObj.code;
+      const t = data.pages["technical-hub"].translations[lang];
+      const home = data.ui[lang].nav_home;
+      return [
+        { label: home, url: `/${lang}/` },
+        { label: t.breadcrumbLabel }
+      ];
+    }
+  },
+  layout: "layouts/hub.njk",
+  printable: false
+}
+---
+{%- set pd = pages["technical-hub"] -%}
+{%- set t = pd.translations[lang] -%}
+      <h1>{{ t.heading }}</h1>
+      <p>{{ t.intro }}</p>
+
+      <div class="card-grid">
+        {%- for card in pd.cards %}
+        <a href="/{{ lang }}/{{ card.slug }}/" class="card">
+          <div class="card__icon" aria-hidden="true">{{ card.icon }}</div>
+          <h2 class="card__title">{{ card.title[lang] | safe }}</h2>
+          <p class="card__desc">{{ card.desc[lang] | safe }}</p>
+        </a>
+        {%- endfor %}
+      </div>

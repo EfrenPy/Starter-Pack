@@ -22,11 +22,10 @@
 <meta name="twitter:image" content="{{ site.url }}{{ site.ogImage }}">
 <meta name="twitter:title" content="{{ og.title or title }}">
 <meta name="twitter:description" content="{{ og.description or description }}">
-{% set otherLang = "es" if lang == "en" else "en" %}
-{% set altUrl = page.url | langUrl(lang) %}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-<link rel="alternate" hreflang="es" href="{{ site.url }}{% if lang == 'es' %}{{ page.url }}{% else %}{{ altUrl }}{% endif %}">
-<link rel="alternate" hreflang="en" href="{{ site.url }}{% if lang == 'en' %}{{ page.url }}{% else %}{{ altUrl }}{% endif %}">
+{% for l in site.languages %}
+<link rel="alternate" hreflang="{{ l.code }}" href="{{ site.url }}{{ page.url | toLang(lang, l.code) }}">
+{% endfor %}
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">

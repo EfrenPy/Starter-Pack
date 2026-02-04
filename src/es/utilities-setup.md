@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Suministros del Hogar Cerca del CERN - CERN Starter Pack"
 description: "Como configurar electricidad, gas, agua, internet y otros suministros del hogar al mudarse cerca del CERN en Suiza o Francia."
 og:
   title: "Suministros del Hogar Cerca del CERN - CERN Starter Pack"
   description: "Como configurar electricidad, gas, agua, internet y otros suministros del hogar al mudarse cerca del CERN en Suiza o Francia."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Diaria", url: "/es/daily-life-hub/" }

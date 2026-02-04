@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.njk
 title: "FAQ - CERN Starter Pack"
 description: "Frequently asked questions for new CERN employees: access cards, computing accounts, health insurance, housing, transport, and IT basics."
 og:

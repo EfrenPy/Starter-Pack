@@ -7,12 +7,10 @@ eleventyExcludeFromCollections: true
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-EpCsREbet8yka5lBUXnwBIaxeHo24ygu4rTfaqqJOzg='">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-ESy2Y8tvxmFF07JJzzen6sPyba0d70MWJSHrflJWMyU='">
   <meta http-equiv="refresh" content="0; url=/es/">
   <script>
-    if (localStorage.getItem('language') === 'en') {
-      location.replace('/en/');
-    }
+    var l=localStorage.getItem('language');var s={en:'/en/',it:'/it/',fr:'/fr/'};if(l&&s[l])location.replace(s[l]);
   </script>
 </head>
 <body>

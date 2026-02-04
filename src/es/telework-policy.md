@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Politica de Teletrabajo en el CERN - CERN Starter Pack"
 description: "Guia sobre la politica de teletrabajo del CERN: elegibilidad, limite del 40%, proceso de aprobacion, requisitos de ubicacion, equipamiento y consejos."
 og:
   title: "Politica de Teletrabajo en el CERN - CERN Starter Pack"
   description: "Guia sobre la politica de teletrabajo del CERN: elegibilidad, limite del 40%, proceso de aprobacion, requisitos de ubicacion, equipamiento y consejos."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Tecnica", url: "/es/technical-hub/" }

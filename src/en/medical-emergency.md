@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Medical Services & Emergencies at CERN - CERN Starter Pack"
 description: "Medical services and emergencies at CERN: CERN Medical Service, infirmary, emergency numbers, hospitals, doctors, pharmacies, and mental health support."
 og:
   title: "Medical Services & Emergencies at CERN - CERN Starter Pack"
   description: "Medical services and emergencies at CERN: CERN Medical Service, infirmary, emergency numbers, hospitals, doctors, pharmacies, and mental health support."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

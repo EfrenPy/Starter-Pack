@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Complete Guide for Spanish Nationals at CERN"
 description: "Comprehensive guide covering legal, administrative, financial, housing, and family topics for Spanish nationals working at CERN."
 og:
   title: "Complete Guide for Spanish Nationals at CERN"
   description: "Legal, administrative, and daily life guide for Spaniards at CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 ---
 
 <h1>Complete Guide: Legal, Administrative, and Daily Life at CERN</h1>

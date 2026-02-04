@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Contratos y Carrera en el CERN - CERN Starter Pack"
 description: "Guia de contratos y carrera en el CERN: tipos de contrato, staff, fellowships, estudiantes de doctorado, extensiones, desarrollo profesional y salida del CERN."
 og:
   title: "Contratos y Carrera en el CERN - CERN Starter Pack"
   description: "Guia de contratos y carrera en el CERN: tipos de contrato, staff, fellowships, estudiantes de doctorado, extensiones, desarrollo profesional y salida del CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }

@@ -1,0 +1,256 @@
+{
+  "layout": "layouts/hub.njk",
+  "printable": false,
+  "slug": "daily-life-hub",
+  "alertIcon": "💡",
+  "alertLabel": {
+    "en": "Tip:",
+    "es": "Tip:",
+    "it": "Consiglio:",
+    "fr": "Conseil :"
+  },
+  "translations": {
+    "en": {
+      "title": "Daily Life Guide - CERN Starter Pack",
+      "description": "Daily life hub for CERN newcomers: housing, banking, transport, shopping, schools, and practical tips for Geneva and Pays de Gex.",
+      "og": {
+        "title": "Daily Life Guide - CERN Starter Pack",
+        "description": "Practical daily life resources for CERN employees living near Geneva."
+      },
+      "breadcrumbLabel": "Daily Life",
+      "heading": "Daily Life Near CERN",
+      "intro": "Practical guides for settling in and navigating daily life in the Geneva and Pays de Gex region.",
+      "alertText": "Most services differ between Switzerland and France. Check which country you live in before following any guide."
+    },
+    "es": {
+      "title": "Guia de Vida Cotidiana - CERN Starter Pack",
+      "description": "Centro de vida cotidiana para recien llegados al CERN: vivienda, banca, transporte, compras, colegios y consejos practicos para Ginebra y Pays de Gex.",
+      "og": {
+        "title": "Guia de Vida Cotidiana - CERN Starter Pack",
+        "description": "Recursos practicos de vida cotidiana para empleados del CERN cerca de Ginebra."
+      },
+      "breadcrumbLabel": "Vida Cotidiana",
+      "heading": "Vida Cotidiana Cerca del CERN",
+      "intro": "Guias practicas para instalarse y navegar la vida diaria en la region de Ginebra y Pays de Gex.",
+      "alertText": "La mayoria de servicios difieren entre Suiza y Francia. Comprueba en que pais vives antes de seguir cualquier guia."
+    },
+    "it": {
+      "title": "Guida alla Vita Quotidiana - CERN Starter Pack",
+      "description": "Hub sulla vita quotidiana per i nuovi arrivati al CERN: alloggio, banca, trasporti, shopping, scuole e consigli pratici per Ginevra e il Pays de Gex.",
+      "og": {
+        "title": "Guida alla Vita Quotidiana - CERN Starter Pack",
+        "description": "Risorse pratiche sulla vita quotidiana per i dipendenti del CERN che vivono vicino a Ginevra."
+      },
+      "breadcrumbLabel": "Vita Quotidiana",
+      "heading": "Vita Quotidiana Vicino al CERN",
+      "intro": "Guide pratiche per stabilirsi e orientarsi nella vita quotidiana nella regione di Ginevra e del Pays de Gex.",
+      "alertText": "La maggior parte dei servizi differisce tra Svizzera e Francia. Verifica in quale paese risiedi prima di seguire qualsiasi guida."
+    },
+    "fr": {
+      "title": "Guide de la Vie Quotidienne - CERN Starter Pack",
+      "description": "Hub de la vie quotidienne pour les nouveaux arrivants au CERN : logement, banque, transports, courses, ecoles et conseils pratiques pour Geneve et le Pays de Gex.",
+      "og": {
+        "title": "Guide de la Vie Quotidienne - CERN Starter Pack",
+        "description": "Ressources pratiques pour la vie quotidienne des employes du CERN pres de Geneve."
+      },
+      "breadcrumbLabel": "Vie Quotidienne",
+      "heading": "Vie Quotidienne Pres du CERN",
+      "intro": "Guides pratiques pour s'installer et naviguer la vie quotidienne dans la region de Geneve et du Pays de Gex.",
+      "alertText": "La plupart des services different entre la Suisse et la France. Verifiez dans quel pays vous vivez avant de suivre un guide."
+    }
+  },
+  "cards": [
+    {
+      "slug": "housing-guide",
+      "icon": "🏠",
+      "title": {
+        "en": "Housing Guide",
+        "es": "Guia de Vivienda",
+        "it": "Guida all'Alloggio",
+        "fr": "Guide du Logement"
+      },
+      "desc": {
+        "en": "Switzerland vs France, popular areas, rental tips, and finding accommodation near CERN.",
+        "es": "Suiza vs Francia, zonas populares, consejos de alquiler y busqueda de alojamiento cerca del CERN.",
+        "it": "Svizzera vs Francia, zone popolari, consigli per l'affitto e come trovare alloggio vicino al CERN.",
+        "fr": "Suisse vs France, quartiers populaires, conseils de location et comment trouver un logement pres du CERN."
+      }
+    },
+    {
+      "slug": "banking-setup",
+      "icon": "🏦",
+      "title": {
+        "en": "Banking Setup",
+        "es": "Configuracion Bancaria",
+        "it": "Apertura Conto Bancario",
+        "fr": "Ouverture de Compte Bancaire"
+      },
+      "desc": {
+        "en": "Opening Swiss and French bank accounts, required documents, on-site banks, and salary payment.",
+        "es": "Abrir cuentas en Suiza y Francia, documentos necesarios, bancos en el CERN y pago de salario.",
+        "it": "Aprire conti bancari svizzeri e francesi, documenti richiesti, banche in loco e pagamento dello stipendio.",
+        "fr": "Ouvrir des comptes bancaires suisses et francais, documents requis, banques sur place et versement du salaire."
+      }
+    },
+    {
+      "slug": "transportation",
+      "icon": "🚌",
+      "title": {
+        "en": "Transportation",
+        "es": "Transporte",
+        "it": "Trasporti",
+        "fr": "Transports"
+      },
+      "desc": {
+        "en": "Bus 68, Tram 18, CERN shuttle, bike paths, commuting options, and parking at CERN.",
+        "es": "Bus 68, Tram 18, lanzadera del CERN, carriles bici, opciones de desplazamiento y aparcamiento.",
+        "it": "Bus 68, Tram 18, navetta CERN, piste ciclabili, opzioni di pendolarismo e parcheggio al CERN.",
+        "fr": "Bus 68, Tram 18, navette CERN, pistes cyclables, options de trajet et stationnement au CERN."
+      }
+    },
+    {
+      "slug": "cross-border-shopping",
+      "icon": "🛒",
+      "title": {
+        "en": "Cross-Border Shopping",
+        "es": "Compras Transfronterizas",
+        "it": "Shopping Transfrontaliero",
+        "fr": "Courses Transfrontalieres"
+      },
+      "desc": {
+        "en": "French supermarkets, savings tips, customs limits, and Sunday opening hours.",
+        "es": "Supermercados franceses, consejos de ahorro, limites aduaneros y horarios dominicales.",
+        "it": "Supermercati francesi, consigli per risparmiare, limiti doganali e orari di apertura domenicali.",
+        "fr": "Supermarches francais, astuces pour economiser, limites douanieres et horaires d'ouverture le dimanche."
+      }
+    },
+    {
+      "slug": "childcare-schools",
+      "icon": "🎓",
+      "title": {
+        "en": "Childcare &amp; Schools",
+        "es": "Guarderias y Colegios",
+        "it": "Asili e Scuole",
+        "fr": "Creches &amp; Ecoles"
+      },
+      "desc": {
+        "en": "CERN creche, local nurseries, international schools, and education options for families.",
+        "es": "Guarderia del CERN, guarderias locales, colegios internacionales y opciones educativas.",
+        "it": "Asilo nido CERN, asili locali, scuole internazionali e opzioni educative per le famiglie.",
+        "fr": "Creche du CERN, garderies locales, ecoles internationales et options educatives pour les familles."
+      }
+    },
+    {
+      "slug": "utilities-setup",
+      "icon": "💡",
+      "title": {
+        "en": "Utilities Setup",
+        "es": "Suministros del Hogar",
+        "it": "Configurazione Utenze",
+        "fr": "Installation des Services"
+      },
+      "desc": {
+        "en": "Electricity, gas, water, internet providers, and setup timelines in Switzerland and France.",
+        "es": "Electricidad, gas, agua, proveedores de internet y plazos de instalacion en Suiza y Francia.",
+        "it": "Elettricita, gas, acqua, provider internet e tempistiche di attivazione in Svizzera e Francia.",
+        "fr": "Electricite, gaz, eau, fournisseurs internet et delais d'installation en Suisse et en France."
+      }
+    },
+    {
+      "slug": "on-site-services",
+      "icon": "🍽",
+      "title": {
+        "en": "On-Site Services",
+        "es": "Servicios en el Campus",
+        "it": "Servizi in Loco",
+        "fr": "Services sur le Site"
+      },
+      "desc": {
+        "en": "Restaurants R1/R2/R3, cafeterias, Medical Service, banking, postal, and emergency contacts.",
+        "es": "Restaurantes R1/R2/R3, cafeterias, Servicio Medico, banca, correos y emergencias.",
+        "it": "Ristoranti R1/R2/R3, caffetterie, Servizio Medico, banca, posta e contatti di emergenza.",
+        "fr": "Restaurants R1/R2/R3, cafeterias, Service Medical, banque, poste et contacts d'urgence."
+      }
+    },
+    {
+      "slug": "vehicle-green-plates",
+      "icon": "🚗",
+      "title": {
+        "en": "Vehicles &amp; Green Plates",
+        "es": "Vehiculos y Placas Verdes",
+        "it": "Veicoli e Targhe Verdi",
+        "fr": "Vehicules &amp; Plaques Vertes"
+      },
+      "desc": {
+        "en": "Green plate eligibility, tax-free vehicle import, customs, license exchange, and insurance.",
+        "es": "Elegibilidad de placas verdes, importacion libre de impuestos, aduanas, canje de carnet y seguro.",
+        "it": "Idoneita per le targhe verdi, importazione veicoli esentasse, dogana, conversione patente e assicurazione.",
+        "fr": "Eligibilite aux plaques vertes, importation de vehicule hors taxes, douanes, echange de permis et assurance."
+      }
+    },
+    {
+      "slug": "language-training",
+      "icon": "🌐",
+      "title": {
+        "en": "Language Training",
+        "es": "Formacion en Idiomas",
+        "it": "Corsi di Lingua",
+        "fr": "Cours de Langues"
+      },
+      "desc": {
+        "en": "CERN language courses, Welcome Club classes, local associations, and conversation exchange.",
+        "es": "Cursos de idiomas del CERN, clases del Welcome Club, asociaciones locales e intercambio conversacional.",
+        "it": "Corsi di lingua del CERN, lezioni del Welcome Club, associazioni locali e scambio conversazionale.",
+        "fr": "Cours de langues du CERN, cours du Welcome Club, associations locales et echange conversationnel."
+      }
+    },
+    {
+      "slug": "clubs-social",
+      "icon": "🤝",
+      "title": {
+        "en": "Clubs &amp; Social Life",
+        "es": "Clubes y Vida Social",
+        "it": "Club e Vita Sociale",
+        "fr": "Clubs &amp; Vie Sociale"
+      },
+      "desc": {
+        "en": "Staff Association, Welcome Club, 70+ activity courses, sports, cultural clubs, and networking.",
+        "es": "Asociacion de Personal, Welcome Club, 70+ cursos, clubes deportivos, culturales y networking.",
+        "it": "Staff Association, Welcome Club, oltre 70 corsi di attivita, sport, club culturali e networking.",
+        "fr": "Association du Personnel, Welcome Club, plus de 70 cours d'activites, sports, clubs culturels et networking."
+      }
+    },
+    {
+      "slug": "family-support",
+      "icon": "👪",
+      "title": {
+        "en": "Family Support",
+        "es": "Apoyo Familiar",
+        "it": "Supporto Familiare",
+        "fr": "Soutien Familial"
+      },
+      "desc": {
+        "en": "Spouses and Partners Forum, relocation benefits, dual career support, and partner employment.",
+        "es": "Foro de Conyuges y Parejas, beneficios de reubicacion, apoyo de doble carrera y empleo de la pareja.",
+        "it": "Forum Coniugi e Partner, benefici per il trasferimento, supporto alla doppia carriera e impiego del partner.",
+        "fr": "Forum des Conjoints et Partenaires, avantages de relocalisation, soutien a la double carriere et emploi du partenaire."
+      }
+    },
+    {
+      "slug": "medical-emergency",
+      "icon": "🏥",
+      "title": {
+        "en": "Medical &amp; Emergency",
+        "es": "Medico y Emergencias",
+        "it": "Emergenze Mediche",
+        "fr": "Medical &amp; Urgences"
+      },
+      "desc": {
+        "en": "CERN Medical Service, infirmary, emergency number 767-4444, HUG hospital, and finding doctors.",
+        "es": "Servicio Medico del CERN, enfermeria, numero de emergencia 767-4444, hospital HUG y busqueda de medicos.",
+        "it": "Servizio Medico CERN, infermeria, numero di emergenza 767-4444, ospedale HUG e come trovare medici.",
+        "fr": "Service Medical du CERN, infirmerie, numero d'urgence 767-4444, hopital HUG et comment trouver un medecin."
+      }
+    }
+  ]
+}

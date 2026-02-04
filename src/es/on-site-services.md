@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Servicios en el Campus del CERN - CERN Starter Pack"
 description: "Guia de servicios en el campus del CERN: restaurantes, servicio medico, banco, correos, biblioteca, instalaciones deportivas y numeros de emergencia."
 og:
   title: "Servicios en el Campus del CERN - CERN Starter Pack"
   description: "Guia de servicios en el campus del CERN: restaurantes, servicio medico, banco, correos, biblioteca, instalaciones deportivas y numeros de emergencia."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Diaria", url: "/es/daily-life-hub/" }

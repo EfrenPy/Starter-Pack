@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Configuracion de Kerberos y SSH para CERN - CERN Starter Pack"
 description: "Guia completa para configurar la autenticacion Kerberos y el acceso SSH a CERN lxplus en Linux, macOS y Windows/WSL."
 og:
   title: "Configuracion de Kerberos y SSH para CERN - CERN Starter Pack"
   description: "Guia paso a paso para configurar Kerberos y SSH para acceder a CERN lxplus y servicios relacionados."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Tecnica", url: "/es/technical-hub/" }

@@ -1,0 +1,39 @@
+---js
+{
+  pagination: { data: "site.languages", size: 1, alias: "langObj" },
+  eleventyComputed: {
+    lang: (data) => data.langObj.code,
+    locale: (data) => ({ es: "es_ES", en: "en_US", it: "it_IT", fr: "fr_FR" }[data.langObj.code]),
+    permalink: (data) => `${data.langObj.code}/`,
+    title: (data) => data.pages["index"].translations[data.langObj.code].title,
+    description: (data) => data.pages["index"].translations[data.langObj.code].description,
+    og: (data) => data.pages["index"].translations[data.langObj.code].og,
+    hero: (data) => data.pages["index"].translations[data.langObj.code].hero
+  },
+  layout: "layouts/home.njk",
+  printable: false
+}
+---
+{%- set pd = pages["index"] -%}
+{%- set t = pd.translations[lang] -%}
+<div class="card-grid">
+  {%- for card in pd.cards %}
+  <a href="{{ card.slug }}/" class="card">
+    <div class="card__icon" aria-hidden="true">{{ card.icon | safe }}</div>
+    <div class="card__title">{{ card.title[lang] | safe }}</div>
+    <p class="card__desc">{{ card.desc[lang] | safe }}</p>
+  </a>
+  {%- endfor %}
+</div>
+
+<div class="search-panel">
+  <h2 class="search-panel__title">{{ t.searchTitle }}</h2>
+  <form action="/{{ lang }}/search/" method="get" class="search-box">
+    <div class="search-box__input-wrap">
+      <span class="search-box__icon" aria-hidden="true">&#128269;</span>
+      <label for="search-input" class="sr-only">{{ t.searchLabel }}</label>
+      <input type="text" name="query" id="search-input" class="search-box__input" placeholder="{{ t.searchPlaceholder }}" required>
+    </div>
+    <button type="submit" class="btn btn--primary">{{ t.searchButton }}</button>
+  </form>
+</div>

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "On-Site Services at CERN - CERN Starter Pack"
 description: "Guide to on-site services at CERN: restaurants, medical service, banking, post office, library, sports facilities, and emergency numbers."
 og:
   title: "On-Site Services at CERN - CERN Starter Pack"
   description: "Guide to on-site services at CERN: restaurants, medical service, banking, post office, library, sports facilities, and emergency numbers."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

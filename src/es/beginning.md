@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Guía para españoles que empiezan a trabajar en el CERN (Seguridad Social y Fiscalidad)"
 description: "Guía completa para españoles que empiezan a trabajar en el CERN: seguridad social, fiscalidad, convenio especial y trámites administrativos."
 og:
   title: "Guía para españoles que empiezan a trabajar en el CERN"
   description: "Seguridad social, fiscalidad y trámites administrativos para españoles en el CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }

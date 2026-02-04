@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Apoyo Familiar en el CERN - CERN Starter Pack"
 description: "Apoyo familiar en el CERN: asistencia para la reubicacion, foro de conyuges y parejas, programa de doble carrera, empleo para parejas, prestaciones familiares y recursos de guarderia."
 og:
   title: "Apoyo Familiar en el CERN - CERN Starter Pack"
   description: "Apoyo familiar en el CERN: asistencia para la reubicacion, foro de conyuges y parejas, programa de doble carrera, empleo para parejas, prestaciones familiares y recursos de guarderia."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Diaria", url: "/es/daily-life-hub/" }

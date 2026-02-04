@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Guarderias y Colegios Cerca del CERN - CERN Starter Pack"
 description: "Guia de guarderias, escuelas y opciones educativas internacionales cerca del CERN para familias que se trasladan a la zona de Ginebra."
 og:
   title: "Guarderias y Colegios Cerca del CERN - CERN Starter Pack"
   description: "Guia de guarderias, escuelas y opciones educativas internacionales cerca del CERN para familias que se trasladan a la zona de Ginebra."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Diaria", url: "/es/daily-life-hub/" }

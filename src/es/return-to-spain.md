@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Regreso a Espana - CERN Starter Pack"
 description: "Guia paso a paso para empleados del CERN que regresan a Espana: tramites administrativos, sanidad, pensiones, impuestos y cuestiones practicas."
 og:
   title: "Regreso a Espana - CERN Starter Pack"
   description: "Guia completa para empleados del CERN que planean su regreso a Espana."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }

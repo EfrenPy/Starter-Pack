@@ -108,4 +108,34 @@ test.describe('Search functionality', () => {
       expect(count).toBeGreaterThan(0);
     });
   });
+
+  test.describe('Italian search', () => {
+    test('search page loads at /it/search/', async ({ page }) => {
+      await page.goto('/it/search/');
+      await expect(page.locator('main#main-content')).toBeVisible();
+      await expect(page.locator('#search-results')).toBeEmpty();
+    });
+
+    test('search with query parameter shows results', async ({ page }) => {
+      await page.goto('/it/search/?query=CERN');
+      await page.waitForSelector('.search-result', { timeout: 10000 });
+      const results = page.locator('.search-result');
+      const count = await results.count();
+      expect(count).toBeGreaterThan(0);
+    });
+
+    test('search results use /it/ paths', async ({ page }) => {
+      await page.goto('/it/search/?query=fiscale');
+      await page.waitForSelector('.search-result', { timeout: 10000 });
+      const firstLink = page.locator('.search-result h3 a').first();
+      const href = await firstLink.getAttribute('href');
+      expect(href).toContain('/it/');
+    });
+
+    test('no results message is in Italian', async ({ page }) => {
+      await page.goto('/it/search/?query=zzzzxxxxxnonexistent');
+      await page.waitForSelector('#search-results p', { timeout: 10000 });
+      await expect(page.locator('#search-results')).toContainText('Nessun risultato');
+    });
+  });
 });

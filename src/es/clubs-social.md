@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Clubes y Vida Social en el CERN - CERN Starter Pack"
 description: "Guia de clubes y vida social en el CERN: Asociacion de Personal, Welcome Club, deportes, clubes culturales, comunidades nacionales y eventos."
 og:
   title: "Clubes y Vida Social en el CERN - CERN Starter Pack"
   description: "Guia de clubes y vida social en el CERN: Asociacion de Personal, Welcome Club, deportes, clubes culturales, comunidades nacionales y eventos."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
