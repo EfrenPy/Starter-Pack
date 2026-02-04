@@ -253,6 +253,22 @@
       }
     },
     {
+      "slug": "parental-leave",
+      "icon": "👶",
+      "title": {
+        "en": "Parental Leave",
+        "es": "Permiso Parental",
+        "it": "Congedo Parentale",
+        "fr": "Conge Parental"
+      },
+      "desc": {
+        "en": "Maternity, paternity, and adoption leave at CERN: duration, income replacement, EDH requests, and return-to-work options.",
+        "es": "Permiso de maternidad, paternidad y adopcion en el CERN: duracion, reemplazo de ingresos, solicitudes EDH y opciones de reincorporacion.",
+        "it": "Congedo di maternita, paternita e adozione al CERN: durata, sostituzione del reddito, richieste EDH e opzioni di rientro al lavoro.",
+        "fr": "Conge de maternite, paternite et adoption au CERN : duree, remplacement de revenus, demandes EDH et options de retour au travail."
+      }
+    },
+    {
       "slug": "departure-guide",
       "icon": "🚪",
       "title": {

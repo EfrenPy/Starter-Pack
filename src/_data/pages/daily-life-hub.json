@@ -285,6 +285,70 @@
       }
     },
     {
+      "slug": "frontalier-guide",
+      "icon": "🔄",
+      "title": {
+        "en": "Frontalier Guide",
+        "es": "Guia del Frontalier",
+        "it": "Guida al Frontalierato",
+        "fr": "Guide du Frontalier"
+      },
+      "desc": {
+        "en": "Cross-border worker guide: G permit, tax residency, health insurance choice, daily commute, and administrative paperwork.",
+        "es": "Guia del trabajador transfronterizo: permiso G, residencia fiscal, seguro medico, desplazamiento diario y tramites administrativos.",
+        "it": "Guida al lavoratore frontaliero: permesso G, residenza fiscale, assicurazione sanitaria, pendolarismo e pratiche amministrative.",
+        "fr": "Guide du travailleur frontalier : permis G, residence fiscale, choix d'assurance maladie, trajet quotidien et demarches administratives."
+      }
+    },
+    {
+      "slug": "pre-arrival-guide",
+      "icon": "✈",
+      "title": {
+        "en": "Pre-Arrival Guide",
+        "es": "Guia Pre-Llegada",
+        "it": "Guida Pre-Arrivo",
+        "fr": "Guide Pre-Arrivee"
+      },
+      "desc": {
+        "en": "What to do before arriving at CERN: visa requirements, documents to prepare, what to bring, and booking initial accommodation.",
+        "es": "Que hacer antes de llegar al CERN: requisitos de visado, documentos a preparar, que llevar y reserva de alojamiento inicial.",
+        "it": "Cosa fare prima di arrivare al CERN: requisiti per il visto, documenti da preparare, cosa portare e prenotazione dell'alloggio iniziale.",
+        "fr": "Que faire avant d'arriver au CERN : exigences de visa, documents a preparer, quoi apporter et reservation d'un hebergement initial."
+      }
+    },
+    {
+      "slug": "relocation-moving",
+      "icon": "📦",
+      "title": {
+        "en": "Relocation &amp; Moving",
+        "es": "Mudanza e Instalacion",
+        "it": "Trasferimento e Trasloco",
+        "fr": "Demenagement &amp; Installation"
+      },
+      "desc": {
+        "en": "International move logistics: shipping belongings, customs, furnished vs unfurnished rentals, storage, and mail forwarding.",
+        "es": "Logistica de mudanza internacional: envio de pertenencias, aduanas, alquileres amueblados vs vacios, almacenamiento y reenvio de correo.",
+        "it": "Logistica del trasferimento internazionale: spedizione effetti personali, dogana, affitti arredati vs non arredati, deposito e inoltro posta.",
+        "fr": "Logistique de demenagement international : expedition d'effets personnels, douanes, locations meublees vs vides, stockage et redirection postale."
+      }
+    },
+    {
+      "slug": "cern-benefits",
+      "icon": "🎁",
+      "title": {
+        "en": "CERN Benefits &amp; Perks",
+        "es": "Beneficios y Ventajas del CERN",
+        "it": "Benefici e Vantaggi del CERN",
+        "fr": "Avantages du CERN"
+      },
+      "desc": {
+        "en": "Staff benefits beyond salary: tax-free purchases, corporate discounts, canteen subsidies, education grants, and relocation allowance.",
+        "es": "Beneficios mas alla del salario: compras libres de impuestos, descuentos corporativos, subsidios de comedor, becas educativas y subsidio de mudanza.",
+        "it": "Benefici oltre lo stipendio: acquisti esentasse, sconti aziendali, sussidi mensa, borse di studio e indennita di trasferimento.",
+        "fr": "Avantages au-dela du salaire : achats hors taxes, reductions entreprise, subventions cantine, bourses d'etudes et indemnite de demenagement."
+      }
+    },
+    {
       "slug": "currency-money",
       "icon": "💱",
       "title": {

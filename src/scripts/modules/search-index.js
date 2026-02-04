@@ -46,6 +46,13 @@ const PAGE_SLUGS = [
   'outdoor-recreation',
   'currency-money',
   'technical/swan-jupyter',
+  'frontalier-guide',
+  'pre-arrival-guide',
+  'relocation-moving',
+  'parental-leave',
+  'cern-benefits',
+  'technical/eos-storage',
+  'technical/lxplus-guide',
 ];
 
 const fuseCache = {};
