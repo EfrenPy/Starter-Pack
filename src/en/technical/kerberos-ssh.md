@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Kerberos & SSH Setup for CERN - CERN Starter Pack"
 description: "Complete guide to setting up Kerberos authentication and SSH access for CERN lxplus on Linux, macOS, and Windows/WSL."
 og:
   title: "Kerberos & SSH Setup for CERN - CERN Starter Pack"
   description: "Step-by-step guide for configuring Kerberos and SSH to access CERN lxplus and related services."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Technical Help", url: "/en/technical-hub/" }

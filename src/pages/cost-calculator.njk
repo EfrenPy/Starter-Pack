@@ -1,0 +1,95 @@
+---js
+{
+  pagination: { data: "site.languages", size: 1, alias: "langObj" },
+  eleventyComputed: {
+    lang: (data) => data.langObj.code,
+    locale: (data) => ({ es: "es_ES", en: "en_US", it: "it_IT", fr: "fr_FR" }[data.langObj.code]),
+    permalink: (data) => `${data.langObj.code}/cost-calculator/`,
+    title: (data) => data.pages["cost-calculator"].translations[data.langObj.code].title,
+    description: (data) => data.pages["cost-calculator"].translations[data.langObj.code].description,
+    og: (data) => data.pages["cost-calculator"].translations[data.langObj.code].og,
+    breadcrumbs: (data) => {
+      const lang = data.langObj.code;
+      const t = data.pages["cost-calculator"].translations[lang];
+      const home = data.ui[lang].nav_home;
+      return [
+        { label: home, url: `/${lang}/` },
+        { label: t.breadcrumbLabel }
+      ];
+    }
+  },
+  layout: "layouts/page.njk",
+  printable: false,
+  datePublished: "2025-06-01",
+  dateModified: "2026-02-01",
+  dateUpdated: "2026-02",
+  extraJs: "/scripts/pages/cost-calculator.js"
+}
+---
+{%- set pd = pages["cost-calculator"] -%}
+{%- set t = pd.translations[lang] -%}
+      <h1>{{ t.heading }}</h1>
+
+      <div class="alert">
+        <strong>{{ t.disclaimerTitle }}</strong><br>
+        <p>{{ t.disclaimerText }}</p>
+      </div>
+
+      <form id="calculator-form" class="calculator-form">
+        <fieldset>
+          <legend>{{ t.fieldsetLegend }}</legend>
+
+          <label for="gross-salary">{{ t.salaryLabel }}</label>
+          <input type="number" id="gross-salary" min="3000" max="30000" step="100" value="8000">
+          <p class="hint">{{ t.salaryHint }}</p>
+
+          <label for="country">{{ t.countryLabel }}</label>
+          <select id="country">
+            <option value="ch">{{ t.countryCh }}</option>
+            <option value="fr">{{ t.countryFr }}</option>
+          </select>
+
+          <label for="family-size">{{ t.familyLabel }}</label>
+          <select id="family-size">
+            <option value="single">{{ t.familySingle }}</option>
+            <option value="couple">{{ t.familyCouple }}</option>
+            <option value="family-1">{{ t.familyOne }}</option>
+            <option value="family-2">{{ t.familyTwo }}</option>
+          </select>
+        </fieldset>
+
+        <button type="submit" class="btn btn--primary">{{ t.calculateBtn }}</button>
+      </form>
+
+      <div id="calculator-results" hidden="">
+        <h2>{{ t.resultsHeading }}</h2>
+        <div class="calculator-grid">
+          <div class="calculator-card">
+            <h3>{{ t.incomeHeading }}</h3>
+            <dl>
+              <dt>{{ t.grossLabel }}</dt><dd id="res-gross">—</dd>
+              <dt>{{ t.taxLabel }}</dt><dd id="res-tax">—</dd>
+              <dt>{{ t.chisLabel }}</dt><dd id="res-chis">—</dd>
+              <dt>{{ t.pensionLabel }}</dt><dd id="res-pension">—</dd>
+              <dt><strong>{{ t.netLabel }}</strong></dt><dd id="res-net"><strong>—</strong></dd>
+            </dl>
+          </div>
+          <div class="calculator-card">
+            <h3>{{ t.expensesHeading }}</h3>
+            <dl>
+              <dt>{{ t.rentLabel }}</dt><dd id="res-rent">—</dd>
+              <dt>{{ t.groceriesLabel }}</dt><dd id="res-groceries">—</dd>
+              <dt>{{ t.transportLabel }}</dt><dd id="res-transport">—</dd>
+              <dt>{{ t.convenioLabel }}</dt><dd id="res-convenio">—</dd>
+              <dt>{{ t.utilitiesLabel }}</dt><dd id="res-utilities">—</dd>
+              <dt>{{ t.otherLabel }}</dt><dd id="res-other">—</dd>
+              <dt><strong>{{ t.totalExpensesLabel }}</strong></dt><dd id="res-total-expenses"><strong>—</strong></dd>
+            </dl>
+          </div>
+          <div class="calculator-card calculator-card--highlight">
+            <h3>{{ t.savingsHeading }}</h3>
+            <p id="res-savings" class="calculator-savings">—</p>
+          </div>
+        </div>
+        <p class="hint" style="margin-top: var(--space-lg);">{{ t.disclaimer }}</p>
+      </div>

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Formacion en Idiomas en el CERN - CERN Starter Pack"
 description: "Guia de formacion en idiomas en el CERN: cursos de frances, clases subvencionadas, Welcome Club, CAGI, opciones locales y recursos de autoestudio."
 og:
   title: "Formacion en Idiomas en el CERN - CERN Starter Pack"
   description: "Guia de formacion en idiomas en el CERN: cursos de frances, clases subvencionadas, Welcome Club, CAGI, opciones locales y recursos de autoestudio."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Diaria", url: "/es/daily-life-hub/" }

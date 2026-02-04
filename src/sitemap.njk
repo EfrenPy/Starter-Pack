@@ -19,9 +19,9 @@ eleventyExcludeFromCollections: true
     <lastmod>{{ item.data.dateModified }}</lastmod>
     {%- endif %}
     {%- if item.data.lang %}
-    {%- set altUrl = item.url | langUrl(item.data.lang) %}
-    <xhtml:link rel="alternate" hreflang="{{ item.data.lang }}" href="{{ site.url }}{{ item.url }}" />
-    <xhtml:link rel="alternate" hreflang="{% if item.data.lang == 'en' %}es{% else %}en{% endif %}" href="{{ site.url }}{{ altUrl }}" />
+    {%- for l in site.languages %}
+    <xhtml:link rel="alternate" hreflang="{{ l.code }}" href="{{ site.url }}{{ item.url | toLang(item.data.lang, l.code) }}" />
+    {%- endfor %}
     {%- endif %}
   </url>
 {%- endif %}

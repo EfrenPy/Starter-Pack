@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Seguro Medico en el CERN - CERN Starter Pack"
 description: "Guia de seguro medico para empleados del CERN: CHIS, LAMal, CMU/PUMA, droit d'option, formulario S1 y plazos."
 og:
   title: "Seguro Medico en el CERN - CERN Starter Pack"
   description: "Guia de seguro medico para empleados del CERN: CHIS, LAMal, CMU/PUMA, droit d'option, formulario S1 y plazos."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Seguro Medico" }

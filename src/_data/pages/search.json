@@ -1,0 +1,48 @@
+{
+  "layout": "layouts/page.njk",
+  "printable": false,
+  "slug": "search",
+  "extraJs": "/scripts/pages/search.js",
+  "translations": {
+    "en": {
+      "title": "Search - CERN Starter Pack",
+      "description": "Search articles in the CERN Starter Pack.",
+      "og": {
+        "title": "Search - CERN Starter Pack",
+        "description": "Search for articles about legal, tax, and technical topics for CERN employees."
+      },
+      "breadcrumbLabel": "Search",
+      "heading": "Search"
+    },
+    "es": {
+      "title": "Busqueda - CERN Starter Pack",
+      "description": "Buscar articulos en el CERN Starter Pack.",
+      "og": {
+        "title": "Busqueda - CERN Starter Pack",
+        "description": "Busca articulos sobre temas legales, fiscales y tecnicos para empleados del CERN."
+      },
+      "breadcrumbLabel": "Busqueda",
+      "heading": "Busqueda"
+    },
+    "it": {
+      "title": "Cerca - CERN Starter Pack",
+      "description": "Cerca articoli nel CERN Starter Pack.",
+      "og": {
+        "title": "Cerca - CERN Starter Pack",
+        "description": "Cerca articoli su argomenti legali, fiscali e tecnici per i dipendenti del CERN."
+      },
+      "breadcrumbLabel": "Cerca",
+      "heading": "Cerca"
+    },
+    "fr": {
+      "title": "Recherche - CERN Starter Pack",
+      "description": "Rechercher des articles dans le CERN Starter Pack.",
+      "og": {
+        "title": "Recherche - CERN Starter Pack",
+        "description": "Recherchez des articles sur les sujets juridiques, fiscaux et techniques pour les employes du CERN."
+      },
+      "breadcrumbLabel": "Recherche",
+      "heading": "Recherche"
+    }
+  }
+}

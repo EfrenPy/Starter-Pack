@@ -1,0 +1,62 @@
+---js
+{
+  pagination: { data: "site.languages", size: 1, alias: "langObj" },
+  eleventyComputed: {
+    lang: (data) => data.langObj.code,
+    locale: (data) => ({ es: "es_ES", en: "en_US", it: "it_IT", fr: "fr_FR" }[data.langObj.code]),
+    permalink: (data) => `${data.langObj.code}/checklist/`,
+    title: (data) => data.pages.checklist.translations[data.langObj.code].title,
+    description: (data) => data.pages.checklist.translations[data.langObj.code].description,
+    og: (data) => data.pages.checklist.translations[data.langObj.code].og,
+    breadcrumbs: (data) => {
+      const lang = data.langObj.code;
+      const t = data.pages.checklist.translations[lang];
+      const home = data.ui[lang].nav_home;
+      return [
+        { label: home, url: `/${lang}/` },
+        { label: t.parentBreadcrumbLabel, url: `/${lang}/legal-hub/` },
+        { label: t.breadcrumbLabel }
+      ];
+    }
+  },
+  layout: "layouts/page.njk",
+  printable: false,
+  datePublished: "2025-06-01",
+  dateModified: "2026-02-01",
+  dateUpdated: "2026-02",
+  extraJs: "/scripts/pages/checklist.js"
+}
+---
+{%- set pd = pages.checklist -%}
+{%- set t = pd.translations[lang] -%}
+      <h1>{{ t.heading }}</h1>
+
+      <div class="alert">
+        <strong>{{ t.privacyTitle }}</strong><br>
+        <p>{{ t.privacyText }}</p>
+      </div>
+
+      <div class="checklist-progress">
+        <div class="checklist-progress__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="checklist-progress__fill"></div>
+        </div>
+        <span class="checklist-progress__text">{{ t.progressText }}</span>
+      </div>
+
+      {%- for phase in pd.phases %}
+      <div class="timeline__phase">
+        <h2 class="timeline__heading">{{ phase.heading[lang] }}</h2>
+        <div class="checklist">
+          {%- for item in phase.items %}
+          <div class="checklist__item">
+            <label>
+              <input type="checkbox" data-checklist-id="{{ item.id }}">
+              <span>{{ item.label[lang] | safe }}</span>
+            </label>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+      {%- endfor %}
+
+      <button class="btn btn--secondary" id="reset-checklist">{{ t.resetButton }}</button>

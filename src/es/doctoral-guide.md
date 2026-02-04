@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Guia para Estudiantes de Doctorado en el CERN - CERN Starter Pack"
 description: "Guia para estudiantes de doctorado en el CERN: detalles del programa, presentacion de tesis, hiper-autoria, cuestiones practicas, recursos informaticos y oportunidades post-doctorado."
 og:
   title: "Guia para Estudiantes de Doctorado en el CERN - CERN Starter Pack"
   description: "Guia para estudiantes de doctorado en el CERN: detalles del programa, presentacion de tesis, hiper-autoria, cuestiones practicas, recursos informaticos y oportunidades post-doctorado."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Guia de Doctorado" }

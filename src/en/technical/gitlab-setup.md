@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "CERN GitLab & Development Workflow - CERN Starter Pack"
 description: "Guide to CERN GitLab, authentication methods, SSH keys, Kerberos Git access, CI/CD, and development workflows for newcomers."
 og:
   title: "CERN GitLab & Development Workflow - CERN Starter Pack"
   description: "Set up your CERN GitLab account, configure authentication, and learn the standard development workflow at CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Technical Help", url: "/en/technical-hub/" }

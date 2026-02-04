@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Family Support at CERN - CERN Starter Pack"
 description: "Family support at CERN: relocation assistance, spouse/partner forum, dual career programme, partner employment, family allowances, and childcare resources."
 og:
   title: "Family Support at CERN - CERN Starter Pack"
   description: "Family support at CERN: relocation assistance, spouse/partner forum, dual career programme, partner employment, family allowances, and childcare resources."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

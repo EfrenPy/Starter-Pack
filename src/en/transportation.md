@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Transportation Near CERN - CERN Starter Pack"
 description: "Transportation guide for CERN employees: public transport, CERN shuttle, cycling, driving, regional trains, and getting from Geneva airport."
 og:
   title: "Transportation Near CERN - CERN Starter Pack"
   description: "Practical guide to getting around near CERN: TPG buses, CERN shuttle, cycling, driving, and regional trains."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

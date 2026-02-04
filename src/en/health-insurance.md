@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Health Insurance at CERN - CERN Starter Pack"
 description: "Health insurance guide for CERN employees: CHIS, LAMal, CMU/PUMA, droit d'option, S1 form, and deadlines."
 og:
   title: "Health Insurance at CERN - CERN Starter Pack"
   description: "Health insurance guide for CERN employees: CHIS, LAMal, CMU/PUMA, droit d'option, S1 form, and deadlines."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Health Insurance" }

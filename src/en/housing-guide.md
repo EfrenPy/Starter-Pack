@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Housing & Daily Life Near CERN - CERN Starter Pack"
 description: "Housing and daily life guide for CERN employees: Switzerland vs France, popular areas, transport, health insurance, banking, and shopping."
 og:
   title: "Housing & Daily Life Near CERN - CERN Starter Pack"
   description: "Practical guide to housing, transport, healthcare, and daily life near CERN for new employees."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Housing & Daily Life" }

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Inicio rapido con ROOT - CERN Starter Pack"
 description: "Guia de inicio rapido del framework ROOT para analisis de datos en CERN, incluyendo instalacion, SWAN, PyROOT y tareas comunes de la primera semana."
 og:
   title: "Inicio rapido con ROOT - CERN Starter Pack"
   description: "Comienza con el framework ROOT de C++/Python para analisis de fisica de altas energias en CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Tecnica", url: "/es/technical-hub/" }

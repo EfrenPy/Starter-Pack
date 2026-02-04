@@ -39,6 +39,7 @@ test.describe('SEO meta tags', () => {
     await page.goto('/en/');
     await expect(page.locator('link[hreflang="en"]')).toHaveAttribute('href', /.+/);
     await expect(page.locator('link[hreflang="es"]')).toHaveAttribute('href', /.+/);
+    await expect(page.locator('link[hreflang="it"]')).toHaveAttribute('href', /.+/);
   });
 
   test('ES page has canonical link', async ({ page }) => {
@@ -50,6 +51,20 @@ test.describe('SEO meta tags', () => {
     await page.goto('/es/');
     await expect(page.locator('link[hreflang="en"]')).toHaveAttribute('href', /.+/);
     await expect(page.locator('link[hreflang="es"]')).toHaveAttribute('href', /.+/);
+    await expect(page.locator('link[hreflang="it"]')).toHaveAttribute('href', /.+/);
+  });
+
+  test('IT page has og:locale set to it', async ({ page }) => {
+    await page.goto('/it/');
+    const locale = await page.locator('meta[property="og:locale"]').getAttribute('content');
+    expect(locale).toMatch(/it/i);
+  });
+
+  test('IT page has hreflang alternates', async ({ page }) => {
+    await page.goto('/it/');
+    await expect(page.locator('link[hreflang="en"]')).toHaveAttribute('href', /.+/);
+    await expect(page.locator('link[hreflang="es"]')).toHaveAttribute('href', /.+/);
+    await expect(page.locator('link[hreflang="it"]')).toHaveAttribute('href', /.+/);
   });
 });
 
@@ -115,6 +130,11 @@ test.describe('Clean URLs', () => {
 
   test('/en/technical-hub/ loads without .html extension', async ({ page }) => {
     const response = await page.goto('/en/technical-hub/');
+    expect(response.status()).toBe(200);
+  });
+
+  test('/it/legal-hub/ loads without .html extension', async ({ page }) => {
+    const response = await page.goto('/it/legal-hub/');
     expect(response.status()).toBe(200);
   });
 });

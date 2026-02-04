@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Taxation CERN Spain"
 description: "Taxation of CERN employee salaries for residents in Spain. IRPF exemption and applicable law."
 og:
   title: "Taxation of CERN Salaries in Spain - CERN Starter Pack"
   description: "Explanation of the IRPF exemption for CERN salaries under the Protocol on Privileges and Immunities."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 ---
 
 <section class="container">

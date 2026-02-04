@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Transporte Cerca del CERN - CERN Starter Pack"
 description: "Guia de transporte para empleados del CERN: transporte publico, lanzadera del CERN, bicicleta, coche, trenes regionales y como llegar desde el aeropuerto de Ginebra."
 og:
   title: "Transporte Cerca del CERN - CERN Starter Pack"
   description: "Guia practica para desplazarse cerca del CERN: buses TPG, lanzadera del CERN, bicicleta, coche y trenes regionales."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }

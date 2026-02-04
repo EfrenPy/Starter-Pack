@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Modelo 720: Declaracion de Bienes en el Extranjero - CERN Starter Pack"
 description: "Guia completa del Modelo 720 para la declaracion de bienes en el extranjero, con consideraciones especificas para empleados del CERN."
 og:
   title: "Modelo 720: Declaracion de Bienes en el Extranjero - CERN Starter Pack"
   description: "Guia sobre la declaracion informativa Modelo 720 de bienes en el extranjero, con consideraciones para empleados del CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Modelo 720: Foreign Asset Declaration - CERN Starter Pack"
 description: "Complete guide to Modelo 720 foreign asset declaration for CERN employees who are Spanish tax residents."
 og:
   title: "Modelo 720: Foreign Asset Declaration - CERN Starter Pack"
   description: "Guide to the Spanish Modelo 720 informative declaration for foreign assets, with CERN-specific considerations."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Legal & Tax Help", url: "/en/legal-hub/" }

@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "CERN Pension Fund - CERN Starter Pack"
 description: "CERN Pension Fund guide: contributions, benefits by years of service, retirement ages, transfer value, pension calculation, and leaving CERN."
 og:
   title: "CERN Pension Fund - CERN Starter Pack"
   description: "CERN Pension Fund guide: contributions, benefits by years of service, retirement ages, transfer value, pension calculation, and leaving CERN."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Legal & Tax Help", url: "/en/legal-hub/" }

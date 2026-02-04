@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Conceptos Basicos de IT en el CERN - CERN Starter Pack"
 description: "Guia esencial de IT para nuevos en el CERN: cuenta informatica, Wi-Fi eduroam, EDH, ServiceNow, VPN, impresion y solucion de problemas."
 og:
   title: "Conceptos Basicos de IT en el CERN - CERN Starter Pack"
   description: "Guia esencial de IT para nuevos en el CERN: cuenta informatica, Wi-Fi eduroam, EDH, ServiceNow, VPN, impresion y solucion de problemas."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
   - { label: "Ayuda Tecnica", url: "/es/technical-hub/" }

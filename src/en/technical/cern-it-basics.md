@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "CERN IT Basics - CERN Starter Pack"
 description: "Essential IT guide for CERN newcomers: computing account, eduroam Wi-Fi, EDH, ServiceNow, VPN, printing, and troubleshooting."
 og:
   title: "CERN IT Basics for Newcomers - CERN Starter Pack"
   description: "Essential IT guide for CERN newcomers: computing account, eduroam Wi-Fi, EDH, ServiceNow, VPN, printing, and troubleshooting."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Technical Help", url: "/en/technical-hub/" }

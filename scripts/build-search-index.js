@@ -70,7 +70,7 @@ function extractTitle(html) {
 }
 
 function buildIndex(lang) {
-  const folder = lang === 'es' ? 'es' : 'en';
+  const folder = lang;
   const articles = [];
 
   for (const slug of PAGE_SLUGS) {
@@ -92,7 +92,7 @@ function buildIndex(lang) {
 }
 
 // Build for both languages
-for (const lang of ['es', 'en']) {
+for (const lang of ['es', 'en', 'it', 'fr']) {
   const articles = buildIndex(lang);
   const outDir = resolve(DIST, 'data');
   mkdirSync(outDir, { recursive: true });

@@ -10,11 +10,14 @@ import { test, expect } from '@playwright/test';
 const mainPages = [
   '/en/',
   '/es/',
+  '/it/',
   '/en/legal-hub/',
   '/en/technical-hub/',
   '/en/housing-guide/',
   '/en/search/',
   '/en/faq/',
+  '/it/legal-hub/',
+  '/it/search/',
 ];
 
 test.describe('Production build: page status', () => {
@@ -86,35 +89,37 @@ test.describe('Production build: search', () => {
 });
 
 test.describe('Production build: language switching', () => {
-  test('EN page has link to switch to ES', async ({ page }) => {
+  test('EN page has links to switch to ES, IT, and FR', async ({ page }) => {
     await page.goto('/en/');
-    const langLink = page.locator('a.topnav__lang-option:not(.active)');
-    await expect(langLink).toBeVisible();
-    const href = await langLink.getAttribute('href');
-    expect(href).toContain('/es/');
+    const langLinks = page.locator('a.topnav__lang-option:not(.active)');
+    await expect(langLinks).toHaveCount(3);
   });
 
-  test('clicking language switch navigates to ES version', async ({ page }) => {
+  test('clicking ES language switch navigates to ES version', async ({ page }) => {
     await page.goto('/en/');
-    const langLink = page.locator('a.topnav__lang-option:not(.active)');
+    const langLink = page.locator('a.topnav__lang-option[href*="/es/"]');
     await langLink.click();
     await page.waitForURL('**/es/**');
     expect(page.url()).toContain('/es/');
   });
 
-  test('ES page has link to switch to EN', async ({ page }) => {
-    await page.goto('/es/');
-    const langLink = page.locator('a.topnav__lang-option:not(.active)');
-    await expect(langLink).toBeVisible();
-    const href = await langLink.getAttribute('href');
-    expect(href).toContain('/en/');
+  test('clicking IT language switch navigates to IT version', async ({ page }) => {
+    await page.goto('/en/');
+    const langLink = page.locator('a.topnav__lang-option[href*="/it/"]');
+    await langLink.click();
+    await page.waitForURL('**/it/**');
+    expect(page.url()).toContain('/it/');
   });
 
-  test('clicking language switch navigates to EN version', async ({ page }) => {
+  test('ES page has links to switch to EN, IT, and FR', async ({ page }) => {
     await page.goto('/es/');
-    const langLink = page.locator('a.topnav__lang-option:not(.active)');
-    await langLink.click();
-    await page.waitForURL('**/en/**');
-    expect(page.url()).toContain('/en/');
+    const langLinks = page.locator('a.topnav__lang-option:not(.active)');
+    await expect(langLinks).toHaveCount(3);
+  });
+
+  test('IT page has links to switch to EN, ES, and FR', async ({ page }) => {
+    await page.goto('/it/');
+    const langLinks = page.locator('a.topnav__lang-option:not(.active)');
+    await expect(langLinks).toHaveCount(3);
   });
 });

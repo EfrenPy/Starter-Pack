@@ -46,23 +46,5 @@ eleventyExcludeFromCollections: true
 </main>
 
 <script>
-(function() {
-  var lang = localStorage.getItem('language') || 'es';
-  if (lang === 'en') {
-    document.documentElement.lang = 'en';
-    document.getElementById('404-heading').textContent = 'Page not found';
-    document.getElementById('404-message').textContent = 'Sorry, the page you are looking for does not exist or has been moved.';
-    document.getElementById('404-search-title').textContent = 'Search the site';
-    document.getElementById('404-search-form').action = '/en/search/';
-    document.getElementById('404-search-btn').textContent = 'Search';
-    document.getElementById('404-home-title').textContent = 'Home';
-    document.getElementById('404-home-desc').textContent = 'Go back to the homepage.';
-    document.getElementById('404-legal-link').href = '/en/legal-hub/';
-    document.getElementById('404-legal-title').textContent = 'Legal & Tax Help';
-    document.getElementById('404-legal-desc').textContent = 'Legal and tax guides.';
-    document.getElementById('404-tech-link').href = '/en/technical-hub/';
-    document.getElementById('404-tech-title').textContent = 'Technical Help';
-    document.getElementById('404-tech-desc').textContent = 'Tutorials and technical tools.';
-  }
-})();
+(function(){var t={en:{lang:'en',heading:'Page not found',message:'Sorry, the page you are looking for does not exist or has been moved.',searchTitle:'Search the site',searchAction:'/en/search/',searchBtn:'Search',homeTitle:'Home',homeDesc:'Go back to the homepage.',legalLink:'/en/legal-hub/',legalTitle:'Legal & Tax Help',legalDesc:'Legal and tax guides.',techLink:'/en/technical-hub/',techTitle:'Technical Help',techDesc:'Tutorials and technical tools.'},it:{lang:'it',heading:'Pagina non trovata',message:'Spiacenti, la pagina che cerchi non esiste o e stata spostata.',searchTitle:'Cerca nel sito',searchAction:'/it/search/',searchBtn:'Cerca',homeTitle:'Home',homeDesc:'Torna alla pagina principale.',legalLink:'/it/legal-hub/',legalTitle:'Assistenza Legale e Fiscale',legalDesc:'Guide legali e fiscali.',techLink:'/it/technical-hub/',techTitle:'Assistenza Tecnica',techDesc:'Tutorial e strumenti tecnici.'},fr:{lang:'fr',heading:'Page non trouvee',message:'Desole, la page que vous cherchez n\'existe pas ou a ete deplacee.',searchTitle:'Rechercher sur le site',searchAction:'/fr/search/',searchBtn:'Rechercher',homeTitle:'Accueil',homeDesc:'Retourner a la page d\'accueil.',legalLink:'/fr/legal-hub/',legalTitle:'Aide Juridique et Fiscale',legalDesc:'Guides juridiques et fiscaux.',techLink:'/fr/technical-hub/',techTitle:'Aide Technique',techDesc:'Tutoriels et outils techniques.'}};var lang=localStorage.getItem('language')||'es';var d=t[lang];if(d){document.documentElement.lang=d.lang;document.getElementById('404-heading').textContent=d.heading;document.getElementById('404-message').textContent=d.message;document.getElementById('404-search-title').textContent=d.searchTitle;document.getElementById('404-search-form').action=d.searchAction;document.getElementById('404-search-btn').textContent=d.searchBtn;document.getElementById('404-home-title').textContent=d.homeTitle;document.getElementById('404-home-desc').textContent=d.homeDesc;document.getElementById('404-legal-link').href=d.legalLink;document.getElementById('404-legal-title').textContent=d.legalTitle;document.getElementById('404-legal-desc').textContent=d.legalDesc;document.getElementById('404-tech-link').href=d.techLink;document.getElementById('404-tech-title').textContent=d.techTitle;document.getElementById('404-tech-desc').textContent=d.techDesc;}})();
 </script>

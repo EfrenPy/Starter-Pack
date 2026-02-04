@@ -1,13 +1,9 @@
 ---
-layout: layouts/page.njk
 title: "Childcare & Schools Near CERN - CERN Starter Pack"
 description: "Guide to childcare, nurseries, schools, and international education options near CERN for families relocating to the Geneva area."
 og:
   title: "Childcare & Schools Near CERN - CERN Starter Pack"
   description: "Guide to childcare, nurseries, schools, and international education options near CERN for families relocating to the Geneva area."
-datePublished: "2025-06-01"
-dateModified: "2026-02-01"
-dateUpdated: "2026-02"
 breadcrumbs:
   - { label: "Home", url: "/en/" }
   - { label: "Daily Life", url: "/en/daily-life-hub/" }

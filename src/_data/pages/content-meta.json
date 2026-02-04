@@ -1,0 +1,11 @@
+{
+  "_defaults": {
+    "layout": "layouts/page.njk",
+    "datePublished": "2025-06-01",
+    "dateModified": "2026-02-01",
+    "dateUpdated": "2026-02"
+  },
+  "faq": {
+    "layout": "layouts/page.njk"
+  }
+}
