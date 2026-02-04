@@ -22,10 +22,7 @@ breadcrumbs:
       </ul>
 
       <h2>Contacto</h2>
-      <ul>
-        <li><strong>GitHub:</strong> Abre un issue o envia un pull request en nuestro <a href="https://github.com/efrenrodriguezrodriguez/starter-pack" target="_blank" rel="noopener noreferrer">repositorio de GitHub</a>. Esta es la forma preferida de contribuir.</li>
-        <li><strong>Email:</strong> Si lo prefieres, puedes contactarnos por correo electronico. Los datos de contacto estan disponibles en la pagina del repositorio de GitHub.</li>
-      </ul>
+      <p>Envíanos un correo electrónico a <a href="mailto:info@efrenrodriguezrodriguez.com">info@efrenrodriguezrodriguez.com</a> con tus sugerencias, correcciones o comentarios. Revisaremos tu mensaje y actualizaremos el sitio en consecuencia.</p>
 
       <h2>Directrices de Contribucion</h2>
       <ul>
