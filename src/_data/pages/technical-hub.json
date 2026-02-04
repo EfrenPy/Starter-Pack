@@ -178,6 +178,38 @@
       }
     },
     {
+      "slug": "technical/eos-storage",
+      "icon": "💾",
+      "title": {
+        "en": "EOS Storage &amp; CERNBox",
+        "es": "Almacenamiento EOS y CERNBox",
+        "it": "Storage EOS e CERNBox",
+        "fr": "Stockage EOS &amp; CERNBox"
+      },
+      "desc": {
+        "en": "CERN EOS distributed storage: quotas, CERNBox web and desktop sync, accessing files from lxplus and SWAN, and sharing.",
+        "es": "Almacenamiento distribuido EOS del CERN: cuotas, CERNBox web y sincronizacion de escritorio, acceso desde lxplus y SWAN, y compartir archivos.",
+        "it": "Storage distribuito EOS del CERN: quote, CERNBox web e sincronizzazione desktop, accesso da lxplus e SWAN, e condivisione.",
+        "fr": "Stockage distribue EOS du CERN : quotas, CERNBox web et synchronisation bureau, acces depuis lxplus et SWAN, et partage."
+      }
+    },
+    {
+      "slug": "technical/lxplus-guide",
+      "icon": "🖥",
+      "title": {
+        "en": "lxplus Guide",
+        "es": "Guia de lxplus",
+        "it": "Guida a lxplus",
+        "fr": "Guide lxplus"
+      },
+      "desc": {
+        "en": "CERN lxplus interactive cluster: available resources, home directories, CVMFS software, HTCondor batch jobs, and fair-share policy.",
+        "es": "Cluster interactivo lxplus del CERN: recursos disponibles, directorios home, software CVMFS, trabajos batch HTCondor y politica de uso justo.",
+        "it": "Cluster interattivo lxplus del CERN: risorse disponibili, directory home, software CVMFS, job batch HTCondor e politica di fair-share.",
+        "fr": "Cluster interactif lxplus du CERN : ressources disponibles, repertoires home, logiciels CVMFS, jobs batch HTCondor et politique de partage equitable."
+      }
+    },
+    {
       "slug": "technical/swan-jupyter",
       "icon": "📓",
       "title": {
