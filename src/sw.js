@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cern-starter-pack-v4';
+const CACHE_NAME = 'cern-starter-pack-v5';
 const OFFLINE_URL = '/offline.html';
 const PRECACHE_URLS = [
   '/',
