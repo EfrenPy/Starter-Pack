@@ -203,6 +203,70 @@
         "it": "Fellow vs studente vs staff, durate massime, regole di estensione e politica della fellowship unica.",
         "fr": "Fellow vs etudiant vs staff, durees maximales, regles de prolongation et politique de bourse unique."
       }
+    },
+    {
+      "slug": "doctoral-guide",
+      "icon": "🎓",
+      "title": {
+        "en": "Doctoral Guide",
+        "es": "Guia Doctoral",
+        "it": "Guida Dottorale",
+        "fr": "Guide Doctoral"
+      },
+      "desc": {
+        "en": "Programme details, thesis submission, hyper-authorship, computing resources, and post-PhD opportunities at CERN.",
+        "es": "Detalles del programa, presentacion de tesis, hiper-autoria, recursos informaticos y oportunidades post-doctorado en el CERN.",
+        "it": "Dettagli del programma, presentazione tesi, iper-autorialita, risorse informatiche e opportunita post-dottorato al CERN.",
+        "fr": "Details du programme, soumission de these, hyper-signature, ressources informatiques et opportunites post-doctorat au CERN."
+      }
+    },
+    {
+      "slug": "complete",
+      "icon": "📋",
+      "title": {
+        "en": "Complete Guide (Spanish Nationals)",
+        "es": "Guia Completa (Nacionales Espanoles)",
+        "it": "Guida Completa (Cittadini Spagnoli)",
+        "fr": "Guide Complet (Ressortissants Espagnols)"
+      },
+      "desc": {
+        "en": "Comprehensive accordion-style guide covering legal, administrative, financial, housing, and family topics for Spanish nationals.",
+        "es": "Guia completa con secciones desplegables sobre temas legales, administrativos, financieros, vivienda y familia para nacionales espanoles.",
+        "it": "Guida completa a sezioni espandibili su temi legali, amministrativi, finanziari, alloggio e famiglia per cittadini spagnoli.",
+        "fr": "Guide complet en sections depliables couvrant les questions juridiques, administratives, financieres, de logement et familiales pour les ressortissants espagnols."
+      }
+    },
+    {
+      "slug": "french-swiss-taxes",
+      "icon": "🧾",
+      "title": {
+        "en": "French &amp; Swiss Taxes",
+        "es": "Impuestos en Francia y Suiza",
+        "it": "Tasse in Francia e Svizzera",
+        "fr": "Impots en France &amp; Suisse"
+      },
+      "desc": {
+        "en": "Tax obligations for CERN employees living in France or Switzerland: declaration process, double taxation treaties, and annual filing.",
+        "es": "Obligaciones fiscales para empleados del CERN en Francia o Suiza: proceso de declaracion, convenios de doble imposicion y declaracion anual.",
+        "it": "Obblighi fiscali per i dipendenti CERN residenti in Francia o Svizzera: processo di dichiarazione, convenzioni sulla doppia imposizione e dichiarazione annuale.",
+        "fr": "Obligations fiscales pour les employes du CERN residant en France ou en Suisse : processus de declaration, conventions de double imposition et declaration annuelle."
+      }
+    },
+    {
+      "slug": "departure-guide",
+      "icon": "🚪",
+      "title": {
+        "en": "Departure Guide",
+        "es": "Guia de Salida",
+        "it": "Guida alla Partenza",
+        "fr": "Guide de Depart"
+      },
+      "desc": {
+        "en": "Leaving CERN: clearance procedure, pension options, health insurance continuity, deregistration, and moving logistics.",
+        "es": "Dejar el CERN: procedimiento de baja, opciones de pension, continuidad del seguro medico, baja registral y logistica de mudanza.",
+        "it": "Lasciare il CERN: procedura di discarico, opzioni pensionistiche, continuita dell'assicurazione sanitaria, cancellazione e logistica del trasloco.",
+        "fr": "Quitter le CERN : procedure de decharge, options de pension, continuite de l'assurance maladie, desinscription et logistique de demenagement."
+      }
     }
   ]
 }

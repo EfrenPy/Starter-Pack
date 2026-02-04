@@ -40,6 +40,12 @@ const PAGE_SLUGS = [
   'access-cards',
   'telework-policy',
   'doctoral-guide',
+  'first-weeks-guide',
+  'french-swiss-taxes',
+  'departure-guide',
+  'outdoor-recreation',
+  'currency-money',
+  'technical/swan-jupyter',
 ];
 
 const fuseCache = {};

@@ -176,6 +176,22 @@
         "it": "Limite del 40% di telelavoro, approvazione del supervisore, quadro OC n. 7 e regole di flessibilita sulla sede.",
         "fr": "Limite de 40% de teletravail, approbation du superviseur, cadre OC n° 7 et regles de flexibilite du lieu."
       }
+    },
+    {
+      "slug": "technical/swan-jupyter",
+      "icon": "📓",
+      "title": {
+        "en": "SWAN (Jupyter Notebooks)",
+        "es": "SWAN (Notebooks Jupyter)",
+        "it": "SWAN (Notebook Jupyter)",
+        "fr": "SWAN (Notebooks Jupyter)"
+      },
+      "desc": {
+        "en": "CERN SWAN service: creating Jupyter notebooks, EOS storage, ROOT/Python analysis, and sharing with colleagues.",
+        "es": "Servicio SWAN del CERN: crear notebooks Jupyter, almacenamiento EOS, analisis ROOT/Python y compartir con colegas.",
+        "it": "Servizio SWAN del CERN: creare notebook Jupyter, storage EOS, analisi ROOT/Python e condivisione con i colleghi.",
+        "fr": "Service SWAN du CERN : creer des notebooks Jupyter, stockage EOS, analyse ROOT/Python et partage avec les collegues."
+      }
     }
   ]
 }
