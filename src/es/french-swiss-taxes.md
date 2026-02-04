@@ -18,8 +18,8 @@ breadcrumbs:
       </div>
 
       <h2>Impuesto Interno del CERN</h2>
-      <p>El CERN aplica su propio <strong>impuesto interno</strong> sobre los salarios del personal. Este impuesto se deduce directamente de tu nomina mensual y es administrado integramente por el CERN. No es un impuesto nacional y es independiente de cualquier obligacion que puedas tener en Francia o Suiza.</p>
-      <p>En virtud del <strong>Protocolo de Privilegios e Inmunidades</strong> de las organizaciones internacionales, los salarios del personal del CERN estan exentos del impuesto sobre la renta nacional tanto en Francia como en Suiza. Esta exencion se aplica unicamente a tu remuneracion del CERN. Cualquier ingreso obtenido fuera del CERN -- como alquileres, rendimientos de inversiones o trabajo freelance -- <strong>sigue siendo totalmente imponible</strong> en tu pais de residencia segun la normativa nacional aplicable.</p>
+      <p>El CERN aplica su propio <strong>impuesto interno</strong> sobre los salarios del personal, que se deduce directamente de tu nomina mensual y lo gestiona integramente la organizacion. No tiene nada que ver con los impuestos nacionales franceses o suizos y es independiente de cualquier obligacion que puedas tener en cualquiera de los dos paises.</p>
+      <p>En virtud del <strong>Protocolo de Privilegios e Inmunidades</strong> de las organizaciones internacionales, los salarios del personal del CERN estan exentos del impuesto sobre la renta nacional tanto en Francia como en Suiza. La exencion cubre unicamente tu remuneracion del CERN. Cualquier ingreso obtenido fuera del CERN -- alquileres, rendimientos de inversiones, trabajo freelance -- <strong>sigue siendo totalmente imponible</strong> en tu pais de residencia segun la normativa nacional aplicable.</p>
 
       <h2>Obligaciones Fiscales en Francia (Residentes en Pays de Gex)</h2>
       <p>Si vives en Francia, debes presentar una <strong>declaracion anual de la renta</strong> (declaration de revenus), incluso si no tienes ingresos imponibles provenientes del CERN. Tu salario del CERN se declara como ingreso exento, pero las autoridades fiscales francesas exigen la presentacion igualmente.</p>
@@ -31,17 +31,12 @@ breadcrumbs:
       <p>Ginebra tiene uno de los <strong>tipos impositivos cantonales mas altos</strong> de Suiza, por lo que los ingresos externos pueden gravarse a un tipo significativo. Puedes presentar tu declaracion en linea utilizando el software <strong>GeTax</strong> o a traves de la plataforma <strong>e-demarches</strong> del Canton de Ginebra. El plazo de presentacion suele ser el 31 de marzo, aunque se pueden solicitar prorrogas.</p>
 
       <h2>Convenios de Doble Imposicion</h2>
-      <p>Francia y Suiza tienen un <strong>convenio bilateral de doble imposicion</strong> que determina que pais tiene derecho a gravar determinados tipos de ingresos. Los trabajadores transfronterizos (frontaliers) estan sujetos a normas particulares en virtud de este acuerdo.</p>
-      <p>Sin embargo, el personal del CERN <strong>generalmente no se considera frontalier</strong> segun el convenio, ya que sus ingresos provienen de una organizacion internacional y no de un empleador suizo o frances. Si obtienes ingresos en ambos paises fuera del CERN, deberias revisar cuidadosamente las disposiciones del convenio para entender como se asignan y gravan esos ingresos. Un asesor fiscal transfronterizo puede ayudarte a aclarar tu situacion especifica.</p>
+      <p>Francia y Suiza tienen un <strong>convenio bilateral de doble imposicion</strong> que determina que pais puede gravar determinados tipos de ingresos. Los trabajadores transfronterizos (frontaliers) estan sujetos a normas particulares en virtud de este acuerdo.</p>
+      <p>Dicho esto, el personal del CERN <strong>generalmente no se considera frontalier</strong> segun el convenio, ya que sus ingresos provienen de una organizacion internacional y no de un empleador suizo o frances. Si obtienes ingresos en ambos paises fuera del CERN, merece la pena revisar las disposiciones del convenio para entender como se asignan y gravan esos ingresos. Un asesor fiscal transfronterizo puede ayudarte a aclarar los detalles.</p>
 
       <h2>Consejos Practicos</h2>
-      <ul>
-        <li><strong>Conserva registros detallados</strong> de todos los ingresos externos, incluyendo extractos bancarios, contratos de alquiler e informes de inversiones.</li>
-        <li><strong>Consulta a un asesor fiscal transfronterizo</strong> (fiscaliste transfrontalier) si tienes ingresos en ambos paises o una situacion personal compleja.</li>
-        <li><strong>Solicita un certificado</strong> a Recursos Humanos del CERN que confirme tu situacion laboral y la exencion salarial -- las autoridades fiscales de Francia y Suiza pueden requerir este documento.</li>
-        <li><strong>Apunta en tu calendario</strong> los plazos de presentacion, ya que difieren entre Francia (mayo/junio) y Suiza (marzo, con posibilidad de prorroga).</li>
-        <li><strong>No ignores la obligacion de declarar</strong> -- aunque tu salario del CERN este exento, no presentar la declaracion puede acarrear sanciones o complicaciones con las autoridades fiscales.</li>
-      </ul>
+      <p>Conviene conservar registros detallados de todos los ingresos externos -- extractos bancarios, contratos de alquiler, informes de inversiones -- mucho antes de que llegue el periodo de declaracion. Si tienes ingresos en ambos paises o tu situacion personal es algo compleja, un asesor fiscal transfronterizo (<strong>fiscaliste transfrontalier</strong>) puede ahorrarte bastantes quebraderos de cabeza. Tambien es recomendable solicitar un certificado a Recursos Humanos del CERN que confirme tu situacion laboral y la exencion salarial, ya que las autoridades fiscales de ambos lados de la frontera pueden pedirlo.</p>
+      <p>Los plazos de presentacion difieren entre los dos paises: Francia suele exigir la declaracion entre mayo y junio, mientras que Suiza fija el limite el 31 de marzo (aunque se pueden pedir prorrogas). Sea cual sea tu caso, <strong>no dejes de presentar la declaracion</strong> -- aunque tu salario del CERN este totalmente exento, la falta de presentacion puede acarrear sanciones o complicaciones innecesarias con las autoridades fiscales.</p>
 
       <h2>Enlaces Utiles</h2>
       <ul>

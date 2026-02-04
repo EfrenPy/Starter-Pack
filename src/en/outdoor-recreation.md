@@ -18,27 +18,21 @@ breadcrumbs:
       </div>
 
       <h2>Hiking</h2>
-      <p>The area surrounding CERN is a paradise for hikers of all levels. <strong>Mont Salève</strong>, often called Geneva's home mountain, is accessible by cable car from Veyrier and rewards you with panoramic views of the city, the lake, and Mont Blanc. For longer excursions, the <strong>Jura mountains</strong> offer routes around the Col de la Faucille and Crêt de la Neige, the highest point of the range.</p>
-      <p>Closer to home, pleasant walks follow the banks of the <strong>Rhône and Arve rivers</strong> right through Geneva. For a more dramatic landscape, the <strong>Gorges de l'Orbe</strong> offer a striking canyon trail. Many of these hikes are accessible by public transport, making it easy to explore without a car.</p>
+      <p>You will not be short of trails here. <strong>Mont Salève</strong>, the mountain Genevois treat as their own backyard, is a quick cable-car ride from Veyrier and rewards you with sweeping views over the city, the lake, and Mont Blanc. Once you are ready for something longer, the <strong>Jura mountains</strong> have well-marked routes around the Col de la Faucille and up to the Crêt de la Neige, the highest point of the range.</p>
+      <p>For something more low-key, the paths along the <strong>Rhône and Arve rivers</strong> run right through the city and are perfect for an after-work walk. If you prefer a wilder setting, the <strong>Gorges de l'Orbe</strong> offer a dramatic canyon trail that feels surprisingly remote. Most of these hikes are reachable by public transport, so you do not need a car to get started.</p>
 
-      <h2>Skiing &amp; Winter Sports</h2>
-      <p>Several world-class ski resorts lie within one to two hours of CERN. The <strong>Grand Massif</strong> (Flaine, Samoëns) and <strong>Portes du Soleil</strong> (Avoriaz, Châtel) offer extensive piste networks for all abilities, while <strong>Chamonix-Mont Blanc</strong> provides some of the most spectacular high-altitude skiing in the Alps.</p>
-      <p>The <strong>CERN Ski Club</strong> organises group trips throughout the season and can help you access discounted lift passes. For a quieter experience, <strong>cross-country skiing</strong> trails wind through the Jura forests. Back in town, the <strong>Vernets ice rink</strong> in Geneva is open for public skating sessions.</p>
+      <h2>Skiing and Winter Sports</h2>
+      <p>Some of the best skiing in Europe is right on your doorstep. The <strong>Grand Massif</strong> (Flaine, Samoëns) and <strong>Portes du Soleil</strong> (Avoriaz, Châtel) both have huge piste networks suited to every level, while <strong>Chamonix-Mont Blanc</strong> delivers the kind of high-altitude terrain that draws skiers from around the world. All three areas are one to two hours away by car.</p>
+      <p>The <strong>CERN Ski Club</strong> runs group trips throughout the season and can help you get discounted lift passes, which is worth knowing given Swiss and French pass prices. If downhill is not your thing, <strong>cross-country skiing</strong> trails wind through the quiet Jura forests. And back in town, the <strong>Vernets ice rink</strong> in Geneva is open for public skating sessions all winter.</p>
 
-      <h2>Lake Geneva &amp; Water Sports</h2>
-      <p>Lake Geneva is the centrepiece of the region's outdoor life. Public beaches such as <strong>Genève-Plage</strong>, <strong>Baby Plage</strong>, and <strong>Plage des Eaux-Vives</strong> are popular spots for swimming during the warmer months. You can also try <strong>sailing</strong> and <strong>stand-up paddleboarding</strong> from various rental points along the shore.</p>
-      <p>The <strong>CGN boat service</strong> runs scenic crossings to Lausanne, Montreux, and Evian, making for wonderful half-day outings. Do not miss the <strong>Jet d'Eau</strong>, Geneva's iconic 140-metre water fountain visible from all around the lake.</p>
+      <h2>Lake Geneva and Water Sports</h2>
+      <p>Lake Geneva shapes daily life in the region, and in summer it becomes the main gathering spot. Public beaches like <strong>Genève-Plage</strong>, <strong>Baby Plage</strong>, and <strong>Plage des Eaux-Vives</strong> fill up quickly on warm days. You can rent <strong>sailing</strong> boats and <strong>stand-up paddleboards</strong> from several points along the shore, and the water is clean enough to swim in comfortably.</p>
+      <p>The <strong>CGN boat service</strong> runs scenic crossings to Lausanne, Montreux, and Evian that make for a great half-day outing. And you will quickly get used to spotting the <strong>Jet d'Eau</strong>, Geneva's 140-metre water fountain, from just about everywhere along the lakeshore.</p>
 
       <h2>Day Trips</h2>
-      <p>The location of CERN puts many remarkable destinations within easy reach:</p>
-      <ul>
-        <li><strong>Annecy</strong> (45 min) — a stunning alpine lake and a beautifully preserved old town</li>
-        <li><strong>Chamonix</strong> (1 h) — dramatic mountain scenery and the famous Aiguille du Midi cable car</li>
-        <li><strong>Lausanne</strong> (45 min) — home of the Olympic Museum and a vibrant lakeside city</li>
-        <li><strong>Lyon</strong> (2 h) — the gastronomy capital of France with a UNESCO-listed old quarter</li>
-        <li><strong>Yvoire</strong> — a medieval village perched on the shores of Lake Geneva</li>
-      </ul>
+      <p>CERN sits in one of Europe's best-connected corners, so weekend day trips are easy. Within about 45 minutes you can reach <strong>Annecy</strong>, whose turquoise alpine lake and beautifully preserved old town make it one of the most popular outings from Geneva. <strong>Chamonix</strong> is roughly an hour away and offers dramatic mountain scenery plus the famous Aiguille du Midi cable car, which takes you to over 3,800 metres. In the other direction, <strong>Lausanne</strong> is also 45 minutes out and is home to the Olympic Museum and a lively lakeside centre.</p>
+      <p>If you have a full day, <strong>Lyon</strong> is about two hours south and well worth the trip for its UNESCO-listed old quarter and its reputation as the gastronomy capital of France. For something shorter and more relaxed, <strong>Yvoire</strong> is a tiny medieval village right on the shores of Lake Geneva that you can easily visit in an afternoon.</p>
 
       <h2>CERN Outdoor Clubs</h2>
-      <p>CERN hosts several clubs dedicated to outdoor pursuits, including the <strong>CERN Ski Club</strong>, the <strong>CERN Mountaineering Club</strong>, the <strong>CERN Running Club</strong>, and the <strong>CERN Cycling Club</strong>. These clubs welcome participants of all levels, from complete beginners to seasoned athletes, and are an excellent way to meet colleagues from different departments and experiments.</p>
-      <p>Activities range from casual weekend hikes and weekly training runs to organised alpine expeditions and cycling tours. Check the <strong>CERN clubs directory</strong> on the Staff Association website for current offerings, schedules, and how to join.</p>
+      <p>One of the easiest ways to explore the region and meet people outside your own team is through the CERN clubs. The <strong>CERN Ski Club</strong>, the <strong>CERN Mountaineering Club</strong>, the <strong>CERN Running Club</strong>, and the <strong>CERN Cycling Club</strong> all welcome newcomers regardless of fitness level, and they tend to attract a good mix of people from across departments and experiments.</p>
+      <p>What they offer ranges from casual weekend hikes and weekly training runs to fully organised alpine expeditions and multi-day cycling tours. The <strong>CERN clubs directory</strong> on the Staff Association website has up-to-date schedules, activity descriptions, and instructions on how to join.</p>

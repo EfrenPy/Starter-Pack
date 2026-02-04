@@ -18,8 +18,8 @@ breadcrumbs:
       </div>
 
       <h2>CERN Internal Tax</h2>
-      <p>CERN levies its own <strong>internal tax</strong> on staff salaries. This tax is deducted directly from your monthly pay slip and is administered entirely by CERN. It is not a national tax and is separate from any obligations you may have in France or Switzerland.</p>
-      <p>Under the <strong>Protocol on Privileges and Immunities</strong> of international organisations, CERN staff salaries are exempt from national income tax in both France and Switzerland. This exemption applies to your CERN remuneration only. Any income earned outside CERN -- such as rental income, investment returns, or freelance work -- <strong>remains fully taxable</strong> in your country of residence under the applicable national rules.</p>
+      <p>CERN levies its own <strong>internal tax</strong> on staff salaries, deducted directly from your monthly pay slip and administered entirely by the organisation. It has nothing to do with French or Swiss national taxes and is separate from any obligations you may have in either country.</p>
+      <p>Under the <strong>Protocol on Privileges and Immunities</strong> of international organisations, CERN staff salaries are exempt from national income tax in both France and Switzerland. The exemption covers your CERN remuneration only. Any income earned outside CERN -- rental income, investment returns, freelance work -- <strong>remains fully taxable</strong> in your country of residence under the applicable national rules.</p>
 
       <h2>French Tax Obligations (Pays de Gex Residents)</h2>
       <p>If you live in France, you must file an <strong>annual tax declaration</strong> (declaration de revenus), even if you have zero taxable income from CERN. Your CERN salary is declared as exempt income, but the French tax authorities still require the filing.</p>
@@ -31,17 +31,12 @@ breadcrumbs:
       <p>Geneva has among the <strong>highest cantonal tax rates</strong> in Switzerland, so outside income can be taxed at a significant rate. You can file your return online using the <strong>GeTax</strong> software or through the <strong>e-demarches</strong> platform provided by the Canton of Geneva. The filing deadline is typically 31 March, though extensions can be requested.</p>
 
       <h2>Double Taxation Treaties</h2>
-      <p>France and Switzerland have a <strong>bilateral double taxation treaty</strong> that determines which country has the right to tax specific types of income. Cross-border workers (frontaliers) are subject to particular rules under this agreement.</p>
-      <p>However, CERN staff are <strong>generally not considered frontaliers</strong> under the treaty, because their income comes from an international organisation rather than a Swiss or French employer. If you earn income in both France and Switzerland outside of CERN, you should review the treaty provisions carefully to understand how that income is allocated and taxed. A cross-border tax advisor can help clarify your specific situation.</p>
+      <p>France and Switzerland have a <strong>bilateral double taxation treaty</strong> that determines which country may tax specific types of income. Cross-border workers (frontaliers) are subject to particular rules under this agreement.</p>
+      <p>That said, CERN staff are <strong>generally not considered frontaliers</strong> under the treaty, because their income comes from an international organisation rather than a Swiss or French employer. If you earn income in both France and Switzerland outside of CERN, it is worth reviewing the treaty provisions to understand how that income is allocated and taxed. A cross-border tax advisor can help you sort out the details.</p>
 
       <h2>Practical Tips</h2>
-      <ul>
-        <li><strong>Keep detailed records</strong> of all outside income, including bank statements, rental contracts, and investment reports.</li>
-        <li><strong>Consult a cross-border tax advisor</strong> (fiscaliste transfrontalier) if you have income in both countries or a complex personal situation.</li>
-        <li><strong>Request an attestation</strong> from CERN HR confirming your employment status and salary exemption -- tax authorities in both France and Switzerland may require this document.</li>
-        <li><strong>Mark your calendar</strong> for filing deadlines, as they differ between France (May/June) and Switzerland (March, with extensions).</li>
-        <li><strong>Do not ignore filing requirements</strong> -- even if your CERN salary is exempt, failing to file can result in penalties or complications with the tax authorities.</li>
-      </ul>
+      <p>It is worth keeping detailed records of all outside income -- bank statements, rental contracts, investment reports -- well before filing season arrives. If you have income in both France and Switzerland, or your personal situation is at all complex, a cross-border tax advisor (<strong>fiscaliste transfrontalier</strong>) can save you considerable trouble. You should also request an attestation from CERN HR confirming your employment status and salary exemption, since tax authorities on both sides of the border may ask for it.</p>
+      <p>Filing deadlines differ between the two countries: France typically requires declarations by May or June, while Switzerland sets its deadline on 31 March (though extensions are available). Whatever your situation, <strong>do not skip the filing</strong> -- even when your CERN salary is fully exempt, failing to submit a declaration can lead to penalties or unnecessary complications with the tax authorities.</p>
 
       <h2>Useful Links</h2>
       <ul>
