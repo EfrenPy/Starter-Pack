@@ -9,9 +9,9 @@ breadcrumbs:
   - { label: "FAQ" }
 ---
 
-<h1>Questions Fréquemment Posées</h1>
+# Questions Fréquemment Posées
 
-<h2>Général</h2>
+## Général
 
 <details class="faq-item">
 <summary>Où récupérer ma carte d'accès CERN ?</summary>
@@ -33,7 +33,7 @@ breadcrumbs:
 <p>EDH (Electronic Document Handling) est le système du CERN pour les processus administratifs : demandes de voyage, demandes de congé, notes de frais, et plus encore. Accédez-y via l'intranet du CERN. Votre superviseur peut vous aider à démarrer avec vos premières demandes.</p>
 </details>
 
-<h2>Assurance Maladie</h2>
+## Assurance Maladie
 
 <details class="faq-item">
 <summary>Je vis en France — que faire pour l'assurance maladie ?</summary>
@@ -50,7 +50,7 @@ breadcrumbs:
 <p>Soumettez vos demandes via le portail en ligne du CHIS ou envoyez des formulaires papier au bureau du CHIS au CERN. Conservez toujours les reçus originaux et les ordonnances. Le remboursement couvre généralement 80 à 90 % des frais éligibles.</p>
 </details>
 
-<h2>Logement et Transport</h2>
+## Logement et Transport
 
 <details class="faq-item">
 <summary>Faut-il habiter en Suisse ou en France ?</summary>
@@ -67,7 +67,7 @@ breadcrumbs:
 <p>Pas si vous vivez à Genève ou à proximité d'une ligne de bus desservant le CERN. Si vous vivez dans certaines parties du Pays de Gex (France), une voiture est très utile car les options de transport en commun sont plus limitées. Le CERN exploite également des navettes internes entre ses sites.</p>
 </details>
 
-<h2>Juridique et Administratif</h2>
+## Juridique et Administratif
 
 <details class="faq-item">
 <summary>Dois-je m'inscrire auprès d'une commune/mairie ?</summary>
@@ -84,7 +84,7 @@ breadcrumbs:
 <p>Si vous vivez en France, vous devez déposer une déclaration d'impôts française annuelle même si votre salaire CERN est exonéré de l'impôt sur le revenu français. Vous déclarez votre situation et l'exonération s'applique. Les autres revenus (locatifs, investissements) peuvent être imposables en France.</p>
 </details>
 
-<h2>Technique</h2>
+## Technique
 
 <details class="faq-item">
 <summary>Comment se connecter au Wi-Fi eduroam ?</summary>

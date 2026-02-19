@@ -9,9 +9,9 @@ breadcrumbs:
   - { label: "FAQ" }
 ---
 
-<h1>Domande frequenti</h1>
+# Domande frequenti
 
-<h2>Generale</h2>
+## Generale
 
 <details class="faq-item">
 <summary>Dove ritiro la mia tessera di accesso CERN?</summary>
@@ -33,7 +33,7 @@ breadcrumbs:
 <p>EDH (Electronic Document Handling) è il sistema del CERN per i processi amministrativi: richieste di viaggio, domande di ferie, note spese e altro. Si accede tramite l'intranet del CERN. Il vostro supervisore può aiutarvi con le prime richieste.</p>
 </details>
 
-<h2>Assicurazione sanitaria</h2>
+## Assicurazione sanitaria
 
 <details class="faq-item">
 <summary>Vivo in Francia — cosa devo fare per l'assicurazione sanitaria?</summary>
@@ -50,7 +50,7 @@ breadcrumbs:
 <p>Presentate le richieste tramite il portale online CHIS o inviando moduli cartacei all'ufficio CHIS del CERN. Conservate sempre ricevute e prescrizioni originali. Il rimborso copre generalmente l'80-90% dei costi ammissibili.</p>
 </details>
 
-<h2>Alloggio &amp; Trasporti</h2>
+## Alloggio & Trasporti
 
 <details class="faq-item">
 <summary>Dovrei vivere in Svizzera o in Francia?</summary>
@@ -67,7 +67,7 @@ breadcrumbs:
 <p>No, se vivete a Ginevra o vicino a una linea di autobus che serve il CERN. Se vivete in alcune zone del Pays de Gex (Francia), un'auto è molto utile poiché le opzioni di trasporto pubblico sono più limitate. Il CERN gestisce anche navette interne tra i suoi siti.</p>
 </details>
 
-<h2>Legale &amp; Amministrativo</h2>
+## Legale & Amministrativo
 
 <details class="faq-item">
 <summary>Devo registrarmi al comune/mairie?</summary>
@@ -84,7 +84,7 @@ breadcrumbs:
 <p>Se vivete in Francia, dovete presentare una dichiarazione dei redditi annuale francese anche se il vostro stipendio CERN è esente dall'imposta sul reddito francese. Dichiarate la vostra situazione e si applica l'esenzione. Altri redditi (locazioni, investimenti) potrebbero essere tassabili in Francia.</p>
 </details>
 
-<h2>Tecnologia</h2>
+## Tecnologia
 
 <details class="faq-item">
 <summary>Come mi connetto al Wi-Fi eduroam?</summary>

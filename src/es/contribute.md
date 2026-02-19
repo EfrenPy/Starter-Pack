@@ -9,24 +9,23 @@ breadcrumbs:
   - { label: "Contribuir" }
 ---
 
-<h1>Contribuir al CERN Starter Pack</h1>
+# Contribuir al CERN Starter Pack
 
-      <p>Este sitio esta mantenido por miembros de la comunidad del CERN. Tus comentarios y contribuciones lo hacen mejor para el proximo recien llegado.</p>
+Este sitio esta mantenido por miembros de la comunidad del CERN. Tus comentarios y contribuciones lo hacen mejor para el proximo recien llegado.
 
-      <h2>Como Puedes Ayudar</h2>
-      <ul>
-        <li><strong>Reportar informacion desactualizada:</strong> Si encuentras contenido que ya no es preciso, haznos saber para que podamos actualizarlo.</li>
-        <li><strong>Sugerir nuevos recursos:</strong> ¿Conoces un enlace oficial del CERN o un recurso externo que ayude a los recien llegados? Nos encantaria anadirlo.</li>
-        <li><strong>Compartir tu experiencia:</strong> Tu historia de incorporacion puede ayudar a identificar lagunas en nuestras guias y mejorarlas para futuros recien llegados.</li>
-        <li><strong>Corregir errores:</strong> ¿Has detectado una errata, un enlace roto o un dato incorrecto? Reportalo o envia una correccion directamente.</li>
-      </ul>
+## Como Puedes Ayudar
 
-      <h2>Contacto</h2>
-      <p>Envíanos un correo electrónico a <a href="mailto:info@efrenrodriguezrodriguez.com">info@efrenrodriguezrodriguez.com</a> con tus sugerencias, correcciones o comentarios. Revisaremos tu mensaje y actualizaremos el sitio en consecuencia.</p>
+- **Reportar informacion desactualizada:** Si encuentras contenido que ya no es preciso, haznos saber para que podamos actualizarlo.
+- **Sugerir nuevos recursos:** ¿Conoces un enlace oficial del CERN o un recurso externo que ayude a los recien llegados? Nos encantaria anadirlo.
+- **Compartir tu experiencia:** Tu historia de incorporacion puede ayudar a identificar lagunas en nuestras guias y mejorarlas para futuros recien llegados.
+- **Corregir errores:** ¿Has detectado una errata, un enlace roto o un dato incorrecto? Reportalo o envia una correccion directamente.
 
-      <h2>Directrices de Contribucion</h2>
-      <ul>
-        <li><strong>Solo fuentes oficiales:</strong> Por favor, sugiere o referencia unicamente fuentes oficiales y verificadas (CERN, gobierno, institucionales).</li>
-        <li><strong>Manten la objetividad:</strong> Evita opiniones personales sobre empleadores, propietarios o proveedores de servicios. Limitate a informacion objetiva y verificable.</li>
-        <li><strong>Se util:</strong> Centrate en informacion practica y aplicable para alguien que llega al CERN por primera vez.</li>
-      </ul>
+## Contacto
+
+Envíanos un correo electrónico a [info@efrenrodriguezrodriguez.com](mailto:info@efrenrodriguezrodriguez.com) con tus sugerencias, correcciones o comentarios. Revisaremos tu mensaje y actualizaremos el sitio en consecuencia.
+
+## Directrices de Contribucion
+
+- **Solo fuentes oficiales:** Por favor, sugiere o referencia unicamente fuentes oficiales y verificadas (CERN, gobierno, institucionales).
+- **Manten la objetividad:** Evita opiniones personales sobre empleadores, propietarios o proveedores de servicios. Limitate a informacion objetiva y verificable.
+- **Se util:** Centrate en informacion practica y aplicable para alguien que llega al CERN por primera vez.

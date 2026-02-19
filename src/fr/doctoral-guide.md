@@ -9,42 +9,51 @@ breadcrumbs:
   - { label: "Guide doctoral" }
 ---
 
-<h1>Guide des doctorants au CERN</h1>
+# Guide des doctorants au CERN
 
-      <div class="alert">
-        <strong>⚠️ Important</strong><br>
-        <p>Le CERN ne délivre pas de diplômes de doctorat. Vous devez rester inscrit dans votre université d'origine pendant toute la durée de vos travaux doctoraux. Assurez-vous de comprendre les exigences de votre université avant de commencer au CERN.</p>
-      </div>
+<div class="alert">
+<strong>⚠️ Important</strong><br>
+<p>Le CERN ne délivre pas de diplômes de doctorat. Vous devez rester inscrit dans votre université d'origine pendant toute la durée de vos travaux doctoraux. Assurez-vous de comprendre les exigences de votre université avant de commencer au CERN.</p>
+</div>
 
-      <h2>Le CERN et les doctorants</h2>
-      <p>Le CERN ne délivre pas de diplômes de doctorat. Votre doctorat est décerné par votre <strong>université d'origine</strong>, et vous devez y rester inscrit pendant toute la durée de votre séjour au CERN. Ce que le CERN offre est un environnement de recherche de classe mondiale et un accès à des installations expérimentales uniques.</p>
-      <p>Vous aurez généralement un <strong>superviseur CERN</strong> pour la recherche quotidienne et un <strong>superviseur universitaire</strong> pour les exigences académiques et de thèse.</p>
+## Le CERN et les doctorants
 
-      <h2>Programme de doctorants</h2>
-      <p>Le <strong>programme de doctorants du CERN</strong> est le principal canal pour les doctorants. Il est ouvert aux étudiants inscrits dans un programme doctoral d'une université d'un État membre ou associé du CERN. Il y a généralement deux appels à candidatures par an.</p>
-      <p>Les doctorants reçoivent un <strong>contrat à durée limitée</strong>, généralement jusqu'à 3 ans, comprenant une allocation mensuelle, une indemnité de voyage et une assurance maladie via le <strong>CHIS</strong>.</p>
+Le CERN ne délivre pas de diplômes de doctorat. Votre doctorat est décerné par votre **université d'origine**, et vous devez y rester inscrit pendant toute la durée de votre séjour au CERN. Ce que le CERN offre est un environnement de recherche de classe mondiale et un accès à des installations expérimentales uniques.
 
-      <h2>Thèse au CERN</h2>
-      <p>Votre thèse est soumise à et évaluée par votre université d'origine. Toutes les thèses basées sur des travaux effectués au CERN doivent être enregistrées dans le <strong>CERN Document Server (CDS)</strong>. Le CERN exige la <strong>publication en accès libre</strong> de votre thèse.</p>
+Vous aurez généralement un **superviseur CERN** pour la recherche quotidienne et un **superviseur universitaire** pour les exigences académiques et de thèse.
 
-      <h2>Hyper-authorship</h2>
-      <p>Les grandes collaborations expérimentales au CERN (ATLAS, CMS, ALICE, LHCb) publient des articles avec des listes d'auteurs de <strong>3 000 physiciens ou plus</strong>. Il est important de mettre en avant vos contributions spécifiques séparément sur votre CV.</p>
+## Programme de doctorants
 
-      <h2>Aspects pratiques</h2>
-      <p>Les contrats de doctorants durent généralement jusqu'à <strong>3 ans</strong>. Vous êtes couvert par le <strong>régime de sécurité sociale du CERN</strong>. Des chambres d'hôtel au CERN peuvent être disponibles pour vos premières semaines, mais vous devrez ensuite trouver un logement privé.</p>
+Le **programme de doctorants du CERN** est le principal canal pour les doctorants. Il est ouvert aux étudiants inscrits dans un programme doctoral d'une université d'un État membre ou associé du CERN. Il y a généralement deux appels à candidatures par an.
 
-      <h2>Informatique &amp; Ressources</h2>
-      <p>À votre arrivée, vous recevrez un <strong>compte informatique CERN</strong> donnant accès aux emails, au réseau et aux services de calcul. Pour le travail d'analyse, le service <strong>lxplus</strong> fournit un accès à un cluster Linux partagé. Vous aurez également un espace de stockage sur <strong>EOS</strong>. Utilisez <strong>GitLab</strong> du CERN pour le contrôle de version et <strong>Indico</strong> pour la planification des réunions.</p>
+Les doctorants reçoivent un **contrat à durée limitée**, généralement jusqu'à 3 ans, comprenant une allocation mensuelle, une indemnité de voyage et une assurance maladie via le **CHIS**.
 
-      <h2>Après votre doctorat</h2>
-      <p>Vous pouvez postuler pour des <strong>fellowships de recherche ou appliquées du CERN</strong>. De nombreux anciens doctorants continuent dans des postes postdoctoraux au CERN ou dans d'autres laboratoires. Le CERN dispose d'un <strong>réseau d'anciens</strong> actif.</p>
+## Thèse au CERN
 
-      <h2>Conseils</h2>
-      <p>Maintenez un <strong>contact étroit avec votre université d'origine</strong>. Profitez du <strong>programme de formation académique</strong> du CERN. Planifiez votre <strong>calendrier de rédaction de thèse</strong> bien à l'avance.</p>
+Votre thèse est soumise à et évaluée par votre université d'origine. Toutes les thèses basées sur des travaux effectués au CERN doivent être enregistrées dans le **CERN Document Server (CDS)**. Le CERN exige la **publication en accès libre** de votre thèse.
 
-      <h2>Sources</h2>
-      <ul>
-        <li><a href="https://careers.cern/doctoral-students" target="_blank" rel="noopener noreferrer">Programme de doctorants du CERN</a></li>
-        <li><a href="https://cds.cern.ch/collection/CERN%20Theses" target="_blank" rel="noopener noreferrer">Base de données des thèses CERN (CDS)</a></li>
-        <li><a href="https://hr.cern.ch/" target="_blank" rel="noopener noreferrer">Ressources humaines du CERN</a></li>
-      </ul>
+## Hyper-authorship
+
+Les grandes collaborations expérimentales au CERN (ATLAS, CMS, ALICE, LHCb) publient des articles avec des listes d'auteurs de **3 000 physiciens ou plus**. Il est important de mettre en avant vos contributions spécifiques séparément sur votre CV.
+
+## Aspects pratiques
+
+Les contrats de doctorants durent généralement jusqu'à **3 ans**. Vous êtes couvert par le **régime de sécurité sociale du CERN**. Des chambres d'hôtel au CERN peuvent être disponibles pour vos premières semaines, mais vous devrez ensuite trouver un logement privé.
+
+## Informatique & Ressources
+
+À votre arrivée, vous recevrez un **compte informatique CERN** donnant accès aux emails, au réseau et aux services de calcul. Pour le travail d'analyse, le service **lxplus** fournit un accès à un cluster Linux partagé. Vous aurez également un espace de stockage sur **EOS**. Utilisez **GitLab** du CERN pour le contrôle de version et **Indico** pour la planification des réunions.
+
+## Après votre doctorat
+
+Vous pouvez postuler pour des **fellowships de recherche ou appliquées du CERN**. De nombreux anciens doctorants continuent dans des postes postdoctoraux au CERN ou dans d'autres laboratoires. Le CERN dispose d'un **réseau d'anciens** actif.
+
+## Conseils
+
+Maintenez un **contact étroit avec votre université d'origine**. Profitez du **programme de formation académique** du CERN. Planifiez votre **calendrier de rédaction de thèse** bien à l'avance.
+
+## Sources
+
+- <a href="https://careers.cern/doctoral-students" target="_blank" rel="noopener noreferrer">Programme de doctorants du CERN</a>
+- <a href="https://cds.cern.ch/collection/CERN%20Theses" target="_blank" rel="noopener noreferrer">Base de données des thèses CERN (CDS)</a>
+- <a href="https://hr.cern.ch/" target="_blank" rel="noopener noreferrer">Ressources humaines du CERN</a>
