@@ -4,11 +4,11 @@ permalink: /offline.html
 eleventyExcludeFromCollections: true
 ---
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-GmeXX5UARY9nXjRd+hx7jOOuFmRdKF5ivVRB1Xm6Bkc=' 'sha256-iLzlKzogCcFISbr1PfLDM0NYs2ecPZmoW5gCS4s4SPw='; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self'; connect-src 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-GmeXX5UARY9nXjRd+hx7jOOuFmRdKF5ivVRB1Xm6Bkc=' 'sha256-tzL4p1QWiV+7pMOOqTeOwNFjzkgYLaNpzsB3X655aeI='; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self'; connect-src 'self'">
   <meta name="robots" content="noindex">
   <title>Offline - CERN Starter Pack</title>
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -19,21 +19,13 @@ eleventyExcludeFromCollections: true
 <body>
   <main id="main-content">
     <div class="container" style="text-align: center;">
-      <h1 id="offline-heading">Sin conexion</h1>
-      <p id="offline-message">Parece que has perdido la conexion a internet. Comprueba tu red e intentalo de nuevo.</p>
-      <p><a href="/" class="btn btn--primary" id="offline-retry">Intentar de nuevo</a></p>
+      <h1 id="offline-heading">You are offline</h1>
+      <p id="offline-message">It looks like you've lost your internet connection. Please check your network and try again.</p>
+      <p><a href="/" class="btn btn--primary" id="offline-retry">Try again</a></p>
     </div>
   </main>
   <script>
-    (function() {
-      var lang = localStorage.getItem('language') || 'es';
-      if (lang === 'en') {
-        document.documentElement.lang = 'en';
-        document.getElementById('offline-heading').textContent = 'You are offline';
-        document.getElementById('offline-message').textContent = 'It looks like you\'ve lost your internet connection. Please check your network and try again.';
-        document.getElementById('offline-retry').textContent = 'Try again';
-      }
-    })();
+    (function(){var t={en:{heading:'You are offline',message:'It looks like you\'ve lost your internet connection. Please check your network and try again.',retry:'Try again'},es:{heading:'Sin conexion',message:'Parece que has perdido la conexion a internet. Comprueba tu red e intentalo de nuevo.',retry:'Intentar de nuevo'},it:{heading:'Sei offline',message:'Sembra che tu abbia perso la connessione a internet. Controlla la tua rete e riprova.',retry:'Riprova'},fr:{heading:'Vous etes hors ligne',message:'Il semble que vous ayez perdu votre connexion internet. Veuillez verifier votre reseau et reessayer.',retry:'Reessayer'}};var lang=localStorage.getItem('language')||'en';var d=t[lang];if(d){document.documentElement.lang=lang;document.getElementById('offline-heading').textContent=d.heading;document.getElementById('offline-message').textContent=d.message;document.getElementById('offline-retry').textContent=d.retry;}})();
   </script>
 </body>
 </html>

@@ -9,14 +9,14 @@ export async function initSearch() {
   if (!resultsContainer) return;
 
   const pathLang = window.location.pathname.match(/^\/(es|en|it|fr)\//);
-  const lang = pathLang ? pathLang[1] : 'es';
+  const lang = pathLang ? pathLang[1] : 'en';
   const msgs = {
     es: { noResults: 'No se encontraron resultados.', error: 'Error al cargar los resultados de busqueda.', result: 'resultado', results: 'resultados', found: 'encontrado', founds: 'encontrados' },
     en: { noResults: 'No results found.', error: 'Error loading search results.', result: 'result', results: 'results', found: 'found', founds: 'found' },
     it: { noResults: 'Nessun risultato trovato.', error: 'Errore nel caricamento dei risultati.', result: 'risultato', results: 'risultati', found: 'trovato', founds: 'trovati' },
     fr: { noResults: 'Aucun resultat trouve.', error: 'Erreur lors du chargement des resultats.', result: 'resultat', results: 'resultats', found: 'trouve', founds: 'trouves' }
   };
-  const m = msgs[lang] || msgs.es;
+  const m = msgs[lang] || msgs.en;
   const noResultsMsg = m.noResults;
   const errorMsg = m.error;
 

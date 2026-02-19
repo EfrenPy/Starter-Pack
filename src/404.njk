@@ -2,49 +2,49 @@
 layout: layouts/base.njk
 title: "Page Not Found - CERN Starter Pack"
 description: "Page not found - CERN Starter Pack"
-lang: es
-locale: es_ES
+lang: en
+locale: en_US
 noindex: true
 permalink: /404.html
 eleventyExcludeFromCollections: true
 ---
 <main id="main-content">
   <div class="container" style="text-align: center;">
-    <h1 id="404-heading">Pagina no encontrada</h1>
-    <p id="404-message">Lo sentimos, la pagina que buscas no existe o ha sido movida.</p>
+    <h1 id="404-heading">Page not found</h1>
+    <p id="404-message">Sorry, the page you are looking for does not exist or has been moved.</p>
 
     <div class="search-panel" style="margin: var(--space-xl) auto;">
-      <h2 class="search-panel__title" id="404-search-title">Buscar en el sitio</h2>
-      <form action="/es/search/" method="get" class="search-box" id="404-search-form">
+      <h2 class="search-panel__title" id="404-search-title">Search the site</h2>
+      <form action="/en/search/" method="get" class="search-box" id="404-search-form">
         <div class="search-box__input-wrap">
           <span class="search-box__icon" aria-hidden="true">&#128269;</span>
-          <label for="search-input" class="sr-only">Buscar articulos</label>
-          <input type="text" name="query" id="search-input" class="search-box__input" placeholder="Buscar articulos..." required>
+          <label for="search-input" class="sr-only">Search articles</label>
+          <input type="text" name="query" id="search-input" class="search-box__input" placeholder="Search articles..." required>
         </div>
-        <button type="submit" class="btn btn--primary" id="404-search-btn">Buscar</button>
+        <button type="submit" class="btn btn--primary" id="404-search-btn">Search</button>
       </form>
     </div>
 
     <div class="card-grid" style="max-width: 640px; margin: var(--space-xl) auto;">
       <a href="/" class="card">
         <div class="card__icon" aria-hidden="true">&#127968;</div>
-        <div class="card__title" id="404-home-title">Inicio</div>
-        <p class="card__desc" id="404-home-desc">Volver a la pagina principal.</p>
+        <div class="card__title" id="404-home-title">Home</div>
+        <p class="card__desc" id="404-home-desc">Go back to the homepage.</p>
       </a>
-      <a href="/es/legal-hub/" class="card" id="404-legal-link">
+      <a href="/en/legal-hub/" class="card" id="404-legal-link">
         <div class="card__icon" aria-hidden="true">&#9878;</div>
-        <div class="card__title" id="404-legal-title">Ayuda Legal y Fiscal</div>
-        <p class="card__desc" id="404-legal-desc">Guias legales y fiscales.</p>
+        <div class="card__title" id="404-legal-title">Legal & Tax Help</div>
+        <p class="card__desc" id="404-legal-desc">Legal and tax guides.</p>
       </a>
-      <a href="/es/technical-hub/" class="card" id="404-tech-link">
+      <a href="/en/technical-hub/" class="card" id="404-tech-link">
         <div class="card__icon" aria-hidden="true">&#128736;</div>
-        <div class="card__title" id="404-tech-title">Ayuda Tecnica</div>
-        <p class="card__desc" id="404-tech-desc">Tutoriales y herramientas tecnicas.</p>
+        <div class="card__title" id="404-tech-title">Technical Help</div>
+        <p class="card__desc" id="404-tech-desc">Tutorials and technical tools.</p>
       </a>
     </div>
   </div>
 </main>
 
 <script>
-(function(){var t={en:{lang:'en',heading:'Page not found',message:'Sorry, the page you are looking for does not exist or has been moved.',searchTitle:'Search the site',searchAction:'/en/search/',searchBtn:'Search',homeTitle:'Home',homeDesc:'Go back to the homepage.',legalLink:'/en/legal-hub/',legalTitle:'Legal & Tax Help',legalDesc:'Legal and tax guides.',techLink:'/en/technical-hub/',techTitle:'Technical Help',techDesc:'Tutorials and technical tools.'},it:{lang:'it',heading:'Pagina non trovata',message:'Spiacenti, la pagina che cerchi non esiste o e stata spostata.',searchTitle:'Cerca nel sito',searchAction:'/it/search/',searchBtn:'Cerca',homeTitle:'Home',homeDesc:'Torna alla pagina principale.',legalLink:'/it/legal-hub/',legalTitle:'Assistenza Legale e Fiscale',legalDesc:'Guide legali e fiscali.',techLink:'/it/technical-hub/',techTitle:'Assistenza Tecnica',techDesc:'Tutorial e strumenti tecnici.'},fr:{lang:'fr',heading:'Page non trouvee',message:'Desole, la page que vous cherchez n\'existe pas ou a ete deplacee.',searchTitle:'Rechercher sur le site',searchAction:'/fr/search/',searchBtn:'Rechercher',homeTitle:'Accueil',homeDesc:'Retourner a la page d\'accueil.',legalLink:'/fr/legal-hub/',legalTitle:'Aide Juridique et Fiscale',legalDesc:'Guides juridiques et fiscaux.',techLink:'/fr/technical-hub/',techTitle:'Aide Technique',techDesc:'Tutoriels et outils techniques.'}};var lang=localStorage.getItem('language')||'es';var d=t[lang];if(d){document.documentElement.lang=d.lang;document.getElementById('404-heading').textContent=d.heading;document.getElementById('404-message').textContent=d.message;document.getElementById('404-search-title').textContent=d.searchTitle;document.getElementById('404-search-form').action=d.searchAction;document.getElementById('404-search-btn').textContent=d.searchBtn;document.getElementById('404-home-title').textContent=d.homeTitle;document.getElementById('404-home-desc').textContent=d.homeDesc;document.getElementById('404-legal-link').href=d.legalLink;document.getElementById('404-legal-title').textContent=d.legalTitle;document.getElementById('404-legal-desc').textContent=d.legalDesc;document.getElementById('404-tech-link').href=d.techLink;document.getElementById('404-tech-title').textContent=d.techTitle;document.getElementById('404-tech-desc').textContent=d.techDesc;}})();
+(function(){var t={en:{lang:'en',heading:'Page not found',message:'Sorry, the page you are looking for does not exist or has been moved.',searchTitle:'Search the site',searchAction:'/en/search/',searchBtn:'Search',homeTitle:'Home',homeDesc:'Go back to the homepage.',legalLink:'/en/legal-hub/',legalTitle:'Legal & Tax Help',legalDesc:'Legal and tax guides.',techLink:'/en/technical-hub/',techTitle:'Technical Help',techDesc:'Tutorials and technical tools.'},es:{lang:'es',heading:'Pagina no encontrada',message:'Lo sentimos, la pagina que buscas no existe o ha sido movida.',searchTitle:'Buscar en el sitio',searchAction:'/es/search/',searchBtn:'Buscar',homeTitle:'Inicio',homeDesc:'Volver a la pagina principal.',legalLink:'/es/legal-hub/',legalTitle:'Ayuda Legal y Fiscal',legalDesc:'Guias legales y fiscales.',techLink:'/es/technical-hub/',techTitle:'Ayuda Tecnica',techDesc:'Tutoriales y herramientas tecnicas.'},it:{lang:'it',heading:'Pagina non trovata',message:'Spiacenti, la pagina che cerchi non esiste o e stata spostata.',searchTitle:'Cerca nel sito',searchAction:'/it/search/',searchBtn:'Cerca',homeTitle:'Home',homeDesc:'Torna alla pagina principale.',legalLink:'/it/legal-hub/',legalTitle:'Assistenza Legale e Fiscale',legalDesc:'Guide legali e fiscali.',techLink:'/it/technical-hub/',techTitle:'Assistenza Tecnica',techDesc:'Tutorial e strumenti tecnici.'},fr:{lang:'fr',heading:'Page non trouvee',message:'Desole, la page que vous cherchez n\'existe pas ou a ete deplacee.',searchTitle:'Rechercher sur le site',searchAction:'/fr/search/',searchBtn:'Rechercher',homeTitle:'Accueil',homeDesc:'Retourner a la page d\'accueil.',legalLink:'/fr/legal-hub/',legalTitle:'Aide Juridique et Fiscale',legalDesc:'Guides juridiques et fiscaux.',techLink:'/fr/technical-hub/',techTitle:'Aide Technique',techDesc:'Tutoriels et outils techniques.'}};var lang=localStorage.getItem('language')||'en';var d=t[lang];if(d){document.documentElement.lang=d.lang;document.getElementById('404-heading').textContent=d.heading;document.getElementById('404-message').textContent=d.message;document.getElementById('404-search-title').textContent=d.searchTitle;document.getElementById('404-search-form').action=d.searchAction;document.getElementById('404-search-btn').textContent=d.searchBtn;document.getElementById('404-home-title').textContent=d.homeTitle;document.getElementById('404-home-desc').textContent=d.homeDesc;document.getElementById('404-legal-link').href=d.legalLink;document.getElementById('404-legal-title').textContent=d.legalTitle;document.getElementById('404-legal-desc').textContent=d.legalDesc;document.getElementById('404-tech-link').href=d.techLink;document.getElementById('404-tech-title').textContent=d.techTitle;document.getElementById('404-tech-desc').textContent=d.techDesc;}})();
 </script>
