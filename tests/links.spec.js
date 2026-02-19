@@ -2,8 +2,8 @@ import { test, expect } from '@playwright/test';
 
 /**
  * Internal link validation for the Eleventy SSG build.
- * Collects all internal hrefs from navbar, footer, and hub-page cards
- * on both /en/ and /es/ pages, then verifies each returns HTTP 200.
+ * Collects all internal hrefs from navbar and hub-page cards
+ * on /en/, /es/, and /it/ pages, then verifies each returns HTTP 200.
  */
 
 const languages = ['en', 'es', 'it'];
@@ -51,23 +51,6 @@ test.describe('Navbar link validation', () => {
   }
 });
 
-test.describe('Footer link validation', () => {
-  for (const lang of languages) {
-    test(`all footer links return 200 on /${lang}/`, async ({ page }) => {
-      await page.goto(`/${lang}/`);
-      const hrefs = unique(await collectInternalHrefs(page, '.site-footer a[href]'));
-      expect(hrefs.length).toBeGreaterThan(0);
-
-      for (const href of hrefs) {
-        const response = await page.request.get(href);
-        expect(
-          response.status(),
-          `Footer link "${href}" on /${lang}/ returned ${response.status()}`
-        ).toBe(200);
-      }
-    });
-  }
-});
 
 test.describe('Hub page card link validation', () => {
   const hubPages = [

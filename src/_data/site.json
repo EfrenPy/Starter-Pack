@@ -14,5 +14,5 @@
   "ogImageWidth": "1200",
   "ogImageHeight": "630",
   "themeScript": "(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()",
-  "csp": "default-src 'self'; script-src 'self' 'sha256-GmeXX5UARY9nXjRd+hx7jOOuFmRdKF5ivVRB1Xm6Bkc=' 'sha256-uWzq85819907jW40aDill+XFjmv5/0mF3MpMuS1irQY=' 'sha256-Zt4ZSoAgWCP8FKFgVmMuAE9ybfD3VHXPKOrpWWnWO3g='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'"
+  "csp": "default-src 'self'; script-src 'self' 'sha256-GmeXX5UARY9nXjRd+hx7jOOuFmRdKF5ivVRB1Xm6Bkc=' 'sha256-uWzq85819907jW40aDill+XFjmv5/0mF3MpMuS1irQY=' 'sha256-J1FUqjyuk6plo5oRdVo2lKS4a3yXBBsHNGrhw10Xu5o='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'"
 }

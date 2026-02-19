@@ -15,15 +15,15 @@
       "intro": "Step-by-step tutorials and guides for CERN technical tools and environments."
     },
     "es": {
-      "title": "Ayuda Tecnica - CERN Starter Pack",
-      "description": "Ayuda tecnica y guias para herramientas del CERN.",
+      "title": "Ayuda Técnica - CERN Starter Pack",
+      "description": "Ayuda técnica y guías para herramientas del CERN.",
       "og": {
-        "title": "Ayuda Tecnica - CERN Starter Pack",
-        "description": "Tutoriales paso a paso para herramientas tecnicas del CERN."
+        "title": "Ayuda Técnica - CERN Starter Pack",
+        "description": "Tutoriales paso a paso para herramientas técnicas del CERN."
       },
-      "breadcrumbLabel": "Ayuda Tecnica",
-      "heading": "Ayuda Tecnica",
-      "intro": "Tutoriales y guias paso a paso para herramientas y entornos tecnicos del CERN."
+      "breadcrumbLabel": "Ayuda Técnica",
+      "heading": "Ayuda Técnica",
+      "intro": "Tutoriales y guías paso a paso para herramientas y entornos técnicos del CERN."
     },
     "it": {
       "title": "Assistenza Tecnica - CERN Starter Pack",
@@ -41,11 +41,11 @@
       "description": "Aide technique et guides pour les outils et environnements du CERN.",
       "og": {
         "title": "Aide Technique - CERN Starter Pack",
-        "description": "Tutoriels etape par etape pour les outils techniques du CERN."
+        "description": "Tutoriels étape par étape pour les outils techniques du CERN."
       },
       "breadcrumbLabel": "Aide Technique",
       "heading": "Aide Technique",
-      "intro": "Tutoriels et guides etape par etape pour les outils techniques et les environnements du CERN."
+      "intro": "Tutoriels et guides étape par étape pour les outils techniques et les environnements du CERN."
     }
   },
   "cards": [
@@ -60,9 +60,9 @@
       },
       "desc": {
         "en": "Step-by-step guide for connecting VS Code to CERN lxplus and other Linux servers using WSL and SSH on Windows.",
-        "es": "Guia paso a paso para conectar VS Code a lxplus del CERN y otros servidores Linux usando WSL y SSH en Windows.",
+        "es": "Guía paso a paso para conectar VS Code a lxplus del CERN y otros servidores Linux usando WSL y SSH en Windows.",
         "it": "Guida passo-passo per connettere VS Code a CERN lxplus e altri server Linux usando WSL e SSH su Windows.",
-        "fr": "Guide etape par etape pour connecter VS Code a CERN lxplus et d'autres serveurs Linux en utilisant WSL et SSH sous Windows."
+        "fr": "Guide étape par étape pour connecter VS Code à CERN lxplus et d'autres serveurs Linux en utilisant WSL et SSH sous Windows."
       }
     },
     {
@@ -70,15 +70,15 @@
       "icon": "🔐",
       "title": {
         "en": "Kerberos &amp; SSH Setup",
-        "es": "Configuracion de Kerberos y SSH",
+        "es": "Configuración de Kerberos y SSH",
         "it": "Kerberos e SSH Setup",
         "fr": "Configuration Kerberos &amp; SSH"
       },
       "desc": {
         "en": "Set up Kerberos authentication and SSH access to CERN lxplus, EOS, and AFS from any platform.",
-        "es": "Configura la autenticacion Kerberos y el acceso SSH a lxplus, EOS y AFS del CERN desde cualquier plataforma.",
+        "es": "Configura la autenticación Kerberos y el acceso SSH a lxplus, EOS y AFS del CERN desde cualquier plataforma.",
         "it": "Configura l'autenticazione Kerberos e l'accesso SSH a CERN lxplus, EOS e AFS da qualsiasi piattaforma.",
-        "fr": "Configurez l'authentification Kerberos et l'acces SSH a CERN lxplus, EOS et AFS depuis n'importe quelle plateforme."
+        "fr": "Configurez l'authentification Kerberos et l'accès SSH à CERN lxplus, EOS et AFS depuis n'importe quelle plateforme."
       }
     },
     {
@@ -86,15 +86,15 @@
       "icon": "📊",
       "title": {
         "en": "ROOT Quick-Start",
-        "es": "Inicio rapido con ROOT",
+        "es": "Inicio rápido con ROOT",
         "it": "ROOT Quick-Start",
         "fr": "ROOT Quick-Start"
       },
       "desc": {
         "en": "Get started with the ROOT data analysis framework: installation, first histogram, PyROOT, and reading .root files.",
-        "es": "Empieza con el framework ROOT: instalacion, primer histograma, PyROOT y lectura de archivos .root.",
+        "es": "Empieza con el framework ROOT: instalación, primer histograma, PyROOT y lectura de archivos .root.",
         "it": "Inizia con il framework di analisi dati ROOT: installazione, primo istogramma, PyROOT e lettura di file .root.",
-        "fr": "Demarrez avec le framework d'analyse de donnees ROOT : installation, premier histogramme, PyROOT et lecture de fichiers .root."
+        "fr": "Démarrez avec le framework d'analyse de données ROOT : installation, premier histogramme, PyROOT et lecture de fichiers .root."
       }
     },
     {
@@ -108,9 +108,9 @@
       },
       "desc": {
         "en": "CERN GitLab setup, SSH keys, Kerberos authentication, merge request workflow, and CI/CD basics.",
-        "es": "Configuracion de CERN GitLab, claves SSH, autenticacion Kerberos, flujo de merge requests y CI/CD basico.",
+        "es": "Configuración de CERN GitLab, claves SSH, autenticación Kerberos, flujo de merge requests y CI/CD básico.",
         "it": "Configurazione di CERN GitLab, chiavi SSH, autenticazione Kerberos, workflow delle merge request e basi di CI/CD.",
-        "fr": "Configuration de CERN GitLab, cles SSH, authentification Kerberos, workflow des merge requests et bases du CI/CD."
+        "fr": "Configuration de CERN GitLab, clés SSH, authentification Kerberos, workflow des merge requests et bases du CI/CD."
       }
     },
     {
@@ -118,13 +118,13 @@
       "icon": "🖥",
       "title": {
         "en": "CERN IT Basics",
-        "es": "Conceptos Basicos de IT",
+        "es": "Conceptos Básicos de IT",
         "it": "CERN IT Basics",
         "fr": "CERN IT Bases"
       },
       "desc": {
         "en": "Computing account, eduroam Wi-Fi, EDH, ServiceNow, VPN, printing, and what to do when things break.",
-        "es": "Cuenta informatica, Wi-Fi eduroam, EDH, ServiceNow, VPN, impresion y que hacer cuando algo no funciona.",
+        "es": "Cuenta informática, Wi-Fi eduroam, EDH, ServiceNow, VPN, impresión y qué hacer cuando algo no funciona.",
         "it": "Account di calcolo, Wi-Fi eduroam, EDH, ServiceNow, VPN, stampa e cosa fare quando qualcosa non funziona.",
         "fr": "Compte informatique, Wi-Fi eduroam, EDH, ServiceNow, VPN, impression et que faire quand quelque chose ne marche pas."
       }
@@ -134,15 +134,15 @@
       "icon": "⚠",
       "title": {
         "en": "Safety Training",
-        "es": "Formacion en Seguridad",
+        "es": "Formación en Seguridad",
         "it": "Formazione sulla Sicurezza",
-        "fr": "Formation Securite"
+        "fr": "Formation Sécurité"
       },
       "desc": {
         "en": "Mandatory safety course, radiation protection, e-learning modules, and 3-year renewal requirements.",
-        "es": "Curso obligatorio de seguridad, proteccion radiologica, modulos e-learning y renovacion cada 3 anos.",
+        "es": "Curso obligatorio de seguridad, protección radiológica, módulos e-learning y renovación cada 3 años.",
         "it": "Corso di sicurezza obbligatorio, protezione radiologica, moduli e-learning e requisiti di rinnovo triennale.",
-        "fr": "Cours de securite obligatoire, protection radiologique, modules e-learning et renouvellement tous les 3 ans."
+        "fr": "Cours de sécurité obligatoire, protection radiologique, modules e-learning et renouvellement tous les 3 ans."
       }
     },
     {
@@ -152,13 +152,13 @@
         "en": "Access Cards",
         "es": "Tarjetas de Acceso",
         "it": "Carte di Accesso",
-        "fr": "Cartes d'Acces"
+        "fr": "Cartes d'Accès"
       },
       "desc": {
         "en": "Card types, badge wearing rules, vehicle access, ADaMS Mobile, and lost card procedures.",
-        "es": "Tipos de tarjeta, normas de uso del badge, acceso de vehiculos, ADaMS Mobile y procedimiento por perdida.",
+        "es": "Tipos de tarjeta, normas de uso del badge, acceso de vehículos, ADaMS Mobile y procedimiento por pérdida.",
         "it": "Tipi di carte, regole per il badge, accesso veicolare, ADaMS Mobile e procedure per carte smarrite.",
-        "fr": "Types de cartes, regles de port du badge, acces vehicule, ADaMS Mobile et procedures en cas de perte."
+        "fr": "Types de cartes, règles de port du badge, accès véhicule, ADaMS Mobile et procédures en cas de perte."
       }
     },
     {
@@ -166,15 +166,15 @@
       "icon": "🏠",
       "title": {
         "en": "Telework Policy",
-        "es": "Politica de Teletrabajo",
+        "es": "Política de Teletrabajo",
         "it": "Politica di Telelavoro",
-        "fr": "Politique de Teletravail"
+        "fr": "Politique de Télétravail"
       },
       "desc": {
         "en": "40% telework limit, supervisor approval, OC No. 7 framework, and location flexibility rules.",
-        "es": "Limite del 40% de teletrabajo, aprobacion del supervisor, marco OC No. 7 y reglas de flexibilidad de ubicacion.",
-        "it": "Limite del 40% di telelavoro, approvazione del supervisore, quadro OC n. 7 e regole di flessibilita sulla sede.",
-        "fr": "Limite de 40% de teletravail, approbation du superviseur, cadre OC n° 7 et regles de flexibilite du lieu."
+        "es": "Límite del 40% de teletrabajo, aprobación del supervisor, marco OC No. 7 y reglas de flexibilidad de ubicación.",
+        "it": "Limite del 40% di telelavoro, approvazione del supervisore, quadro OC n. 7 e regole di flessibilità sulla sede.",
+        "fr": "Limite de 40% de télétravail, approbation du superviseur, cadre OC n° 7 et règles de flexibilité du lieu."
       }
     },
     {
@@ -188,9 +188,9 @@
       },
       "desc": {
         "en": "CERN EOS distributed storage: quotas, CERNBox web and desktop sync, accessing files from lxplus and SWAN, and sharing.",
-        "es": "Almacenamiento distribuido EOS del CERN: cuotas, CERNBox web y sincronizacion de escritorio, acceso desde lxplus y SWAN, y compartir archivos.",
+        "es": "Almacenamiento distribuido EOS del CERN: cuotas, CERNBox web y sincronización de escritorio, acceso desde lxplus y SWAN, y compartir archivos.",
         "it": "Storage distribuito EOS del CERN: quote, CERNBox web e sincronizzazione desktop, accesso da lxplus e SWAN, e condivisione.",
-        "fr": "Stockage distribue EOS du CERN : quotas, CERNBox web et synchronisation bureau, acces depuis lxplus et SWAN, et partage."
+        "fr": "Stockage distribué EOS du CERN : quotas, CERNBox web et synchronisation bureau, accès depuis lxplus et SWAN, et partage."
       }
     },
     {
@@ -198,15 +198,15 @@
       "icon": "🖥",
       "title": {
         "en": "lxplus Guide",
-        "es": "Guia de lxplus",
+        "es": "Guía de lxplus",
         "it": "Guida a lxplus",
         "fr": "Guide lxplus"
       },
       "desc": {
         "en": "CERN lxplus interactive cluster: available resources, home directories, CVMFS software, HTCondor batch jobs, and fair-share policy.",
-        "es": "Cluster interactivo lxplus del CERN: recursos disponibles, directorios home, software CVMFS, trabajos batch HTCondor y politica de uso justo.",
+        "es": "Cluster interactivo lxplus del CERN: recursos disponibles, directorios home, software CVMFS, trabajos batch HTCondor y política de uso justo.",
         "it": "Cluster interattivo lxplus del CERN: risorse disponibili, directory home, software CVMFS, job batch HTCondor e politica di fair-share.",
-        "fr": "Cluster interactif lxplus du CERN : ressources disponibles, repertoires home, logiciels CVMFS, jobs batch HTCondor et politique de partage equitable."
+        "fr": "Cluster interactif lxplus du CERN : ressources disponibles, répertoires home, logiciels CVMFS, jobs batch HTCondor et politique de partage équitable."
       }
     },
     {
@@ -220,9 +220,9 @@
       },
       "desc": {
         "en": "CERN SWAN service: creating Jupyter notebooks, EOS storage, ROOT/Python analysis, and sharing with colleagues.",
-        "es": "Servicio SWAN del CERN: crear notebooks Jupyter, almacenamiento EOS, analisis ROOT/Python y compartir con colegas.",
+        "es": "Servicio SWAN del CERN: crear notebooks Jupyter, almacenamiento EOS, análisis ROOT/Python y compartir con colegas.",
         "it": "Servizio SWAN del CERN: creare notebook Jupyter, storage EOS, analisi ROOT/Python e condivisione con i colleghi.",
-        "fr": "Service SWAN du CERN : creer des notebooks Jupyter, stockage EOS, analyse ROOT/Python et partage avec les collegues."
+        "fr": "Service SWAN du CERN : créer des notebooks Jupyter, stockage EOS, analyse ROOT/Python et partage avec les collègues."
       }
     }
   ]

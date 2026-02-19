@@ -56,7 +56,7 @@ for (const { url, name } of pages) {
       await page.waitForSelector('.topnav', { timeout: 5000 });
       // menu-toggle exists in DOM but is hidden on desktop; check attributes via attached state
       await expect(page.locator('#menu-toggle')).toBeAttached();
-      await expect(page.locator('#menu-toggle')).toHaveAttribute('aria-label', /menu/i);
+      await expect(page.locator('#menu-toggle')).toHaveAttribute('aria-label', /men[uú]/i);
     });
 
     test('no console errors', async ({ page }) => {

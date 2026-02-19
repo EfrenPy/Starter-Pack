@@ -22,19 +22,19 @@
     },
     "es": {
       "title": "CERN Starter Pack",
-      "description": "Starter Pack para nuevos empleados del CERN. Informacion sobre tramites legales, fiscales y tecnicos.",
+      "description": "Starter Pack para nuevos empleados del CERN. Información sobre trámites legales, fiscales y técnicos.",
       "og": {
         "title": "Bienvenido al Starter Pack",
-        "description": "Informacion util para nuevos empleados del CERN sobre tramites legales, fiscales y herramientas tecnicas."
+        "description": "Información útil para nuevos empleados del CERN sobre trámites legales, fiscales y herramientas técnicas."
       },
       "hero": {
         "title": "Bienvenido al Starter Pack",
-        "subtitle": "Informacion util y recursos para recien llegados al CERN. Guias legales, fiscales y tecnicas en un solo lugar.",
+        "subtitle": "Información útil y recursos para recién llegados al CERN. Guías legales, fiscales y técnicas en un solo lugar.",
         "cta": "Explorar recursos"
       },
-      "searchTitle": "Buscar articulos",
-      "searchLabel": "Buscar articulos",
-      "searchPlaceholder": "Buscar articulos...",
+      "searchTitle": "Buscar artículos",
+      "searchLabel": "Buscar artículos",
+      "searchPlaceholder": "Buscar artículos...",
       "searchButton": "Buscar"
     },
     "it": {
@@ -56,10 +56,10 @@
     },
     "fr": {
       "title": "CERN Starter Pack",
-      "description": "Starter Pack pour les nouveaux employes du CERN. Informations juridiques, fiscales et techniques.",
+      "description": "Starter Pack pour les nouveaux employés du CERN. Informations juridiques, fiscales et techniques.",
       "og": {
         "title": "Bienvenue dans le Starter Pack",
-        "description": "Informations utiles pour les nouveaux employes du CERN sur les questions juridiques, fiscales et les outils techniques."
+        "description": "Informations utiles pour les nouveaux employés du CERN sur les questions juridiques, fiscales et les outils techniques."
       },
       "hero": {
         "title": "Bienvenue dans le Starter Pack",
@@ -84,9 +84,9 @@
       },
       "desc": {
         "en": "Guides on taxation, social security, and administrative procedures for CERN employees with ties to Spain.",
-        "es": "Guias sobre fiscalidad, seguridad social y tramites administrativos para empleados del CERN con vinculos con Espana.",
+        "es": "Guías sobre fiscalidad, seguridad social y trámites administrativos para empleados del CERN con vínculos con España.",
         "it": "Guide su tassazione, previdenza sociale e procedure amministrative per i dipendenti del CERN con legami con la Spagna.",
-        "fr": "Guides sur la fiscalite, la securite sociale et les procedures administratives pour les employes du CERN ayant des liens avec l'Espagne."
+        "fr": "Guides sur la fiscalité, la sécurité sociale et les procédures administratives pour les employés du CERN ayant des liens avec l'Espagne."
       }
     },
     {
@@ -94,15 +94,15 @@
       "icon": "&#128736;",
       "title": {
         "en": "Technical Help",
-        "es": "Ayuda Tecnica",
+        "es": "Ayuda Técnica",
         "it": "Assistenza Tecnica",
         "fr": "Aide Technique"
       },
       "desc": {
         "en": "Step-by-step tutorials and guides for CERN technical tools, including VS Code Remote and more.",
-        "es": "Tutoriales y guias paso a paso para herramientas tecnicas del CERN, incluyendo VS Code Remote y mas.",
+        "es": "Tutoriales y guías paso a paso para herramientas técnicas del CERN, incluyendo VS Code Remote y más.",
         "it": "Tutorial e guide passo-passo per gli strumenti tecnici del CERN, incluso VS Code Remote e altro.",
-        "fr": "Tutoriels et guides etape par etape pour les outils techniques du CERN, y compris VS Code Remote et plus encore."
+        "fr": "Tutoriels et guides étape par étape pour les outils techniques du CERN, y compris VS Code Remote et plus encore."
       }
     },
     {
@@ -110,7 +110,7 @@
       "icon": "&#127968;",
       "title": {
         "en": "Life &amp; Practical",
-        "es": "Vida Practica",
+        "es": "Vida Práctica",
         "it": "Vita Quotidiana",
         "fr": "Vie Pratique"
       },
@@ -118,7 +118,7 @@
         "en": "Housing, transport, banking, and daily life tips for living near CERN in Geneva or France.",
         "es": "Vivienda, transporte, banca y consejos de vida cotidiana cerca del CERN en Ginebra o Francia.",
         "it": "Alloggio, trasporti, banca e consigli pratici per vivere vicino al CERN a Ginevra o in Francia.",
-        "fr": "Logement, transports, banque et conseils pratiques pour vivre pres du CERN a Geneve ou en France."
+        "fr": "Logement, transports, banque et conseils pratiques pour vivre près du CERN à Genève ou en France."
       }
     },
     {
@@ -126,15 +126,15 @@
       "icon": "&#127973;",
       "title": {
         "en": "Health Insurance",
-        "es": "Seguro Medico",
+        "es": "Seguro Médico",
         "it": "Assicurazione Sanitaria",
         "fr": "Assurance Maladie"
       },
       "desc": {
         "en": "CHIS, LAMal, CMU/PUMA, the droit d'option, deadlines, and how to choose the right coverage.",
-        "es": "CHIS, LAMal, CMU/PUMA, el droit d'option, plazos y como elegir la cobertura adecuada.",
+        "es": "CHIS, LAMal, CMU/PUMA, el droit d'option, plazos y cómo elegir la cobertura adecuada.",
         "it": "CHIS, LAMal, CMU/PUMA, il diritto d'opzione, scadenze e come scegliere la copertura giusta.",
-        "fr": "CHIS, LAMal, CMU/PUMA, le droit d'option, les delais et comment choisir la bonne couverture."
+        "fr": "CHIS, LAMal, CMU/PUMA, le droit d'option, les délais et comment choisir la bonne couverture."
       }
     },
     {
@@ -148,9 +148,9 @@
       },
       "desc": {
         "en": "Quick answers to the most common questions about starting at CERN.",
-        "es": "Respuestas rapidas a las preguntas mas comunes sobre empezar en el CERN.",
-        "it": "Risposte rapide alle domande piu comuni su come iniziare al CERN.",
-        "fr": "Reponses rapides aux questions les plus courantes sur les debuts au CERN."
+        "es": "Respuestas rápidas a las preguntas más comunes sobre empezar en el CERN.",
+        "it": "Risposte rapide alle domande più comuni su come iniziare al CERN.",
+        "fr": "Réponses rapides aux questions les plus courantes sur les débuts au CERN."
       }
     },
     {
@@ -164,9 +164,9 @@
       },
       "desc": {
         "en": "Help improve this guide by reporting errors, suggesting resources, or contributing on GitHub.",
-        "es": "Ayuda a mejorar esta guia reportando errores, sugiriendo recursos o contribuyendo en GitHub.",
+        "es": "Ayuda a mejorar esta guía reportando errores, sugiriendo recursos o contribuyendo en GitHub.",
         "it": "Aiuta a migliorare questa guida segnalando errori, suggerendo risorse o contribuendo su GitHub.",
-        "fr": "Aidez a ameliorer ce guide en signalant des erreurs, en suggerant des ressources ou en contribuant sur GitHub."
+        "fr": "Aidez à améliorer ce guide en signalant des erreurs, en suggérant des ressources ou en contribuant sur GitHub."
       }
     }
   ]

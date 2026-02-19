@@ -24,15 +24,15 @@
     },
     "es": {
       "title": "Centro de Ayuda Legal y Fiscal - CERN Starter Pack",
-      "description": "Centro de ayuda legal y fiscal para empleados del CERN con vinculos con Espana.",
+      "description": "Centro de ayuda legal y fiscal para empleados del CERN con vínculos con España.",
       "og": {
         "title": "Ayuda Legal y Fiscal - CERN Starter Pack",
         "description": "Recursos sobre fiscalidad y seguridad social para empleados del CERN."
       },
       "breadcrumbLabel": "Ayuda Legal y Fiscal",
       "heading": "Centro de Ayuda Legal y Fiscal",
-      "intro": "Este centro reune los principales recursos sobre fiscalidad y seguridad social para empleados del CERN que residen o tienen vinculos con Espana.",
-      "alertText": "Todos los contenidos aqui reunidos tienen caracter informativo. Consulta siempre con un profesional si tienes dudas sobre tu caso concreto."
+      "intro": "Este centro reúne los principales recursos sobre fiscalidad y seguridad social para empleados del CERN que residen o tienen vínculos con España.",
+      "alertText": "Todos los contenidos aquí reunidos tienen carácter informativo. Consulta siempre con un profesional si tienes dudas sobre tu caso concreto."
     },
     "it": {
       "title": "Assistenza Legale e Fiscale - CERN Starter Pack",
@@ -48,15 +48,15 @@
     },
     "fr": {
       "title": "Aide Juridique et Fiscale - CERN Starter Pack",
-      "description": "Centre d'aide juridique et fiscale pour les employes du CERN ayant des liens avec l'Espagne.",
+      "description": "Centre d'aide juridique et fiscale pour les employés du CERN ayant des liens avec l'Espagne.",
       "og": {
         "title": "Aide Juridique et Fiscale - CERN Starter Pack",
-        "description": "Ressources sur la fiscalite et la securite sociale pour les employes du CERN."
+        "description": "Ressources sur la fiscalité et la sécurité sociale pour les employés du CERN."
       },
       "breadcrumbLabel": "Aide Juridique et Fiscale",
       "heading": "Aide Juridique et Fiscale",
-      "intro": "Ce centre regroupe les principales ressources sur la fiscalite et la securite sociale pour les employes du CERN qui resident ou ont des liens avec l'Espagne.",
-      "alertText": "Tous les contenus ici presentes sont a titre informatif. Consultez toujours un professionnel en cas de doute sur votre situation specifique."
+      "intro": "Ce centre regroupe les principales ressources sur la fiscalité et la sécurité sociale pour les employés du CERN qui résident ou ont des liens avec l'Espagne.",
+      "alertText": "Tous les contenus ici présentés sont à titre informatif. Consultez toujours un professionnel en cas de doute sur votre situation spécifique."
     }
   },
   "cards": [
@@ -65,15 +65,15 @@
       "icon": "📈",
       "title": {
         "en": "CERN Salary Taxation in Spain",
-        "es": "Tributacion del Salario del CERN en Espana",
+        "es": "Tributación del Salario del CERN en España",
         "it": "Tassazione dello Stipendio CERN in Spagna",
-        "fr": "Fiscalite du Salaire CERN en Espagne"
+        "fr": "Fiscalité du Salaire CERN en Espagne"
       },
       "desc": {
         "en": "Complete explanation on the exemption from IRPF, the application of the Protocol on Privileges and Immunities, and Spanish administrative practices.",
-        "es": "Explicacion completa sobre la exencion del IRPF, la aplicacion del Protocolo de Privilegios e Inmunidades, y la practica administrativa espanola.",
-        "it": "Spiegazione completa sull'esenzione dall'IRPF, l'applicazione del Protocollo sui Privilegi e le Immunita e le pratiche amministrative spagnole.",
-        "fr": "Explication complete sur l'exemption de l'IRPF, l'application du Protocole sur les Privileges et Immunites et les pratiques administratives espagnoles."
+        "es": "Explicación completa sobre la exención del IRPF, la aplicación del Protocolo de Privilegios e Inmunidades, y la práctica administrativa española.",
+        "it": "Spiegazione completa sull'esenzione dall'IRPF, l'applicazione del Protocollo sui Privilegi e le Immunità e le pratiche amministrative spagnole.",
+        "fr": "Explication complète sur l'exemption de l'IRPF, l'application du Protocole sur les Privilèges et Immunités et les pratiques administratives espagnoles."
       }
     },
     {
@@ -81,15 +81,15 @@
       "icon": "📚",
       "title": {
         "en": "Guide for Spaniards Starting at CERN",
-        "es": "Guia para Espanoles que Comienzan en el CERN",
+        "es": "Guía para Españoles que Comienzan en el CERN",
         "it": "Guida per Spagnoli che Iniziano al CERN",
-        "fr": "Guide pour les Espagnols debutant au CERN"
+        "fr": "Guide pour les Espagnols débutant au CERN"
       },
       "desc": {
         "en": "Detailed document on social security options, medical coverage, income tax filing, and useful links for Spanish citizens at CERN.",
-        "es": "Documento detallado sobre las opciones de seguridad social, cobertura medica, declaracion de la renta y enlaces utiles.",
+        "es": "Documento detallado sobre las opciones de seguridad social, cobertura médica, declaración de la renta y enlaces útiles.",
         "it": "Documento dettagliato sulle opzioni di previdenza sociale, copertura medica, dichiarazione dei redditi e link utili per i cittadini spagnoli al CERN.",
-        "fr": "Document detaille sur les options de securite sociale, la couverture medicale, la declaration de revenus et les liens utiles pour les citoyens espagnols au CERN."
+        "fr": "Document détaillé sur les options de sécurité sociale, la couverture médicale, la déclaration de revenus et les liens utiles pour les citoyens espagnols au CERN."
       }
     },
     {
@@ -97,15 +97,15 @@
       "icon": "📄",
       "title": {
         "en": "Modelo 720 &amp; Declaration Guide",
-        "es": "Modelo 720 y Guia de Declaracion",
+        "es": "Modelo 720 y Guía de Declaración",
         "it": "Modelo 720 e Guida alla Dichiarazione",
-        "fr": "Modelo 720 &amp; Guide de Declaration"
+        "fr": "Modelo 720 &amp; Guide de Déclaration"
       },
       "desc": {
         "en": "Guide to the Modelo 720 foreign asset declaration, filing requirements, CERN-specific considerations, and step-by-step walkthrough.",
-        "es": "Guia sobre la declaracion de bienes en el extranjero Modelo 720, requisitos, consideraciones para el CERN y proceso paso a paso.",
+        "es": "Guía sobre la declaración de bienes en el extranjero Modelo 720, requisitos, consideraciones para el CERN y proceso paso a paso.",
         "it": "Guida alla dichiarazione dei beni esteri Modelo 720, requisiti di presentazione, considerazioni specifiche per il CERN e procedura passo-passo.",
-        "fr": "Guide sur la declaration de biens a l'etranger Modelo 720, les exigences de depot, les considerations specifiques au CERN et la procedure etape par etape."
+        "fr": "Guide sur la déclaration de biens à l'étranger Modelo 720, les exigences de dépôt, les considérations spécifiques au CERN et la procédure étape par étape."
       }
     },
     {
@@ -113,15 +113,15 @@
       "icon": "✈",
       "title": {
         "en": "Returning to Spain",
-        "es": "Volver a Espana",
+        "es": "Volver a España",
         "it": "Ritorno in Spagna",
         "fr": "Retour en Espagne"
       },
       "desc": {
         "en": "Step-by-step checklist for CERN employees moving back to Spain: pension, healthcare, taxes, and practical matters.",
-        "es": "Lista de pasos para empleados del CERN que regresan a Espana: pension, sanidad, impuestos y tramites practicos.",
-        "it": "Checklist passo-passo per i dipendenti del CERN che tornano in Spagna: pensione, sanita, tasse e questioni pratiche.",
-        "fr": "Checklist etape par etape pour les employes du CERN qui retournent en Espagne : pension, sante, impots et questions pratiques."
+        "es": "Lista de pasos para empleados del CERN que regresan a España: pensión, sanidad, impuestos y trámites prácticos.",
+        "it": "Checklist passo-passo per i dipendenti del CERN che tornano in Spagna: pensione, sanità, tasse e questioni pratiche.",
+        "fr": "Checklist étape par étape pour les employés du CERN qui retournent en Espagne : pension, santé, impôts et questions pratiques."
       }
     },
     {
@@ -129,15 +129,15 @@
       "icon": "☑",
       "title": {
         "en": "Onboarding Checklist",
-        "es": "Checklist de Incorporacion",
+        "es": "Checklist de Incorporación",
         "it": "Checklist di Onboarding",
-        "fr": "Checklist d'Integration"
+        "fr": "Checklist d'Intégration"
       },
       "desc": {
         "en": "Interactive timeline to track your CERN onboarding progress. Checkboxes save automatically in your browser.",
-        "es": "Linea temporal interactiva para seguir tu progreso de incorporacion al CERN. Las casillas se guardan automaticamente en tu navegador.",
+        "es": "Línea temporal interactiva para seguir tu progreso de incorporación al CERN. Las casillas se guardan automáticamente en tu navegador.",
         "it": "Timeline interattiva per monitorare i tuoi progressi di onboarding al CERN. Le spunte si salvano automaticamente nel browser.",
-        "fr": "Chronologie interactive pour suivre votre progression d'integration au CERN. Les cases se sauvegardent automatiquement dans votre navigateur."
+        "fr": "Chronologie interactive pour suivre votre progression d'intégration au CERN. Les cases se sauvegardent automatiquement dans votre navigateur."
       }
     },
     {
@@ -150,10 +150,10 @@
         "fr": "Permis &amp; Enregistrement"
       },
       "desc": {
-        "en": "Swiss carte de legitimation, French titre de sejour, 14-day registration rule, and residence card types.",
-        "es": "Carte de legitimation suiza, titre de sejour frances, regla de 14 dias y tipos de tarjeta de residencia.",
-        "it": "Carte de legitimation svizzera, titre de sejour francese, regola dei 14 giorni e tipi di carte di residenza.",
-        "fr": "Carte de legitimation suisse, titre de sejour francais, regle des 14 jours et types de cartes de residence."
+        "en": "Swiss carte de légitimation, French titre de séjour, 14-day registration rule, and residence card types.",
+        "es": "Carte de légitimation suiza, titre de séjour francés, regla de 14 días y tipos de tarjeta de residencia.",
+        "it": "Carte de légitimation svizzera, titre de séjour francese, regola dei 14 giorni e tipi di carte di residenza.",
+        "fr": "Carte de légitimation suisse, titre de séjour français, règle des 14 jours et types de cartes de résidence."
       }
     },
     {
@@ -163,13 +163,13 @@
         "en": "CERN Taxation",
         "es": "Fiscalidad del CERN",
         "it": "Tassazione CERN",
-        "fr": "Fiscalite du CERN"
+        "fr": "Fiscalité du CERN"
       },
       "desc": {
         "en": "Internal tax system, national income tax exemption, French citizens exception, and outside income rules.",
-        "es": "Sistema fiscal interno, exencion del impuesto nacional, excepcion para ciudadanos franceses e ingresos externos.",
+        "es": "Sistema fiscal interno, exención del impuesto nacional, excepción para ciudadanos franceses e ingresos externos.",
         "it": "Sistema fiscale interno, esenzione dall'imposta sul reddito nazionale, eccezione per i cittadini francesi e regole sui redditi esterni.",
-        "fr": "Systeme fiscal interne, exemption de l'impot sur le revenu national, exception pour les citoyens francais et regles sur les revenus externes."
+        "fr": "Système fiscal interne, exemption de l'impôt sur le revenu national, exception pour les citoyens français et règles sur les revenus externes."
       }
     },
     {
@@ -183,9 +183,9 @@
       },
       "desc": {
         "en": "Defined-benefit scheme, options by years of service, transfer value, and retirement ages at CERN.",
-        "es": "Plan de prestacion definida, opciones segun anos de servicio, valor de transferencia y edades de jubilacion.",
-        "it": "Schema a prestazione definita, opzioni per anni di servizio, valore di trasferimento e eta pensionabile al CERN.",
-        "fr": "Regime a prestations definies, options selon les annees de service, valeur de transfert et ages de retraite au CERN."
+        "es": "Plan de prestación definida, opciones según años de servicio, valor de transferencia y edades de jubilación.",
+        "it": "Schema a prestazione definita, opzioni per anni di servizio, valore di trasferimento e età pensionabile al CERN.",
+        "fr": "Régime à prestations définies, options selon les années de service, valeur de transfert et âges de retraite au CERN."
       }
     },
     {
@@ -195,13 +195,13 @@
         "en": "Contracts &amp; Career",
         "es": "Contratos y Carrera",
         "it": "Contratti e Carriera",
-        "fr": "Contrats &amp; Carriere"
+        "fr": "Contrats &amp; Carrière"
       },
       "desc": {
         "en": "Fellow vs student vs staff, maximum durations, extension rules, and one-time fellowship policy.",
-        "es": "Fellow vs estudiante vs staff, duraciones maximas, reglas de extension y politica de beca unica.",
+        "es": "Fellow vs estudiante vs staff, duraciones máximas, reglas de extensión y política de beca única.",
         "it": "Fellow vs studente vs staff, durate massime, regole di estensione e politica della fellowship unica.",
-        "fr": "Fellow vs etudiant vs staff, durees maximales, regles de prolongation et politique de bourse unique."
+        "fr": "Fellow vs étudiant vs staff, durées maximales, règles de prolongation et politique de bourse unique."
       }
     },
     {
@@ -209,15 +209,15 @@
       "icon": "🎓",
       "title": {
         "en": "Doctoral Guide",
-        "es": "Guia Doctoral",
+        "es": "Guía Doctoral",
         "it": "Guida Dottorale",
         "fr": "Guide Doctoral"
       },
       "desc": {
         "en": "Programme details, thesis submission, hyper-authorship, computing resources, and post-PhD opportunities at CERN.",
-        "es": "Detalles del programa, presentacion de tesis, hiper-autoria, recursos informaticos y oportunidades post-doctorado en el CERN.",
-        "it": "Dettagli del programma, presentazione tesi, iper-autorialita, risorse informatiche e opportunita post-dottorato al CERN.",
-        "fr": "Details du programme, soumission de these, hyper-signature, ressources informatiques et opportunites post-doctorat au CERN."
+        "es": "Detalles del programa, presentación de tesis, hiper-autoría, recursos informáticos y oportunidades post-doctorado en el CERN.",
+        "it": "Dettagli del programma, presentazione tesi, iper-autorialità, risorse informatiche e opportunità post-dottorato al CERN.",
+        "fr": "Détails du programme, soumission de thèse, hyper-signature, ressources informatiques et opportunités post-doctorat au CERN."
       }
     },
     {
@@ -225,15 +225,15 @@
       "icon": "📋",
       "title": {
         "en": "Complete Guide (Spanish Nationals)",
-        "es": "Guia Completa (Nacionales Espanoles)",
+        "es": "Guía Completa (Nacionales Españoles)",
         "it": "Guida Completa (Cittadini Spagnoli)",
         "fr": "Guide Complet (Ressortissants Espagnols)"
       },
       "desc": {
         "en": "Comprehensive accordion-style guide covering legal, administrative, financial, housing, and family topics for Spanish nationals.",
-        "es": "Guia completa con secciones desplegables sobre temas legales, administrativos, financieros, vivienda y familia para nacionales espanoles.",
+        "es": "Guía completa con secciones desplegables sobre temas legales, administrativos, financieros, vivienda y familia para nacionales españoles.",
         "it": "Guida completa a sezioni espandibili su temi legali, amministrativi, finanziari, alloggio e famiglia per cittadini spagnoli.",
-        "fr": "Guide complet en sections depliables couvrant les questions juridiques, administratives, financieres, de logement et familiales pour les ressortissants espagnols."
+        "fr": "Guide complet en sections dépliables couvrant les questions juridiques, administratives, financières, de logement et familiales pour les ressortissants espagnols."
       }
     },
     {
@@ -243,13 +243,13 @@
         "en": "French &amp; Swiss Taxes",
         "es": "Impuestos en Francia y Suiza",
         "it": "Tasse in Francia e Svizzera",
-        "fr": "Impots en France &amp; Suisse"
+        "fr": "Impôts en France &amp; Suisse"
       },
       "desc": {
         "en": "Tax obligations for CERN employees living in France or Switzerland: declaration process, double taxation treaties, and annual filing.",
-        "es": "Obligaciones fiscales para empleados del CERN en Francia o Suiza: proceso de declaracion, convenios de doble imposicion y declaracion anual.",
+        "es": "Obligaciones fiscales para empleados del CERN en Francia o Suiza: proceso de declaración, convenios de doble imposición y declaración anual.",
         "it": "Obblighi fiscali per i dipendenti CERN residenti in Francia o Svizzera: processo di dichiarazione, convenzioni sulla doppia imposizione e dichiarazione annuale.",
-        "fr": "Obligations fiscales pour les employes du CERN residant en France ou en Suisse : processus de declaration, conventions de double imposition et declaration annuelle."
+        "fr": "Obligations fiscales pour les employés du CERN résidant en France ou en Suisse : processus de déclaration, conventions de double imposition et déclaration annuelle."
       }
     },
     {
@@ -259,13 +259,13 @@
         "en": "Parental Leave",
         "es": "Permiso Parental",
         "it": "Congedo Parentale",
-        "fr": "Conge Parental"
+        "fr": "Congé Parental"
       },
       "desc": {
         "en": "Maternity, paternity, and adoption leave at CERN: duration, income replacement, EDH requests, and return-to-work options.",
-        "es": "Permiso de maternidad, paternidad y adopcion en el CERN: duracion, reemplazo de ingresos, solicitudes EDH y opciones de reincorporacion.",
-        "it": "Congedo di maternita, paternita e adozione al CERN: durata, sostituzione del reddito, richieste EDH e opzioni di rientro al lavoro.",
-        "fr": "Conge de maternite, paternite et adoption au CERN : duree, remplacement de revenus, demandes EDH et options de retour au travail."
+        "es": "Permiso de maternidad, paternidad y adopción en el CERN: duración, reemplazo de ingresos, solicitudes EDH y opciones de reincorporación.",
+        "it": "Congedo di maternità, paternità e adozione al CERN: durata, sostituzione del reddito, richieste EDH e opzioni di rientro al lavoro.",
+        "fr": "Congé de maternité, paternité et adoption au CERN : durée, remplacement de revenus, demandes EDH et options de retour au travail."
       }
     },
     {
@@ -273,15 +273,15 @@
       "icon": "🚪",
       "title": {
         "en": "Departure Guide",
-        "es": "Guia de Salida",
+        "es": "Guía de Salida",
         "it": "Guida alla Partenza",
-        "fr": "Guide de Depart"
+        "fr": "Guide de Départ"
       },
       "desc": {
         "en": "Leaving CERN: clearance procedure, pension options, health insurance continuity, deregistration, and moving logistics.",
-        "es": "Dejar el CERN: procedimiento de baja, opciones de pension, continuidad del seguro medico, baja registral y logistica de mudanza.",
-        "it": "Lasciare il CERN: procedura di discarico, opzioni pensionistiche, continuita dell'assicurazione sanitaria, cancellazione e logistica del trasloco.",
-        "fr": "Quitter le CERN : procedure de decharge, options de pension, continuite de l'assurance maladie, desinscription et logistique de demenagement."
+        "es": "Dejar el CERN: procedimiento de baja, opciones de pensión, continuidad del seguro médico, baja registral y logística de mudanza.",
+        "it": "Lasciare il CERN: procedura di discarico, opzioni pensionistiche, continuità dell'assicurazione sanitaria, cancellazione e logistica del trasloco.",
+        "fr": "Quitter le CERN : procédure de décharge, options de pension, continuité de l'assurance maladie, désinscription et logistique de déménagement."
       }
     }
   ]

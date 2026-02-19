@@ -15,14 +15,14 @@
       "heading": "Search"
     },
     "es": {
-      "title": "Busqueda - CERN Starter Pack",
-      "description": "Buscar articulos en el CERN Starter Pack.",
+      "title": "Búsqueda - CERN Starter Pack",
+      "description": "Buscar artículos en el CERN Starter Pack.",
       "og": {
-        "title": "Busqueda - CERN Starter Pack",
-        "description": "Busca articulos sobre temas legales, fiscales y tecnicos para empleados del CERN."
+        "title": "Búsqueda - CERN Starter Pack",
+        "description": "Busca artículos sobre temas legales, fiscales y técnicos para empleados del CERN."
       },
-      "breadcrumbLabel": "Busqueda",
-      "heading": "Busqueda"
+      "breadcrumbLabel": "Búsqueda",
+      "heading": "Búsqueda"
     },
     "it": {
       "title": "Cerca - CERN Starter Pack",
@@ -39,7 +39,7 @@
       "description": "Rechercher des articles dans le CERN Starter Pack.",
       "og": {
         "title": "Recherche - CERN Starter Pack",
-        "description": "Recherchez des articles sur les sujets juridiques, fiscaux et techniques pour les employes du CERN."
+        "description": "Recherchez des articles sur les sujets juridiques, fiscaux et techniques pour les employés du CERN."
       },
       "breadcrumbLabel": "Recherche",
       "heading": "Recherche"

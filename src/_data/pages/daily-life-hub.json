@@ -23,16 +23,16 @@
       "alertText": "Most services differ between Switzerland and France. Check which country you live in before following any guide."
     },
     "es": {
-      "title": "Guia de Vida Cotidiana - CERN Starter Pack",
-      "description": "Centro de vida cotidiana para recien llegados al CERN: vivienda, banca, transporte, compras, colegios y consejos practicos para Ginebra y Pays de Gex.",
+      "title": "Guía de Vida Cotidiana - CERN Starter Pack",
+      "description": "Centro de vida cotidiana para recién llegados al CERN: vivienda, banca, transporte, compras, colegios y consejos prácticos para Ginebra y Pays de Gex.",
       "og": {
-        "title": "Guia de Vida Cotidiana - CERN Starter Pack",
-        "description": "Recursos practicos de vida cotidiana para empleados del CERN cerca de Ginebra."
+        "title": "Guía de Vida Cotidiana - CERN Starter Pack",
+        "description": "Recursos prácticos de vida cotidiana para empleados del CERN cerca de Ginebra."
       },
       "breadcrumbLabel": "Vida Cotidiana",
       "heading": "Vida Cotidiana Cerca del CERN",
-      "intro": "Guias practicas para instalarse y navegar la vida diaria en la region de Ginebra y Pays de Gex.",
-      "alertText": "La mayoria de servicios difieren entre Suiza y Francia. Comprueba en que pais vives antes de seguir cualquier guia."
+      "intro": "Guías prácticas para instalarse y navegar la vida diaria en la región de Ginebra y Pays de Gex.",
+      "alertText": "La mayoría de servicios difieren entre Suiza y Francia. Comprueba en qué país vives antes de seguir cualquier guía."
     },
     "it": {
       "title": "Guida alla Vita Quotidiana - CERN Starter Pack",
@@ -48,15 +48,15 @@
     },
     "fr": {
       "title": "Guide de la Vie Quotidienne - CERN Starter Pack",
-      "description": "Hub de la vie quotidienne pour les nouveaux arrivants au CERN : logement, banque, transports, courses, ecoles et conseils pratiques pour Geneve et le Pays de Gex.",
+      "description": "Hub de la vie quotidienne pour les nouveaux arrivants au CERN : logement, banque, transports, courses, écoles et conseils pratiques pour Genève et le Pays de Gex.",
       "og": {
         "title": "Guide de la Vie Quotidienne - CERN Starter Pack",
-        "description": "Ressources pratiques pour la vie quotidienne des employes du CERN pres de Geneve."
+        "description": "Ressources pratiques pour la vie quotidienne des employés du CERN près de Genève."
       },
       "breadcrumbLabel": "Vie Quotidienne",
-      "heading": "Vie Quotidienne Pres du CERN",
-      "intro": "Guides pratiques pour s'installer et naviguer la vie quotidienne dans la region de Geneve et du Pays de Gex.",
-      "alertText": "La plupart des services different entre la Suisse et la France. Verifiez dans quel pays vous vivez avant de suivre un guide."
+      "heading": "Vie Quotidienne Près du CERN",
+      "intro": "Guides pratiques pour s'installer et naviguer la vie quotidienne dans la région de Genève et du Pays de Gex.",
+      "alertText": "La plupart des services diffèrent entre la Suisse et la France. Vérifiez dans quel pays vous vivez avant de suivre un guide."
     }
   },
   "cards": [
@@ -65,15 +65,15 @@
       "icon": "🏠",
       "title": {
         "en": "Housing Guide",
-        "es": "Guia de Vivienda",
+        "es": "Guía de Vivienda",
         "it": "Guida all'Alloggio",
         "fr": "Guide du Logement"
       },
       "desc": {
         "en": "Switzerland vs France, popular areas, rental tips, and finding accommodation near CERN.",
-        "es": "Suiza vs Francia, zonas populares, consejos de alquiler y busqueda de alojamiento cerca del CERN.",
+        "es": "Suiza vs Francia, zonas populares, consejos de alquiler y búsqueda de alojamiento cerca del CERN.",
         "it": "Svizzera vs Francia, zone popolari, consigli per l'affitto e come trovare alloggio vicino al CERN.",
-        "fr": "Suisse vs France, quartiers populaires, conseils de location et comment trouver un logement pres du CERN."
+        "fr": "Suisse vs France, quartiers populaires, conseils de location et comment trouver un logement près du CERN."
       }
     },
     {
@@ -81,7 +81,7 @@
       "icon": "🏦",
       "title": {
         "en": "Banking Setup",
-        "es": "Configuracion Bancaria",
+        "es": "Configuración Bancaria",
         "it": "Apertura Conto Bancario",
         "fr": "Ouverture de Compte Bancaire"
       },
@@ -89,7 +89,7 @@
         "en": "Opening Swiss and French bank accounts, required documents, on-site banks, and salary payment.",
         "es": "Abrir cuentas en Suiza y Francia, documentos necesarios, bancos en el CERN y pago de salario.",
         "it": "Aprire conti bancari svizzeri e francesi, documenti richiesti, banche in loco e pagamento dello stipendio.",
-        "fr": "Ouvrir des comptes bancaires suisses et francais, documents requis, banques sur place et versement du salaire."
+        "fr": "Ouvrir des comptes bancaires suisses et français, documents requis, banques sur place et versement du salaire."
       }
     },
     {
@@ -115,13 +115,13 @@
         "en": "Cross-Border Shopping",
         "es": "Compras Transfronterizas",
         "it": "Shopping Transfrontaliero",
-        "fr": "Courses Transfrontalieres"
+        "fr": "Courses Transfrontalières"
       },
       "desc": {
         "en": "French supermarkets, savings tips, customs limits, and Sunday opening hours.",
-        "es": "Supermercados franceses, consejos de ahorro, limites aduaneros y horarios dominicales.",
+        "es": "Supermercados franceses, consejos de ahorro, límites aduaneros y horarios dominicales.",
         "it": "Supermercati francesi, consigli per risparmiare, limiti doganali e orari di apertura domenicali.",
-        "fr": "Supermarches francais, astuces pour economiser, limites douanieres et horaires d'ouverture le dimanche."
+        "fr": "Supermarchés français, astuces pour économiser, limites douanières et horaires d'ouverture le dimanche."
       }
     },
     {
@@ -129,15 +129,15 @@
       "icon": "🎓",
       "title": {
         "en": "Childcare &amp; Schools",
-        "es": "Guarderias y Colegios",
+        "es": "Guarderías y Colegios",
         "it": "Asili e Scuole",
-        "fr": "Creches &amp; Ecoles"
+        "fr": "Crèches &amp; Écoles"
       },
       "desc": {
         "en": "CERN creche, local nurseries, international schools, and education options for families.",
-        "es": "Guarderia del CERN, guarderias locales, colegios internacionales y opciones educativas.",
+        "es": "Guardería del CERN, guarderías locales, colegios internacionales y opciones educativas.",
         "it": "Asilo nido CERN, asili locali, scuole internazionali e opzioni educative per le famiglie.",
-        "fr": "Creche du CERN, garderies locales, ecoles internationales et options educatives pour les familles."
+        "fr": "Crèche du CERN, garderies locales, écoles internationales et options éducatives pour les familles."
       }
     },
     {
@@ -151,9 +151,9 @@
       },
       "desc": {
         "en": "Electricity, gas, water, internet providers, and setup timelines in Switzerland and France.",
-        "es": "Electricidad, gas, agua, proveedores de internet y plazos de instalacion en Suiza y Francia.",
-        "it": "Elettricita, gas, acqua, provider internet e tempistiche di attivazione in Svizzera e Francia.",
-        "fr": "Electricite, gaz, eau, fournisseurs internet et delais d'installation en Suisse et en France."
+        "es": "Electricidad, gas, agua, proveedores de internet y plazos de instalación en Suiza y Francia.",
+        "it": "Elettricità, gas, acqua, provider internet e tempistiche di attivazione in Svizzera e Francia.",
+        "fr": "Électricité, gaz, eau, fournisseurs internet et délais d'installation en Suisse et en France."
       }
     },
     {
@@ -167,9 +167,9 @@
       },
       "desc": {
         "en": "Restaurants R1/R2/R3, cafeterias, Medical Service, banking, postal, and emergency contacts.",
-        "es": "Restaurantes R1/R2/R3, cafeterias, Servicio Medico, banca, correos y emergencias.",
+        "es": "Restaurantes R1/R2/R3, cafeterías, Servicio Médico, banca, correos y emergencias.",
         "it": "Ristoranti R1/R2/R3, caffetterie, Servizio Medico, banca, posta e contatti di emergenza.",
-        "fr": "Restaurants R1/R2/R3, cafeterias, Service Medical, banque, poste et contacts d'urgence."
+        "fr": "Restaurants R1/R2/R3, cafétérias, Service Médical, banque, poste et contacts d'urgence."
       }
     },
     {
@@ -177,15 +177,15 @@
       "icon": "🚗",
       "title": {
         "en": "Vehicles &amp; Green Plates",
-        "es": "Vehiculos y Placas Verdes",
+        "es": "Vehículos y Placas Verdes",
         "it": "Veicoli e Targhe Verdi",
-        "fr": "Vehicules &amp; Plaques Vertes"
+        "fr": "Véhicules &amp; Plaques Vertes"
       },
       "desc": {
         "en": "Green plate eligibility, tax-free vehicle import, customs, license exchange, and insurance.",
-        "es": "Elegibilidad de placas verdes, importacion libre de impuestos, aduanas, canje de carnet y seguro.",
-        "it": "Idoneita per le targhe verdi, importazione veicoli esentasse, dogana, conversione patente e assicurazione.",
-        "fr": "Eligibilite aux plaques vertes, importation de vehicule hors taxes, douanes, echange de permis et assurance."
+        "es": "Elegibilidad de placas verdes, importación libre de impuestos, aduanas, canje de carnet y seguro.",
+        "it": "Idoneità per le targhe verdi, importazione veicoli esentasse, dogana, conversione patente e assicurazione.",
+        "fr": "Éligibilité aux plaques vertes, importation de véhicule hors taxes, douanes, échange de permis et assurance."
       }
     },
     {
@@ -193,7 +193,7 @@
       "icon": "🌐",
       "title": {
         "en": "Language Training",
-        "es": "Formacion en Idiomas",
+        "es": "Formación en Idiomas",
         "it": "Corsi di Lingua",
         "fr": "Cours de Langues"
       },
@@ -201,7 +201,7 @@
         "en": "CERN language courses, Welcome Club classes, local associations, and conversation exchange.",
         "es": "Cursos de idiomas del CERN, clases del Welcome Club, asociaciones locales e intercambio conversacional.",
         "it": "Corsi di lingua del CERN, lezioni del Welcome Club, associazioni locali e scambio conversazionale.",
-        "fr": "Cours de langues du CERN, cours du Welcome Club, associations locales et echange conversationnel."
+        "fr": "Cours de langues du CERN, cours du Welcome Club, associations locales et échange conversationnel."
       }
     },
     {
@@ -215,9 +215,9 @@
       },
       "desc": {
         "en": "Staff Association, Welcome Club, 70+ activity courses, sports, cultural clubs, and networking.",
-        "es": "Asociacion de Personal, Welcome Club, 70+ cursos, clubes deportivos, culturales y networking.",
-        "it": "Staff Association, Welcome Club, oltre 70 corsi di attivita, sport, club culturali e networking.",
-        "fr": "Association du Personnel, Welcome Club, plus de 70 cours d'activites, sports, clubs culturels et networking."
+        "es": "Asociación de Personal, Welcome Club, 70+ cursos, clubes deportivos, culturales y networking.",
+        "it": "Staff Association, Welcome Club, oltre 70 corsi di attività, sport, club culturali e networking.",
+        "fr": "Association du Personnel, Welcome Club, plus de 70 cours d'activités, sports, clubs culturels et networking."
       }
     },
     {
@@ -231,9 +231,9 @@
       },
       "desc": {
         "en": "Spouses and Partners Forum, relocation benefits, dual career support, and partner employment.",
-        "es": "Foro de Conyuges y Parejas, beneficios de reubicacion, apoyo de doble carrera y empleo de la pareja.",
+        "es": "Foro de Cónyuges y Parejas, beneficios de reubicación, apoyo de doble carrera y empleo de la pareja.",
         "it": "Forum Coniugi e Partner, benefici per il trasferimento, supporto alla doppia carriera e impiego del partner.",
-        "fr": "Forum des Conjoints et Partenaires, avantages de relocalisation, soutien a la double carriere et emploi du partenaire."
+        "fr": "Forum des Conjoints et Partenaires, avantages de relocalisation, soutien à la double carrière et emploi du partenaire."
       }
     },
     {
@@ -241,15 +241,15 @@
       "icon": "🏥",
       "title": {
         "en": "Medical &amp; Emergency",
-        "es": "Medico y Emergencias",
+        "es": "Médico y Emergencias",
         "it": "Emergenze Mediche",
-        "fr": "Medical &amp; Urgences"
+        "fr": "Médical &amp; Urgences"
       },
       "desc": {
         "en": "CERN Medical Service, infirmary, emergency number 767-4444, HUG hospital, and finding doctors.",
-        "es": "Servicio Medico del CERN, enfermeria, numero de emergencia 767-4444, hospital HUG y busqueda de medicos.",
+        "es": "Servicio Médico del CERN, enfermería, número de emergencia 767-4444, hospital HUG y búsqueda de médicos.",
         "it": "Servizio Medico CERN, infermeria, numero di emergenza 767-4444, ospedale HUG e come trovare medici.",
-        "fr": "Service Medical du CERN, infirmerie, numero d'urgence 767-4444, hopital HUG et comment trouver un medecin."
+        "fr": "Service Médical du CERN, infirmerie, numéro d'urgence 767-4444, hôpital HUG et comment trouver un médecin."
       }
     },
     {
@@ -257,15 +257,15 @@
       "icon": "📅",
       "title": {
         "en": "First Weeks Guide",
-        "es": "Guia de las Primeras Semanas",
+        "es": "Guía de las Primeras Semanas",
         "it": "Guida alle Prime Settimane",
-        "fr": "Guide des Premieres Semaines"
+        "fr": "Guide des Premières Semaines"
       },
       "desc": {
         "en": "Day 1 to month 1 at CERN: badge pickup, safety briefing, bank account, housing, transport card, and settling in.",
-        "es": "Del dia 1 al mes 1 en el CERN: recogida de badge, formacion de seguridad, cuenta bancaria, vivienda, abono de transporte e instalacion.",
+        "es": "Del día 1 al mes 1 en el CERN: recogida de badge, formación de seguridad, cuenta bancaria, vivienda, abono de transporte e instalación.",
         "it": "Dal giorno 1 al mese 1 al CERN: ritiro badge, briefing sicurezza, conto bancario, alloggio, abbonamento trasporti e ambientamento.",
-        "fr": "Du jour 1 au mois 1 au CERN : retrait du badge, briefing securite, compte bancaire, logement, abonnement transport et installation."
+        "fr": "Du jour 1 au mois 1 au CERN : retrait du badge, briefing sécurité, compte bancaire, logement, abonnement transport et installation."
       }
     },
     {
@@ -274,14 +274,14 @@
       "title": {
         "en": "Outdoor Recreation",
         "es": "Actividades al Aire Libre",
-        "it": "Attivita all'Aperto",
+        "it": "Attività all'Aperto",
         "fr": "Loisirs en Plein Air"
       },
       "desc": {
         "en": "Hiking, skiing, Lake Geneva, day trips, and CERN outdoor clubs in the Geneva region.",
-        "es": "Senderismo, esqui, Lago Leman, excursiones de un dia y clubes del CERN al aire libre en la region de Ginebra.",
+        "es": "Senderismo, esquí, Lago Lemán, excursiones de un día y clubes del CERN al aire libre en la región de Ginebra.",
         "it": "Escursioni, sci, Lago di Ginevra, gite di un giorno e club all'aperto del CERN nella regione di Ginevra.",
-        "fr": "Randonnee, ski, Lac Leman, excursions d'une journee et clubs de plein air du CERN dans la region de Geneve."
+        "fr": "Randonnée, ski, Lac Léman, excursions d'une journée et clubs de plein air du CERN dans la région de Genève."
       }
     },
     {
@@ -289,15 +289,15 @@
       "icon": "🔄",
       "title": {
         "en": "Frontalier Guide",
-        "es": "Guia del Frontalier",
+        "es": "Guía del Frontalier",
         "it": "Guida al Frontalierato",
         "fr": "Guide du Frontalier"
       },
       "desc": {
         "en": "Cross-border worker guide: G permit, tax residency, health insurance choice, daily commute, and administrative paperwork.",
-        "es": "Guia del trabajador transfronterizo: permiso G, residencia fiscal, seguro medico, desplazamiento diario y tramites administrativos.",
+        "es": "Guía del trabajador transfronterizo: permiso G, residencia fiscal, seguro médico, desplazamiento diario y trámites administrativos.",
         "it": "Guida al lavoratore frontaliero: permesso G, residenza fiscale, assicurazione sanitaria, pendolarismo e pratiche amministrative.",
-        "fr": "Guide du travailleur frontalier : permis G, residence fiscale, choix d'assurance maladie, trajet quotidien et demarches administratives."
+        "fr": "Guide du travailleur frontalier : permis G, résidence fiscale, choix d'assurance maladie, trajet quotidien et démarches administratives."
       }
     },
     {
@@ -305,15 +305,15 @@
       "icon": "✈",
       "title": {
         "en": "Pre-Arrival Guide",
-        "es": "Guia Pre-Llegada",
+        "es": "Guía Pre-Llegada",
         "it": "Guida Pre-Arrivo",
-        "fr": "Guide Pre-Arrivee"
+        "fr": "Guide Pré-Arrivée"
       },
       "desc": {
         "en": "What to do before arriving at CERN: visa requirements, documents to prepare, what to bring, and booking initial accommodation.",
-        "es": "Que hacer antes de llegar al CERN: requisitos de visado, documentos a preparar, que llevar y reserva de alojamiento inicial.",
+        "es": "Qué hacer antes de llegar al CERN: requisitos de visado, documentos a preparar, qué llevar y reserva de alojamiento inicial.",
         "it": "Cosa fare prima di arrivare al CERN: requisiti per il visto, documenti da preparare, cosa portare e prenotazione dell'alloggio iniziale.",
-        "fr": "Que faire avant d'arriver au CERN : exigences de visa, documents a preparer, quoi apporter et reservation d'un hebergement initial."
+        "fr": "Que faire avant d'arriver au CERN : exigences de visa, documents à préparer, quoi apporter et réservation d'un hébergement initial."
       }
     },
     {
@@ -321,15 +321,15 @@
       "icon": "📦",
       "title": {
         "en": "Relocation &amp; Moving",
-        "es": "Mudanza e Instalacion",
+        "es": "Mudanza e Instalación",
         "it": "Trasferimento e Trasloco",
-        "fr": "Demenagement &amp; Installation"
+        "fr": "Déménagement &amp; Installation"
       },
       "desc": {
         "en": "International move logistics: shipping belongings, customs, furnished vs unfurnished rentals, storage, and mail forwarding.",
-        "es": "Logistica de mudanza internacional: envio de pertenencias, aduanas, alquileres amueblados vs vacios, almacenamiento y reenvio de correo.",
+        "es": "Logística de mudanza internacional: envío de pertenencias, aduanas, alquileres amueblados vs vacíos, almacenamiento y reenvío de correo.",
         "it": "Logistica del trasferimento internazionale: spedizione effetti personali, dogana, affitti arredati vs non arredati, deposito e inoltro posta.",
-        "fr": "Logistique de demenagement international : expedition d'effets personnels, douanes, locations meublees vs vides, stockage et redirection postale."
+        "fr": "Logistique de déménagement international : expédition d'effets personnels, douanes, locations meublées vs vides, stockage et redirection postale."
       }
     },
     {
@@ -343,9 +343,9 @@
       },
       "desc": {
         "en": "Staff benefits beyond salary: tax-free purchases, corporate discounts, canteen subsidies, education grants, and relocation allowance.",
-        "es": "Beneficios mas alla del salario: compras libres de impuestos, descuentos corporativos, subsidios de comedor, becas educativas y subsidio de mudanza.",
-        "it": "Benefici oltre lo stipendio: acquisti esentasse, sconti aziendali, sussidi mensa, borse di studio e indennita di trasferimento.",
-        "fr": "Avantages au-dela du salaire : achats hors taxes, reductions entreprise, subventions cantine, bourses d'etudes et indemnite de demenagement."
+        "es": "Beneficios más allá del salario: compras libres de impuestos, descuentos corporativos, subsidios de comedor, becas educativas y subsidio de mudanza.",
+        "it": "Benefici oltre lo stipendio: acquisti esentasse, sconti aziendali, sussidi mensa, borse di studio e indennità di trasferimento.",
+        "fr": "Avantages au-delà du salaire : achats hors taxes, réductions entreprise, subventions cantine, bourses d'études et indemnité de déménagement."
       }
     },
     {
@@ -359,9 +359,9 @@
       },
       "desc": {
         "en": "Managing CHF and EUR: multi-currency accounts, exchange tips, ATM advice, and cross-border budgeting.",
-        "es": "Gestionar CHF y EUR: cuentas multidivisa, consejos de cambio, cajeros automaticos y presupuesto transfronterizo.",
+        "es": "Gestionar CHF y EUR: cuentas multidivisa, consejos de cambio, cajeros automáticos y presupuesto transfronterizo.",
         "it": "Gestire CHF e EUR: conti multivaluta, consigli sul cambio, bancomat e budget transfrontaliero.",
-        "fr": "Gerer CHF et EUR : comptes multidevises, astuces de change, conseils aux distributeurs et budget transfrontalier."
+        "fr": "Gérer CHF et EUR : comptes multidevises, astuces de change, conseils aux distributeurs et budget transfrontalier."
       }
     }
   ]
