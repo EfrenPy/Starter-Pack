@@ -20,9 +20,18 @@ Este sitio esta mantenido por miembros de la comunidad del CERN. Tus comentarios
 - **Compartir tu experiencia:** Tu historia de incorporacion puede ayudar a identificar lagunas en nuestras guias y mejorarlas para futuros recien llegados.
 - **Corregir errores:** ¿Has detectado una errata, un enlace roto o un dato incorrecto? Reportalo o envia una correccion directamente.
 
+## Contribuir en GitHub
+
+Este proyecto es de codigo abierto y esta alojado en [GitHub](https://github.com/EfrenPy/Starter-Pack). Si te sientes comodo con Git, puedes contribuir directamente:
+
+- **Abre un issue** para reportar errores, sugerir nuevo contenido o solicitar funcionalidades.
+- **Envia un pull request** para corregir una errata, mejorar una guia o anadir una nueva pagina.
+
+Para instrucciones completas de desarrollo, consulta la [guia de contribucion](https://github.com/EfrenPy/Starter-Pack/blob/main/CONTRIBUTING.md) en GitHub.
+
 ## Contacto
 
-Envíanos un correo electrónico a [info@efrenrodriguezrodriguez.com](mailto:info@efrenrodriguezrodriguez.com) con tus sugerencias, correcciones o comentarios. Revisaremos tu mensaje y actualizaremos el sitio en consecuencia.
+Si prefieres no usar GitHub, puedes enviarnos un correo electronico a [info@efrenrodriguezrodriguez.com](mailto:info@efrenrodriguezrodriguez.com) con tus sugerencias, correcciones o comentarios. Revisaremos tu mensaje y actualizaremos el sitio en consecuencia.
 
 ## Directrices de Contribucion
 
