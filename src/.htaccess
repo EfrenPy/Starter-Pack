@@ -1,3 +1,6 @@
+# Custom 404 page
+ErrorDocument 404 /404.html
+
 # Security headers
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"

@@ -152,6 +152,22 @@
         "it": "Risposte rapide alle domande piu comuni su come iniziare al CERN.",
         "fr": "Reponses rapides aux questions les plus courantes sur les debuts au CERN."
       }
+    },
+    {
+      "slug": "contribute",
+      "icon": "&#129309;",
+      "title": {
+        "en": "Contribute",
+        "es": "Contribuir",
+        "it": "Contribuisci",
+        "fr": "Contribuer"
+      },
+      "desc": {
+        "en": "Help improve this guide by reporting errors, suggesting resources, or contributing on GitHub.",
+        "es": "Ayuda a mejorar esta guia reportando errores, sugiriendo recursos o contribuyendo en GitHub.",
+        "it": "Aiuta a migliorare questa guida segnalando errori, suggerendo risorse o contribuendo su GitHub.",
+        "fr": "Aidez a ameliorer ce guide en signalant des erreurs, en suggerant des ressources ou en contribuant sur GitHub."
+      }
     }
   ]
 }
