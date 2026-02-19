@@ -70,7 +70,7 @@ export default function (eleventyConfig) {
   // Looks up content-meta.json to fill in layout and date fields
   // so individual .md files don't need to repeat them.
   eleventyConfig.addGlobalData('eleventyComputed', {
-    layout: (data) => data.layout || getMetaField(data, 'layout'),
+    layout: (data) => data.layout === false ? false : data.layout || getMetaField(data, 'layout'),
     datePublished: (data) => data.datePublished || getMetaField(data, 'datePublished'),
     dateModified: (data) => data.dateModified || getMetaField(data, 'dateModified'),
     dateUpdated: (data) => data.dateUpdated || getMetaField(data, 'dateUpdated'),
