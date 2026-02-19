@@ -1,12 +1,12 @@
 ---
 title: "Almacenamiento EOS y CERNBox - CERN Starter Pack"
-description: "Guia de almacenamiento distribuido EOS y CERNBox en el CERN: espacio personal, cuotas, interfaz web, sincronizacion de escritorio, acceso desde lxplus y compartir archivos."
+description: "Guía de almacenamiento distribuido EOS y CERNBox en el CERN: espacio personal, cuotas, interfaz web, sincronización de escritorio, acceso desde lxplus y compartir archivos."
 og:
   title: "Almacenamiento EOS y CERNBox - CERN Starter Pack"
-  description: "Guia de almacenamiento distribuido EOS y CERNBox en el CERN: espacio personal, cuotas, interfaz web, sincronizacion de escritorio, acceso desde lxplus y compartir archivos."
+  description: "Guía de almacenamiento distribuido EOS y CERNBox en el CERN: espacio personal, cuotas, interfaz web, sincronización de escritorio, acceso desde lxplus y compartir archivos."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Ayuda Tecnica", url: "/es/technical-hub/" }
+  - { label: "Ayuda Técnica", url: "/es/technical-hub/" }
   - { label: "Almacenamiento EOS y CERNBox" }
 ---
 
@@ -14,49 +14,49 @@ breadcrumbs:
 
 <div class="alert">
 <strong>💡 Consejo</strong><br>
-<p>CERNBox es tu almacenamiento en la nube principal en el CERN. Configuralo pronto para mantener tus archivos sincronizados entre dispositivos y respaldados automaticamente.</p>
+<p>CERNBox es tu almacenamiento en la nube principal en el CERN. Configúralo pronto para mantener tus archivos sincronizados entre dispositivos y respaldados automáticamente.</p>
 </div>
 
-EOS es el **sistema de almacenamiento distribuido a gran escala** del CERN, disenado para manejar los enormes volumenes de datos producidos por los experimentos del LHC y tambien para servir como infraestructura de almacenamiento personal y de proyectos para todos los usuarios del CERN. CERNBox es la interfaz web y de escritorio intuitiva construida sobre EOS, que proporciona funcionalidades de sincronizacion y comparticion de archivos similares a Dropbox. Juntos, forman la columna vertebral del almacenamiento de archivos en el CERN.
+EOS es el **sistema de almacenamiento distribuido a gran escala** del CERN, diseñado para manejar los enormes volúmenes de datos producidos por los experimentos del LHC y también para servir como infraestructura de almacenamiento personal y de proyectos para todos los usuarios del CERN. CERNBox es la interfaz web y de escritorio intuitiva construida sobre EOS, que proporciona funcionalidades de sincronización y compartición de archivos similares a Dropbox. Juntos, forman la columna vertebral del almacenamiento de archivos en el CERN.
 
-## Que es EOS
+## Qué es EOS
 
-EOS es un sistema de almacenamiento basado en disco desarrollado en el CERN que gestiona **cientos de petabytes de datos** en miles de nodos de almacenamiento. Utiliza codificacion de borrado y replicacion para garantizar la durabilidad y disponibilidad de los datos, y esta optimizado tanto para el procesamiento de datos de fisica de alto rendimiento como para flujos de trabajo interactivos de usuario. Para la mayoria de usuarios del CERN, EOS es simplemente el lugar donde residen tus archivos personales, datos de proyecto y carpetas compartidas — interactuas con el a traves de CERNBox, la linea de comandos en lxplus, o las plataformas de analisis del CERN como SWAN.
+EOS es un sistema de almacenamiento basado en disco desarrollado en el CERN que gestiona **cientos de petabytes de datos** en miles de nodos de almacenamiento. Utiliza codificación de borrado y replicación para garantizar la durabilidad y disponibilidad de los datos, y está optimizado tanto para el procesamiento de datos de física de alto rendimiento como para flujos de trabajo interactivos de usuario. Para la mayoría de usuarios del CERN, EOS es simplemente el lugar donde residen tus archivos personales, datos de proyecto y carpetas compartidas — interactúas con él a través de CERNBox, la línea de comandos en lxplus, o las plataformas de análisis del CERN como SWAN.
 
-Cada usuario del CERN recibe automaticamente un **directorio home en EOS** en `/eos/user/<inicial>/<nombre-usuario>/`. Este es diferente de tu directorio home de AFS y es la ubicacion recomendada para archivos de trabajo activos, scripts de analisis y documentos que quieras acceder desde multiples ubicaciones.
+Cada usuario del CERN recibe automáticamente un **directorio home en EOS** en `/eos/user/<inicial>/<nombre-usuario>/`. Este es diferente de tu directorio home de AFS y es la ubicación recomendada para archivos de trabajo activos, scripts de análisis y documentos que quieras acceder desde múltiples ubicaciones.
 
 ## Cuotas de Almacenamiento
 
-El almacenamiento personal en EOS viene con una cuota por defecto de **1 TB**, que es generosa para la mayoria de usuarios. Si necesitas mas espacio — por ejemplo, para grandes conjuntos de datos de analisis o resultados de simulaciones — puedes solicitar un aumento de cuota a traves del portal ServiceNow de IT del CERN. Los espacios de proyecto y el almacenamiento de experimentos tienen cuotas separadas y mayores gestionadas por los coordinadores de computacion correspondientes.
+El almacenamiento personal en EOS viene con una cuota por defecto de **1 TB**, que es generosa para la mayoría de usuarios. Si necesitas más espacio — por ejemplo, para grandes conjuntos de datos de análisis o resultados de simulaciones — puedes solicitar un aumento de cuota a través del portal ServiceNow de IT del CERN. Los espacios de proyecto y el almacenamiento de experimentos tienen cuotas separadas y mayores gestionadas por los coordinadores de computación correspondientes.
 
-Puedes comprobar tu uso actual de almacenamiento y cuota accediendo a CERNBox o ejecutando el comando `eos quota ls -m` en lxplus. Vigila tu uso, ya que alcanzar el limite de cuota impedira guardar nuevos archivos hasta que liberes espacio u obtengas un aumento de cuota.
+Puedes comprobar tu uso actual de almacenamiento y cuota accediendo a CERNBox o ejecutando el comando `eos quota ls -m` en lxplus. Vigila tu uso, ya que alcanzar el límite de cuota impedirá guardar nuevos archivos hasta que liberes espacio u obtengas un aumento de cuota.
 
 ## Interfaz Web de CERNBox
 
-CERNBox es accesible en **cernbox.cern.ch** a traves de cualquier navegador web, usando tus credenciales de inicio de sesion unico del CERN. La interfaz web proporciona una experiencia familiar de gestor de archivos donde puedes subir, descargar, renombrar, mover y eliminar archivos y carpetas. Tambien soporta la **edicion online** de documentos a traves de herramientas de oficina integradas (OnlyOffice), permitiendote crear y editar archivos Word, Excel y PowerPoint directamente en el navegador sin instalar ningun software.
+CERNBox es accesible en **cernbox.cern.ch** a través de cualquier navegador web, usando tus credenciales de inicio de sesión único del CERN. La interfaz web proporciona una experiencia familiar de gestor de archivos donde puedes subir, descargar, renombrar, mover y eliminar archivos y carpetas. También soporta la **edición online** de documentos a través de herramientas de oficina integradas (OnlyOffice), permitiéndote crear y editar archivos Word, Excel y PowerPoint directamente en el navegador sin instalar ningún software.
 
-La interfaz web es particularmente util cuando trabajas desde una maquina donde no has instalado el cliente de sincronizacion de escritorio — por ejemplo, desde un portatil personal o mientras viajas. Todos los cambios realizados a traves de la interfaz web se reflejan inmediatamente en tu almacenamiento EOS y se sincronizaran con cualquier cliente de escritorio conectado.
+La interfaz web es particularmente útil cuando trabajas desde una máquina donde no has instalado el cliente de sincronización de escritorio — por ejemplo, desde un portátil personal o mientras viajas. Todos los cambios realizados a través de la interfaz web se reflejan inmediatamente en tu almacenamiento EOS y se sincronizarán con cualquier cliente de escritorio conectado.
 
-## Cliente de Sincronizacion de Escritorio
+## Cliente de Sincronización de Escritorio
 
-Para una sincronizacion fluida entre tu maquina local y EOS, instala el **cliente de escritorio de CERNBox**, disponible para Windows, macOS y Linux. El cliente funciona como Dropbox o OneDrive, manteniendo una copia local de tus archivos sincronizada con tu almacenamiento EOS. Puedes elegir que carpetas sincronizar si no quieres replicar todo tu directorio home de EOS localmente.
+Para una sincronización fluida entre tu máquina local y EOS, instala el **cliente de escritorio de CERNBox**, disponible para Windows, macOS y Linux. El cliente funciona como Dropbox o OneDrive, manteniendo una copia local de tus archivos sincronizada con tu almacenamiento EOS. Puedes elegir qué carpetas sincronizar si no quieres replicar todo tu directorio home de EOS localmente.
 
-Descarga el cliente desde **cernbox.cern.ch** y autenticate con tus credenciales del CERN. Tras la sincronizacion inicial, los cambios se propagan casi en tiempo real. El cliente de escritorio es la forma recomendada de trabajar con CERNBox para tareas diarias, ya que proporciona acceso sin conexion a tus archivos y resolucion automatica de conflictos si el mismo archivo se edita en multiples lugares.
+Descarga el cliente desde **cernbox.cern.ch** y autentícate con tus credenciales del CERN. Tras la sincronización inicial, los cambios se propagan casi en tiempo real. El cliente de escritorio es la forma recomendada de trabajar con CERNBox para tareas diarias, ya que proporciona acceso sin conexión a tus archivos y resolución automática de conflictos si el mismo archivo se edita en múltiples lugares.
 
 ## Acceder a EOS desde lxplus y SWAN
 
-En **lxplus** (el cluster de inicio de sesion interactivo del CERN), tu directorio home de EOS es accesible en `/eos/user/<inicial>/<nombre-usuario>/`. Puedes navegar, leer y escribir archivos usando comandos estandar de Linux. Para flujos de trabajo de analisis de fisica, EOS tambien es directamente accesible desde **SWAN** (el servicio de Jupyter notebooks del CERN), donde tus archivos de EOS aparecen en el explorador de archivos y pueden cargarse en notebooks de forma transparente.
+En **lxplus** (el cluster de inicio de sesión interactivo del CERN), tu directorio home de EOS es accesible en `/eos/user/<inicial>/<nombre-usuario>/`. Puedes navegar, leer y escribir archivos usando comandos estándar de Linux. Para flujos de trabajo de análisis de física, EOS también es directamente accesible desde **SWAN** (el servicio de Jupyter notebooks del CERN), donde tus archivos de EOS aparecen en el explorador de archivos y pueden cargarse en notebooks de forma transparente.
 
-Si necesitas acceder a EOS desde tu maquina local fuera de CERNBox, puedes montarlo via **FUSE** (usando el cliente eosxd) o acceder a traves del **protocolo XRootD**. El montaje FUSE proporciona una interfaz tipo sistema de archivos, mientras que XRootD se usa programaticamente en frameworks de analisis como ROOT. Ambos metodos requieren autenticacion Kerberos valida — consulta la pagina de Kerberos y SSH para instrucciones de configuracion.
+Si necesitas acceder a EOS desde tu máquina local fuera de CERNBox, puedes montarlo vía **FUSE** (usando el cliente eosxd) o acceder a través del **protocolo XRootD**. El montaje FUSE proporciona una interfaz tipo sistema de archivos, mientras que XRootD se usa programáticamente en frameworks de análisis como ROOT. Ambos métodos requieren autenticación Kerberos válida — consulta la página de Kerberos y SSH para instrucciones de configuración.
 
 ## Compartir Archivos y Carpetas
 
-CERNBox facilita **compartir archivos y carpetas** con colegas. A traves de la interfaz web o el cliente de escritorio, puedes compartir un archivo o carpeta introduciendo el nombre de usuario CERN o direccion de email del destinatario y eligiendo el nivel de permisos (solo lectura, o edicion). Los elementos compartidos aparecen en el CERNBox del destinatario en la seccion "Compartido conmigo".
+CERNBox facilita **compartir archivos y carpetas** con colegas. A través de la interfaz web o el cliente de escritorio, puedes compartir un archivo o carpeta introduciendo el nombre de usuario CERN o dirección de email del destinatario y eligiendo el nivel de permisos (solo lectura, o edición). Los elementos compartidos aparecen en el CERNBox del destinatario en la sección "Compartido conmigo".
 
-Tambien puedes generar **enlaces publicos** para compartir con personas fuera del CERN, opcionalmente protegidos con contrasena y fecha de expiracion. Esto es util para compartir documentos con colaboradores externos que no tienen cuentas del CERN. Para comparticion a mayor escala dentro de un experimento o proyecto, los **espacios de proyecto EOS** proporcionan areas de almacenamiento compartido dedicadas con sus propias cuotas y controles de acceso gestionados por el coordinador del proyecto.
+También puedes generar **enlaces públicos** para compartir con personas fuera del CERN, opcionalmente protegidos con contraseña y fecha de expiración. Esto es útil para compartir documentos con colaboradores externos que no tienen cuentas del CERN. Para compartición a mayor escala dentro de un experimento o proyecto, los **espacios de proyecto EOS** proporcionan áreas de almacenamiento compartido dedicadas con sus propias cuotas y controles de acceso gestionados por el coordinador del proyecto.
 
 ## Fuentes
 
 - <a href="https://cernbox.cern.ch/" target="_blank" rel="noopener noreferrer">CERNBox — Almacenamiento en la Nube del CERN</a>
-- <a href="https://eos-docs.web.cern.ch/" target="_blank" rel="noopener noreferrer">Documentacion de EOS</a>
+- <a href="https://eos-docs.web.cern.ch/" target="_blank" rel="noopener noreferrer">Documentación de EOS</a>
 - <a href="https://information-technology.web.cern.ch/" target="_blank" rel="noopener noreferrer">Departamento de IT del CERN</a>

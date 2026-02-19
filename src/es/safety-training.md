@@ -1,62 +1,62 @@
 ---
-title: "Formacion en Seguridad en el CERN - CERN Starter Pack"
-description: "Guia completa sobre la formacion en seguridad obligatoria en el CERN: cursos, e-learning, proteccion radiologica, sesiones presenciales y renovacion."
+title: "Formación en Seguridad en el CERN - CERN Starter Pack"
+description: "Guía completa sobre la formación en seguridad obligatoria en el CERN: cursos, e-learning, protección radiológica, sesiones presenciales y renovación."
 og:
-  title: "Formacion en Seguridad en el CERN - CERN Starter Pack"
-  description: "Guia completa sobre la formacion en seguridad obligatoria en el CERN: cursos, e-learning, proteccion radiologica, sesiones presenciales y renovacion."
+  title: "Formación en Seguridad en el CERN - CERN Starter Pack"
+  description: "Guía completa sobre la formación en seguridad obligatoria en el CERN: cursos, e-learning, protección radiológica, sesiones presenciales y renovación."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Ayuda Tecnica", url: "/es/technical-hub/" }
-  - { label: "Formacion en Seguridad" }
+  - { label: "Ayuda Técnica", url: "/es/technical-hub/" }
+  - { label: "Formación en Seguridad" }
 ---
 
-# Formacion en Seguridad en el CERN
+# Formación en Seguridad en el CERN
 
 <div class="alert">
-<p>Todos los recien llegados <strong>deben</strong> completar la formacion obligatoria en seguridad antes de obtener acceso a las instalaciones del CERN. Se recomienda empezar los modulos online lo antes posible.</p>
+<p>Todos los recién llegados <strong>deben</strong> completar la formación obligatoria en seguridad antes de obtener acceso a las instalaciones del CERN. Se recomienda empezar los módulos online lo antes posible.</p>
 </div>
 
 ## Curso obligatorio de seguridad
 
-Toda persona que trabaje en el CERN debe completar un **curso de concienciacion general sobre seguridad** antes de poder acceder a las instalaciones. Este curso cubre los temas esenciales para mantenerte seguro en el CERN, incluyendo seguridad contra incendios y procedimientos de evacuacion, concienciacion sobre riesgos electricos, fundamentos de proteccion radiologica, y contactos de emergencia y notificacion de incidentes.
+Toda persona que trabaje en el CERN debe completar un **curso de concienciación general sobre seguridad** antes de poder acceder a las instalaciones. Este curso cubre los temas esenciales para mantenerte seguro en el CERN, incluyendo seguridad contra incendios y procedimientos de evacuación, concienciación sobre riesgos eléctricos, fundamentos de protección radiológica, y contactos de emergencia y notificación de incidentes.
 
-El curso tiene un **componente online** (e-learning) y un **componente presencial**. Puedes empezar la parte online antes de llegar al CERN, lo cual se recomienda encarecidamente para agilizar el proceso de registro una vez que estes aqui.
+El curso tiene un **componente online** (e-learning) y un **componente presencial**. Puedes empezar la parte online antes de llegar al CERN, lo cual se recomienda encarecidamente para agilizar el proceso de registro una vez que estés aquí.
 
-## Tipos de formacion en seguridad
+## Tipos de formación en seguridad
 
-Dependiendo de tu funcion y las areas en las que trabajaras, puedes necesitar formacion adicional mas alla del curso general. La **Seguridad General (Nivel 1)** es obligatoria para todo el personal y cubre seguridad basica del sitio, prevencion de incendios y evacuacion. Si tu trabajo implica tuneles del acelerador o areas experimentales, tambien necesitaras formacion en **Proteccion Radiologica** de Nivel 2 o 3, segun tu categoria de exposicion.
+Dependiendo de tu función y las áreas en las que trabajarás, puedes necesitar formación adicional más allá del curso general. La **Seguridad General (Nivel 1)** es obligatoria para todo el personal y cubre seguridad básica del sitio, prevención de incendios y evacuación. Si tu trabajo implica túneles del acelerador o áreas experimentales, también necesitarás formación en **Protección Radiológica** de Nivel 2 o 3, según tu categoría de exposición.
 
-La formacion en **Seguridad Electrica** es obligatoria para cualquier persona que trabaje en o cerca de instalaciones electricas, mientras que la **Seguridad Criogenica** es necesaria si trabajas cerca de sistemas criogenicos, especialmente alrededor del LHC. El personal que manipula sustancias quimicas en laboratorios debe completar la formacion en **Seguridad Quimica**, y las tareas que impliquen escaleras, andamios o plataformas elevadas requieren un curso de **Trabajo en Alturas**.
+La formación en **Seguridad Eléctrica** es obligatoria para cualquier persona que trabaje en o cerca de instalaciones eléctricas, mientras que la **Seguridad Criogénica** es necesaria si trabajas cerca de sistemas criogénicos, especialmente alrededor del LHC. El personal que manipula sustancias químicas en laboratorios debe completar la formación en **Seguridad Química**, y las tareas que impliquen escaleras, andamios o plataformas elevadas requieren un curso de **Trabajo en Alturas**.
 
 ## Plataforma de E-Learning
 
-El CERN proporciona modulos de e-learning sobre seguridad a traves de la plataforma **Learning Hub**. Estos modulos se pueden completar antes de tu llegada, permitiendote empezar a trabajar mas rapidamente una vez en el sitio. Al iniciar sesion, los modulos obligatorios estan claramente marcados en tu perfil de formacion, y los certificados se almacenan automaticamente al completarlos.
+El CERN proporciona módulos de e-learning sobre seguridad a través de la plataforma **Learning Hub**. Estos módulos se pueden completar antes de tu llegada, permitiéndote empezar a trabajar más rápidamente una vez en el sitio. Al iniciar sesión, los módulos obligatorios están claramente marcados en tu perfil de formación, y los certificados se almacenan automáticamente al completarlos.
 
-La plataforma tambien te permite seguir tu progreso general y ver los plazos proximos para renovaciones o nuevos requisitos. Aprovechar los modulos de e-learning con antelacion es una de las mejores formas de asegurar un comienzo fluido en el CERN.
+La plataforma también te permite seguir tu progreso general y ver los plazos próximos para renovaciones o nuevos requisitos. Aprovechar los módulos de e-learning con antelación es una de las mejores formas de asegurar un comienzo fluido en el CERN.
 
-## Formacion presencial
+## Formación presencial
 
-Algunos cursos de seguridad incluyen sesiones practicas presenciales que no pueden sustituirse por e-learning. Estas sesiones te proporcionan experiencia directa con equipos y procedimientos de seguridad, como el **manejo de extintores**, simulacros de evacuacion especificos de tu edificio, y briefings de seguridad por parte del oficial de seguridad de tu edificio.
+Algunos cursos de seguridad incluyen sesiones prácticas presenciales que no pueden sustituirse por e-learning. Estas sesiones te proporcionan experiencia directa con equipos y procedimientos de seguridad, como el **manejo de extintores**, simulacros de evacuación específicos de tu edificio, y briefings de seguridad por parte del oficial de seguridad de tu edificio.
 
-Para organizar estas sesiones, coordinalo con tu supervisor o contacta directamente con la **unidad HSE**. La formacion presencial se programa normalmente durante tus primeras semanas, asi que planifica con antelacion para completarla lo antes posible.
+Para organizar estas sesiones, coordínalo con tu supervisor o contacta directamente con la **unidad HSE**. La formación presencial se programa normalmente durante tus primeras semanas, así que planifica con antelación para completarla lo antes posible.
 
-## Renovacion de certificaciones
+## Renovación de certificaciones
 
-Las certificaciones de seguridad no son permanentes y deben renovarse periodicamente para asegurar que tus conocimientos estan actualizados. La mayoria de las certificaciones generales son validas durante **3 a 5 anos**, mientras que la formacion en proteccion radiologica normalmente requiere renovacion cada **3 anos**.
+Las certificaciones de seguridad no son permanentes y deben renovarse periódicamente para asegurar que tus conocimientos están actualizados. La mayoría de las certificaciones generales son válidas durante **3 a 5 años**, mientras que la formación en protección radiológica normalmente requiere renovación cada **3 años**.
 
-El sistema te envia una notificacion automatica antes de que expire tu certificacion, dandote tiempo para planificarlo. La recertificacion normalmente implica repetir el modulo de e-learning y, en algunos casos, tambien la sesion practica presencial.
+El sistema te envía una notificación automática antes de que expire tu certificación, dándote tiempo para planificarlo. La recertificación normalmente implica repetir el módulo de e-learning y, en algunos casos, también la sesión práctica presencial.
 
-## Riesgos especificos del CERN
+## Riesgos específicos del CERN
 
-El CERN es un entorno unico con riesgos que no se encuentran en lugares de trabajo tipicos. Las instalaciones incluyen **areas de radiacion supervisadas y controladas** que requieren formacion especifica y equipos de dosimetria antes de entrar. El LHC opera a temperaturas extremadamente bajas, lo que significa que las **fugas criogenicas** pueden desplazar el oxigeno y causar quemaduras por frio en ciertas areas.
+El CERN es un entorno único con riesgos que no se encuentran en lugares de trabajo típicos. Las instalaciones incluyen **áreas de radiación supervisadas y controladas** que requieren formación específica y equipos de dosimetría antes de entrar. El LHC opera a temperaturas extremadamente bajas, lo que significa que las **fugas criogénicas** pueden desplazar el oxígeno y causar quemaduras por frío en ciertas áreas.
 
-Hay **equipos electricos de alta tension** presentes en muchas ubicaciones, y solo el personal cualificado puede trabajar en estos sistemas. Algunas areas tienen ventilacion restringida y estan clasificadas como **espacios confinados**, lo que requiere un permiso y formacion especifica para entrar. Las naves experimentales tambien utilizan **gruas puente** y equipos de elevacion pesada, por lo que debes mantenerte siempre alejado de las zonas senalizadas durante las operaciones.
+Hay **equipos eléctricos de alta tensión** presentes en muchas ubicaciones, y solo el personal cualificado puede trabajar en estos sistemas. Algunas áreas tienen ventilación restringida y están clasificadas como **espacios confinados**, lo que requiere un permiso y formación específica para entrar. Las naves experimentales también utilizan **grúas puente** y equipos de elevación pesada, por lo que debes mantenerte siempre alejado de las zonas señalizadas durante las operaciones.
 
 ## Normas de seguridad en el sitio
 
-Mientras estes en las instalaciones, debes llevar tu **tarjeta del CERN visible** en todo momento y respetar todas las restricciones de acceso a zonas. Nunca entres en areas para las que no estes autorizado, y nunca entres en el tunel del acelerador sin autorizacion explicita.
+Mientras estés en las instalaciones, debes llevar tu **tarjeta del CERN visible** en todo momento y respetar todas las restricciones de acceso a zonas. Nunca entres en áreas para las que no estés autorizado, y nunca entres en el túnel del acelerador sin autorización explícita.
 
-Si presencias cualquier incidente o situacion insegura, informalo inmediatamente a tu **oficial de seguridad**. Asegurate de conocer los datos de contacto de tu oficial de seguridad del edificio y de los **bomberos del CERN** (telefono 74444) desde tu primer dia en las instalaciones.
+Si presencias cualquier incidente o situación insegura, infórmalo inmediatamente a tu **oficial de seguridad**. Asegúrate de conocer los datos de contacto de tu oficial de seguridad del edificio y de los **bomberos del CERN** (teléfono 74444) desde tu primer día en las instalaciones.
 
 ## Referencias
 

@@ -1,13 +1,13 @@
 ---
-title: "Attivita all'Aperto - CERN Starter Pack"
+title: "Attività all'Aperto - CERN Starter Pack"
 description: "Guida alle attività all'aperto vicino al CERN: escursionismo, sci, sport acquatici sul Lago di Ginevra, gite ed i club outdoor del CERN nella regione di Ginevra."
 og:
-  title: "Attivita all'Aperto - CERN Starter Pack"
+  title: "Attività all'Aperto - CERN Starter Pack"
   description: "Guida alle attività all'aperto vicino al CERN: escursionismo, sci, sport acquatici sul Lago di Ginevra, gite ed i club outdoor del CERN nella regione di Ginevra."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
   - { label: "Vita Quotidiana", url: "/it/daily-life-hub/" }
-  - { label: "Attivita all'Aperto" }
+  - { label: "Attività all'Aperto" }
 ---
 
 # Attività all'Aperto

@@ -131,7 +131,7 @@ import numpy as np
 
 # Utilizzo di RDataFrame (approccio ROOT moderno)
 df = ROOT.RDataFrame("Events", "data.root")
-npy = df.AsNumpy(["pt", "eta"])  # Restituisce un dict di array NumPy
+npy = df.AsNumpy(["pt", "età"])  # Restituisce un dict di array NumPy
 
 # Conversione in DataFrame pandas
 import pandas as pd

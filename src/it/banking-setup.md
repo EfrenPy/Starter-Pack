@@ -23,7 +23,7 @@ Il CERN paga tutti gli stipendi in **franchi svizzeri (CHF)**, quindi un conto b
 
 ## Conti bancari svizzeri
 
-Le banche svizzere più comunemente utilizzate dai dipendenti CERN sono **UBS** e **BCGE** (Banque Cantonale de Genève). Credit Suisse è stata completamente integrata in UBS. Per aprire un conto avrete bisogno della vostra **carte de legitimation** (rilasciata dal CERN/DFAE), un passaporto o documento d'identità valido, il contratto di lavoro o un'attestazione CERN, e una prova di indirizzo se disponibile.
+Le banche svizzere più comunemente utilizzate dai dipendenti CERN sono **UBS** e **BCGE** (Banque Cantonale de Genève). Credit Suisse è stata completamente integrata in UBS. Per aprire un conto avrete bisogno della vostra **carte de légitimation** (rilasciata dal CERN/DFAE), un passaporto o documento d'identità valido, il contratto di lavoro o un'attestazione CERN, e una prova di indirizzo se disponibile.
 
 Le commissioni mensili di gestione variano generalmente da **CHF 5 a 15**, a seconda della banca e del tipo di conto, anche se alcune banche offrono commissioni ridotte per il personale CERN. L'apertura di un conto svizzero richiede un **appuntamento di persona** in filiale. Portate tutti i documenti e il conto sarà solitamente attivo entro pochi giorni lavorativi. Una carta di debito (Maestro o Visa Debit) vi sarà inviata per posta.
 
@@ -35,7 +35,7 @@ Per aprire un conto francese avrete bisogno di un **titre de séjour** o attesta
 
 ## Banca in loco al CERN
 
-C'è una **filiale UBS situata al CERN** nell'Edificio 504, specificamente dedicata al personale CERN. Il personale della filiale ha esperienza con la carte de legitimation e i contratti di lavoro CERN, il che rende la procedura semplice. Sono disponibili anche **sportelli automatici** UBS e BCGE nel sito di Meyrin per i prelievi in CHF.
+C'è una **filiale UBS situata al CERN** nell'Edificio 504, specificamente dedicata al personale CERN. Il personale della filiale ha esperienza con la carte de légitimation e i contratti di lavoro CERN, il che rende la procedura semplice. Sono disponibili anche **sportelli automatici** UBS e BCGE nel sito di Meyrin per i prelievi in CHF.
 
 La filiale UBS in loco opera solitamente con **orari ridotti** (solo la mattina in certi giorni feriali), quindi verificate sul sito CERN o nell'elenco interno gli orari attuali. È fortemente raccomandato **prenotare un appuntamento in anticipo**, soprattutto nei periodi di arrivo in settembre e ottobre quando molti nuovi arrivati aprono conti contemporaneamente.
 

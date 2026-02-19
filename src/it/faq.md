@@ -71,12 +71,12 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Devo registrarmi al comune/mairie?</summary>
-<p>Sì. Se vivete in Svizzera, registratevi presso l'Office de la population del vostro comune. Se vivete in Francia, registratevi presso la mairie del vostro paese. Il personale CERN in Svizzera riceve una carte de legitimation invece di un permesso di soggiorno standard.</p>
+<p>Sì. Se vivete in Svizzera, registratevi presso l'Office de la population del vostro comune. Se vivete in Francia, registratevi presso la mairie del vostro paese. Il personale CERN in Svizzera riceve una carte de légitimation invece di un permesso di soggiorno standard.</p>
 </details>
 
 <details class="faq-item">
-<summary>Cos'è la carte de legitimation?</summary>
-<p>La carte de legitimation è un documento d'identità speciale rilasciato dal Dipartimento Federale degli Affari Esteri svizzero ai dipendenti delle organizzazioni internazionali. Sostituisce un permesso di soggiorno standard e concede determinati privilegi, inclusa l'esenzione dall'imposta sul reddito svizzera e dalla LAMal.</p>
+<summary>Cos'è la carte de légitimation?</summary>
+<p>La carte de légitimation è un documento d'identità speciale rilasciato dal Dipartimento Federale degli Affari Esteri svizzero ai dipendenti delle organizzazioni internazionali. Sostituisce un permesso di soggiorno standard e concede determinati privilegi, inclusa l'esenzione dall'imposta sul reddito svizzera e dalla LAMal.</p>
 </details>
 
 <details class="faq-item">
