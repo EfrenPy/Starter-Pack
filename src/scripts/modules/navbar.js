@@ -20,6 +20,7 @@ export function initNavbar() {
     langBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       const isOpen = langMenu.classList.toggle('open');
+      langMenu.style.display = isOpen ? 'block' : 'none';
       langBtn.setAttribute('aria-expanded', String(isOpen));
     });
 
@@ -36,6 +37,7 @@ export function initNavbar() {
   function closeLangMenu() {
     if (langMenu && langMenu.classList.contains('open')) {
       langMenu.classList.remove('open');
+      langMenu.style.display = 'none';
       langBtn.setAttribute('aria-expanded', 'false');
     }
   }
