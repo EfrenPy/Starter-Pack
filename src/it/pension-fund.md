@@ -1,13 +1,13 @@
 ---
-title: "Fondo Pensione del CERN - CERN Starter Pack"
-description: "Guida al Fondo Pensione del CERN: contributi, prestazioni per anni di servizio, età pensionabile, valore di trasferimento, calcolo della pensione e cessazione dal CERN."
+title: 'Fondo Pensione del CERN - CERN Starter Pack'
+description: 'Guida al Fondo Pensione del CERN: contributi, prestazioni per anni di servizio, età pensionabile, valore di trasferimento, calcolo della pensione e cessazione dal CERN.'
 og:
-  title: "Fondo Pensione del CERN - CERN Starter Pack"
-  description: "Guida al Fondo Pensione del CERN: contributi, prestazioni per anni di servizio, età pensionabile, valore di trasferimento, calcolo della pensione e cessazione dal CERN."
+  title: 'Fondo Pensione del CERN - CERN Starter Pack'
+  description: 'Guida al Fondo Pensione del CERN: contributi, prestazioni per anni di servizio, età pensionabile, valore di trasferimento, calcolo della pensione e cessazione dal CERN.'
 breadcrumbs:
-  - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Legale e Fiscale", url: "/it/legal-hub/" }
-  - { label: "Fondo Pensione" }
+  - { label: 'Home', url: '/it/' }
+  - { label: 'Aiuto Legale e Fiscale', url: '/it/legal-hub/' }
+  - { label: 'Fondo Pensione' }
 ---
 
 # Fondo Pensione del CERN
@@ -23,7 +23,19 @@ Il **Fondo Pensione del CERN** (CERN PF) è un **regime a prestazione definita**
 
 ## Contributi
 
-Ogni mese, circa il **10,1% dello stipendio** viene automaticamente trattenuto come contributo al fondo pensione. Il CERN corrisponde un contributo di circa il **20,2%** -- il doppio della quota personale -- portando il contributo mensile complessivo a circa il **30,3%** dello stipendio. Queste trattenute compaiono nella busta paga e non richiedono alcuna azione da parte vostra.
+I contributi al Fondo Pensione del CERN sono **differenziati in base alla data di iscrizione**:
+
+**Iscritti prima del 2012:**
+
+- Dipendente: **11,33%** dello stipendio
+- CERN: **22,67%** dello stipendio
+
+**Iscritti dal 2012:**
+
+- Dipendente: **12,64%** dello stipendio
+- CERN: **18,96%** dello stipendio
+
+Queste trattenute compaiono nella busta paga e non richiedono alcuna azione da parte vostra.
 
 ## Prestazioni per anni di servizio
 

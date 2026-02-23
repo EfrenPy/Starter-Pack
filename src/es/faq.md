@@ -1,12 +1,12 @@
 ---
-title: "Preguntas Frecuentes - CERN Starter Pack"
-description: "Preguntas frecuentes para nuevos empleados del CERN: tarjetas de acceso, cuentas informáticas, seguro médico, vivienda, transporte y conceptos básicos de TI."
+title: 'Preguntas Frecuentes - CERN Starter Pack'
+description: 'Preguntas frecuentes para nuevos empleados del CERN: tarjetas de acceso, cuentas informáticas, seguro médico, vivienda, transporte y conceptos básicos de TI.'
 og:
-  title: "Preguntas Frecuentes - CERN Starter Pack"
-  description: "Preguntas frecuentes para nuevos empleados del CERN: tarjetas de acceso, cuentas informáticas, seguro médico, vivienda, transporte y conceptos básicos de TI."
+  title: 'Preguntas Frecuentes - CERN Starter Pack'
+  description: 'Preguntas frecuentes para nuevos empleados del CERN: tarjetas de acceso, cuentas informáticas, seguro médico, vivienda, transporte y conceptos básicos de TI.'
 breadcrumbs:
-  - { label: "Inicio", url: "/es/" }
-  - { label: "Preguntas Frecuentes" }
+  - { label: 'Inicio', url: '/es/' }
+  - { label: 'Preguntas Frecuentes' }
 ---
 
 # Preguntas Frecuentes
@@ -15,7 +15,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Dónde recojo mi tarjeta de acceso al CERN?</summary>
-<p>Tu tarjeta de acceso al CERN se recoge en la Recepción del CERN (Edificio 33). Lleva tu pasaporte o documento de identidad y la documentación de tu contrato. La Oficina de Usuarios te guiará durante el proceso en tu primer día. Consulta la <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Admin e-Guide</a> para más detalles.</p>
+<p>Tu tarjeta de acceso al CERN se recogida en la Oficina de Registro (<strong>Edificio 55</strong>). Lleva tu pasaporte o documento de identidad y la documentación de tu contrato. La Oficina de Usuarios te guiará durante el proceso en tu primer día.</p>
 </details>
 
 <details class="faq-item">

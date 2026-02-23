@@ -1,13 +1,13 @@
 ---
-title: "Vehículos y Placas Verdes en el CERN - CERN Starter Pack"
-description: "Guía sobre vehículos y placas verdes en el CERN: placas CD, compra libre de impuestos, permiso de conducir, seguro y aparcamiento."
+title: 'Vehículos y Placas Verdes en el CERN - CERN Starter Pack'
+description: 'Guía sobre vehículos y placas verdes en el CERN: placas CD, compra libre de impuestos, permiso de conducir, seguro y aparcamiento.'
 og:
-  title: "Vehículos y Placas Verdes en el CERN - CERN Starter Pack"
-  description: "Guía sobre vehículos y placas verdes en el CERN: placas CD, compra libre de impuestos, permiso de conducir, seguro y aparcamiento."
+  title: 'Vehículos y Placas Verdes en el CERN - CERN Starter Pack'
+  description: 'Guía sobre vehículos y placas verdes en el CERN: placas CD, compra libre de impuestos, permiso de conducir, seguro y aparcamiento.'
 breadcrumbs:
-  - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
-  - { label: "Vehículos y Placas Verdes" }
+  - { label: 'Inicio', url: '/es/' }
+  - { label: 'Vida Diaria', url: '/es/daily-life-hub/' }
+  - { label: 'Vehículos y Placas Verdes' }
 ---
 
 # Vehículos y Placas Verdes en el CERN
@@ -31,7 +31,7 @@ Los documentos clave que necesitarás incluyen el certificado de matriculación 
 
 ## Comprar un Coche en Suiza
 
-Con placas verdes puedes comprar un coche nuevo en Suiza **sin pagar TVA** (actualmente el 7,7%), lo que puede suponer un ahorro de miles de francos. Simplemente elige tu vehículo en un concesionario suizo e infórmales de que lo matricularás con placas verdes — el concesionario preparará la factura sin TVA, y el servicio de Relaciones con los Estados Anfitriones del CERN gestiona el papeleo de la matriculación.
+Con placas verdes puedes comprar un coche nuevo en Suiza **sin pagar TVA** (actualmente el **8,1%**), lo que puede suponer un ahorro de miles de francos. Simplemente elige tu vehículo en un concesionario suizo e infórmales de que lo matricularás con placas verdes — el concesionario preparará la factura sin TVA, y el servicio de Relaciones con los Estados Anfitriones del CERN gestiona el papeleo de la matriculación.
 
 Para completar la matriculación, presenta la factura de compra y el certificado de seguro a Relaciones con los Estados Anfitriones. Ellos tramitarán la matriculación de las placas verdes con las autoridades suizas, y recibirás tus placas y el documento de matriculación del vehículo. La mayoría de los grandes concesionarios suizos conocen este proceso, y algunos cerca del CERN en la zona de Ginebra tienen incluso **personal dedicado** para matriculaciones de organizaciones internacionales.
 
@@ -49,7 +49,7 @@ Si vives en Francia y tienes un **permiso no comunitario**, puede que también n
 
 ## Seguro
 
-El **seguro de responsabilidad civil a terceros** (*responsabilité civile*) es obligatorio tanto en Suiza como en Francia — simplemente no puedes matricular un vehículo sin comprobante de cobertura. El CERN ha negociado **tarifas de seguro de grupo** con varios proveedores, así que consulta con la Asociación de Personal o Relaciones con los Estados Anfitriones para las ofertas actuales, ya que pueden ser significativamente más baratas que las cotizaciones individuales.
+El **seguro de responsabilidad civil a terceros** (_responsabilité civile_) es obligatorio tanto en Suiza como en Francia — simplemente no puedes matricular un vehículo sin comprobante de cobertura. El CERN ha negociado **tarifas de seguro de grupo** con varios proveedores, así que consulta con la Asociación de Personal o Relaciones con los Estados Anfitriones para las ofertas actuales, ya que pueden ser significativamente más baratas que las cotizaciones individuales.
 
 El tipo de seguro que necesitas depende de tu matriculación: **seguro suizo** para vehículos con placas verdes y **seguro francés** para coches con carte grise. También puedes considerar unirte al **Touring Club Suisse (TCS)** para asistencia en carretera, protección jurídica y seguro de viaje — el personal del CERN suele beneficiarse de tarifas de afiliación con descuento.
 

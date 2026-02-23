@@ -1,13 +1,13 @@
 ---
-title: "CERN Pension Fund - CERN Starter Pack"
-description: "CERN Pension Fund guide: contributions, benefits by years of service, retirement ages, transfer value, pension calculation, and leaving CERN."
+title: 'CERN Pension Fund - CERN Starter Pack'
+description: 'CERN Pension Fund guide: contributions, benefits by years of service, retirement ages, transfer value, pension calculation, and leaving CERN.'
 og:
-  title: "CERN Pension Fund - CERN Starter Pack"
-  description: "CERN Pension Fund guide: contributions, benefits by years of service, retirement ages, transfer value, pension calculation, and leaving CERN."
+  title: 'CERN Pension Fund - CERN Starter Pack'
+  description: 'CERN Pension Fund guide: contributions, benefits by years of service, retirement ages, transfer value, pension calculation, and leaving CERN.'
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
-  - { label: "Pension Fund" }
+  - { label: 'Home', url: '/en/' }
+  - { label: 'Legal & Tax Help', url: '/en/legal-hub/' }
+  - { label: 'Pension Fund' }
 ---
 
 # CERN Pension Fund
@@ -23,7 +23,13 @@ The **CERN Pension Fund** (CERN PF) is a **defined-benefit scheme**, which means
 
 ## Contributions
 
-Each month, approximately **10.1% of your salary** is automatically deducted as your pension fund contribution. CERN matches this with a contribution of approximately **20.2%** -- double your personal share -- bringing the total monthly contribution to roughly **30.3%** of your salary. These deductions appear on your pay slip and require no action on your part.
+Each month, your pension fund contribution is automatically deducted from your salary. The rates depend on when you joined CERN:
+
+- **If you joined on or before 31 December 2011**: You contribute approximately **11.33%** of your salary, and CERN contributes approximately **22.67%** -- roughly double your share, bringing the total to about **34%** of your salary.
+
+- **If you joined on or after 1 January 2012**: You contribute approximately **12.64%** of your salary, and CERN contributes approximately **18.96%**, bringing the total to about **31.6%** of your salary.
+
+These deductions appear on your pay slip and require no action on your part.
 
 ## Benefits by Years of Service
 

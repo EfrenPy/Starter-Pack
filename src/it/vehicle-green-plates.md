@@ -1,13 +1,13 @@
 ---
-title: "Veicoli e Targhe Verdi al CERN - CERN Starter Pack"
-description: "Guida a veicoli e targhe verdi al CERN: targhe CD, acquisto esente da tasse, patente di guida, assicurazione e parcheggio."
+title: 'Veicoli e Targhe Verdi al CERN - CERN Starter Pack'
+description: 'Guida a veicoli e targhe verdi al CERN: targhe CD, acquisto esente da tasse, patente di guida, assicurazione e parcheggio.'
 og:
-  title: "Veicoli e Targhe Verdi al CERN - CERN Starter Pack"
-  description: "Guida a veicoli e targhe verdi al CERN: targhe CD, acquisto esente da tasse, patente di guida, assicurazione e parcheggio."
+  title: 'Veicoli e Targhe Verdi al CERN - CERN Starter Pack'
+  description: 'Guida a veicoli e targhe verdi al CERN: targhe CD, acquisto esente da tasse, patente di guida, assicurazione e parcheggio.'
 breadcrumbs:
-  - { label: "Home", url: "/it/" }
-  - { label: "Vita Quotidiana", url: "/it/daily-life-hub/" }
-  - { label: "Veicoli e Targhe Verdi" }
+  - { label: 'Home', url: '/it/' }
+  - { label: 'Vita Quotidiana', url: '/it/daily-life-hub/' }
+  - { label: 'Veicoli e Targhe Verdi' }
 ---
 
 # Veicoli e Targhe Verdi al CERN
@@ -31,7 +31,7 @@ I documenti chiave necessari includono il certificato di immatricolazione origin
 
 ## Acquistare un'Auto in Svizzera
 
-Con le targhe verdi puoi acquistare un'auto nuova in Svizzera **senza pagare la TVA** (attualmente 7,7%), il che può farti risparmiare migliaia di franchi. Scegli il tuo veicolo presso un concessionario svizzero e comunica che lo immatricolerai con targhe verdi — il concessionario preparerà la fattura senza TVA, e il servizio Relazioni con gli Stati Ospiti del CERN gestirà le pratiche di immatricolazione.
+Con le targhe verdi puoi acquistare un'auto nuova in Svizzera **senza pagare la TVA** (attualmente 8,1%), il che può farti risparmiare migliaia di franchi. Scegli il tuo veicolo presso un concessionario svizzero e comunica che lo immatricolerai con targhe verdi — il concessionario preparerà la fattura senza TVA, e il servizio Relazioni con gli Stati Ospiti del CERN gestirà le pratiche di immatricolazione.
 
 Per completare l'immatricolazione, presenta la fattura d'acquisto e il certificato assicurativo al servizio Relazioni con gli Stati Ospiti. Loro gestiranno l'immatricolazione con le targhe verdi presso le autorità svizzere, e riceverai le targhe e il documento di immatricolazione del veicolo. La maggior parte dei principali concessionari svizzeri conosce questa procedura, e alcuni nella zona di Ginevra vicino al CERN hanno persino **personale dedicato** per le immatricolazioni delle organizzazioni internazionali.
 
@@ -49,7 +49,7 @@ Se vivi in Francia e possiedi una **patente non UE**, potresti dover convertirla
 
 ## Assicurazione
 
-L'**assicurazione di responsabilità civile** (*responsabilité civile*) è obbligatoria sia in Svizzera che in Francia — non puoi semplicemente immatricolare un veicolo senza prova di copertura. Il CERN ha negoziato **tariffe assicurative di gruppo** con diversi fornitori, quindi verifica con l'Associazione del Personale o il servizio Relazioni con gli Stati Ospiti per le offerte attuali, poiché possono essere significativamente più economiche dei preventivi individuali.
+L'**assicurazione di responsabilità civile** (_responsabilité civile_) è obbligatoria sia in Svizzera che in Francia — non puoi semplicemente immatricolare un veicolo senza prova di copertura. Il CERN ha negoziato **tariffe assicurative di gruppo** con diversi fornitori, quindi verifica con l'Associazione del Personale o il servizio Relazioni con gli Stati Ospiti per le offerte attuali, poiché possono essere significativamente più economiche dei preventivi individuali.
 
 Il tipo di assicurazione necessaria dipende dalla tua immatricolazione: **assicurazione svizzera** per veicoli con targhe verdi e **assicurazione francese** per auto con carte grise. Potresti anche valutare l'iscrizione al **Touring Club Suisse (TCS)** per assistenza stradale, protezione legale e assicurazione viaggio — il personale CERN beneficia spesso di tariffe di iscrizione scontate.
 

@@ -1,13 +1,13 @@
 ---
-title: "Benefici e Vantaggi del CERN - CERN Starter Pack"
-description: "Benefici e vantaggi per il personale del CERN: fondo ricreativo, acquisti esentasse, sconti aziendali, mensa, indennità di viaggio, borsa di studio e indennità di trasferimento."
+title: 'Benefici e Vantaggi del CERN - CERN Starter Pack'
+description: 'Benefici e vantaggi per il personale del CERN: fondo ricreativo, acquisti esentasse, sconti aziendali, mensa, indennità di viaggio, borsa di studio e indennità di trasferimento.'
 og:
-  title: "Benefici e Vantaggi del CERN - CERN Starter Pack"
-  description: "Benefici e vantaggi per il personale del CERN: fondo ricreativo, acquisti esentasse, sconti aziendali, mensa, indennità di viaggio, borsa di studio e indennità di trasferimento."
+  title: 'Benefici e Vantaggi del CERN - CERN Starter Pack'
+  description: 'Benefici e vantaggi per il personale del CERN: fondo ricreativo, acquisti esentasse, sconti aziendali, mensa, indennità di viaggio, borsa di studio e indennità di trasferimento.'
 breadcrumbs:
-  - { label: "Home", url: "/it/" }
-  - { label: "Vita Quotidiana", url: "/it/daily-life-hub/" }
-  - { label: "Benefici e Vantaggi" }
+  - { label: 'Home', url: '/it/' }
+  - { label: 'Vita Quotidiana', url: '/it/daily-life-hub/' }
+  - { label: 'Benefici e Vantaggi' }
 ---
 
 # Benefici e Vantaggi del CERN
@@ -27,7 +27,7 @@ L'Associazione del Personale organizza anche eventi più grandi durante l'anno, 
 
 ## Acquisti Esentasse
 
-I dipendenti del CERN in possesso di una **carte de légitimation** possono effettuare acquisti esentasse su determinati articoli di alto valore attraverso il sistema di approvvigionamento del CERN, bypassando la TVA svizzera (attualmente il 7,7%) e risparmiando una somma significativa. Le categorie più comuni includono **veicoli** (consulta la pagina Veicoli e Targhe Verdi per i dettagli), **elettronica** (computer, telefoni, fotocamere) e **elettrodomestici**. Gli articoli esatti e le condizioni sono disciplinati dalle regole del DFAE svizzero e dalle circolari amministrative del CERN.
+I dipendenti del CERN in possesso di una **carte de légitimation** possono effettuare acquisti esentasse su determinati articoli di alto valore attraverso il sistema di approvvigionamento del CERN, bypassando la TVA svizzera (attualmente l'8,1%) e risparmiando una somma significativa. Le categorie più comuni includono **veicoli** (consulta la pagina Veicoli e Targhe Verdi per i dettagli), **elettronica** (computer, telefoni, fotocamere) e **elettrodomestici**. Gli articoli esatti e le condizioni sono disciplinati dalle regole del DFAE svizzero e dalle circolari amministrative del CERN.
 
 Per effettuare un acquisto esentasse, invia una richiesta tramite l'ufficio approvvigionamenti del CERN con i dettagli dell'articolo e del fornitore. L'ufficio verifica la tua idoneità e processa l'ordine con l'esenzione IVA applicata. Esistono **limiti annuali** sul valore degli acquisti esentasse, e gli articoli devono essere per uso personale — la rivendita di beni esentasse è vietata e può comportare la perdita dei privilegi. I prodotti elettronici di Apple, Dell e altri produttori sono scelte popolari, poiché il risparmio può ammontare a diverse centinaia di franchi su un singolo acquisto.
 

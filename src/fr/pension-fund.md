@@ -1,13 +1,13 @@
 ---
-title: "Caisse de Pensions du CERN - CERN Starter Pack"
-description: "Guide de la Caisse de Pensions du CERN : cotisations, prestations par années de service, âges de la retraite, valeur de transfert, calcul de la pension et départ du CERN."
+title: 'Caisse de Pensions du CERN - CERN Starter Pack'
+description: 'Guide de la Caisse de Pensions du CERN : cotisations, prestations par années de service, âges de la retraite, valeur de transfert, calcul de la pension et départ du CERN.'
 og:
-  title: "Caisse de Pensions du CERN - CERN Starter Pack"
-  description: "Guide de la Caisse de Pensions du CERN : cotisations, prestations par années de service, âges de la retraite, valeur de transfert, calcul de la pension et départ du CERN."
+  title: 'Caisse de Pensions du CERN - CERN Starter Pack'
+  description: 'Guide de la Caisse de Pensions du CERN : cotisations, prestations par années de service, âges de la retraite, valeur de transfert, calcul de la pension et départ du CERN.'
 breadcrumbs:
-  - { label: "Accueil", url: "/fr/" }
-  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
-  - { label: "Caisse de Pensions" }
+  - { label: 'Accueil', url: '/fr/' }
+  - { label: 'Aide Juridique et Fiscale', url: '/fr/legal-hub/' }
+  - { label: 'Caisse de Pensions' }
 ---
 
 # Caisse de Pensions du CERN
@@ -23,7 +23,12 @@ La **Caisse de Pensions du CERN** (CERN PF) est un **régime à prestations déf
 
 ## Cotisations
 
-Chaque mois, environ **10,1 % de votre salaire** est automatiquement prélevé comme cotisation à la caisse de pensions. Le CERN complète avec une cotisation d'environ **20,2 %** -- le double de votre part personnelle -- portant la cotisation mensuelle totale à environ **30,3 %** de votre salaire. Ces prélèvements apparaissent sur votre fiche de paie et ne nécessitent aucune action de votre part.
+Chaque mois, une partie de votre salaire est automatiquement prélevée comme cotisations à la caisse de pensions. Le taux de cotisation dépend de votre date d'admission :
+
+- **Avant 2012** : environ **11,33 %** de votre salaire est prélevé comme cotisation employee, et le CERN verse environ **22,67 %** -- portant la cotisation mensuelle totale à environ **34 %** de votre salaire.
+- **À partir de 2012** : environ **12,64 %** de votre salaire est prélevé commecotisation employee, et le CERN verse environ **18,96 %** -- portant la cotisations mensuelle totale à environ **31,6 %** de votre salaire.
+
+Ces prélèvements apparaissent sur votre fiche de paie et ne nécessitent aucune action de votre part.
 
 ## Prestations par Années de Service
 

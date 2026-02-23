@@ -1,13 +1,13 @@
 ---
-title: "Transporte Cerca del CERN - CERN Starter Pack"
-description: "Guía de transporte para empleados del CERN: transporte público, lanzadera del CERN, bicicleta, coche, trenes regionales y cómo llegar desde el aeropuerto de Ginebra."
+title: 'Transporte Cerca del CERN - CERN Starter Pack'
+description: 'Guía de transporte para empleados del CERN: transporte público, lanzadera del CERN, bicicleta, coche, trenes regionales y cómo llegar desde el aeropuerto de Ginebra.'
 og:
-  title: "Transporte Cerca del CERN - CERN Starter Pack"
-  description: "Guía práctica para desplazarse cerca del CERN: buses TPG, lanzadera del CERN, bicicleta, coche y trenes regionales."
+  title: 'Transporte Cerca del CERN - CERN Starter Pack'
+  description: 'Guía práctica para desplazarse cerca del CERN: buses TPG, lanzadera del CERN, bicicleta, coche y trenes regionales.'
 breadcrumbs:
-  - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
-  - { label: "Transporte" }
+  - { label: 'Inicio', url: '/es/' }
+  - { label: 'Vida Cotidiana', url: '/es/daily-life-hub/' }
+  - { label: 'Transporte' }
 ---
 
 # Transporte Cerca del CERN
@@ -25,9 +25,9 @@ Puedes llegar al CERN en bus público, lanzadera del CERN, bicicleta, coche o tr
 
 ## Transporte Público (TPG)
 
-La línea de bus más importante para los empleados del CERN es el **bus 68**, que conecta el centro de Ginebra (Rive) con Meyrin hasta la parada del CERN cada 10-15 minutos en horas punta. Aún más rápido es el **tranvía 18**, que va desde Plan-les-Ouates pasando por Ginebra hasta el CERN como parada final, siendo el transporte público más rápido entre el centro de Ginebra y el CERN con unos 25 minutos desde la estación de Cornavin.
+La línea de bus más importante para los empleados del CERN es el **bus 68**, que conecta el centro de Ginebra (Rive) con Meyrin hasta la parada del CERN cada 10-15 minutos en horas punta. El **bus 66** también sirve al sitio de Prevessin del CERN (añadido en febrero de 2023). Aún más rápido es el **tranvía 18**, que va desde Plan-les-Ouates pasando por Ginebra hasta el CERN como parada final, siendo el transporte público más rápido entre el centro de Ginebra y el CERN con unos 25 minutos desde la estación de Cornavin.
 
-La zona de Ginebra utiliza el **sistema tarifario Unireso**, y un abono mensual cuesta aproximadamente CHF 70, cubriendo todos los buses, tranvías y trenes locales TPG dentro de las zonas seleccionadas. Los billetes se pueden comprar a través de la **app TPG** (recomendado), en máquinas expendedoras en las paradas principales, o a bordo con recargo. Algunas máquinas aceptan pago sin contacto.
+La zona de Ginebra utiliza el **sistema tarifario Unireso**, y un abono mensual cuesta aproximadamente **CHF 70-86**, cubriendo todos los buses, tranvías y trenes locales TPG dentro de las zonas seleccionadas. Los billetes se pueden comprar a través de la **app TPG** (recomendado), en máquinas expendedoras en las paradas principales, o a bordo con recargo. Algunas máquinas aceptan pago sin contacto.
 
 ## Lanzadera del CERN
 
@@ -43,7 +43,7 @@ Ginebra ofrece **servicios de bicicletas compartidas** como Donkey Republic, con
 
 Hay aparcamiento disponible en ambos campus del CERN pero puede ser limitado, especialmente en Meyrin en horas punta, y se necesita la **tarjeta de acceso del CERN** para las barreras del aparcamiento. Muchos empleados que viven en Francia se desplazan en coche por el paso fronterizo cerca del CERN (Entrada E), que suele ser rápido pero puede tener demoras en hora punta.
 
-La **viñeta de autopista francesa** no es necesaria para carreteras locales en la zona del Pays de Gex, solo para autopistas más alejadas. La **viñeta suiza** cuesta CHF 40 al año y es obligatoria para usar autopistas suizas. Está disponible en pasos fronterizos, oficinas de correos y gasolineras.
+La **viñeta de autopista francesa** no es necesaria para carreteras locales en la zona del Pays de Gex, solo para autopistas más alejadas. La **viñeta suiza** cuesta CHF 40 al año (válida desde el 1 de diciembre hasta el 31 de enero del año siguiente) y es obligatoria para usar autopistas suizas. Está disponible en pasos fronterizos, oficinas de correos y gasolineras.
 
 ## Trenes Regionales
 

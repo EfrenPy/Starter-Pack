@@ -1,13 +1,13 @@
 ---
-title: "CERN Benefits & Perks - CERN Starter Pack"
-description: "Staff benefits and perks at CERN: recreation fund, tax-free purchases, corporate discounts, canteen, travel allowances, education grant, and relocation allowance."
+title: 'CERN Benefits & Perks - CERN Starter Pack'
+description: 'Staff benefits and perks at CERN: recreation fund, tax-free purchases, corporate discounts, canteen, travel allowances, education grant, and relocation allowance.'
 og:
-  title: "CERN Benefits & Perks - CERN Starter Pack"
-  description: "Staff benefits and perks at CERN: recreation fund, tax-free purchases, corporate discounts, canteen, travel allowances, education grant, and relocation allowance."
+  title: 'CERN Benefits & Perks - CERN Starter Pack'
+  description: 'Staff benefits and perks at CERN: recreation fund, tax-free purchases, corporate discounts, canteen, travel allowances, education grant, and relocation allowance.'
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Daily Life", url: "/en/daily-life-hub/" }
-  - { label: "CERN Benefits & Perks" }
+  - { label: 'Home', url: '/en/' }
+  - { label: 'Daily Life', url: '/en/daily-life-hub/' }
+  - { label: 'CERN Benefits & Perks' }
 ---
 
 # CERN Benefits & Perks
@@ -27,7 +27,7 @@ The Staff Association also organises larger events throughout the year, includin
 
 ## Tax-Free Purchases
 
-CERN employees holding a **carte de legitimation** can make tax-free purchases on certain high-value items through CERN's procurement system, bypassing the Swiss TVA (currently 7.7%) and saving a significant amount. The most common categories include **vehicles** (see the Vehicles and Green Plates page for details), **electronics** (computers, phones, cameras), and **household appliances**. The exact items and conditions are governed by the Swiss DFAE rules and CERN administrative circulars.
+CERN employees holding a **carte de legitimation** can make tax-free purchases on certain high-value items through CERN's procurement system, bypassing the Swiss TVA (currently **8.1%**) and saving a significant amount. The most common categories include **vehicles** (see the Vehicles and Green Plates page for details), **electronics** (computers, phones, cameras), and **household appliances**. The exact items and conditions are governed by the Swiss DFAE rules and CERN administrative circulars.
 
 To make a tax-free purchase, you submit a request through the CERN procurement office with details of the item and the supplier. The office verifies your eligibility and processes the order with the VAT exemption applied. There are **annual limits** on the value of tax-free purchases, and the items must be for personal use — reselling tax-free goods is prohibited and can result in loss of privileges. Electronics from Apple, Dell, and other manufacturers are popular choices, as the savings can amount to several hundred francs on a single purchase.
 

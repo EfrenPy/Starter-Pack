@@ -1,13 +1,13 @@
 ---
-title: "Congé Parental au CERN - CERN Starter Pack"
+title: 'Congé Parental au CERN - CERN Starter Pack'
 description: "Congé de maternité, paternité et parental au CERN : durée, maintien du salaire, comment faire la demande, assurance maladie pendant le congé et planification de la garde d'enfants."
 og:
-  title: "Congé Parental au CERN - CERN Starter Pack"
+  title: 'Congé Parental au CERN - CERN Starter Pack'
   description: "Congé de maternité, paternité et parental au CERN : durée, maintien du salaire, comment faire la demande, assurance maladie pendant le congé et planification de la garde d'enfants."
 breadcrumbs:
-  - { label: "Accueil", url: "/fr/" }
-  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
-  - { label: "Congé Parental" }
+  - { label: 'Accueil', url: '/fr/' }
+  - { label: 'Aide Juridique et Fiscale', url: '/fr/legal-hub/' }
+  - { label: 'Congé Parental' }
 ---
 
 # Congé Parental au CERN
@@ -21,13 +21,23 @@ Devenir parent tout en travaillant au CERN est un événement majeur, et l'organ
 
 ## Congé de Maternité
 
-Le CERN accorde **16 semaines de congé de maternité** aux membres du personnel, pouvant débuter jusqu'à six semaines avant la date prévue d'accouchement et devant inclure au moins dix semaines après l'accouchement. Pendant le congé de maternité, l'employée perçoit son **salaire intégral**, ce qui signifie qu'il n'y a aucune réduction de revenus pendant la période de congé. Le congé est accordé automatiquement une fois la date prévue d'accouchement communiquée aux RH, bien qu'il soit recommandé de prévenir votre superviseur et le département RH le plus tôt possible — idéalement avant la fin du premier trimestre.
+Le CERN accorde un **congé de maternité** aux membres du personnel, dont la durée dépend du nombre d'enfants à charge :
+
+- **Premier enfant** : **16 semaines** de congé
+- **Deuxième enfant et plus** : **19 semaines** de congé
+
+Le congé peut débuter jusqu'à six semaines avant la date prévue d'accouchement et doit inclure au moins dix semaines après l'accouchement. Pendant le congé de maternité, l'employée perçoit son **salaire intégral**, ce qui signifie qu'il n'y a aucune réduction de revenus pendant la période de congé.
+
+<div class="alert">
+<strong>Nouveau : Extension Facile pour l'Allaitement (Février 2026)</strong><br>
+<p>Il est désormais possible de bénéficier de jusqu'à <strong>4 semaines supplémentaires</strong> de congé parental pour l'allaitement, sans certificat médical requis. Cette extension vise à faciliter la transition retour au travail pour les mères qui allaitent.</p>
+</div>
 
 Pour initier le congé de maternité, soumettez un **certificat médical** confirmant la date prévue d'accouchement via le système EDH (Electronic Document Handling). Les RH confirmeront ensuite vos dates de congé et le maintien du salaire. Si des complications médicales nécessitent un arrêt de travail plus précoce que prévu, des dispositions complémentaires d'arrêt maladie peuvent s'appliquer — contactez le Service Médical du CERN pour des conseils. Après l'accouchement, vous devez fournir un **acte de naissance** aux RH pour finaliser le processus administratif et activer les allocations familiales.
 
-## Congé de Paternité
+## Congé Parental
 
-Le CERN accorde **10 jours ouvrables de congé de paternité** à prendre dans un délai raisonnable après la naissance ou l'adoption d'un enfant. Ce congé est à plein salaire et ne réduit pas les droits à congés annuels. Il peut être pris en un seul bloc ou fractionné en périodes distinctes, selon l'arrangement convenu avec votre superviseur. Pour demander le congé de paternité, soumettez la demande via EDH et fournissez un acte de naissance ou les documents d'adoption dès qu'ils sont disponibles.
+Le CERN accorde **10 jours ouvrables de congé parental** à prendre dans un délai raisonnable après la naissance ou l'adoption d'un enfant. Ce congé est à plein salaire et ne réduit pas les droits à congés annuels. Il peut être pris en un seul bloc ou fractionné en périodes distinctes, selon l'arrangement convenu avec votre superviseur. Pour demander le congé de paternité, soumettez la demande via EDH et fournissez un acte de naissance ou les documents d'adoption dès qu'ils sont disponibles.
 
 Bien que 10 jours constituent le droit formel, certains superviseurs sont flexibles quant à des arrangements supplémentaires comme la prise de congés annuels ou le télétravail dans les semaines suivant la naissance. Discutez ouvertement de vos projets avec votre superviseur bien à l'avance pour trouver une solution qui convienne à la fois à votre famille et à votre équipe.
 

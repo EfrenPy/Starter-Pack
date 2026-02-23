@@ -1,13 +1,13 @@
 ---
-title: "Beneficios y Ventajas del CERN - CERN Starter Pack"
-description: "Beneficios y ventajas para el personal del CERN: fondo recreativo, compras libres de impuestos, descuentos corporativos, cantina, dietas de viaje, beca educativa y asignación de reubicación."
+title: 'Beneficios y Ventajas del CERN - CERN Starter Pack'
+description: 'Beneficios y ventajas para el personal del CERN: fondo recreativo, compras libres de impuestos, descuentos corporativos, cantina, dietas de viaje, beca educativa y asignación de reubicación.'
 og:
-  title: "Beneficios y Ventajas del CERN - CERN Starter Pack"
-  description: "Beneficios y ventajas para el personal del CERN: fondo recreativo, compras libres de impuestos, descuentos corporativos, cantina, dietas de viaje, beca educativa y asignación de reubicación."
+  title: 'Beneficios y Ventajas del CERN - CERN Starter Pack'
+  description: 'Beneficios y ventajas para el personal del CERN: fondo recreativo, compras libres de impuestos, descuentos corporativos, cantina, dietas de viaje, beca educativa y asignación de reubicación.'
 breadcrumbs:
-  - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
-  - { label: "Beneficios y Ventajas" }
+  - { label: 'Inicio', url: '/es/' }
+  - { label: 'Vida Diaria', url: '/es/daily-life-hub/' }
+  - { label: 'Beneficios y Ventajas' }
 ---
 
 # Beneficios y Ventajas del CERN
@@ -27,7 +27,7 @@ La Asociación de Personal también organiza eventos más grandes a lo largo del
 
 ## Compras Libres de Impuestos
 
-Los empleados del CERN con **carte de légitimation** pueden realizar compras libres de impuestos en ciertos artículos de alto valor a través del sistema de adquisiciones del CERN, evitando el TVA suizo (actualmente el 7,7%) y ahorrando una cantidad significativa. Las categorías más comunes incluyen **vehículos** (consulta la página de Vehículos y Placas Verdes para detalles), **electrónica** (ordenadores, teléfonos, cámaras) y **electrodomésticos**. Los artículos exactos y las condiciones están regulados por las normas del DFAE suizo y las circulares administrativas del CERN.
+Los empleados del CERN con **carte de légitimation** pueden realizar compras libres de impuestos en ciertos artículos de alto valor a través del sistema de adquisiciones del CERN, evitando el TVA suizo (actualmente el **8,1%**) y ahorrando una cantidad significativa. Las categorías más comunes incluyen **vehículos** (consulta la página de Vehículos y Placas Verdes para detalles), **electrónica** (ordenadores, teléfonos, cámaras) y **electrodomésticos**. Los artículos exactos y las condiciones están regulados por las normas del DFAE suizo y las circulares administrativas del CERN.
 
 Para realizar una compra libre de impuestos, presentas una solicitud a través de la oficina de adquisiciones del CERN con los detalles del artículo y el proveedor. La oficina verifica tu elegibilidad y procesa el pedido con la exención de IVA aplicada. Existen **límites anuales** en el valor de las compras libres de impuestos, y los artículos deben ser para uso personal — la reventa de bienes libres de impuestos está prohibida y puede resultar en la pérdida de privilegios. Los productos de electrónica de Apple, Dell y otros fabricantes son opciones populares, ya que el ahorro puede ascender a varios cientos de francos en una sola compra.
 

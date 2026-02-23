@@ -1,12 +1,12 @@
 ---
-title: "FAQ - CERN Starter Pack"
-description: "Frequently asked questions for new CERN employees: access cards, computing accounts, health insurance, housing, transport, and IT basics."
+title: 'FAQ - CERN Starter Pack'
+description: 'Frequently asked questions for new CERN employees: access cards, computing accounts, health insurance, housing, transport, and IT basics.'
 og:
-  title: "FAQ - CERN Starter Pack"
-  description: "Frequently asked questions for new CERN employees: access cards, computing accounts, health insurance, housing, transport, and IT basics."
+  title: 'FAQ - CERN Starter Pack'
+  description: 'Frequently asked questions for new CERN employees: access cards, computing accounts, health insurance, housing, transport, and IT basics.'
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "FAQ" }
+  - { label: 'Home', url: '/en/' }
+  - { label: 'FAQ' }
 ---
 
 # Frequently Asked Questions
@@ -15,7 +15,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Where do I collect my CERN access card?</summary>
-<p>Your CERN access card is collected at the CERN Reception (Building 33). Bring your passport or national ID and your contract documentation. The Users Office will guide you through the process during your first day. See the <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Admin e-Guide</a> for details.</p>
+<p>Your CERN access card is collected at the Registration Office (<strong>Building 55</strong>). Bring your passport or national ID and your contract documentation. The Users Office will guide you through the process during your first day. See the <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Admin e-Guide</a> for details.</p>
 </details>
 
 <details class="faq-item">

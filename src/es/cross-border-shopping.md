@@ -1,13 +1,13 @@
 ---
-title: "Compras Transfronterizas Cerca del CERN - CERN Starter Pack"
-description: "Guía de compras transfronterizas para empleados del CERN: supermercados franceses y suizos, aduanas, detaxe, mercados y consejos para ahorrar."
+title: 'Compras Transfronterizas Cerca del CERN - CERN Starter Pack'
+description: 'Guía de compras transfronterizas para empleados del CERN: supermercados franceses y suizos, aduanas, detaxe, mercados y consejos para ahorrar.'
 og:
-  title: "Compras Transfronterizas Cerca del CERN - CERN Starter Pack"
-  description: "Guía práctica de compras transfronterizas cerca del CERN: supermercados, aduanas, detaxe, mercados y consejos para ahorrar."
+  title: 'Compras Transfronterizas Cerca del CERN - CERN Starter Pack'
+  description: 'Guía práctica de compras transfronterizas cerca del CERN: supermercados, aduanas, detaxe, mercados y consejos para ahorrar.'
 breadcrumbs:
-  - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
-  - { label: "Compras Transfronterizas" }
+  - { label: 'Inicio', url: '/es/' }
+  - { label: 'Vida Cotidiana', url: '/es/daily-life-hub/' }
+  - { label: 'Compras Transfronterizas' }
 ---
 
 # Compras Transfronterizas Cerca del CERN
@@ -35,9 +35,9 @@ Para una compra semanal típica, puedes ahorrar entre **CHF 50 y 100** comprando
 
 ## Aduanas y Detaxe
 
-Al importar bienes de Francia a Suiza para uso personal, hay un **límite de CHF 300** por persona y día, por debajo del cual no se aplican aranceles aduaneros. En el cruce fronterizo, usa el canal verde si no tienes nada que declarar (dentro del límite) y el canal rojo si superas el límite o llevas artículos restringidos. Los residentes suizos también pueden solicitar la **devolución del IVA (detaxe)** en compras realizadas en Francia por encima de un umbral determinado -- pide un formulario de detaxe en la caja de la tienda y séllalo en la aduana francesa de la frontera.
+Al importar bienes de Francia a Suiza para uso personal, hay un **límite de CHF 150** por persona y día, por debajo del cual no se aplican aranceles aduaneros. Este límite se redujo desde CHF 300 en enero de 2025. En el cruce fronterizo, usa el canal verde si no tienes nada que declarar (dentro del límite) y el canal rojo si superas el límite o llevas artículos restringidos. Los residentes suizos también pueden solicitar la **devolución del IVA (detaxe)** en compras realizadas en Francia por encima de un umbral determinado -- pide un formulario de detaxe en la caja de la tienda y séllalo en la aduana francesa de la frontera.
 
-Se aplican límites específicos a ciertos bienes al entrar en Suiza: **1 kg de carne**, 1 kg de mantequilla, 5 litros de vino y 1 litro de licores por persona y día. Las cantidades que superen estos límites están sujetas a aranceles.
+Se aplican límites específicos a ciertos bienes al entrar en Suiza: **1 kg de carne**, 250 gramos de mantequilla, 5 litros de vino y 1 litro de licores por persona y día. Las cantidades que superen estos límites están sujetas a aranceles.
 
 ## Horarios de Domingos y Festivos
 

@@ -1,13 +1,13 @@
 ---
-title: "Fondo de Pensiones del CERN - CERN Starter Pack"
-description: "Guía del Fondo de Pensiones del CERN: contribuciones, prestaciones por años de servicio, edades de jubilación, valor de transferencia y cálculo de pensión."
+title: 'Fondo de Pensiones del CERN - CERN Starter Pack'
+description: 'Guía del Fondo de Pensiones del CERN: contribuciones, prestaciones por años de servicio, edades de jubilación, valor de transferencia y cálculo de pensión.'
 og:
-  title: "Fondo de Pensiones del CERN - CERN Starter Pack"
-  description: "Guía del Fondo de Pensiones del CERN: contribuciones, prestaciones por años de servicio, edades de jubilación, valor de transferencia y cálculo de pensión."
+  title: 'Fondo de Pensiones del CERN - CERN Starter Pack'
+  description: 'Guía del Fondo de Pensiones del CERN: contribuciones, prestaciones por años de servicio, edades de jubilación, valor de transferencia y cálculo de pensión.'
 breadcrumbs:
-  - { label: "Inicio", url: "/es/" }
-  - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }
-  - { label: "Fondo de Pensiones" }
+  - { label: 'Inicio', url: '/es/' }
+  - { label: 'Ayuda Legal y Fiscal', url: '/es/legal-hub/' }
+  - { label: 'Fondo de Pensiones' }
 ---
 
 # Fondo de Pensiones del CERN
@@ -23,7 +23,13 @@ El **Fondo de Pensiones del CERN** (CERN PF) es un **plan de prestación definid
 
 ## Contribuciones
 
-Cada mes, aproximadamente el **10,1% de tu salario** se deduce automáticamente como tu contribución al fondo de pensiones. El CERN aporta aproximadamente el **20,2%** -- el doble de tu contribución personal -- lo que eleva la contribución total mensual a aproximadamente el **30,3%** de tu salario. Estas deducciones aparecen en tu nómina y no requieren ninguna acción por tu parte.
+Cada mes, se deduce automáticamente una contribución a tu fondo de pensiones de tu salario. Las tarifas dependen de cuándo te incorporaste al CERN:
+
+- **Si te incorporaste antes del 31 de diciembre de 2011**: Aportas aproximadamente el **11,33%** de tu salario, y el CERN aporta aproximadamente el **22,67%** -- aproximadamente el doble de tu parte, alcanzando un total de aproximadamente el **34%** de tu salario.
+
+- **Si te incorporaste a partir del 1 de enero de 2012**: Aportas aproximadamente el **12,64%** de tu salario, y el CERN aporta aproximadamente el **18,96%**, alcanzando un total de aproximadamente el **31,6%** de tu salario.
+
+Estas deducciones aparecen en tu nómina y no requieren ninguna acción por tu parte.
 
 ## Prestaciones según Años de Servicio
 

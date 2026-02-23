@@ -1,9 +1,9 @@
 ---
-title: "Complete Guide for Spanish Nationals at CERN"
-description: "Comprehensive guide covering legal, administrative, financial, housing, and family topics for Spanish nationals working at CERN."
+title: 'Complete Guide for Spanish Nationals at CERN'
+description: 'Comprehensive guide covering legal, administrative, financial, housing, and family topics for Spanish nationals working at CERN.'
 og:
-  title: "Complete Guide for Spanish Nationals at CERN"
-  description: "Legal, administrative, and daily life guide for Spaniards at CERN."
+  title: 'Complete Guide for Spanish Nationals at CERN'
+  description: 'Legal, administrative, and daily life guide for Spaniards at CERN.'
 ---
 
 # Complete Guide: Legal, Administrative, and Daily Life at CERN
@@ -103,7 +103,7 @@ og:
 <p>CERN has its own kindergarten ("Le Jardin des Particules") for staff children aged 4 months to 6 years. Additionally, there are 60 reserved places in nearby public nurseries (Meyrin and St-Genis-Pouilly) for children aged 3 months to 4 years, so early registration is advised. As for bilingual schools, France offers public institutions with international sections and there are French or Swiss boarding schools (e.g., École Européenne, Institut Florimont) for instruction in English/French. CERN pays family allowances for each child and an additional parental allowance for children under 3. It also covers part of nursery/school fees with the Education Fees Allowance, subject to rules. It's recommended to consult CERN's Social Affairs office for details on child and education support.</p>
 
 <h3>Parental and Maternity/Paternity Leave</h3>
-<p>CERN offers generous maternity and paternity leave. Maternity leave is at least 16 weeks (100% paid), with more time in case of multiple births or complications. Paternity leave is 10 days (100% paid). For adoption, 15 weeks are granted. After mandatory leave, parents may request unpaid parental leave of up to 4 months while retaining benefits such as CHIS. During pregnancy, employees have the right to prenatal exams with full pay and leave. All leave is managed through CERN's Social Affairs office; notify them in advance to plan your leave.</p>
+<p>CERN offers generous maternity and co-parenting leave. Maternity leave is <strong>16 weeks</strong> for a first child (100% paid), or <strong>19 weeks</strong> for the second child and beyond. You can now extend maternity leave by <strong>up to four additional weeks</strong> for breastfeeding simply by asking &mdash; no medical certificate needed. Co-parenting leave (formerly paternity leave) is <strong>10 days</strong> (100% paid). For adoption, 16 weeks are granted. After mandatory leave, parents may request unpaid parental leave of up to 4 months while retaining benefits such as CHIS. During pregnancy, employees have the right to prenatal exams with full pay and leave. All leave is managed through CERN's Social Affairs office; notify them in advance to plan your leave.</p>
 
 <h3>Effect on Legal Status of the Partner</h3>
 <p>Working at CERN can change your partner's migration status. If they live with you in Switzerland, they'll need the appropriate Swiss permit (or the carte de légitimation if cohabiting). If living in France, a Spanish partner does not need a visa but must register at the town hall and obtain the appropriate residence card. To work in Switzerland, an EU partner may need a special "Ci permit" for spouses of international organization members. A non-EU partner will need a work permit (usually L or B) in Switzerland. In France, Spanish partners can work freely; non-EU partners will need a "carte de séjour vie privée et familiale" or similar. In summary, consult local migration authorities to coordinate permits. CERN provides support for obtaining the carte de légitimation and guidance on these procedures.</p>

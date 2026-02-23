@@ -1,13 +1,13 @@
 ---
-title: "Permiso Parental en el CERN - CERN Starter Pack"
-description: "Permiso de maternidad, paternidad y parental en el CERN: duración, reemplazo salarial, cómo solicitarlo, seguro médico durante el permiso y planificación de guardería."
+title: 'Permiso Parental en el CERN - CERN Starter Pack'
+description: 'Permiso de maternidad, paternidad y parental en el CERN: duración, reemplazo salarial, cómo solicitarlo, seguro médico durante el permiso y planificación de guardería.'
 og:
-  title: "Permiso Parental en el CERN - CERN Starter Pack"
-  description: "Permiso de maternidad, paternidad y parental en el CERN: duración, reemplazo salarial, cómo solicitarlo, seguro médico durante el permiso y planificación de guardería."
+  title: 'Permiso Parental en el CERN - CERN Starter Pack'
+  description: 'Permiso de maternidad, paternidad y parental en el CERN: duración, reemplazo salarial, cómo solicitarlo, seguro médico durante el permiso y planificación de guardería.'
 breadcrumbs:
-  - { label: "Inicio", url: "/es/" }
-  - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }
-  - { label: "Permiso Parental" }
+  - { label: 'Inicio', url: '/es/' }
+  - { label: 'Ayuda Legal y Fiscal', url: '/es/legal-hub/' }
+  - { label: 'Permiso Parental' }
 ---
 
 # Permiso Parental en el CERN
@@ -21,13 +21,18 @@ Convertirse en padre o madre mientras se trabaja en el CERN es un acontecimiento
 
 ## Permiso de Maternidad
 
-El CERN proporciona **16 semanas de permiso de maternidad** para miembros del personal, que puede comenzar hasta seis semanas antes de la fecha prevista de parto y debe incluir al menos diez semanas después del parto. Durante el permiso de maternidad, la empleada recibe **reemplazo salarial completo**, lo que significa que no hay reducción de ingresos durante el período de permiso. El permiso se concede automáticamente una vez comunicada la fecha prevista de parto a RRHH, aunque se recomienda notificar a tu supervisor y al departamento de RRHH lo antes posible — idealmente al final del primer trimestre.
+El CERN proporciona **16 semanas de permiso de maternidad** para miembros del personal para un primer hijo, que puede comenzar hasta seis semanas antes de la fecha prevista de parto y debe incluir al menos diez semanas después del parto. Para el **segundo hijo y siguientes**, el permiso de maternidad es de **19 semanas**. Durante el permiso de maternidad, la empleada recibe **reemplazo salarial completo**, lo que significa que no hay reducción de ingresos durante el período de permiso.
+
+**Nuevo: Extensión Fácil para Lactancia (Febrero 2026)**
+Ahora puedes extender tu permiso de maternad por **hasta cuatro semanas adicionales** para facilitar la lactancia simplemente pidiendo — ya no se necesita certificado médico. Para extender tu permiso, contacta con tu secretaría de grupo o departamento, quien lo registrará en EDH en tu nombre.
+
+El permiso se concede automáticamente una vez comunicada la fecha prevista de parto a RRHH, aunque se recomienda notificar a tu supervisor y al departamento de RRHH lo antes posible — idealmente al final del primer trimestre.
 
 Para iniciar el permiso de maternidad, presenta un **certificado médico** confirmando la fecha prevista de parto a través del sistema EDH (Electronic Document Handling). RRHH confirmará tus fechas de permiso y la continuidad salarial. Si complicaciones médicas requieren dejar de trabajar antes de lo previsto, pueden aplicarse provisiones adicionales de baja médica — contacta con el Servicio Médico del CERN para orientación. Después del parto, debes proporcionar un **certificado de nacimiento** a RRHH para finalizar el proceso administrativo y activar cualquier prestación familiar.
 
-## Permiso de Paternidad
+## Permiso de Crianza Compartida
 
-El CERN concede **10 días laborables de permiso de paternidad** a disfrutar dentro de un período razonable tras el nacimiento o adopción de un hijo. Este permiso es con sueldo completo y no reduce los días de vacaciones anuales. Puede tomarse en un bloque único o dividirse en períodos separados, dependiendo del acuerdo con tu supervisor. Para solicitar el permiso de paternidad, presenta la solicitud a través de EDH y proporciona un certificado de nacimiento o documentación de adopción cuando estén disponibles.
+El CERN concede **10 días laborables de permiso de crizanza compartida** (antes llamado permiso de paternidad) a disfrutar dentro de un período razonable tras el nacimiento o adopción de un hijo. Este permiso es con sueldo completo y no reduce los días de vacaciones anuales. Puede tomarse en un bloque único o dividirse en períodos separados, dependiendo del acuerdo con tu supervisor. Para solicitar el permiso de paternidad, presenta la solicitud a través de EDH y proporciona un certificado de nacimiento o documentación de adopción cuando estén disponibles.
 
 Aunque 10 días es el derecho formal, algunos supervisores son flexibles respecto a acuerdos adicionales como tomar vacaciones anuales o teletrabajar en las semanas posteriores al nacimiento. Comenta tus planes abiertamente con tu supervisor con bastante antelación para encontrar un enfoque que funcione tanto para tu familia como para tu equipo.
 

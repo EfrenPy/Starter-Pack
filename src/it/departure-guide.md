@@ -1,13 +1,13 @@
 ---
-title: "Guida alla Partenza - CERN Starter Pack"
-description: "Guida completa per lasciare il CERN: periodi di preavviso, procedura di clearance, opzioni pensionistiche, assicurazione sanitaria, cancellazione anagrafica e logistica del trasloco."
+title: 'Guida alla Partenza - CERN Starter Pack'
+description: 'Guida completa per lasciare il CERN: periodi di preavviso, procedura di clearance, opzioni pensionistiche, assicurazione sanitaria, cancellazione anagrafica e logistica del trasloco.'
 og:
-  title: "Guida alla Partenza - CERN Starter Pack"
-  description: "Guida completa per lasciare il CERN: periodi di preavviso, procedura di clearance, opzioni pensionistiche, assicurazione sanitaria, cancellazione anagrafica e logistica del trasloco."
+  title: 'Guida alla Partenza - CERN Starter Pack'
+  description: 'Guida completa per lasciare il CERN: periodi di preavviso, procedura di clearance, opzioni pensionistiche, assicurazione sanitaria, cancellazione anagrafica e logistica del trasloco.'
 breadcrumbs:
-  - { label: "Home", url: "/it/" }
-  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
-  - { label: "Guida alla Partenza" }
+  - { label: 'Home', url: '/it/' }
+  - { label: 'Assistenza Legale e Fiscale', url: '/it/legal-hub/' }
+  - { label: 'Guida alla Partenza' }
 ---
 
 # Guida alla Partenza
@@ -20,6 +20,8 @@ breadcrumbs:
 ## Periodi di Preavviso
 
 Il periodo di preavviso che devi dare prima di lasciare il CERN varia a seconda del tipo di contratto. I **membri del personale (staff)** devono generalmente dare un **preavviso di 3 mesi** prima della data di partenza. I **fellow** di solito lavorano fino alla scadenza del loro contratto a tempo determinato, sebbene sia possibile una cessazione anticipata con il preavviso appropriato. Gli **studenti** terminano analogamente la loro associazione alla scadenza del contratto.
+
+**Periodo di grazia:** Al termine del contratto, un periodo di grazia di **2 mesi per il personale** (2 settimane per gli stagisti) è concesso automaticamente. Questo periodo ti consente di organizzare la tua partenza, cercare un nuovo alloggio o gestire altre questioni logistiche legate alla cessazione del rapporto di lavoro.
 
 Controlla sempre il tuo contratto individuale e le **Regole e Regolamenti del Personale del CERN** per i requisiti esatti di preavviso applicabili alla tua situazione. Si raccomanda vivamente di informare il tuo **supervisore e il dipartimento HR** con largo anticipo, affinché possano pianificare la tua transizione e aiutarti nel processo di partenza.
 
@@ -43,7 +45,7 @@ Il CERN può fornire un **certificato di copertura precedente**, che potrebbe es
 
 ## Cancellazione Anagrafica
 
-Se hai vissuto **in Svizzera**, devi cancellarti dal tuo comune (*signaler un départ*) prima di partire. Recati presso l'ufficio comunale con la data di partenza e l'indirizzo di inoltro. Se hai vissuto **in Francia**, notifica la mairie (municipio) se ti eri registrato.
+Se hai vissuto **in Svizzera**, devi cancellarti dal tuo comune (_signaler un départ_) prima di partire. Recati presso l'ufficio comunale con la data di partenza e l'indirizzo di inoltro. Se hai vissuto **in Francia**, notifica la mairie (municipio) se ti eri registrato.
 
 Inoltre, ricorda di **aggiornare il tuo indirizzo** presso banche, compagnie assicurative, fornitori di servizi e abbonamenti. Chiudi o reindirizza i tuoi **conti bancari** secondo necessità e assicurati che gli addebiti diretti o i bonifici periodici siano annullati o trasferiti.
 

@@ -1,12 +1,12 @@
 ---
-title: "FAQ - CERN Starter Pack"
-description: "Domande frequenti per i nuovi dipendenti CERN: tessere di accesso, account informatici, assicurazione sanitaria, alloggio, trasporti e basi IT."
+title: 'FAQ - CERN Starter Pack'
+description: 'Domande frequenti per i nuovi dipendenti CERN: tessere di accesso, account informatici, assicurazione sanitaria, alloggio, trasporti e basi IT.'
 og:
-  title: "FAQ - CERN Starter Pack"
-  description: "Domande frequenti per i nuovi dipendenti CERN: tessere di accesso, account informatici, assicurazione sanitaria, alloggio, trasporti e basi IT."
+  title: 'FAQ - CERN Starter Pack'
+  description: 'Domande frequenti per i nuovi dipendenti CERN: tessere di accesso, account informatici, assicurazione sanitaria, alloggio, trasporti e basi IT.'
 breadcrumbs:
-  - { label: "Home", url: "/it/" }
-  - { label: "FAQ" }
+  - { label: 'Home', url: '/it/' }
+  - { label: 'FAQ' }
 ---
 
 # Domande frequenti
@@ -15,7 +15,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Dove ritiro la mia tessera di accesso CERN?</summary>
-<p>La tessera di accesso CERN si ritira alla Reception del CERN (Edificio 33). Portate il passaporto o la carta d'identità e la documentazione contrattuale. L'Ufficio Utenti vi guiderà nella procedura durante il primo giorno. Consultate la <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Admin e-Guide</a> per i dettagli.</p>
+<p>La tessera di accesso CERN si ritira alla Reception del CERN (Edificio 55). Portate il passaporto o la carta d'identità e la documentazione contrattuale. L'Ufficio Utenti vi guiderà nella procedura durante il primo giorno. Consultate la <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Admin e-Guide</a> per i dettagli.</p>
 </details>
 
 <details class="faq-item">

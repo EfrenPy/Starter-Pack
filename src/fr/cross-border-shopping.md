@@ -1,13 +1,13 @@
 ---
-title: "Shopping transfrontalier près du CERN - CERN Starter Pack"
-description: "Guide du shopping transfrontalier pour les employés du CERN : supermarchés français et suisses, douanes, détaxe, marchés et astuces pour économiser."
+title: 'Shopping transfrontalier près du CERN - CERN Starter Pack'
+description: 'Guide du shopping transfrontalier pour les employés du CERN : supermarchés français et suisses, douanes, détaxe, marchés et astuces pour économiser.'
 og:
-  title: "Shopping transfrontalier près du CERN - CERN Starter Pack"
-  description: "Guide pratique du shopping transfrontalier près du CERN : supermarchés, douanes, détaxe, marchés et conseils."
+  title: 'Shopping transfrontalier près du CERN - CERN Starter Pack'
+  description: 'Guide pratique du shopping transfrontalier près du CERN : supermarchés, douanes, détaxe, marchés et conseils.'
 breadcrumbs:
-  - { label: "Accueil", url: "/fr/" }
-  - { label: "Vie quotidienne", url: "/fr/daily-life-hub/" }
-  - { label: "Shopping transfrontalier" }
+  - { label: 'Accueil', url: '/fr/' }
+  - { label: 'Vie quotidienne', url: '/fr/daily-life-hub/' }
+  - { label: 'Shopping transfrontalier' }
 ---
 
 # Shopping transfrontalier près du CERN
@@ -35,9 +35,9 @@ Pour des courses hebdomadaires typiques, vous pouvez économiser **CHF 50 à 100
 
 ## Douanes & Détaxe
 
-Pour l'importation de marchandises de France en Suisse pour usage personnel, il y a une **limite de CHF 300** par personne par jour. Les résidents suisses peuvent également demander un **remboursement de TVA (détaxe)** sur les achats effectués en France au-dessus d'un certain seuil.
+Pour l'importation de marchandise de France en Suisse pour usage personnel, il y a une **limite de CHF 150** par personne par jour (réduite en janvier 2025). Les résidents suisses peuvent également demander un **remboursement de TVA (détaxe)** sur les achats effectués en France au-dessus d'un certain seuil.
 
-Des limites spécifiques s'appliquent : **1 kg de viande**, 1 kg de beurre, 5 litres de vin et 1 litre de spiritueux par personne par jour.
+Des limites spécifiques s'appliquent : **1 kg de viande**, 250 grammes de beurre, 5 litres de vin et 1 litre de spiritueux par personne par jour.
 
 ## Horaires du dimanche et jours fériés
 

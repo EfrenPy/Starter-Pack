@@ -1,13 +1,13 @@
 ---
-title: "Vehicles & Green Plates at CERN - CERN Starter Pack"
-description: "Guide to vehicles and green plates at CERN: CD plates, tax-free purchase, driving license, insurance, and parking."
+title: 'Vehicles & Green Plates at CERN - CERN Starter Pack'
+description: 'Guide to vehicles and green plates at CERN: CD plates, tax-free purchase, driving license, insurance, and parking.'
 og:
-  title: "Vehicles & Green Plates at CERN - CERN Starter Pack"
-  description: "Guide to vehicles and green plates at CERN: CD plates, tax-free purchase, driving license, insurance, and parking."
+  title: 'Vehicles & Green Plates at CERN - CERN Starter Pack'
+  description: 'Guide to vehicles and green plates at CERN: CD plates, tax-free purchase, driving license, insurance, and parking.'
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Daily Life", url: "/en/daily-life-hub/" }
-  - { label: "Vehicles & Green Plates" }
+  - { label: 'Home', url: '/en/' }
+  - { label: 'Daily Life', url: '/en/daily-life-hub/' }
+  - { label: 'Vehicles & Green Plates' }
 ---
 
 # Vehicles & Green Plates at CERN
@@ -31,7 +31,7 @@ The key documents you will need include your original vehicle registration certi
 
 ## Buying a Car in Switzerland
 
-With green plates you can purchase a new car in Switzerland **without paying TVA** (currently 7.7%), which can save thousands of francs. Simply choose your vehicle at a Swiss dealership and let them know you will register with green plates — the dealer will prepare the invoice without TVA, and CERN's Host States Relations service handles the registration paperwork.
+With green plates you can purchase a new car in Switzerland **without paying TVA** (currently **8.1%**), which can save thousands of francs. Simply choose your vehicle at a Swiss dealership and let them know you will register with green plates — the dealer will prepare the invoice without TVA, and CERN's Host States Relations service handles the registration paperwork.
 
 To complete the registration, submit your purchase invoice and insurance certificate to Host States Relations. They will process the green plate registration with the Swiss authorities, and you will receive your plates and vehicle registration document. Most major Swiss dealerships are familiar with this process, and some near CERN in the Geneva area even have **dedicated staff** for international organisation registrations.
 
@@ -49,7 +49,7 @@ If you live in France and hold a **non-EU license**, you may also need to exchan
 
 ## Insurance
 
-**Third-party liability insurance** (*responsabilite civile*) is mandatory in both Switzerland and France — you simply cannot register a vehicle without proof of coverage. CERN has negotiated **group insurance rates** with several providers, so check with the Staff Association or Host States Relations for current offers, as they can be significantly cheaper than individual quotes.
+**Third-party liability insurance** (_responsabilite civile_) is mandatory in both Switzerland and France — you simply cannot register a vehicle without proof of coverage. CERN has negotiated **group insurance rates** with several providers, so check with the Staff Association or Host States Relations for current offers, as they can be significantly cheaper than individual quotes.
 
 The type of insurance you need depends on your registration: **Swiss insurance** for green-plated vehicles and **French insurance** for cars with a carte grise. You may also want to consider joining the **Touring Club Suisse (TCS)** for roadside assistance, legal protection, and travel insurance — CERN staff often benefit from discounted membership rates.
 

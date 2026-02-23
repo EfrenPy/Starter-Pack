@@ -25,9 +25,9 @@ Vous pouvez rejoindre le CERN en bus public, navette CERN, vélo, voiture ou tra
 
 ## Transports en commun (TPG)
 
-La ligne de bus la plus importante pour les employés du CERN est le **bus 68**, qui circule du centre-ville de Genève (Rive) à travers Meyrin jusqu’à l’arrêt CERN toutes les 10 à 15 minutes aux heures de pointe. Encore plus rapide, le **tram 18** circule de Plan-les-Ouates à travers Genève jusqu’au CERN comme terminus, ce qui en fait le lien de transport public le plus rapide entre le centre de Genève et le CERN, soit environ 25 minutes depuis la gare de Cornavin.
+La ligne de bus la plus importante pour les employés du CERN est le **bus 68**, qui circule du centre-ville de Genève (Rive) à travers Meyrin jusqu’à l’arrêt CERN toutes les 10 à 15 minutes aux heures de pointe. Pour les employés travaillant sur le site de Prévessin, la **ligne 66** relie également Meyrin à Prévessin. Encore plus rapide, le **tram 18** circule de Plan-les-Ouates à travers Genève jusqu’au CERN comme terminus, ce qui en fait le lien de transport public le plus rapide entre le centre de Genève et le CERN, soit environ 25 minutes depuis la gare de Cornavin.
 
-La région genevoise utilise le **système tarifaire Unireso**, et un abonnement mensuel coûte environ CHF 70, couvrant tous les bus TPG, trams et trains locaux dans les zones sélectionnées. Les billets peuvent être achetés via l’**application TPG** (recommandée), aux distributeurs automatiques des arrêts principaux, ou à bord avec un supplément. Le paiement sans contact est accepté sur certaines machines.
+La région genevoise utilise le **système tarifaire Unireso**, et un abonnement mensuel coûte CHF 70-86, couvrant tous les bus TPG, trams et trains locaux dans les zones sélectionnées. Les billets peuvent être achetés via l’**application TPG** (recommandée), aux distributeurs automatiques des arrêts principaux, ou à bord avec un supplément. Le paiement sans contact est accepté sur certaines machines.
 
 ## Navette CERN
 
@@ -43,7 +43,7 @@ Genève propose des **services de vélos en libre-service** comme Donkey Republi
 
 Le stationnement est disponible sur les deux sites du CERN mais peut être limité, surtout à Meyrin aux heures de pointe, et une **carte d’accès CERN** est requise pour les barrières de parking. De nombreux employés résidant en France font le trajet en voiture par le passage frontalier près du CERN (Entrée E), qui est généralement rapide mais peut connaître des ralentissements aux heures de pointe.
 
-Une **vignette autoroutière française** n’est pas nécessaire pour les routes locales dans le Pays de Gex et n’est requise que pour les autoroutes plus éloignées. La **vignette autoroutière suisse** coûte CHF 40 par an et est obligatoire pour emprunter les autoroutes suisses. Elle est disponible aux passages frontaliers, dans les bureaux de poste et dans les stations-service.
+Une **vignette autoroutière française** n’est pas nécessaire pour les routes locales dans le Pays de Gex et n’est requise que pour les autoroutes plus éloignées. La **vignette autoroutière suisse** coûte CHF 40 par an et est obligatoire pour emprunter les autoroutes suisses. Elle est valable du 1er décembre au 31 janvier et est disponible aux passages frontaliers, dans les bureaux de poste et dans les stations-service.
 
 ## Trains régionaux
 

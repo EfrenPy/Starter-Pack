@@ -1,12 +1,12 @@
 ---
-title: "FAQ - CERN Starter Pack"
+title: 'FAQ - CERN Starter Pack'
 description: "Questions fréquemment posées pour les nouveaux employés du CERN : cartes d'accès, comptes informatiques, assurance maladie, logement, transport et bases informatiques."
 og:
-  title: "FAQ - CERN Starter Pack"
+  title: 'FAQ - CERN Starter Pack'
   description: "Questions fréquemment posées pour les nouveaux employés du CERN : cartes d'accès, comptes informatiques, assurance maladie, logement, transport et bases informatiques."
 breadcrumbs:
-  - { label: "Accueil", url: "/fr/" }
-  - { label: "FAQ" }
+  - { label: 'Accueil', url: '/fr/' }
+  - { label: 'FAQ' }
 ---
 
 # Questions Fréquemment Posées
@@ -15,7 +15,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Où récupérer ma carte d'accès CERN ?</summary>
-<p>Votre carte d'accès CERN se récupère à la Réception du CERN (Bâtiment 33). Apportez votre passeport ou carte d'identité nationale et votre documentation contractuelle. Le Bureau des Utilisateurs vous guidera dans le processus lors de votre premier jour. Consultez le <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">Guide administratif du CERN</a> pour plus de détails.</p>
+<p>Votre carte d'accès CERN se récupère à la Réception du CERN (Bâtiment 55). Apportez votre passeport ou carte d'identité nationale et votre documentation contractuelle. Le Bureau des Utilisateurs vous guidera dans le processus lors de votre premier jour. Consultez le <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">Guide administratif du CERN</a> pour plus de détails.</p>
 </details>
 
 <details class="faq-item">

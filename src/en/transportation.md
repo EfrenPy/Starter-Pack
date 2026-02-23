@@ -1,13 +1,13 @@
 ---
-title: "Transportation Near CERN - CERN Starter Pack"
-description: "Transportation guide for CERN employees: public transport, CERN shuttle, cycling, driving, regional trains, and getting from Geneva airport."
+title: 'Transportation Near CERN - CERN Starter Pack'
+description: 'Transportation guide for CERN employees: public transport, CERN shuttle, cycling, driving, regional trains, and getting from Geneva airport.'
 og:
-  title: "Transportation Near CERN - CERN Starter Pack"
-  description: "Practical guide to getting around near CERN: TPG buses, CERN shuttle, cycling, driving, and regional trains."
+  title: 'Transportation Near CERN - CERN Starter Pack'
+  description: 'Practical guide to getting around near CERN: TPG buses, CERN shuttle, cycling, driving, and regional trains.'
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Daily Life", url: "/en/daily-life-hub/" }
-  - { label: "Transportation" }
+  - { label: 'Home', url: '/en/' }
+  - { label: 'Daily Life', url: '/en/daily-life-hub/' }
+  - { label: 'Transportation' }
 ---
 
 # Transportation Near CERN
@@ -25,9 +25,9 @@ You can reach CERN by public bus, CERN shuttle, bicycle, car, or regional train 
 
 ## Public Transport (TPG)
 
-The most important bus line for CERN employees is **bus 68**, which runs from Geneva city centre (Rive) through Meyrin to the CERN stop every 10 to 15 minutes during peak hours. Even faster is **tram 18**, which runs from Plan-les-Ouates through Geneva to CERN as its terminus, making it the quickest public transport link between Geneva centre and CERN at about 25 minutes from Cornavin station.
+The most important bus line for CERN employees is **bus 68**, which runs from Geneva city centre (Rive) through Meyrin to the CERN stop every 10 to 15 minutes during peak hours. **Bus 66** also serves the CERN Prevessin site (added in February 2023). Even faster is **tram 18**, which runs from Plan-les-Ouates through Geneva to CERN as its terminus, making it the quickest public transport link between Geneva centre and CERN at about 25 minutes from Cornavin station.
 
-The Geneva area uses the **Unireso fare system**, and a monthly pass costs approximately CHF 70, covering all TPG buses, trams, and local trains within your selected zones. Tickets can be purchased via the **TPG app** (recommended), at ticket machines at major stops, or on board with a surcharge. Contactless payment is accepted on some machines.
+The Geneva area uses the **Unireso fare system**, and a monthly pass costs approximately **CHF 70-86**, covering all TPG buses, trams, and local trains within your selected zones. Tickets can be purchased via the **TPG app** (recommended), at ticket machines at major stops, or on board with a surcharge. Contactless payment is accepted on some machines.
 
 ## CERN Shuttle
 
@@ -43,7 +43,7 @@ Geneva offers **bike-sharing services** such as Donkey Republic, with stations n
 
 Parking is available at both CERN sites but can be limited, especially at Meyrin during peak hours, and a **CERN access card** is required for the parking barriers. Many employees living in France commute by car through the border crossing near CERN (Entrance E), which is usually quick but can have delays during rush hour.
 
-A **French motorway vignette** is not needed for local roads in the Pays de Gex area and is only required for motorways further afield. The **Swiss motorway vignette** costs CHF 40 per year and is mandatory for using Swiss motorways. It is available at border crossings, post offices, and petrol stations.
+A **French motorway vignette** is not needed for local roads in the Pays de Gex area and is only required for motorways further afield. The **Swiss motorway vignette** costs CHF 40 per year (valid from December 1 to January 31 of the following year) and is mandatory for using Swiss motorways. It is available at border crossings, post offices, and petrol stations.
 
 ## Regional Trains
 

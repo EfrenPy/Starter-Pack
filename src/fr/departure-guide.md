@@ -1,13 +1,13 @@
 ---
-title: "Guide de Départ - CERN Starter Pack"
-description: "Guide complet pour quitter le CERN : délais de préavis, procédure de clearance, options de pension, assurance maladie, désinscription et logistique de déménagement."
+title: 'Guide de Départ - CERN Starter Pack'
+description: 'Guide complet pour quitter le CERN : délais de préavis, procédure de clearance, options de pension, assurance maladie, désinscription et logistique de déménagement.'
 og:
-  title: "Guide de Départ - CERN Starter Pack"
-  description: "Guide complet pour quitter le CERN : délais de préavis, procédure de clearance, options de pension, assurance maladie, désinscription et logistique de déménagement."
+  title: 'Guide de Départ - CERN Starter Pack'
+  description: 'Guide complet pour quitter le CERN : délais de préavis, procédure de clearance, options de pension, assurance maladie, désinscription et logistique de déménagement.'
 breadcrumbs:
-  - { label: "Accueil", url: "/fr/" }
-  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
-  - { label: "Guide de Départ" }
+  - { label: 'Accueil', url: '/fr/' }
+  - { label: 'Aide Juridique et Fiscale', url: '/fr/legal-hub/' }
+  - { label: 'Guide de Départ' }
 ---
 
 # Guide de Départ
@@ -22,6 +22,10 @@ breadcrumbs:
 Le délai de préavis que vous devez respecter avant de quitter le CERN varie selon votre type de contrat. Les **membres du personnel (staff)** doivent généralement donner un **préavis de 3 mois** avant leur date de départ. Les **fellows** travaillent habituellement jusqu'à la fin de leur contrat à durée déterminée, bien qu'une cessation anticipée soit possible avec un préavis adéquat. Les **étudiants** terminent de même leur association à l'expiration du contrat.
 
 Vérifiez toujours votre contrat individuel et les **Règles et Règlements du Personnel du CERN** pour connaître les exigences exactes de préavis applicables à votre situation. Il est fortement recommandé d'informer votre **superviseur et le département RH** bien à l'avance afin qu'ils puissent planifier votre transition et vous accompagner dans le processus de départ.
+
+## Délai de Grâce
+
+Upon termination, a **grace period of 2 months for personnel (2 weeks for interns)** is automatically granted. This allows you to remain in the CERN community and maintain certain benefits while transitioning to your next opportunity.
 
 ## Procédure de Clearance du CERN
 
@@ -43,7 +47,7 @@ Le CERN peut fournir un **certificat de couverture antérieure**, qui peut être
 
 ## Désinscription Administrative
 
-Si vous avez vécu **en Suisse**, vous devez vous désinscrire de votre commune (*signaler un d&eacute;part*) avant de partir. Rendez-vous à votre office communal avec votre date de départ et votre adresse de réexpédition. Si vous avez vécu **en France**, informez la mairie si vous y étiez inscrit.
+Si vous avez vécu **en Suisse**, vous devez vous désinscrire de votre commune (_signaler un d&eacute;part_) avant de partir. Rendez-vous à votre office communal avec votre date de départ et votre adresse de réexpédition. Si vous avez vécu **en France**, informez la mairie si vous y étiez inscrit.
 
 De plus, pensez à **mettre à jour votre adresse** auprès des banques, compagnies d'assurance, fournisseurs de services et abonnements. Fermez ou redirigez vos **comptes bancaires** si nécessaire, et assurez-vous que les prélèvements automatiques ou virements permanents sont annulés ou transférés.
 

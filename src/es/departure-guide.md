@@ -1,13 +1,13 @@
 ---
-title: "Guía de Salida - CERN Starter Pack"
-description: "Guía completa para dejar el CERN: periodos de preaviso, procedimiento de clearance, opciones de pensión, seguro médico, baja administrativa y logística de mudanza."
+title: 'Guía de Salida - CERN Starter Pack'
+description: 'Guía completa para dejar el CERN: periodos de preaviso, procedimiento de clearance, opciones de pensión, seguro médico, baja administrativa y logística de mudanza.'
 og:
-  title: "Guía de Salida - CERN Starter Pack"
-  description: "Guía completa para dejar el CERN: periodos de preaviso, procedimiento de clearance, opciones de pensión, seguro médico, baja administrativa y logística de mudanza."
+  title: 'Guía de Salida - CERN Starter Pack'
+  description: 'Guía completa para dejar el CERN: periodos de preaviso, procedimiento de clearance, opciones de pensión, seguro médico, baja administrativa y logística de mudanza.'
 breadcrumbs:
-  - { label: "Inicio", url: "/es/" }
-  - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }
-  - { label: "Guía de Salida" }
+  - { label: 'Inicio', url: '/es/' }
+  - { label: 'Ayuda Legal y Fiscal', url: '/es/legal-hub/' }
+  - { label: 'Guía de Salida' }
 ---
 
 # Guía de Salida
@@ -29,6 +29,10 @@ Antes de dejar el CERN, debes completar el **procedimiento oficial de clearance*
 
 En el aspecto financiero, se espera que **liquides cualquier obligación pendiente**, como multas de biblioteca, deudas del restaurante y cualquier otro saldo con el CERN. Una vez todo en orden, debes **completar el formulario oficial de clearance a través de EDH** (Electronic Document Handling), que se envía a todos los servicios relevantes para su aprobación. Asegúrate de iniciar este proceso con tiempo, ya que retrasos en cualquier paso pueden demorar tu liquidación final y certificado de salida.
 
+## Periodo de Gracia
+
+Al terminar el contrato, se otorga automáticamente un **periodo de gracia**: **dos meses para miembros del personal** y **dos semanas para internos**. Durante este periodo, la tarjeta de légitimation permanece válida, permitiéndote organizar tu salida o regularizar tu estancia en el país de acogida. Este periodo de gracia es automático y no requiere una solicitud separada.
+
 ## Opciones de Pensión
 
 Tus opciones de pensión al dejar el CERN dependen de tus **años de servicio**. Si has trabajado en el CERN durante **menos de 5 años**, recibirás un valor de transferencia en forma de suma global. Con **5 a 10 años** de servicio, puedes elegir entre una pensión diferida o transferir el valor al régimen de pensiones de tu nuevo empleador.
@@ -43,7 +47,7 @@ El CERN puede proporcionarte un **certificado de cobertura previa**, que puede s
 
 ## Baja Administrativa
 
-Si has estado **viviendo en Suiza**, debes darte de baja en tu comuna (*signaler un d&eacute;part*) antes de irte. Visita tu oficina comunal con tu fecha de salida y dirección de reenvío. Si has estado **viviendo en Francia**, notifica a la mairie (ayuntamiento) si te registraste allí.
+Si has estado **viviendo en Suiza**, debes darte de baja en tu comuna (_signaler un d&eacute;part_) antes de irte. Visita tu oficina comunal con tu fecha de salida y dirección de reenvío. Si has estado **viviendo en Francia**, notifica a la mairie (ayuntamiento) si te registraste allí.
 
 Además, recuerda **actualizar tu dirección** en bancos, compañías de seguros, suministros y servicios de suscripción. Cierra o redirige tus **cuentas bancarias** según sea necesario, y asegúrate de que las domiciliaciones o transferencias periódicas estén canceladas o transferidas.
 

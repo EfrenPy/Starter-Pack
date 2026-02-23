@@ -1,13 +1,13 @@
 ---
-title: "Avantages et Privilèges du CERN - CERN Starter Pack"
+title: 'Avantages et Privilèges du CERN - CERN Starter Pack'
 description: "Avantages et privilèges du personnel du CERN : fonds récréatif, achats hors taxes, réductions entreprise, cantine, indemnités de déplacement, bourse d'études et indemnité de relocalisation."
 og:
-  title: "Avantages et Privilèges du CERN - CERN Starter Pack"
+  title: 'Avantages et Privilèges du CERN - CERN Starter Pack'
   description: "Avantages et privilèges du personnel du CERN : fonds récréatif, achats hors taxes, réductions entreprise, cantine, indemnités de déplacement, bourse d'études et indemnité de relocalisation."
 breadcrumbs:
-  - { label: "Accueil", url: "/fr/" }
-  - { label: "Vie Quotidienne", url: "/fr/daily-life-hub/" }
-  - { label: "Avantages et Privilèges" }
+  - { label: 'Accueil', url: '/fr/' }
+  - { label: 'Vie Quotidienne', url: '/fr/daily-life-hub/' }
+  - { label: 'Avantages et Privilèges' }
 ---
 
 # Avantages et Privilèges du CERN
@@ -27,7 +27,7 @@ L'Association du Personnel organise également des événements plus importants 
 
 ## Achats Hors Taxes
 
-Les employés du CERN détenant une **carte de légitimation** peuvent effectuer des achats hors taxes sur certains articles de valeur élevée via le système d'approvisionnement du CERN, en évitant la TVA suisse (actuellement 7,7 %) et en réalisant des économies significatives. Les catégories les plus courantes incluent les **véhicules** (voir la page Véhicules et Plaques Vertes pour les détails), l'**électronique** (ordinateurs, téléphones, appareils photo) et l'**électroménager**. Les articles exacts et les conditions sont régis par les règles du DFAE suisse et les circulaires administratives du CERN.
+Les employés du CERN détenant une **carte de légitimation** peuvent effectuer des achats hors taxes sur certains articles de valeur élevée via le système d'approvisionnement du CERN, en évitant la TVA suisse (actuellement 8,1 %) et en réalisant des économies significatives. Les catégories les plus courantes incluent les **véhicules** (voir la page Véhicules et Plaques Vertes pour les détails), l'**électronique** (ordinateurs, téléphones, appareils photo) et l'**électroménager**. Les articles exacts et les conditions sont régis par les règles du DFAE suisse et les circulaires administratives du CERN.
 
 Pour effectuer un achat hors taxes, vous soumettez une demande via le bureau des achats du CERN avec les détails de l'article et du fournisseur. Le bureau vérifie votre éligibilité et traite la commande avec l'exonération de TVA appliquée. Il existe des **limites annuelles** sur la valeur des achats hors taxes, et les articles doivent être pour usage personnel — la revente de biens hors taxes est interdite et peut entraîner la perte de privilèges. Les produits électroniques d'Apple, Dell et d'autres fabricants sont des choix populaires, car les économies peuvent atteindre plusieurs centaines de francs sur un seul achat.
 

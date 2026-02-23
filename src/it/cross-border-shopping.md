@@ -1,13 +1,13 @@
 ---
-title: "Acquisti Transfrontalieri Vicino al CERN - CERN Starter Pack"
-description: "Guida agli acquisti transfrontalieri per i dipendenti del CERN: supermercati francesi e svizzeri, limiti doganali, acquisti duty-free, mercati e consigli per risparmiare."
+title: 'Acquisti Transfrontalieri Vicino al CERN - CERN Starter Pack'
+description: 'Guida agli acquisti transfrontalieri per i dipendenti del CERN: supermercati francesi e svizzeri, limiti doganali, acquisti duty-free, mercati e consigli per risparmiare.'
 og:
-  title: "Acquisti Transfrontalieri Vicino al CERN - CERN Starter Pack"
-  description: "Guida pratica agli acquisti transfrontalieri vicino al CERN: supermercati, dogana, duty-free, mercati e consigli per risparmiare."
+  title: 'Acquisti Transfrontalieri Vicino al CERN - CERN Starter Pack'
+  description: 'Guida pratica agli acquisti transfrontalieri vicino al CERN: supermercati, dogana, duty-free, mercati e consigli per risparmiare.'
 breadcrumbs:
-  - { label: "Home", url: "/it/" }
-  - { label: "Vita Quotidiana", url: "/it/daily-life-hub/" }
-  - { label: "Acquisti Transfrontalieri" }
+  - { label: 'Home', url: '/it/' }
+  - { label: 'Vita Quotidiana', url: '/it/daily-life-hub/' }
+  - { label: 'Acquisti Transfrontalieri' }
 ---
 
 # Acquisti Transfrontalieri Vicino al CERN
@@ -35,9 +35,9 @@ Per una spesa settimanale tipica, potresti risparmiare **da CHF 50 a 100** facen
 
 ## Dogana e Duty-Free
 
-Quando si importano merci dalla Francia alla Svizzera per uso personale, esiste un **limite di valore di CHF 300** per persona al giorno, al di sotto del quale non si applicano dazi doganali. Al valico di frontiera, usa il canale verde se non hai nulla da dichiarare (sotto il limite) e il canale rosso se lo superi o trasporti articoli soggetti a restrizioni. I residenti svizzeri possono anche richiedere un **rimborso IVA (détaxe)** sugli acquisti effettuati in Francia al di sopra di una certa soglia -- chiedi il modulo détaxe alla cassa del negozio e fallo timbrare alla dogana francese al confine.
+Quando si importano merci dalla Francia alla Svizzera per uso personale, esiste un **limite di valore di CHF 150** per persona al giorno, al di sotto del quale non si applicano dazi doganali. Al valico di frontiera, usa il canale verde se non hai nulla da dichiarare (sotto il limite) e il canale rosso se lo superi o trasporti articoli soggetti a restrizioni. I residenti svizzeri possono anche richiedere un **rimborso IVA (détaxe)** sugli acquisti effettuati in Francia al di sopra di una certa soglia -- chiedi il modulo détaxe alla cassa del negozio e fallo timbrare alla dogana francese al confine.
 
-Limiti specifici si applicano a determinati prodotti all'ingresso in Svizzera: **1 kg di carne**, 1 kg di burro, 5 litri di vino e 1 litro di superalcolici per persona al giorno. Le quantità superiori a questi limiti sono soggette a dazi.
+Limiti specifici si applicano a determinati prodotti all'ingresso in Svizzera: **1 kg di carne**, 250 grammi di burro, 5 litri di vino e 1 litro di superalcolici per persona al giorno. Le quantità superiori a questi limiti sono soggette a dazi.
 
 ## Orari Domenicali e Festivi
 

@@ -1,13 +1,13 @@
 ---
-title: "Parental Leave at CERN - CERN Starter Pack"
-description: "Maternity, paternity, and parental leave at CERN: leave duration, income replacement, how to request leave, health insurance during leave, and childcare planning."
+title: 'Parental Leave at CERN - CERN Starter Pack'
+description: 'Maternity, paternity, and parental leave at CERN: leave duration, income replacement, how to request leave, health insurance during leave, and childcare planning.'
 og:
-  title: "Parental Leave at CERN - CERN Starter Pack"
-  description: "Maternity, paternity, and parental leave at CERN: leave duration, income replacement, how to request leave, health insurance during leave, and childcare planning."
+  title: 'Parental Leave at CERN - CERN Starter Pack'
+  description: 'Maternity, paternity, and parental leave at CERN: leave duration, income replacement, how to request leave, health insurance during leave, and childcare planning.'
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
-  - { label: "Parental Leave" }
+  - { label: 'Home', url: '/en/' }
+  - { label: 'Legal & Tax Help', url: '/en/legal-hub/' }
+  - { label: 'Parental Leave' }
 ---
 
 # Parental Leave at CERN
@@ -21,13 +21,18 @@ Becoming a parent while working at CERN is a significant life event, and the org
 
 ## Maternity Leave
 
-CERN provides **16 weeks of maternity leave** for staff members, which can begin up to six weeks before the expected due date and must include at least ten weeks after delivery. During maternity leave, the employee receives **full salary replacement**, meaning there is no reduction in income during the leave period. The leave is granted automatically once the expected due date is communicated to HR, though it is recommended to notify your supervisor and HR department as early as practical — ideally by the end of the first trimester.
+CERN provides **16 weeks of maternity leave** for staff members for a first child, which can begin up to six weeks before the expected due date and must include at least ten weeks after delivery. For the **second child and beyond**, maternity leave is **19 weeks**. During maternity leave, the employee receives **full salary replacement**, meaning there is no reduction in income during the leave period.
+
+**New: Easy Extension for Breastfeeding (February 2026)**
+You can now extend your maternity leave by **up to four additional weeks** to facilitate breastfeeding simply by asking — a medical certificate is no longer needed. To extend your leave, contact your group or departmental secretariat, who will register it in EDH on your behalf.
+
+The leave is granted automatically once the expected due date is communicated to HR, though it is recommended to notify your supervisor and HR department as early as practical — ideally by the end of the first trimester.
 
 To initiate maternity leave, submit a **medical certificate** confirming the expected due date through the EDH (Electronic Document Handling) system. HR will then confirm your leave dates and salary continuation. If medical complications require you to stop work earlier than planned, additional sick leave provisions may apply — contact the CERN Medical Service for guidance. After delivery, you must provide a **birth certificate** to HR to finalise the administrative process and activate any family allowances.
 
-## Paternity Leave
+## Co-Parenting Leave
 
-CERN grants **10 working days of paternity leave** to be taken within a reasonable period following the birth or adoption of a child. This leave is at full pay and does not reduce annual leave entitlement. It can be taken in a single block or split into separate periods, depending on your arrangement with your supervisor. To request paternity leave, submit the request through EDH and provide a birth certificate or adoption documentation once available.
+CERN grants **10 working days of co-parenting leave** (formerly paternity leave) to be taken within a reasonable period following the birth or adoption of a child. This leave is at full pay and does not reduce annual leave entitlement. It can be taken in a single block or split into separate periods, depending on your arrangement with your supervisor. To request co-parenting leave, submit the request through EDH and provide a birth certificate or adoption documentation once available.
 
 While 10 days is the formal entitlement, some supervisors are flexible about additional arrangements such as taking annual leave or teleworking in the weeks after the birth. Discuss your plans openly with your supervisor well in advance to find an approach that works for both your family and your team.
 

@@ -1,13 +1,13 @@
 ---
-title: "Departure Guide - CERN Starter Pack"
-description: "Complete guide for leaving CERN: notice periods, clearance procedure, pension options, health insurance, deregistration, and moving logistics."
+title: 'Departure Guide - CERN Starter Pack'
+description: 'Complete guide for leaving CERN: notice periods, clearance procedure, pension options, health insurance, deregistration, and moving logistics.'
 og:
-  title: "Departure Guide - CERN Starter Pack"
-  description: "Complete guide for leaving CERN: notice periods, clearance procedure, pension options, health insurance, deregistration, and moving logistics."
+  title: 'Departure Guide - CERN Starter Pack'
+  description: 'Complete guide for leaving CERN: notice periods, clearance procedure, pension options, health insurance, deregistration, and moving logistics.'
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
-  - { label: "Departure Guide" }
+  - { label: 'Home', url: '/en/' }
+  - { label: 'Legal & Tax Help', url: '/en/legal-hub/' }
+  - { label: 'Departure Guide' }
 ---
 
 # Departure Guide
@@ -29,6 +29,10 @@ Before leaving CERN, you must complete the official **clearance procedure**, whi
 
 On the financial side, you are expected to **settle any outstanding obligations** such as library fines, restaurant debts, and any other balances owed to CERN. Once everything is in order, you complete the **official clearance form via EDH** (Electronic Document Handling), which is then routed to all relevant services for sign-off. Make sure to start this process early, as delays in any single step can hold up your final settlement and departure certificate.
 
+## Grace Period
+
+Upon termination of contract, a **grace period is automatically granted**: **two months for members of personnel** and **two weeks for interns**. During this period, the legitimation card remains valid, allowing you time to organize your departure or regularize your stay in the host country. This grace period is automatic and does not require a separate application.
+
 ## Pension Options
 
 Your pension options upon leaving CERN depend on your **years of service**. If you have worked at CERN for **fewer than 5 years**, you will receive a lump-sum transfer value. With **5 to 10 years** of service, you can choose between a deferred pension or transferring the value to a new employer's pension scheme.
@@ -43,7 +47,7 @@ CERN can provide a **certificate of prior coverage**, which may be required by y
 
 ## Deregistration
 
-If you have been **living in Switzerland**, you must deregister from your commune (*signaler un d&eacute;part*) before leaving. Visit your local commune office with your departure date and forwarding address. If you have been **living in France**, notify the mairie (town hall) if you registered there.
+If you have been **living in Switzerland**, you must deregister from your commune (_signaler un d&eacute;part_) before leaving. Visit your local commune office with your departure date and forwarding address. If you have been **living in France**, notify the mairie (town hall) if you registered there.
 
 Additionally, remember to **update your address** with banks, insurance providers, utilities, and any subscription services. Close or redirect your **bank accounts** as needed, and ensure any standing orders or direct debits are cancelled or transferred.
 

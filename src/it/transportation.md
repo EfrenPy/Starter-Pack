@@ -1,13 +1,13 @@
 ---
-title: "Trasporti vicino al CERN - CERN Starter Pack"
+title: 'Trasporti vicino al CERN - CERN Starter Pack'
 description: "Guida ai trasporti per i dipendenti CERN: trasporto pubblico, navetta CERN, bicicletta, auto, treni regionali e come arrivare dall'aeroporto di Ginevra."
 og:
-  title: "Trasporti vicino al CERN - CERN Starter Pack"
-  description: "Guida pratica per spostarsi vicino al CERN: autobus TPG, navetta CERN, bicicletta, auto e treni regionali."
+  title: 'Trasporti vicino al CERN - CERN Starter Pack'
+  description: 'Guida pratica per spostarsi vicino al CERN: autobus TPG, navetta CERN, bicicletta, auto e treni regionali.'
 breadcrumbs:
-  - { label: "Home", url: "/it/" }
-  - { label: "Vita quotidiana", url: "/it/daily-life-hub/" }
-  - { label: "Trasporti" }
+  - { label: 'Home', url: '/it/' }
+  - { label: 'Vita quotidiana', url: '/it/daily-life-hub/' }
+  - { label: 'Trasporti' }
 ---
 
 # Trasporti vicino al CERN
@@ -25,9 +25,9 @@ Potete raggiungere il CERN con autobus pubblico, navetta CERN, bicicletta, auto 
 
 ## Trasporto pubblico (TPG)
 
-La linea di autobus più importante per i dipendenti CERN è il **bus 68**, che collega il centro di Ginevra (Rive) attraverso Meyrin alla fermata CERN ogni 10-15 minuti nelle ore di punta. Ancora più veloce è il **tram 18**, che va da Plan-les-Ouates attraverso Ginevra fino al CERN come capolinea, rendendolo il collegamento di trasporto pubblico più rapido tra il centro di Ginevra e il CERN con circa 25 minuti dalla stazione Cornavin.
+La linea di autobus più importante per i dipendenti CERN è il **bus 68**, che collega il centro di Ginevra (Rive) attraverso Meyrin alla fermata CERN ogni 10-15 minuti nelle ore di punta. La **linea 66** collega direttamente Prévessin al CERN e a Meyrin, utile per chi vive sul lato francese. Ancora più veloce è il **tram 18**, che va da Plan-les-Ouates attraverso Ginevra fino al CERN come capolinea, rendendolo il collegamento di trasporto pubblico più rapido tra il centro di Ginevra e il CERN con circa 25 minuti dalla stazione Cornavin.
 
-L'area di Ginevra utilizza il **sistema tariffario Unireso**, e un abbonamento mensile costa circa CHF 70, coprendo tutti gli autobus e tram TPG e i treni locali nelle zone selezionate. I biglietti possono essere acquistati tramite l'**app TPG** (consigliata), alle emettitrici automatiche alle fermate principali o a bordo con supplemento. Il pagamento contactless è accettato su alcune emettitrici.
+L'area di Ginevra utilizza il **sistema tariffario Unireso**, e un abbonamento mensile costa tra **CHF 70 e CHF 86**, coprendo tutti gli autobus e tram TPG e i treni locali nelle zone selezionate. I biglietti possono essere acquistati tramite l'**app TPG** (consigliata), alle emettitrici automatiche alle fermate principali o a bordo con supplemento. Il pagamento contactless è accettato su alcune emettitrici.
 
 ## Navetta CERN
 
@@ -43,7 +43,7 @@ Ginevra offre **servizi di bike-sharing** come Donkey Republic, con stazioni vic
 
 Il parcheggio è disponibile in entrambi i siti CERN ma può essere limitato, soprattutto a Meyrin nelle ore di punta, e una **tessera di accesso CERN** è necessaria per le sbarre del parcheggio. Molti dipendenti che vivono in Francia si spostano in auto attraverso il valico di frontiera vicino al CERN (Ingresso E), che è solitamente rapido ma può avere ritardi nelle ore di punta.
 
-La **vignetta autostradale francese** non è necessaria per le strade locali nella zona del Pays de Gex ed è richiesta solo per le autostrade più lontane. La **vignetta autostradale svizzera** costa CHF 40 all'anno ed è obbligatoria per utilizzare le autostrade svizzere. È disponibile ai valichi di frontiera, negli uffici postali e nelle stazioni di servizio.
+La **vignetta autostradale francese** non è necessaria per le strade locali nella zona del Pays de Gex ed è richiesta solo per le autostrade più lontane. La **vignetta autostradale svizzera** costa CHF 40 all'anno ed è obbligatoria per utilizzare le autostrade svizzere. È valida dal 1° dicembre al 31 gennaio (dal 1° dicembre dell'anno precedente al 31 gennaio dell'anno successivo). È disponibile ai valichi di frontiera, negli uffici postali e nelle stazioni di servizio.
 
 ## Treni regionali
 

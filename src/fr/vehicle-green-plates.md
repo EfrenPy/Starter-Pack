@@ -1,13 +1,13 @@
 ---
-title: "Véhicules et plaques vertes au CERN - CERN Starter Pack"
-description: "Guide sur les véhicules et les plaques vertes au CERN : plaques CD, achat hors taxe, permis de conduire, assurance et stationnement."
+title: 'Véhicules et plaques vertes au CERN - CERN Starter Pack'
+description: 'Guide sur les véhicules et les plaques vertes au CERN : plaques CD, achat hors taxe, permis de conduire, assurance et stationnement.'
 og:
-  title: "Véhicules et plaques vertes au CERN - CERN Starter Pack"
-  description: "Guide sur les véhicules et les plaques vertes au CERN : plaques CD, achat hors taxe, permis de conduire, assurance et stationnement."
+  title: 'Véhicules et plaques vertes au CERN - CERN Starter Pack'
+  description: 'Guide sur les véhicules et les plaques vertes au CERN : plaques CD, achat hors taxe, permis de conduire, assurance et stationnement.'
 breadcrumbs:
-  - { label: "Accueil", url: "/fr/" }
-  - { label: "Vie Quotidienne", url: "/fr/daily-life-hub/" }
-  - { label: "Véhicules et plaques vertes" }
+  - { label: 'Accueil', url: '/fr/' }
+  - { label: 'Vie Quotidienne', url: '/fr/daily-life-hub/' }
+  - { label: 'Véhicules et plaques vertes' }
 ---
 
 # Véhicules et plaques vertes au CERN
@@ -31,7 +31,7 @@ Les documents clés dont vous aurez besoin comprennent votre certificat d’imma
 
 ## Acheter une voiture en Suisse
 
-Avec les plaques vertes, vous pouvez acheter une voiture neuve en Suisse **sans payer la TVA** (actuellement 7,7 %), ce qui peut vous faire économiser des milliers de francs. Choisissez simplement votre véhicule chez un concessionnaire suisse et informez-le que vous l’immatriculerez avec des plaques vertes — le concessionnaire préparera la facture hors TVA, et le service Relations avec les États hôtes du CERN s’occupe des formalités d’immatriculation.
+Avec les plaques vertes, vous pouvez acheter une voiture neuve en Suisse **sans payer la TVA** (actuellement 8,1 %), ce qui peut vous faire économiser des milliers de francs. Choisissez simplement votre véhicule chez un concessionnaire suisse et informez-le que vous l’immatriculerez avec des plaques vertes — le concessionnaire préparera la facture hors TVA, et le service Relations avec les États hôtes du CERN s’occupe des formalités d’immatriculation.
 
 Pour finaliser l’immatriculation, soumettez votre facture d’achat et votre certificat d’assurance au service Relations avec les États hôtes. Ils traiteront l’immatriculation aux plaques vertes auprès des autorités suisses, et vous recevrez vos plaques et votre certificat d’immatriculation. La plupart des grands concessionnaires suisses connaissent cette procédure, et certains près du CERN dans la région genevoise disposent même de **personnel dédié** pour les immatriculations d’organisations internationales.
 
