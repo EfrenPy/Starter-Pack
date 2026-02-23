@@ -1,6 +1,10 @@
 # Custom 404 page
 ErrorDocument 404 /404.html
 
+# 301 redirect from root to /en/
+RewriteEngine On
+RewriteRule ^/?$ /en/ [R=301,L]
+
 # Security headers
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"

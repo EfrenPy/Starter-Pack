@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-Disallow: /beginning.html
+Disallow: */search/
 
 Sitemap: https://starter-pack.efrenrodriguezrodriguez.com/sitemap.xml
