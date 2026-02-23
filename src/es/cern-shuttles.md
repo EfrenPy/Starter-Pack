@@ -13,72 +13,101 @@ breadcrumbs:
 # Servicio de Lanzaderas del CERN
 
 <div class="alert">
-<strong>ℹ️ Importante</strong><br>
-<p>Debes tener un badge de acceso válido al CERN para subir a las lanzaderas. Los conductores revisarán tu badge al subir. Si olvidas tu tarjeta, pide que te dejen en el Edificio 55 para los trámites de registro.</p>
+<strong>ℹ️ ¿Quién puede usar las lanzaderas?</strong><br>
+<p>El servicio de lanzaderas del CERN es gratuito para cualquiera con un badge de acceso válido al CERN. Esto incluye a personal, becarios, estudiantes, contratistas y visitantes con autorización adecuada. Tendrás que mostrar tu badge al subir — los conductores lo comprobán.</p>
 </div>
 
-## Descripción General
+## ¿Qué Son las Lanzaderas del CERN?
 
-El CERN opera un **servicio de lanzaderas gratuito** para todo el personal y visitantes con badges de acceso válidos. Las lanzaderas conectan los dos sitios principales del CERN (Meyrin en Suiza y Prévessin en Francia) así como ubicaciones clave dentro de cada sitio. El servicio funciona aproximadamente de **07:00 a 19:00** los días laborables, con lanzaderas cada 10-20 minutos dependiendo del circuito.
+El CERN opera varias rutas de autobuses internos (llamados "circuitos") que conectan diferentes partes de sus dos sitios principales: **Meyrin** (en Suiza, cerca de Ginebra) y **Prévessin** (en Francia). Piensa en ellas como un sistema de autobús interno gratuito que te ayuda a moverte por el enorme campus del CERN sin caminar o conducir.
 
-## Circuitos de Lanzadera
+Las lanzaderas funcionan de **lunes a viernes** (excluyendo los festivos oficiales del CERN) desde aproximadamente las **07:00 hasta las 19:00**. Las frecuencias varían según el circuito y la hora del día — durante las horas punta por la mañana y la noche, puedes esperar una lanzadera cada 10-15 minutos.
 
-### Circuito 1 - Meyrin (Interno)
+### Buenas Noticias para el Medio Ambiente
 
-Este circuito opera enteramente dentro del **sitio de Meyrin** y conecta los edificios principales, restaurantes y áreas de estacionamiento. Es especialmente útil para moverse entre diferentes partes del campus suizo durante la jornada laboral. La frecuencia es de aproximadamente cada 15 minutos durante las horas de trabajo.
+A partir del **1 de febrero de 2026**, ¡el CERN comenzó a transitar toda su flota de lanzaderas a **vehículos 100% eléctricos**! Esto forma parte del compromiso de CERN con operaciones sostenibles y bajas en carbono.
 
-### Circuito 2 - Prévessin via FH Schumann
+## Los Circuitos de Lanzadera
 
-El Circuito 2 conecta el **sitio de Meyrin con Prévessin**, pasando por el área de FH Schumann. Es uno de los circuitos más utilizados por los empleados que trabajan en ambos sitios o que viven en el lado francés. Funciona aproximadamente cada 15-20 minutos durante las horas pico.
+### Circuito 1 — Recorrido por Meyrin
 
-### Circuito 3 - Turnos LHC
+Esta es la lanzadera "local" que funciona **enteramente dentro del sitio de Meyrin**. Se detiene en los edificios principales, restaurantes, áreas de estacionamiento y lugares clave del campus suizo. Si tu oficina está en un edificio pero necesitas almorzar en R1 o asistir a una reunión en otro edificio, el Circuito 1 es tu amigo.
 
-Este circuito está diseñado específicamente para **trabajadores de turnos del LHC (Gran Colisionador de Hadrones)** y opera durante los períodos de turnos. Proporciona transporte hacia y desde las áreas experimentales del LHC y las salas de control, a menudo operando fuera del horario laboral estándar para acomodar los horarios de turnos.
+- **Frecuencia:** Cada ~15 minutos durante las horas de trabajo
+- **Mejor para:** Moverse dentro de Meyrin
 
-### Circuito 5 - Prévessin
+### Circuito 2 — Prévessin vía FH Schumann
 
-El Circuito 5 proporciona una conexión directa al **sitio de Prévessin**, sirviendo al lado francés del CERN. Es esencial para cuyos cuyo trabajo está principalmente basado en Prévessin, incluyendo muchas áreas experimentales y oficinas. La frecuencia es similar al Circuito 2.
+Esta es una de las rutas **más populares**, conectando los sitios de Meyrin y Prévessin a través del área de FH Schumann (cerca de la ciudad francesa de Saint-Genis-Pouilly). Muchos empleados viven en el lado francés y viajan entre sitios diariamente.
 
-## Paradas Principales
+- **Frecuencia:** Cada ~15-20 minutos durante las horas punta
+- **Mejor para:** Viajes transfronterizos, llegar a experimentos de Prévessin
 
-| Parada                | Descripción                                 |
-| --------------------- | ------------------------------------------- |
-| **Edificio 33**       | Recepción principal del CERN (Meyrin)       |
-| **Edificio 55**       | Oficina de Registro / Entrada de visitantes |
-| **Restaurante R1**    | Área de cafetería principal                 |
-| **Restaurante R2**    | Cafetería secundaria                        |
-| **Restaurante R3**    | Cerca del área de Teoría                    |
-| **Auditorio Baird**   | Área del Auditorio principal                |
-| **Entrada Prévessin** | Entrada del sitio francés                   |
+### Circuito 3 — Turnos LHC
 
-## Cómo Usar
+Esta es una ruta **especializada** para personas que trabajan en operaciones del LHC (Gran Colisionador de Hadrones). Funciona durante los períodos de turnos y conecta las áreas experimentales del LHC y las salas de control. El horario es diferente a los circuitos regulares — opera cuando comienzan y terminan los turnos.
 
-1. **Verifica que tu badge** sea válido antes de subir
-2. **Consulta el horario** en la página de movilidad del CERN o en las paradas principales
-3. **Haz señales al conductor** para que pare (las lanzaderas no siempre paran en todas las paradas si nadie está esperando)
-4. **Revisión del badge** - Ten tu tarjeta de acceso lista para inspección
+- **Frecuencia:** Vara según el horario de turnos
+- **Mejor para:** Trabajadores de turnos del LHC
 
-## Información en Tiempo Real
+### Circuito 5 — Meyrin-Prévessin Express ⭐ (Actualizado)
 
-- Consulta el **mapa de movilidad del CERN** en [gis-static.web.cern.ch/mapcern](https://gis-static.web.cern.ch/mapcern/mapcern-integrated.html) para posiciones en tiempo real
-- El **Portal de Servicios del CERN** tiene horarios de salida en tiempo real en las paradas principales
-- Descarga la **app Adams-mobile** para generar passes de acceso temporales de 24 horas si es necesario
+<div class="alert">
+<strong>🌟 ¡Nuevo y Mejorado!</strong><br>
+<p>El Circuito 5 fue mejorado al <strong>Meyrin-Prévessin Express</strong> en febrero de 2024 como proyecto piloto, y se convirtió en servicio oficial permanente en enero de 2025 después de recibir excelentes comentarios. ¡Esta ruta express duplica la frecuencia durante las horas punta y es más rápida que el Circuito 2!</p>
+</div>
 
-## Consejos
+Esta lanzadera express proporciona una conexión **más directa y rápida** entre Meyrin y Prévessin, con lanzaderas adicionales durante la mañana (08:00-09:00), la hora del almuerzo y la tarde (17:00-18:00).
 
-- Durante los **períodos de parada del LHC**, algunos circuitos pueden tener horarios reducidos
-- **Llega temprano** a las paradas durante las horas pico (08:00-09:00 y 17:00-18:00)
-- Si **olvidas tu badge de acceso**, el conductor te dejará en el Edificio 55 donde puedes obtener un pase temporal
-- Durante **mal tiempo** o obras en la carretera, espera posibles retrasos
-- Las lanzaderas son **gratuitas** y financiadas por el CERN - no necesitas billete
+- **Frecuencia:** Cada ~10 minutos durante las horas punta (¡duplicado del antiguo horario!)
+- **Mejor para:** Viajes más rápidos entre sitios, evitar el desvío por FH Schumann
+
+## Paradas Clave que Necesitas Conocer
+
+| Parada                | Por Qué la Usarás                                                          |
+| --------------------- | -------------------------------------------------------------------------- |
+| **Edificio 33**       | Recepción principal del CERN — tu primera parada para badges de visitantes |
+| **Edificio 55**       | Oficina de Registro — si necesitas resolver problemas de acceso            |
+| **Edificio 500**      | Edificio Principal (Meyrin) — el corazón del campus suizo                  |
+| **Restaurante R1**    | Comedor principal — la opción de comida más grande del sitio               |
+| **Restaurante R2**    | Comedor secundario cerca del área de Teoría                                |
+| **Restaurante R3**    | Cerca del edificio de Teoría                                               |
+| **Auditorio Baird**   | Donde happen presentaciones y seminarios importantes                       |
+| **FH Schumann**       | El área del hostal en Saint-Genis-Pouilly (Francia)                        |
+| **Entrada Prévessin** | Puerta al sitio francés                                                    |
+
+## Cómo Usar las Lanzaderas en la Práctica
+
+1. **Asegúrate de que tu badge funcione** — En serio, no subas sin verificar. El conductor te pedirá ver tu tarjeta de acceso, y si no es válida, no te dejarán subir (o te dejarán en el Edificio 55).
+
+2. **Consulta el horario** — Los horarios cambian periódicamente. La fuente oficial es la página del Servicio de Lanzaderas del CERN, o usa la aplicación CERN Campus en tu teléfono.
+
+3. **Haz señales para que pare** — A diferencia de los autobuses urbanos, las lanzaderas del CERN no se detienen en cada parada si nadie está esperando. Cuando veas una venir, hazle señales al conductor.
+
+4. **Encuentra ubicaciones en tiempo real** — Usa el mapa interactivo del CERN para ver dónde están las lanzaderas actualmente. Muy útil cuando llegas tarde a una reunión.
+
+5. **¿Olvidaste tu badge?** No hay problema — dile al conductor, y te dejará en el Edificio 55 para que puedas obtener un pase temporal de 24 horas a través de la aplicación Adams-mobile.
+
+## Consejos Pro
+
+- **Las horas punta están concurridas:** Si puedes, evita el rushes de 08:00-09:00 y 17:00-18:00. Las lanzaderas se llenan rápidamente.
+- **Paradas del LHC = menos lanzaderas:** Cuando el LHC está en mantenimiento (generalmente en invierno), algunos circuitos tienen horarios reducidos.
+- **Mal tiempo significa retrasos:** Lluvia, nieve o obras en la Route de Meyrin pueden alterar los tiempos. Deja tiempo de margen.
+- **El CERN cierra durante festivos:** El servicio de lanzaderas se detiene durante el cierre anual de fin de año (generalmente finales de diciembre a principios de enero). Planifica con anticipación.
+- **Es gratis:** No necesitas billete. Simplemente súbete con tu badge.
+
+## ¿Qué Hacer Si Aún No Tienes Badge?
+
+Si eres nuevo y estás esperando tu tarjeta de acceso, no puedes usar las lanzaderas. Por ahora, dependerás del transporte público (autobús 68 o tranvía 18) o de un taxi. Una vez que tengas tu badge, las lanzaderas se abren como una opción gratuita y conveniente.
 
 ## Páginas Relacionadas
 
-- [Transporte Cerca del CERN](/es/transportation/) - Cómo llegar al CERN desde Ginebra, transporte público, bicicleta
-- [Guía de las Primeras Semanas](/es/first-weeks-guide/) - Checklist del día 1 y configuración inicial
+- [Transporte Cerca del CERN](/es/transportation/) — Cómo llegar al CERN desde Ginebra, opciones de transporte público, bicicleta
+- [Guía de las Primeras Semanas](/es/first-weeks-guide/) — Todo lo que necesitas hacer en tu primer mes
 
 ## Fuentes
 
 - <a href="https://sce-dep.web.cern.ch/cern-shuttle-service" target="_blank" rel="noopener noreferrer">Página Oficial del Servicio de Lanzaderas del CERN</a>
-- <a href="https://smb-dep.web.cern.ch/en/shuttle-service" target="_blank" rel="noopener noreferrer">Servicio de Transporte del CERN</a>
-- <a href="https://gis-static.web.cern.ch/mapcern/mapcern-integrated.html" target="_blank" rel="noopener noreferrer">Mapa Interactivo del CERN</a>
+- <a href="https://home.cern/news/announcement/cern/meyrin-prevessin-express-pilot-shuttle-service-becomes-official" target="_blank" rel="noopener noreferrer">Anuncio del Meyrin-Prévessin Express (Enero 2025)</a>
+- <a href="https://gis-static.web.cern.ch/mapcern/mapcern-integrated.html" target="_blank" rel="noopener noreferrer">Mapa Interactivo del CERN (Seguimiento en tiempo real)</a>
+- <a href="https://adams-mobile.web.cern.ch/" target="_blank" rel="noopener noreferrer">Adams-mobile (Pases de acceso temporales)</a>

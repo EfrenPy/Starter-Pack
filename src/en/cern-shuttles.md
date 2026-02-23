@@ -13,72 +13,101 @@ breadcrumbs:
 # CERN Shuttle Service
 
 <div class="alert">
-<strong>ℹ️ Important</strong><br>
-<p>You must have a valid CERN access card to board shuttles. Drivers will check your badge at boarding. If you forget your card, ask to be dropped at Building 55 for registration procedures.</p>
+<strong>ℹ️ Who can use the shuttles?</strong><br>
+<p>The CERN shuttle service is free for anyone with a valid CERN access card. This includes staff members, fellows, students, contractors, and visitors with proper authorization. You'll need to show your badge when boarding — drivers will check it.</p>
 </div>
 
-## Overview
+## What Are the CERN Shuttles?
 
-CERN operates a **free shuttle service** for all personnel and visitors with valid access cards. The shuttles connect the two main CERN sites (Meyrin in Switzerland and Prévessin in France) as well as key locations within each site. The service runs approximately from **07:00 to 19:00** on weekdays, with shuttles every 10-20 minutes depending on the circuit.
+CERN operates several shuttle bus routes (called "circuits") that connect different parts of its two main sites: **Meyrin** (in Switzerland, near Geneva) and **Prévessin** (in France). Think of them as a free internal bus system that helps you get around the massive CERN campus without walking or driving.
 
-## Shuttle Circuits
+The shuttles run **Monday to Friday** (excluding CERN official holidays) from approximately **07:00 to 19:00**. Frequencies vary by circuit and time of day — during peak morning and evening hours, you can expect a shuttle every 10-15 minutes.
 
-### Circuit 1 - Meyrin (Internal)
+### Good News for the Environment
 
-This circuit operates entirely within the **Meyrin site** and connects the main buildings, restaurants, and parking areas. It's particularly useful for moving between different parts of the Swiss campus during the workday. The frequency is approximately every 15 minutes during working hours.
+Starting **February 1, 2026**, CERN began transitioning its entire shuttle fleet to **100% electric vehicles**! This is part of CERN's commitment to sustainable and low-carbon campus operations.
 
-### Circuit 2 - Prévessin via FH Schumann
+## The Shuttle Circuits
 
-Circuit 2 connects the **Meyrin site to Prévessin**, passing through the FH Schumann area. This is one of the most-used circuits for employees working across both sites or living in the French side. It runs approximately every 15-20 minutes during peak hours.
+### Circuit 1 — Meyrin Site Loop
 
-### Circuit 3 - LHC Shifts
+This is the "local" shuttle that runs **entirely within the Meyrin site**. It stops at the main buildings, restaurants, parking areas, and key locations across the Swiss campus. If your office is in one building but you need to grab lunch at R1 or attend a meeting in another building, Circuit 1 is your friend.
 
-This circuit is specifically designed for **LHC (Large Hadron Collider) shift workers** and operates during shift periods. It provides transportation to and from the LHC experimental areas and control rooms, often running outside standard working hours to accommodate shift schedules.
+- **Frequency:** Every ~15 minutes during working hours
+- **Best for:** Moving within Meyrin
 
-### Circuit 5 - Prévessin
+### Circuit 2 — Prévessin via FH Schumann
 
-Circuit 5 provides a direct connection to the **Prévessin site**, serving the French side of CERN. It's essential for employees whose work is primarily based in Prévessin, including many experimental areas and offices. Frequency is similar to Circuit 2.
+This is one of the **most popular routes**, connecting the Meyrin and Prévessin sites via the FH Schumann area (near the French town of Saint-Genis-Pouilly). Many employees live on the French side and commute between sites daily.
 
-## Key Stops
+- **Frequency:** Every ~15-20 minutes during peak hours
+- **Best for:** Cross-border commuting, reaching Prévessin experiments
 
-| Stop                   | Description                            |
-| ---------------------- | -------------------------------------- |
-| **Building 33**        | Main CERN Reception (Meyrin)           |
-| **Building 55**        | Registration Office / Visitor entrance |
-| **Restaurant R1**      | Main cafeteria area                    |
-| **Restaurant R2**      | Secondary cafeteria                    |
-| **Restaurant R3**      | Near Theory area                       |
-| **Baird Auditorium**   | Main auditorium area                   |
-| **Prévessin Entrance** | French site entrance                   |
+### Circuit 3 — LHC Shifts
 
-## How to Use
+This is a **specialized route** for people working on LHC (Large Hadron Collider) operations. It runs during shift periods and connects to the LHC experimental areas and control rooms. The schedule is different from regular circuits — it operates when shifts start and end.
 
-1. **Check your access card** is valid before boarding
-2. **Check the timetable** on the CERN mobility website or at major stops
-3. **Wave to signal** the driver to stop (shuttles don't always stop at every stop if no one is waiting)
-4. **Badge check** - Have your access card ready for inspection
+- **Frequency:** Varies by shift schedule
+- **Best for:** LHC shift workers
 
-## Real-Time Information
+### Circuit 5 — Meyrin-Prévessin Express ⭐ (Updated)
 
-- Check the **CERN mobility map** at [gis-static.web.cern.ch/mapcern](https://gis-static.web.cern.ch/mapcern/mapcern-integrated.html) for real-time shuttle positions
-- The **CERN Service Portal** has live departure times at major stops
-- Download the **Adams-mobile** app to generate 24-hour temporary access passes if needed
+<div class="alert">
+<strong>🌟 New and Improved!</strong><br>
+<p>Circuit 5 was upgraded to the <strong>Meyrin-Prévessin Express</strong> in February 2024 as a pilot project, and it became an official permanent service in January 2025 after receiving excellent feedback. This express route doubles the frequency during peak times and is faster than Circuit 2!</p>
+</div>
 
-## Tips
+This express shuttle provides a **direct, faster connection** between Meyrin and Prévessin, with extra shuttles during morning rush (08:00-09:00), lunchtime, and evening rush (17:00-18:00).
 
-- During **LHC shutdown periods**, some circuits may have reduced schedules
-- **Arrive early** at stops during peak hours (08:00-09:00 and 17:00-18:00)
-- If you **forget your access card**, the driver will drop you at Building 55 where you can obtain a temporary pass
-- During **bad weather** or road works, expect possible delays
-- The shuttles are **free** and funded by CERN - no ticket needed
+- **Frequency:** Every ~10 minutes during peak times (doubled from the old schedule!)
+- **Best for:** Faster cross-site travel, avoiding the FH Schumann detour
+
+## Key Stops You'll Need to Know
+
+| Stop                   | Why You'll Use It                                           |
+| ---------------------- | ----------------------------------------------------------- |
+| **Building 33**        | Main CERN Reception — your first stop for visitor badging   |
+| **Building 55**        | Registration Office — if you need to sort out access issues |
+| **Building 500**       | Main Building (Meyrin) — the heart of the Swiss campus      |
+| **Restaurant R1**      | Main cafeteria — biggest food option on site                |
+| **Restaurant R2**      | Secondary cafeteria near the Theory area                    |
+| **Restaurant R3**      | Near the Theory building                                    |
+| **Baird Auditorium**   | Where big presentations and seminars happen                 |
+| **FH Schumann**        | The hostel area in Saint-Genis-Pouilly (France)             |
+| **Prévessin Entrance** | Gate to the French site                                     |
+
+## How to Actually Use the Shuttles
+
+1. **Make sure your badge works** — Seriously, don't get on without checking. The driver will ask to see your access card, and if it's not valid, they won't let you board (or you'll get dropped at Building 55).
+
+2. **Check the schedule** — Timetables change periodically. The official source is the [CERN Shuttle Service page](https://sce-dep.web.cern.ch/cern-shuttle-service), or use the CERN Campus app on your phone.
+
+3. **Wave to flag it down** — Unlike city buses, CERN shuttles won't stop at every single stop if nobody's waiting. When you see one coming, wave to signal the driver.
+
+4. **Find real-time locations** — Use the [CERN interactive map](https://gis-static.web.cern.ch/mapcern/mapcern-integrated.html) to see where shuttles are currently running. Super handy when you're running late for a meeting.
+
+5. **Forgot your badge?** No problem — tell the driver, and they'll drop you at Building 55 so you can sort out a temporary 24-hour pass through the Adams-mobile app.
+
+## Pro Tips
+
+- **Peak hours are busy:** If you can, avoid the 08:00-09:00 and 17:00-18:00 rush. The shuttles fill up quickly.
+- **LHC shutdowns = fewer shuttles:** When the LHC is down for maintenance (usually in winter), some circuits run reduced schedules.
+- **Bad weather means delays:** Rain, snow, or roadworks on the Route de Meyrin can mess up timing. Leave buffer time.
+- **CERN closes for holidays:** The shuttle service stops during the end-of-year annual closure (usually late December to early January). Plan ahead.
+- **It's free:** You don't need a ticket. Just hop on with your badge.
+
+## What If You Don't Have a Badge Yet?
+
+If you're new and waiting for your access card, you can't use the shuttles. For now, you'll need to rely on public transport (bus 68 or tram 18) or get a taxi. Once you have your badge, the shuttles open up as a free and convenient option.
 
 ## Related Pages
 
-- [Transportation Near CERN](/en/transportation/) - Getting to CERN from Geneva, public transport, cycling
-- [First Weeks Guide](/en/first-weeks-guide/) - Day 1 checklist and initial setup
+- [Transportation Near CERN](/en/transportation/) — How to get to CERN from Geneva, public transport options, cycling
+- [First Weeks Guide](/en/first-weeks-guide/) — Everything you need to do in your first month
 
 ## Sources
 
 - <a href="https://sce-dep.web.cern.ch/cern-shuttle-service" target="_blank" rel="noopener noreferrer">CERN Shuttle Service Official Page</a>
-- <a href="https://smb-dep.web.cern.ch/en/shuttle-service" target="_blank" rel="noopener noreferrer">CERN Transport Service</a>
-- <a href="https://gis-static.web.cern.ch/mapcern/mapcern-integrated.html" target="_blank" rel="noopener noreferrer">CERN Interactive Map</a>
+- <a href="https://home.cern/news/announcement/cern/meyrin-prevessin-express-pilot-shuttle-service-becomes-official" target="_blank" rel="noopener noreferrer">Meyrin-Prévessin Express Announcement (January 2025)</a>
+- <a href="https://gis-static.web.cern.ch/mapcern/mapcern-integrated.html" target="_blank" rel="noopener noreferrer">CERN Interactive Map (Real-time shuttle tracking)</a>
+- <a href="https://adams-mobile.web.cern.ch/" target="_blank" rel="noopener noreferrer">Adams-mobile (Temporary access passes)</a>
