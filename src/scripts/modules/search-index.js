@@ -23,6 +23,7 @@ const PAGE_SLUGS = [
   'daily-life-hub',
   'banking-setup',
   'transportation',
+  'cern-shuttles',
   'cross-border-shopping',
   'childcare-schools',
   'utilities-setup',
@@ -112,7 +113,9 @@ export async function getSearchIndex(language) {
       const fuse = buildFuse(articles);
       fuseCache[cacheKey] = { articles, fuse };
       return fuseCache[cacheKey];
-    } catch { /* ignore corrupt data, rebuild index below */ }
+    } catch {
+      /* ignore corrupt data, rebuild index below */
+    }
   }
 
   // Try pre-built JSON index (fast, no HTML parsing)
@@ -168,7 +171,8 @@ export function getSnippet(content, query, length = 120) {
   if (idx >= 0) {
     start = Math.max(0, idx - 60);
     const end = Math.min(content.length, idx + query.length + 60);
-    snippet = (start > 0 ? '...' : '') + content.slice(start, end) + (end < content.length ? '...' : '');
+    snippet =
+      (start > 0 ? '...' : '') + content.slice(start, end) + (end < content.length ? '...' : '');
   } else {
     snippet = content.substring(0, length) + '...';
   }
@@ -177,7 +181,11 @@ export function getSnippet(content, query, length = 120) {
 }
 
 function escapeHtml(str) {
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 export function highlightMatches(text, query) {

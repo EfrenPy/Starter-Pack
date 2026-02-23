@@ -34,6 +34,7 @@ const PAGE_SLUGS = [
   'daily-life-hub',
   'banking-setup',
   'transportation',
+  'cern-shuttles',
   'cross-border-shopping',
   'childcare-schools',
   'utilities-setup',

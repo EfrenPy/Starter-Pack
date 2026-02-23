@@ -109,6 +109,22 @@
       }
     },
     {
+      "slug": "cern-shuttles",
+      "icon": "🚐",
+      "title": {
+        "en": "CERN Shuttles",
+        "es": "Lanzaderas del CERN",
+        "it": "Navette CERN",
+        "fr": "Navettes CERN"
+      },
+      "desc": {
+        "en": "Free internal shuttle buses: Circuit 1 Meyrin, Circuit 2/5 Prévessin, Circuit 3 LHC shifts, schedules and stops.",
+        "es": "Autobuses lanzadera internos gratuitos: Circuito 1 Meyrin, Circuito 2/5 Prévessin, Circuito 3 LHC, horarios y paradas.",
+        "it": "Navette interne gratuite: Circuito 1 Meyrin, Circuito 2/5 Prévessin, Circuito 3 LHC, orari e fermate.",
+        "fr": "Navettes internes gratuites: Circuit 1 Meyrin, Circuit 2/5 Prévessin, Circuit 3 LHC, horaires et arrêts."
+      }
+    },
+    {
       "slug": "cross-border-shopping",
       "icon": "🛒",
       "title": {
