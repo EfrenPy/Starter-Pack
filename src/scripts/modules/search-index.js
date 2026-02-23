@@ -1,4 +1,4 @@
-import Fuse from '../vendor/fuse.min.mjs';
+import Fuse from '../vendor/fuse.min.js';
 
 const PAGE_SLUGS = [
   'beginning',
