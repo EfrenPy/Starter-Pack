@@ -25,7 +25,7 @@ Les navettes fonctionnent **du lundi au vendredi** (hors jours fériés officiel
 
 ### Bonne Nouvelle pour l'Environnement
 
-À partir du **1er février 2026**, le CERN a commencé à transformer toute sa flotte de navettes en **véhicules 100% électriques** ! Cela fait partie de l'engagement du CERN pour des opérations durables et à faible empreinte carbone.
+À partir du **1er février 2025**, le CERN a commencé à transformer toute sa flotte de navettes en **véhicules 100% électriques** ! Cela fait partie de l'engagement du CERN pour des opérations durables et à faible empreinte carbone.
 
 ## Les Circuits de Navettes
 

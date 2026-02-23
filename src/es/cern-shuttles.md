@@ -25,7 +25,7 @@ Las lanzaderas funcionan de **lunes a viernes** (excluyendo los festivos oficial
 
 ### Buenas Noticias para el Medio Ambiente
 
-A partir del **1 de febrero de 2026**, ¡el CERN comenzó a transitar toda su flota de lanzaderas a **vehículos 100% eléctricos**! Esto forma parte del compromiso de CERN con operaciones sostenibles y bajas en carbono.
+A partir del **1 de febrero de 2025**, ¡el CERN comenzó a transitar toda su flota de lanzaderas a **vehículos 100% eléctricos**! Esto forma parte del compromiso de CERN con operaciones sostenibles y bajas en carbono.
 
 ## Los Circuitos de Lanzadera
 

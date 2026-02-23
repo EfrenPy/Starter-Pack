@@ -25,7 +25,7 @@ Le navette funzionano **dal lunedì al venerdì** (esclusi i festivi ufficiali d
 
 ### Buone Notizie per l'Ambiente
 
-Da **febbraio 2026**, il CERN ha iniziato a trasformare l'intera flotta di navette in **veicoli 100% elettrici**! Questo fa parte dell'impegno del CERN per operazioni sostenibili e a basse emissioni di carbonio.
+Da **febbraio 2025**, il CERN ha iniziato a trasformare l'intera flotta di navette in **veicoli 100% elettrici**! Questo fa parte dell'impegno del CERN per operazioni sostenibili e a basse emissioni di carbonio.
 
 ## I Circuiti delle Navette
 

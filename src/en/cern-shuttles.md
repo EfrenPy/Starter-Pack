@@ -25,7 +25,7 @@ The shuttles run **Monday to Friday** (excluding CERN official holidays) from ap
 
 ### Good News for the Environment
 
-Starting **February 1, 2026**, CERN began transitioning its entire shuttle fleet to **100% electric vehicles**! This is part of CERN's commitment to sustainable and low-carbon campus operations.
+Starting **February 1, 2025**, CERN began transitioning its entire shuttle fleet to **100% electric vehicles**! This is part of CERN's commitment to sustainable and low-carbon campus operations.
 
 ## The Shuttle Circuits
 
