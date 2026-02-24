@@ -763,19 +763,19 @@ main > .container {
 }
 
 .theme-toggle__icon::before {
-  content: '\263E';
+  content: '☾';
 }
 
 .theme-toggle__icon[data-mode='light']::before {
-  content: '\2600';
+  content: '☀';
 }
 
 .theme-toggle__icon[data-mode='dark']::before {
-  content: '\263E';
+  content: '☾';
 }
 
 .theme-toggle__icon[data-mode='system']::before {
-  content: '\1F5A5';
+  content: '⚙';
 }
 
 /* Language dropdown */
