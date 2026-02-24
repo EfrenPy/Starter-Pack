@@ -7,6 +7,19 @@ bodyClass: page-hub
 <main id="main-content" class="page-shell page-shell--hub">
   <div class="container">
     {{ content | safe }}
+
+    <section class="hub-pathways" aria-label="{% if lang == 'es' %}Mas rutas utiles{% elif lang == 'it' %}Percorsi utili aggiuntivi{% elif lang == 'fr' %}Autres parcours utiles{% else %}More useful pathways{% endif %}">
+      <h2 class="hub-pathways__title">{% if lang == 'es' %}Mas rutas utiles{% elif lang == 'it' %}Percorsi utili aggiuntivi{% elif lang == 'fr' %}Autres parcours utiles{% else %}More useful pathways{% endif %}</h2>
+      <ul class="hub-pathways__list">
+        {% for item in navigation.main %}
+          {% set itemUrl = '/' + lang + '/' + item.slug + '/' %}
+          {% if page.url != itemUrl %}
+          <li><a href="{{ itemUrl }}">{{ item[lang] }}</a></li>
+          {% endif %}
+        {% endfor %}
+        <li><a href="/{{ lang }}/search/">{% if lang == 'es' %}Buscar en todo el sitio{% elif lang == 'it' %}Cerca in tutto il sito{% elif lang == 'fr' %}Rechercher dans tout le site{% else %}Search across the site{% endif %}</a></li>
+      </ul>
+    </section>
   </div>
 </main>
 
@@ -24,6 +37,35 @@ bodyClass: page-hub
       "item": "{{ site.url }}{{ crumb.url }}"{% endif %}
     }{% if not loop.last %},{% endif %}
     {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{%- set hubData = null -%}
+{%- if '/legal-hub/' in page.url -%}
+  {%- set hubData = pages['legal-hub'] -%}
+{%- elif '/technical-hub/' in page.url -%}
+  {%- set hubData = pages['technical-hub'] -%}
+{%- elif '/daily-life-hub/' in page.url -%}
+  {%- set hubData = pages['daily-life-hub'] -%}
+{%- endif -%}
+{% if hubData %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "{{ title }}",
+  "itemListOrder": "https://schema.org/ItemListUnordered",
+  "numberOfItems": {{ hubData.cards.length }},
+  "itemListElement": [
+    {%- for card in hubData.cards %}
+    {
+      "@type": "ListItem",
+      "position": {{ loop.index }},
+      "url": "{{ ('/' + lang + '/' + card.slug + '/') | absoluteUrl(site.url) }}",
+      "name": "{{ card.title[lang] | striptags }}"
+    }{% if not loop.last %},{% endif %}
+    {%- endfor %}
   ]
 }
 </script>

@@ -18,18 +18,3 @@ bodyClass: page-home
     {{ content | safe }}
   </div>
 </main>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "{{ site.name }}",
-  "url": "{{ site.url }}{{ page.url }}",
-  "inLanguage": "{{ lang }}",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "{{ site.url }}/{{ lang }}/search/?query={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>

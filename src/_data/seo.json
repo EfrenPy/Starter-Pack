@@ -1,0 +1,240 @@
+{
+  "quickAnswers": {
+    "first-weeks-guide": {
+      "en": "In your first weeks at CERN, focus on five priorities: access card and account activation, residence registration, health insurance choice (if living in France), local banking setup, and transport routines.",
+      "es": "En tus primeras semanas en el CERN, centra tus esfuerzos en cinco prioridades: tarjeta de acceso y activacion de cuenta, registro de residencia, eleccion de seguro medico (si vives en Francia), cuenta bancaria local y transporte diario.",
+      "it": "Nelle prime settimane al CERN, concentrati su cinque priorita: badge e attivazione account, registrazione di residenza, scelta dell'assicurazione sanitaria (se vivi in Francia), conto bancario locale e trasporti quotidiani.",
+      "fr": "Pendant vos premieres semaines au CERN, concentrez-vous sur cinq priorites : badge et activation du compte, enregistrement de residence, choix de l'assurance maladie (si vous vivez en France), compte bancaire local et transport quotidien."
+    },
+    "permits-registration": {
+      "en": "Most newcomers need to register with local authorities quickly (often within 14 days) and keep CERN documents ready for identity, residence, and cross-border administration checks.",
+      "es": "La mayoria de recien llegados debe registrarse rapido ante las autoridades locales (a menudo en 14 dias) y mantener listos los documentos del CERN para tramites de identidad, residencia y administracion transfronteriza.",
+      "it": "La maggior parte dei nuovi arrivati deve registrarsi rapidamente presso le autorita locali (spesso entro 14 giorni) e tenere pronti i documenti CERN per i controlli amministrativi di identita, residenza e frontalierato.",
+      "fr": "La plupart des nouveaux arrivants doivent s'enregistrer rapidement aupres des autorites locales (souvent sous 14 jours) et garder les documents CERN prets pour les controles d'identite, de residence et d'administration transfrontaliere."
+    },
+    "health-insurance": {
+      "en": "If you live in France, decide your health coverage option within the legal window; this choice is often long-term, so compare CHIS, CMU/PUMA, and LAMal carefully.",
+      "es": "Si vives en Francia, decide tu opcion de cobertura sanitaria dentro del plazo legal; esta eleccion suele ser a largo plazo, asi que compara CHIS, CMU/PUMA y LAMal con cuidado.",
+      "it": "Se vivi in Francia, scegli la tua copertura sanitaria entro la finestra legale; la scelta e spesso di lungo periodo, quindi confronta con attenzione CHIS, CMU/PUMA e LAMal.",
+      "fr": "Si vous vivez en France, choisissez votre couverture sante dans le delai legal ; ce choix est souvent de long terme, comparez donc CHIS, CMU/PUMA et LAMal avec attention."
+    },
+    "transportation": {
+      "en": "For commuting, start with TPG lines 66/68 and tram 18, then optimize with CERN shuttles, cycling, or car-sharing based on where you live.",
+      "es": "Para desplazarte, empieza con las lineas TPG 66/68 y el tranvia 18, y luego optimiza con lanzaderas CERN, bicicleta o coche compartido segun donde vivas.",
+      "it": "Per gli spostamenti, inizia con le linee TPG 66/68 e il tram 18, poi ottimizza con navette CERN, bici o car-sharing in base a dove vivi.",
+      "fr": "Pour vos trajets, commencez par les lignes TPG 66/68 et le tram 18, puis optimisez avec les navettes CERN, le velo ou le covoiturage selon votre lieu de residence."
+    },
+    "access-cards": {
+      "en": "Your CERN access card is essential for site access, shuttles, and identity checks; keep it valid, visible, and updated whenever your contract changes.",
+      "es": "Tu tarjeta de acceso CERN es esencial para entrar al sitio, usar lanzaderas y pasar controles de identidad; mantenla valida, visible y actualizada cuando cambie tu contrato.",
+      "it": "La tua tessera di accesso CERN e fondamentale per entrare nel sito, usare le navette e superare i controlli di identita; mantienila valida, visibile e aggiornata quando cambia il contratto.",
+      "fr": "Votre carte d'acces CERN est essentielle pour entrer sur le site, utiliser les navettes et passer les controles d'identite ; gardez-la valide, visible et a jour lors des changements de contrat."
+    },
+    "banking-setup": {
+      "en": "You can receive CERN salary in many countries, but a local Swiss or French account usually simplifies rent, bills, and daily expenses.",
+      "es": "Puedes recibir salario del CERN en muchos paises, pero una cuenta local suiza o francesa suele simplificar alquiler, facturas y gastos diarios.",
+      "it": "Puoi ricevere lo stipendio CERN in molti paesi, ma un conto locale svizzero o francese semplifica normalmente affitto, bollette e spese quotidiane.",
+      "fr": "Vous pouvez recevoir votre salaire CERN dans de nombreux pays, mais un compte local suisse ou francais simplifie generalement le loyer, les factures et les depenses quotidiennes."
+    },
+    "cern-shuttles": {
+      "en": "CERN shuttles are free and practical for cross-site movement; check circuit and peak-time patterns to minimize waiting and commute delays.",
+      "es": "Las lanzaderas CERN son gratuitas y practicas para moverte entre sedes; revisa circuitos y horas punta para reducir esperas y retrasos.",
+      "it": "Le navette CERN sono gratuite e pratiche per spostarsi tra i siti; controlla circuiti e ore di punta per ridurre attese e ritardi.",
+      "fr": "Les navettes CERN sont gratuites et pratiques pour se deplacer entre les sites ; verifiez les circuits et les heures de pointe pour reduire l'attente et les retards."
+    },
+    "frontalier-guide": {
+      "en": "Cross-border life near CERN combines two legal and tax systems; keep clear records of residence, work status, and healthcare choices from day one.",
+      "es": "La vida transfronteriza cerca del CERN combina dos sistemas legales y fiscales; conserva registros claros de residencia, situacion laboral y seguro medico desde el primer dia.",
+      "it": "La vita frontaliera vicino al CERN combina due sistemi legali e fiscali; mantieni registrazioni chiare di residenza, stato lavorativo e scelte sanitarie fin dal primo giorno.",
+      "fr": "La vie transfrontaliere pres du CERN combine deux systemes juridiques et fiscaux ; conservez des preuves claires de residence, statut professionnel et choix de couverture sante des le premier jour."
+    },
+    "tax_declaration_spain": {
+      "en": "Spanish tax treatment of CERN income depends on legal status and treaty rules; document exemptions carefully and align declarations with official guidance.",
+      "es": "El tratamiento fiscal en Espana de ingresos del CERN depende del estatus legal y reglas de convenio; documenta exenciones con cuidado y alinea declaraciones con guias oficiales.",
+      "it": "Il trattamento fiscale in Spagna del reddito CERN dipende dallo status legale e dalle regole convenzionali; documenta con cura le esenzioni e allinea le dichiarazioni alle linee guida ufficiali.",
+      "fr": "Le traitement fiscal en Espagne des revenus CERN depend du statut juridique et des regles conventionnelles ; documentez soigneusement les exemptions et alignez les declarations sur les consignes officielles."
+    },
+    "faq": {
+      "en": "This FAQ answers the most common CERN onboarding questions on access, health insurance, housing, transport, and IT setup, with links to full guides.",
+      "es": "Este FAQ responde las preguntas mas comunes sobre incorporacion al CERN en acceso, seguro medico, vivienda, transporte y TI, con enlaces a guias completas.",
+      "it": "Questa FAQ risponde alle domande piu comuni sull'onboarding al CERN su accesso, assicurazione sanitaria, alloggio, trasporti e setup IT, con link alle guide complete.",
+      "fr": "Cette FAQ repond aux questions les plus frequentes d'integration au CERN sur l'acces, l'assurance maladie, le logement, le transport et l'IT, avec des liens vers les guides complets."
+    }
+  },
+  "faqSchema": {
+    "en": [
+      {
+        "q": "Where do I collect my CERN access card?",
+        "a": "Collect your CERN access card at Building 55 with your ID and contract documents."
+      },
+      {
+        "q": "Why does my CERN computing account not work yet?",
+        "a": "New CERN accounts can take up to 48 hours to become fully active."
+      },
+      {
+        "q": "Do I need a Swiss bank account?",
+        "a": "Not always, but a local Swiss or French account usually helps with rent and bills."
+      },
+      {
+        "q": "I live in France. What do I do for health insurance?",
+        "a": "Use your droit d'option within the legal period to choose CHIS, CMU/PUMA, or LAMal."
+      },
+      {
+        "q": "How do I access lxplus from home?",
+        "a": "Use SSH with your CERN account, with Kerberos or SSH key configured."
+      }
+    ],
+    "es": [
+      {
+        "q": "Donde recojo mi tarjeta de acceso al CERN?",
+        "a": "Recoge la tarjeta de acceso en el Edificio 55 con tu identificacion y documentos de contrato."
+      },
+      {
+        "q": "Por que no funciona aun mi cuenta informatica del CERN?",
+        "a": "Una cuenta nueva puede tardar hasta 48 horas en activarse completamente."
+      },
+      {
+        "q": "Necesito una cuenta bancaria suiza?",
+        "a": "No siempre, pero una cuenta suiza o francesa suele facilitar alquiler y facturas."
+      },
+      {
+        "q": "Vivo en Francia. Que hago con el seguro medico?",
+        "a": "Debes ejercer tu droit d'option dentro del plazo legal entre CHIS, CMU/PUMA o LAMal."
+      },
+      {
+        "q": "Como accedo a lxplus desde casa?",
+        "a": "Conecta por SSH con tu cuenta CERN y Kerberos o clave SSH configurada."
+      }
+    ],
+    "it": [
+      {
+        "q": "Dove ritiro la tessera di accesso CERN?",
+        "a": "Ritira la tessera al Building 55 con documento di identita e contratto."
+      },
+      {
+        "q": "Perche il mio account informatico CERN non funziona ancora?",
+        "a": "Un nuovo account puo richiedere fino a 48 ore per l'attivazione completa."
+      },
+      {
+        "q": "Serve un conto bancario svizzero?",
+        "a": "Non sempre, ma un conto svizzero o francese semplifica affitto e bollette."
+      },
+      {
+        "q": "Vivo in Francia. Cosa devo fare per l'assicurazione sanitaria?",
+        "a": "Devi esercitare il droit d'option entro i termini legali tra CHIS, CMU/PUMA o LAMal."
+      },
+      {
+        "q": "Come accedo a lxplus da casa?",
+        "a": "Usa SSH con account CERN e autenticazione Kerberos o chiave SSH configurata."
+      }
+    ],
+    "fr": [
+      {
+        "q": "Ou recuperer ma carte d'acces CERN?",
+        "a": "Recuperez votre carte d'acces au Building 55 avec piece d'identite et documents de contrat."
+      },
+      {
+        "q": "Pourquoi mon compte informatique CERN ne fonctionne-t-il pas encore?",
+        "a": "Un nouveau compte peut necessiter jusqu'a 48 heures pour activation complete."
+      },
+      {
+        "q": "Ai-je besoin d'un compte bancaire suisse?",
+        "a": "Pas toujours, mais un compte suisse ou francais simplifie souvent loyer et factures."
+      },
+      {
+        "q": "Je vis en France. Que faire pour l'assurance maladie?",
+        "a": "Exercez votre droit d'option dans le delai legal entre CHIS, CMU/PUMA ou LAMal."
+      },
+      {
+        "q": "Comment acceder a lxplus depuis chez moi?",
+        "a": "Utilisez SSH avec compte CERN et Kerberos ou cle SSH configuree."
+      }
+    ]
+  },
+  "howToSchema": {
+    "first-weeks-guide": {
+      "en": {
+        "name": "First Weeks at CERN Setup",
+        "steps": [
+          "Activate your CERN access and computing account",
+          "Complete local residence registration",
+          "Choose health insurance option if you live in France",
+          "Set up banking and salary logistics",
+          "Plan your daily commute and mandatory onboarding tasks"
+        ]
+      },
+      "es": {
+        "name": "Primeras Semanas en el CERN",
+        "steps": [
+          "Activa acceso y cuenta informatica del CERN",
+          "Completa el registro local de residencia",
+          "Elige seguro medico si vives en Francia",
+          "Configura banco y logistica salarial",
+          "Planifica desplazamiento diario y tareas obligatorias de incorporacion"
+        ]
+      },
+      "it": {
+        "name": "Prime Settimane al CERN",
+        "steps": [
+          "Attiva badge e account informatico CERN",
+          "Completa la registrazione locale di residenza",
+          "Scegli l'assicurazione sanitaria se vivi in Francia",
+          "Configura banca e gestione stipendio",
+          "Pianifica tragitto quotidiano e attivita obbligatorie di onboarding"
+        ]
+      },
+      "fr": {
+        "name": "Premieres Semaines au CERN",
+        "steps": [
+          "Activer badge et compte informatique CERN",
+          "Completer l'enregistrement local de residence",
+          "Choisir l'assurance maladie si vous vivez en France",
+          "Mettre en place banque et logistique de salaire",
+          "Planifier trajets quotidiens et taches d'integration obligatoires"
+        ]
+      }
+    },
+    "permits-registration": {
+      "en": {
+        "name": "Residence Registration and Permit Steps Near CERN",
+        "steps": [
+          "Identify your residence country and permit pathway",
+          "Prepare ID, CERN contract, and address proof",
+          "Register with local authority within legal deadline",
+          "Submit permit or status documentation",
+          "Keep copies for tax, health, and cross-border administration"
+        ]
+      },
+      "es": {
+        "name": "Registro de Residencia y Permisos Cerca del CERN",
+        "steps": [
+          "Identifica pais de residencia y via de permiso",
+          "Prepara identificacion, contrato CERN y prueba de domicilio",
+          "Registrate ante autoridad local dentro del plazo legal",
+          "Presenta documentacion de permiso o estatus",
+          "Conserva copias para impuestos, salud y tramites transfronterizos"
+        ]
+      },
+      "it": {
+        "name": "Registrazione di Residenza e Permessi Vicino al CERN",
+        "steps": [
+          "Identifica paese di residenza e percorso permesso",
+          "Prepara documento, contratto CERN e prova indirizzo",
+          "Registrati presso autorita locale entro i termini",
+          "Presenta documentazione di permesso o status",
+          "Conserva copie per tasse, sanita e pratiche transfrontaliere"
+        ]
+      },
+      "fr": {
+        "name": "Enregistrement de Residence et Demarches de Permis pres du CERN",
+        "steps": [
+          "Identifier pays de residence et parcours de permis",
+          "Preparer piece d'identite, contrat CERN et preuve d'adresse",
+          "S'enregistrer aupres de l'autorite locale dans les delais",
+          "Deposer les documents de permis ou de statut",
+          "Conserver des copies pour fiscalite, sante et administration transfrontaliere"
+        ]
+      }
+    }
+  }
+}

@@ -13,7 +13,50 @@ bodyClass: page-content
     </p>
     {% endif %}
 
+    {% set quickAnswer = seo.quickAnswers[page.fileSlug] and seo.quickAnswers[page.fileSlug][lang] %}
+    {% if quickAnswer %}
+    <div class="quick-answer">
+      <strong>{% if lang == 'es' %}Respuesta rapida:{% elif lang == 'it' %}Risposta rapida:{% elif lang == 'fr' %}Reponse rapide:{% else %}Quick answer:{% endif %}</strong>
+      <span> {{ quickAnswer }}</span>
+    </div>
+    {% endif %}
+
     {{ content | safe }}
+
+    {%- set hubCards = [] -%}
+    {%- if breadcrumbs and breadcrumbs[1] and breadcrumbs[1].url -%}
+      {%- if '/legal-hub/' in breadcrumbs[1].url -%}
+        {%- set hubCards = pages['legal-hub'].cards -%}
+      {%- elif '/technical-hub/' in breadcrumbs[1].url -%}
+        {%- set hubCards = pages['technical-hub'].cards -%}
+      {%- elif '/daily-life-hub/' in breadcrumbs[1].url -%}
+        {%- set hubCards = pages['daily-life-hub'].cards -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if hubCards and hubCards.length > 0 -%}
+    {%- set relatedTitle = {
+      'en': 'Related resources',
+      'es': 'Recursos relacionados',
+      'it': 'Risorse correlate',
+      'fr': 'Ressources associees'
+    } -%}
+    <aside class="related-resources" aria-label="{{ relatedTitle[lang] }}">
+      <h2 class="related-resources__title">{{ relatedTitle[lang] }}</h2>
+      <ul class="related-resources__list">
+        {%- set shown = 0 -%}
+        {%- for card in hubCards -%}
+          {%- set isCurrent = (card.slug == page.fileSlug) or (card.slug.endsWith('/' + page.fileSlug)) -%}
+          {%- if not isCurrent and shown < 4 -%}
+            <li>
+              <a href="/{{ lang }}/{{ card.slug }}/">{{ card.title[lang] | safe }}</a>
+            </li>
+            {%- set shown = shown + 1 -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </aside>
+    {%- endif %}
 
     {% if printable !== false %}
     <div class="print-bar">
@@ -54,6 +97,47 @@ bodyClass: page-content
   "dateModified": "{{ dateModified or datePublished }}",
   "inLanguage": "{{ lang }}",
   "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+}
+</script>
+{% endif %}
+
+{% if page.fileSlug == 'faq' and seo.faqSchema[lang] %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for qa in seo.faqSchema[lang] %}
+    {
+      "@type": "Question",
+      "name": "{{ qa.q | replace('\\', '\\\\') | replace('"', '\\"') }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ qa.a | replace('\\', '\\\\') | replace('"', '\\"') }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+{% set howToEntry = seo.howToSchema[page.fileSlug] and seo.howToSchema[page.fileSlug][lang] %}
+{% if howToEntry %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{ howToEntry.name | replace('\\', '\\\\') | replace('"', '\\"') }}",
+  "inLanguage": "{{ lang }}",
+  "step": [
+    {% for step in howToEntry.steps %}
+    {
+      "@type": "HowToStep",
+      "name": "{{ step | replace('\\', '\\\\') | replace('"', '\\"') }}"
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
 }
 </script>
 {% endif %}

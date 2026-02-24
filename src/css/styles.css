@@ -2183,6 +2183,112 @@ mark {
   margin-right: 0.35rem;
 }
 
+/* ===== Related Resources ===== */
+.related-resources {
+  margin-top: var(--space-2xl);
+  padding: var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: linear-gradient(180deg, var(--color-surface), var(--color-bg));
+}
+
+.related-resources__title {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--font-size-lg);
+  color: var(--color-text);
+  border: none;
+  padding: 0;
+}
+
+.related-resources__title::after {
+  display: none;
+}
+
+.related-resources__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.related-resources__list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  text-decoration: none;
+  color: var(--color-link);
+  font-weight: var(--font-weight-medium);
+}
+
+.related-resources__list a::before {
+  content: '→';
+  color: var(--color-text-muted);
+  font-weight: var(--font-weight-bold);
+}
+
+.related-resources__list a:hover {
+  text-decoration: underline;
+}
+
+/* Optional quick answer box style for high-intent pages */
+.quick-answer {
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xl);
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--border-radius);
+  border: 1px solid #93c5fd;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+}
+
+.quick-answer strong {
+  color: #1e3a8a;
+}
+
+/* ===== Hub Pathways ===== */
+.hub-pathways {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.hub-pathways__title {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--font-size-lg);
+  border: none;
+  color: var(--color-text);
+  padding: 0;
+}
+
+.hub-pathways__title::after {
+  display: none;
+}
+
+.hub-pathways__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hub-pathways__list a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+}
+
+.hub-pathways__list a:hover {
+  background: var(--color-primary-light);
+  border-color: #93c5fd;
+}
+
 @media (min-width: 900px) {
   .print-bar {
     position: sticky;
