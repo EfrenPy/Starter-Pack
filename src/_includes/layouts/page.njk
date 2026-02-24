@@ -1,9 +1,10 @@
 ---
 layout: layouts/base.njk
+bodyClass: page-content
 ---
 {% include "partials/breadcrumbs.njk" %}
 
-<main id="main-content">
+<main id="main-content" class="page-shell page-shell--content">
   <div class="container">
     {% if dateUpdated %}
     <p class="last-updated" data-updated="{{ dateUpdated }}">

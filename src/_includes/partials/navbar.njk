@@ -5,9 +5,11 @@
 
   <div class="topnav__menu" id="topnav-menu">
     <ul class="topnav__links">
-      <li><a href="/{{ lang }}/">{{ ui[lang].nav_home }}</a></li>
+      {% set homeUrl = '/' + lang + '/' %}
+      <li><a href="/{{ lang }}/"{% if page.url == homeUrl %} aria-current="page"{% endif %}>{{ ui[lang].nav_home }}</a></li>
       {% for item in navigation.main %}
-      <li><a href="/{{ lang }}/{{ item.slug }}/">{{ item[lang] }}</a></li>
+      {% set itemUrl = '/' + lang + '/' + item.slug + '/' %}
+      <li><a href="/{{ lang }}/{{ item.slug }}/"{% if page.url == itemUrl %} aria-current="page"{% endif %}>{{ item[lang] }}</a></li>
       {% endfor %}
     </ul>
 
