@@ -253,6 +253,22 @@
       }
     },
     {
+      "slug": "cross-border-tax-france-switzerland",
+      "icon": "🌍",
+      "title": {
+        "en": "Cross-Border Tax Quick Guide",
+        "es": "Guía Rápida Fiscal Fronteriza",
+        "it": "Guida Rapida Fiscale Frontaliera",
+        "fr": "Guide Fiscal Frontalier Rapide"
+      },
+      "desc": {
+        "en": "High-intent quick guide for France-Switzerland tax basics: residency, declarations, and annual checks.",
+        "es": "Guía rápida para fiscalidad Francia-Suiza: residencia, declaraciones y revisiones anuales.",
+        "it": "Guida rapida alla fiscalità Francia-Svizzera: residenza, dichiarazioni e verifiche annuali.",
+        "fr": "Guide rapide fiscalité France-Suisse : résidence, déclarations et vérifications annuelles."
+      }
+    },
+    {
       "slug": "parental-leave",
       "icon": "👶",
       "title": {

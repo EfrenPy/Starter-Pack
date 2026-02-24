@@ -162,6 +162,22 @@
       }
     },
     {
+      "slug": "access-card-building-55",
+      "icon": "🏢",
+      "title": {
+        "en": "Building 55 Access Card",
+        "es": "Tarjeta de Acceso Edificio 55",
+        "it": "Tessera Accesso Building 55",
+        "fr": "Carte d'Accès Building 55"
+      },
+      "desc": {
+        "en": "Quick guide focused on first-day pickup, required documents, and common activation delays.",
+        "es": "Guía rápida para recogida del primer día, documentos requeridos y retrasos de activación comunes.",
+        "it": "Guida rapida su ritiro primo giorno, documenti richiesti e ritardi tipici di attivazione.",
+        "fr": "Guide rapide sur retrait premier jour, documents requis et retards d'activation fréquents."
+      }
+    },
+    {
       "slug": "telework-policy",
       "icon": "🏠",
       "title": {

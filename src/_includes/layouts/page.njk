@@ -12,16 +12,105 @@ bodyClass: page-content
       <time datetime="{{ dateUpdated }}">{{ dateUpdated }}</time>
     </p>
     {% endif %}
+    {% if printable !== false %}
+    <div class="print-bar">
+      <button class="btn btn--secondary" onclick="window.print()">{{ ui[lang].print_guide }}</button>
+    </div>
+    {% endif %}
+
+    {% set isStaleCandidate = (breadcrumbs and breadcrumbs[1] and breadcrumbs[1].url and '/legal-hub/' in breadcrumbs[1].url) or page.fileSlug == 'transportation' or page.fileSlug == 'cern-shuttles' %}
+    {% if isStaleCandidate and dateModified and (dateModified | isOlderThanMonths(6)) %}
+    <div class="alert alert--warning">
+      <strong>{% if lang == 'es' %}Revisión recomendada{% elif lang == 'it' %}Revisione consigliata{% elif lang == 'fr' %}Revue recommandée{% else %}Review recommended{% endif %}</strong>
+      <p>{% if lang == 'es' %}Esta página no se actualiza desde hace más de 6 meses. Verifica plazos legales, tasas y enlaces oficiales antes de tomar decisiones.{% elif lang == 'it' %}Questa pagina non viene aggiornata da oltre 6 mesi. Verifica scadenze legali, aliquote e link ufficiali prima di decidere.{% elif lang == 'fr' %}Cette page n'a pas été mise à jour depuis plus de 6 mois. Vérifiez délais, taux et liens officiels avant décision.{% else %}This page has not been updated for more than 6 months. Verify legal deadlines, rates, and official links before acting.{% endif %}</p>
+    </div>
+    {% endif %}
 
     {% set quickAnswer = seo.quickAnswers[page.fileSlug] and seo.quickAnswers[page.fileSlug][lang] %}
     {% if quickAnswer %}
     <div class="quick-answer">
-      <strong>{% if lang == 'es' %}Respuesta rapida:{% elif lang == 'it' %}Risposta rapida:{% elif lang == 'fr' %}Reponse rapide:{% else %}Quick answer:{% endif %}</strong>
+      <strong>{% if lang == 'es' %}Respuesta rápida:{% elif lang == 'it' %}Risposta rapida:{% elif lang == 'fr' %}Réponse rapide:{% else %}Quick answer:{% endif %}</strong>
       <span> {{ quickAnswer }}</span>
     </div>
     {% endif %}
 
+    {% set intent = seoExtensions.intentSections and seoExtensions.intentSections[page.fileSlug] and seoExtensions.intentSections[page.fileSlug][lang] %}
+    {% if intent %}
+    <section class="search-intent" aria-label="Search intent">
+      <h2>{% if lang == 'es' %}Cómo usar esta guía{% elif lang == 'it' %}Come usare questa guida{% elif lang == 'fr' %}Comment utiliser ce guide{% else %}How to use this guide{% endif %}</h2>
+      <ul>
+        <li><strong>{% if lang == 'es' %}Para quién:{% elif lang == 'it' %}Per chi:{% elif lang == 'fr' %}Pour qui :{% else %}Who this is for:{% endif %}</strong> {{ intent.who }}</li>
+        <li><strong>{% if lang == 'es' %}Cuándo aplica:{% elif lang == 'it' %}Quando si applica:{% elif lang == 'fr' %}Quand cela s'applique :{% else %}When this applies:{% endif %}</strong> {{ intent.when }}</li>
+        <li><strong>{% if lang == 'es' %}Qué hacer ahora:{% elif lang == 'it' %}Cosa fare ora:{% elif lang == 'fr' %}Que faire maintenant :{% else %}What to do now:{% endif %}</strong> {{ intent.now }}</li>
+      </ul>
+    </section>
+    {% endif %}
+
     {{ content | safe }}
+
+    {% set guideFaq = seoExtensions.guideFaq[page.fileSlug] and seoExtensions.guideFaq[page.fileSlug][lang] %}
+    {% if guideFaq and guideFaq.length > 0 %}
+    <section class="guide-faq" aria-label="{% if lang == 'es' %}Preguntas clave{% elif lang == 'it' %}Domande chiave{% elif lang == 'fr' %}Questions clés{% else %}Key questions{% endif %}">
+      <h2>{% if lang == 'es' %}Preguntas clave{% elif lang == 'it' %}Domande chiave{% elif lang == 'fr' %}Questions clés{% else %}Key questions{% endif %}</h2>
+      {% for qa in guideFaq %}
+      <details class="faq-item">
+        <summary>{{ qa.q }}</summary>
+        <p>{{ qa.a }}</p>
+      </details>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    {% set sourceGroups = seoExtensions.authoritySources[page.fileSlug] and seoExtensions.authoritySources[page.fileSlug][lang] %}
+    {% if sourceGroups %}
+    <section class="authority-sources" aria-label="{% if lang == 'es' %}Fuentes oficiales{% elif lang == 'it' %}Fonti ufficiali{% elif lang == 'fr' %}Sources officielles{% else %}Official sources{% endif %}">
+      <h2>{% if lang == 'es' %}Fuentes oficiales{% elif lang == 'it' %}Fonti ufficiali{% elif lang == 'fr' %}Sources officielles{% else %}Official sources{% endif %}</h2>
+      <div class="authority-sources__grid">
+        {% for key, links in sourceGroups %}
+          {% if links and links.length > 0 %}
+          <div>
+            <h3>{% if key == 'cern' %}CERN{% elif key == 'swiss' %}{% if lang == 'fr' %}Autorites suisses{% elif lang == 'it' %}Autorita svizzere{% elif lang == 'es' %}Autoridades suizas{% else %}Swiss authorities{% endif %}{% elif key == 'french' %}{% if lang == 'fr' %}Autorites francaises{% elif lang == 'it' %}Autorita francesi{% elif lang == 'es' %}Autoridades francesas{% else %}French authorities{% endif %}{% else %}{% if lang == 'fr' %}Administration fiscale{% elif lang == 'it' %}Autorita fiscali{% elif lang == 'es' %}Autoridades fiscales{% else %}Tax authorities{% endif %}{% endif %}</h3>
+            <ul>
+              {% for link in links %}
+                {% if link.url %}
+              <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.url }}</a>{% if link.note %} — {{ link.note }}{% endif %}</li>
+                {% else %}
+              <li><a href="{{ link }}" target="_blank" rel="noopener noreferrer">{{ link }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% set sectionDates = seoExtensions.freshness.sectionDates[page.fileSlug] %}
+    {% if sectionDates %}
+    <section class="freshness-log" aria-label="{% if lang == 'es' %}Registro de verificación{% elif lang == 'it' %}Registro verifiche{% elif lang == 'fr' %}Registre de vérification{% else %}Verification log{% endif %}">
+      <h2>{% if lang == 'es' %}Registro de verificación{% elif lang == 'it' %}Registro verifiche{% elif lang == 'fr' %}Registre de vérification{% else %}Verification log{% endif %}</h2>
+      <ul>
+        {% for item in sectionDates %}
+        <li><strong>{{ item.section[lang] }}</strong>: <time datetime="{{ item.date }}">{{ item.date }}</time></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <section class="editorial-trust" aria-label="Trust and review information">
+      <h2>{% if lang == 'es' %}Revisión y mantenimiento{% elif lang == 'it' %}Revisione e manutenzione{% elif lang == 'fr' %}Révision et maintenance{% else %}Review and maintenance{% endif %}</h2>
+      <p>{% if lang == 'es' %}Mantenido por {{ site.author }}. Revisión trimestral de contenido y enlaces oficiales.{% elif lang == 'it' %}Mantenuto da {{ site.author }}. Revisione trimestrale di contenuti e fonti ufficiali.{% elif lang == 'fr' %}Maintenu par {{ site.author }}. Revue trimestrielle des contenus et des liens officiels.{% else %}Maintained by {{ site.author }}. Content and official sources are reviewed quarterly.{% endif %}</p>
+      <ul>
+        {% for check in seoExtensions.freshness.quarterlyChecklist[lang] %}
+        <li>{{ check }}</li>
+        {% endfor %}
+      </ul>
+      {% set isLegalPage = breadcrumbs and breadcrumbs[1] and breadcrumbs[1].url and '/legal-hub/' in breadcrumbs[1].url %}
+      {% if isLegalPage %}
+      <p class="legal-disclaimer">{% if lang == 'es' %}Nota: Este contenido es informativo y no constituye asesoramiento legal o fiscal profesional.{% elif lang == 'it' %}Nota: Questo contenuto e informativo e non costituisce consulenza legale o fiscale professionale.{% elif lang == 'fr' %}Note : ce contenu est informatif et ne constitue pas un conseil juridique ou fiscal professionnel.{% else %}Note: this content is informational and does not constitute professional legal or tax advice.{% endif %}</p>
+      {% endif %}
+    </section>
 
     {%- set hubCards = [] -%}
     {%- if breadcrumbs and breadcrumbs[1] and breadcrumbs[1].url -%}
@@ -55,14 +144,32 @@ bodyClass: page-content
           {%- endif -%}
         {%- endfor -%}
       </ul>
+
+      {% set dependencies = seoExtensions.youMayNeed[page.fileSlug] %}
+      {% if dependencies and dependencies.length > 0 %}
+      <h3 class="related-resources__subtitle">{% if lang == 'es' %}También te puede servir{% elif lang == 'it' %}Potrebbe servirti anche{% elif lang == 'fr' %}Vous pourriez aussi avoir besoin de{% else %}You may also need{% endif %}</h3>
+      <ul class="related-resources__list related-resources__list--deps">
+        {% for dep in dependencies %}
+          <li><a href="/{{ lang }}/{{ dep }}/">/{{ lang }}/{{ dep }}/</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% set nextStepUrl = seoExtensions.nextStep[page.fileSlug] and seoExtensions.nextStep[page.fileSlug][lang] %}
+      {% if nextStepUrl %}
+      <p class="related-resources__next">
+        <strong>{% if lang == 'es' %}Siguiente paso:{% elif lang == 'it' %}Prossimo passo:{% elif lang == 'fr' %}Étape suivante :{% else %}Next step:{% endif %}</strong>
+        <a href="{{ nextStepUrl }}">{{ nextStepUrl }}</a>
+      </p>
+      {% endif %}
+
+      <p class="related-resources__next">
+        <strong>{% if lang == 'es' %}Glosario:{% elif lang == 'it' %}Glossario:{% elif lang == 'fr' %}Glossaire :{% else %}Glossary:{% endif %}</strong>
+        <a href="/{{ lang }}/newcomer-glossary/">/{{ lang }}/newcomer-glossary/</a>
+      </p>
     </aside>
     {%- endif %}
 
-    {% if printable !== false %}
-    <div class="print-bar">
-      <button class="btn btn--secondary">{{ ui[lang].print_guide }}</button>
-    </div>
-    {% endif %}
   </div>
 </main>
 
@@ -85,6 +192,7 @@ bodyClass: page-content
 </script>
 {% endif %}
 {% if datePublished %}
+{% set entity = seoExtensions.entities and seoExtensions.entities[page.fileSlug] and seoExtensions.entities[page.fileSlug][lang] %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -96,7 +204,14 @@ bodyClass: page-content
   "datePublished": "{{ datePublished }}",
   "dateModified": "{{ dateModified or datePublished }}",
   "inLanguage": "{{ lang }}",
-  "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}"{% if entity %},
+  "about": [
+    {% for term in entity.about %}
+    { "@type": "Thing", "name": "{{ term | replace('\\', '\\\\') | replace('"', '\\"') }}" }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+  "keywords": "{{ entity.keywords | join(', ') | replace('\\', '\\\\') | replace('"', '\\"') }}"
+  {% endif %}
 }
 </script>
 {% endif %}
@@ -108,6 +223,49 @@ bodyClass: page-content
   "@type": "FAQPage",
   "mainEntity": [
     {% for qa in seo.faqSchema[lang] %}
+    {
+      "@type": "Question",
+      "name": "{{ qa.q | replace('\\', '\\\\') | replace('"', '\\"') }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ qa.a | replace('\\', '\\\\') | replace('"', '\\"') }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+{% if guideFaq and guideFaq.length > 0 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for qa in guideFaq %}
+    {
+      "@type": "Question",
+      "name": "{{ qa.q | replace('\\', '\\\\') | replace('"', '\\"') }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ qa.a | replace('\\', '\\\\') | replace('"', '\\"') }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+{% set autoFaq = content | extractFaqFromHtml %}
+{% if autoFaq and autoFaq.length > 0 and page.fileSlug != 'faq' and not guideFaq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for qa in autoFaq %}
     {
       "@type": "Question",
       "name": "{{ qa.q | replace('\\', '\\\\') | replace('"', '\\"') }}",

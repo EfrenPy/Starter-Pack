@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="CERN Starter Pack Open Graph Image in Italian">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="220" fill="#dbeafe" font-size="48" font-family="DM Sans, Arial, sans-serif" font-weight="700">CERN Starter Pack</text>
+  <text x="80" y="300" fill="#ffffff" font-size="64" font-family="DM Sans, Arial, sans-serif" font-weight="700">Inizia al CERN con chiarezza</text>
+  <text x="80" y="360" fill="#bfdbfe" font-size="34" font-family="DM Sans, Arial, sans-serif">Guida legale, fiscale, vita quotidiana e setup tecnico</text>
+  <text x="80" y="560" fill="#93c5fd" font-size="28" font-family="DM Sans, Arial, sans-serif">Italiano</text>
+</svg>

@@ -1,0 +1,256 @@
+{
+  "translations": {
+    "en": {
+      "title": "First Month Checklist - CERN Starter Pack",
+      "description": "A practical first-month plan at CERN covering access, legal registration, health insurance, commuting, and technical onboarding.",
+      "og": {
+        "title": "First Month Checklist - CERN Starter Pack",
+        "description": "Interactive weekly checklist for your first month at CERN: badge, admin, insurance, and commute setup."
+      },
+      "breadcrumbLabel": "First Month Checklist",
+      "heading": "Your First Month at CERN",
+      "privacyTitle": "🔒 Privacy",
+      "privacyText": "Progress is saved locally in your browser. Nothing is sent to any server.",
+      "progressText": "0 / 16 completed",
+      "resetButton": "Reset all progress"
+    },
+    "es": {
+      "title": "Checklist del Primer Mes - CERN Starter Pack",
+      "description": "Plan práctico del primer mes en CERN con acceso, registro legal, seguro médico, transporte y onboarding técnico.",
+      "og": {
+        "title": "Checklist del Primer Mes - CERN Starter Pack",
+        "description": "Checklist semanal interactiva para tu primer mes en CERN: badge, admin, seguro y transporte."
+      },
+      "breadcrumbLabel": "Checklist del Primer Mes",
+      "heading": "Tu Primer Mes en el CERN",
+      "privacyTitle": "🔒 Privacidad",
+      "privacyText": "El progreso se guarda localmente en tu navegador. No se envía nada a ningún servidor.",
+      "progressText": "0 / 16 completados",
+      "resetButton": "Restablecer todo el progreso"
+    },
+    "it": {
+      "title": "Checklist del Primo Mese - CERN Starter Pack",
+      "description": "Piano pratico del primo mese al CERN con accesso, registrazione legale, assicurazione sanitaria, trasporto e onboarding tecnico.",
+      "og": {
+        "title": "Checklist del Primo Mese - CERN Starter Pack",
+        "description": "Checklist settimanale interattiva per il primo mese al CERN: badge, admin, assicurazione e trasporto."
+      },
+      "breadcrumbLabel": "Checklist del Primo Mese",
+      "heading": "Il Tuo Primo Mese al CERN",
+      "privacyTitle": "🔒 Privacy",
+      "privacyText": "I progressi vengono salvati localmente nel tuo browser. Nessun dato viene inviato a server esterni.",
+      "progressText": "0 / 16 completati",
+      "resetButton": "Resetta tutti i progressi"
+    },
+    "fr": {
+      "title": "Checklist du Premier Mois - CERN Starter Pack",
+      "description": "Plan pratique du premier mois au CERN couvrant accès, enregistrement légal, assurance santé, transport et onboarding technique.",
+      "og": {
+        "title": "Checklist du Premier Mois - CERN Starter Pack",
+        "description": "Checklist hebdomadaire interactive pour votre premier mois au CERN : badge, admin, assurance et transport."
+      },
+      "breadcrumbLabel": "Checklist du Premier Mois",
+      "heading": "Votre Premier Mois au CERN",
+      "privacyTitle": "🔒 Confidentialité",
+      "privacyText": "La progression est sauvegardée localement dans votre navigateur. Rien n'est envoyé à un serveur.",
+      "progressText": "0 / 16 complétés",
+      "resetButton": "Réinitialiser toute la progression"
+    }
+  },
+  "phases": [
+    {
+      "heading": {
+        "en": "Week 1: Badge, Account & Emergency Contacts",
+        "es": "Semana 1: Badge, Cuenta y Contactos de Emergencia",
+        "it": "Settimana 1: Badge, Account e Contatti di Emergenza",
+        "fr": "Semaine 1 : Badge, Compte et Contacts d'Urgence"
+      },
+      "items": [
+        {
+          "id": "fm-badge-pickup",
+          "label": {
+            "en": "Collect your CERN access badge at <a href=\"/{lang}/first-weeks-guide/\">Building 55</a>",
+            "es": "Recoge tu badge de acceso CERN en el <a href=\"/{lang}/first-weeks-guide/\">Edificio 55</a>",
+            "it": "Ritira il badge di accesso CERN al <a href=\"/{lang}/first-weeks-guide/\">Building 55</a>",
+            "fr": "Récupérez votre badge d'accès CERN au <a href=\"/{lang}/first-weeks-guide/\">Building 55</a>"
+          },
+          "link": "first-weeks-guide"
+        },
+        {
+          "id": "fm-computing-account",
+          "label": {
+            "en": "Activate your CERN computing account and email",
+            "es": "Activa tu cuenta informática CERN y correo electrónico",
+            "it": "Attiva il tuo account informatico CERN e l'email",
+            "fr": "Activez votre compte informatique CERN et email"
+          },
+          "link": "computing-setup"
+        },
+        {
+          "id": "fm-emergency-contacts",
+          "label": {
+            "en": "Save emergency numbers and CERN Fire Brigade contact",
+            "es": "Guarda números de emergencia y contacto de Bomberos CERN",
+            "it": "Salva numeri di emergenza e contatto Vigili del Fuoco CERN",
+            "fr": "Enregistrez les numéros d'urgence et le contact des Pompiers CERN"
+          }
+        },
+        {
+          "id": "fm-newcomer-session",
+          "label": {
+            "en": "Attend CERN Newcomer Welcome Session",
+            "es": "Asiste a la Sesión de Bienvenida para Nuevos del CERN",
+            "it": "Partecipa alla Sessione di Benvenuto Nuovi Arrivati CERN",
+            "fr": "Assistez à la Session d'Accueil des Nouveaux Arrivants CERN"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Week 2: Residence & Mandatory Admin",
+        "es": "Semana 2: Residencia y Trámites Obligatorios",
+        "it": "Settimana 2: Residenza e Pratiche Obbligatorie",
+        "fr": "Semaine 2 : Résidence et Démarches Obligatoires"
+      },
+      "items": [
+        {
+          "id": "fm-commune-register",
+          "label": {
+            "en": "Register at your commune or mairie",
+            "es": "Regístrate en tu comuna o mairie",
+            "it": "Registrati al comune o al municipio",
+            "fr": "Inscrivez-vous à la commune ou à la mairie"
+          },
+          "link": "residence-permit"
+        },
+        {
+          "id": "fm-carte-legitimation",
+          "label": {
+            "en": "Apply for carte de légitimation or residence permit",
+            "es": "Solicita la carte de légitimation o permiso de residencia",
+            "it": "Richiedi la carte de légitimation o il permesso di soggiorno",
+            "fr": "Demandez la carte de légitimation ou le permis de séjour"
+          },
+          "link": "residence-permit"
+        },
+        {
+          "id": "fm-bank-account",
+          "label": {
+            "en": "Open a local bank account (Swiss or French)",
+            "es": "Abre una cuenta bancaria local (suiza o francesa)",
+            "it": "Apri un conto bancario locale (svizzero o francese)",
+            "fr": "Ouvrez un compte bancaire local (suisse ou français)"
+          },
+          "link": "banking"
+        },
+        {
+          "id": "fm-phone-plan",
+          "label": {
+            "en": "Get a local phone plan or SIM card",
+            "es": "Consigue un plan de teléfono o SIM local",
+            "it": "Procurati un piano telefonico o SIM locale",
+            "fr": "Prenez un forfait téléphonique ou une carte SIM locale"
+          }
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Week 3: Insurance & Financial Setup",
+        "es": "Semana 3: Seguro y Configuración Financiera",
+        "it": "Settimana 3: Assicurazione e Setup Finanziario",
+        "fr": "Semaine 3 : Assurance et Setup Financier"
+      },
+      "items": [
+        {
+          "id": "fm-health-insurance",
+          "label": {
+            "en": "Set up health insurance (CHIS, LAMal, or CMU)",
+            "es": "Configura el seguro médico (CHIS, LAMal o CMU)",
+            "it": "Configura l'assicurazione sanitaria (CHIS, LAMal o CMU)",
+            "fr": "Configurez l'assurance maladie (CHIS, LAMal ou CMU)"
+          },
+          "link": "health-insurance"
+        },
+        {
+          "id": "fm-salary-config",
+          "label": {
+            "en": "Confirm salary payment setup with HR",
+            "es": "Confirma la configuración de pago de salario con RRHH",
+            "it": "Conferma la configurazione del pagamento stipendio con HR",
+            "fr": "Confirmez la configuration du paiement de salaire avec les RH"
+          }
+        },
+        {
+          "id": "fm-tax-status",
+          "label": {
+            "en": "Understand your <a href=\"/{lang}/taxes/\">tax residence status</a>",
+            "es": "Comprende tu <a href=\"/{lang}/taxes/\">situación de residencia fiscal</a>",
+            "it": "Comprendi il tuo <a href=\"/{lang}/taxes/\">status di residenza fiscale</a>",
+            "fr": "Comprenez votre <a href=\"/{lang}/taxes/\">statut de résidence fiscale</a>"
+          },
+          "link": "taxes"
+        },
+        {
+          "id": "fm-pension-review",
+          "label": {
+            "en": "Review CERN Pension Fund enrolment options",
+            "es": "Revisa opciones de inscripción al Fondo de Pensiones CERN",
+            "it": "Verifica le opzioni di iscrizione al Fondo Pensione CERN",
+            "fr": "Vérifiez les options d'inscription au Fonds de Pension CERN"
+          },
+          "link": "pension-fund"
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Week 4: Commute & Technical Workflows",
+        "es": "Semana 4: Transporte y Flujos Técnicos",
+        "it": "Settimana 4: Trasporto e Flussi Tecnici",
+        "fr": "Semaine 4 : Transport et Workflows Techniques"
+      },
+      "items": [
+        {
+          "id": "fm-commute-plan",
+          "label": {
+            "en": "Set up your daily commute (TPG, CERN shuttle, bike)",
+            "es": "Organiza tu desplazamiento diario (TPG, lanzadera CERN, bici)",
+            "it": "Organizza il tuo pendolarismo quotidiano (TPG, navetta CERN, bici)",
+            "fr": "Organisez votre trajet quotidien (TPG, navette CERN, vélo)"
+          },
+          "link": "cross-border-commute"
+        },
+        {
+          "id": "fm-vpn-ssh",
+          "label": {
+            "en": "Configure VPN, SSH keys, and Kerberos for remote access",
+            "es": "Configura VPN, claves SSH y Kerberos para acceso remoto",
+            "it": "Configura VPN, chiavi SSH e Kerberos per l'accesso remoto",
+            "fr": "Configurez VPN, clés SSH et Kerberos pour l'accès à distance"
+          },
+          "link": "computing-setup"
+        },
+        {
+          "id": "fm-safety-training",
+          "label": {
+            "en": "Complete mandatory safety and security training",
+            "es": "Completa la formación obligatoria de seguridad",
+            "it": "Completa la formazione obbligatoria sulla sicurezza",
+            "fr": "Complétez la formation obligatoire de sécurité"
+          }
+        },
+        {
+          "id": "fm-explore-campus",
+          "label": {
+            "en": "Explore CERN campus: Restaurant 1, library, gym",
+            "es": "Explora el campus CERN: Restaurante 1, biblioteca, gimnasio",
+            "it": "Esplora il campus CERN: Ristorante 1, biblioteca, palestra",
+            "fr": "Explorez le campus CERN : Restaurant 1, bibliothèque, salle de sport"
+          }
+        }
+      ]
+    }
+  ]
+}

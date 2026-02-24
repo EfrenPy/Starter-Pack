@@ -1,17 +1,15 @@
-const STORAGE_KEY = 'cern-checklist-progress';
-
-export function initChecklist() {
+export function initChecklist(storageKey = 'cern-checklist-progress') {
   const checkboxes = document.querySelectorAll('[data-checklist-id]');
   if (!checkboxes.length) return;
 
   let saved = {};
-  try { saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch { /* ignore corrupt data */ }
+  try { saved = JSON.parse(localStorage.getItem(storageKey) || '{}'); } catch { /* ignore corrupt data */ }
   checkboxes.forEach(cb => {
     const id = cb.dataset.checklistId;
     if (saved[id]) cb.checked = true;
     cb.addEventListener('change', () => {
       saved[id] = cb.checked;
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+      localStorage.setItem(storageKey, JSON.stringify(saved));
       updateProgress(checkboxes);
     });
   });
@@ -21,7 +19,7 @@ export function initChecklist() {
   const resetBtn = document.getElementById('reset-checklist');
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      localStorage.removeItem(STORAGE_KEY);
+      localStorage.removeItem(storageKey);
       checkboxes.forEach(cb => { cb.checked = false; });
       updateProgress(checkboxes);
     });
@@ -41,8 +39,7 @@ function updateProgress(checkboxes) {
   if (bar) bar.setAttribute('aria-valuenow', pct);
   if (text) {
     const lang = document.documentElement.lang || 'en';
-    text.textContent = lang === 'es'
-      ? `${checked} / ${total} completados`
-      : `${checked} / ${total} completed`;
+    const labels = { es: 'completados', en: 'completed', it: 'completati', fr: 'complétés' };
+    text.textContent = `${checked} / ${total} ${labels[lang] || labels.en}`;
   }
 }

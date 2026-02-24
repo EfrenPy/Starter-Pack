@@ -1,0 +1,75 @@
+---js
+{
+  pagination: { data: "site.languages", size: 1, alias: "langObj" },
+  eleventyComputed: {
+    lang: (data) => data.langObj.code,
+    locale: (data) => ({ es: "es_ES", en: "en_US", it: "it_IT", fr: "fr_FR" }[data.langObj.code]),
+    permalink: (data) => `${data.langObj.code}/newcomer-glossary/`,
+    title: (data) => data.pages['newcomer-glossary'].title[data.langObj.code],
+    description: (data) => data.pages['newcomer-glossary'].description[data.langObj.code],
+    og: (data) => ({
+      title: data.pages['newcomer-glossary'].title[data.langObj.code],
+      description: data.pages['newcomer-glossary'].description[data.langObj.code],
+    }),
+    breadcrumbs: (data) => {
+      const lang = data.langObj.code;
+      return [
+        { label: data.ui[lang].nav_home, url: `/${lang}/` },
+        { label: data.pages['newcomer-glossary'].title[lang] }
+      ];
+    }
+  },
+  layout: "layouts/page.njk",
+  printable: false,
+  extraJs: "/scripts/pages/glossary.js"
+}
+---
+{%- set t = pages['newcomer-glossary'] -%}
+{%- set l = lang -%}
+{%- set tr = t.translations[l] -%}
+
+<h1>{{ t.title[l] }}</h1>
+
+<div class="quick-answer">
+  <strong>{% if l == 'es' %}Respuesta rápida:{% elif l == 'it' %}Risposta rapida:{% elif l == 'fr' %}Réponse rapide:{% else %}Quick answer:{% endif %}</strong>
+  {{ t.description[l] }}
+</div>
+
+<div class="glossary-controls">
+  <div class="search-box">
+    <div class="search-box__input-wrap">
+      <span class="search-box__icon" aria-hidden="true">🔍</span>
+      <input type="text" class="search-box__input" id="glossary-filter" placeholder="{{ tr.filterPlaceholder }}" autocomplete="off">
+    </div>
+  </div>
+
+  <div class="glossary-pills" role="group" aria-label="{{ tr.filterPlaceholder }}">
+    <button class="glossary-pill glossary-pill--active" data-category="all">{{ tr.allCategories }}</button>
+    {%- for cat in t.categories %}
+    <button class="glossary-pill" data-category="{{ cat.id }}">{{ cat.label[l] }}</button>
+    {%- endfor %}
+  </div>
+</div>
+
+<div class="glossary-grid">
+  {%- for item in t.terms %}
+  <div class="glossary-card" data-category="{{ item.category }}" data-term="{{ item.term[l] | lower }}">
+    <div class="glossary-card__header">
+      <span class="glossary-card__icon" aria-hidden="true">{{ item.icon }}</span>
+      <h2 class="glossary-card__term">{{ item.term[l] }}</h2>
+    </div>
+    {%- for cat in t.categories %}{% if cat.id == item.category %}<span class="badge">{{ cat.label[l] }}</span>{% endif %}{%- endfor %}
+    <p class="glossary-card__def">{{ item.definition[l] }}</p>
+    {%- if item.seeAlso and item.seeAlso.length %}
+    <div class="glossary-card__links">
+      <span class="glossary-card__links-label">{{ tr.seeAlsoLabel }}:</span>
+      {%- for link in item.seeAlso %}
+      <a href="/{{ l }}/{{ link.slug }}/">{{ link.label[l] }}</a>{% if not loop.last %}, {% endif %}
+      {%- endfor %}
+    </div>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+</div>
+
+<p class="glossary-no-results" id="glossary-no-results" hidden>{{ tr.noResults }}</p>

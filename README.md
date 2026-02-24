@@ -7,8 +7,9 @@ A multilingual informational website for people starting to work at CERN. Covers
 ## Features
 
 - **4 languages** — Spanish (default), English, Italian, and French
-- **40+ content pages** per language covering legal, tax, daily life, and technical topics
+- **50+ content pages** per language covering legal, tax, daily life, and technical topics
 - **Client-side search** with accent-insensitive matching (Fuse.js)
+- **SEO enhancements** — canonical/hreflang alternates, structured data (WebSite, FAQ, HowTo), and sitemap with language alternates
 - **Interactive checklist** for tracking onboarding progress
 - **Cost of living calculator** for the Geneva/CERN area
 - **Dark mode** with system preference detection and manual toggle
@@ -33,7 +34,7 @@ Plus standalone pages for FAQ, pre-arrival guide, first weeks guide, doctoral gu
 - [Nunjucks](https://mozilla.github.io/nunjucks/) — templating
 - [Markdown-it](https://github.com/markdown-it/markdown-it) — Markdown rendering
 - [Fuse.js](https://www.fusejs.io/) — client-side fuzzy search
-- [Playwright](https://playwright.dev/) — end-to-end testing (355 tests)
+- [Playwright](https://playwright.dev/) — end-to-end testing (352 tests)
 - Vanilla JavaScript (ES modules, no frameworks)
 - GitHub Actions — CI/CD (build + FTP deploy, Lighthouse CI)
 
@@ -83,6 +84,7 @@ src/
 │   ├── site.json          # Site config, languages, CSP
 │   ├── ui.json            # UI strings per language (~30 keys)
 │   ├── navigation.json    # Nav links per language
+│   ├── seo.json           # SEO snippets and schema data (FAQ/HowTo)
 │   └── pages/             # Page data (hubs, checklist, calculator, search)
 ├── _includes/
 │   ├── layouts/           # Nunjucks layouts (base, page, hub, home)
@@ -104,7 +106,7 @@ All translated UI strings live in `src/_data/ui.json`. Navigation labels, hub ca
 
 ### Search
 
-Search indices are built at build time by `scripts/build-search-index.js` (one JSON file per language). The client loads the matching index based on the URL path and uses Fuse.js for fuzzy, accent-insensitive matching.
+Search indices are built at build time by `scripts/build-search-index.js` (one JSON file per language). The client loads the matching index based on the URL path and uses vendored Fuse.js (`src/scripts/vendor/fuse.min.js`) for fuzzy, accent-insensitive matching.
 
 ## Deployment
 
@@ -117,6 +119,7 @@ A separate Lighthouse CI workflow runs on pushes and pull requests to `main`.
 Contributions are welcome! Whether it's fixing a typo, updating outdated info, suggesting new content, or improving the code — every bit helps.
 
 - See [CONTRIBUTING.md](CONTRIBUTING.md) for full developer instructions
+- See [SEO_PLAYBOOK.md](SEO_PLAYBOOK.md) for monthly/quarterly SEO workflow
 - [Open an issue](https://github.com/EfrenPy/Starter-Pack/issues/new) to report a bug or suggest content
 - Submit a pull request to contribute directly
 
@@ -128,4 +131,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Efren Rodriguez Rodriguez** — [efrenrodriguezrodriguez.com](https://efrenrodriguezrodriguez.com)
 
-*This is a personal project, not officially affiliated with CERN.*
+_This is a personal project, not officially affiliated with CERN._

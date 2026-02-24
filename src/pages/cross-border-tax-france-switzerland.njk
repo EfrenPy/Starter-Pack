@@ -1,0 +1,48 @@
+---js
+{
+  pagination: { data: "site.languages", size: 1, alias: "langObj" },
+  eleventyComputed: {
+    lang: (data) => data.langObj.code,
+    locale: (data) => ({ es: "es_ES", en: "en_US", it: "it_IT", fr: "fr_FR" }[data.langObj.code]),
+    permalink: (data) => `${data.langObj.code}/cross-border-tax-france-switzerland/`,
+    title: (data) => data.pages['intent-landings']['cross-border-tax-france-switzerland'].title[data.langObj.code],
+    description: (data) => data.pages['intent-landings']['cross-border-tax-france-switzerland'].description[data.langObj.code],
+    og: (data) => ({
+      title: data.pages['intent-landings']['cross-border-tax-france-switzerland'].title[data.langObj.code],
+      description: data.pages['intent-landings']['cross-border-tax-france-switzerland'].description[data.langObj.code],
+    }),
+    breadcrumbs: (data) => {
+      const lang = data.langObj.code;
+      return [
+        { label: data.ui[lang].nav_home, url: `/${lang}/` },
+        { label: data.pages['intent-landings']['cross-border-tax-france-switzerland'].title[lang] }
+      ];
+    }
+  },
+  layout: "layouts/page.njk"
+}
+---
+{% set t = pages['intent-landings']['cross-border-tax-france-switzerland'] %}
+{% set l = lang %}
+
+<h1>{{ t.title[l] }}</h1>
+
+<div class="quick-answer">
+  <strong>{% if l == 'es' %}Respuesta rápida:{% elif l == 'it' %}Risposta rapida:{% elif l == 'fr' %}Réponse rapide:{% else %}Quick answer:{% endif %}</strong>
+  {{ t.description[l] }}
+</div>
+
+<h2>{% if l == 'es' %}Pasos clave{% elif l == 'it' %}Passi chiave{% elif l == 'fr' %}Étapes clés{% else %}Key steps{% endif %}</h2>
+
+<ol>
+  {% for step in t.steps[l] %}
+  <li>{{ step }}</li>
+  {% endfor %}
+</ol>
+
+<h2>{% if l == 'es' %}También te puede servir{% elif l == 'it' %}Ti può servire anche{% elif l == 'fr' %}Peut aussi vous aider{% else %}You may also need{% endif %}</h2>
+
+<ul>
+  <li><a href="/{{ l }}/frontalier-guide/">{% if l == 'es' %}Guía Frontalier{% elif l == 'it' %}Guida Frontalier{% elif l == 'fr' %}Guide Frontalier{% else %}Frontalier Guide{% endif %}</a></li>
+  <li><a href="/{{ l }}/french-swiss-taxes/">{% if l == 'es' %}Impuestos Francia-Suiza{% elif l == 'it' %}Tasse Francia-Svizzera{% elif l == 'fr' %}Fiscalité France-Suisse{% else %}French-Swiss Taxes{% endif %}</a></li>
+</ul>

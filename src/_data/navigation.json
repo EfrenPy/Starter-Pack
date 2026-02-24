@@ -1,19 +1,98 @@
 {
   "main": [
-    { "slug": "legal-hub", "en": "Legal & Tax Help", "es": "Ayuda Legal y Fiscal", "it": "Assistenza Legale e Fiscale", "fr": "Aide Juridique et Fiscale" },
-    { "slug": "technical-hub", "en": "Technical Help", "es": "Ayuda Técnica", "it": "Assistenza Tecnica", "fr": "Aide Technique" },
-    { "slug": "health-insurance", "en": "Health Insurance", "es": "Seguro Médico", "it": "Assicurazione Sanitaria", "fr": "Assurance Maladie" },
-    { "slug": "daily-life-hub", "en": "Daily Life", "es": "Vida Cotidiana", "it": "Vita Quotidiana", "fr": "Vie Quotidienne" },
-    { "slug": "faq", "en": "FAQ", "es": "Preguntas Frecuentes", "it": "Domande Frequenti", "fr": "FAQ" }
+    {
+      "slug": "legal-hub",
+      "en": "Legal & Tax Help",
+      "es": "Ayuda Legal y Fiscal",
+      "it": "Assistenza Legale e Fiscale",
+      "fr": "Aide Juridique et Fiscale"
+    },
+    {
+      "slug": "technical-hub",
+      "en": "Technical Help",
+      "es": "Ayuda Técnica",
+      "it": "Assistenza Tecnica",
+      "fr": "Aide Technique"
+    },
+    {
+      "slug": "health-insurance",
+      "en": "Health Insurance",
+      "es": "Seguro Médico",
+      "it": "Assicurazione Sanitaria",
+      "fr": "Assurance Maladie"
+    },
+    {
+      "slug": "daily-life-hub",
+      "en": "Daily Life",
+      "es": "Vida Cotidiana",
+      "it": "Vita Quotidiana",
+      "fr": "Vie Quotidienne"
+    },
+    {
+      "slug": "faq",
+      "en": "FAQ",
+      "es": "Preguntas Frecuentes",
+      "it": "Domande Frequenti",
+      "fr": "FAQ"
+    }
   ],
   "footer": [
-    { "slug": "legal-hub", "en": "Legal & Tax Help", "es": "Ayuda Legal y Fiscal", "it": "Assistenza Legale e Fiscale", "fr": "Aide Juridique et Fiscale" },
-    { "slug": "technical-hub", "en": "Technical Help", "es": "Ayuda Técnica", "it": "Assistenza Tecnica", "fr": "Aide Technique" },
+    {
+      "slug": "legal-hub",
+      "en": "Legal & Tax Help",
+      "es": "Ayuda Legal y Fiscal",
+      "it": "Assistenza Legale e Fiscale",
+      "fr": "Aide Juridique et Fiscale"
+    },
+    {
+      "slug": "technical-hub",
+      "en": "Technical Help",
+      "es": "Ayuda Técnica",
+      "it": "Assistenza Tecnica",
+      "fr": "Aide Technique"
+    },
     { "slug": "search", "en": "Search", "es": "Buscar", "it": "Cerca", "fr": "Recherche" },
-    { "slug": "health-insurance", "en": "Health Insurance", "es": "Seguro Médico", "it": "Assicurazione Sanitaria", "fr": "Assurance Maladie" },
-    { "slug": "faq", "en": "FAQ", "es": "Preguntas Frecuentes", "it": "Domande Frequenti", "fr": "FAQ" },
-    { "slug": "housing-guide", "en": "Housing Guide", "es": "Guía de Vivienda", "it": "Guida all'Alloggio", "fr": "Guide du Logement" },
-    { "slug": "daily-life-hub", "en": "Daily Life", "es": "Vida Cotidiana", "it": "Vita Quotidiana", "fr": "Vie Quotidienne" },
-    { "slug": "contribute", "en": "Contribute", "es": "Contribuir", "it": "Contribuisci", "fr": "Contribuer" }
+    {
+      "slug": "health-insurance",
+      "en": "Health Insurance",
+      "es": "Seguro Médico",
+      "it": "Assicurazione Sanitaria",
+      "fr": "Assurance Maladie"
+    },
+    {
+      "slug": "faq",
+      "en": "FAQ",
+      "es": "Preguntas Frecuentes",
+      "it": "Domande Frequenti",
+      "fr": "FAQ"
+    },
+    {
+      "slug": "newcomer-glossary",
+      "en": "Glossary",
+      "es": "Glosario",
+      "it": "Glossario",
+      "fr": "Glossaire"
+    },
+    {
+      "slug": "housing-guide",
+      "en": "Housing Guide",
+      "es": "Guía de Vivienda",
+      "it": "Guida all'Alloggio",
+      "fr": "Guide du Logement"
+    },
+    {
+      "slug": "daily-life-hub",
+      "en": "Daily Life",
+      "es": "Vida Cotidiana",
+      "it": "Vita Quotidiana",
+      "fr": "Vie Quotidienne"
+    },
+    {
+      "slug": "contribute",
+      "en": "Contribute",
+      "es": "Contribuir",
+      "it": "Contribuisci",
+      "fr": "Contribuer"
+    }
   ]
 }

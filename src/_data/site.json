@@ -3,6 +3,7 @@
   "name": "CERN Starter Pack",
   "author": "Efrén Rodríguez Rodríguez",
   "email": "info@efrenrodriguezrodriguez.com",
+  "sameAs": ["https://github.com/EfrenPy/Starter-Pack", "https://efrenrodriguezrodriguez.com"],
   "defaultLang": "en",
   "languages": [
     { "code": "es", "label": "ES", "name": "Español" },
@@ -11,6 +12,12 @@
     { "code": "fr", "label": "FR", "name": "Français" }
   ],
   "ogImage": "/images/og-image.png",
+  "ogImageByLang": {
+    "en": "/images/og/og-en.png",
+    "es": "/images/og/og-es.png",
+    "it": "/images/og/og-it.png",
+    "fr": "/images/og/og-fr.png"
+  },
   "ogImageWidth": "1200",
   "ogImageHeight": "630",
   "themeScript": "(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()",

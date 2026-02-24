@@ -1,0 +1,391 @@
+{
+  "meta": {
+    "access-cards": {
+      "en": {
+        "title": "CERN Access Card Guide: Building 55, Activation and Daily Use",
+        "description": "Step-by-step CERN access card guide for newcomers: where to collect it (Building 55), activation timeline, badge checks, and common first-week issues."
+      },
+      "es": {
+        "title": "Guía de Tarjeta de Acceso CERN: Edificio 55, Activación y Uso",
+        "description": "Guía práctica para nuevos en CERN: recogida en Edificio 55, activación, controles de badge y problemas comunes de la primera semana."
+      },
+      "it": {
+        "title": "Guida Tessera Accesso CERN: Building 55, Attivazione e Uso",
+        "description": "Guida pratica per nuovi arrivati al CERN: ritiro al Building 55, attivazione, controlli badge e problemi tipici della prima settimana."
+      },
+      "fr": {
+        "title": "Guide Carte d'Accès CERN : Building 55, Activation et Usage",
+        "description": "Guide pratique pour nouveaux arrivants au CERN : retrait au Building 55, activation, contrôles badge et problèmes fréquents de la première semaine."
+      }
+    },
+    "first-weeks-guide": {
+      "en": {
+        "title": "First Month at CERN: Checklist for Access, Residence, Health and IT",
+        "description": "Action checklist for your first month at CERN: account setup, residence registration, health insurance decisions, banking, transport, and IT onboarding."
+      },
+      "es": {
+        "title": "Primer Mes en CERN: Checklist de Acceso, Residencia, Salud y TI",
+        "description": "Checklist accionable para tu primer mes en CERN: cuenta, registro de residencia, seguro médico, banca, transporte y onboarding técnico."
+      },
+      "it": {
+        "title": "Primo Mese al CERN: Checklist Accesso, Residenza, Salute e IT",
+        "description": "Checklist operativa per il primo mese al CERN: account, registrazione di residenza, scelta sanitaria, banca, trasporti e onboarding IT."
+      },
+      "fr": {
+        "title": "Premier Mois au CERN : Checklist Accès, Résidence, Santé et IT",
+        "description": "Checklist actionnable pour votre premier mois au CERN : compte, résidence, assurance maladie, banque, transport et onboarding technique."
+      }
+    }
+  },
+  "guideFaq": {
+    "first-weeks-guide": {
+      "en": [
+        {
+          "q": "What should I complete in my first week at CERN?",
+          "a": "Prioritize badge/account activation, residence registration, health insurance decision points, and your daily commute setup."
+        },
+        {
+          "q": "Can I delay residence registration?",
+          "a": "Usually no. Registration windows are short and depend on where you live (France or Switzerland)."
+        },
+        {
+          "q": "Which setup tasks usually block progress?",
+          "a": "Access card delays, incomplete address documents, and unresolved health insurance choices are common blockers."
+        }
+      ],
+      "es": [
+        {
+          "q": "Qué debo completar en mi primera semana en CERN?",
+          "a": "Prioriza activación de badge/cuenta, registro de residencia, decisiones de seguro médico y rutina de transporte."
+        },
+        {
+          "q": "Puedo retrasar el registro de residencia?",
+          "a": "Normalmente no. Los plazos son cortos y dependen de si vives en Francia o Suiza."
+        },
+        {
+          "q": "Qué tareas suelen bloquear el avance?",
+          "a": "Retrasos de badge, documentos de domicilio incompletos y seguro médico no resuelto."
+        }
+      ],
+      "it": [
+        {
+          "q": "Cosa devo completare nella prima settimana al CERN?",
+          "a": "Dai priorità ad attivazione badge/account, registrazione di residenza, scelta sanitaria e trasporto quotidiano."
+        },
+        {
+          "q": "Posso rimandare la registrazione di residenza?",
+          "a": "Di solito no. Le finestre temporali sono brevi e dipendono da Francia o Svizzera."
+        },
+        {
+          "q": "Quali attività bloccano più spesso il percorso?",
+          "a": "Ritardi badge, documenti indirizzo incompleti e scelta sanitaria non finalizzata."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Que faut-il terminer pendant la première semaine au CERN ?",
+          "a": "Priorisez badge/compte, enregistrement de résidence, choix de couverture santé et routine transport."
+        },
+        {
+          "q": "Puis-je retarder l'enregistrement de résidence ?",
+          "a": "En général non. Les délais sont courts et dépendent du pays de résidence."
+        },
+        {
+          "q": "Quelles tâches bloquent le plus souvent ?",
+          "a": "Retards badge, justificatifs d'adresse incomplets et choix d'assurance non finalisé."
+        }
+      ]
+    },
+    "transportation": {
+      "en": [
+        {
+          "q": "Which public transport lines go directly to CERN?",
+          "a": "TPG lines 66 and 68 plus tram 18 are the main direct options for many newcomers."
+        },
+        {
+          "q": "Should I buy a monthly pass immediately?",
+          "a": "If you commute daily, a monthly pass usually becomes cost-effective quickly."
+        },
+        {
+          "q": "Can I rely only on CERN shuttles?",
+          "a": "Shuttles are useful between CERN sites, but city commutes usually require public transport or car options."
+        }
+      ],
+      "es": [
+        {
+          "q": "Qué líneas llegan directo al CERN?",
+          "a": "Las líneas TPG 66 y 68, junto con el tranvía 18, son las opciones directas principales."
+        },
+        {
+          "q": "Conviene comprar abono mensual desde el inicio?",
+          "a": "Si viajas a diario, normalmente se amortiza rápido."
+        },
+        {
+          "q": "Puedo usar solo lanzaderas CERN?",
+          "a": "Ayudan entre sedes CERN, pero para ciudad normalmente necesitas transporte público o coche."
+        }
+      ],
+      "it": [
+        {
+          "q": "Quali linee raggiungono direttamente il CERN?",
+          "a": "Le linee TPG 66 e 68, insieme al tram 18, sono le opzioni dirette principali."
+        },
+        {
+          "q": "Conviene fare subito l'abbonamento mensile?",
+          "a": "Se fai pendolarismo quotidiano, in genere conviene rapidamente."
+        },
+        {
+          "q": "Posso usare solo le navette CERN?",
+          "a": "Sono utili tra siti CERN, ma per il tragitto urbano servono spesso mezzi pubblici o auto."
+        }
+      ],
+      "fr": [
+        {
+          "q": "Quelles lignes vont directement au CERN ?",
+          "a": "Les lignes TPG 66 et 68, ainsi que le tram 18, sont les options directes principales."
+        },
+        {
+          "q": "Faut-il prendre un abonnement mensuel tout de suite ?",
+          "a": "Pour un trajet quotidien, l'abonnement devient souvent rentable rapidement."
+        },
+        {
+          "q": "Puis-je utiliser uniquement les navettes CERN ?",
+          "a": "Utiles entre sites CERN, mais les trajets ville exigent souvent transports publics ou voiture."
+        }
+      ]
+    }
+  },
+  "nextStep": {
+    "access-cards": {
+      "en": "/en/first-weeks-guide/",
+      "es": "/es/first-weeks-guide/",
+      "it": "/it/first-weeks-guide/",
+      "fr": "/fr/first-weeks-guide/"
+    },
+    "first-weeks-guide": {
+      "en": "/en/health-insurance/",
+      "es": "/es/health-insurance/",
+      "it": "/it/health-insurance/",
+      "fr": "/fr/health-insurance/"
+    },
+    "permits-registration": {
+      "en": "/en/frontalier-guide/",
+      "es": "/es/frontalier-guide/",
+      "it": "/it/frontalier-guide/",
+      "fr": "/fr/frontalier-guide/"
+    },
+    "transportation": {
+      "en": "/en/cern-shuttles/",
+      "es": "/es/cern-shuttles/",
+      "it": "/it/cern-shuttles/",
+      "fr": "/fr/cern-shuttles/"
+    }
+  },
+  "youMayNeed": {
+    "permits-registration": ["health-insurance", "frontalier-guide", "access-cards"],
+    "health-insurance": ["frontalier-guide", "french-swiss-taxes", "parental-leave"],
+    "french-swiss-taxes": ["frontalier-guide", "tax_declaration_spain", "modelo-720"],
+    "access-cards": ["first-weeks-guide", "transportation", "cern-shuttles"]
+  },
+  "authoritySources": {
+    "access-cards": {
+      "en": {
+        "cern": ["https://admin-eguide.web.cern.ch/"],
+        "swiss": ["https://www.eda.admin.ch/"],
+        "french": [],
+        "tax": []
+      },
+      "es": {
+        "cern": ["https://admin-eguide.web.cern.ch/"],
+        "swiss": ["https://www.eda.admin.ch/"],
+        "french": [],
+        "tax": []
+      },
+      "it": {
+        "cern": ["https://admin-eguide.web.cern.ch/"],
+        "swiss": ["https://www.eda.admin.ch/"],
+        "french": [],
+        "tax": []
+      },
+      "fr": {
+        "cern": ["https://admin-eguide.web.cern.ch/"],
+        "swiss": ["https://www.eda.admin.ch/"],
+        "french": [],
+        "tax": []
+      }
+    }
+  },
+  "freshness": {
+    "quarterlyChecklist": {
+      "en": [
+        "Verify legal deadlines and authority links",
+        "Recheck transport timetables and stop names",
+        "Revalidate tax thresholds and rates",
+        "Confirm CERN service URLs and portal names"
+      ],
+      "es": [
+        "Verificar plazos legales y enlaces oficiales",
+        "Revisar horarios de transporte y nombres de paradas",
+        "Revalidar umbrales y tipos fiscales",
+        "Confirmar URLs de servicios y portales CERN"
+      ],
+      "it": [
+        "Verificare scadenze legali e link ufficiali",
+        "Ricontrollare orari trasporti e nomi fermate",
+        "Rivalidare soglie e aliquote fiscali",
+        "Confermare URL servizi e portali CERN"
+      ],
+      "fr": [
+        "Vérifier les délais légaux et liens officiels",
+        "Revérifier horaires transport et noms d'arrêts",
+        "Revalider seuils et taux fiscaux",
+        "Confirmer les URL des services et portails CERN"
+      ]
+    },
+    "sectionDates": {
+      "access-cards": [
+        {
+          "section": {
+            "en": "Collection point and onboarding",
+            "es": "Punto de recogida e incorporación",
+            "it": "Punto ritiro e onboarding",
+            "fr": "Point de retrait et intégration"
+          },
+          "date": "2026-02-24"
+        },
+        {
+          "section": {
+            "en": "Badge usage and daily checks",
+            "es": "Uso del badge y controles diarios",
+            "it": "Uso badge e controlli quotidiani",
+            "fr": "Usage badge et contrôles quotidiens"
+          },
+          "date": "2026-02-24"
+        }
+      ],
+      "transportation": [
+        {
+          "section": {
+            "en": "TPG routes and pass guidance",
+            "es": "Rutas TPG y abonos",
+            "it": "Linee TPG e abbonamenti",
+            "fr": "Lignes TPG et abonnements"
+          },
+          "date": "2026-02-24"
+        }
+      ]
+    }
+  },
+  "intentSections": {
+    "access-cards": {
+      "en": {
+        "who": "New CERN arrivals and visitors who need site access.",
+        "when": "Use this before your first on-site day and after contract renewals.",
+        "now": "Prepare ID + contract docs and go to Building 55 registration."
+      },
+      "es": {
+        "who": "Nuevas incorporaciones y visitantes que necesitan acceso CERN.",
+        "when": "Úsalo antes del primer día y tras renovaciones de contrato.",
+        "now": "Prepara identificación + contrato y ve al registro del Edificio 55."
+      },
+      "it": {
+        "who": "Nuovi arrivi e visitatori che necessitano accesso CERN.",
+        "when": "Usalo prima del primo giorno e dopo rinnovi contrattuali.",
+        "now": "Prepara documento + contratto e vai al registro Building 55."
+      },
+      "fr": {
+        "who": "Nouveaux arrivants et visiteurs ayant besoin d'accès CERN.",
+        "when": "À utiliser avant le premier jour et après renouvellement de contrat.",
+        "now": "Préparez pièce d'identité + contrat et allez au registre Building 55."
+      }
+    },
+    "first-weeks-guide": {
+      "en": {
+        "who": "Anyone in their first month at CERN.",
+        "when": "Use from pre-arrival through week 4.",
+        "now": "Follow the checklist in order to avoid administrative blockers."
+      },
+      "es": {
+        "who": "Personas en su primer mes en CERN.",
+        "when": "Úsalo desde pre-llegada hasta la semana 4.",
+        "now": "Sigue el checklist en orden para evitar bloqueos administrativos."
+      },
+      "it": {
+        "who": "Chiunque sia nel primo mese al CERN.",
+        "when": "Da pre-arrivo fino alla settimana 4.",
+        "now": "Segui la checklist in ordine per evitare blocchi amministrativi."
+      },
+      "fr": {
+        "who": "Toute personne dans son premier mois au CERN.",
+        "when": "À utiliser de la pré-arrivée jusqu'à la semaine 4.",
+        "now": "Suivez la checklist dans l'ordre pour éviter les blocages administratifs."
+      }
+    },
+    "transportation": {
+      "en": {
+        "who": "Commuters choosing between TPG, shuttles, bike, or car.",
+        "when": "Use after housing choice or when commute changes.",
+        "now": "Pick one default route and one backup route for peak periods."
+      },
+      "es": {
+        "who": "Personas que eligen entre TPG, lanzaderas, bici o coche.",
+        "when": "Úsalo tras elegir vivienda o si cambia tu desplazamiento.",
+        "now": "Define una ruta principal y una alternativa para horas punta."
+      },
+      "it": {
+        "who": "Pendolari che scelgono tra TPG, navette, bici o auto.",
+        "when": "Dopo scelta alloggio o cambio tragitto.",
+        "now": "Definisci un percorso principale e uno di backup nelle ore di punta."
+      },
+      "fr": {
+        "who": "Navetteurs choisissant entre TPG, navettes, vélo ou voiture.",
+        "when": "Après choix du logement ou changement de trajet.",
+        "now": "Choisissez un trajet principal et un trajet de secours en heures de pointe."
+      }
+    }
+  },
+  "entities": {
+    "access-cards": {
+      "en": {
+        "about": ["CERN access card", "Building 55", "CERN Users Office"],
+        "keywords": ["cern access card", "building 55", "badge activation", "cern onboarding"]
+      },
+      "es": {
+        "about": ["tarjeta acceso CERN", "Edificio 55", "Users Office"],
+        "keywords": ["tarjeta cern", "edificio 55", "activacion badge", "incorporacion cern"]
+      },
+      "it": {
+        "about": ["tessera accesso CERN", "Building 55", "Users Office"],
+        "keywords": ["badge cern", "building 55", "attivazione badge", "onboarding cern"]
+      },
+      "fr": {
+        "about": ["carte acces CERN", "Building 55", "Users Office"],
+        "keywords": ["carte acces cern", "building 55", "activation badge", "integration cern"]
+      }
+    }
+  },
+  "titleVariants": {
+    "monthlyReview": [
+      "access-cards",
+      "first-weeks-guide",
+      "health-insurance",
+      "transportation",
+      "cern-shuttles",
+      "frontalier-guide",
+      "french-swiss-taxes",
+      "permits-registration",
+      "faq",
+      "pre-arrival-guide",
+      "departure-guide",
+      "tax_declaration_spain",
+      "modelo-720",
+      "banking-setup",
+      "housing-guide",
+      "contracts-career",
+      "pension-fund",
+      "technical/cern-it-basics",
+      "technical/vscode-remote",
+      "checklist"
+    ]
+  }
+}

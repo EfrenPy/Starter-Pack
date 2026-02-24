@@ -3,7 +3,7 @@
 <head>
   {% include "partials/head.njk" %}
 </head>
-<body class="{{ bodyClass or '' }}">
+<body class="{{ bodyClass or '' }}"{% if bodyClass == 'page-hub' %}{% if '/legal-hub/' in page.url %} data-hub="legal"{% elif '/technical-hub/' in page.url %} data-hub="technical"{% elif '/daily-life-hub/' in page.url %} data-hub="daily-life"{% endif %}{% endif %}>
   <a href="#main-content" class="skip-link">{{ ui[lang].skip_link }}</a>
   {% include "partials/navbar.njk" %}
 

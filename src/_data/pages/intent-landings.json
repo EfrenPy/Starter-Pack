@@ -1,0 +1,122 @@
+{
+  "access-card-building-55": {
+    "title": {
+      "en": "CERN Access Card at Building 55",
+      "es": "Tarjeta de Acceso CERN en Edificio 55",
+      "it": "Tessera Accesso CERN al Building 55",
+      "fr": "Carte d'Accès CERN au Building 55"
+    },
+    "description": {
+      "en": "Where to collect your CERN access card, what documents to bring, and what to do if badge activation is delayed.",
+      "es": "Dónde recoger tu tarjeta CERN, qué documentos llevar y qué hacer si la activación se retrasa.",
+      "it": "Dove ritirare la tessera CERN, quali documenti portare e cosa fare in caso di ritardi.",
+      "fr": "Où récupérer votre carte CERN, quels documents apporter et que faire en cas de retard d'activation."
+    },
+    "steps": {
+      "en": [
+        "Bring passport or national ID and CERN contract details",
+        "Go to Building 55 Registration Office during service hours",
+        "Confirm account activation and badge permissions",
+        "If card is blocked, contact Users Office or Service Desk"
+      ],
+      "es": [
+        "Lleva pasaporte o DNI y datos de contrato CERN",
+        "Ve a la Oficina de Registro del Edificio 55",
+        "Confirma activación de cuenta y permisos del badge",
+        "Si la tarjeta falla, contacta Users Office o Service Desk"
+      ],
+      "it": [
+        "Porta passaporto o carta d'identità e dati contrattuali CERN",
+        "Vai all'Ufficio Registrazione Building 55",
+        "Conferma attivazione account e permessi badge",
+        "Se la tessera non funziona, contatta Users Office o Service Desk"
+      ],
+      "fr": [
+        "Apportez passeport ou pièce d'identité et détails de contrat CERN",
+        "Rendez-vous au Bureau d'Enregistrement du Building 55",
+        "Confirmez activation du compte et droits badge",
+        "En cas de blocage, contactez Users Office ou Service Desk"
+      ]
+    }
+  },
+  "shuttle-routes-timetables": {
+    "title": {
+      "en": "CERN Shuttle Routes and Timetables",
+      "es": "Rutas y Horarios de Lanzaderas CERN",
+      "it": "Percorsi e Orari Navette CERN",
+      "fr": "Lignes et Horaires des Navettes CERN"
+    },
+    "description": {
+      "en": "Understand CERN shuttle circuits, peak-hour frequency, and practical timing tips between Meyrin and Prevessin.",
+      "es": "Entiende circuitos CERN, frecuencia en horas punta y consejos de horario entre Meyrin y Prevessin.",
+      "it": "Capisci circuiti CERN, frequenza nelle ore di punta e consigli pratici tra Meyrin e Prevessin.",
+      "fr": "Comprenez circuits CERN, fréquence en heures de pointe et conseils pratiques entre Meyrin et Prevessin."
+    },
+    "steps": {
+      "en": [
+        "Identify your circuit (1,2,3 or 5) based on destination",
+        "Check peak periods and allow margin time",
+        "Use CERN map tools for stop orientation",
+        "Keep badge available for boarding checks"
+      ],
+      "es": [
+        "Identifica tu circuito (1,2,3 o 5) segun destino",
+        "Revisa horas punta y deja margen",
+        "Usa herramientas de mapa CERN para paradas",
+        "Ten el badge listo para controles de subida"
+      ],
+      "it": [
+        "Identifica il circuito (1,2,3 o 5) in base alla destinazione",
+        "Controlla ore di punta e lascia margine",
+        "Usa mappe CERN per orientarti alle fermate",
+        "Tieni il badge pronto ai controlli salita"
+      ],
+      "fr": [
+        "Identifiez votre circuit (1,2,3 ou 5) selon la destination",
+        "Vérifiez les heures de pointe et prévoyez une marge",
+        "Utilisez les outils cartographiques CERN pour les arrêts",
+        "Gardez votre badge pret pour les controles d'embarquement"
+      ]
+    }
+  },
+  "cross-border-tax-france-switzerland": {
+    "title": {
+      "en": "France-Switzerland Cross-Border Tax Guide for CERN",
+      "es": "Guía Fiscal Francia-Suiza para Fronterizos CERN",
+      "it": "Guida Fiscale Francia-Svizzera per Frontalieri CERN",
+      "fr": "Guide Fiscal France-Suisse pour Frontaliers CERN"
+    },
+    "description": {
+      "en": "Cross-border tax basics for CERN workers living in France or Switzerland, including declarations and exemption logic.",
+      "es": "Bases fiscales para personal CERN frontaliero en Francia o Suiza, con declaraciones y lógica de exenciones.",
+      "it": "Fondamentali fiscali per personale CERN frontaliero in Francia o Svizzera, con dichiarazioni e logica esenzioni.",
+      "fr": "Bases fiscales pour travailleurs CERN frontaliers en France ou Suisse, avec déclarations et logique d'exonération."
+    },
+    "steps": {
+      "en": [
+        "Confirm your tax residence and legal status",
+        "Record salary exemption evidence and annual declarations",
+        "Track non-CERN income separately",
+        "Review changes yearly if residence or family situation changes"
+      ],
+      "es": [
+        "Confirma residencia fiscal y estatus legal",
+        "Guarda evidencia de exencion salarial y declaraciones anuales",
+        "Separa ingresos no CERN",
+        "Revisa cambios cada ano si cambia residencia o familia"
+      ],
+      "it": [
+        "Conferma residenza fiscale e status legale",
+        "Conserva prove esenzione stipendio e dichiarazioni annuali",
+        "Separa redditi non CERN",
+        "Rivedi ogni anno se cambiano residenza o nucleo familiare"
+      ],
+      "fr": [
+        "Confirmez résidence fiscale et statut légal",
+        "Conservez preuves d'exonération salariale et déclarations annuelles",
+        "Séparez les revenus non CERN",
+        "Revoyez chaque année en cas de changement de résidence ou situation familiale"
+      ]
+    }
+  }
+}

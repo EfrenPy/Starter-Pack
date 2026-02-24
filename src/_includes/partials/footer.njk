@@ -1,5 +1,13 @@
 <footer class="site-footer">
   <div class="site-footer__inner">
+    <nav class="site-footer__nav" aria-label="Footer navigation">
+      <ul class="site-footer__links">
+        {% for item in navigation.footer %}
+        <li><a href="/{{ lang }}/{{ item.slug }}/">{{ item[lang] }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
     <div class="site-footer__support">
       <p>{{ ui[lang].footer_coffee_text }}</p>
       <a href="https://www.buymeacoffee.com/efrenrguezrguez" target="_blank" rel="noopener noreferrer">

@@ -125,6 +125,22 @@
       }
     },
     {
+      "slug": "shuttle-routes-timetables",
+      "icon": "🕒",
+      "title": {
+        "en": "Shuttle Routes &amp; Timetables",
+        "es": "Rutas y Horarios de Lanzaderas",
+        "it": "Percorsi e Orari Navette",
+        "fr": "Lignes et Horaires des Navettes"
+      },
+      "desc": {
+        "en": "Quick route-by-route summary for circuits, peak timing, and planning backups between Meyrin and Prevessin.",
+        "es": "Resumen rápido por circuito para horas punta y rutas alternativas entre Meyrin y Prevessin.",
+        "it": "Sintesi rapida per circuito, ore di punta e percorsi alternativi tra Meyrin e Prevessin.",
+        "fr": "Résumé rapide par circuit, heures de pointe et trajets alternatifs entre Meyrin et Prevessin."
+      }
+    },
+    {
       "slug": "cross-border-shopping",
       "icon": "🛒",
       "title": {
@@ -285,6 +301,22 @@
       }
     },
     {
+      "slug": "first-month-checklist",
+      "icon": "🗓",
+      "title": {
+        "en": "First Month Checklist",
+        "es": "Checklist del Primer Mes",
+        "it": "Checklist del Primo Mese",
+        "fr": "Checklist du Premier Mois"
+      },
+      "desc": {
+        "en": "Structured month plan to complete access, residence, insurance, commute, and technical setup in order.",
+        "es": "Plan mensual estructurado para completar acceso, residencia, seguro, transporte y setup técnico en orden.",
+        "it": "Piano mensile strutturato per completare accesso, residenza, assicurazione, trasporto e setup tecnico in ordine.",
+        "fr": "Plan mensuel structuré pour finaliser accès, résidence, assurance, transport et setup technique dans l'ordre."
+      }
+    },
+    {
       "slug": "outdoor-recreation",
       "icon": "⛰",
       "title": {
@@ -378,6 +410,22 @@
         "es": "Gestionar CHF y EUR: cuentas multidivisa, consejos de cambio, cajeros automáticos y presupuesto transfronterizo.",
         "it": "Gestire CHF e EUR: conti multivaluta, consigli sul cambio, bancomat e budget transfrontaliero.",
         "fr": "Gérer CHF et EUR : comptes multidevises, astuces de change, conseils aux distributeurs et budget transfrontalier."
+      }
+    },
+    {
+      "slug": "newcomer-glossary",
+      "icon": "📘",
+      "title": {
+        "en": "Newcomer Glossary",
+        "es": "Glosario para Nuevos",
+        "it": "Glossario Nuovi Arrivi",
+        "fr": "Glossaire Nouveaux Arrivants"
+      },
+      "desc": {
+        "en": "Fast definitions for common CERN and cross-border terms used across the guides.",
+        "es": "Definiciones rápidas de términos CERN y transfronterizos usados en las guías.",
+        "it": "Definizioni rapide di termini CERN e transfrontalieri usati nelle guide.",
+        "fr": "Définitions rapides des termes CERN et transfrontaliers utilisés dans les guides."
       }
     }
   ]

@@ -65,4 +65,20 @@ export function initNavbar() {
       closeLangMenu();
     }
   });
+
+  // Navbar scroll effect
+  const nav = document.querySelector('.topnav');
+  if (nav) {
+    const updateNavScroll = () => {
+      if (window.scrollY > 20) {
+        nav.classList.remove('topnav--at-top');
+        nav.classList.add('topnav--scrolled');
+      } else {
+        nav.classList.add('topnav--at-top');
+        nav.classList.remove('topnav--scrolled');
+      }
+    };
+    updateNavScroll();
+    window.addEventListener('scroll', updateNavScroll, { passive: true });
+  }
 }

@@ -48,6 +48,8 @@ export async function initSearch() {
   const noResultsMsg = m.noResults;
   const errorMsg = m.error;
 
+  const suggestionsEl = document.getElementById('search-suggestions');
+
   try {
     await getSearchIndex(lang);
     const results = searchArticles(query, lang);
@@ -56,6 +58,7 @@ export async function initSearch() {
     resultsContainer.setAttribute('aria-label', countMsg);
 
     if (results.length > 0) {
+      if (suggestionsEl) suggestionsEl.hidden = true;
       results.forEach((article) => {
         const el = document.createElement('div');
         el.classList.add('search-result');
@@ -74,12 +77,14 @@ export async function initSearch() {
         resultsContainer.appendChild(el);
       });
     } else {
+      if (suggestionsEl) suggestionsEl.hidden = false;
       const p = document.createElement('p');
       p.classList.add('search-empty');
       p.textContent = noResultsMsg;
       resultsContainer.appendChild(p);
     }
   } catch (error) {
+    if (suggestionsEl) suggestionsEl.hidden = false;
     const p = document.createElement('p');
     p.classList.add('search-error');
     p.textContent = errorMsg;

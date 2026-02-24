@@ -48,6 +48,37 @@ export default function (eleventyConfig) {
     return base.replace(/\/$/, '') + url;
   });
 
+  // Extract FAQ Q/A pairs from rendered HTML details blocks
+  eleventyConfig.addFilter('extractFaqFromHtml', function (html) {
+    if (!html || typeof html !== 'string') return [];
+    const regex =
+      /<details[^>]*class=["'][^"']*faq-item[^"']*["'][^>]*>[\s\S]*?<summary>([\s\S]*?)<\/summary>[\s\S]*?<p>([\s\S]*?)<\/p>[\s\S]*?<\/details>/gi;
+    const items = [];
+    let match;
+    while ((match = regex.exec(html)) !== null) {
+      const q = (match[1] || '')
+        .replace(/<[^>]+>/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      const a = (match[2] || '')
+        .replace(/<[^>]+>/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      if (q && a) items.push({ q, a });
+    }
+    return items;
+  });
+
+  // Is date older than X months from now
+  eleventyConfig.addFilter('isOlderThanMonths', function (dateStr, months = 6) {
+    if (!dateStr) return false;
+    const d = new Date(dateStr);
+    if (Number.isNaN(d.getTime())) return false;
+    const cutoff = new Date();
+    cutoff.setMonth(cutoff.getMonth() - months);
+    return d < cutoff;
+  });
+
   // Build search index after build completes
   eleventyConfig.on('eleventy.after', () => {
     try {
@@ -70,7 +101,19 @@ export default function (eleventyConfig) {
   // Looks up content-meta.json to fill in layout and date fields
   // so individual .md files don't need to repeat them.
   eleventyConfig.addGlobalData('eleventyComputed', {
-    layout: (data) => data.layout === false ? false : data.layout || getMetaField(data, 'layout'),
+    title: (data) => {
+      const key = getSlugKey(data);
+      const lang = data.lang;
+      const meta = data.seoExtensions?.meta?.[key]?.[lang];
+      return meta?.title || data.title;
+    },
+    description: (data) => {
+      const key = getSlugKey(data);
+      const lang = data.lang;
+      const meta = data.seoExtensions?.meta?.[key]?.[lang];
+      return meta?.description || data.description;
+    },
+    layout: (data) => (data.layout === false ? false : data.layout || getMetaField(data, 'layout')),
     datePublished: (data) => data.datePublished || getMetaField(data, 'datePublished'),
     dateModified: (data) => data.dateModified || getMetaField(data, 'dateModified'),
     dateUpdated: (data) => data.dateUpdated || getMetaField(data, 'dateUpdated'),

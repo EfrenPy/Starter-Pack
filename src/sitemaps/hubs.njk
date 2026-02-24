@@ -1,0 +1,22 @@
+---
+layout: false
+permalink: /sitemaps/hubs.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for item in collections.all %}
+{%- if item.url and not item.data.noindex and not item.data.eleventyExcludeFromCollections and ( '/legal-hub/' in item.url or '/technical-hub/' in item.url or '/daily-life-hub/' in item.url or item.url.endsWith('/checklist/') or item.url.endsWith('/cost-calculator/') or item.url.endsWith('/index/') or item.url == '/en/' or item.url == '/es/' or item.url == '/it/' or item.url == '/fr/' ) %}
+  <url>
+    <loc>{{ item.url | absoluteUrl(site.url) }}</loc>
+    {%- if item.data.lang %}
+    {%- for l in site.languages %}
+    <xhtml:link rel="alternate" hreflang="{{ l.code }}" href="{{ item.url | toLang(item.data.lang, l.code) | absoluteUrl(site.url) }}" />
+    {%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ item.url | toLang(item.data.lang, 'en') | absoluteUrl(site.url) }}" />
+    {%- endif %}
+  </url>
+{%- endif %}
+{%- endfor %}
+</urlset>

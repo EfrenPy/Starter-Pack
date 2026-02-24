@@ -40,6 +40,13 @@ src/
 
 For a full architecture reference, see `CLAUDE.md`.
 
+## SEO and Structured Data
+
+- Global SEO metadata (canonical, hreflang, robots, WebSite schema) is rendered in `src/_includes/partials/head.njk`.
+- Page-level FAQ/HowTo schema and quick-answer snippets are driven by `src/_data/seo.json`.
+- If you add a new FAQ or onboarding procedure page, update `src/_data/seo.json` so structured data stays in sync.
+- Use `SEO_PLAYBOOK.md` for the monthly GSC tuning loop and quarterly freshness reviews.
+
 ## Content Contributions
 
 ### Editing an Existing Page
@@ -48,16 +55,15 @@ Content pages live in `src/{lang}/` as Markdown files. Each file has YAML front 
 
 ```yaml
 ---
-title: "Page Title"
-description: "Page description for SEO"
+title: 'Page Title'
+description: 'Page description for SEO'
 og:
-  title: "Page Title"
-  description: "Page description for social sharing"
+  title: 'Page Title'
+  description: 'Page description for social sharing'
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Page Title" }
+  - { label: 'Home', url: '/en/' }
+  - { label: 'Page Title' }
 ---
-
 # Page Title
 
 Your content here in Markdown...
@@ -71,6 +77,7 @@ Edit the `.md` file for the relevant language. Shared metadata (layout, dates) i
 2. Add the page slug to `PAGE_SLUGS` in both `scripts/build-search-index.js` and `src/scripts/modules/search-index.js`.
 3. If the page belongs in a hub, add a card entry to the relevant `src/_data/pages/{hub}.json`.
 4. If the page should appear in navigation, add an entry to `src/_data/navigation.json`.
+5. If the page is high-intent (guide/checklist/procedure), add a quick answer and optional HowTo entry in `src/_data/seo.json`.
 
 ### Adding a New Language
 

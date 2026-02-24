@@ -1,0 +1,244 @@
+{
+  "title": {
+    "en": "Newcomer Glossary",
+    "es": "Glosario para Nuevos",
+    "it": "Glossario Nuovi Arrivi",
+    "fr": "Glossaire Nouveaux Arrivants"
+  },
+  "description": {
+    "en": "Quick definitions of common CERN, cross-border, and onboarding terms used across this guide.",
+    "es": "Definiciones rápidas de términos comunes de CERN, vida transfronteriza e incorporación.",
+    "it": "Definizioni rapide di termini comuni su CERN, vita transfrontaliera e onboarding.",
+    "fr": "Définitions rapides de termes fréquents sur CERN, vie transfrontalière et intégration."
+  },
+  "categories": [
+    {
+      "id": "admin",
+      "label": { "en": "Admin", "es": "Admin", "it": "Admin", "fr": "Admin" }
+    },
+    {
+      "id": "legal",
+      "label": { "en": "Legal", "es": "Legal", "it": "Legale", "fr": "Juridique" }
+    },
+    {
+      "id": "health",
+      "label": { "en": "Health", "es": "Salud", "it": "Salute", "fr": "Santé" }
+    },
+    {
+      "id": "transport",
+      "label": { "en": "Transport", "es": "Transporte", "it": "Trasporto", "fr": "Transport" }
+    }
+  ],
+  "translations": {
+    "en": {
+      "filterPlaceholder": "Filter terms...",
+      "allCategories": "All",
+      "noResults": "No terms match your search.",
+      "seeAlsoLabel": "See also"
+    },
+    "es": {
+      "filterPlaceholder": "Filtrar términos...",
+      "allCategories": "Todos",
+      "noResults": "Ningún término coincide con tu búsqueda.",
+      "seeAlsoLabel": "Ver también"
+    },
+    "it": {
+      "filterPlaceholder": "Filtra termini...",
+      "allCategories": "Tutti",
+      "noResults": "Nessun termine corrisponde alla ricerca.",
+      "seeAlsoLabel": "Vedi anche"
+    },
+    "fr": {
+      "filterPlaceholder": "Filtrer les termes...",
+      "allCategories": "Tous",
+      "noResults": "Aucun terme ne correspond à votre recherche.",
+      "seeAlsoLabel": "Voir aussi"
+    }
+  },
+  "terms": [
+    {
+      "term": {
+        "en": "Building 55",
+        "es": "Edificio 55",
+        "it": "Building 55",
+        "fr": "Building 55"
+      },
+      "definition": {
+        "en": "Main CERN admin point used by many newcomers for access-card and identity-related steps.",
+        "es": "Punto administrativo principal de CERN para trámites de tarjeta de acceso e identidad.",
+        "it": "Punto amministrativo CERN usato spesso per tessera di accesso e procedure di identità.",
+        "fr": "Point administratif CERN souvent utilisé pour carte d'accès et démarches d'identité."
+      },
+      "category": "admin",
+      "icon": "🏢",
+      "seeAlso": [
+        {
+          "slug": "first-weeks-guide",
+          "label": { "en": "First Weeks Guide", "es": "Guía Primeras Semanas", "it": "Guida Prime Settimane", "fr": "Guide Premières Semaines" }
+        }
+      ]
+    },
+    {
+      "term": {
+        "en": "Users Office",
+        "es": "Users Office",
+        "it": "Users Office",
+        "fr": "Users Office"
+      },
+      "definition": {
+        "en": "CERN service that supports users with onboarding administration and access procedures.",
+        "es": "Servicio CERN que apoya a usuarios con trámites administrativos y de acceso.",
+        "it": "Servizio CERN che supporta utenti su pratiche amministrative e procedure di accesso.",
+        "fr": "Service CERN qui accompagne les usagers pour démarches administratives et accès."
+      },
+      "category": "admin",
+      "icon": "🏢",
+      "seeAlso": [
+        {
+          "slug": "first-weeks-guide",
+          "label": { "en": "First Weeks Guide", "es": "Guía Primeras Semanas", "it": "Guida Prime Settimane", "fr": "Guide Premières Semaines" }
+        },
+        {
+          "slug": "faq",
+          "label": { "en": "FAQ", "es": "FAQ", "it": "FAQ", "fr": "FAQ" }
+        }
+      ]
+    },
+    {
+      "term": {
+        "en": "Frontalier",
+        "es": "Frontalier",
+        "it": "Frontalier",
+        "fr": "Frontalier"
+      },
+      "definition": {
+        "en": "Cross-border worker who lives in one country (often France) and works in another (Switzerland).",
+        "es": "Trabajador transfronterizo que vive en un país (normalmente Francia) y trabaja en otro (Suiza).",
+        "it": "Lavoratore transfrontaliero che vive in un paese (spesso Francia) e lavora in un altro (Svizzera).",
+        "fr": "Travailleur transfrontalier vivant dans un pays (souvent France) et travaillant dans un autre (Suisse)."
+      },
+      "category": "legal",
+      "icon": "🌍",
+      "seeAlso": [
+        {
+          "slug": "cross-border-commute",
+          "label": { "en": "Cross-Border Commute", "es": "Desplazamiento Transfronterizo", "it": "Pendolarismo Transfrontaliero", "fr": "Trajet Transfrontalier" }
+        },
+        {
+          "slug": "taxes",
+          "label": { "en": "Taxes", "es": "Impuestos", "it": "Tasse", "fr": "Impôts" }
+        }
+      ]
+    },
+    {
+      "term": {
+        "en": "Permis G",
+        "es": "Permis G",
+        "it": "Permis G",
+        "fr": "Permis G"
+      },
+      "definition": {
+        "en": "Swiss cross-border permit category commonly relevant for frontaliers employed in Switzerland.",
+        "es": "Categoría de permiso suizo para trabajadores transfronterizos empleados en Suiza.",
+        "it": "Categoria di permesso svizzero per lavoratori transfrontalieri occupati in Svizzera.",
+        "fr": "Catégorie de permis suisse pour travailleurs transfrontaliers employés en Suisse."
+      },
+      "category": "legal",
+      "icon": "📄",
+      "seeAlso": [
+        {
+          "slug": "residence-permit",
+          "label": { "en": "Residence Permit", "es": "Permiso de Residencia", "it": "Permesso di Soggiorno", "fr": "Permis de Séjour" }
+        }
+      ]
+    },
+    {
+      "term": {
+        "en": "LAMal",
+        "es": "LAMal",
+        "it": "LAMal",
+        "fr": "LAMal"
+      },
+      "definition": {
+        "en": "Swiss mandatory health insurance system that may apply depending on your residence and status.",
+        "es": "Sistema suizo de seguro médico obligatorio que puede aplicar según residencia y situación.",
+        "it": "Sistema svizzero di assicurazione sanitaria obbligatoria applicabile secondo residenza e status.",
+        "fr": "Système suisse d'assurance maladie obligatoire selon résidence et statut."
+      },
+      "category": "health",
+      "icon": "🏥",
+      "seeAlso": [
+        {
+          "slug": "health-insurance",
+          "label": { "en": "Health Insurance", "es": "Seguro Médico", "it": "Assicurazione Sanitaria", "fr": "Assurance Maladie" }
+        }
+      ]
+    },
+    {
+      "term": {
+        "en": "CMU",
+        "es": "CMU",
+        "it": "CMU",
+        "fr": "CMU"
+      },
+      "definition": {
+        "en": "French health coverage option sometimes selected by eligible residents in France.",
+        "es": "Opción de cobertura sanitaria francesa elegida en algunos casos por residentes en Francia.",
+        "it": "Opzione di copertura sanitaria francese scelta in alcuni casi da residenti in Francia.",
+        "fr": "Option de couverture santé française choisie dans certains cas par résidents en France."
+      },
+      "category": "health",
+      "icon": "🏥",
+      "seeAlso": [
+        {
+          "slug": "health-insurance",
+          "label": { "en": "Health Insurance", "es": "Seguro Médico", "it": "Assicurazione Sanitaria", "fr": "Assurance Maladie" }
+        }
+      ]
+    },
+    {
+      "term": {
+        "en": "TPG",
+        "es": "TPG",
+        "it": "TPG",
+        "fr": "TPG"
+      },
+      "definition": {
+        "en": "Geneva public transport operator used by many CERN commuters (trams, buses, connections).",
+        "es": "Operador de transporte público de Ginebra usado por muchos desplazamientos al CERN.",
+        "it": "Operatore del trasporto pubblico di Ginevra usato da molti pendolari CERN.",
+        "fr": "Opérateur de transport public genevois utilisé par de nombreux navetteurs CERN."
+      },
+      "category": "transport",
+      "icon": "🚋",
+      "seeAlso": [
+        {
+          "slug": "cross-border-commute",
+          "label": { "en": "Cross-Border Commute", "es": "Desplazamiento Transfronterizo", "it": "Pendolarismo Transfrontaliero", "fr": "Trajet Transfrontalier" }
+        }
+      ]
+    },
+    {
+      "term": {
+        "en": "E-guide",
+        "es": "E-guide",
+        "it": "E-guide",
+        "fr": "E-guide"
+      },
+      "definition": {
+        "en": "CERN administrative reference site with official onboarding and policy guidance.",
+        "es": "Sitio de referencia administrativa CERN con guías oficiales de incorporación y políticas.",
+        "it": "Sito di riferimento amministrativo CERN con guide ufficiali di onboarding e policy.",
+        "fr": "Site de référence administratif CERN avec guides officiels d'intégration et politiques."
+      },
+      "category": "admin",
+      "icon": "📖",
+      "seeAlso": [
+        {
+          "slug": "faq",
+          "label": { "en": "FAQ", "es": "FAQ", "it": "FAQ", "fr": "FAQ" }
+        }
+      ]
+    }
+  ]
+}

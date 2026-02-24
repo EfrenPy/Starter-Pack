@@ -154,6 +154,38 @@
       }
     },
     {
+      "slug": "first-month-checklist",
+      "icon": "&#128197;",
+      "title": {
+        "en": "First Month Checklist",
+        "es": "Checklist del Primer Mes",
+        "it": "Checklist del Primo Mese",
+        "fr": "Checklist du Premier Mois"
+      },
+      "desc": {
+        "en": "Structured first-month plan covering admin, health, transport, and technical setup milestones.",
+        "es": "Plan estructurado del primer mes con hitos administrativos, salud, transporte y setup técnico.",
+        "it": "Piano strutturato del primo mese con tappe amministrative, salute, trasporto e setup tecnico.",
+        "fr": "Plan structuré du premier mois couvrant administratif, santé, transport et setup technique."
+      }
+    },
+    {
+      "slug": "newcomer-glossary",
+      "icon": "&#128218;",
+      "title": {
+        "en": "Newcomer Glossary",
+        "es": "Glosario para Nuevos",
+        "it": "Glossario Nuovi Arrivi",
+        "fr": "Glossaire Nouveaux Arrivants"
+      },
+      "desc": {
+        "en": "Quick definitions of CERN and cross-border terms used throughout the starter guides.",
+        "es": "Definiciones rápidas de términos CERN y transfronterizos usados en las guías.",
+        "it": "Definizioni rapide di termini CERN e transfrontalieri usati nelle guide.",
+        "fr": "Définitions rapides des termes CERN et transfrontaliers utilisés dans les guides."
+      }
+    },
+    {
       "slug": "contribute",
       "icon": "&#129309;",
       "title": {

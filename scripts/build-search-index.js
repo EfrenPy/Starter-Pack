@@ -65,6 +65,11 @@ const PAGE_SLUGS = [
   'cern-benefits',
   'technical/eos-storage',
   'technical/lxplus-guide',
+  'access-card-building-55',
+  'shuttle-routes-timetables',
+  'cross-border-tax-france-switzerland',
+  'first-month-checklist',
+  'newcomer-glossary',
 ];
 
 function extractText(html) {

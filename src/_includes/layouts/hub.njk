@@ -8,8 +8,8 @@ bodyClass: page-hub
   <div class="container">
     {{ content | safe }}
 
-    <section class="hub-pathways" aria-label="{% if lang == 'es' %}Mas rutas utiles{% elif lang == 'it' %}Percorsi utili aggiuntivi{% elif lang == 'fr' %}Autres parcours utiles{% else %}More useful pathways{% endif %}">
-      <h2 class="hub-pathways__title">{% if lang == 'es' %}Mas rutas utiles{% elif lang == 'it' %}Percorsi utili aggiuntivi{% elif lang == 'fr' %}Autres parcours utiles{% else %}More useful pathways{% endif %}</h2>
+    <section class="hub-pathways" aria-label="{% if lang == 'es' %}Más rutas útiles{% elif lang == 'it' %}Percorsi utili aggiuntivi{% elif lang == 'fr' %}Autres parcours utiles{% else %}More useful pathways{% endif %}">
+      <h2 class="hub-pathways__title">{% if lang == 'es' %}Más rutas útiles{% elif lang == 'it' %}Percorsi utili aggiuntivi{% elif lang == 'fr' %}Autres parcours utiles{% else %}More useful pathways{% endif %}</h2>
       <ul class="hub-pathways__list">
         {% for item in navigation.main %}
           {% set itemUrl = '/' + lang + '/' + item.slug + '/' %}
