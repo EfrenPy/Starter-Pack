@@ -5,6 +5,28 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteRule ^/?$ /en/ [R=301,L]
 
+# 301 redirects for old URL structures
+# Flattened: /xx/technical/kerberos-ssh/vscode-remote/ → /xx/technical/vscode-remote/
+RewriteRule ^(en|es|it|fr)/technical/kerberos-ssh/vscode-remote/?$ /$1/technical/vscode-remote/ [R=301,L]
+
+# Flattened: /xx/cern-taxation/modelo-720/ → /xx/modelo-720/
+RewriteRule ^(en|es|it|fr)/cern-taxation/modelo-720/?$ /$1/modelo-720/ [R=301,L]
+
+# Flattened: /xx/faq/housing-guide/ → /xx/housing-guide/
+RewriteRule ^(en|es|it|fr)/faq/housing-guide/?$ /$1/housing-guide/ [R=301,L]
+
+# Flattened: /xx/faq/health-insurance/ → /xx/health-insurance/
+RewriteRule ^(en|es|it|fr)/faq/health-insurance/?$ /$1/health-insurance/ [R=301,L]
+
+# Renamed: /xx/taxes/ → /xx/cern-taxation/
+RewriteRule ^(en|es|it|fr)/taxes/?$ /$1/cern-taxation/ [R=301,L]
+
+# Renamed: /xx/residence-permit/ → /xx/permits-registration/
+RewriteRule ^(en|es|it|fr)/residence-permit/?$ /$1/permits-registration/ [R=301,L]
+
+# Renamed: /xx/cross-border-commute/ → /xx/cross-border-shopping/
+RewriteRule ^(en|es|it|fr)/cross-border-commute/?$ /$1/cross-border-shopping/ [R=301,L]
+
 # Security headers
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"

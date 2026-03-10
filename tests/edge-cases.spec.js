@@ -96,12 +96,11 @@ test.describe('Theme toggle', () => {
     await page.goto('/en/');
     const themeToggle = page.locator('#theme-toggle');
 
-    // Get initial theme (or absence thereof)
-    const initialTheme = await page.locator('html').getAttribute('data-theme');
-
+    // Click twice to go system → light → dark, ensuring data-theme becomes 'dark'
     await themeToggle.click();
-    const newTheme = await page.locator('html').getAttribute('data-theme');
-    expect(newTheme).not.toBe(initialTheme);
+    await themeToggle.click();
+    const darkTheme = await page.locator('html').getAttribute('data-theme');
+    expect(darkTheme).toBe('dark');
   });
 });
 
