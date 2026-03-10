@@ -1,6 +1,6 @@
 ---js
 {
-  pagination: { data: "site.languages", size: 1, alias: "langObj" },
+  pagination: { data: "site.languages", size: 1, alias: "langObj", addAllPagesToCollections: true },
   eleventyComputed: {
     lang: (data) => data.langObj.code,
     locale: (data) => ({ es: "es_ES", en: "en_US", it: "it_IT", fr: "fr_FR" }[data.langObj.code]),
