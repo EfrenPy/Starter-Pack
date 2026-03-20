@@ -4,6 +4,10 @@ description: "Guide complet couvrant les aspects juridiques, administratifs, fin
 og:
   title: "Guide complet pour les ressortissants espagnols au CERN"
   description: "Guide juridique, administratif et de vie quotidienne pour les Espagnols au CERN."
+breadcrumbs:
+  - { label: "Accueil", url: "/fr/" }
+  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
+  - { label: "Guide Complet" }
 ---
 
 # Guide complet : Juridique, administratif et vie quotidienne au CERN

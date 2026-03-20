@@ -9,7 +9,7 @@ export function initTheme() {
   toggle.addEventListener('click', () => {
     const current = localStorage.getItem('theme') || 'system';
     const next = cycle[(cycle.indexOf(current) + 1) % cycle.length];
-    localStorage.setItem('theme', next);
+    try { localStorage.setItem('theme', next); } catch { /* storage unavailable */ }
 
     if (next === 'system') {
       const resolved = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';

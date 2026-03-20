@@ -1,13 +1,13 @@
 ---
-title: "Safety Training at CERN - CERN Starter Pack"
-description: "Complete guide to mandatory safety training at CERN: courses, e-learning, radiation protection, on-site sessions, and renewal procedures."
+title: "Formation Sécurité au CERN - CERN Starter Pack"
+description: "Guide complet de la formation obligatoire en sécurité au CERN : cours, e-learning, radioprotection, sessions sur site et procédures de renouvellement."
 og:
-  title: "Safety Training at CERN - CERN Starter Pack"
-  description: "Complete guide to mandatory safety training at CERN: courses, e-learning, radiation protection, on-site sessions, and renewal procedures."
+  title: "Formation Sécurité au CERN - CERN Starter Pack"
+  description: "Guide complet de la formation obligatoire en sécurité au CERN : cours, e-learning, radioprotection, sessions sur site et procédures de renouvellement."
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Technical Help", url: "/en/technical-hub/" }
-  - { label: "Safety Training" }
+  - { label: "Accueil", url: "/fr/" }
+  - { label: "Aide Technique", url: "/fr/technical-hub/" }
+  - { label: "Formation Sécurité" }
 ---
 
 # Safety Training at CERN

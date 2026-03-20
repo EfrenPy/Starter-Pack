@@ -6,7 +6,7 @@ og:
   description: "Guide sur la garde d'enfants, les crèches, les écoles et les options d'éducation internationale près du CERN."
 breadcrumbs:
   - { label: "Accueil", url: "/fr/" }
-  - { label: "Vie quotidienne", url: "/fr/daily-life-hub/" }
+  - { label: "Vie Quotidienne", url: "/fr/daily-life-hub/" }
   - { label: "Garde d'enfants et écoles" }
 ---
 

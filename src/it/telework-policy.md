@@ -6,7 +6,7 @@ og:
   description: "Guida alla politica di telelavoro del CERN: eleggibilità, limite del 40%, processo di approvazione, requisiti di localizzazione, attrezzature e consigli pratici."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Tecnico", url: "/it/technical-hub/" }
+  - { label: "Assistenza Tecnica", url: "/it/technical-hub/" }
   - { label: "Politica di Telelavoro" }
 ---
 

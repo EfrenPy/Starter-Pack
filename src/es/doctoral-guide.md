@@ -6,6 +6,7 @@ og:
   description: "Guía para estudiantes de doctorado en el CERN: detalles del programa, presentación de tesis, hiper-autoría, cuestiones prácticas, recursos informáticos y oportunidades post-doctorado."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
+  - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }
   - { label: "Guía de Doctorado" }
 ---
 

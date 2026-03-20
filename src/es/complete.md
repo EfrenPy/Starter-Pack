@@ -4,6 +4,10 @@ description: "Guía completa sobre aspectos legales, administrativos, financiero
 og:
   title: "Guía completa para españoles en el CERN"
   description: "Legal, administrativa y vida cotidiana en el CERN para españoles."
+breadcrumbs:
+  - { label: "Inicio", url: "/es/" }
+  - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }
+  - { label: "Guía Completa" }
 ---
 
 # Guía completa: Legal, administrativa y vida cotidiana en el CERN

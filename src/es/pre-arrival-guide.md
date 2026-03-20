@@ -6,7 +6,7 @@ og:
   description: "Qué hacer antes de llegar al CERN: requisitos de visado, documentos a preparar, qué traer, reserva de alojamiento y viaje a Ginebra."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Guía Pre-Llegada" }
 ---
 

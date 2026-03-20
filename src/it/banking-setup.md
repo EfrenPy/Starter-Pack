@@ -6,7 +6,7 @@ og:
   description: "Guida pratica all'apertura di conti bancari vicino al CERN: banche svizzere, banche francesi, opzioni digitali e configurazione dello stipendio."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Vita quotidiana", url: "/it/daily-life-hub/" }
+  - { label: "Vita Quotidiana", url: "/it/daily-life-hub/" }
   - { label: "Configurazione bancaria" }
 ---
 

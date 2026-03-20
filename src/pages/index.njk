@@ -20,8 +20,8 @@
   {%- for card in pd.cards %}
   <a href="{{ card.slug }}/" class="card">
     <div class="card__icon" aria-hidden="true">{{ card.icon | safe }}</div>
-    <div class="card__title">{{ card.title[lang] | safe }}</div>
-    <p class="card__desc">{{ card.desc[lang] | safe }}</p>
+    <div class="card__title">{{ card.title[lang] }}</div>
+    <p class="card__desc">{{ card.desc[lang] }}</p>
   </a>
   {%- endfor %}
 </div>

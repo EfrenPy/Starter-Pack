@@ -6,6 +6,7 @@ og:
   description: "Guida per studenti dottorandi al CERN: dettagli del programma, presentazione della tesi, iper-autorialità, questioni pratiche, risorse informatiche e opportunità post-dottorato."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
   - { label: "Guida Dottorandi" }
 ---
 

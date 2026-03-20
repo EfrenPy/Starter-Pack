@@ -1,14 +1,15 @@
 {% if breadcrumbs %}
-<nav class="breadcrumbs" aria-label="Breadcrumb">
+<nav class="breadcrumbs" aria-label="{% if lang == 'es' %}Migas de pan{% elif lang == 'it' %}Percorso{% elif lang == 'fr' %}Fil d'Ariane{% else %}Breadcrumb{% endif %}">
+  <ol>
   {% for crumb in breadcrumbs %}
+    <li>
     {% if crumb.url %}
       <a href="{{ crumb.url }}">{{ crumb.label }}</a>
     {% else %}
-      <span>{{ crumb.label }}</span>
+      <span aria-current="page">{{ crumb.label }}</span>
     {% endif %}
-    {% if not loop.last %}
-      <span class="breadcrumbs__sep">/</span>
-    {% endif %}
+    </li>
   {% endfor %}
+  </ol>
 </nav>
 {% endif %}

@@ -6,7 +6,7 @@ og:
   description: 'Guía sobre vehículos y placas verdes en el CERN: placas CD, compra libre de impuestos, permiso de conducir, seguro y aparcamiento.'
 breadcrumbs:
   - { label: 'Inicio', url: '/es/' }
-  - { label: 'Vida Diaria', url: '/es/daily-life-hub/' }
+  - { label: 'Vida Cotidiana', url: '/es/daily-life-hub/' }
   - { label: 'Vehículos y Placas Verdes' }
 ---
 

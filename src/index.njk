@@ -7,11 +7,11 @@ eleventyExcludeFromCollections: true
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-uWzq85819907jW40aDill+XFjmv5/0mF3MpMuS1irQY='">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-00hlgFTJVdMyF2kMVw6sHfpTc580NqHuN+0nKV1WWSc='; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta http-equiv="refresh" content="0; url=/en/">
   <link rel="canonical" href="https://starter-pack.efrenrodriguezrodriguez.com/en/">
   <script>
-    var l=localStorage.getItem('language');if(!l){var b=(navigator.language||'').slice(0,2).toLowerCase();var s=['es','en','it','fr'];l=s.indexOf(b)!==-1?b:'en'}if(l!=='en')location.replace('/'+l+'/');
+    var l=localStorage.getItem('language');var s=['es','en','it','fr'];if(!l||s.indexOf(l)===-1){var b=(navigator.language||'').slice(0,2).toLowerCase();l=s.indexOf(b)!==-1?b:'en'}if(l!=='en')location.replace('/'+l+'/');
   </script>
 </head>
 <body>

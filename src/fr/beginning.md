@@ -6,7 +6,7 @@ og:
   description: "Feuille de route pratique sur la sécurité sociale, les obligations fiscales et les ressources clés pour les Espagnols au CERN."
 breadcrumbs:
   - { label: "Accueil", url: "/fr/" }
-  - { label: "Aide juridique et fiscale", url: "/fr/legal-hub/" }
+  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
   - { label: "Commencer au CERN" }
 ---
 

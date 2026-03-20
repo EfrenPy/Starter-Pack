@@ -5,6 +5,9 @@ export function initReadingProgress() {
   bar.setAttribute('aria-valuemin', '0');
   bar.setAttribute('aria-valuemax', '100');
   bar.setAttribute('aria-valuenow', '0');
+  const progressLabels = { es: 'Progreso de lectura', en: 'Reading progress', it: 'Progresso di lettura', fr: 'Progression de lecture' };
+  const pLang = document.documentElement.lang || 'en';
+  bar.setAttribute('aria-label', progressLabels[pLang] || progressLabels.en);
   document.body.prepend(bar);
 
   if (CSS.supports('animation-timeline: scroll()')) {

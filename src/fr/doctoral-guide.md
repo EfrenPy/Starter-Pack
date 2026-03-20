@@ -6,6 +6,7 @@ og:
   description: "Guide des doctorants au CERN : programme, thèse, hyper-authorship, aspects pratiques et opportunités post-doctorat."
 breadcrumbs:
   - { label: "Accueil", url: "/fr/" }
+  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
   - { label: "Guide doctoral" }
 ---
 

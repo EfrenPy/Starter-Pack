@@ -77,10 +77,10 @@
       "slug": "legal-hub",
       "icon": "&#9878;",
       "title": {
-        "en": "Legal &amp; Tax Help",
+        "en": "Legal & Tax Help",
         "es": "Ayuda Legal y Fiscal",
         "it": "Assistenza Legale e Fiscale",
-        "fr": "Aide Juridique &amp; Fiscale"
+        "fr": "Aide Juridique & Fiscale"
       },
       "desc": {
         "en": "Guides on taxation, social security, and administrative procedures for CERN employees with ties to Spain.",
@@ -109,7 +109,7 @@
       "slug": "daily-life-hub",
       "icon": "&#127968;",
       "title": {
-        "en": "Life &amp; Practical",
+        "en": "Life & Practical",
         "es": "Vida Práctica",
         "it": "Vita Quotidiana",
         "fr": "Vie Pratique"

@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <div class="site-footer__inner">
-    <nav class="site-footer__nav" aria-label="Footer navigation">
+    <nav class="site-footer__nav" aria-label="{% if lang == 'es' %}Navegación del pie de página{% elif lang == 'it' %}Navigazione a piè di pagina{% elif lang == 'fr' %}Navigation pied de page{% else %}Footer navigation{% endif %}">
       <ul class="site-footer__links">
         {% for item in navigation.footer %}
         <li><a href="/{{ lang }}/{{ item.slug }}/">{{ item[lang] }}</a></li>
@@ -12,6 +12,7 @@
       <p>{{ ui[lang].footer_coffee_text }}</p>
       <a href="https://www.buymeacoffee.com/efrenrguezrguez" target="_blank" rel="noopener noreferrer">
         <img src="/images/bmc-button.png" alt="Buy Me A Coffee" width="545" height="153" loading="lazy">
+        <span class="sr-only">({% if lang == 'es' %}abre en nueva pestaña{% elif lang == 'it' %}apre in nuova scheda{% elif lang == 'fr' %}ouvre dans un nouvel onglet{% else %}opens in new tab{% endif %})</span>
       </a>
     </div>
 

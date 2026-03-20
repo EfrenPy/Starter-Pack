@@ -6,7 +6,7 @@ og:
   description: "Comment configurer l'électricité, le gaz, l'eau, internet et les autres services domestiques près du CERN."
 breadcrumbs:
   - { label: "Accueil", url: "/fr/" }
-  - { label: "Vie quotidienne", url: "/fr/daily-life-hub/" }
+  - { label: "Vie Quotidienne", url: "/fr/daily-life-hub/" }
   - { label: "Installation des services" }
 ---
 

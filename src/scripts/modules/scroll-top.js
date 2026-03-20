@@ -1,6 +1,12 @@
 export function initScrollTop() {
   const lang = document.documentElement.lang || 'en';
-  const label = lang === 'es' ? 'Volver arriba' : 'Back to top';
+  const labels = {
+    es: 'Volver arriba',
+    en: 'Back to top',
+    it: 'Torna su',
+    fr: 'Retour en haut'
+  };
+  const label = labels[lang] || labels.en;
 
   const btn = document.createElement('button');
   btn.className = 'scroll-top';
@@ -21,7 +27,8 @@ export function initScrollTop() {
   }
 
   btn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'instant' : 'smooth' });
   });
 
   // Print button handler (replaces inline onclick)

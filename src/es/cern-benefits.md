@@ -6,7 +6,7 @@ og:
   description: 'Beneficios y ventajas para el personal del CERN: fondo recreativo, compras libres de impuestos, descuentos corporativos, cantina, dietas de viaje, beca educativa y asignación de reubicación.'
 breadcrumbs:
   - { label: 'Inicio', url: '/es/' }
-  - { label: 'Vida Diaria', url: '/es/daily-life-hub/' }
+  - { label: 'Vida Cotidiana', url: '/es/daily-life-hub/' }
   - { label: 'Beneficios y Ventajas' }
 ---
 

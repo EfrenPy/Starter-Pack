@@ -6,7 +6,7 @@ og:
   description: "Apoyo familiar en el CERN: asistencia para la reubicación, foro de cónyuges y parejas, programa de doble carrera, empleo para parejas, prestaciones familiares y recursos de guardería."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Apoyo Familiar" }
 ---
 

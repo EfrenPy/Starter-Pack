@@ -185,10 +185,10 @@
         {
           "id": "fm-tax-status",
           "label": {
-            "en": "Understand your <a href=\"/{lang}/taxes/\">tax residence status</a>",
-            "es": "Comprende tu <a href=\"/{lang}/taxes/\">situación de residencia fiscal</a>",
-            "it": "Comprendi il tuo <a href=\"/{lang}/taxes/\">status di residenza fiscale</a>",
-            "fr": "Comprenez votre <a href=\"/{lang}/taxes/\">statut de résidence fiscale</a>"
+            "en": "Understand your <a href=\"/{lang}/cern-taxation/\">tax residence status</a>",
+            "es": "Comprende tu <a href=\"/{lang}/cern-taxation/\">situación de residencia fiscal</a>",
+            "it": "Comprendi il tuo <a href=\"/{lang}/cern-taxation/\">status di residenza fiscale</a>",
+            "fr": "Comprenez votre <a href=\"/{lang}/cern-taxation/\">statut de résidence fiscale</a>"
           },
           "link": "taxes"
         },

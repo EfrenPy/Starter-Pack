@@ -6,7 +6,7 @@ og:
   description: "Guida alla fiscalità del CERN: imposta interna, esenzione dall'imposta sul reddito nazionale, residenti svizzeri e francesi, redditi esterni e regole specifiche per la Spagna."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aspetti Legali e Fiscali", url: "/it/legal-hub/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
   - { label: "Fiscalità CERN" }
 ---
 

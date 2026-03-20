@@ -121,12 +121,12 @@
       "icon": "🌍",
       "seeAlso": [
         {
-          "slug": "cross-border-commute",
-          "label": { "en": "Cross-Border Commute", "es": "Desplazamiento Transfronterizo", "it": "Pendolarismo Transfrontaliero", "fr": "Trajet Transfrontalier" }
+          "slug": "frontalier-guide",
+          "label": { "en": "Frontalier Guide", "es": "Guía Frontalier", "it": "Guida Frontaliero", "fr": "Guide Frontalier" }
         },
         {
-          "slug": "taxes",
-          "label": { "en": "Taxes", "es": "Impuestos", "it": "Tasse", "fr": "Impôts" }
+          "slug": "cern-taxation",
+          "label": { "en": "CERN Taxation", "es": "Fiscalidad CERN", "it": "Fiscalità CERN", "fr": "Fiscalité CERN" }
         }
       ]
     },
@@ -147,8 +147,8 @@
       "icon": "📄",
       "seeAlso": [
         {
-          "slug": "residence-permit",
-          "label": { "en": "Residence Permit", "es": "Permiso de Residencia", "it": "Permesso di Soggiorno", "fr": "Permis de Séjour" }
+          "slug": "permits-registration",
+          "label": { "en": "Permits & Registration", "es": "Permisos y Registro", "it": "Permessi e Registrazione", "fr": "Permis et Inscription" }
         }
       ]
     },
@@ -213,8 +213,8 @@
       "icon": "🚋",
       "seeAlso": [
         {
-          "slug": "cross-border-commute",
-          "label": { "en": "Cross-Border Commute", "es": "Desplazamiento Transfronterizo", "it": "Pendolarismo Transfrontaliero", "fr": "Trajet Transfrontalier" }
+          "slug": "transportation",
+          "label": { "en": "Transportation", "es": "Transporte", "it": "Trasporti", "fr": "Transport" }
         }
       ]
     },

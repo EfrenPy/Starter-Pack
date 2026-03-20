@@ -27,7 +27,7 @@
 {%- set pd = pages.search -%}
 {%- set t = pd.translations[lang] -%}
       <h1>{{ t.heading }}</h1>
-      <form action="search.html" method="get" class="search-box">
+      <form action="/{{ lang }}/search/" method="get" class="search-box">
         <div class="search-box__input-wrap">
           <span class="search-box__icon" aria-hidden="true">🔍</span>
           <label for="search-input" class="sr-only">{{ ui[lang].search_label }}</label>
@@ -41,11 +41,11 @@
         <ul class="search-suggestions__tags">
           <li><a href="/{{ lang }}/health-insurance/">{% if lang == 'es' %}Seguro médico{% elif lang == 'it' %}Assicurazione{% elif lang == 'fr' %}Assurance{% else %}Health Insurance{% endif %}</a></li>
           <li><a href="/{{ lang }}/cern-taxation/">{% if lang == 'es' %}Impuestos{% elif lang == 'it' %}Tasse{% elif lang == 'fr' %}Impôts{% else %}Taxation{% endif %}</a></li>
-          <li><a href="/{{ lang }}/housing/">{% if lang == 'es' %}Vivienda{% elif lang == 'it' %}Alloggio{% elif lang == 'fr' %}Logement{% else %}Housing{% endif %}</a></li>
+          <li><a href="/{{ lang }}/housing-guide/">{% if lang == 'es' %}Vivienda{% elif lang == 'it' %}Alloggio{% elif lang == 'fr' %}Logement{% else %}Housing{% endif %}</a></li>
           <li><a href="/{{ lang }}/checklist/">{% if lang == 'es' %}Checklist{% elif lang == 'it' %}Checklist{% elif lang == 'fr' %}Checklist{% else %}Checklist{% endif %}</a></li>
           <li><a href="/{{ lang }}/faq/">FAQ</a></li>
           <li><a href="/{{ lang }}/transportation/">{% if lang == 'es' %}Transporte{% elif lang == 'it' %}Trasporti{% elif lang == 'fr' %}Transport{% else %}Transportation{% endif %}</a></li>
-          <li><a href="/{{ lang }}/kerberos-ssh/">{% if lang == 'es' %}Kerberos y SSH{% elif lang == 'it' %}Kerberos e SSH{% elif lang == 'fr' %}Kerberos et SSH{% else %}Kerberos &amp; SSH{% endif %}</a></li>
-          <li><a href="/{{ lang }}/banking/">{% if lang == 'es' %}Banca{% elif lang == 'it' %}Banca{% elif lang == 'fr' %}Banque{% else %}Banking{% endif %}</a></li>
+          <li><a href="/{{ lang }}/technical/kerberos-ssh/">{% if lang == 'es' %}Kerberos y SSH{% elif lang == 'it' %}Kerberos e SSH{% elif lang == 'fr' %}Kerberos et SSH{% else %}Kerberos &amp; SSH{% endif %}</a></li>
+          <li><a href="/{{ lang }}/banking-setup/">{% if lang == 'es' %}Banca{% elif lang == 'it' %}Banca{% elif lang == 'fr' %}Banque{% else %}Banking{% endif %}</a></li>
         </ul>
       </div>

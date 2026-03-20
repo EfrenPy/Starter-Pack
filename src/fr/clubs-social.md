@@ -6,7 +6,7 @@ og:
   description: "Guide des clubs et de la vie sociale au CERN : Association du personnel, Welcome Club, sports, clubs culturels et événements."
 breadcrumbs:
   - { label: "Accueil", url: "/fr/" }
-  - { label: "Vie quotidienne", url: "/fr/daily-life-hub/" }
+  - { label: "Vie Quotidienne", url: "/fr/daily-life-hub/" }
   - { label: "Clubs et vie sociale" }
 ---
 

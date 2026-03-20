@@ -4,6 +4,10 @@ description: "Tributación del salario de un empleado del CERN residente en Espa
 og:
   title: "Tributación del salario del CERN en España"
   description: "Exención del IRPF para empleados del CERN residentes en España según el Protocolo de Privilegios e Inmunidades."
+breadcrumbs:
+  - { label: "Inicio", url: "/es/" }
+  - { label: "Ayuda Legal y Fiscal", url: "/es/legal-hub/" }
+  - { label: "Tributación CERN España" }
 ---
 
 # Tributación del salario de un empleado del CERN residente en España

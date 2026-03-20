@@ -29,7 +29,7 @@ export function initNavbar() {
       const link = e.target.closest('a');
       if (link) {
         const match = link.getAttribute('href').match(/^\/(\w{2})\//);
-        if (match) localStorage.setItem('language', match[1]);
+        if (match) try { localStorage.setItem('language', match[1]); } catch { /* storage unavailable */ }
       }
     });
   }
@@ -61,8 +61,12 @@ export function initNavbar() {
         menu.classList.remove('show');
         menu.classList.add('hidden');
         toggleButton.setAttribute('aria-expanded', 'false');
+        toggleButton.focus();
       }
-      closeLangMenu();
+      if (langMenu && langMenu.classList.contains('open')) {
+        closeLangMenu();
+        langBtn.focus();
+      }
     }
   });
 

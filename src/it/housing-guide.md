@@ -6,6 +6,7 @@ og:
   description: "Guida pratica su alloggio, trasporti, sanità e vita quotidiana vicino al CERN per i nuovi dipendenti."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
+  - { label: "Vita Quotidiana", url: "/it/daily-life-hub/" }
   - { label: "Alloggio e vita quotidiana" }
 ---
 

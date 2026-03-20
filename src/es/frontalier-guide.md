@@ -6,7 +6,7 @@ og:
   description: "Guía para trabajadores transfronterizos en el CERN: permiso G, residencia fiscal, elección de seguro médico, logística del desplazamiento y requisitos administrativos."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Guía Frontalier" }
 ---
 

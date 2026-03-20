@@ -4,6 +4,10 @@ description: "Tassazione degli stipendi dei dipendenti CERN per i residenti in S
 og:
   title: "Tassazione degli stipendi CERN in Spagna - CERN Starter Pack"
   description: "Spiegazione dell'esenzione IRPF per gli stipendi CERN ai sensi del Protocollo sui Privilegi e le Immunità."
+breadcrumbs:
+  - { label: "Home", url: "/it/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
+  - { label: "Fiscalità CERN Spagna" }
 ---
 
 # Tassazione degli stipendi dei dipendenti CERN residenti in Spagna

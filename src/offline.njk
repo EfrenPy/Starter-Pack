@@ -8,13 +8,13 @@ eleventyExcludeFromCollections: true
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-GmeXX5UARY9nXjRd+hx7jOOuFmRdKF5ivVRB1Xm6Bkc=' 'sha256-tzL4p1QWiV+7pMOOqTeOwNFjzkgYLaNpzsB3X655aeI='; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self'; connect-src 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-q/hh3/cgqEOrp40PHAVR4JKsSWiVqRG1AgFBc3P+wZg=' 'sha256-Lp5Mj3SyHxxNpj25uirYEaS3IGF7XvjCBESPWxIOcaA='; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta name="robots" content="noindex">
   <title>Offline - CERN Starter Pack</title>
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="preload" href="/css/styles.css" as="style">
   <link rel="stylesheet" href="/css/styles.css">
-  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})()</script>
+  <script>(function(){var t=localStorage.getItem('theme');if(t&&t!=='system'){document.documentElement.setAttribute('data-theme',t)}else{document.documentElement.setAttribute('data-theme',matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}})()</script>
 </head>
 <body>
   <main id="main-content">
@@ -25,7 +25,7 @@ eleventyExcludeFromCollections: true
     </div>
   </main>
   <script>
-    (function(){var t={en:{heading:'You are offline',message:'It looks like you\'ve lost your internet connection. Please check your network and try again.',retry:'Try again'},es:{heading:'Sin conexion',message:'Parece que has perdido la conexion a internet. Comprueba tu red e intentalo de nuevo.',retry:'Intentar de nuevo'},it:{heading:'Sei offline',message:'Sembra che tu abbia perso la connessione a internet. Controlla la tua rete e riprova.',retry:'Riprova'},fr:{heading:'Vous etes hors ligne',message:'Il semble que vous ayez perdu votre connexion internet. Veuillez verifier votre reseau et reessayer.',retry:'Reessayer'}};var lang=localStorage.getItem('language')||'en';var d=t[lang];if(d){document.documentElement.lang=lang;document.getElementById('offline-heading').textContent=d.heading;document.getElementById('offline-message').textContent=d.message;document.getElementById('offline-retry').textContent=d.retry;}})();
+    (function(){var t={en:{heading:'You are offline',message:'It looks like you\'ve lost your internet connection. Please check your network and try again.',retry:'Try again'},es:{heading:'Sin conexión',message:'Parece que has perdido la conexión a internet. Comprueba tu red e inténtalo de nuevo.',retry:'Intentar de nuevo'},it:{heading:'Sei offline',message:'Sembra che tu abbia perso la connessione a internet. Controlla la tua rete e riprova.',retry:'Riprova'},fr:{heading:'Vous êtes hors ligne',message:'Il semble que vous ayez perdu votre connexion internet. Veuillez vérifier votre réseau et réessayer.',retry:'Réessayer'}};var lang=localStorage.getItem('language');if(!lang||!t[lang])lang='en';var d=t[lang];if(d){document.documentElement.lang=lang;document.getElementById('offline-heading').textContent=d.heading;document.getElementById('offline-message').textContent=d.message;document.getElementById('offline-retry').textContent=d.retry;}})();
   </script>
 </body>
 </html>

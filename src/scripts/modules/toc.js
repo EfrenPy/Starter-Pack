@@ -6,7 +6,13 @@ export function initToc() {
   if (headings.length < 3) return;
 
   const lang = document.documentElement.lang || 'en';
-  const tocTitle = lang === 'es' ? 'Tabla de contenidos' : 'Table of Contents';
+  const tocTitles = {
+    es: 'Tabla de contenidos',
+    en: 'Table of Contents',
+    it: 'Indice dei contenuti',
+    fr: 'Table des matières'
+  };
+  const tocTitle = tocTitles[lang] || tocTitles.en;
 
   // Ensure headings have IDs
   const slugs = new Set();
@@ -19,7 +25,8 @@ export function initToc() {
         .replace(/[\u0300-\u036f]/g, '')
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/(^-|-$)/g, '');
-      while (slugs.has(slug)) slug += '-2';
+      let counter = 2;
+      while (slugs.has(slug)) slug = `${slug.replace(/-\d+$/, '')}-${counter++}`;
       slugs.add(slug);
       h.id = slug;
     }

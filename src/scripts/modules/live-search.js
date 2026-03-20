@@ -7,7 +7,8 @@ export function initLiveSearch() {
 
 function setupLiveSearch(input) {
   const isSearchPage = !!document.getElementById('search-results');
-  const lang = window.location.pathname.includes('/es/') ? 'es' : 'en';
+  const pathMatch = window.location.pathname.match(/^\/(es|en|it|fr)\//);
+  const lang = pathMatch ? pathMatch[1] : 'en';
   let debounceTimer = null;
   let dropdown = null;
   let activeIndex = -1;
@@ -77,14 +78,16 @@ function setupLiveSearch(input) {
   });
 
   async function doSearch(query) {
-    await getSearchIndex(lang);
-    const results = searchArticles(query, lang);
+    try {
+      await getSearchIndex(lang);
+      const results = searchArticles(query, lang);
 
-    if (isSearchPage) {
-      renderInline(results, query);
-    } else {
-      renderDropdown(results, query);
-    }
+      if (isSearchPage) {
+        renderInline(results, query);
+      } else {
+        renderDropdown(results, query);
+      }
+    } catch { /* search unavailable */ }
   }
 
   function renderDropdown(results, query) {
@@ -95,7 +98,8 @@ function setupLiveSearch(input) {
     if (results.length === 0) {
       const empty = document.createElement('div');
       empty.className = 'search-dropdown__item';
-      empty.textContent = lang === 'es' ? 'Sin resultados' : 'No results';
+      const noResultsMsgs = { es: 'Sin resultados', en: 'No results', it: 'Nessun risultato', fr: 'Aucun résultat' };
+      empty.textContent = noResultsMsgs[lang] || noResultsMsgs.en;
       dropdown.appendChild(empty);
     } else {
       results.slice(0, 6).forEach((r, i) => {
@@ -116,9 +120,16 @@ function setupLiveSearch(input) {
 
     // Announce result count to screen readers
     const count = results.length;
+    const noRes = { es: 'Sin resultados', en: 'No results', it: 'Nessun risultato', fr: 'Aucun résultat' };
+    const resTemplates = {
+      es: (c) => `${c} resultado${c !== 1 ? 's' : ''}`,
+      en: (c) => `${c} result${c !== 1 ? 's' : ''}`,
+      it: (c) => `${c} risultat${c !== 1 ? 'i' : 'o'}`,
+      fr: (c) => `${c} résultat${c !== 1 ? 's' : ''}`
+    };
     liveRegion.textContent = count === 0
-      ? (lang === 'es' ? 'Sin resultados' : 'No results')
-      : (lang === 'es' ? `${count} resultado${count !== 1 ? 's' : ''}` : `${count} result${count !== 1 ? 's' : ''}`);
+      ? (noRes[lang] || noRes.en)
+      : (resTemplates[lang] || resTemplates.en)(count);
   }
 
   function renderInline(results, query) {
@@ -126,14 +137,19 @@ function setupLiveSearch(input) {
     if (!container) return;
     container.innerHTML = '';
 
-    const countMsg = lang === 'es'
-      ? `${results.length} resultado${results.length !== 1 ? 's' : ''} encontrado${results.length !== 1 ? 's' : ''}.`
-      : `${results.length} result${results.length !== 1 ? 's' : ''} found.`;
+    const countTemplates = {
+      es: (c) => `${c} resultado${c !== 1 ? 's' : ''} encontrado${c !== 1 ? 's' : ''}.`,
+      en: (c) => `${c} result${c !== 1 ? 's' : ''} found.`,
+      it: (c) => `${c} risultat${c !== 1 ? 'i' : 'o'} trovat${c !== 1 ? 'i' : 'o'}.`,
+      fr: (c) => `${c} résultat${c !== 1 ? 's' : ''} trouvé${c !== 1 ? 's' : ''}.`
+    };
+    const countMsg = (countTemplates[lang] || countTemplates.en)(results.length);
     container.setAttribute('aria-label', countMsg);
 
     if (results.length === 0) {
       const p = document.createElement('p');
-      p.textContent = lang === 'es' ? 'No se encontraron resultados.' : 'No results found.';
+      const noFound = { es: 'No se encontraron resultados.', en: 'No results found.', it: 'Nessun risultato trovato.', fr: 'Aucun résultat trouvé.' };
+      p.textContent = noFound[lang] || noFound.en;
       container.appendChild(p);
       return;
     }

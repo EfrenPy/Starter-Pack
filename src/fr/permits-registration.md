@@ -1,13 +1,13 @@
 ---
-title: "Permits & Registration at CERN - CERN Starter Pack"
-description: "Guide to permits and registration at CERN: Carte de Légitimation, Titre de Séjour, 14-day rule, family members, and changing residence."
+title: "Permis et Inscription au CERN - CERN Starter Pack"
+description: "Guide des permis et de l'inscription au CERN : Carte de Légitimation, Titre de Séjour, règle des 14 jours, membres de la famille et changement de résidence."
 og:
-  title: "Permits & Registration at CERN - CERN Starter Pack"
-  description: "Guide to permits and registration at CERN: Carte de Légitimation, Titre de Séjour, 14-day rule, family members, and changing residence."
+  title: "Permis et Inscription au CERN - CERN Starter Pack"
+  description: "Guide des permis et de l'inscription au CERN : Carte de Légitimation, Titre de Séjour, règle des 14 jours, membres de la famille et changement de résidence."
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
-  - { label: "Permits & Registration" }
+  - { label: "Accueil", url: "/fr/" }
+  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
+  - { label: "Permis et Inscription" }
 ---
 
 # Permits & Registration at CERN

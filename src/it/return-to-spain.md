@@ -6,7 +6,7 @@ og:
   description: "Guida completa per i dipendenti CERN che pianificano il ritorno in Spagna, coprendo amministrazione, sanità, pensioni e tasse."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto legale e fiscale", url: "/it/legal-hub/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
   - { label: "Ritorno in Spagna" }
 ---
 

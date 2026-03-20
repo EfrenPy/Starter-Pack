@@ -12,9 +12,11 @@
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ description }}">
 {% endif %}
-<meta property="og:type" content="{% if bodyClass == 'page-content' %}article{% else %}website{% endif %}">
+<meta property="og:type" content="{% if layout == 'layouts/page.njk' %}article{% else %}website{% endif %}">
 <meta property="og:url" content="{{ page.url | absoluteUrl(site.url) }}">
 <meta property="og:locale" content="{{ locale }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:image:alt" content="{{ og.title or title }}">
 {% set langOg = site.ogImage %}
 {% if site.ogImageByLang and lang and site.ogImageByLang[lang] %}
 {% set langOg = site.ogImageByLang[lang] %}
@@ -48,9 +50,16 @@
   "@graph": [
     {
       "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
       "name": "{{ site.name }}",
       "url": "{{ site.url }}",
-      "email": "{{ site.email }}"{% if site.sameAs and site.sameAs.length %},
+      "email": "{{ site.email }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/images/android-chrome-512x512.png",
+        "width": 512,
+        "height": 512
+      }{% if site.sameAs and site.sameAs.length %},
       "sameAs": [
         {% for profile in site.sameAs %}
         "{{ profile }}"{% if not loop.last %},{% endif %}
@@ -59,8 +68,10 @@
     },
     {
       "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
       "name": "{{ site.name }}",
       "url": "{{ site.url }}",
+      "publisher": { "@id": "{{ site.url }}/#organization" },
       "inLanguage": "{{ lang or site.defaultLang }}",
       "potentialAction": {
         "@type": "SearchAction",

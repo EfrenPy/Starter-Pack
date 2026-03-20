@@ -6,7 +6,7 @@ og:
   description: "Guida completa alla formazione obbligatoria sulla sicurezza al CERN: corsi, e-learning, radioprotezione, sessioni in presenza e procedure di rinnovo."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Tecnico", url: "/it/technical-hub/" }
+  - { label: "Assistenza Tecnica", url: "/it/technical-hub/" }
   - { label: "Formazione sulla Sicurezza" }
 ---
 

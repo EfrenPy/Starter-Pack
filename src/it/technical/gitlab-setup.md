@@ -6,7 +6,7 @@ og:
   description: "Configurare il proprio account CERN GitLab, impostare l'autenticazione e apprendere il workflow di sviluppo standard al CERN."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Tecnico", url: "/it/technical-hub/" }
+  - { label: "Assistenza Tecnica", url: "/it/technical-hub/" }
   - { label: "CERN GitLab" }
 ---
 

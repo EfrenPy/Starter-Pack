@@ -111,7 +111,8 @@ export async function getSearchIndex(language) {
   if (fuseCache[cacheKey]) return fuseCache[cacheKey];
 
   // Try sessionStorage first
-  const stored = sessionStorage.getItem('search-index-' + folder);
+  let stored = null;
+  try { stored = sessionStorage.getItem('search-index-' + folder); } catch { /* storage unavailable */ }
   if (stored) {
     try {
       const articles = JSON.parse(stored);
@@ -131,7 +132,7 @@ export async function getSearchIndex(language) {
     articles = await loadFromHTML(folder);
   }
 
-  sessionStorage.setItem('search-index-' + folder, JSON.stringify(articles));
+  try { sessionStorage.setItem('search-index-' + folder, JSON.stringify(articles)); } catch { /* quota exceeded -- in-memory cache still works */ }
   const fuse = buildFuse(articles);
   fuseCache[cacheKey] = { articles, fuse };
   return fuseCache[cacheKey];

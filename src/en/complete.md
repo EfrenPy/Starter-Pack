@@ -4,6 +4,10 @@ description: 'Comprehensive guide covering legal, administrative, financial, hou
 og:
   title: 'Complete Guide for Spanish Nationals at CERN'
   description: 'Legal, administrative, and daily life guide for Spaniards at CERN.'
+breadcrumbs:
+  - { label: "Home", url: "/en/" }
+  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
+  - { label: "Complete Guide" }
 ---
 
 # Complete Guide: Legal, Administrative, and Daily Life at CERN

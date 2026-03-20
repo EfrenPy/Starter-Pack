@@ -128,7 +128,7 @@
       "slug": "shuttle-routes-timetables",
       "icon": "🕒",
       "title": {
-        "en": "Shuttle Routes &amp; Timetables",
+        "en": "Shuttle Routes & Timetables",
         "es": "Rutas y Horarios de Lanzaderas",
         "it": "Percorsi e Orari Navette",
         "fr": "Lignes et Horaires des Navettes"
@@ -160,10 +160,10 @@
       "slug": "childcare-schools",
       "icon": "🎓",
       "title": {
-        "en": "Childcare &amp; Schools",
+        "en": "Childcare & Schools",
         "es": "Guarderías y Colegios",
         "it": "Asili e Scuole",
-        "fr": "Crèches &amp; Écoles"
+        "fr": "Crèches & Écoles"
       },
       "desc": {
         "en": "CERN creche, local nurseries, international schools, and education options for families.",
@@ -208,10 +208,10 @@
       "slug": "vehicle-green-plates",
       "icon": "🚗",
       "title": {
-        "en": "Vehicles &amp; Green Plates",
+        "en": "Vehicles & Green Plates",
         "es": "Vehículos y Placas Verdes",
         "it": "Veicoli e Targhe Verdi",
-        "fr": "Véhicules &amp; Plaques Vertes"
+        "fr": "Véhicules & Plaques Vertes"
       },
       "desc": {
         "en": "Green plate eligibility, tax-free vehicle import, customs, license exchange, and insurance.",
@@ -240,10 +240,10 @@
       "slug": "clubs-social",
       "icon": "🤝",
       "title": {
-        "en": "Clubs &amp; Social Life",
+        "en": "Clubs & Social Life",
         "es": "Clubes y Vida Social",
         "it": "Club e Vita Sociale",
-        "fr": "Clubs &amp; Vie Sociale"
+        "fr": "Clubs & Vie Sociale"
       },
       "desc": {
         "en": "Staff Association, Welcome Club, 70+ activity courses, sports, cultural clubs, and networking.",
@@ -272,10 +272,10 @@
       "slug": "medical-emergency",
       "icon": "🏥",
       "title": {
-        "en": "Medical &amp; Emergency",
+        "en": "Medical & Emergency",
         "es": "Médico y Emergencias",
         "it": "Emergenze Mediche",
-        "fr": "Médical &amp; Urgences"
+        "fr": "Médical & Urgences"
       },
       "desc": {
         "en": "CERN Medical Service, infirmary, emergency number 767-4444, HUG hospital, and finding doctors.",
@@ -368,10 +368,10 @@
       "slug": "relocation-moving",
       "icon": "📦",
       "title": {
-        "en": "Relocation &amp; Moving",
+        "en": "Relocation & Moving",
         "es": "Mudanza e Instalación",
         "it": "Trasferimento e Trasloco",
-        "fr": "Déménagement &amp; Installation"
+        "fr": "Déménagement & Installation"
       },
       "desc": {
         "en": "International move logistics: shipping belongings, customs, furnished vs unfurnished rentals, storage, and mail forwarding.",
@@ -384,7 +384,7 @@
       "slug": "cern-benefits",
       "icon": "🎁",
       "title": {
-        "en": "CERN Benefits &amp; Perks",
+        "en": "CERN Benefits & Perks",
         "es": "Beneficios y Ventajas del CERN",
         "it": "Benefici e Vantaggi del CERN",
         "fr": "Avantages du CERN"
@@ -400,10 +400,10 @@
       "slug": "currency-money",
       "icon": "💱",
       "title": {
-        "en": "Currency &amp; Money",
+        "en": "Currency & Money",
         "es": "Divisas y Dinero",
         "it": "Valuta e Denaro",
-        "fr": "Devises &amp; Argent"
+        "fr": "Devises & Argent"
       },
       "desc": {
         "en": "Managing CHF and EUR: multi-currency accounts, exchange tips, ATM advice, and cross-border budgeting.",

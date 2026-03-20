@@ -6,7 +6,7 @@ og:
   description: "Roadmap pratica su previdenza sociale, obblighi fiscali e risorse chiave per gli spagnoli al CERN."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto legale e fiscale", url: "/it/legal-hub/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
   - { label: "Iniziare al CERN" }
 ---
 

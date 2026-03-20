@@ -6,7 +6,7 @@ og:
   description: "Inizia a usare SWAN, la piattaforma cloud del CERN basata su Jupyter notebooks per l'analisi interattiva dei dati."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Tecnico", url: "/it/technical-hub/" }
+  - { label: "Assistenza Tecnica", url: "/it/technical-hub/" }
   - { label: "SWAN (Jupyter)" }
 ---
 

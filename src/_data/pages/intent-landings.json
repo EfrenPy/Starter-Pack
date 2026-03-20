@@ -60,7 +60,7 @@
         "Keep badge available for boarding checks"
       ],
       "es": [
-        "Identifica tu circuito (1,2,3 o 5) segun destino",
+        "Identifica tu circuito (1,2,3 o 5) según destino",
         "Revisa horas punta y deja margen",
         "Usa herramientas de mapa CERN para paradas",
         "Ten el badge listo para controles de subida"
@@ -75,7 +75,7 @@
         "Identifiez votre circuit (1,2,3 ou 5) selon la destination",
         "Vérifiez les heures de pointe et prévoyez une marge",
         "Utilisez les outils cartographiques CERN pour les arrêts",
-        "Gardez votre badge pret pour les controles d'embarquement"
+        "Gardez votre badge prêt pour les contrôles d'embarquement"
       ]
     }
   },
@@ -101,9 +101,9 @@
       ],
       "es": [
         "Confirma residencia fiscal y estatus legal",
-        "Guarda evidencia de exencion salarial y declaraciones anuales",
+        "Guarda evidencia de exención salarial y declaraciones anuales",
         "Separa ingresos no CERN",
-        "Revisa cambios cada ano si cambia residencia o familia"
+        "Revisa cambios cada año si cambia residencia o familia"
       ],
       "it": [
         "Conferma residenza fiscale e status legale",

@@ -4,6 +4,10 @@ description: "Taxation of CERN employee salaries for residents in Spain. IRPF ex
 og:
   title: "Taxation of CERN Salaries in Spain - CERN Starter Pack"
   description: "Explanation of the IRPF exemption for CERN salaries under the Protocol on Privileges and Immunities."
+breadcrumbs:
+  - { label: "Home", url: "/en/" }
+  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
+  - { label: "CERN Taxation Spain" }
 ---
 
 # Taxation of CERN Employee Salaries Residing in Spain

@@ -6,6 +6,7 @@ og:
   description: "Doctoral students guide at CERN: programme details, thesis submission, hyper-authorship, practical matters, computing resources, and post-PhD opportunities."
 breadcrumbs:
   - { label: "Home", url: "/en/" }
+  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
   - { label: "Doctoral Guide" }
 ---
 

@@ -6,7 +6,7 @@ og:
   description: "Guide des contrats et carrières au CERN : types de contrats, fellowships, doctorants, prolongations et développement de carrière."
 breadcrumbs:
   - { label: "Accueil", url: "/fr/" }
-  - { label: "Aide juridique et fiscale", url: "/fr/legal-hub/" }
+  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
   - { label: "Contrats et carrière" }
 ---
 

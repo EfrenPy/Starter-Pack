@@ -4,6 +4,10 @@ description: "Guida completa su aspetti legali, amministrativi, finanziari, abit
 og:
   title: "Guida completa per i cittadini spagnoli al CERN"
   description: "Guida legale, amministrativa e di vita quotidiana per gli spagnoli al CERN."
+breadcrumbs:
+  - { label: "Home", url: "/it/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
+  - { label: "Guida Completa" }
 ---
 
 # Guida completa: aspetti legali, amministrativi e vita quotidiana al CERN

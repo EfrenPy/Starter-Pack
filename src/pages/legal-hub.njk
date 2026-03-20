@@ -31,8 +31,8 @@
         {%- for card in pd.cards %}
         <a href="/{{ lang }}/{{ card.slug }}/" class="card">
           <div class="card__icon" aria-hidden="true">{{ card.icon }}</div>
-          <h2 class="card__title">{{ card.title[lang] | safe }}</h2>
-          <p class="card__desc">{{ card.desc[lang] | safe }}</p>
+          <h2 class="card__title">{{ card.title[lang] }}</h2>
+          <p class="card__desc">{{ card.desc[lang] }}</p>
         </a>
         {%- endfor %}
       </div>

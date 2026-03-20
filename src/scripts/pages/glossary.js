@@ -24,8 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   pills.forEach(pill => {
     pill.addEventListener('click', () => {
-      pills.forEach(p => p.classList.remove('glossary-pill--active'));
+      pills.forEach(p => {
+        p.classList.remove('glossary-pill--active');
+        p.setAttribute('aria-pressed', 'false');
+      });
       pill.classList.add('glossary-pill--active');
+      pill.setAttribute('aria-pressed', 'true');
       activeCategory = pill.dataset.category;
       filter();
     });

@@ -6,7 +6,7 @@ og:
   description: "Guida IT essenziale per i nuovi arrivati al CERN: account informatico, Wi-Fi eduroam, EDH, ServiceNow, VPN, stampa e risoluzione dei problemi."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Tecnico", url: "/it/technical-hub/" }
+  - { label: "Assistenza Tecnica", url: "/it/technical-hub/" }
   - { label: "Nozioni Base IT al CERN" }
 ---
 

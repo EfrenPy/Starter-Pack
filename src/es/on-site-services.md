@@ -6,7 +6,7 @@ og:
   description: "Guía de servicios en el campus del CERN: restaurantes, servicio médico, banco, correos, biblioteca, instalaciones deportivas y números de emergencia."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Servicios en el Campus" }
 ---
 

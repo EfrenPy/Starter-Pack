@@ -6,7 +6,7 @@ og:
   description: "Servicios médicos y emergencias en el CERN: Servicio Médico del CERN, enfermería, números de emergencia, hospitales, médicos, farmacias y apoyo de salud mental."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Servicios Médicos y Emergencias" }
 ---
 

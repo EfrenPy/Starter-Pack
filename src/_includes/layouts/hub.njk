@@ -33,7 +33,7 @@ bodyClass: page-hub
     {
       "@type": "ListItem",
       "position": {{ loop.index }},
-      "name": "{{ crumb.label }}"{% if crumb.url %},
+      "name": "{{ crumb.label | safe }}"{% if crumb.url %},
       "item": "{{ site.url }}{{ crumb.url }}"{% endif %}
     }{% if not loop.last %},{% endif %}
     {% endfor %}
@@ -54,7 +54,7 @@ bodyClass: page-hub
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "{{ title }}",
+  "name": "{{ title | safe }}",
   "itemListOrder": "https://schema.org/ItemListUnordered",
   "numberOfItems": {{ hubData.cards.length }},
   "itemListElement": [
@@ -63,7 +63,7 @@ bodyClass: page-hub
       "@type": "ListItem",
       "position": {{ loop.index }},
       "url": "{{ ('/' + lang + '/' + card.slug + '/') | absoluteUrl(site.url) }}",
-      "name": "{{ card.title[lang] | striptags }}"
+      "name": "{{ card.title[lang] | striptags | safe }}"
     }{% if not loop.last %},{% endif %}
     {%- endfor %}
   ]

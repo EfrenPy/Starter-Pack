@@ -36,12 +36,12 @@ export async function initSearch() {
       founds: 'trovati',
     },
     fr: {
-      noResults: 'Aucun resultat trouve.',
-      error: 'Erreur lors du chargement des resultats.',
-      result: 'resultat',
-      results: 'resultats',
-      found: 'trouve',
-      founds: 'trouves',
+      noResults: 'Aucun résultat trouvé.',
+      error: 'Erreur lors du chargement des résultats.',
+      result: 'résultat',
+      results: 'résultats',
+      found: 'trouvé',
+      founds: 'trouvés',
     },
   };
   const m = msgs[lang] || msgs.en;
@@ -83,12 +83,12 @@ export async function initSearch() {
       p.textContent = noResultsMsg;
       resultsContainer.appendChild(p);
     }
-  } catch (error) {
+  } catch {
     if (suggestionsEl) suggestionsEl.hidden = false;
     const p = document.createElement('p');
     p.classList.add('search-error');
     p.textContent = errorMsg;
     resultsContainer.appendChild(p);
-    console.error('Error searching articles:', error);
+    /* search error handled above */
   }
 }

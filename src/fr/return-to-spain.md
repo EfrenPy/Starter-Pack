@@ -1,13 +1,13 @@
 ---
-title: "Returning to Spain - CERN Starter Pack"
-description: "Step-by-step guide for CERN employees returning to Spain: administrative steps, healthcare, pensions, taxes, and practical matters."
+title: "Retour en Espagne - CERN Starter Pack"
+description: "Guide étape par étape pour les employés du CERN retournant en Espagne : démarches administratives, santé, pensions, impôts et questions pratiques."
 og:
-  title: "Returning to Spain - CERN Starter Pack"
-  description: "Complete guide for CERN employees planning their return to Spain, covering admin, healthcare, pensions, and taxes."
+  title: "Retour en Espagne - CERN Starter Pack"
+  description: "Guide complet pour les employés du CERN planifiant leur retour en Espagne, couvrant l'administration, la santé, les pensions et les impôts."
 breadcrumbs:
-  - { label: "Home", url: "/en/" }
-  - { label: "Legal & Tax Help", url: "/en/legal-hub/" }
-  - { label: "Returning to Spain" }
+  - { label: "Accueil", url: "/fr/" }
+  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
+  - { label: "Retour en Espagne" }
 ---
 
 # Returning to Spain: Step-by-Step Guide

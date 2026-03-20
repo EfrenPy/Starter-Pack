@@ -6,7 +6,7 @@ og:
   description: 'Guide pratique du shopping transfrontalier près du CERN : supermarchés, douanes, détaxe, marchés et conseils.'
 breadcrumbs:
   - { label: 'Accueil', url: '/fr/' }
-  - { label: 'Vie quotidienne', url: '/fr/daily-life-hub/' }
+  - { label: 'Vie Quotidienne', url: '/fr/daily-life-hub/' }
   - { label: 'Shopping transfrontalier' }
 ---
 

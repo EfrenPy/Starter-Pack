@@ -6,7 +6,7 @@ og:
   description: "Iniziare con il framework C++/Python ROOT per l'analisi in fisica delle alte energie al CERN."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Tecnico", url: "/it/technical-hub/" }
+  - { label: "Assistenza Tecnica", url: "/it/technical-hub/" }
   - { label: "Guida Rapida ROOT" }
 ---
 

@@ -69,10 +69,10 @@
       "slug": "technical/kerberos-ssh",
       "icon": "🔐",
       "title": {
-        "en": "Kerberos &amp; SSH Setup",
+        "en": "Kerberos & SSH Setup",
         "es": "Configuración de Kerberos y SSH",
         "it": "Kerberos e SSH Setup",
-        "fr": "Configuration Kerberos &amp; SSH"
+        "fr": "Configuration Kerberos & SSH"
       },
       "desc": {
         "en": "Set up Kerberos authentication and SSH access to CERN lxplus, EOS, and AFS from any platform.",
@@ -197,10 +197,10 @@
       "slug": "technical/eos-storage",
       "icon": "💾",
       "title": {
-        "en": "EOS Storage &amp; CERNBox",
+        "en": "EOS Storage & CERNBox",
         "es": "Almacenamiento EOS y CERNBox",
         "it": "Storage EOS e CERNBox",
-        "fr": "Stockage EOS &amp; CERNBox"
+        "fr": "Stockage EOS & CERNBox"
       },
       "desc": {
         "en": "CERN EOS distributed storage: quotas, CERNBox web and desktop sync, accessing files from lxplus and SWAN, and sharing.",

@@ -6,7 +6,7 @@ og:
   description: "Guida passo-passo per configurare Kerberos e SSH per accedere a CERN lxplus e servizi correlati."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Tecnico", url: "/it/technical-hub/" }
+  - { label: "Assistenza Tecnica", url: "/it/technical-hub/" }
   - { label: "Configurazione Kerberos e SSH" }
 ---
 

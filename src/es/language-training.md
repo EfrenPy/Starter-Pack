@@ -6,7 +6,7 @@ og:
   description: "Guía de formación en idiomas en el CERN: cursos de francés, clases subvencionadas, Welcome Club, CAGI, opciones locales y recursos de autoestudio."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Formación en Idiomas" }
 ---
 

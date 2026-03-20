@@ -6,7 +6,7 @@ og:
   description: "Guida alle tessere di accesso al CERN: tipologie, registrazione, accesso agli edifici, ADaMS, adesivi per veicoli e procedure di sostituzione."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Tecnico", url: "/it/technical-hub/" }
+  - { label: "Assistenza Tecnica", url: "/it/technical-hub/" }
   - { label: "Tessere di Accesso" }
 ---
 

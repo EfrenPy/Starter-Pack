@@ -6,7 +6,7 @@ og:
   description: "Guida al Modelo 720, dichiarazione informativa spagnola sui beni all'estero, con considerazioni specifiche per il CERN."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto legale e fiscale", url: "/it/legal-hub/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
   - { label: "Modelo 720" }
 ---
 

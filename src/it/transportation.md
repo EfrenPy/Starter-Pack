@@ -6,7 +6,7 @@ og:
   description: 'Guida pratica per spostarsi vicino al CERN: autobus TPG, navetta CERN, bicicletta, auto e treni regionali.'
 breadcrumbs:
   - { label: 'Home', url: '/it/' }
-  - { label: 'Vita quotidiana', url: '/it/daily-life-hub/' }
+  - { label: 'Vita Quotidiana', url: '/it/daily-life-hub/' }
   - { label: 'Trasporti' }
 ---
 

@@ -7,8 +7,15 @@ export function initReadingTime() {
   const words = text.trim().split(/\s+/).length;
   const minutes = Math.max(1, Math.round(words / 200));
 
-  const isSpanish = window.location.pathname.includes('/es/');
-  const label = isSpanish ? `${minutes} min de lectura` : `${minutes} min read`;
+  const pathMatch = window.location.pathname.match(/^\/(es|en|it|fr)\//);
+  const lang = pathMatch ? pathMatch[1] : 'en';
+  const labels = {
+    es: `${minutes} min de lectura`,
+    en: `${minutes} min read`,
+    it: `${minutes} min di lettura`,
+    fr: `${minutes} min de lecture`
+  };
+  const label = labels[lang] || labels.en;
 
   const badge = document.createElement('span');
   badge.className = 'reading-time';

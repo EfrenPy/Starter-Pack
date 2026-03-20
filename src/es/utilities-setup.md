@@ -6,7 +6,7 @@ og:
   description: "Cómo configurar electricidad, gas, agua, internet y otros suministros del hogar al mudarse cerca del CERN en Suiza o Francia."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Suministros del Hogar" }
 ---
 

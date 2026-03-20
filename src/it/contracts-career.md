@@ -6,7 +6,7 @@ og:
   description: "Guida ai contratti e alla carriera al CERN: tipologie contrattuali, contratti staff, fellowship, studenti dottorandi, proroghe, sviluppo professionale e cessazione dal CERN."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aiuto Legale e Fiscale", url: "/it/legal-hub/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
   - { label: "Contratti e Carriera" }
 ---
 

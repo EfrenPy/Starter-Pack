@@ -6,7 +6,7 @@ og:
   description: "Guía de guarderías, escuelas y opciones educativas internacionales cerca del CERN para familias que se trasladan a la zona de Ginebra."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Guarderías y Colegios" }
 ---
 

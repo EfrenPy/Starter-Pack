@@ -96,10 +96,10 @@
       "slug": "modelo-720",
       "icon": "📄",
       "title": {
-        "en": "Modelo 720 &amp; Declaration Guide",
+        "en": "Modelo 720 & Declaration Guide",
         "es": "Modelo 720 y Guía de Declaración",
         "it": "Modelo 720 e Guida alla Dichiarazione",
-        "fr": "Modelo 720 &amp; Guide de Déclaration"
+        "fr": "Modelo 720 & Guide de Déclaration"
       },
       "desc": {
         "en": "Guide to the Modelo 720 foreign asset declaration, filing requirements, CERN-specific considerations, and step-by-step walkthrough.",
@@ -144,10 +144,10 @@
       "slug": "permits-registration",
       "icon": "💳",
       "title": {
-        "en": "Permits &amp; Registration",
+        "en": "Permits & Registration",
         "es": "Permisos y Registro",
         "it": "Permessi e Registrazione",
-        "fr": "Permis &amp; Enregistrement"
+        "fr": "Permis & Enregistrement"
       },
       "desc": {
         "en": "Swiss carte de légitimation, French titre de séjour, 14-day registration rule, and residence card types.",
@@ -192,10 +192,10 @@
       "slug": "contracts-career",
       "icon": "📝",
       "title": {
-        "en": "Contracts &amp; Career",
+        "en": "Contracts & Career",
         "es": "Contratos y Carrera",
         "it": "Contratti e Carriera",
-        "fr": "Contrats &amp; Carrière"
+        "fr": "Contrats & Carrière"
       },
       "desc": {
         "en": "Fellow vs student vs staff, maximum durations, extension rules, and one-time fellowship policy.",
@@ -240,10 +240,10 @@
       "slug": "french-swiss-taxes",
       "icon": "🧾",
       "title": {
-        "en": "French &amp; Swiss Taxes",
+        "en": "French & Swiss Taxes",
         "es": "Impuestos en Francia y Suiza",
         "it": "Tasse in Francia e Svizzera",
-        "fr": "Impôts en France &amp; Suisse"
+        "fr": "Impôts en France & Suisse"
       },
       "desc": {
         "en": "Tax obligations for CERN employees living in France or Switzerland: declaration process, double taxation treaties, and annual filing.",

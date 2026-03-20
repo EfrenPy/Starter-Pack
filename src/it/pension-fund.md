@@ -6,7 +6,7 @@ og:
   description: 'Guida al Fondo Pensione del CERN: contributi, prestazioni per anni di servizio, età pensionabile, valore di trasferimento, calcolo della pensione e cessazione dal CERN.'
 breadcrumbs:
   - { label: 'Home', url: '/it/' }
-  - { label: 'Aiuto Legale e Fiscale', url: '/it/legal-hub/' }
+  - { label: 'Assistenza Legale e Fiscale', url: '/it/legal-hub/' }
   - { label: 'Fondo Pensione' }
 ---
 

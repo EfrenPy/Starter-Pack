@@ -21,6 +21,9 @@
   },
   layout: "layouts/page.njk",
   printable: false,
+  datePublished: "2025-06-01",
+  dateModified: "2026-02-01",
+  dateUpdated: "2026-02",
   extraJs: "/scripts/pages/glossary.js"
 }
 ---
@@ -39,14 +42,15 @@
   <div class="search-box">
     <div class="search-box__input-wrap">
       <span class="search-box__icon" aria-hidden="true">🔍</span>
+      <label for="glossary-filter" class="sr-only">{{ tr.filterPlaceholder }}</label>
       <input type="text" class="search-box__input" id="glossary-filter" placeholder="{{ tr.filterPlaceholder }}" autocomplete="off">
     </div>
   </div>
 
   <div class="glossary-pills" role="group" aria-label="{{ tr.filterPlaceholder }}">
-    <button class="glossary-pill glossary-pill--active" data-category="all">{{ tr.allCategories }}</button>
+    <button class="glossary-pill glossary-pill--active" data-category="all" aria-pressed="true">{{ tr.allCategories }}</button>
     {%- for cat in t.categories %}
-    <button class="glossary-pill" data-category="{{ cat.id }}">{{ cat.label[l] }}</button>
+    <button class="glossary-pill" data-category="{{ cat.id }}" aria-pressed="false">{{ cat.label[l] }}</button>
     {%- endfor %}
   </div>
 </div>
@@ -72,4 +76,4 @@
   {%- endfor %}
 </div>
 
-<p class="glossary-no-results" id="glossary-no-results" hidden>{{ tr.noResults }}</p>
+<p class="glossary-no-results" id="glossary-no-results" hidden aria-live="polite">{{ tr.noResults }}</p>

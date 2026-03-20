@@ -30,7 +30,9 @@ export function initCostCalculator() {
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    const gross = Number(document.getElementById('gross-salary').value);
+    const grossVal = document.getElementById('gross-salary').value;
+    const gross = Number(grossVal);
+    if (!gross || gross <= 0) return;
     const country = document.getElementById('country').value;
     const family = document.getElementById('family-size').value;
 
@@ -69,6 +71,5 @@ export function initCostCalculator() {
 
     const results = document.getElementById('calculator-results');
     results.hidden = false;
-    results.setAttribute('aria-live', 'polite');
   });
 }

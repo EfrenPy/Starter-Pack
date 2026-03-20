@@ -9,7 +9,7 @@ export function initChecklist(storageKey = 'cern-checklist-progress') {
     if (saved[id]) cb.checked = true;
     cb.addEventListener('change', () => {
       saved[id] = cb.checked;
-      localStorage.setItem(storageKey, JSON.stringify(saved));
+      try { localStorage.setItem(storageKey, JSON.stringify(saved)); } catch { /* storage unavailable */ }
       updateProgress(checkboxes);
     });
   });
@@ -19,7 +19,7 @@ export function initChecklist(storageKey = 'cern-checklist-progress') {
   const resetBtn = document.getElementById('reset-checklist');
   if (resetBtn) {
     resetBtn.addEventListener('click', () => {
-      localStorage.removeItem(storageKey);
+      try { localStorage.removeItem(storageKey); } catch { /* storage unavailable */ }
       checkboxes.forEach(cb => { cb.checked = false; });
       updateProgress(checkboxes);
     });

@@ -6,7 +6,7 @@ og:
   description: "Logística de mudanza internacional y asentamiento en el CERN: envío de pertenencias, cronograma de vivienda, mobiliario, almacenamiento y dirección postal."
 breadcrumbs:
   - { label: "Inicio", url: "/es/" }
-  - { label: "Vida Diaria", url: "/es/daily-life-hub/" }
+  - { label: "Vida Cotidiana", url: "/es/daily-life-hub/" }
   - { label: "Reubicación y Mudanza" }
 ---
 

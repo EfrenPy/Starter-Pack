@@ -4,6 +4,10 @@ description: "Fiscalité des salaires des employés du CERN pour les résidents 
 og:
   title: "Fiscalité des salaires du CERN en Espagne - CERN Starter Pack"
   description: "Explication de l’exonération IRPF pour les salaires du CERN en vertu du Protocole sur les Privilèges et Immunités."
+breadcrumbs:
+  - { label: "Accueil", url: "/fr/" }
+  - { label: "Aide Juridique et Fiscale", url: "/fr/legal-hub/" }
+  - { label: "Fiscalité CERN Espagne" }
 ---
 
 # Fiscalité des salaires des employés du CERN résidant en Espagne

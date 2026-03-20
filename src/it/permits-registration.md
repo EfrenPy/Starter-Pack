@@ -6,7 +6,7 @@ og:
   description: "Guida ai permessi e alla registrazione al CERN: Carte de Légitimation, Titre de Séjour, regola dei 14 giorni, familiari e cambio di residenza."
 breadcrumbs:
   - { label: "Home", url: "/it/" }
-  - { label: "Aspetti Legali e Fiscali", url: "/it/legal-hub/" }
+  - { label: "Assistenza Legale e Fiscale", url: "/it/legal-hub/" }
   - { label: "Permessi e Registrazione" }
 ---
 

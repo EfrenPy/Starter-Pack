@@ -1,4 +1,4 @@
-<nav class="topnav" aria-label="Main navigation">
+<nav class="topnav" aria-label="{% if lang == 'es' %}Navegación principal{% elif lang == 'it' %}Navigazione principale{% elif lang == 'fr' %}Navigation principale{% else %}Main navigation{% endif %}">
   <a href="/{{ lang }}/" class="topnav__brand">{{ site.name }}</a>
 
   <button class="topnav__toggle" id="menu-toggle" aria-label="{{ ui[lang].toggle_menu }}" aria-expanded="false" aria-controls="topnav-menu">&#9776;</button>
@@ -18,13 +18,13 @@
         <span class="theme-toggle__icon" aria-hidden="true"></span>
       </button>
       <div class="topnav__lang-dropdown">
-        <button type="button" class="topnav__lang-btn" aria-expanded="false" aria-haspopup="true" aria-label="{{ ui[lang].change_language | default('Change language') }}">
-          <span aria-hidden="true">🌐</span> {{ lang | upper }} <span class="topnav__lang-caret" aria-hidden="true">▾</span>
+        <button type="button" class="topnav__lang-btn" aria-expanded="false" aria-label="{{ ui[lang].change_language | default('Change language') }}">
+          <span aria-hidden="true">🌐</span> {{ lang | upper }}
         </button>
-        <ul class="topnav__lang-menu" role="menu">
+        <ul class="topnav__lang-menu">
           {% for l in site.languages %}
           {% if l.code != lang %}
-          <li role="none"><a role="menuitem" href="{{ page.url | toLang(lang, l.code) }}">{{ l.name }}</a></li>
+          <li><a href="{{ page.url | toLang(lang, l.code) }}">{{ l.name }}</a></li>
           {% endif %}
           {% endfor %}
         </ul>
