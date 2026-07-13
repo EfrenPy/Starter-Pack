@@ -1,9 +1,9 @@
 ---
 title: 'Véhicules et plaques vertes au CERN - CERN Starter Pack'
-description: 'Guide sur les véhicules et les plaques vertes au CERN : plaques CD, achat hors taxe, permis de conduire, assurance et stationnement.'
+description: 'Guide sur les véhicules et les plaques vertes au CERN : plaques vertes françaises, carte de légitimation suisse, achat hors taxe, permis de conduire, assurance et stationnement.'
 og:
   title: 'Véhicules et plaques vertes au CERN - CERN Starter Pack'
-  description: 'Guide sur les véhicules et les plaques vertes au CERN : plaques CD, achat hors taxe, permis de conduire, assurance et stationnement.'
+  description: 'Guide sur les véhicules et les plaques vertes au CERN : plaques vertes françaises, carte de légitimation suisse, achat hors taxe, permis de conduire, assurance et stationnement.'
 breadcrumbs:
   - { label: 'Accueil', url: '/fr/' }
   - { label: 'Vie Quotidienne', url: '/fr/daily-life-hub/' }
@@ -19,9 +19,11 @@ breadcrumbs:
 
 ## Aperçu des plaques vertes
 
-Le personnel international du CERN titulaire d’une **carte de légitimation** est éligible aux **plaques vertes CD (Corps Diplomatique)**, qui permettent l’immatriculation d’un véhicule en Suisse en franchise de taxe. Ces plaques sont délivrées par le Département fédéral des affaires étrangères (DFAE) via le service Relations avec les États hôtes du CERN, et leur durée est liée à votre contrat CERN — à la fin de votre contrat, vous devez les restituer ou les convertir.
+Les **plaques vertes** sont des plaques d’immatriculation **françaises** des séries **431 K** ou **431 CD**. Elles ne sont accessibles qu’aux membres du personnel du CERN qui **résident en France** et sont titulaires d’un titre de séjour spécial français (séries **AT, FI ou CD**) délivré par le **Ministère de l’Europe et des Affaires étrangères (MEAE)** français. L’immatriculation est gérée par la **Préfecture de police de Paris** et effectuée en votre nom par l’intermédiaire du service **Relations avec les États hôtes** du CERN. Leur validité est liée à votre contrat CERN — à la fin de celui-ci, vous devez les restituer.
 
-Les véhicules immatriculés avec des plaques vertes sont **exonérés des droits de douane suisses et de la TVA** à l’achat, ce qui peut représenter des économies significatives. Gardez à l’esprit que seuls les membres du personnel international sont généralement éligibles ; les fellows et associés sans carte de légitimation ne sont généralement pas admissibles.
+Les véhicules immatriculés avec des plaques vertes sont **exonérés de la TVA et/ou des droits de douane français**, le certificat d’immatriculation (_carte grise_) est délivré **gratuitement**, et le véhicule est **exempté du contrôle technique français**.
+
+Si vous **résidez en Suisse**, vous ne pouvez pas immatriculer un véhicule en France avec des plaques vertes. À la place, votre **carte de légitimation** (types B ou C, avec privilèges douaniers) vous permet d’importer ou d’acheter un véhicule **en franchise de TVA et de droits de douane suisses** et de l’immatriculer sur des **plaques suisses (genevoises) ordinaires**. Le service Relations avec les États hôtes peut vous conseiller sur la voie qui s’applique à votre situation.
 
 ## Amener votre voiture
 
@@ -29,15 +31,15 @@ Si vous possédez déjà un véhicule, vous pouvez l’introduire en Suisse sous
 
 Les documents clés dont vous aurez besoin comprennent votre certificat d’immatriculation original, la facture d’achat ou preuve de propriété, un certificat d’assurance valide (carte verte), votre passeport et votre carte de légitimation CERN. Commencez le processus d’importation dès que possible après votre arrivée, car les retards peuvent compliquer la procédure. Le service **Relations avec les États hôtes** du CERN peut vous guider dans les démarches.
 
-## Acheter une voiture en Suisse
+## Acheter une voiture en Suisse (résidents suisses)
 
-Avec les plaques vertes, vous pouvez acheter une voiture neuve en Suisse **sans payer la TVA** (actuellement 8,1 %), ce qui peut vous faire économiser des milliers de francs. Choisissez simplement votre véhicule chez un concessionnaire suisse et informez-le que vous l’immatriculerez avec des plaques vertes — le concessionnaire préparera la facture hors TVA, et le service Relations avec les États hôtes du CERN s’occupe des formalités d’immatriculation.
+Si vous **résidez en Suisse**, votre **carte de légitimation** (type B ou C) vous permet d’acheter une voiture neuve **sans payer la TVA suisse** (actuellement **8,1 %**), ce qui peut vous faire économiser des milliers de francs. Choisissez votre véhicule chez un concessionnaire suisse et informez-le que vous détenez des privilèges douaniers — le concessionnaire préparera la facture hors TVA, et le service Relations avec les États hôtes du CERN s’occupe des formalités d’immatriculation.
 
-Pour finaliser l’immatriculation, soumettez votre facture d’achat et votre certificat d’assurance au service Relations avec les États hôtes. Ils traiteront l’immatriculation aux plaques vertes auprès des autorités suisses, et vous recevrez vos plaques et votre certificat d’immatriculation. La plupart des grands concessionnaires suisses connaissent cette procédure, et certains près du CERN dans la région genevoise disposent même de **personnel dédié** pour les immatriculations d’organisations internationales.
+Pour finaliser l’immatriculation, soumettez votre facture d’achat et votre certificat d’assurance au service Relations avec les États hôtes. Ils traiteront l’immatriculation exonérée auprès des autorités suisses, et vous recevrez vos plaques et votre certificat d’immatriculation. La plupart des grands concessionnaires suisses connaissent cette procédure, et certains près du CERN dans la région genevoise disposent même de **personnel dédié** pour les immatriculations d’organisations internationales.
 
-## Acheter une voiture en France
+## Acheter une voiture en France (résidents français)
 
-Contrairement à la Suisse, acheter une voiture en France **ne s’accompagne d’aucune exonération fiscale** liée à votre statut au CERN — vous paierez la TVA française complète de 20 %. Cela dit, la France dispose d’un vaste **marché de l’occasion**, avec des sites comme leboncoin.fr et La Centrale qui sont des choix populaires pour trouver des véhicules d’occasion.
+Si vous **résidez en France** et êtes éligible aux plaques vertes, l’achat d’un véhicule neuf peut également être **exonéré de la TVA française** lorsqu’il est immatriculé avec des plaques vertes — confirmez la procédure exacte avec le service Relations avec les États hôtes, car le concessionnaire et la douane française (DGDDI) doivent gérer l’exonération. La France dispose aussi d’un vaste **marché de l’occasion**, avec des sites comme leboncoin.fr et La Centrale qui sont des choix populaires pour trouver des véhicules d’occasion (notez qu’une voiture d’occasion achetée sur le marché ordinaire et immatriculée sur des plaques françaises standard ne bénéficie d’aucune exonération fiscale).
 
 Pour immatriculer une voiture en France, vous avez besoin d’une **carte grise** (certificat d’immatriculation), que vous pouvez demander en ligne via le site ANTS ou dans un garage agréé. Sachez que les voitures de plus de quatre ans doivent passer un **contrôle technique** tous les deux ans, assurez-vous donc que tout véhicule d’occasion que vous achetez dispose d’un certificat valide.
 
@@ -51,7 +53,7 @@ Si vous vivez en France et détenez un **permis non-UE**, vous pourriez égaleme
 
 L’**assurance responsabilité civile** est obligatoire en Suisse comme en France — vous ne pouvez tout simplement pas immatriculer un véhicule sans preuve de couverture. Le CERN a négocié des **tarifs d’assurance de groupe** avec plusieurs assureurs, renseignez-vous donc auprès de l’Association du personnel ou du service Relations avec les États hôtes pour les offres en cours, car elles peuvent être nettement moins chères que les devis individuels.
 
-Le type d’assurance dont vous avez besoin dépend de votre immatriculation : **assurance suisse** pour les véhicules à plaques vertes et **assurance française** pour les voitures avec carte grise. Vous pourriez également envisager d’adhérer au **Touring Club Suisse (TCS)** pour l’assistance routière, la protection juridique et l’assurance voyage — le personnel du CERN bénéficie souvent de tarifs d’adhésion réduits.
+Le type d’assurance dont vous avez besoin dépend du lieu d’immatriculation du véhicule : **assurance française** pour les véhicules à plaques vertes (françaises) et **assurance suisse** pour les voitures immatriculées sur des plaques suisses. Vous pourriez également envisager d’adhérer au **Touring Club Suisse (TCS)** pour l’assistance routière, la protection juridique et l’assurance voyage — le personnel du CERN bénéficie souvent de tarifs d’adhésion réduits.
 
 ## Stationnement au CERN
 
@@ -79,9 +81,9 @@ Côté français, stationner dans des villes comme **Saint-Genis-Pouilly et Fern
 
 ## Vendre votre voiture / Quitter le CERN
 
-À la fin de votre contrat CERN, vous **devez restituer vos plaques vertes** au service Relations avec les États hôtes du CERN — c’est obligatoire et le non-respect peut entraîner des pénalités. Si vous quittez la Suisse, vous pouvez **réexporter** votre véhicule vers votre pays d’origine ou une autre destination sans payer de droits d’importation suisses.
+À la fin de votre contrat CERN, vous **devez restituer vos plaques vertes** au service Relations avec les États hôtes du CERN — c’est obligatoire et le non-respect peut entraîner des pénalités. Lorsque vous partez, vous pouvez **réexporter** votre véhicule vers votre pays d’origine ou une autre destination sans payer de droits d’importation.
 
-Si vous préférez vendre votre voiture à plaques vertes en Suisse, gardez à l’esprit que l’acheteur devra payer les **droits de douane et la TVA** initialement exonérés, tenez-en donc compte dans le prix de vente. Il est préférable de commencer l’ensemble du processus au moins **deux à trois mois** avant votre date de départ pour avoir le temps de notifier le service Relations avec les États hôtes, annuler votre assurance et compléter la procédure de restitution des plaques.
+Si vous préférez plutôt vendre localement un véhicule exonéré, gardez à l’esprit que l’acheteur devra normalement payer la **TVA et/ou les droits de douane** initialement exonérés (droits français pour une voiture à plaques vertes, droits suisses pour une voiture achetée hors TVA sur des plaques suisses), tenez-en donc compte dans le prix de vente. Il est préférable de commencer le processus au moins **deux à trois mois** avant votre date de départ pour avoir le temps de notifier le service Relations avec les États hôtes, annuler votre assurance et compléter la procédure de restitution des plaques.
 
 ## Sources
 

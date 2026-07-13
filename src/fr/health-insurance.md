@@ -32,7 +32,7 @@ En résumé, si vous et votre famille êtes entièrement couverts par le CHIS et
 
 <div class="alert">
 <strong>⚠️</strong>
-<p>Si vous vivez en France, vous devez faire un choix d'assurance maladie dans les 3 mois suivant l'enregistrement de votre résidence. Ce choix est normalement irréversible.</p>
+<p>Si vous vivez en France, vous devez faire un choix d'assurance maladie dans les 3 mois suivant le début de votre activité en Suisse. Ce choix est normalement irréversible.</p>
 </div>
 
 ### Le Droit d'Option
@@ -45,7 +45,9 @@ En tant que travailleur frontalier vivant en France et travaillant au CERN, vous
 
 ### Délai et Procédure
 
-Vous disposez de **3 mois** à compter de la date d'enregistrement de votre résidence en France (à la mairie) pour exercer votre droit d'option. Si vous manquez ce délai, vous pouvez être automatiquement affecté au système français. Une fois votre choix fait, il est **normalement définitif** tant que vous restez dans la même situation — même employeur, même pays de résidence.
+Vous disposez de **3 mois** à compter du **début de votre activité en Suisse** pour exercer votre droit d'option. Si vous manquez ce délai, vous êtes **automatiquement affilié à la LAMal suisse** -- et non au système français -- ce qui peut s'accompagner de **primes LAMal rétroactives**. Une fois votre choix fait, il est **normalement définitif** tant que vous restez dans la même situation — même employeur, même pays de résidence.
+
+Notez que ce droit d'option standard concerne principalement les frontaliers employés par un employeur suisse ordinaire. Comme le personnel du CERN détenant une **carte de légitimation** est déjà exempté de la LAMal (voir ci-dessus), la plupart sont couverts par le **CHIS seul** et n'ont pas besoin d'exercer d'option ; le droit d'option devient surtout pertinent pour les membres de la famille qui travaillent en dehors du CERN. Confirmez votre situation précise auprès du service RH / Affaires sociales du CERN.
 
 Si vous choisissez le CHIS seul (Option A), vous pourriez avoir besoin d'un **formulaire S1** pour prouver que vous disposez d'une couverture santé. Le département RH du CERN peut vous aider à obtenir la documentation nécessaire. Soumettez votre choix à la **CPAM de l'Ain** (si vous vivez dans la zone du Pays de Gex) ou à la CPAM correspondant à votre département.
 

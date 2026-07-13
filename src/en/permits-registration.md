@@ -31,7 +31,7 @@ The card is obtained through the **CERN Users Office**, which processes the appl
 
 ## French Titre de Sejour
 
-If you live in France -- for example, in the **Pays de Gex** -- you need a **titre de sejour** (residence permit) in addition to your CERN carte de legitimation. International organisation employees are granted a special titre de sejour category, which is different from standard work permits. You apply for it at the **prefecture of Ain** (Bourg-en-Bresse) or the sub-prefecture corresponding to your place of residence.
+If you live in France -- for example, in the **Pays de Gex** -- you receive a **special titre de sejour** (types **AT**, **FI** or **CD** depending on your grade) in addition to your CERN carte de legitimation. Unlike an ordinary residence permit, it is **not obtained from the local prefecture**: it is issued by the French **Ministry for Europe and Foreign Affairs (MEAE)** and processed on your behalf through CERN's **Users Office / Cards Service** (typical delay 6-8 weeks). Personnel domiciled in Switzerland instead receive an **EF-type attestation de fonctions**.
 
 The application requires several documents, including your passport, proof of address, CERN contract, carte de legitimation, passport photos, and a completed application form. Keep in mind that the titre de sejour must be **renewed before its expiry date**, so it is wise to start the renewal process well in advance -- at least two months before expiry.
 

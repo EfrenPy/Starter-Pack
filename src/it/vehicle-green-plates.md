@@ -1,9 +1,9 @@
 ---
 title: 'Veicoli e Targhe Verdi al CERN - CERN Starter Pack'
-description: 'Guida a veicoli e targhe verdi al CERN: targhe CD, acquisto esente da tasse, patente di guida, assicurazione e parcheggio.'
+description: 'Guida a veicoli e targhe verdi al CERN: targhe verdi francesi, carte de légitimation svizzera, acquisto esente da tasse, patente di guida, assicurazione e parcheggio.'
 og:
   title: 'Veicoli e Targhe Verdi al CERN - CERN Starter Pack'
-  description: 'Guida a veicoli e targhe verdi al CERN: targhe CD, acquisto esente da tasse, patente di guida, assicurazione e parcheggio.'
+  description: 'Guida a veicoli e targhe verdi al CERN: targhe verdi francesi, carte de légitimation svizzera, acquisto esente da tasse, patente di guida, assicurazione e parcheggio.'
 breadcrumbs:
   - { label: 'Home', url: '/it/' }
   - { label: 'Vita Quotidiana', url: '/it/daily-life-hub/' }
@@ -19,9 +19,11 @@ breadcrumbs:
 
 ## Panoramica sulle Targhe Verdi
 
-Il personale internazionale del CERN in possesso di una **carte de légitimation** ha diritto alle **targhe verdi CD (Corps Diplomatique)**, che permettono l'immatricolazione del veicolo in Svizzera esente da tasse. Queste targhe sono rilasciate dal Dipartimento federale degli affari esteri svizzero (DFAE) tramite il servizio Relazioni con gli Stati Ospiti del CERN, e la loro durata è legata al contratto CERN — alla scadenza del contratto, devi restituirle o convertirle.
+Le **targhe verdi** (_plaques vertes_) sono targhe di immatricolazione **francesi** delle serie **431 K** o **431 CD**. Sono disponibili solo per i membri del personale del CERN che **risiedono in Francia** e sono titolari di uno speciale permesso di soggiorno francese (**serie AT, FI o CD**) rilasciato dal **Ministero francese per l'Europa e gli Affari Esteri (MEAE)**. L'immatricolazione è gestita dalla **Préfecture de police di Parigi** ed è organizzata per tuo conto tramite il servizio **Relazioni con gli Stati Ospiti** del CERN. La loro validità è legata al contratto CERN — alla sua scadenza, devi restituirle.
 
-I veicoli immatricolati con targhe verdi sono **esenti da dazi doganali svizzeri e TVA (IVA)** sull'acquisto, il che può rappresentare un risparmio significativo. Tieni presente che solo il personale internazionale è generalmente idoneo; i borsisti e gli associati senza carte de légitimation in genere non ne hanno diritto.
+I veicoli con targhe verdi sono **esenti dalla TVA e/o dai dazi doganali francesi**, il certificato di immatricolazione (_carte grise_) è rilasciato **gratuitamente** e il veicolo è **esente dal controllo tecnico francese** (_contrôle technique_).
+
+Se **risiedi in Svizzera**, non puoi immatricolare un veicolo in Francia con targhe verdi. In questo caso, la tua **carte de légitimation** (tipo B o C, con privilegi doganali) ti consente di importare o acquistare un veicolo **esente da TVA e dazi doganali svizzeri** e di immatricolarlo con **targhe svizzere ordinarie (di Ginevra)**. Il servizio Relazioni con gli Stati Ospiti può consigliarti sulla soluzione applicabile alla tua situazione.
 
 ## Portare la Propria Auto
 
@@ -29,15 +31,15 @@ Se possiedi già un veicolo, puoi portarlo in Svizzera con un'**importazione tem
 
 I documenti chiave necessari includono il certificato di immatricolazione originale del veicolo, la fattura d'acquisto o la prova di proprietà, un certificato assicurativo valido (carta verde), il passaporto e la carte de légitimation del CERN. Avvia il processo di importazione il prima possibile dopo l'arrivo, poiché i ritardi possono complicare la procedura. Il servizio **Relazioni con gli Stati Ospiti** del CERN può guidarti attraverso i passaggi.
 
-## Acquistare un'Auto in Svizzera
+## Acquistare un'Auto in Svizzera (residenti in Svizzera)
 
-Con le targhe verdi puoi acquistare un'auto nuova in Svizzera **senza pagare la TVA** (attualmente 8,1%), il che può farti risparmiare migliaia di franchi. Scegli il tuo veicolo presso un concessionario svizzero e comunica che lo immatricolerai con targhe verdi — il concessionario preparerà la fattura senza TVA, e il servizio Relazioni con gli Stati Ospiti del CERN gestirà le pratiche di immatricolazione.
+Se **risiedi in Svizzera**, la tua **carte de légitimation** (tipo B o C) ti consente di acquistare un'auto nuova **senza pagare la TVA svizzera** (attualmente **8,1%**), il che può farti risparmiare migliaia di franchi. Scegli il tuo veicolo presso un concessionario svizzero e comunica che sei titolare di privilegi doganali — il concessionario preparerà la fattura senza TVA, e il servizio Relazioni con gli Stati Ospiti del CERN gestirà le pratiche di immatricolazione.
 
-Per completare l'immatricolazione, presenta la fattura d'acquisto e il certificato assicurativo al servizio Relazioni con gli Stati Ospiti. Loro gestiranno l'immatricolazione con le targhe verdi presso le autorità svizzere, e riceverai le targhe e il documento di immatricolazione del veicolo. La maggior parte dei principali concessionari svizzeri conosce questa procedura, e alcuni nella zona di Ginevra vicino al CERN hanno persino **personale dedicato** per le immatricolazioni delle organizzazioni internazionali.
+Per completare l'immatricolazione, presenta la fattura d'acquisto e il certificato assicurativo al servizio Relazioni con gli Stati Ospiti. Loro gestiranno l'immatricolazione esente presso le autorità svizzere, e riceverai le targhe e il documento di immatricolazione del veicolo. La maggior parte dei principali concessionari svizzeri conosce questa procedura, e alcuni nella zona di Ginevra vicino al CERN hanno persino **personale dedicato** per le immatricolazioni delle organizzazioni internazionali.
 
-## Acquistare un'Auto in Francia
+## Acquistare un'Auto in Francia (residenti in Francia)
 
-A differenza della Svizzera, acquistare un'auto in Francia **non comporta alcuna esenzione fiscale** legata al tuo status al CERN — pagherai la TVA francese completa del 20%. Detto questo, la Francia ha un ampio **mercato dell'usato**, con siti come leboncoin.fr e La Centrale che sono scelte popolari per trovare veicoli usati.
+Se **risiedi in Francia** e hai diritto alle targhe verdi, anche l'acquisto di un veicolo nuovo può essere **esente dalla TVA francese** quando è immatricolato con targhe verdi — verifica la procedura esatta con il servizio Relazioni con gli Stati Ospiti, poiché il concessionario e la dogana francese (DGDDI) devono gestire l'esenzione. La Francia ha inoltre un ampio **mercato dell'usato**, con siti come leboncoin.fr e La Centrale che sono scelte popolari per i veicoli usati (tieni presente che un'auto usata acquistata sul mercato ordinario e immatricolata con targhe francesi standard non gode di alcuna esenzione fiscale).
 
 Per immatricolare un'auto in Francia ti serve una **carte grise** (certificato di immatricolazione del veicolo), che puoi richiedere online tramite il sito ANTS o presso un'officina autorizzata. Tieni presente che le auto con più di quattro anni devono superare un **contrôle technique** (l'equivalente francese della revisione) ogni due anni, quindi assicurati che qualsiasi auto usata che acquisti abbia un certificato valido.
 
@@ -51,7 +53,7 @@ Se vivi in Francia e possiedi una **patente non UE**, potresti dover convertirla
 
 L'**assicurazione di responsabilità civile** (_responsabilité civile_) è obbligatoria sia in Svizzera che in Francia — non puoi semplicemente immatricolare un veicolo senza prova di copertura. Il CERN ha negoziato **tariffe assicurative di gruppo** con diversi fornitori, quindi verifica con l'Associazione del Personale o il servizio Relazioni con gli Stati Ospiti per le offerte attuali, poiché possono essere significativamente più economiche dei preventivi individuali.
 
-Il tipo di assicurazione necessaria dipende dalla tua immatricolazione: **assicurazione svizzera** per veicoli con targhe verdi e **assicurazione francese** per auto con carte grise. Potresti anche valutare l'iscrizione al **Touring Club Suisse (TCS)** per assistenza stradale, protezione legale e assicurazione viaggio — il personale CERN beneficia spesso di tariffe di iscrizione scontate.
+Il tipo di assicurazione necessaria dipende da dove è immatricolato il veicolo: **assicurazione francese** per i veicoli con targhe verdi (francesi) e **assicurazione svizzera** per le auto con targhe svizzere. Potresti anche valutare l'iscrizione al **Touring Club Suisse (TCS)** per assistenza stradale, protezione legale e assicurazione viaggio — il personale CERN beneficia spesso di tariffe di iscrizione scontate.
 
 ## Parcheggio al CERN
 
@@ -79,9 +81,9 @@ Sul lato francese, parcheggiare in città come **Saint-Genis-Pouilly e Ferney-Vo
 
 ## Vendere l'Auto / Lasciare il CERN
 
-Quando il tuo contratto CERN termina, **devi restituire le targhe verdi** al servizio Relazioni con gli Stati Ospiti del CERN — questo è obbligatorio e la mancata conformità può comportare sanzioni. Se lasci la Svizzera, puoi **riesportare** il tuo veicolo nel paese d'origine o in un'altra destinazione senza pagare dazi di importazione svizzeri.
+Quando il tuo contratto CERN termina, **devi restituire le targhe verdi** al servizio Relazioni con gli Stati Ospiti del CERN — questo è obbligatorio e la mancata conformità può comportare sanzioni. Quando parti, puoi **riesportare** il tuo veicolo nel paese d'origine o in un'altra destinazione senza pagare dazi di importazione.
 
-Se preferisci vendere la tua auto con targhe verdi in Svizzera, tieni presente che l'acquirente dovrà pagare i **dazi doganali e la TVA** originariamente esentati, quindi tienine conto nel prezzo di vendita. È consigliabile avviare l'intero processo almeno **due o tre mesi** prima della data di partenza per avere il tempo di notificare il servizio Relazioni con gli Stati Ospiti, cancellare l'assicurazione e completare la procedura di restituzione delle targhe.
+Se invece preferisci vendere localmente un veicolo esente, tieni presente che l'acquirente dovrà normalmente pagare la **TVA e/o i dazi doganali** originariamente esentati (dazi francesi per un'auto con targhe verdi, dazi svizzeri per un'auto acquistata esente da TVA con targhe svizzere), quindi tienine conto nel prezzo di vendita. È consigliabile avviare l'intero processo almeno **due o tre mesi** prima della data di partenza per avere il tempo di notificare il servizio Relazioni con gli Stati Ospiti, cancellare l'assicurazione e completare la procedura di restituzione delle targhe.
 
 ## Fonti
 

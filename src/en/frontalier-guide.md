@@ -29,7 +29,7 @@ CERN employees are in a somewhat special position because the organisation's int
 
 Non-EU nationals working in Switzerland while residing in France typically need a **Swiss G permit** (cross-border worker permit). However, CERN employees holding a **carte de legitimation** issued by the Swiss DFAE are generally covered by that document instead, which serves as both their work authorisation and identity document in Switzerland. If you do not hold a carte de legitimation — for example, if you are a short-term contractor — check with CERN's Host States Relations service whether a G permit is required in your case.
 
-On the French side, non-EU nationals need a valid **titre de sejour** (residence permit) issued by the local prefecture. The application process requires proof of employment at CERN, proof of French residence, and standard identity documents. Processing times can vary from a few weeks to several months depending on the prefecture, so apply as early as possible after finding your French accommodation.
+On the French side, CERN members of the personnel who reside in France receive a **special titre de sejour** (AT-, FI- or CD-type) issued by the French **Ministry for Europe and Foreign Affairs (MEAE)** and processed through CERN — **not** the ordinary permit obtained from the local prefecture. The application requires proof of employment at CERN, proof of French residence, and standard identity documents; the typical processing time is about 6-8 weeks, so apply as early as possible after finding your French accommodation. (Family members who take up work outside CERN may still need a standard prefecture-issued permit.)
 
 ## Tax Residency for Frontaliers
 

@@ -14,7 +14,7 @@
   "categories": [
     {
       "id": "admin",
-      "label": { "en": "Admin", "es": "Admin", "it": "Admin", "fr": "Admin" }
+      "label": { "en": "Admin", "es": "Administración", "it": "Amministrazione", "fr": "Administratif" }
     },
     {
       "id": "legal",

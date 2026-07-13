@@ -32,7 +32,7 @@ In short, if you and your family are fully covered by CHIS and nobody works outs
 
 <div class="alert">
 <strong>⚠️</strong>
-<p>If you live in France, you must make a health insurance choice within 3 months of registering your residence. This choice is normally irreversible.</p>
+<p>If you live in France, you must make a health insurance choice within 3 months of starting your employment in Switzerland. This choice is normally irreversible.</p>
 </div>
 
 ### The Droit d'Option
@@ -45,7 +45,9 @@ As a cross-border worker (frontalier) living in France and working at CERN, you 
 
 ### Deadline and Process
 
-You have **3 months** from the date you register your residence in France (at the mairie) to exercise your droit d'option. If you miss this deadline, you may be automatically assigned to the French system. Once you make your choice, it is **normally permanent** for as long as you remain in the same situation -- same employer, same country of residence.
+You have **3 months** from the **start of your employment in Switzerland** to exercise your droit d'option. If you miss this deadline, you are **automatically assigned to Swiss LAMal** -- not the French system -- and this can come with **back-dated LAMal premiums**. Once you make your choice, it is **normally permanent** for as long as you remain in the same situation -- same employer, same country of residence.
+
+Note that this standard droit d'option primarily concerns frontaliers employed by an ordinary Swiss employer. Because CERN staff holding a **carte de legitimation** are already exempt from LAMal (see above), most are covered by **CHIS alone** and do not need to opt; the droit d'option becomes relevant mainly for family members who work outside CERN. Confirm your specific situation with CERN's HR / Social Affairs service.
 
 If you choose CHIS only (Option A), you may need an **S1 form** to prove you have health coverage. CERN's HR department can help you obtain the necessary documentation. Submit your choice to the **CPAM de l'Ain** (if you live in the Pays de Gex area) or the relevant CPAM for your department.
 

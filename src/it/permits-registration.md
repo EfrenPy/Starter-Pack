@@ -31,7 +31,7 @@ La carta si ottiene tramite l'**Ufficio Utenti del CERN**, che elabora la domand
 
 ## Titre de Séjour Francese
 
-Se vivi in Francia -- ad esempio, nel **Pays de Gex** -- hai bisogno di un **titre de séjour** (permesso di soggiorno) oltre alla carte de légitimation del CERN. I dipendenti di organizzazioni internazionali ricevono una categoria speciale di titre de séjour, diversa dai normali permessi di lavoro. La domanda va presentata alla **prefettura dell'Ain** (Bourg-en-Bresse) o alla sotto-prefettura corrispondente al tuo luogo di residenza.
+Se vivi in Francia -- ad esempio, nel **Pays de Gex** -- ricevi uno **speciale titre de séjour** (di tipo **AT**, **FI** o **CD** a seconda del tuo grado) oltre alla carte de légitimation del CERN. A differenza di un normale permesso di soggiorno, **non si ottiene presso la prefettura locale**: è rilasciato dal **Ministero francese per l'Europa e gli Affari Esteri (MEAE)** ed è gestito per tuo conto tramite l'**Ufficio Utenti / Servizio Carte** del CERN (tempo di attesa tipico 6-8 settimane). Il personale domiciliato in Svizzera riceve invece un'**attestation de fonctions di tipo EF**.
 
 La domanda richiede diversi documenti, tra cui passaporto, prova di indirizzo, contratto CERN, carte de légitimation, foto tessera e il modulo di domanda compilato. Tieni presente che il titre de séjour deve essere **rinnovato prima della data di scadenza**, quindi è consigliabile avviare il processo di rinnovo con largo anticipo -- almeno due mesi prima della scadenza.
 

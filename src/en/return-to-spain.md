@@ -53,7 +53,7 @@ Unlike CERN salaries (which are exempt), CERN pensions received by Spanish tax r
 
 ## Financial & Practical Matters
 
-Close or restructure your **Swiss and French bank accounts** as needed. Some people keep a foreign account for pension payments or ongoing obligations. Be sure to notify your banks of your change of tax residence. To move your savings, use **low-cost transfer services** like Wise or Revolut to transfer from CHF or EUR accounts to your Spanish bank. Keep in mind that Spain has reporting requirements for large transfers (Modelo S-1 for transfers above 10,000 euros).
+Close or restructure your **Swiss and French bank accounts** as needed. Some people keep a foreign account for pension payments or ongoing obligations. Be sure to notify your banks of your change of tax residence. To move your savings, use **low-cost transfer services** like Wise or Revolut to transfer from CHF or EUR accounts to your Spanish bank. Note that the **Modelo S-1** declaration applies only to **physical cash or bearer instruments of €10,000 or more carried across the border in person** -- ordinary bank and electronic transfers (including Wise or Revolut) are **not** subject to it, whatever the amount, since banks and payment providers report those movements themselves.
 
 If you bring a vehicle registered abroad into Spain, you must **register it with the DGT** (Direccion General de Trafico) within 30 days. You may be exempt from import duties if you qualify as a returning resident under the household goods exemption, but you must apply at customs (Aduana) with proof of your foreign residence. More broadly, **returning emigrants can import personal belongings duty-free** if they have lived abroad for at least 12 months. Prepare an inventory and present it at customs along with your returning emigrant certificate and proof of prior residence abroad.
 
@@ -62,6 +62,10 @@ If you bring a vehicle registered abroad into Spain, you must **register it with
 Spain determines tax residence for the **full calendar year**. If you return before July, you will likely be considered tax resident for the entire year and must declare your worldwide income for that year. However, the CERN salary received during the months you were still a CERN employee **remains exempt** under the Protocol on Privileges and Immunities. Only non-CERN income and any Spanish employment income after your return are taxable.
 
 If you still hold foreign assets above the 50,000 euro threshold on 31 December of the return year, you must file **Modelo 720** the following year (January-March). This includes Swiss or French bank accounts, CERN pension fund rights, and foreign property. In your **first IRPF declaration** after returning, declare your worldwide income for the year, applying the CERN salary exemption for the months worked at CERN. Attach the CERN internal tax certificate and any other documentation supporting the exemption.
+
+## Impatriate Regime (Régimen de Impatriados)
+
+If your return is linked to a **new employment relationship in Spain**, you may be able to opt into the special tax regime for posted workers (article 93 LIRPF, the so-called "Beckham law"). It requires that you have **not been a Spanish tax resident during the previous 5 tax years** (reduced from 10 by Law 28/2022, effective 2023). Under it, you are taxed broadly as a **non-resident** -- a flat **24% up to €600,000** of employment income -- for the year of the move and the following five years, with most foreign-source income kept outside the Spanish tax base. The conditions are strict and the option must be exercised within a set deadline, so **confirm eligibility with a tax adviser or the Agencia Tributaria** before relying on it.
 
 ## Sources & Documentation
 

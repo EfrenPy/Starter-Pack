@@ -1,9 +1,9 @@
 ---
 title: 'Vehicles & Green Plates at CERN - CERN Starter Pack'
-description: 'Guide to vehicles and green plates at CERN: CD plates, tax-free purchase, driving license, insurance, and parking.'
+description: 'Guide to vehicles and green plates at CERN: French green plates, Swiss carte de légitimation, tax-free purchase, driving license, insurance, and parking.'
 og:
   title: 'Vehicles & Green Plates at CERN - CERN Starter Pack'
-  description: 'Guide to vehicles and green plates at CERN: CD plates, tax-free purchase, driving license, insurance, and parking.'
+  description: 'Guide to vehicles and green plates at CERN: French green plates, Swiss carte de légitimation, tax-free purchase, driving license, insurance, and parking.'
 breadcrumbs:
   - { label: 'Home', url: '/en/' }
   - { label: 'Daily Life', url: '/en/daily-life-hub/' }
@@ -19,9 +19,11 @@ breadcrumbs:
 
 ## Green Plates Overview
 
-CERN international staff who hold a **carte de legitimation** are eligible for **CD (Corps Diplomatique) green plates**, which allow tax-free vehicle registration in Switzerland. These plates are issued by the Swiss Federal Department of Foreign Affairs (DFAE) through CERN's Host States Relations service, and their duration is tied to your CERN contract — when your contract ends, you must return or convert them.
+**Green plates** (_plaques vertes_) are **French** registration plates in the **431 K** or **431 CD** series. They are available only to CERN members of the personnel who **reside in France** and hold a special French residence permit (**AT-, FI- or CD-series**) issued by the French **Ministry for Europe and Foreign Affairs (MEAE)**. The registration is handled by the **Préfecture de police in Paris** and arranged on your behalf through CERN's **Host States Relations** service. Their validity is tied to your CERN contract — when it ends, you must return them.
 
-Vehicles registered with green plates are **exempt from Swiss customs duty and TVA (VAT)** on purchase, which can represent significant savings. Keep in mind that only international staff members are typically eligible; fellows and associates without a carte de legitimation generally do not qualify.
+Vehicles on green plates are **exempt from French VAT and/or import duties**, the registration certificate (_carte grise_) is issued **free of charge**, and the vehicle is **exempt from the French technical inspection** (_contrôle technique_).
+
+If you **reside in Switzerland**, you cannot register a vehicle in France on green plates. Instead, your **carte de légitimation** (types B or C, with customs privileges) lets you import or buy a vehicle **free of Swiss VAT and customs duty** and register it on **ordinary Swiss (Geneva) plates**. Host States Relations can advise on whichever route applies to you.
 
 ## Bringing Your Car
 
@@ -29,15 +31,15 @@ If you already own a vehicle, you can bring it into Switzerland under a **tempor
 
 The key documents you will need include your original vehicle registration certificate, purchase invoice or proof of ownership, a valid insurance certificate (green card), your passport, and your CERN carte de legitimation. Start the importation process as soon as possible after arriving, since delays can complicate the procedure. CERN's **Host States Relations** service can guide you through the steps.
 
-## Buying a Car in Switzerland
+## Buying a Car in Switzerland (Swiss residents)
 
-With green plates you can purchase a new car in Switzerland **without paying TVA** (currently **8.1%**), which can save thousands of francs. Simply choose your vehicle at a Swiss dealership and let them know you will register with green plates — the dealer will prepare the invoice without TVA, and CERN's Host States Relations service handles the registration paperwork.
+If you **reside in Switzerland**, your **carte de légitimation** (type B or C) lets you purchase a new car **without paying Swiss VAT** (currently **8.1%**), which can save thousands of francs. Choose your vehicle at a Swiss dealership and let them know you hold customs privileges — the dealer prepares the invoice free of VAT, and CERN's Host States Relations service handles the registration paperwork.
 
-To complete the registration, submit your purchase invoice and insurance certificate to Host States Relations. They will process the green plate registration with the Swiss authorities, and you will receive your plates and vehicle registration document. Most major Swiss dealerships are familiar with this process, and some near CERN in the Geneva area even have **dedicated staff** for international organisation registrations.
+To complete the registration, submit your purchase invoice and insurance certificate to Host States Relations. They will process the exempt registration with the Swiss authorities, and you will receive your plates and vehicle registration document. Most major Swiss dealerships are familiar with this process, and some near CERN in the Geneva area even have **dedicated staff** for international organisation registrations.
 
-## Buying a Car in France
+## Buying a Car in France (French residents)
 
-Unlike Switzerland, buying a car in France does **not come with any tax exemption** linked to your CERN status — you will pay the full French TVA of 20%. That said, France has a large **second-hand market**, with websites like leboncoin.fr and La Centrale being popular choices for finding used vehicles.
+If you **reside in France** and are eligible for green plates, buying a new vehicle can likewise be **exempt from French VAT** when registered on green plates — confirm the exact procedure with Host States Relations, as the dealer and French customs (DGDDI) must handle the exemption. France also has a large **second-hand market**, with websites like leboncoin.fr and La Centrale being popular choices for used vehicles (note that a used car bought on the ordinary market and registered on standard French plates does not carry a tax exemption).
 
 To register a car in France you need a **carte grise** (vehicle registration certificate), which you can apply for online through the ANTS website or at an approved garage. Be aware that cars over four years old must pass a **controle technique** (the French equivalent of an MOT) every two years, so make sure any used car you buy has a valid certificate.
 
@@ -51,7 +53,7 @@ If you live in France and hold a **non-EU license**, you may also need to exchan
 
 **Third-party liability insurance** (_responsabilite civile_) is mandatory in both Switzerland and France — you simply cannot register a vehicle without proof of coverage. CERN has negotiated **group insurance rates** with several providers, so check with the Staff Association or Host States Relations for current offers, as they can be significantly cheaper than individual quotes.
 
-The type of insurance you need depends on your registration: **Swiss insurance** for green-plated vehicles and **French insurance** for cars with a carte grise. You may also want to consider joining the **Touring Club Suisse (TCS)** for roadside assistance, legal protection, and travel insurance — CERN staff often benefit from discounted membership rates.
+The type of insurance you need depends on where the vehicle is registered: **French insurance** for green-plated (French) vehicles and **Swiss insurance** for cars on Swiss plates. You may also want to consider joining the **Touring Club Suisse (TCS)** for roadside assistance, legal protection, and travel insurance — CERN staff often benefit from discounted membership rates.
 
 ## Parking at CERN
 
@@ -79,9 +81,9 @@ On the French side, parking in towns like **Saint-Genis-Pouilly and Ferney-Volta
 
 ## Selling Your Car / Leaving CERN
 
-When your CERN contract ends, you **must return your green plates** to CERN's Host States Relations service — this is mandatory and failure to comply can result in penalties. If you are leaving Switzerland, you can **re-export** your vehicle to your home country or another destination without paying Swiss import duties.
+When your CERN contract ends, you **must return your green plates** to CERN's Host States Relations service — this is mandatory and failure to comply can result in penalties. When you leave, you can **re-export** your vehicle to your home country or another destination without paying import duties.
 
-If you prefer to sell your green-plated car in Switzerland, keep in mind that the buyer will need to pay the **customs duty and TVA** that were originally exempted, so factor this into the sale price. It is best to start the entire process at least **two to three months** before your departure date to allow time for notifying Host States Relations, cancelling your insurance, and completing the plate return procedure.
+If you prefer to sell an exempt vehicle locally instead, keep in mind that the buyer will normally have to pay the **VAT and/or customs duty** that were originally waived (French duties for a green-plated car, Swiss duties for a car bought VAT-free on Swiss plates), so factor this into the sale price. It is best to start the process at least **two to three months** before your departure date to allow time for notifying Host States Relations, cancelling your insurance, and completing the plate return procedure.
 
 ## Sources
 

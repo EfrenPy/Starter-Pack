@@ -1,9 +1,9 @@
 ---
 title: 'Vehículos y Placas Verdes en el CERN - CERN Starter Pack'
-description: 'Guía sobre vehículos y placas verdes en el CERN: placas CD, compra libre de impuestos, permiso de conducir, seguro y aparcamiento.'
+description: 'Guía sobre vehículos y placas verdes en el CERN: placas verdes francesas, carte de légitimation suiza, compra libre de impuestos, permiso de conducir, seguro y aparcamiento.'
 og:
   title: 'Vehículos y Placas Verdes en el CERN - CERN Starter Pack'
-  description: 'Guía sobre vehículos y placas verdes en el CERN: placas CD, compra libre de impuestos, permiso de conducir, seguro y aparcamiento.'
+  description: 'Guía sobre vehículos y placas verdes en el CERN: placas verdes francesas, carte de légitimation suiza, compra libre de impuestos, permiso de conducir, seguro y aparcamiento.'
 breadcrumbs:
   - { label: 'Inicio', url: '/es/' }
   - { label: 'Vida Cotidiana', url: '/es/daily-life-hub/' }
@@ -19,9 +19,11 @@ breadcrumbs:
 
 ## Resumen de las Placas Verdes
 
-El personal internacional del CERN que posee una **carte de légitimation** puede optar a las **placas verdes CD (Corps Diplomatique)**, que permiten la matriculación de vehículos libre de impuestos en Suiza. Estas placas son emitidas por el Departamento Federal de Asuntos Exteriores suizo (DFAE) a través del servicio de Relaciones con los Estados Anfitriones del CERN, y su duración está vinculada a tu contrato — cuando este finalice, deberás devolverlas o convertirlas.
+Las **placas verdes** (_plaques vertes_) son placas de matrícula **francesas** de la serie **431 K** o **431 CD**. Solo están disponibles para los miembros del personal del CERN que **residen en Francia** y poseen un permiso de residencia francés especial (series **AT, FI o CD**) emitido por el **Ministerio de Europa y de Asuntos Exteriores francés (MEAE)**. La matriculación la tramita la **Préfecture de police de París** y se gestiona en tu nombre a través del servicio de **Relaciones con los Estados Anfitriones** del CERN. Su validez está vinculada a tu contrato con el CERN — cuando este finalice, deberás devolverlas.
 
-Los vehículos matriculados con placas verdes están **exentos de derechos de aduana suizos y del TVA (IVA)** en la compra, lo que puede representar un ahorro significativo. Ten en cuenta que solo los miembros del personal internacional suelen ser elegibles; los fellows y asociados sin carte de légitimation generalmente no cualifican.
+Los vehículos con placas verdes están **exentos del IVA francés y/o de los derechos de importación**, el certificado de matriculación (_carte grise_) se emite **de forma gratuita** y el vehículo está **exento de la inspección técnica francesa** (_contrôle technique_).
+
+Si **resides en Suiza**, no puedes matricular un vehículo en Francia con placas verdes. En su lugar, tu **carte de légitimation** (tipos B o C, con privilegios aduaneros) te permite importar o comprar un vehículo **libre del IVA y los derechos de aduana suizos** y matricularlo con **placas suizas (de Ginebra) ordinarias**. Relaciones con los Estados Anfitriones puede asesorarte sobre la vía que te corresponda.
 
 ## Traer tu Coche
 
@@ -29,15 +31,15 @@ Si ya tienes un vehículo, puedes traerlo a Suiza bajo una **importación tempor
 
 Los documentos clave que necesitarás incluyen el certificado de matriculación original del vehículo, factura de compra o prueba de propiedad, un certificado de seguro válido (carta verde), tu pasaporte y tu carte de légitimation del CERN. Inicia el proceso de importación lo antes posible tras tu llegada, ya que los retrasos pueden complicar el procedimiento. El servicio de **Relaciones con los Estados Anfitriones** del CERN puede guiarte en cada paso.
 
-## Comprar un Coche en Suiza
+## Comprar un Coche en Suiza (residentes en Suiza)
 
-Con placas verdes puedes comprar un coche nuevo en Suiza **sin pagar TVA** (actualmente el **8,1%**), lo que puede suponer un ahorro de miles de francos. Simplemente elige tu vehículo en un concesionario suizo e infórmales de que lo matricularás con placas verdes — el concesionario preparará la factura sin TVA, y el servicio de Relaciones con los Estados Anfitriones del CERN gestiona el papeleo de la matriculación.
+Si **resides en Suiza**, tu **carte de légitimation** (tipo B o C) te permite comprar un coche nuevo **sin pagar el IVA suizo** (actualmente el **8,1%**), lo que puede suponer un ahorro de miles de francos. Elige tu vehículo en un concesionario suizo e infórmales de que dispones de privilegios aduaneros — el concesionario preparará la factura sin IVA, y el servicio de Relaciones con los Estados Anfitriones del CERN gestiona el papeleo de la matriculación.
 
-Para completar la matriculación, presenta la factura de compra y el certificado de seguro a Relaciones con los Estados Anfitriones. Ellos tramitarán la matriculación de las placas verdes con las autoridades suizas, y recibirás tus placas y el documento de matriculación del vehículo. La mayoría de los grandes concesionarios suizos conocen este proceso, y algunos cerca del CERN en la zona de Ginebra tienen incluso **personal dedicado** para matriculaciones de organizaciones internacionales.
+Para completar la matriculación, presenta la factura de compra y el certificado de seguro a Relaciones con los Estados Anfitriones. Ellos tramitarán la matriculación exenta con las autoridades suizas, y recibirás tus placas y el documento de matriculación del vehículo. La mayoría de los grandes concesionarios suizos conocen este proceso, y algunos cerca del CERN en la zona de Ginebra tienen incluso **personal dedicado** para matriculaciones de organizaciones internacionales.
 
-## Comprar un Coche en Francia
+## Comprar un Coche en Francia (residentes en Francia)
 
-A diferencia de Suiza, comprar un coche en Francia **no conlleva ninguna exención fiscal** vinculada a tu estatus en el CERN — pagarás el TVA francés completo del 20%. Dicho esto, Francia tiene un gran **mercado de segunda mano**, con webs como leboncoin.fr y La Centrale siendo opciones populares para encontrar vehículos usados.
+Si **resides en Francia** y tienes derecho a placas verdes, comprar un vehículo nuevo también puede quedar **exento del IVA francés** cuando se matricula con placas verdes — confirma el procedimiento exacto con Relaciones con los Estados Anfitriones, ya que el concesionario y la aduana francesa (DGDDI) deben gestionar la exención. Francia tiene además un gran **mercado de segunda mano**, con webs como leboncoin.fr y La Centrale siendo opciones populares para encontrar vehículos usados (ten en cuenta que un coche usado comprado en el mercado ordinario y matriculado con placas francesas estándar no lleva exención fiscal).
 
 Para matricular un coche en Francia necesitas una **carte grise** (certificado de matriculación), que puedes solicitar online en la web de la ANTS o en un taller autorizado. Ten en cuenta que los coches de más de cuatro años deben pasar un **contrôle technique** (equivalente a la ITV) cada dos años, así que asegúrate de que cualquier coche usado que compres tenga un certificado válido.
 
@@ -51,7 +53,7 @@ Si vives en Francia y tienes un **permiso no comunitario**, puede que también n
 
 El **seguro de responsabilidad civil a terceros** (_responsabilité civile_) es obligatorio tanto en Suiza como en Francia — simplemente no puedes matricular un vehículo sin comprobante de cobertura. El CERN ha negociado **tarifas de seguro de grupo** con varios proveedores, así que consulta con la Asociación de Personal o Relaciones con los Estados Anfitriones para las ofertas actuales, ya que pueden ser significativamente más baratas que las cotizaciones individuales.
 
-El tipo de seguro que necesitas depende de tu matriculación: **seguro suizo** para vehículos con placas verdes y **seguro francés** para coches con carte grise. También puedes considerar unirte al **Touring Club Suisse (TCS)** para asistencia en carretera, protección jurídica y seguro de viaje — el personal del CERN suele beneficiarse de tarifas de afiliación con descuento.
+El tipo de seguro que necesitas depende de dónde esté matriculado el vehículo: **seguro francés** para vehículos con placas verdes (franceses) y **seguro suizo** para coches con placas suizas. También puedes considerar unirte al **Touring Club Suisse (TCS)** para asistencia en carretera, protección jurídica y seguro de viaje — el personal del CERN suele beneficiarse de tarifas de afiliación con descuento.
 
 ## Aparcamiento en el CERN
 
@@ -79,9 +81,9 @@ En el lado francés, aparcar en ciudades como **Saint-Genis-Pouilly y Ferney-Vol
 
 ## Vender tu Coche / Dejar el CERN
 
-Cuando tu contrato con el CERN finalice, **debes devolver tus placas verdes** al servicio de Relaciones con los Estados Anfitriones del CERN — es obligatorio y no hacerlo puede resultar en sanciones. Si te vas de Suiza, puedes **re-exportar** tu vehículo a tu país de origen u otro destino sin pagar derechos de importación suizos.
+Cuando tu contrato con el CERN finalice, **debes devolver tus placas verdes** al servicio de Relaciones con los Estados Anfitriones del CERN — es obligatorio y no hacerlo puede resultar en sanciones. Al marcharte, puedes **re-exportar** tu vehículo a tu país de origen u otro destino sin pagar derechos de importación.
 
-Si prefieres vender tu coche con placas verdes en Suiza, ten en cuenta que el comprador deberá pagar los **derechos de aduana y el TVA** que fueron originalmente exentos, así que tenlo en cuenta en el precio de venta. Lo mejor es comenzar todo el proceso al menos **dos o tres meses** antes de tu fecha de partida para tener tiempo de notificar a Relaciones con los Estados Anfitriones, cancelar tu seguro y completar el procedimiento de devolución de placas.
+Si en su lugar prefieres vender localmente un vehículo exento, ten en cuenta que normalmente el comprador deberá pagar el **IVA y/o los derechos de aduana** que fueron originalmente exonerados (derechos franceses para un coche con placas verdes, derechos suizos para un coche comprado sin IVA con placas suizas), así que tenlo en cuenta en el precio de venta. Lo mejor es comenzar todo el proceso al menos **dos o tres meses** antes de tu fecha de partida para tener tiempo de notificar a Relaciones con los Estados Anfitriones, cancelar tu seguro y completar el procedimiento de devolución de placas.
 
 ## Fuentes
 

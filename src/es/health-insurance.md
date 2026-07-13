@@ -32,7 +32,7 @@ En resumen, si tú y tu familia estáis completamente cubiertos por el CHIS y na
 
 <div class="alert">
 <strong>⚠️</strong>
-<p>Si vives en Francia, debes elegir tu seguro médico en un plazo de 3 meses desde el registro de tu residencia. Esta elección es normalmente irreversible.</p>
+<p>Si vives en Francia, debes elegir tu seguro médico en un plazo de 3 meses desde el inicio de tu empleo en Suiza. Esta elección es normalmente irreversible.</p>
 </div>
 
 ### El Droit d'Option
@@ -45,7 +45,9 @@ Como trabajador transfronterizo (frontalier) que vive en Francia y trabaja en el
 
 ### Plazo y Proceso
 
-Tienes **3 meses** desde la fecha en que registras tu residencia en Francia (en la mairie) para ejercer tu droit d'option. Si no cumples este plazo, podrías ser asignado automáticamente al sistema francés. Una vez que tomas tu decisión, esta es **normalmente permanente** mientras permanezcas en la misma situación -- mismo empleador, mismo país de residencia.
+Tienes **3 meses** desde el **inicio de tu empleo en Suiza** para ejercer tu droit d'option. Si no cumples este plazo, se te **asigna automáticamente al LAMal suizo** -- no al sistema francés -- y esto puede conllevar el pago de **primas de LAMal con carácter retroactivo**. Una vez que tomas tu decisión, esta es **normalmente permanente** mientras permanezcas en la misma situación -- mismo empleador, mismo país de residencia.
+
+Ten en cuenta que este droit d'option estándar afecta principalmente a los frontaliers empleados por un empleador suizo ordinario. Dado que el personal del CERN con **carte de legitimation** ya está exento del LAMal (véase más arriba), la mayoría está cubierta **únicamente por el CHIS** y no necesita optar; el droit d'option resulta relevante sobre todo para los familiares que trabajan fuera del CERN. Confirma tu situación concreta con el servicio de RRHH / Asuntos Sociales del CERN.
 
 Si eliges solo CHIS (Opción A), puedes necesitar un **formulario S1** para demostrar que tienes cobertura sanitaria. El departamento de RRHH del CERN puede ayudarte a obtener la documentación necesaria. Presenta tu elección en la **CPAM de l'Ain** (si vives en la zona del Pays de Gex) o en la CPAM correspondiente a tu departamento.
 

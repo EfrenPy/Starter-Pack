@@ -2,7 +2,12 @@ export function initToc() {
   const container = document.querySelector('main .container');
   if (!container) return;
 
-  const headings = container.querySelectorAll('h2, h3');
+  // Only index the article's own headings — skip the layout's injected
+  // boilerplate sections (search-intent, key questions, official sources,
+  // verification log, review & maintenance, related resources) and card titles.
+  const headings = Array.from(container.querySelectorAll('h2, h3')).filter(
+    (h) => !h.closest('section[aria-label], aside[aria-label]') && !h.classList.contains('card__title'),
+  );
   if (headings.length < 3) return;
 
   const lang = document.documentElement.lang || 'en';

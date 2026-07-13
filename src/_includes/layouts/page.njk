@@ -37,7 +37,7 @@ bodyClass: page-content
     {% set intent = seoExtensions.intentSections and seoExtensions.intentSections[page.fileSlug] and seoExtensions.intentSections[page.fileSlug][lang] %}
     {% if intent %}
     <section class="search-intent" aria-label="{% if lang == 'es' %}Cómo usar esta guía{% elif lang == 'it' %}Come usare questa guida{% elif lang == 'fr' %}Comment utiliser ce guide{% else %}How to use this guide{% endif %}">
-      <h2>{% if lang == 'es' %}Cómo usar esta guía{% elif lang == 'it' %}Come usare questa guida{% elif lang == 'fr' %}Comment utiliser ce guide{% else %}How to use this guide{% endif %}</h2>
+      <p class="search-intent__title">{% if lang == 'es' %}Cómo usar esta guía{% elif lang == 'it' %}Come usare questa guida{% elif lang == 'fr' %}Comment utiliser ce guide{% else %}How to use this guide{% endif %}</p>
       <ul>
         <li><strong>{% if lang == 'es' %}Para quién:{% elif lang == 'it' %}Per chi:{% elif lang == 'fr' %}Pour qui :{% else %}Who this is for:{% endif %}</strong> {{ intent.who }}</li>
         <li><strong>{% if lang == 'es' %}Cuándo aplica:{% elif lang == 'it' %}Quando si applica:{% elif lang == 'fr' %}Quand cela s'applique :{% else %}When this applies:{% endif %}</strong> {{ intent.when }}</li>

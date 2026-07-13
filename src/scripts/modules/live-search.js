@@ -53,7 +53,8 @@ function setupLiveSearch(input) {
 
   input.addEventListener('keydown', (e) => {
     if (!dropdown || dropdown.hidden) return;
-    const items = dropdown.querySelectorAll('.search-dropdown__item');
+    // Only real result rows are selectable (the "No results" row has no role=option)
+    const items = dropdown.querySelectorAll('.search-dropdown__item[role="option"]');
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       activeIndex = Math.min(activeIndex + 1, items.length - 1);

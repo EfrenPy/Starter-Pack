@@ -1,5 +1,15 @@
 export function initTheme() {
   const toggle = document.getElementById('theme-toggle');
+
+  // Keep the resolved theme in sync with the OS setting whenever the user is on
+  // 'system' mode — registered independently of the toggle's presence.
+  matchMedia('(prefers-color-scheme:dark)').addEventListener('change', (e) => {
+    if ((localStorage.getItem('theme') || 'system') === 'system') {
+      document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+      if (toggle) updateToggleLabel(toggle);
+    }
+  });
+
   if (!toggle) return;
 
   const cycle = ['system', 'light', 'dark'];
@@ -19,13 +29,6 @@ export function initTheme() {
     }
 
     updateToggleLabel(toggle);
-  });
-
-  matchMedia('(prefers-color-scheme:dark)').addEventListener('change', (e) => {
-    if ((localStorage.getItem('theme') || 'system') === 'system') {
-      document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-      updateToggleLabel(toggle);
-    }
   });
 }
 

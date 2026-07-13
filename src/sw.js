@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cern-starter-pack-v6';
+const CACHE_NAME = 'cern-starter-pack-v7';
 const OFFLINE_URL = '/offline.html';
 const PRECACHE_URLS = [
   '/',
@@ -13,7 +13,11 @@ const PRECACHE_URLS = [
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE_URLS))
+    // Add each URL independently so one failed fetch can't abort the whole
+    // install (atomic addAll would reject and leave the SW un-installed).
+    caches.open(CACHE_NAME).then((cache) =>
+      Promise.allSettled(PRECACHE_URLS.map((url) => cache.add(url)))
+    )
   );
   self.skipWaiting();
 });

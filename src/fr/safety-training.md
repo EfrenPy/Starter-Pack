@@ -10,56 +10,58 @@ breadcrumbs:
   - { label: "Formation Sécurité" }
 ---
 
-# Safety Training at CERN
+# Formation sécurité au CERN
 
 <div class="alert">
-<p>All newcomers <strong>must</strong> complete mandatory safety training before being granted access to CERN sites. Plan to start the online modules as early as possible.</p>
+<p>Tous les nouveaux arrivants <strong>doivent</strong> suivre la formation obligatoire en sécurité avant d'obtenir l'accès aux sites du CERN. Prévoyez de commencer les modules en ligne le plus tôt possible.</p>
 </div>
 
-## Mandatory Safety Course
+## Cours de sécurité obligatoire
 
-Every person working at CERN must complete a **general safety awareness course** before being allowed to access the sites. This course covers the essential topics you need to stay safe on CERN premises, including fire safety and evacuation procedures, electrical hazard awareness, radiation awareness fundamentals, and emergency contacts and reporting.
+Toute personne travaillant au CERN doit suivre un **cours général de sensibilisation à la sécurité** avant d'être autorisée à accéder aux sites. Ce cours couvre les sujets essentiels dont vous avez besoin pour rester en sécurité dans les locaux du CERN, notamment la sécurité incendie et les procédures d'évacuation, la sensibilisation aux risques électriques, les principes fondamentaux de la sensibilisation aux rayonnements, ainsi que les contacts d'urgence et le signalement.
 
-The course has both an **online component** (e-learning) and an **on-site component**. You can begin the online portion before arriving at CERN, which is strongly recommended to speed up the registration process once you are here.
+Le cours comporte à la fois un **volet en ligne** (e-learning) et un **volet sur site**. Vous pouvez commencer la partie en ligne avant votre arrivée au CERN, ce qui est fortement recommandé pour accélérer la procédure d'inscription une fois sur place.
 
-## Types of Safety Training
+## Types de formation en sécurité
 
-Depending on your role and the areas you will work in, you may need additional training beyond the general course. **General Safety (Level 1)** is mandatory for all personnel and covers basic site safety, fire prevention, and evacuation. If your work involves accelerator tunnels or experimental areas, you will also need **Radiation Protection** training at Level 2 or 3, depending on your exposure category.
+Selon votre fonction et les zones dans lesquelles vous travaillerez, vous pourriez avoir besoin de formations supplémentaires au-delà du cours général. La **Sécurité générale (Niveau 1)** est obligatoire pour l'ensemble du personnel et couvre la sécurité de base sur le site, la prévention des incendies et l'évacuation. Si votre travail concerne les tunnels d'accélérateurs ou les zones expérimentales, vous aurez également besoin d'une formation en **radioprotection** de niveau 2 ou 3, selon votre catégorie d'exposition.
 
-**Electrical Safety** training is required for anyone working on or near electrical installations, while **Cryogenics Safety** is needed if you work near cryogenic systems, especially around the LHC. Personnel handling chemical substances in laboratories must complete **Chemical Safety** training, and tasks involving ladders, scaffolding, or elevated platforms require a **Working at Heights** course.
+La formation en **sécurité électrique** est requise pour toute personne travaillant sur ou à proximité d'installations électriques, tandis que la **sécurité cryogénique** est nécessaire si vous travaillez près de systèmes cryogéniques, en particulier autour du LHC. Le personnel manipulant des substances chimiques en laboratoire doit suivre une formation en **sécurité chimique**, et les tâches impliquant des échelles, des échafaudages ou des plateformes en hauteur nécessitent un cours de **travail en hauteur**.
 
-## E-Learning Platform
+## Plateforme d'e-learning
 
-CERN provides safety e-learning modules through the **Learning Hub** platform. These modules can be completed before your arrival, allowing you to begin work more quickly once on site. When you log in, mandatory modules are flagged clearly in your training profile, and certificates are stored automatically upon completion.
+Le CERN propose des modules d'e-learning en sécurité via la plateforme **Learning Hub**. Ces modules peuvent être suivis avant votre arrivée, ce qui vous permet de commencer à travailler plus rapidement une fois sur place. Lorsque vous vous connectez, les modules obligatoires sont clairement signalés dans votre profil de formation, et les certificats sont automatiquement enregistrés à la fin de chaque module.
 
-The platform also lets you track your overall progress and see upcoming deadlines for renewals or new requirements. Taking advantage of the e-learning modules early is one of the best ways to ensure a smooth start at CERN.
+La plateforme vous permet également de suivre votre progression globale et de consulter les échéances à venir pour les renouvellements ou les nouvelles exigences. Profiter tôt des modules d'e-learning est l'un des meilleurs moyens d'assurer un démarrage en douceur au CERN.
 
-## On-Site Training
+## Formation sur site
 
-Some safety courses include practical on-site sessions that cannot be replaced by e-learning. These sessions give you hands-on experience with safety equipment and procedures, such as **fire extinguisher handling**, building-specific evacuation drills, and safety briefings from your building's safety officer.
+Certains cours de sécurité comportent des sessions pratiques sur site qui ne peuvent pas être remplacées par l'e-learning. Ces sessions vous donnent une expérience concrète des équipements et procédures de sécurité, comme le **maniement des extincteurs**, les exercices d'évacuation propres à chaque bâtiment et les séances d'information sécurité dispensées par le correspondant sécurité de votre bâtiment.
 
-To arrange these sessions, coordinate with your supervisor or contact the **HSE unit** directly. On-site training is typically scheduled during your first weeks, so plan accordingly to complete it as early as possible.
+Pour organiser ces sessions, coordonnez-vous avec votre superviseur ou contactez directement l'**unité HSE**. La formation sur site est généralement planifiée durant vos premières semaines : organisez-vous en conséquence pour la suivre le plus tôt possible.
 
-## Certification Renewal
+## Renouvellement des certifications
 
-Safety certifications are not permanent and must be renewed periodically to ensure your knowledge stays current. Most general certifications are valid for **3 to 5 years**, while radiation protection training typically requires renewal every **3 years**.
+Les certifications en sécurité ne sont pas permanentes et doivent être renouvelées périodiquement afin de maintenir vos connaissances à jour. La plupart des certifications générales sont valables **3 à 5 ans**, tandis que la formation en radioprotection nécessite généralement un renouvellement tous les **3 ans**.
 
-The system sends you an automatic notification before your certification expires, so you have time to plan. Re-certification usually involves retaking the e-learning module and, in some cases, repeating the on-site practical session as well.
+Le système vous envoie une notification automatique avant l'expiration de votre certification, ce qui vous laisse le temps de vous organiser. La re-certification implique généralement de repasser le module d'e-learning et, dans certains cas, de refaire aussi la session pratique sur site.
 
-## Specific Hazards at CERN
+## Risques spécifiques au CERN
 
-CERN is a unique environment with hazards not found in typical workplaces. The site includes **supervised and controlled radiation areas** that require specific training and dosimetry equipment before entry. The LHC operates at extremely low temperatures, meaning **cryogenic leaks** can displace oxygen and cause cold burns in certain areas.
+Le CERN est un environnement unique présentant des risques que l'on ne rencontre pas dans les lieux de travail habituels. Le site comprend des **zones de rayonnement surveillées et contrôlées** qui nécessitent une formation spécifique et un équipement de dosimétrie avant d'y accéder. Le LHC fonctionne à des températures extrêmement basses, ce qui signifie que des **fuites cryogéniques** peuvent, dans certaines zones, déplacer l'oxygène et provoquer des brûlures par le froid.
 
-**High-voltage electrical equipment** is present in many locations, and only qualified personnel may work on these systems. Some areas have restricted ventilation and are classified as **confined spaces**, requiring a permit and specific training to enter. Experimental halls also use **overhead cranes** and heavy lifting equipment, so you should always stay clear of marked zones during operations.
+Des **équipements électriques haute tension** sont présents en de nombreux endroits, et seul le personnel qualifié est autorisé à intervenir sur ces systèmes. Certaines zones à ventilation restreinte sont classées comme **espaces confinés** et nécessitent un permis et une formation spécifique pour y pénétrer. Les halls expérimentaux utilisent également des **ponts roulants** et des équipements de levage lourds : restez toujours à l'écart des zones balisées pendant les opérations.
 
-## Safety Rules on Site
+## Règles de sécurité sur le site
 
-While on site, you must wear your **CERN badge visibly** at all times and follow all zone access restrictions. Never enter areas you are not authorized for, and never enter the accelerator tunnel without explicit authorization.
+Sur le site, vous devez porter votre **badge CERN de façon visible** en permanence et respecter toutes les restrictions d'accès aux zones. N'entrez jamais dans des zones pour lesquelles vous n'êtes pas autorisé, et ne pénétrez jamais dans le tunnel de l'accélérateur sans autorisation explicite.
 
-If you witness any incident or unsafe situation, report it immediately to your **safety officer**. Make sure you know the contact details of your building safety officer and the **CERN Fire Brigade** (phone 74444) from your first day on site.
+Si vous êtes témoin d'un incident ou d'une situation dangereuse, signalez-le immédiatement à votre **correspondant sécurité**. Assurez-vous de connaître les coordonnées du correspondant sécurité de votre bâtiment et celles des **pompiers du CERN** (téléphone 74444) dès votre premier jour sur le site.
 
-## References
+## Références
 
 - <a href="https://hse.cern" target="_blank" rel="noopener noreferrer">CERN HSE (Health, Safety & Environment)</a>
 - <a href="https://lms.cern.ch" target="_blank" rel="noopener noreferrer">CERN Safety E-Learning (Learning Hub)</a>
 - <a href="https://safety-rules.web.cern.ch" target="_blank" rel="noopener noreferrer">CERN Safety Rules</a>
+</content>
+</invoke>

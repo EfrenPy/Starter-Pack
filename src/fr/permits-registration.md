@@ -10,56 +10,58 @@ breadcrumbs:
   - { label: "Permis et Inscription" }
 ---
 
-# Permits & Registration at CERN
+# Permis et inscription au CERN
 
 <div class="alert">
-<strong>⚠️ Disclaimer</strong><br>
-<p>This page is for general informational purposes only. It does not constitute legal advice. Always consult with the CERN Users Office or a qualified advisor for your specific situation.</p>
+<strong>⚠️ Avertissement</strong><br>
+<p>Cette page est fournie à titre purement informatif. Elle ne constitue pas un conseil juridique. Consultez toujours le Bureau des utilisateurs du CERN (Users Office) ou un conseiller qualifié pour votre situation particulière.</p>
 </div>
 
-## Overview
+## Vue d'ensemble
 
-As staff of an international organisation, CERN employees have a special permit status. You do not need a standard Swiss or French work permit to work at CERN.
+En tant que membre du personnel d'une organisation internationale, les employés du CERN bénéficient d'un statut de permis spécial. Vous n'avez pas besoin d'un permis de travail suisse ou français ordinaire pour travailler au CERN.
 
-Your legal status is managed through CERN and the host state agreements with Switzerland and France. The CERN Users Office is your main point of contact for all permit and registration matters.
+Votre statut juridique est géré par le CERN et par les accords de siège conclus avec la Suisse et la France. Le Bureau des utilisateurs du CERN est votre principal point de contact pour toutes les questions de permis et d'inscription.
 
-## Swiss Carte de Légitimation
+## Carte de légitimation suisse
 
-The **Carte de Légitimation** is an identity document issued by the DFAE (Swiss Federal Department of Foreign Affairs) that certifies your status as a member of an international organisation. The type of card you receive depends on your nationality and contract. Common types include **B and C** (with full customs privileges), **D and E** (limited customs privileges), **P** (scientific personnel), and **S** (Swiss nationals), while types H, F, and G carry no special customs privileges.
+La **carte de légitimation** est un document d'identité délivré par le DFAE (Département fédéral suisse des affaires étrangères) qui atteste de votre statut de membre d'une organisation internationale. Le type de carte que vous recevez dépend de votre nationalité et de votre contrat. Les types courants comprennent **B et C** (avec privilèges douaniers complets), **D et E** (privilèges douaniers limités), **P** (personnel scientifique) et **S** (ressortissants suisses), tandis que les types H, F et G ne confèrent aucun privilège douanier particulier.
 
-The card is obtained through the **CERN Users Office**, which processes the application with the DFAE on your behalf. You must register within 14 days of your arrival to initiate this process. The card's validity is linked to the duration of your CERN contract and must be renewed if your contract is extended. Among its key benefits, the carte de légitimation **exempts you from standard Swiss work and residence permits** and provides certain tax and customs advantages.
+La carte s'obtient par l'intermédiaire du **Bureau des utilisateurs du CERN**, qui traite la demande auprès du DFAE en votre nom. Vous devez vous inscrire dans les 14 jours suivant votre arrivée pour lancer ce processus. La validité de la carte est liée à la durée de votre contrat au CERN et doit être renouvelée si votre contrat est prolongé. Parmi ses principaux avantages, la carte de légitimation **vous exempte des permis de travail et de séjour suisses ordinaires** et offre certains avantages fiscaux et douaniers.
 
-## French Titre de Séjour
+## Titre de séjour spécial français
 
-If you live in France -- for example, in the **Pays de Gex** -- you need a **titre de séjour** (residence permit) in addition to your CERN carte de légitimation. International organisation employees are granted a special titre de séjour category, which is different from standard work permits. You apply for it at the **prefecture of Ain** (Bourg-en-Bresse) or the sub-prefecture corresponding to your place of residence.
+Si vous résidez en France -- par exemple dans le **Pays de Gex** --, vous recevez un **titre de séjour spécial** (types **AT**, **FI** ou **CD** selon votre grade) en plus de votre carte de légitimation du CERN. Contrairement à un titre de séjour ordinaire, il n'est **pas obtenu auprès de la préfecture locale** : il est délivré par le **Ministère de l'Europe et des Affaires étrangères (MEAE)** français et traité en votre nom par le **Bureau des utilisateurs / Service des cartes** du CERN (délai typique de 6 à 8 semaines). Le personnel domicilié en Suisse reçoit à la place une **attestation de fonctions de type EF**.
 
-The application requires several documents, including your passport, proof of address, CERN contract, carte de légitimation, passport photos, and a completed application form. Keep in mind that the titre de séjour must be **renewed before its expiry date**, so it is wise to start the renewal process well in advance -- at least two months before expiry.
+La demande nécessite plusieurs documents, notamment votre passeport, un justificatif de domicile, votre contrat CERN, votre carte de légitimation, des photos d'identité et un formulaire de demande dûment rempli. Gardez à l'esprit que le titre de séjour doit être **renouvelé avant sa date d'expiration** : il est donc judicieux d'entamer la procédure de renouvellement bien à l'avance -- au moins deux mois avant l'expiration.
 
-## The 14-Day Rule
+## La règle des 14 jours
 
-You are required to register with the **CERN Users Office within 14 days** of your arrival. This is a strict obligation and should not be delayed. Registration triggers the carte de légitimation application process and formally establishes your legal status in Switzerland. Registering late can delay your carte de légitimation, affect your **health insurance coverage**, and lead to other administrative complications.
+Vous êtes tenu de vous inscrire auprès du **Bureau des utilisateurs du CERN dans les 14 jours** suivant votre arrivée. Il s'agit d'une obligation stricte qui ne doit pas être différée. L'inscription déclenche la procédure de demande de la carte de légitimation et établit formellement votre statut juridique en Suisse. Une inscription tardive peut retarder votre carte de légitimation, affecter votre **couverture d'assurance maladie** et entraîner d'autres complications administratives.
 
-## Family Members
+## Membres de la famille
 
-Your spouse or partner and children can receive their own **legitimation cards as dependents** of the primary holder. Your spouse or registered partner must be declared to the Users Office; common-law partners may face different requirements depending on nationality. Minor children are included in your registration automatically, though adult children may require additional paperwork.
+Votre conjoint ou partenaire et vos enfants peuvent recevoir leur propre **carte de légitimation en tant que personnes à charge** du titulaire principal. Votre conjoint ou partenaire enregistré doit être déclaré au Bureau des utilisateurs ; les partenaires de fait peuvent être soumis à des exigences différentes selon la nationalité. Les enfants mineurs sont automatiquement inclus dans votre inscription, tandis que les enfants majeurs peuvent nécessiter des démarches supplémentaires.
 
-To register family members, you will typically need to provide a marriage certificate, your children's birth certificates, **sworn translations** into English or French if the documents are in another language, and a **Hague apostille** if applicable. It is best to gather all these documents before arriving at CERN.
+Pour inscrire les membres de votre famille, vous devrez généralement fournir un acte de mariage, les actes de naissance de vos enfants, des **traductions assermentées** en anglais ou en français si les documents sont dans une autre langue, et une **apostille de La Haye** le cas échéant. Il est préférable de réunir tous ces documents avant votre arrivée au CERN.
 
-## Changing Residence
+## Changement de résidence
 
-If you move from Switzerland to France, you must notify the CERN Users Office, apply for a French titre de séjour, and update your address. Moving in the other direction -- from France to Switzerland -- requires registering with the relevant **Swiss commune** and notifying the Users Office as well.
+Si vous déménagez de Suisse en France, vous devez en informer le Bureau des utilisateurs du CERN, demander un titre de séjour français et mettre à jour votre adresse. Le déménagement dans l'autre sens -- de France en Suisse -- nécessite de vous inscrire auprès de la **commune suisse** concernée et d'en informer également le Bureau des utilisateurs.
 
-Any change of country of residence requires **new permits**, and the process can take several weeks, so plan ahead. You should notify the Users Office as soon as possible, ideally before the move. Deadline requirements vary by country.
+Tout changement de pays de résidence nécessite de **nouveaux permis**, et la procédure peut prendre plusieurs semaines : anticipez. Vous devriez informer le Bureau des utilisateurs dès que possible, idéalement avant le déménagement. Les délais requis varient selon le pays.
 
-## Practical Tips
+## Conseils pratiques
 
-Start your paperwork **immediately upon arrival** -- do not wait. Keep copies of all documents, both physical and digital, as you will need them on multiple occasions. The **CERN Users Office** is your main point of contact for any permit and registration questions.
+Commencez vos démarches administratives **dès votre arrivée** -- n'attendez pas. Conservez des copies de tous vos documents, à la fois physiques et numériques, car vous en aurez besoin à de multiples reprises. Le **Bureau des utilisateurs du CERN** est votre principal point de contact pour toute question de permis et d'inscription.
 
-Have **passport photos** ready in Swiss format (35x45 mm) for cards and permits. If you have family members joining you, gather all necessary documents -- certificates, translations, and apostilles -- before arriving at CERN to avoid delays.
+Ayez des **photos d'identité** prêtes au format suisse (35 x 45 mm) pour les cartes et permis. Si des membres de votre famille vous rejoignent, réunissez tous les documents nécessaires -- actes, traductions et apostilles -- avant votre arrivée au CERN afin d'éviter les retards.
 
-## Sources & Links
+## Sources et liens
 
 - <a href="https://usersoffice.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Users Office</a>
-- <a href="https://www.eda.admin.ch/" target="_blank" rel="noopener noreferrer">DFAE - Swiss Federal Department of Foreign Affairs</a>
-- <a href="https://www.ain.gouv.fr/" target="_blank" rel="noopener noreferrer">Prefecture of Ain - Residence Permits</a>
+- <a href="https://www.eda.admin.ch/" target="_blank" rel="noopener noreferrer">DFAE - Département fédéral suisse des affaires étrangères</a>
+- <a href="https://www.ain.gouv.fr/" target="_blank" rel="noopener noreferrer">Préfecture de l'Ain - Titres de séjour</a>
 - <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Admin e-Guide</a>
+</content>
+</invoke>

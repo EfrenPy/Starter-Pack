@@ -10,64 +10,70 @@ breadcrumbs:
   - { label: "Retour en Espagne" }
 ---
 
-# Returning to Spain: Step-by-Step Guide
+# Retour en Espagne : guide étape par étape
 
 <div class="alert">
-<strong>⚠️ Disclaimer</strong><br>
-<p>This page is for general informational purposes only. It does not constitute legal, financial, or tax advice. The content is not official and should not be used as a substitute for professional guidance. Please consult a qualified advisor for your specific situation.</p>
+<strong>⚠️ Avertissement</strong><br>
+<p>Cette page est fournie à titre purement informatif. Elle ne constitue pas un conseil juridique, financier ou fiscal. Son contenu n'est pas officiel et ne saurait remplacer l'avis d'un professionnel. Veuillez consulter un conseiller qualifié pour votre situation particulière.</p>
 </div>
 
-## Before Leaving Geneva (3-6 months before)
+## Avant de quitter Genève (3 à 6 mois avant)
 
-Start by **notifying CERN HR**. Inform your supervisor and the HR department of your departure date, and confirm all end-of-contract formalities, including the final salary payment and any leaving indemnity or pension options. At the same time, **request your certificates**: obtain your CERN employment certificate, internal tax certificates for all years worked, and a pension fund statement showing your accumulated rights and available options.
+Commencez par **prévenir les RH du CERN**. Informez votre superviseur et le service des ressources humaines de votre date de départ, et confirmez toutes les formalités de fin de contrat, y compris le versement du dernier salaire ainsi que toute indemnité de départ ou option de pension. Dans le même temps, **demandez vos attestations** : obtenez votre certificat d'emploi au CERN, les attestations fiscales internes pour toutes les années travaillées, et un relevé de la caisse de pension indiquant vos droits accumulés et les options disponibles.
 
-Visit the Spanish Consulate to process your **baja consular** (consular de-registration). This formally records your return to Spain and is needed for certain administrative steps back home. If you have been paying the **convenio especial** with Spanish Social Security, decide whether to continue it until your return date or terminate it once you are back and re-employed in Spain.
+Rendez-vous au Consulat d'Espagne pour effectuer votre **baja consular** (radiation consulaire). Cette démarche enregistre officiellement votre retour en Espagne et est nécessaire pour certaines formalités administratives une fois de retour. Si vous avez cotisé au **convenio especial** auprès de la Sécurité sociale espagnole, décidez si vous souhaitez le maintenir jusqu'à votre date de retour ou y mettre fin une fois de retour et à nouveau salarié en Espagne.
 
-Collect your complete **medical records**, prescriptions, and any ongoing treatment documentation from CERN CHIS, and request a coverage end-date certificate. You should also review your **CERN Pension Fund options** early -- deferred pension, lump-sum withdrawal, or transfer -- since deadlines for certain elections may apply. Consult the Pension Fund office well in advance.
+Rassemblez l'ensemble de votre **dossier médical**, vos ordonnances et tout document relatif à un traitement en cours auprès de la CHIS du CERN, et demandez un certificat indiquant la date de fin de couverture. Vous devriez également examiner tôt vos **options auprès de la Caisse de pension du CERN** -- pension différée, versement d'un capital, ou transfert -- car des délais peuvent s'appliquer à certains choix. Consultez le bureau de la Caisse de pension bien à l'avance.
 
-Finally, **de-register from your commune** (Swiss commune or French mairie). Return your carte de legitimation and cancel any local insurance, utilities, and subscriptions.
+Enfin, **radiez-vous de votre commune** (commune suisse ou mairie française). Restituez votre carte de légitimation et résiliez toute assurance locale, ainsi que vos abonnements et contrats de services.
 
-## Administrative Steps on Arrival in Spain
+## Démarches administratives à l'arrivée en Espagne
 
-Your first step on arriving in Spain is the **empadronamiento**: register at your local town hall (ayuntamiento) as soon as you have a residential address. The padron certificate is essential for healthcare, voting, and most other public services.
+Votre première démarche à l'arrivée en Espagne est l'**empadronamiento** : inscrivez-vous à la mairie de votre commune (ayuntamiento) dès que vous disposez d'une adresse de résidence. Le certificat de padron est indispensable pour les soins de santé, le vote et la plupart des autres services publics.
 
-Next, apply at the Delegacion or Subdelegacion del Gobierno for the **certificado de emigrante retornado** (returning emigrant certificate). This document can unlock certain benefits and serves as official proof of your time spent abroad. You should also **update your DNI** with your new Spanish address at a police station (comisaria). If your DNI has expired while abroad, renewing it is a priority since it is required for most administrative procedures.
+Ensuite, demandez à la Delegacion ou Subdelegacion del Gobierno le **certificado de emigrante retornado** (certificat d'émigrant de retour). Ce document peut ouvrir droit à certaines aides et sert de preuve officielle du temps passé à l'étranger. Vous devriez également **mettre à jour votre DNI** avec votre nouvelle adresse espagnole dans un commissariat de police (comisaria). Si votre DNI a expiré pendant votre séjour à l'étranger, son renouvellement est prioritaire car il est requis pour la plupart des démarches administratives.
 
-## Healthcare & Social Security
+## Santé et Sécurité sociale
 
-Once you are empadronado, visit your local Social Security office (**INSS** or **CAISS**) to register for public healthcare. If you maintained the **convenio especial**, you should have continuity of coverage -- present your convenio documentation and padron certificate at the INSS to confirm your status. If you did not maintain the convenio, you may need to register as a resident without resources or wait until you start employment.
+Une fois empadronado, rendez-vous à votre bureau local de Sécurité sociale (**INSS** ou **CAISS**) pour vous inscrire à l'assurance maladie publique. Si vous avez maintenu le **convenio especial**, vous devriez bénéficier d'une continuité de couverture -- présentez votre documentation du convenio et votre certificat de padron à l'INSS pour confirmer votre statut. Si vous n'avez pas maintenu le convenio, vous devrez peut-être vous inscrire comme résident sans ressources ou attendre de commencer un emploi.
 
-If you return without a job lined up, register at **SEPE** (the public employment service) as a jobseeker. This is a prerequisite for accessing certain benefits and active employment programmes, even if you do not qualify for unemployment benefits.
+Si vous rentrez sans emploi en vue, inscrivez-vous au **SEPE** (le service public de l'emploi) comme demandeur d'emploi. C'est une condition préalable pour accéder à certaines aides et programmes actifs pour l'emploi, même si vous ne remplissez pas les conditions pour des allocations de chômage.
 
-## Employment & Unemployment (SEPE)
+## Emploi et chômage (SEPE)
 
-As a returning emigrant, register as a **demandante de empleo** (jobseeker) at your local SEPE office. Bring your returning emigrant certificate, padron, DNI, and CERN employment certificate.
+En tant qu'émigrant de retour, inscrivez-vous comme **demandante de empleo** (demandeur d'emploi) auprès de votre bureau local du SEPE. Munissez-vous de votre certificat d'émigrant de retour, de votre padron, de votre DNI et de votre certificat d'emploi au CERN.
 
-It is important to understand that **time at CERN does not generate Spanish unemployment benefit rights**, since no unemployment contributions were paid to Spain during your CERN employment. You cannot claim prestacion por desempleo based on CERN employment alone. Additionally, EU social security coordination regulations do not apply to CERN employment because CERN operates outside national social security systems. If you previously had Spanish unemployment contributions within the last six years, check whether those older contributions are still within the look-back window to qualify for benefits.
+Il est important de comprendre que **le temps passé au CERN ne génère pas de droits aux allocations de chômage espagnoles**, car aucune cotisation chômage n'a été versée à l'Espagne durant votre emploi au CERN. Vous ne pouvez pas prétendre à la prestacion por desempleo sur la seule base de votre emploi au CERN. De plus, les règlements de coordination de la sécurité sociale de l'UE ne s'appliquent pas à l'emploi au CERN, car le CERN fonctionne en dehors des systèmes nationaux de sécurité sociale. Si vous aviez auparavant cotisé au chômage en Espagne au cours des six dernières années, vérifiez si ces anciennes cotisations sont encore dans la période de référence permettant d'ouvrir des droits.
 
-## CERN Pension: Options & Spanish Taxation
+## Pension du CERN : options et fiscalité espagnole
 
-If you are vested in the CERN Pension Fund (typically after five years of service), you have the option of a **deferred pension**: leave your benefits in the fund and draw a monthly pension when you reach CERN retirement age. Alternatively, you may be eligible to withdraw a **lump-sum** leaving allowance instead, depending on your length of service and the fund rules at the time. In certain cases, you may also be able to **transfer** your CERN pension rights to another pension scheme, though this option is limited and subject to specific agreements between CERN and the receiving institution. Consult the Pension Fund office for details and tax implications of each option.
+Si vos droits sont acquis auprès de la Caisse de pension du CERN (généralement après cinq ans de service), vous avez l'option d'une **pension différée** : laissez vos droits dans la caisse et percevez une pension mensuelle lorsque vous atteignez l'âge de la retraite du CERN. Vous pouvez également être éligible au retrait d'une indemnité de départ sous forme de **capital**, selon votre durée de service et les règles de la caisse en vigueur à ce moment-là. Dans certains cas, vous pourrez aussi **transférer** vos droits à pension du CERN vers un autre régime de retraite, bien que cette option soit limitée et soumise à des accords spécifiques entre le CERN et l'institution destinataire. Consultez le bureau de la Caisse de pension pour les détails et les implications fiscales de chaque option.
 
-Unlike CERN salaries (which are exempt), CERN pensions received by Spanish tax residents **are subject to IRPF**. Spain considers the CERN pension as *rendimientos del trabajo* and taxes it under the standard income tax brackets. Plan accordingly, as the net amount you receive will be lower than the gross pension.
+Contrairement aux salaires du CERN (qui sont exonérés), les pensions du CERN perçues par des résidents fiscaux espagnols **sont soumises à l'IRPF**. L'Espagne considère la pension du CERN comme des *rendimientos del trabajo* et l'impose selon les tranches d'imposition ordinaires. Prévoyez en conséquence, car le montant net que vous percevrez sera inférieur à la pension brute.
 
-## Financial & Practical Matters
+## Questions financières et pratiques
 
-Close or restructure your **Swiss and French bank accounts** as needed. Some people keep a foreign account for pension payments or ongoing obligations. Be sure to notify your banks of your change of tax residence. To move your savings, use **low-cost transfer services** like Wise or Revolut to transfer from CHF or EUR accounts to your Spanish bank. Keep in mind that Spain has reporting requirements for large transfers (Modelo S-1 for transfers above 10,000 euros).
+Clôturez ou réorganisez vos **comptes bancaires suisses et français** selon vos besoins. Certaines personnes conservent un compte à l'étranger pour le versement de leur pension ou d'autres obligations en cours. Veillez à informer vos banques de votre changement de résidence fiscale. Pour transférer votre épargne, utilisez des **services de transfert à faible coût** comme Wise ou Revolut afin de virer des fonds de vos comptes en CHF ou en EUR vers votre banque espagnole. Notez que la déclaration **Modelo S-1** ne s'applique qu'aux **espèces ou instruments au porteur d'un montant égal ou supérieur à 10 000 € transportés physiquement à travers la frontière** -- les virements bancaires et électroniques ordinaires (y compris Wise ou Revolut) n'y sont **pas** soumis, quel qu'en soit le montant, puisque les banques et les prestataires de paiement déclarent eux-mêmes ces mouvements.
 
-If you bring a vehicle registered abroad into Spain, you must **register it with the DGT** (Direccion General de Trafico) within 30 days. You may be exempt from import duties if you qualify as a returning resident under the household goods exemption, but you must apply at customs (Aduana) with proof of your foreign residence. More broadly, **returning emigrants can import personal belongings duty-free** if they have lived abroad for at least 12 months. Prepare an inventory and present it at customs along with your returning emigrant certificate and proof of prior residence abroad.
+Si vous importez en Espagne un véhicule immatriculé à l'étranger, vous devez l'**immatriculer auprès de la DGT** (Direccion General de Trafico) dans un délai de 30 jours. Vous pouvez être exonéré des droits d'importation si vous remplissez les conditions de résident de retour au titre de l'exonération pour biens du foyer, mais vous devez en faire la demande aux douanes (Aduana) avec une preuve de votre résidence à l'étranger. Plus largement, **les émigrants de retour peuvent importer leurs effets personnels en franchise de droits** s'ils ont vécu à l'étranger pendant au moins 12 mois. Préparez un inventaire et présentez-le aux douanes avec votre certificat d'émigrant de retour et une preuve de votre résidence antérieure à l'étranger.
 
-## Tax Implications of the Return Year
+## Implications fiscales de l'année de retour
 
-Spain determines tax residence for the **full calendar year**. If you return before July, you will likely be considered tax resident for the entire year and must declare your worldwide income for that year. However, the CERN salary received during the months you were still a CERN employee **remains exempt** under the Protocol on Privileges and Immunities. Only non-CERN income and any Spanish employment income after your return are taxable.
+L'Espagne détermine la résidence fiscale pour l'**année civile complète**. Si vous rentrez avant le mois de juillet, vous serez probablement considéré comme résident fiscal pour toute l'année et devrez déclarer vos revenus mondiaux pour cette année-là. Toutefois, le salaire du CERN perçu pendant les mois où vous étiez encore employé du CERN **reste exonéré** en vertu du Protocole sur les privilèges et immunités. Seuls les revenus non liés au CERN et les éventuels revenus d'emploi espagnols perçus après votre retour sont imposables.
 
-If you still hold foreign assets above the 50,000 euro threshold on 31 December of the return year, you must file **Modelo 720** the following year (January-March). This includes Swiss or French bank accounts, CERN pension fund rights, and foreign property. In your **first IRPF declaration** after returning, declare your worldwide income for the year, applying the CERN salary exemption for the months worked at CERN. Attach the CERN internal tax certificate and any other documentation supporting the exemption.
+Si vous détenez encore des actifs à l'étranger dépassant le seuil de 50 000 € au 31 décembre de l'année de retour, vous devez déposer le **Modelo 720** l'année suivante (janvier-mars). Cela inclut les comptes bancaires suisses ou français, les droits auprès de la caisse de pension du CERN et les biens immobiliers à l'étranger. Dans votre **première déclaration d'IRPF** après le retour, déclarez vos revenus mondiaux pour l'année en appliquant l'exonération du salaire du CERN pour les mois travaillés au CERN. Joignez l'attestation fiscale interne du CERN et tout autre document justifiant l'exonération.
 
-## Sources & Documentation
+## Régime des impatriés (Régimen de Impatriados)
 
-- <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2007-15391" target="_blank" rel="noopener noreferrer">Protocol on Privileges and Immunities of CERN (BOE)</a>
-- <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764" target="_blank" rel="noopener noreferrer">Law 35/2006, IRPF</a>
-- <a href="https://www.seg-social.es/" target="_blank" rel="noopener noreferrer">Spanish Social Security - Official Portal</a>
-- <a href="https://www.sepe.es/" target="_blank" rel="noopener noreferrer">SEPE - Public Employment Service</a>
-- <a href="https://pensionfund.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Pension Fund</a>
+Si votre retour est lié à une **nouvelle relation de travail en Espagne**, vous pourriez opter pour le régime fiscal spécial des travailleurs détachés (article 93 de la LIRPF, la « loi Beckham »). Il exige que vous **n'ayez pas été résident fiscal en Espagne au cours des 5 périodes d'imposition précédentes** (réduites de 10 par la loi 28/2022, en vigueur depuis 2023). Dans ce cadre, vous êtes imposé pour l'essentiel comme un **non-résident** -- un taux forfaitaire de **24 % jusqu'à 600 000 €** de revenus du travail -- pour l'année du déménagement et les cinq suivantes, la plupart des revenus de source étrangère restant hors de la base imposable espagnole. Les conditions sont strictes et l'option doit être exercée dans un délai déterminé ; **confirmez donc votre éligibilité auprès d'un conseiller fiscal ou de l'Agencia Tributaria** avant de compter dessus.
+
+## Sources et documentation
+
+- <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2007-15391" target="_blank" rel="noopener noreferrer">Protocole sur les privilèges et immunités du CERN (BOE)</a>
+- <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764" target="_blank" rel="noopener noreferrer">Loi 35/2006, IRPF</a>
+- <a href="https://www.seg-social.es/" target="_blank" rel="noopener noreferrer">Sécurité sociale espagnole - Portail officiel</a>
+- <a href="https://www.sepe.es/" target="_blank" rel="noopener noreferrer">SEPE - Service public de l'emploi</a>
+- <a href="https://pensionfund.cern.ch/" target="_blank" rel="noopener noreferrer">Caisse de pension du CERN</a>
 - <a href="https://admin-eguide.web.cern.ch/" target="_blank" rel="noopener noreferrer">CERN Admin e-Guide</a>
+</content>
+</invoke>

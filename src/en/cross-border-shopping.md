@@ -37,7 +37,7 @@ For a typical weekly shop, you may save **CHF 50 to 100** by shopping in France 
 
 When importing goods from France to Switzerland for personal use, there is a **CHF 150 value limit** per person per day, below which no customs duties apply. This limit was reduced from CHF 300 in January 2025. At the border crossing, use the green channel if you have nothing to declare (under the limit) and the red channel if you exceed it or carry restricted items. Swiss residents can also claim a **VAT refund (detaxe)** on purchases made in France above a certain threshold -- ask for a detaxe form at the shop checkout and have it stamped at the French border customs.
 
-Specific limits apply to certain goods when entering Switzerland: **1 kg of meat**, 250 grams of butter, 5 litres of wine, and 1 litre of spirits per person per day. Amounts above these limits are subject to duties.
+Specific limits apply to certain goods when entering Switzerland: **1 kg of meat**, 1 kg of butter, 5 litres of wine, and 1 litre of spirits per person per day. Amounts above these limits are subject to duties.
 
 ## Sunday & Holiday Hours
 

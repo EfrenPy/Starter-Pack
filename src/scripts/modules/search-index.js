@@ -86,7 +86,8 @@ async function loadFromHTML(folder) {
   const results = await Promise.all(
     PAGE_SLUGS.map(async (slug) => {
       try {
-        const url = `${folder}${slug}/`;
+        // Homepage lives at /{lang}/ , not /{lang}/index/
+        const url = slug === 'index' ? folder : `${folder}${slug}/`;
         const response = await fetch(url);
         if (!response.ok) return null;
         const html = await response.text();

@@ -63,6 +63,7 @@
 
   /* Layout */
   --container-max-width: 1200px;
+  --navbar-height: 64px;
   --border-radius-sm: 6px;
   --border-radius: 10px;
   --border-radius-lg: 16px;
@@ -173,7 +174,8 @@
 }
 
 :focus-visible {
-  outline: none;
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
   box-shadow: var(--focus-ring);
 }
 
@@ -210,6 +212,17 @@
 }
 
 /* ===== Global Styles ===== */
+html {
+  /* Keep in-page anchor targets clear of the sticky navbar */
+  scroll-padding-top: calc(var(--navbar-height) + 16px);
+}
+
+:target,
+main h2[id],
+main h3[id] {
+  scroll-margin-top: calc(var(--navbar-height) + 16px);
+}
+
 body {
   font-family: var(--font-family);
   font-size: var(--font-size-base);
@@ -401,6 +414,21 @@ main > .container {
 
 .page-content main > .container {
   background: linear-gradient(180deg, rgba(249, 115, 22, 0.06), var(--color-surface) 12%);
+}
+
+/* Constrain the reading measure of body prose (~70ch) for readability on wide
+   screens, while leaving tables, grids and figures free to use the full width. */
+.page-content main > .container > p,
+.page-content main > .container > ul,
+.page-content main > .container > ol,
+.page-content main > .container > h2,
+.page-content main > .container > h3,
+.page-content main > .container > h4,
+.page-content main > .container > blockquote,
+.page-content main > .container > .alert,
+.page-content main > .container > .example-box,
+.page-content main > .container > .quick-answer {
+  max-width: 70ch;
 }
 
 .page-home .hero {
@@ -837,6 +865,9 @@ main > .container {
 
 .topnav__lang-dropdown:focus-within .topnav__lang-menu {
   display: block;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
 }
 
 .topnav__lang-menu.open {
@@ -1081,12 +1112,14 @@ main > .container {
 }
 
 .hero .btn--primary {
-  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  /* Darkened so white button text meets WCAG AA (>=4.5:1) in light mode */
+  background: linear-gradient(135deg, #c2410c 0%, #9a3412 100%);
+  color: #fff;
   box-shadow: 0 4px 16px rgba(249, 115, 22, 0.35);
 }
 
 .hero .btn--primary:hover {
-  background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
+  background: linear-gradient(135deg, #9a3412 0%, #7c2d12 100%);
   box-shadow: 0 8px 24px rgba(249, 115, 22, 0.45);
 }
 
@@ -1193,6 +1226,8 @@ main > .container {
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-semibold);
   margin: 0 0 0.65rem;
+  padding: 0;
+  border: none;
   color: var(--color-text);
   line-height: 1.35;
 }
@@ -1832,6 +1867,10 @@ details[open] .accordion-title::before {
   padding-inline-start: 3.5rem;
 }
 
+[data-theme='dark'] .example-box {
+  background: linear-gradient(135deg, var(--color-example-bg) 0%, #0b1f13 100%);
+}
+
 .example-box::before {
   content: '💡';
   position: absolute;
@@ -1901,8 +1940,16 @@ details[open] .accordion-title::before {
   z-index: 101;
   width: 0;
   transition: none;
-  animation: reading-progress-fill linear forwards;
   box-shadow: 0 0 8px rgba(37, 99, 235, 0.4);
+}
+
+/* Scroll-driven fill only where supported; otherwise JS sets width on scroll.
+   (Without this guard the duration-less animation instantly fills the bar.) */
+@supports (animation-timeline: scroll()) {
+  .reading-progress {
+    animation: reading-progress-fill linear forwards;
+    animation-timeline: scroll();
+  }
 }
 
 @keyframes reading-progress-fill {
@@ -2376,7 +2423,6 @@ mark {
 
   p {
     font-size: var(--font-size-sm);
-    padding: var(--space-sm);
   }
 }
 
@@ -2541,6 +2587,14 @@ mark {
 }
 
 .search-intent h2::after { background: linear-gradient(90deg, #8b5cf6, #a78bfa); }
+
+/* Rendered as a non-heading so the article <h1> stays first in the outline */
+.search-intent__title {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+}
 
 .guide-faq {
   border-left: 4px solid #0ea5e9;
@@ -2820,7 +2874,7 @@ fieldset input::placeholder {
 .checklist-progress__bar {
   height: 8px;
   background: var(--color-surface);
-  border-radius: var(--radius-sm, 4px);
+  border-radius: var(--border-radius-sm);
   overflow: hidden;
   border: 1px solid var(--color-border);
 }
@@ -2828,7 +2882,7 @@ fieldset input::placeholder {
 .checklist-progress__fill {
   height: 100%;
   background: var(--color-primary);
-  border-radius: var(--radius-sm, 4px);
+  border-radius: var(--border-radius-sm);
   transition: width 0.3s ease;
   width: 0%;
 }
@@ -2985,7 +3039,7 @@ code {
   font-weight: 600;
   font-size: var(--font-size-sm);
   position: sticky;
-  top: 0;
+  top: var(--navbar-height);
   z-index: 1;
   border-inline-end: 1px solid rgba(255, 255, 255, 0.25);
 }
@@ -3047,7 +3101,7 @@ code {
   background: var(--color-bg);
   font-weight: 600;
   position: sticky;
-  top: 0;
+  top: var(--navbar-height);
   z-index: 1;
   border-inline-end: 1px solid var(--color-border);
 }

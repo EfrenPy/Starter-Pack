@@ -37,7 +37,7 @@ Per una spesa settimanale tipica, potresti risparmiare **da CHF 50 a 100** facen
 
 Quando si importano merci dalla Francia alla Svizzera per uso personale, esiste un **limite di valore di CHF 150** per persona al giorno, al di sotto del quale non si applicano dazi doganali. Al valico di frontiera, usa il canale verde se non hai nulla da dichiarare (sotto il limite) e il canale rosso se lo superi o trasporti articoli soggetti a restrizioni. I residenti svizzeri possono anche richiedere un **rimborso IVA (détaxe)** sugli acquisti effettuati in Francia al di sopra di una certa soglia -- chiedi il modulo détaxe alla cassa del negozio e fallo timbrare alla dogana francese al confine.
 
-Limiti specifici si applicano a determinati prodotti all'ingresso in Svizzera: **1 kg di carne**, 250 grammi di burro, 5 litri di vino e 1 litro di superalcolici per persona al giorno. Le quantità superiori a questi limiti sono soggette a dazi.
+Limiti specifici si applicano a determinati prodotti all'ingresso in Svizzera: **1 kg di carne**, 1 kg di burro, 5 litri di vino e 1 litro di superalcolici per persona al giorno. Le quantità superiori a questi limiti sono soggette a dazi.
 
 ## Orari Domenicali e Festivi
 

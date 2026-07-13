@@ -37,7 +37,7 @@ Pour des courses hebdomadaires typiques, vous pouvez économiser **CHF 50 à 100
 
 Pour l'importation de marchandise de France en Suisse pour usage personnel, il y a une **limite de CHF 150** par personne par jour (réduite en janvier 2025). Les résidents suisses peuvent également demander un **remboursement de TVA (détaxe)** sur les achats effectués en France au-dessus d'un certain seuil.
 
-Des limites spécifiques s'appliquent : **1 kg de viande**, 250 grammes de beurre, 5 litres de vin et 1 litre de spiritueux par personne par jour.
+Des limites spécifiques s'appliquent : **1 kg de viande**, 1 kg de beurre, 5 litres de vin et 1 litre de spiritueux par personne par jour.
 
 ## Horaires du dimanche et jours fériés
 

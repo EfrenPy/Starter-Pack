@@ -93,13 +93,17 @@ function buildIndex(lang) {
   const articles = [];
 
   for (const slug of PAGE_SLUGS) {
-    // 11ty generates slug/index.html
-    const filePath = resolve(DIST, folder, slug, 'index.html');
+    // The homepage is emitted at dist/{lang}/index.html (not slug/index.html);
+    // every other page is a slug/index.html directory.
+    const isHome = slug === 'index';
+    const filePath = isHome
+      ? resolve(DIST, folder, 'index.html')
+      : resolve(DIST, folder, slug, 'index.html');
     try {
       const html = readFileSync(filePath, 'utf-8');
       articles.push({
         title: extractTitle(html),
-        url: `/${folder}/${slug}/`,
+        url: isHome ? `/${folder}/` : `/${folder}/${slug}/`,
         content: extractText(html),
       });
     } catch {
