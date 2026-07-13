@@ -1374,12 +1374,16 @@ main > .container {
 }
 
 .breadcrumbs a {
-  color: var(--color-text-muted);
+  color: #475569; /* darker than --color-text-muted to clear WCAG AA on the light bg */
   text-decoration: none;
   padding: 0.2rem 0.6rem;
   border-radius: var(--border-radius-sm);
   transition: all var(--transition-fast);
   border: 1px solid transparent;
+}
+
+[data-theme='dark'] .breadcrumbs a {
+  color: var(--color-text-muted);
 }
 
 .breadcrumbs a:hover {
@@ -2210,9 +2214,10 @@ mark {
     padding: var(--space-3xl) var(--space-md);
   }
 
-  /* Card grid: 2-column on tablet, 1-column on phone (below 481px) */
+  /* Card grid on tablet/phone: collapse naturally so narrow screens don't
+     get two cramped columns (auto-fill drops to 1 column below ~500px). */
   .card-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   }
 
   /* Search box mobile */
@@ -2749,7 +2754,7 @@ fieldset legend {
   font-size: var(--font-size-lg);
 }
 
-fieldset input,
+fieldset input:not([type='checkbox']):not([type='radio']),
 fieldset select {
   width: 100%;
   padding: 0.75rem var(--space-md);
@@ -2914,7 +2919,7 @@ fieldset input::placeholder {
   margin-block: var(--space-sm) var(--space-xs);
 }
 
-.calculator-form input,
+.calculator-form input:not([type='checkbox']):not([type='radio']),
 .calculator-form select {
   width: 100%;
   padding: var(--space-md);
@@ -2938,6 +2943,25 @@ fieldset input::placeholder {
   font-size: var(--font-size-sm);
   color: var(--color-text-muted);
   margin-block-start: var(--space-xs);
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  margin-block-start: var(--space-lg);
+  font-weight: var(--font-weight-normal);
+  cursor: pointer;
+  line-height: var(--line-height-base);
+}
+
+.checkbox-label input[type='checkbox'] {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin: 0.15rem 0 0;
+  flex: none;
+  accent-color: var(--color-primary);
+  cursor: pointer;
 }
 
 .calculator-grid {

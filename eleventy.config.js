@@ -1,6 +1,42 @@
 import { execSync } from 'child_process';
+import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from 'fs';
+import { resolve, join } from 'path';
+import { createHash } from 'crypto';
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
+
+// Hash the built CSS/JS so the service-worker cache name changes automatically
+// whenever assets change — no manual version bump required.
+function hashBuiltAssets() {
+  const hash = createHash('md5');
+  const files = [];
+  const cssPath = resolve('dist/css/styles.css');
+  if (existsSync(cssPath)) files.push(cssPath);
+  const scriptsDir = resolve('dist/scripts');
+  const walk = (dir) => {
+    if (!existsSync(dir)) return;
+    for (const entry of readdirSync(dir).sort()) {
+      const full = join(dir, entry);
+      if (statSync(full).isDirectory()) walk(full);
+      else if (full.endsWith('.js')) files.push(full);
+    }
+  };
+  walk(scriptsDir);
+  for (const f of files.sort()) hash.update(readFileSync(f));
+  return hash.digest('hex').slice(0, 10);
+}
+
+function stampServiceWorkerCache() {
+  const swPath = resolve('dist/sw.js');
+  if (!existsSync(swPath)) return;
+  const hash = hashBuiltAssets();
+  const sw = readFileSync(swPath, 'utf8');
+  const stamped = sw.replace(
+    /const CACHE_NAME = '[^']*';/,
+    `const CACHE_NAME = 'cern-starter-pack-${hash}';`,
+  );
+  if (stamped !== sw) writeFileSync(swPath, stamped);
+}
 
 function getSlugKey(data) {
   const stem = data.page?.filePathStem || '';
@@ -79,12 +115,23 @@ export default function (eleventyConfig) {
     return d < cutoff;
   });
 
-  // Build search index after build completes
+  // Build search index after build completes.
+  // In a one-off build (CI/production) a failure here must fail the whole build
+  // so a broken/empty index can never ship; in --serve we only warn so the dev
+  // server keeps running.
+  const isServe = process.argv.includes('--serve');
   eleventyConfig.on('eleventy.after', () => {
     try {
       execSync('node scripts/build-search-index.js', { stdio: 'inherit' });
     } catch (e) {
       console.warn('Search index build failed:', e.message);
+      if (!isServe) throw e;
+    }
+    try {
+      stampServiceWorkerCache();
+    } catch (e) {
+      console.warn('Service worker cache stamp failed:', e.message);
+      if (!isServe) throw e;
     }
   });
 

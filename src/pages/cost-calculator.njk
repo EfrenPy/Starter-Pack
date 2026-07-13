@@ -56,6 +56,11 @@
             <option value="family-1">{{ t.familyOne }}</option>
             <option value="family-2">{{ t.familyTwo }}</option>
           </select>
+
+          <label class="checkbox-label" for="convenio-toggle">
+            <input type="checkbox" id="convenio-toggle">
+            <span>{{ t.convenioToggle }}</span>
+          </label>
         </fieldset>
 
         <button type="submit" class="btn btn--primary">{{ t.calculateBtn }}</button>
@@ -80,7 +85,7 @@
               <dt>{{ t.rentLabel }}</dt><dd id="res-rent">—</dd>
               <dt>{{ t.groceriesLabel }}</dt><dd id="res-groceries">—</dd>
               <dt>{{ t.transportLabel }}</dt><dd id="res-transport">—</dd>
-              <dt>{{ t.convenioLabel }}</dt><dd id="res-convenio">—</dd>
+              <dt id="res-convenio-label">{{ t.convenioLabel }}</dt><dd id="res-convenio">—</dd>
               <dt>{{ t.utilitiesLabel }}</dt><dd id="res-utilities">—</dd>
               <dt>{{ t.otherLabel }}</dt><dd id="res-other">—</dd>
               <dt><strong>{{ t.totalExpensesLabel }}</strong></dt><dd id="res-total-expenses"><strong>—</strong></dd>

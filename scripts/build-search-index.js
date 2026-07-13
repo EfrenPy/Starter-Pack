@@ -72,7 +72,7 @@ const PAGE_SLUGS = [
   'newcomer-glossary',
 ];
 
-function extractText(html) {
+export function extractText(html) {
   // Strip tags, scripts, styles
   let text = html
     .replace(/<script[\s\S]*?<\/script>/gi, '')
@@ -83,7 +83,7 @@ function extractText(html) {
   return text;
 }
 
-function extractTitle(html) {
+export function extractTitle(html) {
   const match = html.match(/<title[^>]*>(.*?)<\/title>/i);
   return match ? match[1].trim() : '';
 }
@@ -114,12 +114,18 @@ function buildIndex(lang) {
   return articles;
 }
 
-// Build for both languages
-for (const lang of ['es', 'en', 'it', 'fr']) {
-  const articles = buildIndex(lang);
-  const outDir = resolve(DIST, 'data');
-  mkdirSync(outDir, { recursive: true });
-  const outPath = resolve(outDir, `search-index-${lang}.json`);
-  writeFileSync(outPath, JSON.stringify(articles));
-  console.log(`Built search index: ${outPath} (${articles.length} articles)`);
+function buildAll() {
+  for (const lang of ['es', 'en', 'it', 'fr']) {
+    const articles = buildIndex(lang);
+    const outDir = resolve(DIST, 'data');
+    mkdirSync(outDir, { recursive: true });
+    const outPath = resolve(outDir, `search-index-${lang}.json`);
+    writeFileSync(outPath, JSON.stringify(articles));
+    console.log(`Built search index: ${outPath} (${articles.length} articles)`);
+  }
+}
+
+// Only run the build when executed directly (not when imported by tests)
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  buildAll();
 }

@@ -35,6 +35,7 @@ export function initCostCalculator() {
     if (!gross || gross <= 0) return;
     const country = document.getElementById('country').value;
     const family = document.getElementById('family-size').value;
+    const includeConvenio = document.getElementById('convenio-toggle')?.checked ?? false;
 
     const tax = Math.round(gross * ESTIMATES.cernTaxRate);
     const chis = Math.round(gross * ESTIMATES.chisRate);
@@ -49,7 +50,7 @@ export function initCostCalculator() {
     const transport = Math.round((typeof est.transport === 'object' ? est.transport[family] : est.transport) * toChf);
     const utilities = Math.round((typeof est.utilities === 'object' ? est.utilities[family] : est.utilities) * toChf);
     const other = Math.round((typeof est.other === 'object' ? est.other[family] : est.other) * toChf);
-    const convenio = Math.round(ESTIMATES.convenio * ESTIMATES.eurToChf);
+    const convenio = includeConvenio ? Math.round(ESTIMATES.convenio * ESTIMATES.eurToChf) : 0;
 
     const totalExpenses = rent + groceries + transport + utilities + other + convenio;
     const savings = net - totalExpenses;
@@ -63,6 +64,10 @@ export function initCostCalculator() {
     document.getElementById('res-groceries').textContent = 'CHF ' + fmt(groceries);
     document.getElementById('res-transport').textContent = 'CHF ' + fmt(transport);
     document.getElementById('res-convenio').textContent = 'CHF ' + fmt(convenio);
+    const convenioRowDisplay = includeConvenio ? '' : 'none';
+    document.getElementById('res-convenio').style.display = convenioRowDisplay;
+    const convenioLabelEl = document.getElementById('res-convenio-label');
+    if (convenioLabelEl) convenioLabelEl.style.display = convenioRowDisplay;
     document.getElementById('res-utilities').textContent = 'CHF ' + fmt(utilities);
     document.getElementById('res-other').textContent = 'CHF ' + fmt(other);
     document.getElementById('res-total-expenses').innerHTML = '<strong>CHF ' + fmt(totalExpenses) + '</strong>';
