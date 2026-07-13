@@ -364,7 +364,7 @@ h3 {
   display: block;
   height: 1px;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-md);
   background: linear-gradient(90deg, transparent, var(--color-border), transparent);
 }
 
@@ -670,7 +670,7 @@ main > .container {
   letter-spacing: -0.01em;
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--space-sm);
 }
 
 .topnav__brand::before {
@@ -1594,7 +1594,7 @@ details[open] .accordion-title::before {
   font-weight: 600;
   cursor: pointer;
   padding: var(--space-md) var(--space-lg);
-  padding-inline-start: 2.5rem;
+  padding-inline-start: var(--space-2xl);
   position: relative;
   color: var(--color-text);
   background: var(--color-surface);
@@ -1625,7 +1625,7 @@ details[open] .accordion-title::before {
 
 .faq-item p {
   padding: var(--space-md) var(--space-lg);
-  padding-inline-start: 2.5rem;
+  padding-inline-start: var(--space-2xl);
   margin-block-start: 0;
   background: var(--color-bg);
   border-top: 1px solid var(--color-border);
@@ -2035,7 +2035,7 @@ details[open] .accordion-title::before {
   text-decoration: none;
   background: var(--color-primary-light);
   border-radius: var(--border-radius-sm);
-  padding-inline: 0.25rem;
+  padding-inline: var(--space-xs);
 }
 
 .toc__link.active {
@@ -2413,7 +2413,7 @@ mark {
   .alert,
   .example-box {
     padding: var(--space-sm);
-    padding-inline-start: 3rem;
+    padding-inline-start: var(--space-3xl);
   }
 
   .scroll-top {
@@ -2774,7 +2774,7 @@ fieldset select {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2364748b' d='M2 4l4 4 4-4'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
-  padding-right: 2.5rem;
+  padding-right: var(--space-2xl);
 }
 
 fieldset input:focus,
