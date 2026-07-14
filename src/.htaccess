@@ -1,10 +1,12 @@
 # Custom 404 page
 ErrorDocument 404 /404.html
 
-# Temporary redirect from root to /en/ (302 so browser doesn't cache it permanently;
-# index.html JS detects preferred language from localStorage/navigator.language)
+# NOTE: The root (/) intentionally serves index.html so its inline script can route
+# the visitor to their preferred language (localStorage / navigator.language), with a
+# <noscript> meta-refresh to /en/ as the no-JS fallback. Do NOT add a server-side
+# redirect of / -> /en/ here: it would fire before index.html loads and defeat the
+# language routing.
 RewriteEngine On
-RewriteRule ^/?$ /en/ [R=302,L]
 
 # 301 redirects for old URL structures
 # Flattened: /xx/technical/kerberos-ssh/vscode-remote/ → /xx/technical/vscode-remote/
