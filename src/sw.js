@@ -57,10 +57,13 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Stale-while-revalidate for all non-HTML assets (CSS, JS, images, data)
+  // Stale-while-revalidate for all non-HTML assets (CSS, JS, images, data).
+  // The revalidation fetch uses cache:'no-cache' so it validates with the server
+  // (via ETag) and picks up new CSS/JS even if the browser HTTP-cached an older
+  // copy under a long/immutable Cache-Control from a previous deploy.
   event.respondWith(
     caches.match(request).then((cached) => {
-      const fetchPromise = fetch(request).then((response) => {
+      const fetchPromise = fetch(request, { cache: 'no-cache' }).then((response) => {
         if (response.ok) {
           const clone = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
