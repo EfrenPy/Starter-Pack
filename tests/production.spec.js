@@ -48,7 +48,8 @@ test.describe('Production build: CSS loads', () => {
   for (const url of mainPages) {
     test(`stylesheet linked on ${url}`, async ({ page }) => {
       await page.goto(url);
-      const link = page.locator('link[rel="stylesheet"][href="/css/styles.css"]');
+      // CSS is fingerprinted, e.g. /css/styles.<hash>.css
+      const link = page.locator('link[rel="stylesheet"][href^="/css/styles."][href$=".css"]');
       await expect(link).toBeAttached();
     });
   }
@@ -58,7 +59,8 @@ test.describe('Production build: JS loads', () => {
   for (const url of mainPages) {
     test(`script tag present on ${url}`, async ({ page }) => {
       await page.goto(url);
-      const script = page.locator('script[type="module"][src="/scripts/common.js"]');
+      // JS is fingerprinted, e.g. /scripts/common.<hash>.js
+      const script = page.locator('script[type="module"][src^="/scripts/common."][src$=".js"]');
       await expect(script).toBeAttached();
     });
   }

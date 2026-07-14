@@ -12,8 +12,8 @@ eleventyExcludeFromCollections: true
   <meta name="robots" content="noindex">
   <title>Offline - CERN Starter Pack</title>
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="preload" href="/css/styles.css" as="style">
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="preload" href="{{ '/css/styles.css' | asset }}" as="style">
+  <link rel="stylesheet" href="{{ '/css/styles.css' | asset }}">
   <script>(function(){var t=localStorage.getItem('theme');if(t&&t!=='system'){document.documentElement.setAttribute('data-theme',t)}else{document.documentElement.setAttribute('data-theme',matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}})()</script>
 </head>
 <body>

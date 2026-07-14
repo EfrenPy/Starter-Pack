@@ -43,22 +43,27 @@ RewriteRule ^(en|es|it|fr)/cross-border-commute/?$ /$1/cross-border-shopping/ [R
 <IfModule mod_expires.c>
   ExpiresActive On
 
-  # Immutable static assets (images, fonts, manifest) — these get a new filename
-  # when they change, so they are safe to cache for a year.
+  # Default for js/css: revalidate. This covers non-fingerprinted scripts such as
+  # sw.js (which must update promptly). Overridden below for fingerprinted files.
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, no-cache"
+  </FilesMatch>
+
+  # Fingerprinted CSS/JS (styles.<hash>.css, name.<hash>.js) — the content hash is
+  # in the filename, so the URL changes when the content changes. Safe to cache
+  # for a year, immutable. (Defined AFTER the js/css rule so it wins for hashes.)
+  <FilesMatch "\.[A-Za-z0-9]{8,}\.(js|css)$">
+    ExpiresDefault "access plus 1 year"
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Images, fonts, manifest — long-lived.
   <FilesMatch "\.(woff2?|png|jpg|jpeg|gif|svg|ico|webp|webmanifest)$">
     ExpiresDefault "access plus 1 year"
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
 
-  # App CSS/JS are NOT fingerprinted and change between deploys, so they must be
-  # revalidated (ETag → 304 when unchanged) instead of cached immutably —
-  # otherwise returning visitors keep stale styles/scripts. The service worker
-  # still serves them instantly and revalidates in the background.
-  <FilesMatch "\.(js|css)$">
-    Header set Cache-Control "public, no-cache"
-  </FilesMatch>
-
-  # HTML pages — always revalidate
+  # HTML pages — always revalidate.
   <FilesMatch "\.html$">
     Header set Cache-Control "public, no-cache"
   </FilesMatch>

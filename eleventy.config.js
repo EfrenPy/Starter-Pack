@@ -1,6 +1,6 @@
 import { execSync } from 'child_process';
-import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from 'fs';
-import { resolve, join } from 'path';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { resolve } from 'path';
 import { createHash } from 'crypto';
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
@@ -8,21 +8,11 @@ import markdownItAttrs from 'markdown-it-attrs';
 // Hash the built CSS/JS so the service-worker cache name changes automatically
 // whenever assets change — no manual version bump required.
 function hashBuiltAssets() {
+  // The asset manifest encodes the content hash of every fingerprinted CSS/JS
+  // file, so hashing it yields a value that changes whenever any asset changes.
   const hash = createHash('md5');
-  const files = [];
-  const cssPath = resolve('dist/css/styles.css');
-  if (existsSync(cssPath)) files.push(cssPath);
-  const scriptsDir = resolve('dist/scripts');
-  const walk = (dir) => {
-    if (!existsSync(dir)) return;
-    for (const entry of readdirSync(dir).sort()) {
-      const full = join(dir, entry);
-      if (statSync(full).isDirectory()) walk(full);
-      else if (full.endsWith('.js')) files.push(full);
-    }
-  };
-  walk(scriptsDir);
-  for (const f of files.sort()) hash.update(readFileSync(f));
+  const manifestPath = resolve('.asset-manifest.json');
+  if (existsSync(manifestPath)) hash.update(readFileSync(manifestPath));
   return hash.digest('hex').slice(0, 10);
 }
 
@@ -56,10 +46,18 @@ function getMetaField(data, field) {
 }
 
 export default function (eleventyConfig) {
-  // Passthrough copy static assets
-  eleventyConfig.addPassthroughCopy('src/css');
+  // CSS/JS are fingerprinted by scripts/build-assets.js (run before Eleventy);
+  // map canonical paths to their hashed filenames via the manifest.
+  let assetManifest = {};
+  try {
+    assetManifest = JSON.parse(readFileSync(resolve('.asset-manifest.json'), 'utf8'));
+  } catch {
+    /* manifest absent (e.g. before first asset build) — filter falls back to the raw path */
+  }
+  eleventyConfig.addFilter('asset', (p) => assetManifest[p] || p);
+
+  // Passthrough copy static assets (css/js are emitted by build-assets, not copied here)
   eleventyConfig.addPassthroughCopy('src/images');
-  eleventyConfig.addPassthroughCopy('src/scripts');
   eleventyConfig.addPassthroughCopy('src/sw.js');
   eleventyConfig.addPassthroughCopy('src/.htaccess');
   eleventyConfig.addPassthroughCopy('src/robots.txt');

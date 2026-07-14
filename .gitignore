@@ -2,3 +2,4 @@ node_modules/
 dist/
 test-results/
 CLAUDE.md
+.asset-manifest.json

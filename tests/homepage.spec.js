@@ -22,11 +22,11 @@ test.describe('EN Homepage (/en/)', () => {
 
   test('card grid has links to key sections', async ({ page }) => {
     const expectedHrefs = [
-      'legal-hub/',
-      'technical-hub/',
-      'daily-life-hub/',
-      'health-insurance/',
-      'faq/',
+      '/en/legal-hub/',
+      '/en/technical-hub/',
+      '/en/daily-life-hub/',
+      '/en/health-insurance/',
+      '/en/faq/',
     ];
 
     for (const href of expectedHrefs) {
@@ -78,9 +78,9 @@ test.describe('ES Homepage (/es/)', () => {
     const count = await cards.count();
     expect(count).toBeGreaterThanOrEqual(3);
 
-    // Verify cards have relative hrefs (e.g. "legal-hub/")
+    // Verify cards have absolute, language-prefixed hrefs (e.g. "/es/legal-hub/")
     const firstHref = await cards.first().getAttribute('href');
-    expect(firstHref).toMatch(/^[a-z]/);
+    expect(firstHref).toMatch(/^\/es\/[a-z-]+\/$/);
   });
 });
 

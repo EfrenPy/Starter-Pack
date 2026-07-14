@@ -13,7 +13,7 @@ export default defineConfig({
     headless: true,
   },
   webServer: {
-    command: 'npx @11ty/eleventy --serve --port 5000',
+    command: 'node scripts/build-assets.js && npx @11ty/eleventy --serve --port 5000',
     port: 5000,
     reuseExistingServer: true,
   },

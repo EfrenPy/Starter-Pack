@@ -34,14 +34,14 @@ test.describe('Navbar link navigation', () => {
 test.describe('Card link navigation on homepage', () => {
   test('EN homepage card navigates to legal-hub', async ({ page }) => {
     await page.goto('/en/');
-    await page.locator('a.card[href="legal-hub/"]').click();
+    await page.locator('a.card[href="/en/legal-hub/"]').click();
     await expect(page).toHaveURL(/\/en\/legal-hub\/$/);
     await expect(page.locator('main#main-content')).toBeVisible();
   });
 
   test('ES homepage card navigates to legal-hub', async ({ page }) => {
     await page.goto('/es/');
-    await page.locator('a.card[href="legal-hub/"]').click();
+    await page.locator('a.card[href="/es/legal-hub/"]').click();
     await expect(page).toHaveURL(/\/es\/legal-hub\/$/);
     await expect(page.locator('main#main-content')).toBeVisible();
   });
