@@ -2,6 +2,8 @@ export function initReadingTime() {
   const main = document.querySelector('main');
   const h1 = main?.querySelector('h1');
   if (!main || !h1) return;
+  // Pages can opt out (e.g. the 404 error page, which is not an article)
+  if (main.hasAttribute('data-no-reading-time')) return;
 
   const text = main.textContent || '';
   const words = text.trim().split(/\s+/).length;
