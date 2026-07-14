@@ -51,8 +51,8 @@ Con estos preparativos en mente, pasemos a detallar las especificidades de cada 
 
 <figure class="figure-inline">
   <picture class="figure-inline__media">
-    <source srcset="../images/sat_cern.webp" type="image/webp">
-    <img src="../images/sat_cern.png" alt="Imagen satelital de la zona del CERN con el anillo de 27 km del LHC" width="1000" height="925" loading="lazy">
+    <source srcset="/images/sat_cern.webp" type="image/webp">
+    <img src="/images/sat_cern.png" alt="Imagen satelital de la zona del CERN con el anillo de 27 km del LHC" width="1000" height="925" loading="lazy">
   </picture>
 
   <figcaption class="figure-inline__caption">

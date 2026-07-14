@@ -44,8 +44,8 @@ Con questi preparativi in mente, analizziamo i dettagli per ogni scenario: lavor
 
 <figure class="figure-inline">
 <picture class="figure-inline__media">
-  <source srcset="../images/sat_cern.webp" type="image/webp">
-  <img src="../images/sat_cern.png" alt="Immagine satellitare dell'area del CERN con l'anello LHC di 27 km" width="1000" height="925" loading="lazy">
+  <source srcset="/images/sat_cern.webp" type="image/webp">
+  <img src="/images/sat_cern.png" alt="Immagine satellitare dell'area del CERN con l'anello LHC di 27 km" width="1000" height="925" loading="lazy">
 </picture>
 
 <figcaption class="figure-inline__caption">
