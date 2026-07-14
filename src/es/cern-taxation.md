@@ -51,8 +51,8 @@ Los empleados del CERN que mantienen su residencia fiscal en España tienen obli
 
 Además, las obligaciones del Modelo 720 para declarar bienes en el extranjero se aplican cuando se superan los umbrales establecidos.
 
-- [Consulta nuestra guía detallada sobre la Declaración de la Renta en España](tax_declaration_spain/)
-- [Consulta nuestra guía sobre el Modelo 720](modelo-720/)
+- [Consulta nuestra guía detallada sobre la Declaración de la Renta en España](/es/tax_declaration_spain/)
+- [Consulta nuestra guía sobre el Modelo 720](/es/modelo-720/)
 
 ## Consejos Prácticos
 

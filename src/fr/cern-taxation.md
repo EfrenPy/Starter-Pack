@@ -47,8 +47,8 @@ Les revenus provenant d'investissements, de biens locatifs, de travail indépend
 
 Les employés du CERN qui maintiennent leur résidence fiscale en Espagne ont des obligations spécifiques. Le salaire CERN est exonéré de l'IRPF, mais il doit être déclaré.
 
-- [Consultez notre guide détaillé sur la déclaration fiscale espagnole](tax_declaration_spain/)
-- [Consultez notre guide sur le Modelo 720](modelo-720/)
+- [Consultez notre guide détaillé sur la déclaration fiscale espagnole](/fr/tax_declaration_spain/)
+- [Consultez notre guide sur le Modelo 720](/fr/modelo-720/)
 
 ## Conseils pratiques
 

@@ -37,7 +37,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Je vis en France — que faire pour l'assurance maladie ?</summary>
-<p>Vous disposez de 3 mois à compter de l'enregistrement de votre résidence française pour exercer votre « droit d'option » — choisir entre le CHIS seul, le système français (CMU/PUMA) ou la LAMal suisse. La plupart des employés du CERN choisissent le CHIS seul. Consultez notre <a href="health-insurance/">guide sur l'assurance maladie</a> pour tous les détails.</p>
+<p>Vous disposez de 3 mois à compter de l'enregistrement de votre résidence française pour exercer votre « droit d'option » — choisir entre le CHIS seul, le système français (CMU/PUMA) ou la LAMal suisse. La plupart des employés du CERN choisissent le CHIS seul. Consultez notre <a href="/fr/health-insurance/">guide sur l'assurance maladie</a> pour tous les détails.</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Faut-il habiter en Suisse ou en France ?</summary>
-<p>Les deux ont des avantages. La Suisse (Genève) est plus proche du CERN et dispose d'excellents transports en commun, mais est très chère. La France (Pays de Gex) est beaucoup plus abordable mais peut nécessiter une voiture. Consultez notre <a href="housing-guide/">guide du logement</a> pour une comparaison détaillée.</p>
+<p>Les deux ont des avantages. La Suisse (Genève) est plus proche du CERN et dispose d'excellents transports en commun, mais est très chère. La France (Pays de Gex) est beaucoup plus abordable mais peut nécessiter une voiture. Consultez notre <a href="/fr/housing-guide/">guide du logement</a> pour une comparaison détaillée.</p>
 </details>
 
 <details class="faq-item">
@@ -93,7 +93,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Comment accéder à lxplus depuis chez soi ?</summary>
-<p>Connectez-vous via SSH : <code>ssh nom.utilisateur@lxplus.cern.ch</code>. Vous aurez besoin de l'authentification Kerberos ou d'une clé SSH configurée dans votre compte CERN. Consultez notre <a href="technical/kerberos-ssh/">guide Kerberos et SSH</a> pour les instructions de configuration.</p>
+<p>Connectez-vous via SSH : <code>ssh nom.utilisateur@lxplus.cern.ch</code>. Vous aurez besoin de l'authentification Kerberos ou d'une clé SSH configurée dans votre compte CERN. Consultez notre <a href="/fr/technical/kerberos-ssh/">guide Kerberos et SSH</a> pour les instructions de configuration.</p>
 </details>
 
 <details class="faq-item">

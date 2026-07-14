@@ -51,8 +51,8 @@ CERN employees who maintain their tax residence in Spain have specific obligatio
 
 Additionally, Modelo 720 obligations for declaring foreign assets apply when the established thresholds are exceeded.
 
-- [See our detailed guide on the Spanish Tax Declaration](tax_declaration_spain/)
-- [See our guide on Modelo 720](modelo-720/)
+- [See our detailed guide on the Spanish Tax Declaration](/en/tax_declaration_spain/)
+- [See our guide on Modelo 720](/en/modelo-720/)
 
 ## Practical Tips
 

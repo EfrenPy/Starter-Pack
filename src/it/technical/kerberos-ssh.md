@@ -66,7 +66,7 @@ Sulle versioni recenti di macOS potrebbe essere necessario usare `sudo` per modi
 
 Su Windows, l'approccio consigliato è utilizzare WSL (Windows Subsystem for Linux). All'interno della distribuzione WSL (ad es. Ubuntu), installare e configurare Kerberos esattamente come descritto nella sezione Linux sopra.
 
-Se si desidera utilizzare anche VS Code Remote per connettersi a lxplus, consultare la [guida VS Code Remote tramite WSL](vscode-remote/) per istruzioni complementari sulla configurazione SSH tramite WSL.
+Se si desidera utilizzare anche VS Code Remote per connettersi a lxplus, consultare la [guida VS Code Remote tramite WSL](/it/technical/vscode-remote/) per istruzioni complementari sulla configurazione SSH tramite WSL.
 
 ## Ottenere un ticket Kerberos
 

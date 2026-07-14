@@ -66,7 +66,7 @@ On modern macOS you may need to use `sudo` to edit files in `/etc/`. Also note t
 
 On Windows, the recommended approach is to use WSL (Windows Subsystem for Linux). Inside your WSL distribution (e.g., Ubuntu), install and configure Kerberos exactly as described in the Linux section above.
 
-If you also want to use VS Code Remote to connect to lxplus, see the [VS Code Remote via WSL guide](vscode-remote/) for complementary setup instructions on SSH through WSL.
+If you also want to use VS Code Remote to connect to lxplus, see the [VS Code Remote via WSL guide](/en/technical/vscode-remote/) for complementary setup instructions on SSH through WSL.
 
 ## Getting a Kerberos Ticket
 

@@ -66,7 +66,7 @@ En versiones modernas de macOS puede que necesites usar `sudo` para editar archi
 
 En Windows, el enfoque recomendado es usar WSL (Subsistema de Windows para Linux). Dentro de tu distribución WSL (por ejemplo, Ubuntu), instala y configura Kerberos exactamente como se describe en la sección de Linux anterior.
 
-Si también quieres usar VS Code Remote para conectarte a lxplus, consulta la [guía de VS Code Remote vía WSL](vscode-remote/) para instrucciones complementarias sobre SSH a través de WSL.
+Si también quieres usar VS Code Remote para conectarte a lxplus, consulta la [guía de VS Code Remote vía WSL](/es/technical/vscode-remote/) para instrucciones complementarias sobre SSH a través de WSL.
 
 ## Obtener un ticket Kerberos
 

@@ -37,7 +37,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>I live in France — what do I do about health insurance?</summary>
-<p>You have 3 months from registering your French residence to exercise your "droit d'option" — choosing between CHIS only, the French system (CMU/PUMA), or Swiss LAMal. Most CERN employees choose CHIS only. See our <a href="health-insurance/">Health Insurance guide</a> for full details.</p>
+<p>You have 3 months from registering your French residence to exercise your "droit d'option" — choosing between CHIS only, the French system (CMU/PUMA), or Swiss LAMal. Most CERN employees choose CHIS only. See our <a href="/en/health-insurance/">Health Insurance guide</a> for full details.</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>Should I live in Switzerland or France?</summary>
-<p>Both have advantages. Switzerland (Geneva) is closer to CERN and has excellent public transport but is very expensive. France (Pays de Gex) is much more affordable but may require a car. See our <a href="housing-guide/">Housing guide</a> for a detailed comparison.</p>
+<p>Both have advantages. Switzerland (Geneva) is closer to CERN and has excellent public transport but is very expensive. France (Pays de Gex) is much more affordable but may require a car. See our <a href="/en/housing-guide/">Housing guide</a> for a detailed comparison.</p>
 </details>
 
 <details class="faq-item">
@@ -93,7 +93,7 @@ breadcrumbs:
 
 <details class="faq-item">
 <summary>How do I access lxplus from home?</summary>
-<p>Connect via SSH: <code>ssh username@lxplus.cern.ch</code>. You will need Kerberos authentication or an SSH key configured in your CERN account. See our <a href="technical/kerberos-ssh/">Kerberos &amp; SSH guide</a> for setup instructions.</p>
+<p>Connect via SSH: <code>ssh username@lxplus.cern.ch</code>. You will need Kerberos authentication or an SSH key configured in your CERN account. See our <a href="/en/technical/kerberos-ssh/">Kerberos &amp; SSH guide</a> for setup instructions.</p>
 </details>
 
 <details class="faq-item">

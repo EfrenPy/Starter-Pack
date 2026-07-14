@@ -85,6 +85,62 @@ test.describe('Hub page card link validation', () => {
   }
 });
 
+// Content pages whose prose bodies contain in-text links. Guards against
+// relative links (e.g. href="health-insurance/") that resolve to a nested,
+// non-existent path — a class the navbar/card checks above cannot catch.
+test.describe('Content-page body links', () => {
+  const contentPages = [
+    'faq',
+    'cern-taxation',
+    'health-insurance',
+    'frontalier-guide',
+    'permits-registration',
+    'return-to-spain',
+    'vehicle-green-plates',
+    'cross-border-shopping',
+    'technical/kerberos-ssh',
+    'first-weeks-guide',
+    'pre-arrival-guide',
+  ];
+
+  for (const lang of languages) {
+    for (const slug of contentPages) {
+      test(`body links resolve on /${lang}/${slug}/`, async ({ page }) => {
+        const resp = await page.goto(`/${lang}/${slug}/`);
+        if (!resp || resp.status() !== 200) {
+          test.skip();
+          return;
+        }
+
+        const hrefs = await page.$$eval('main a[href]', (anchors) =>
+          anchors.map((a) => a.getAttribute('href')),
+        );
+
+        for (const href of hrefs) {
+          if (
+            !href ||
+            /^(https?:|mailto:|tel:|#)/.test(href) ||
+            href.startsWith('//')
+          ) {
+            continue; // external, fragment or protocol-relative — not our concern
+          }
+          // Any remaining internal link MUST be an absolute path, not relative.
+          expect(
+            href.startsWith('/'),
+            `Relative internal link "${href}" on /${lang}/${slug}/ — use an absolute /${lang}/... path`,
+          ).toBe(true);
+
+          const res = await page.request.get(href);
+          expect(
+            res.status(),
+            `Body link "${href}" on /${lang}/${slug}/ returned ${res.status()}`,
+          ).toBe(200);
+        }
+      });
+    }
+  }
+});
+
 test.describe('Search form action', () => {
   for (const lang of languages) {
     test(`search form points to a valid page on /${lang}/`, async ({ page }) => {

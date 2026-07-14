@@ -18,7 +18,7 @@
 {%- set t = pd.translations[lang] -%}
 <div class="card-grid">
   {%- for card in pd.cards %}
-  <a href="{{ card.slug }}/" class="card">
+  <a href="/{{ lang }}/{{ card.slug }}/" class="card">
     <div class="card__icon" aria-hidden="true">{{ card.icon | safe }}</div>
     <div class="card__title">{{ card.title[lang] }}</div>
     <p class="card__desc">{{ card.desc[lang] }}</p>

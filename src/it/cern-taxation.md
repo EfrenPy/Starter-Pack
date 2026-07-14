@@ -51,8 +51,8 @@ I dipendenti del CERN che mantengono la residenza fiscale in Spagna hanno obblig
 
 Inoltre, si applicano gli obblighi del Modelo 720 per la dichiarazione di beni esteri quando si superano le soglie stabilite.
 
-- [Consulta la nostra guida dettagliata sulla Dichiarazione Fiscale Spagnola](tax_declaration_spain/)
-- [Consulta la nostra guida sul Modelo 720](modelo-720/)
+- [Consulta la nostra guida dettagliata sulla Dichiarazione Fiscale Spagnola](/it/tax_declaration_spain/)
+- [Consulta la nostra guida sul Modelo 720](/it/modelo-720/)
 
 ## Consigli Pratici
 
